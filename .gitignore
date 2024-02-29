@@ -72,3 +72,13 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Wwise Project
+Nirvana_WwiseProject/IncrementalSoundBankData.xml
+Nirvana_WwiseProject/.cache/
+Nirvana_WwiseProject/.backup/
+Nirvana_WwiseProject/*.akd
+Nirvana_WwiseProject/*.akpk
+Nirvana_WwiseProject/*.prof
+Nirvana_WwiseProject/*.validationcache
+Nirvana_WwiseProject/*.wsettings
