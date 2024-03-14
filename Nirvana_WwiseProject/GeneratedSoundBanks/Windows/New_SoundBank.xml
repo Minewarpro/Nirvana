@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="4072029455" Type="User" GUID="{4AEE7D37-75A2-4F09-8981-13B1B6BCE205}" Language="SFX" Hash="{69F36C3D-97DC-4F03-9563-942449F7B9AB}">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{0579A28B-E191-C8A8-CF62-1A7EF66F420B}</FileHash>
+</SoundBanksInfo>
