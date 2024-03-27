@@ -23,11 +23,24 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="4072029455" Type="User" GUID="{4AEE7D37-75A2-4F09-8981-13B1B6BCE205}" Language="SFX" Hash="{69F36C3D-97DC-4F03-9563-942449F7B9AB}">
+		<SoundBank Id="4072029455" Type="User" GUID="{4AEE7D37-75A2-4F09-8981-13B1B6BCE205}" Language="SFX" Hash="{2748D043-26E2-F807-C248-C34EFA0331C4}">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
+			<Media>
+				<File Id="451019425" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Debug_12sec.wav</ShortName>
+					<CachePath>SFX/Debug_12sec_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3903479186" Name="Play_Debug_12sec" ObjectPath="\Events\Default Work Unit\Play_Debug_12sec" GUID="{D03F43EC-39A4-465C-A8C7-11014AA6604F}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="451019425"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CF86A4B2-FA80-B7E8-5204-705917CC6C8C}</FileHash>
+	<FileHash>{540DEEAF-BC07-B508-30E7-FB157E7D3787}</FileHash>
 </SoundBanksInfo>

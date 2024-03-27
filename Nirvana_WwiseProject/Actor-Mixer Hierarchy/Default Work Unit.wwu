@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1D8CC018-7C08-4385-B667-9AAF226E967D}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{1D8CC018-7C08-4385-B667-9AAF226E967D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1D8CC018-7C08-4385-B667-9AAF226E967D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Debug_12sec" ID="{F296FE6A-7C49-4168-A217-40D8A58A781F}" ShortID="148239390">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Debug_12sec" ID="{50DF9F97-D429-4ECE-B6B3-0628BD8723E1}">
+							<Language>SFX</Language>
+							<AudioFile>Debug_12sec.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="451019425"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Debug_12sec" ID="{50DF9F97-D429-4ECE-B6B3-0628BD8723E1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

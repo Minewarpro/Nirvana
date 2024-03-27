@@ -56,12 +56,36 @@
     "Type": "User",
     "GUID": "{4AEE7D37-75A2-4F09-8981-13B1B6BCE205}",
     "Language": "SFX",
-    "Hash": "{69F36C3D-97DC-4F03-9563-942449F7B9AB}",
+    "Hash": "{2748D043-26E2-F807-C248-C34EFA0331C4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\New_SoundBank",
     "ShortName": "New_SoundBank",
-    "Path": "New_SoundBank.bnk"
+    "Path": "New_SoundBank.bnk",
+    "Media": [
+     {
+      "Id": "451019425",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Debug_12sec.wav",
+      "CachePath": "SFX/Debug_12sec_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3903479186",
+      "Name": "Play_Debug_12sec",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Debug_12sec",
+      "GUID": "{D03F43EC-39A4-465C-A8C7-11014AA6604F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "451019425"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{CEE42832-EE9B-74F2-1FE8-7BEDFB64F46A}"
+  "FileHash": "{9429C318-A3A7-7BF6-89A6-08D34BC30F0C}"
  }
 }
