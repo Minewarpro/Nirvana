@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3B86B160-10DB-42D0-B25D-61B1543F7D3E}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="SW_FOL" ID="{3B86B160-10DB-42D0-B25D-61B1543F7D3E}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

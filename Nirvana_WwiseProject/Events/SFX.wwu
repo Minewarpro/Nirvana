@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{67663D64-1644-4379-8E0E-048AD1D7F4C7}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="SFX" ID="{67663D64-1644-4379-8E0E-048AD1D7F4C7}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="ENM MidRange" ID="{3651159F-CDA1-49B5-8C20-E270D4F8575A}" ShortID="907580807"/>
+				<Folder Name="ENM Swarmer" ID="{53E91BE1-4BC3-45BC-911C-57AAB791E9CD}" ShortID="932587146"/>
+				<Folder Name="GPE Door" ID="{52637C5C-2EA8-43D5-BC14-16D8953EA76D}" ShortID="494015703"/>
+				<Folder Name="GPE Mvt" ID="{CBAF9B77-DF0B-4BD8-A470-127BD68B8559}" ShortID="866235140"/>
+				<Folder Name="GPE Trap" ID="{8E47AE6B-C278-43A6-92CC-3B4F87677F85}" ShortID="537330937"/>
+				<Folder Name="MC" ID="{22A4DA4F-20F3-44B1-853F-25BFEF44BAF0}" ShortID="149179386"/>
+				<Folder Name="Weapons" ID="{285EA9CB-07C4-4755-BA0E-27F7368E957A}" ShortID="751422277">
+					<ChildrenList>
+						<Folder Name="Chakrams" ID="{1577EF8E-BF18-4353-81DA-AE568DA97D1E}" ShortID="417422940"/>
+						<Folder Name="Vajra" ID="{29A235E1-AE69-4FE6-9D34-C289F5E40000}" ShortID="914128811"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

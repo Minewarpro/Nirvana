@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4182E611-00A9-4128-BAE3-B2E233584DE2}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="FOL" ID="{4182E611-00A9-4128-BAE3-B2E233584DE2}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

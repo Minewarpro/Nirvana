@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EB6F69D4-6A70-420A-80C2-6BD8C80045CF}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="UI" ID="{EB6F69D4-6A70-420A-80C2-6BD8C80045CF}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="24"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

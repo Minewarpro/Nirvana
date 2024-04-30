@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CFDF1D55-AC5D-4FC1-9505-546D5535CE37}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="SW_AMB" ID="{CFDF1D55-AC5D-4FC1-9505-546D5535CE37}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

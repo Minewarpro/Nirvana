@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{999D28BE-240E-4E8C-AE08-7A7F0AEEEE45}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="RTPC_AMB" ID="{999D28BE-240E-4E8C-AE08-7A7F0AEEEE45}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
