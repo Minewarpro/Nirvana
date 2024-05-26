@@ -9,6 +9,219 @@
 							<ObjectRef Name="System" ID="{3C06FC5A-7E4B-4091-875D-AE38F353ADD5}" WorkUnitID="{855F4ECA-4775-4EF7-BEE2-4A0DE92EB340}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="MUSIC" ID="{259C0FDF-0A43-4EF9-953B-97C77523ACD6}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{FCE4EC96-B9CC-4D03-BFBF-D550CFBC5870}" ShortID="259363796">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_UI_Music" ID="{53C895C6-A568-4494-BAC3-4C46C199A9EA}" WorkUnitID="{EDDE7F0A-A2A0-40CB-96CE-91881F8F7C05}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{641710BC-DCB7-40F2-9282-FA6EB89F45BC}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<Bus Name="VO" ID="{A66B3553-37CD-4DF1-A039-29B29862AE71}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{9308B0EB-55A1-4ECF-83FE-65E226BC7C6D}" ShortID="624159054">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_UI_VO" ID="{446D2A29-793D-4B5C-9B6B-98B00E2B6658}" WorkUnitID="{EDDE7F0A-A2A0-40CB-96CE-91881F8F7C05}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{E8C6B388-71EC-4C90-AB04-83E3FF0046CE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<Bus Name="Effects" ID="{EDC6BCE9-F2D1-443D-A9C8-CD2C0D6B094D}">
+							<ChildrenList>
+								<Bus Name="AMB" ID="{EE760A39-D2EB-4347-805B-1990EA7A41E5}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="FOL" ID="{34585413-9811-4024-A999-0FD1F5006959}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="FT" ID="{DF3B16E9-05D8-4FDA-9CCB-41F48D9B5570}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="SFX" ID="{0716D6A6-9EDE-421F-B512-812E2E935389}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="13"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="UI" ID="{020D4FC4-5D20-4295-9814-95DBB08CA8D4}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Rev" ID="{D5102433-A85B-44B5-866F-42774E67FBB2}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="1"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<AuxBus Name="REV_" ID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}"/>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{04B5D14D-5409-4C87-8106-996C4AE4506D}" ShortID="479088685">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_UI_Effects" ID="{2B55FAD0-C41F-48A2-8CBC-0F24FEDD1EE7}" WorkUnitID="{EDDE7F0A-A2A0-40CB-96CE-91881F8F7C05}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{D5BD6136-1347-43E3-BDEF-9E6254CFDF22}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{0F3BA318-2BC2-47D1-8AE0-338DC3D1F94D}" ShortID="616184521">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_UI_Master" ID="{ECF19A53-D94C-4882-8001-73C4BCCE7169}" WorkUnitID="{EDDE7F0A-A2A0-40CB-96CE-91881F8F7C05}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{E8007707-A288-472E-9B5F-4F6D0AE255BB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{54338FA3-4393-4329-8E03-2FC8F077CF4A}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="ST_Music" ID="{54338FA3-4393-4329-8E03-2FC8F077CF4A}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="16"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

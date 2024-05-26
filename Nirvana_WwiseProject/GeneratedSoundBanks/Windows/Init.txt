@@ -1,5 +1,23 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	192836257	RTPC_UI_VO			\RTPC_UI\RTPC_UI_VO	
+	950872934	RTPC_UI_Effects			\RTPC_UI\RTPC_UI_Effects	
+	3569469165	RTPC_UI_Music			\RTPC_UI\RTPC_UI_Music	
+	3605688814	RTPC_UI_Master			\RTPC_UI\RTPC_UI_Master	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\Effects\SFX	
+	980603520	Rev			\Default Work Unit\Master Audio Bus\Effects\Rev	
+	1083137552	FOL			\Default Work Unit\Master Audio Bus\Effects\FOL	
+	1117531639	AMB			\Default Work Unit\Master Audio Bus\Effects\AMB	
+	1534528548	VO			\Default Work Unit\Master Audio Bus\VO	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\Effects\UI	
+	1802970383	FT			\Default Work Unit\Master Audio Bus\Effects\FT	
+	1942696649	Effects			\Default Work Unit\Master Audio Bus\Effects	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2193711071	REV_			\Default Work Unit\Master Audio Bus\Effects\Rev\REV_	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

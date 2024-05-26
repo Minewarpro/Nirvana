@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{76DE0CCF-2449-47E2-B8E5-1D916446B05C}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="FT" ID="{76DE0CCF-2449-47E2-B8E5-1D916446B05C}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="FT_MC" ID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}">
+					<ChildrenList>
+						<Action Name="" ID="{86CCD5AD-95E4-4326-9051-C64D38CB6B62}" ShortID="990675270">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FT_MC" ID="{EBBD7FAF-6EB3-4E36-9D67-C54EEB0E11C0}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

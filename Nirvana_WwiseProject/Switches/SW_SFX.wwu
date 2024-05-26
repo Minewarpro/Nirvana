@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2ED8BEE-16C8-4951-BAC6-708E10716AFC}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="SW_SFX" ID="{D2ED8BEE-16C8-4951-BAC6-708E10716AFC}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

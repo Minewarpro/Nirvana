@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="922786755" Type="Event" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" Language="SFX" Hash="{D115B70F-0229-F811-52E0-D9327C911E09}">
+			<ObjectPath>UI_Menu_Back</ObjectPath>
+			<ShortName>UI_Menu_Back</ShortName>
+			<Path>Event/UI_Menu_Back.bnk</Path>
+			<Events>
+				<Event Id="922786755" Name="UI_Menu_Back" ObjectPath="\Events\UI\UI_Menu_Back" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{91AF1713-2ED6-7E33-E8C3-EB5C8E0BA73C}</FileHash>
+</SoundBanksInfo>

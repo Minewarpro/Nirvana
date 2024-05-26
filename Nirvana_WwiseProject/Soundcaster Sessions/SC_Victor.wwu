@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4888D05D-1DF7-40E4-95D9-9DB75EB74E8F}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="SC_Victor" ID="{4888D05D-1DF7-40E4-95D9-9DB75EB74E8F}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="8"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

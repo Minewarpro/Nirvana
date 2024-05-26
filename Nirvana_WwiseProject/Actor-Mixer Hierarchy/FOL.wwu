@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C6B694CD-D62D-40DE-9F4B-DE2FCC3884C8}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="FOL" ID="{C6B694CD-D62D-40DE-9F4B-DE2FCC3884C8}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="FOL" ID="{59FEDBC7-0533-4F37-898C-944F5228602B}" ShortID="544052302">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

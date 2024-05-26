@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3237189652" Type="Event" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" Language="SFX" Hash="{7F5C04FD-A5AD-DE02-292F-9D123B7AC2B2}">
+			<ObjectPath>UI_Menu_Pause</ObjectPath>
+			<ShortName>UI_Menu_Pause</ShortName>
+			<Path>Event/UI_Menu_Pause.bnk</Path>
+			<Events>
+				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\UI\UI_Menu_Pause" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6B68B4DE-32A5-AEBE-68A1-0E21DBD98087}</FileHash>
+</SoundBanksInfo>

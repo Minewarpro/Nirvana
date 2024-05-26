@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{711217A7-A49B-4A92-8AF0-6C08A314849E}" SchemaVersion="119">
+	<Attenuations>
+		<WorkUnit Name="ATT_FT" ID="{711217A7-A49B-4A92-8AF0-6C08A314849E}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Attenuations>
+</WwiseDocument>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2163476404" Type="Event" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" Language="SFX" Hash="{BC764792-4C8A-C669-5A36-70DA85EF2FA0}">
+			<ObjectPath>UI_Menu_Hover</ObjectPath>
+			<ShortName>UI_Menu_Hover</ShortName>
+			<Path>Event/UI_Menu_Hover.bnk</Path>
+			<Events>
+				<Event Id="2163476404" Name="UI_Menu_Hover" ObjectPath="\Events\UI\UI_Menu_Hover" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C2659F02-C02C-1124-9B95-ADC11E1124DC}</FileHash>
+</SoundBanksInfo>
