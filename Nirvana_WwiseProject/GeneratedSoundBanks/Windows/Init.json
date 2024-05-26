@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B6CBD692-12EC-CDBA-0932-48F63C40C91F}",
+    "Hash": "{553A9E85-BE9B-63C6-422E-EDA08C79B3C3}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,14 +36,156 @@
     },
     "Busses": [
      {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\SFX",
+      "GUID": "{0716D6A6-9EDE-421F-B512-812E2E935389}"
+     },
+     {
+      "Id": "980603520",
+      "Name": "Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\Rev",
+      "GUID": "{D5102433-A85B-44B5-866F-42774E67FBB2}"
+     },
+     {
+      "Id": "1083137552",
+      "Name": "FOL",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\FOL",
+      "GUID": "{34585413-9811-4024-A999-0FD1F5006959}"
+     },
+     {
+      "Id": "1117531639",
+      "Name": "AMB",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\AMB",
+      "GUID": "{EE760A39-D2EB-4347-805B-1990EA7A41E5}"
+     },
+     {
+      "Id": "1534528548",
+      "Name": "VO",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\VO",
+      "GUID": "{A66B3553-37CD-4DF1-A039-29B29862AE71}"
+     },
+     {
+      "Id": "1551306167",
+      "Name": "UI",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\UI",
+      "GUID": "{020D4FC4-5D20-4295-9814-95DBB08CA8D4}"
+     },
+     {
+      "Id": "1802970383",
+      "Name": "FT",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\FT",
+      "GUID": "{DF3B16E9-05D8-4FDA-9CCB-41F48D9B5570}"
+     },
+     {
+      "Id": "1942696649",
+      "Name": "Effects",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects",
+      "GUID": "{EDC6BCE9-F2D1-443D-A9C8-CD2C0D6B094D}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "MUSIC",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MUSIC",
+      "GUID": "{259C0FDF-0A43-4EF9-953B-97C77523ACD6}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "2193711071",
+      "Name": "REV_",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\Rev\\REV_",
+      "GUID": "{61B63A27-C395-4317-A4AA-DEE793D4B30D}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "192836257",
+      "Name": "RTPC_UI_VO",
+      "ObjectPath": "\\Game Parameters\\RTPC_UI\\RTPC_UI_VO",
+      "GUID": "{446D2A29-793D-4B5C-9B6B-98B00E2B6658}"
+     },
+     {
+      "Id": "950872934",
+      "Name": "RTPC_UI_Effects",
+      "ObjectPath": "\\Game Parameters\\RTPC_UI\\RTPC_UI_Effects",
+      "GUID": "{2B55FAD0-C41F-48A2-8CBC-0F24FEDD1EE7}"
+     },
+     {
+      "Id": "3569469165",
+      "Name": "RTPC_UI_Music",
+      "ObjectPath": "\\Game Parameters\\RTPC_UI\\RTPC_UI_Music",
+      "GUID": "{53C895C6-A568-4494-BAC3-4C46C199A9EA}"
+     },
+     {
+      "Id": "3605688814",
+      "Name": "RTPC_UI_Master",
+      "ObjectPath": "\\Game Parameters\\RTPC_UI\\RTPC_UI_Master",
+      "GUID": "{ECF19A53-D94C-4882-8001-73C4BCCE7169}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "119161186",
+      "Name": "SW_FT_Loco",
+      "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Loco",
+      "GUID": "{1AE81605-C4BC-42C8-8F5C-1A4A4788CBAF}",
+      "Switches": [
+       {
+        "Id": "2162921054",
+        "Name": "SW_FT_Run",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Loco\\SW_FT_Run",
+        "GUID": "{3D609066-FE78-41CF-98C4-71175BBC100B}"
+       }
+      ]
+     },
+     {
+      "Id": "4035313040",
+      "Name": "SW_FT_Material",
+      "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material",
+      "GUID": "{FF147DA2-4C43-417B-9F29-7482AAE43F6A}",
+      "Switches": [
+       {
+        "Id": "314505124",
+        "Name": "SW_FT_Metal",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Metal",
+        "GUID": "{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"
+       },
+       {
+        "Id": "1699952942",
+        "Name": "SW_FT_Stone",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Stone",
+        "GUID": "{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"
+       },
+       {
+        "Id": "1901335520",
+        "Name": "SW_FT_Water",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Water",
+        "GUID": "{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"
+       },
+       {
+        "Id": "3682161770",
+        "Name": "SW_FT_Nenuphar",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Nenuphar",
+        "GUID": "{4542D8F7-2774-4820-9402-34B9207369C5}"
+       },
+       {
+        "Id": "4051928182",
+        "Name": "SW_FT_Carpet",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Carpet",
+        "GUID": "{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{05292F1E-1AEC-79CE-7F9D-65318E3B13C3}"
+  "FileHash": "{CEF2E5F0-F543-B28A-6BA2-A3948B2BF58A}"
  }
 }

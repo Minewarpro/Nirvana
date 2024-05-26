@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	3903479186	Play_Debug_12sec			\Default Work Unit\Play_Debug_12sec	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	451019425	Debug_12sec	C:\Users\Admin\Documents\GitHub\Nirvana\Nirvana_WwiseProject\.cache\Windows\SFX\Debug_12sec_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Debug_12sec		1152096
-

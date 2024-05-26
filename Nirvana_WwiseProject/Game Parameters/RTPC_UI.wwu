@@ -6,6 +6,32 @@
 				<Property Name="Color" Type="int16" Value="24"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<GameParameter Name="RTPC_UI_Effects" ID="{2B55FAD0-C41F-48A2-8CBC-0F24FEDD1EE7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_UI_Master" ID="{ECF19A53-D94C-4882-8001-73C4BCCE7169}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_UI_VO" ID="{446D2A29-793D-4B5C-9B6B-98B00E2B6658}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_UI_Music" ID="{53C895C6-A568-4494-BAC3-4C46C199A9EA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

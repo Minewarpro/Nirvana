@@ -6,6 +6,19 @@
 				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_FT_MC" ID="{67E68789-9F3F-4F02-A75D-AC4710BCDA9E}">
+					<ChildrenList>
+						<Action Name="" ID="{C2B621D2-27F7-4E76-BC71-49547F9BE468}" ShortID="496711572">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FT_MC" ID="{EBBD7FAF-6EB3-4E36-9D67-C54EEB0E11C0}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>
