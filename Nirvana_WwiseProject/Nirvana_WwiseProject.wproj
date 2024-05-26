@@ -57,6 +57,7 @@
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="UseActionNameForEvent" Type="bool" Value="False"/>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2023.1|Build=8367|VersionName=v2023.1.0|Config=Release"/>
 			</PropertyList>
 			<MiscSettings>

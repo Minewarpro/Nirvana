@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2153118237",
+    "Type": "Event",
+    "GUID": "{F996223E-185F-4419-8121-488BEE79FF46}",
+    "Language": "SFX",
+    "Hash": "{EADFDE00-8CF7-4E29-94A8-A1E16AD3E6E3}",
+    "ObjectPath": "UI_Menu_Slider",
+    "ShortName": "UI_Menu_Slider",
+    "Path": "Event/UI_Menu_Slider.bnk",
+    "Events": [
+     {
+      "Id": "2153118237",
+      "Name": "UI_Menu_Slider",
+      "ObjectPath": "\\Events\\UI\\UI_Menu_Slider",
+      "GUID": "{F996223E-185F-4419-8121-488BEE79FF46}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{163534C7-0091-7529-0DFF-F65603DDBF80}"
+ }
+}

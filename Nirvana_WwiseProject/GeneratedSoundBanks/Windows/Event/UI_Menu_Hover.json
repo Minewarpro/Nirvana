@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2163476404",
+    "Type": "Event",
+    "GUID": "{9407E2CD-5885-412D-9993-63CFFD24284F}",
+    "Language": "SFX",
+    "Hash": "{BC764792-4C8A-C669-5A36-70DA85EF2FA0}",
+    "ObjectPath": "UI_Menu_Hover",
+    "ShortName": "UI_Menu_Hover",
+    "Path": "Event/UI_Menu_Hover.bnk",
+    "Events": [
+     {
+      "Id": "2163476404",
+      "Name": "UI_Menu_Hover",
+      "ObjectPath": "\\Events\\UI\\UI_Menu_Hover",
+      "GUID": "{9407E2CD-5885-412D-9993-63CFFD24284F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6D731BF4-A6C2-4A1F-F0E5-B4B8E5D08396}"
+ }
+}

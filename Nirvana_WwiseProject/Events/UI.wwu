@@ -6,6 +6,125 @@
 				<Property Name="Color" Type="int16" Value="24"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Folder Name="UI_InGame" ID="{08475612-006E-4984-BBFB-7FBF9DB4B0E5}" ShortID="978446561">
+					<ChildrenList>
+						<Event Name="UI_InGame_WeaponSecondaryReload" ID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}">
+							<ChildrenList>
+								<Action Name="" ID="{5E0DC9FA-4315-4393-B3DB-08A95379F858}" ShortID="593665333">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_InGame_WeaponSecondaryReload" ID="{85EF2D56-B608-40A7-AE81-5C63B9E96C08}" WorkUnitID="{47622809-9150-48BD-81F0-287B0DE5831F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_InGame_DashReload" ID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}">
+							<ChildrenList>
+								<Action Name="" ID="{928E4A6F-7FED-443E-AF2F-D1179EAE8FC3}" ShortID="727998446">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_InGame_DashReload" ID="{7E92AE13-28F4-464A-8500-C06D4E6F0CCB}" WorkUnitID="{47622809-9150-48BD-81F0-287B0DE5831F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI_Menu" ID="{2216C1F2-C7A3-42BB-BF84-308AA40D842C}" ShortID="165889329">
+					<ChildrenList>
+						<Event Name="UI_Menu_Resume" ID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}">
+							<ChildrenList>
+								<Action Name="" ID="{B72C10F9-4BC2-418A-8D73-A8590DAC425B}" ShortID="27200799">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Menu_Resume" ID="{2EDE5881-AED8-4AD6-8A88-242BAC403228}" WorkUnitID="{47622809-9150-48BD-81F0-287B0DE5831F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Select" ID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}">
+							<ChildrenList>
+								<Action Name="" ID="{33DBF5E9-6CBE-4370-85EF-54D8DC5D9B2C}" ShortID="234473234">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Menu_Select" ID="{B6AE9A94-CC91-4177-98BF-9FC25F42D101}" WorkUnitID="{47622809-9150-48BD-81F0-287B0DE5831F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Hover" ID="{9407E2CD-5885-412D-9993-63CFFD24284F}">
+							<ChildrenList>
+								<Action Name="" ID="{FAEE67A5-7B23-4E3D-95C4-F2CCEBF7BDCF}" ShortID="877547475">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Menu_Hover" ID="{A3B3EAB8-EDC3-4248-80C2-BD068A1BF19A}" WorkUnitID="{47622809-9150-48BD-81F0-287B0DE5831F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Pause" ID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}">
+							<ChildrenList>
+								<Action Name="" ID="{9BF7DEE9-B25E-406B-935E-1830BE0D9BFC}" ShortID="959448890">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Menu_Pause" ID="{96818A75-1363-4564-86D9-FDC7BE9F6910}" WorkUnitID="{47622809-9150-48BD-81F0-287B0DE5831F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Back" ID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}">
+							<ChildrenList>
+								<Action Name="" ID="{B33426E8-9361-4C8C-82F8-D3325DF7DC5B}" ShortID="397443589">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Menu_Back" ID="{70EFA8A9-0329-4976-9596-CA8A8DE3E9A1}" WorkUnitID="{47622809-9150-48BD-81F0-287B0DE5831F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_StartGame" ID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}">
+							<ChildrenList>
+								<Action Name="" ID="{53118F21-E126-4862-9AEE-489C0AE853F8}" ShortID="514808727">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Menu_StartGame" ID="{3AB9141F-FD4C-49B3-8C95-CD8B44259306}" WorkUnitID="{47622809-9150-48BD-81F0-287B0DE5831F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3D91BC62-FBF8-493A-8F93-64D736362711}" ShortID="972275807">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Menu_Select" ID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" WorkUnitID="{EB6F69D4-6A70-420A-80C2-6BD8C80045CF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Slider" ID="{F996223E-185F-4419-8121-488BEE79FF46}">
+							<ChildrenList>
+								<Action Name="" ID="{879D8668-D5BD-45A2-A8C4-0C3DD0551FB8}" ShortID="748661964">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Menu_Slider" ID="{5786723A-AD86-4388-B7C5-019640DA13A5}" WorkUnitID="{47622809-9150-48BD-81F0-287B0DE5831F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

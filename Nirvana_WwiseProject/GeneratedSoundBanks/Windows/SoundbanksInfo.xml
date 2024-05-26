@@ -9,26 +9,13 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="555904751" Type="Event" GUID="{67E68789-9F3F-4F02-A75D-AC4710BCDA9E}" Language="SFX" Hash="{1053F03C-0BBD-B14F-5E08-294E72EDCB21}">
-			<ObjectPath>Play_FT_MC</ObjectPath>
-			<ShortName>Play_FT_MC</ShortName>
-			<Path>Event/Play_FT_MC.bnk</Path>
+		<SoundBank Id="922786755" Type="Event" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" Language="SFX" Hash="{D115B70F-0229-F811-52E0-D9327C911E09}">
+			<ObjectPath>UI_Menu_Back</ObjectPath>
+			<ShortName>UI_Menu_Back</ShortName>
+			<Path>Event/UI_Menu_Back.bnk</Path>
 			<Events>
-				<Event Id="555904751" Name="Play_FT_MC" ObjectPath="\Events\FT\Play_FT_MC" GUID="{67E68789-9F3F-4F02-A75D-AC4710BCDA9E}" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<SwitchContainers/>
-				</Event>
+				<Event Id="922786755" Name="UI_Menu_Back" ObjectPath="\Events\UI\UI_Menu_Back" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
-			<SwitchGroups>
-				<SwitchGroup Id="4035313040" Name="SW_FT_Material" ObjectPath="\Switches\SW_FT\SW_FT_Material" GUID="{FF147DA2-4C43-417B-9F29-7482AAE43F6A}">
-					<Switches>
-						<Switch Id="314505124" Name="SW_FT_Metal" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Metal" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
-						<Switch Id="1699952942" Name="SW_FT_Stone" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Stone" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"/>
-						<Switch Id="1901335520" Name="SW_FT_Water" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Water" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
-						<Switch Id="3682161770" Name="SW_FT_Nenuphar" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Nenuphar" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
-						<Switch Id="4051928182" Name="SW_FT_Carpet" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Carpet" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{553A9E85-BE9B-63C6-422E-EDA08C79B3C3}">
 			<ObjectPath>Init</ObjectPath>
@@ -78,6 +65,38 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="1464993479" Type="Event" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" Language="SFX" Hash="{A047AEBB-34CC-F5E3-F889-793068BD93FD}">
+			<ObjectPath>UI_Menu_Resume</ObjectPath>
+			<ShortName>UI_Menu_Resume</ShortName>
+			<Path>Event/UI_Menu_Resume.bnk</Path>
+			<Events>
+				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\UI_Menu_Resume" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1766274592" Type="Event" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" Language="SFX" Hash="{498220D8-5927-98A0-0F50-D5C70214F2C1}">
+			<ObjectPath>UI_Menu_StartGame</ObjectPath>
+			<ShortName>UI_Menu_StartGame</ShortName>
+			<Path>Event/UI_Menu_StartGame.bnk</Path>
+			<Events>
+				<Event Id="1766274592" Name="UI_Menu_StartGame" ObjectPath="\Events\UI\UI_Menu_StartGame" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2153118237" Type="Event" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" Language="SFX" Hash="{EADFDE00-8CF7-4E29-94A8-A1E16AD3E6E3}">
+			<ObjectPath>UI_Menu_Slider</ObjectPath>
+			<ShortName>UI_Menu_Slider</ShortName>
+			<Path>Event/UI_Menu_Slider.bnk</Path>
+			<Events>
+				<Event Id="2153118237" Name="UI_Menu_Slider" ObjectPath="\Events\UI\UI_Menu_Slider" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2163476404" Type="Event" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" Language="SFX" Hash="{BC764792-4C8A-C669-5A36-70DA85EF2FA0}">
+			<ObjectPath>UI_Menu_Hover</ObjectPath>
+			<ShortName>UI_Menu_Hover</ShortName>
+			<Path>Event/UI_Menu_Hover.bnk</Path>
+			<Events>
+				<Event Id="2163476404" Name="UI_Menu_Hover" ObjectPath="\Events\UI\UI_Menu_Hover" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="2193711071" Type="Bus" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}" Language="SFX" Hash="{EE575B30-F56E-5EC9-7C44-4AB4DCC5BE09}">
 			<ObjectPath>REV_</ObjectPath>
 			<ShortName>REV_</ShortName>
@@ -86,6 +105,43 @@
 				<AuxBus Id="2193711071" Name="REV_" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\Rev\REV_" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}"/>
 			</AuxBusses>
 		</SoundBank>
+		<SoundBank Id="3237189652" Type="Event" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" Language="SFX" Hash="{7F5C04FD-A5AD-DE02-292F-9D123B7AC2B2}">
+			<ObjectPath>UI_Menu_Pause</ObjectPath>
+			<ShortName>UI_Menu_Pause</ShortName>
+			<Path>Event/UI_Menu_Pause.bnk</Path>
+			<Events>
+				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\UI\UI_Menu_Pause" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3474566310" Type="Event" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" Language="SFX" Hash="{5B0CB137-B813-8AE6-C615-A6E03BA781AD}">
+			<ObjectPath>UI_Menu_Select</ObjectPath>
+			<ShortName>UI_Menu_Select</ShortName>
+			<Path>Event/UI_Menu_Select.bnk</Path>
+			<Events>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\UI_Menu_Select" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3685120562" Type="Event" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" Language="SFX" Hash="{3394AD3F-C34F-E305-9D60-4686F21E9841}">
+			<ObjectPath>FT_MC</ObjectPath>
+			<ShortName>FT_MC</ShortName>
+			<Path>Event/FT_MC.bnk</Path>
+			<Events>
+				<Event Id="3685120562" Name="FT_MC" ObjectPath="\Events\FT\FT_MC" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<SwitchContainers/>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="4035313040" Name="SW_FT_Material" ObjectPath="\Switches\SW_FT\SW_FT_Material" GUID="{FF147DA2-4C43-417B-9F29-7482AAE43F6A}">
+					<Switches>
+						<Switch Id="314505124" Name="SW_FT_Metal" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Metal" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
+						<Switch Id="1699952942" Name="SW_FT_Stone" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Stone" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"/>
+						<Switch Id="1901335520" Name="SW_FT_Water" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Water" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
+						<Switch Id="3682161770" Name="SW_FT_Nenuphar" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Nenuphar" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
+						<Switch Id="4051928182" Name="SW_FT_Carpet" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Carpet" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{72D8C2F0-1113-3936-D9B7-08118C4DDE17}</FileHash>
+	<FileHash>{53DC59F4-C7CC-4466-8065-1A5BBA872E5D}</FileHash>
 </SoundBanksInfo>

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3237189652	UI_Menu_Pause			\UI\UI_Menu_Pause	
+

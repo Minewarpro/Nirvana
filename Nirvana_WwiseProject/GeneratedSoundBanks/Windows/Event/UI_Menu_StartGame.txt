@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1766274592	UI_Menu_StartGame			\UI\UI_Menu_StartGame	
+
