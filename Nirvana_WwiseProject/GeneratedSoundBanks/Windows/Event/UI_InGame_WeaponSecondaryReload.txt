@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2517622237	UI_InGame_WeaponSecondaryReload			\UI\UI_InGame\UI_InGame_WeaponSecondaryReload	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	450762830	Silence	Wwise Silence		\Actor-Mixer Hierarchy\UI\UI\UI_InGame\UI_InGame_WeaponSecondaryReload\UI_Menu_StartGame\Silence	
+

@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
-	922786755	UI_Menu_Back			\UI\UI_Menu_Back	
+	922786755	UI_Menu_Back			\UI\UI_Menu\UI_Menu_Back	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	780959177	Silence	Wwise Silence		\Actor-Mixer Hierarchy\UI\UI\UI_Menu\UI_Menu_Back\UI_Menu_StartGame\Silence	
 

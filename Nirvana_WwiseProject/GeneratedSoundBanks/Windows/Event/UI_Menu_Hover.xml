@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2163476404" Type="Event" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" Language="SFX" Hash="{BC764792-4C8A-C669-5A36-70DA85EF2FA0}">
+		<SoundBank Id="2163476404" Type="Event" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" Language="SFX" Hash="{92759198-807E-D87E-A911-9037678736DF}">
 			<ObjectPath>UI_Menu_Hover</ObjectPath>
 			<ShortName>UI_Menu_Hover</ShortName>
 			<Path>Event/UI_Menu_Hover.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="134705126" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\UI\UI\UI_Menu\UI_Menu_Hover\UI_Menu_StartGame\Silence" GUID="{1AF412D1-8868-4C6C-A928-83FB442BE173}" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
 			<Events>
-				<Event Id="2163476404" Name="UI_Menu_Hover" ObjectPath="\Events\UI\UI_Menu_Hover" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2163476404" Name="UI_Menu_Hover" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Hover" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="134705126"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C2659F02-C02C-1124-9B95-ADC11E1124DC}</FileHash>
+	<FileHash>{6C849C4C-C835-C3E7-C072-1F10721C181D}</FileHash>
 </SoundBanksInfo>

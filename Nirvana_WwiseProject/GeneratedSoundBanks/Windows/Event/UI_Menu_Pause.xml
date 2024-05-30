@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3237189652" Type="Event" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" Language="SFX" Hash="{7F5C04FD-A5AD-DE02-292F-9D123B7AC2B2}">
+		<SoundBank Id="3237189652" Type="Event" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" Language="SFX" Hash="{D619F032-7006-469C-8F1D-0BD121FDA0DD}">
 			<ObjectPath>UI_Menu_Pause</ObjectPath>
 			<ShortName>UI_Menu_Pause</ShortName>
 			<Path>Event/UI_Menu_Pause.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1037106080" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\UI\UI\UI_Menu\UI_Menu_Pause\UI_Menu_StartGame\Silence" GUID="{6FC1793A-B76B-4C2E-A200-2C7A9BBE8DD1}" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
 			<Events>
-				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\UI\UI_Menu_Pause" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Pause" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1037106080"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6B68B4DE-32A5-AEBE-68A1-0E21DBD98087}</FileHash>
+	<FileHash>{B6914EFB-29C9-B2C8-68BB-23757D9FE56E}</FileHash>
 </SoundBanksInfo>

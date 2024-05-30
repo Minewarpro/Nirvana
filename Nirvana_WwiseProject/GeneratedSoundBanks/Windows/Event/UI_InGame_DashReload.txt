@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3087624999	UI_InGame_DashReload			\UI\UI_InGame\UI_InGame_DashReload	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	618870441	Silence	Wwise Silence		\Actor-Mixer Hierarchy\UI\UI\UI_InGame\UI_InGame_DashReload\UI_Menu_StartGame\Silence	
+

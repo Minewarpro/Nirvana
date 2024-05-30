@@ -10,23 +10,74 @@
     "Type": "Event",
     "GUID": "{65E4A520-CCE6-4EEE-8B03-A68322ABD108}",
     "Language": "SFX",
-    "Hash": "{498220D8-5927-98A0-0F50-D5C70214F2C1}",
+    "Hash": "{10338A6A-6831-1B23-30B6-4EE84B3978A6}",
     "ObjectPath": "UI_Menu_StartGame",
     "ShortName": "UI_Menu_StartGame",
     "Path": "Event/UI_Menu_StartGame.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "283502581",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\UI\\UI\\UI_Menu\\UI_Menu_Select\\UI_Menu_StartGame\\Silence",
+       "GUID": "{4954B77D-7EFE-4B79-B166-91AA295A2B7E}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
+       "Id": "595540425",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\UI\\UI\\UI_Menu\\UI_Menu_StartGame\\Silence",
+       "GUID": "{6BDEF7A3-7150-4722-ABE6-6AD1436FE8B3}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      }
+     ]
+    },
     "Events": [
+     {
+      "Id": "3474566310",
+      "Name": "UI_Menu_Select",
+      "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_Select",
+      "GUID": "{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "283502581"
+        }
+       ]
+      }
+     },
      {
       "Id": "1766274592",
       "Name": "UI_Menu_StartGame",
-      "ObjectPath": "\\Events\\UI\\UI_Menu_StartGame",
+      "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_StartGame",
       "GUID": "{65E4A520-CCE6-4EEE-8B03-A68322ABD108}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "595540425"
+        }
+       ]
+      },
+      "ActionPostEvent": [
+       {
+        "Id": "3474566310",
+        "Name": "UI_Menu_Select",
+        "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_Select",
+        "GUID": "{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{2191AAEA-D808-FD1F-AC19-97E3EEB4940A}"
+  "FileHash": "{B115B933-2EFE-DA17-B429-9E9C1BB4F84C}"
  }
 }

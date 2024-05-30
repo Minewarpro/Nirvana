@@ -10,23 +10,42 @@
     "Type": "Event",
     "GUID": "{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}",
     "Language": "SFX",
-    "Hash": "{5B0CB137-B813-8AE6-C615-A6E03BA781AD}",
+    "Hash": "{425E49D8-A48D-6601-4D5E-3F1AFE4911CD}",
     "ObjectPath": "UI_Menu_Select",
     "ShortName": "UI_Menu_Select",
     "Path": "Event/UI_Menu_Select.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "283502581",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\UI\\UI\\UI_Menu\\UI_Menu_Select\\UI_Menu_StartGame\\Silence",
+       "GUID": "{4954B77D-7EFE-4B79-B166-91AA295A2B7E}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "3474566310",
       "Name": "UI_Menu_Select",
-      "ObjectPath": "\\Events\\UI\\UI_Menu_Select",
+      "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_Select",
       "GUID": "{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "283502581"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{DE772491-C11C-DEC7-C878-DC08A554CA29}"
+  "FileHash": "{B5A3D54A-8CDA-A6F3-9145-6C27715B923F}"
  }
 }
