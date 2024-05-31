@@ -10,22 +10,39 @@
     "Type": "Event",
     "GUID": "{9407E2CD-5885-412D-9993-63CFFD24284F}",
     "Language": "SFX",
-    "Hash": "{92759198-807E-D87E-A911-9037678736DF}",
+    "Hash": "{957A594C-3216-4DA5-F44A-F66704D7FE93}",
     "ObjectPath": "UI_Menu_Hover",
     "ShortName": "UI_Menu_Hover",
     "Path": "Event/UI_Menu_Hover.bnk",
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "134705126",
-       "Name": "Silence",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\UI\\UI\\UI_Menu\\UI_Menu_Hover\\UI_Menu_StartGame\\Silence",
-       "GUID": "{1AF412D1-8868-4C6C-A928-83FB442BE173}",
-       "LibName": "Wwise Silence",
-       "LibId": "6619138"
-      }
-     ]
-    },
+    "Media": [
+     {
+      "Id": "81063726",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Hover\\UI_Menu_Hover_03.wav",
+      "Path": "Media/81063726.wem",
+      "CachePath": "SFX/UI/UI_Menu_Hover/UI_Menu_Hover_03_818F3B66.wem"
+     },
+     {
+      "Id": "288658200",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Hover\\UI_Menu_Hover_02.wav",
+      "Path": "Media/288658200.wem",
+      "CachePath": "SFX/UI/UI_Menu_Hover/UI_Menu_Hover_02_818F3B66.wem"
+     },
+     {
+      "Id": "869227547",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Hover\\UI_Menu_Hover_01.wav",
+      "Path": "Media/869227547.wem",
+      "CachePath": "SFX/UI/UI_Menu_Hover/UI_Menu_Hover_01_818F3B66.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "2163476404",
@@ -33,19 +50,23 @@
       "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_Hover",
       "GUID": "{9407E2CD-5885-412D-9993-63CFFD24284F}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "134705126"
-        }
-       ]
-      }
+      "DurationMin": "0.2",
+      "DurationMax": "0.2",
+      "MediaRefs": [
+       {
+        "Id": "81063726"
+       },
+       {
+        "Id": "288658200"
+       },
+       {
+        "Id": "869227547"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{B0A6D198-B763-ABC3-E38D-8A4B344D2901}"
+  "FileHash": "{845D7F3D-3BD3-9C93-73A2-C6BBA9A5B777}"
  }
 }

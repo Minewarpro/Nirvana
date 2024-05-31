@@ -10,22 +10,48 @@
     "Type": "Event",
     "GUID": "{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}",
     "Language": "SFX",
-    "Hash": "{D619F032-7006-469C-8F1D-0BD121FDA0DD}",
+    "Hash": "{71C76C6D-DCD8-37C1-B8E2-CB07F3F82973}",
     "ObjectPath": "UI_Menu_Pause",
     "ShortName": "UI_Menu_Pause",
     "Path": "Event/UI_Menu_Pause.bnk",
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "1037106080",
-       "Name": "Silence",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\UI\\UI\\UI_Menu\\UI_Menu_Pause\\UI_Menu_StartGame\\Silence",
-       "GUID": "{6FC1793A-B76B-4C2E-A200-2C7A9BBE8DD1}",
-       "LibName": "Wwise Silence",
-       "LibId": "6619138"
-      }
-     ]
-    },
+    "Media": [
+     {
+      "Id": "30211341",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Pause\\UI_Menu_Pause_02.wav",
+      "Path": "Media/30211341.wem",
+      "CachePath": "SFX/UI/UI_Menu_Pause/UI_Menu_Pause_02_818F3B66.wem"
+     },
+     {
+      "Id": "372932434",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Pause\\UI_Menu_Pause_04.wav",
+      "Path": "Media/372932434.wem",
+      "CachePath": "SFX/UI/UI_Menu_Pause/UI_Menu_Pause_04_818F3B66.wem"
+     },
+     {
+      "Id": "373475764",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Pause\\UI_Menu_Pause_01.wav",
+      "Path": "Media/373475764.wem",
+      "CachePath": "SFX/UI/UI_Menu_Pause/UI_Menu_Pause_01_818F3B66.wem"
+     },
+     {
+      "Id": "597279884",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Pause\\UI_Menu_Pause_03.wav",
+      "Path": "Media/597279884.wem",
+      "CachePath": "SFX/UI/UI_Menu_Pause/UI_Menu_Pause_03_818F3B66.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "3237189652",
@@ -33,19 +59,26 @@
       "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_Pause",
       "GUID": "{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "1037106080"
-        }
-       ]
-      }
+      "DurationMin": "0.23333333",
+      "DurationMax": "0.23333333",
+      "MediaRefs": [
+       {
+        "Id": "30211341"
+       },
+       {
+        "Id": "372932434"
+       },
+       {
+        "Id": "373475764"
+       },
+       {
+        "Id": "597279884"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{B75DCBE3-4151-1DA0-D4EB-ECC2BD551796}"
+  "FileHash": "{40EDE819-44FB-ADB9-0971-484A6A94841F}"
  }
 }

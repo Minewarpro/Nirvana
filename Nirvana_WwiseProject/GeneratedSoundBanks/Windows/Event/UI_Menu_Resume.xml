@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1464993479" Type="Event" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" Language="SFX" Hash="{28D9B67B-D5DB-3F30-333E-764939C98E71}">
+		<SoundBank Id="1464993479" Type="Event" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" Language="SFX" Hash="{46D81A5B-5D6E-878B-F6C8-00F56832392C}">
 			<ObjectPath>UI_Menu_Resume</ObjectPath>
 			<ShortName>UI_Menu_Resume</ShortName>
 			<Path>Event/UI_Menu_Resume.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="1017205407" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\UI\UI\UI_Menu\UI_Menu_Resume\UI_Menu_StartGame\Silence" GUID="{157D1E92-B121-41DB-B069-50BC0434208E}" LibName="Wwise Silence" LibId="6619138"/>
-				</Custom>
-			</Plugins>
+			<Media>
+				<File Id="211590427" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Resume\UI_Menu_Resume_04.wav</ShortName>
+					<Path>Media/211590427.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Resume/UI_Menu_Resume_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="311780862" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Resume\UI_Menu_Resume_03.wav</ShortName>
+					<Path>Media/311780862.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Resume/UI_Menu_Resume_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="414190295" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Resume\UI_Menu_Resume_01.wav</ShortName>
+					<Path>Media/414190295.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Resume/UI_Menu_Resume_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1027862290" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Resume\UI_Menu_Resume_02.wav</ShortName>
+					<Path>Media/1027862290.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Resume/UI_Menu_Resume_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Resume" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="1017205407"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Resume" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" DurationType="OneShot" DurationMin="0.1" DurationMax="0.1">
+					<MediaRefs>
+						<MediaRef Id="211590427"/>
+						<MediaRef Id="311780862"/>
+						<MediaRef Id="414190295"/>
+						<MediaRef Id="1027862290"/>
+					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5CB16138-1C52-E497-D169-F5B978EBDB2A}</FileHash>
+	<FileHash>{D66DE505-A59E-0702-06FF-341FF39AE4B3}</FileHash>
 </SoundBanksInfo>

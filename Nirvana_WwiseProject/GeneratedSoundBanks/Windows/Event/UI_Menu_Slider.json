@@ -10,22 +10,48 @@
     "Type": "Event",
     "GUID": "{F996223E-185F-4419-8121-488BEE79FF46}",
     "Language": "SFX",
-    "Hash": "{F44B392C-A72B-6188-898A-38C756606C97}",
+    "Hash": "{C221D757-AD3C-B273-4E07-8E849B478AAA}",
     "ObjectPath": "UI_Menu_Slider",
     "ShortName": "UI_Menu_Slider",
     "Path": "Event/UI_Menu_Slider.bnk",
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "842678923",
-       "Name": "Silence",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\UI\\UI\\UI_Menu\\UI_Menu_Slider\\UI_Menu_StartGame\\Silence",
-       "GUID": "{E2E5E429-D6B7-44E8-8F4B-7B2568972055}",
-       "LibName": "Wwise Silence",
-       "LibId": "6619138"
-      }
-     ]
-    },
+    "Media": [
+     {
+      "Id": "502750741",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Slider\\UI_Menu_Slider_01.wav",
+      "Path": "Media/502750741.wem",
+      "CachePath": "SFX/UI/UI_Menu_Slider/UI_Menu_Slider_01_818F3B66.wem"
+     },
+     {
+      "Id": "572699798",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Slider\\UI_Menu_Slider_02.wav",
+      "Path": "Media/572699798.wem",
+      "CachePath": "SFX/UI/UI_Menu_Slider/UI_Menu_Slider_02_818F3B66.wem"
+     },
+     {
+      "Id": "761030269",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Slider\\UI_Menu_Slider_03.wav",
+      "Path": "Media/761030269.wem",
+      "CachePath": "SFX/UI/UI_Menu_Slider/UI_Menu_Slider_03_818F3B66.wem"
+     },
+     {
+      "Id": "847285559",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Slider\\UI_Menu_Slider_04.wav",
+      "Path": "Media/847285559.wem",
+      "CachePath": "SFX/UI/UI_Menu_Slider/UI_Menu_Slider_04_818F3B66.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "2153118237",
@@ -33,19 +59,26 @@
       "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_Slider",
       "GUID": "{F996223E-185F-4419-8121-488BEE79FF46}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "842678923"
-        }
-       ]
-      }
+      "DurationMin": "0.1",
+      "DurationMax": "0.1",
+      "MediaRefs": [
+       {
+        "Id": "502750741"
+       },
+       {
+        "Id": "572699798"
+       },
+       {
+        "Id": "761030269"
+       },
+       {
+        "Id": "847285559"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{2603DEC7-C390-E119-44BC-A015F68DD8D5}"
+  "FileHash": "{3169ACD7-D800-133E-6892-20C1F5779C8A}"
  }
 }

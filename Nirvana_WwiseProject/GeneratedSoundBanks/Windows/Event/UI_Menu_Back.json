@@ -10,22 +10,30 @@
     "Type": "Event",
     "GUID": "{E7387EF2-D014-495D-9EC9-0045BB855F8F}",
     "Language": "SFX",
-    "Hash": "{13AB6283-7965-47B3-F20F-BFD11E1D9AC1}",
+    "Hash": "{7547D40A-2F74-BEBB-34FE-4C8C034541BE}",
     "ObjectPath": "UI_Menu_Back",
     "ShortName": "UI_Menu_Back",
     "Path": "Event/UI_Menu_Back.bnk",
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "780959177",
-       "Name": "Silence",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\UI\\UI\\UI_Menu\\UI_Menu_Back\\UI_Menu_StartGame\\Silence",
-       "GUID": "{AD9DBF22-60F5-4C98-AD9A-078049B67C3C}",
-       "LibName": "Wwise Silence",
-       "LibId": "6619138"
-      }
-     ]
-    },
+    "Media": [
+     {
+      "Id": "549345743",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Back\\UI_Menu_Back_01.wav",
+      "Path": "Media/549345743.wem",
+      "CachePath": "SFX/UI/UI_Menu_Back/UI_Menu_Back_01_818F3B66.wem"
+     },
+     {
+      "Id": "798184031",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Back\\UI_Menu_Back_02.wav",
+      "Path": "Media/798184031.wem",
+      "CachePath": "SFX/UI/UI_Menu_Back/UI_Menu_Back_02_818F3B66.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "922786755",
@@ -33,19 +41,20 @@
       "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_Back",
       "GUID": "{E7387EF2-D014-495D-9EC9-0045BB855F8F}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "780959177"
-        }
-       ]
-      }
+      "DurationMin": "0.13333334",
+      "DurationMax": "0.13333334",
+      "MediaRefs": [
+       {
+        "Id": "549345743"
+       },
+       {
+        "Id": "798184031"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{032D2041-4B27-BB42-D403-69D245CE2F65}"
+  "FileHash": "{5DDD83A8-B758-9CEC-B436-D29FCA046F79}"
  }
 }

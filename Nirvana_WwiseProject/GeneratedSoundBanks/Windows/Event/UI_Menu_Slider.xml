@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2153118237" Type="Event" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" Language="SFX" Hash="{F44B392C-A72B-6188-898A-38C756606C97}">
+		<SoundBank Id="2153118237" Type="Event" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" Language="SFX" Hash="{C221D757-AD3C-B273-4E07-8E849B478AAA}">
 			<ObjectPath>UI_Menu_Slider</ObjectPath>
 			<ShortName>UI_Menu_Slider</ShortName>
 			<Path>Event/UI_Menu_Slider.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="842678923" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\UI\UI\UI_Menu\UI_Menu_Slider\UI_Menu_StartGame\Silence" GUID="{E2E5E429-D6B7-44E8-8F4B-7B2568972055}" LibName="Wwise Silence" LibId="6619138"/>
-				</Custom>
-			</Plugins>
+			<Media>
+				<File Id="502750741" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Slider\UI_Menu_Slider_01.wav</ShortName>
+					<Path>Media/502750741.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Slider/UI_Menu_Slider_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="572699798" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Slider\UI_Menu_Slider_02.wav</ShortName>
+					<Path>Media/572699798.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Slider/UI_Menu_Slider_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="761030269" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Slider\UI_Menu_Slider_03.wav</ShortName>
+					<Path>Media/761030269.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Slider/UI_Menu_Slider_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="847285559" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Slider\UI_Menu_Slider_04.wav</ShortName>
+					<Path>Media/847285559.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Slider/UI_Menu_Slider_04_818F3B66.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="2153118237" Name="UI_Menu_Slider" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Slider" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="842678923"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="2153118237" Name="UI_Menu_Slider" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Slider" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" DurationType="OneShot" DurationMin="0.1" DurationMax="0.1">
+					<MediaRefs>
+						<MediaRef Id="502750741"/>
+						<MediaRef Id="572699798"/>
+						<MediaRef Id="761030269"/>
+						<MediaRef Id="847285559"/>
+					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FD08D4E7-50FD-2624-584F-B112676A132B}</FileHash>
+	<FileHash>{8A89D4D8-B54F-4260-21CA-9845FC490ACB}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{AADF32AE-163C-E980-0EC5-64835A981454}",
+    "Hash": "{848B7199-ECEE-D865-D416-94030696C4CA}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -128,6 +128,80 @@
       "Name": "RTPC_UI_Master",
       "ObjectPath": "\\Game Parameters\\RTPC_UI\\RTPC_UI_Master",
       "GUID": "{ECF19A53-D94C-4882-8001-73C4BCCE7169}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1695734195",
+      "Name": "ST_MC",
+      "ObjectPath": "\\States\\ST_Persistent\\ST_MC",
+      "GUID": "{B119F911-B8B1-4692-8D88-85CD1E0E2FF0}",
+      "States": [
+       {
+        "Id": "712849048",
+        "Name": "ST_MC_Dead",
+        "ObjectPath": "\\States\\ST_Persistent\\ST_MC\\ST_MC_Dead",
+        "GUID": "{419E2B39-E7AB-4F3A-9C10-F87F6940E4FF}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\ST_Persistent\\ST_MC\\None",
+        "GUID": "{79530131-2A27-4D39-BC4A-27241EAEC0BA}"
+       },
+       {
+        "Id": "1915373357",
+        "Name": "ST_CM_Alive",
+        "ObjectPath": "\\States\\ST_Persistent\\ST_MC\\ST_CM_Alive",
+        "GUID": "{042EC5B6-0754-4086-A73F-F15C1A57F0BF}"
+       }
+      ]
+     },
+     {
+      "Id": "3299795555",
+      "Name": "ST_Lvl",
+      "ObjectPath": "\\States\\ST_Persistent\\ST_Lvl",
+      "GUID": "{8D12A37A-0E8A-4CD1-93E8-E9EEA4E83FEA}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\ST_Persistent\\ST_Lvl\\None",
+        "GUID": "{E846BDDB-2E77-4C98-A6D3-B1F1C8E26430}"
+       }
+      ]
+     },
+     {
+      "Id": "4078696085",
+      "Name": "ST_Game",
+      "ObjectPath": "\\States\\ST_Persistent\\ST_Game",
+      "GUID": "{C2AFF852-6A2D-42B0-B06B-6CF588CE17D6}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\ST_Persistent\\ST_Game\\None",
+        "GUID": "{2EF11E60-4DB1-49AF-83CD-F5C803E1FD88}"
+       },
+       {
+        "Id": "1745364551",
+        "Name": "ST_Game_Ingame",
+        "ObjectPath": "\\States\\ST_Persistent\\ST_Game\\ST_Game_Ingame",
+        "GUID": "{2B772789-F7D4-4DA6-B872-245923DBF8F4}"
+       },
+       {
+        "Id": "3640095552",
+        "Name": "ST_Game_InMenu",
+        "ObjectPath": "\\States\\ST_Persistent\\ST_Game\\ST_Game_InMenu",
+        "GUID": "{CBADC631-6FAE-4AA9-A719-D83BE67BF4C4}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -186,6 +260,6 @@
     ]
    }
   ],
-  "FileHash": "{936CC9A2-3098-EEDB-40AB-8807E13639E3}"
+  "FileHash": "{4FAD69C0-1692-1C88-4C8E-BBA22986380D}"
  }
 }

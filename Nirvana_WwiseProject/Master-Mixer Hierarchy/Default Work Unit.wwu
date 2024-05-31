@@ -104,41 +104,76 @@
 							<ChildrenList>
 								<Bus Name="AMB" ID="{EE760A39-D2EB-4347-805B-1990EA7A41E5}">
 									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Color" Type="int16" Value="21"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
 								<Bus Name="FOL" ID="{34585413-9811-4024-A999-0FD1F5006959}">
 									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Color" Type="int16" Value="4"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
 								<Bus Name="FT" ID="{DF3B16E9-05D8-4FDA-9CCB-41F48D9B5570}">
 									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Color" Type="int16" Value="19"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
 								<Bus Name="SFX" ID="{0716D6A6-9EDE-421F-B512-812E2E935389}">
 									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Color" Type="int16" Value="13"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
 								<Bus Name="UI" ID="{020D4FC4-5D20-4295-9814-95DBB08CA8D4}">
 									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Color" Type="int16" Value="24"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
 								<Bus Name="Rev" ID="{D5102433-A85B-44B5-866F-42774E67FBB2}">
 									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Color" Type="int16" Value="1"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
-										<AuxBus Name="REV_" ID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}"/>
+										<AuxBus Name="REV_" ID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+										</AuxBus>
 									</ChildrenList>
 								</Bus>
 							</ChildrenList>

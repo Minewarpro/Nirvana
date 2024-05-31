@@ -10,22 +10,48 @@
     "Type": "Event",
     "GUID": "{B9E09E34-9199-4EDF-8B27-A6298B752B94}",
     "Language": "SFX",
-    "Hash": "{1C857DD2-A7CE-CBEE-5560-E692DA5B7471}",
+    "Hash": "{AFEBB6B6-3740-8F84-3AA2-1F75D203076E}",
     "ObjectPath": "UI_InGame_WeaponSecondaryReload",
     "ShortName": "UI_InGame_WeaponSecondaryReload",
     "Path": "Event/UI_InGame_WeaponSecondaryReload.bnk",
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "450762830",
-       "Name": "Silence",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\UI\\UI\\UI_InGame\\UI_InGame_WeaponSecondaryReload\\UI_Menu_StartGame\\Silence",
-       "GUID": "{43335317-D03C-4763-967F-0F3093D63EE2}",
-       "LibName": "Wwise Silence",
-       "LibId": "6619138"
-      }
-     ]
-    },
+    "Media": [
+     {
+      "Id": "482670350",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_InGame_WeaponSecondaryReload\\UI_InGame_WeaponSecondaryReload_03.wav",
+      "Path": "Media/482670350.wem",
+      "CachePath": "SFX/UI/UI_InGame_WeaponSecondaryReload/UI_InGame_WeaponSecondaryReload_03_818F3B66.wem"
+     },
+     {
+      "Id": "609974740",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_InGame_WeaponSecondaryReload\\UI_InGame_WeaponSecondaryReload_04.wav",
+      "Path": "Media/609974740.wem",
+      "CachePath": "SFX/UI/UI_InGame_WeaponSecondaryReload/UI_InGame_WeaponSecondaryReload_04_818F3B66.wem"
+     },
+     {
+      "Id": "806554694",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_InGame_WeaponSecondaryReload\\UI_InGame_WeaponSecondaryReload_01.wav",
+      "Path": "Media/806554694.wem",
+      "CachePath": "SFX/UI/UI_InGame_WeaponSecondaryReload/UI_InGame_WeaponSecondaryReload_01_818F3B66.wem"
+     },
+     {
+      "Id": "878713625",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_InGame_WeaponSecondaryReload\\UI_InGame_WeaponSecondaryReload_02.wav",
+      "Path": "Media/878713625.wem",
+      "CachePath": "SFX/UI/UI_InGame_WeaponSecondaryReload/UI_InGame_WeaponSecondaryReload_02_818F3B66.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "2517622237",
@@ -33,19 +59,26 @@
       "ObjectPath": "\\Events\\UI\\UI_InGame\\UI_InGame_WeaponSecondaryReload",
       "GUID": "{B9E09E34-9199-4EDF-8B27-A6298B752B94}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "450762830"
-        }
-       ]
-      }
+      "DurationMin": "0.53333336",
+      "DurationMax": "0.53333336",
+      "MediaRefs": [
+       {
+        "Id": "482670350"
+       },
+       {
+        "Id": "609974740"
+       },
+       {
+        "Id": "806554694"
+       },
+       {
+        "Id": "878713625"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{668C91ED-78A4-F4BD-A916-7C936B895148}"
+  "FileHash": "{142F11B9-70FE-396E-233D-A89F23834CA5}"
  }
 }

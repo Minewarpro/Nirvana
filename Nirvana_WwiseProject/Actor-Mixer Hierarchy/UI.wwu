@@ -8,16 +8,41 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="UI" ID="{7B4A1F5E-5B27-444F-BA49-82A7530F5358}" ShortID="725874602">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>70</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+							<ObjectRef Name="UI" ID="{020D4FC4-5D20-4295-9814-95DBB08CA8D4}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="UI_InGame" ID="{8C01176D-86B8-44A2-B1CE-3AD4D29C5F86}" ShortID="16077745">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -29,7 +54,13 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="UI_InGame_DashReload" ID="{7E92AE13-28F4-464A-8500-C06D4E6F0CCB}" ShortID="869290152">
 									<PropertyList>
-										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -40,7 +71,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="UI_Menu_StartGame" ID="{9F9ADB30-F65E-4EE9-B434-A64C7B371255}" ShortID="137066969">
+										<Sound Name="UI_InGame_DashReload_01" ID="{79D7AB13-7EDA-438B-818D-DB78486CFEF2}" ShortID="809605671">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -50,19 +81,90 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<SourcePlugin Name="Silence" ID="{7C8DFB18-7160-480A-BCBB-61B9F8F0C227}" ShortID="618870441" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+												<AudioFileSource Name="UI_InGame_DashReload_01" ID="{6FC5CE89-B626-47E5-9300-2C6C4ED583AF}">
 													<Language>SFX</Language>
-												</SourcePlugin>
+													<AudioFile>UI\UI_InGame_DashReload\UI_InGame_DashReload_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="787442625"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Silence" ID="{7C8DFB18-7160-480A-BCBB-61B9F8F0C227}" Platform="Linked"/>
+												<ActiveSource Name="UI_InGame_DashReload_01" ID="{6FC5CE89-B626-47E5-9300-2C6C4ED583AF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_InGame_DashReload_02" ID="{EBA2A35C-1C9C-4383-ADAE-1F77EAE38CAF}" ShortID="237239993">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_InGame_DashReload_02" ID="{DBBD7DAD-9874-434A-9EF1-DE12B8BCEA29}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_InGame_DashReload\UI_InGame_DashReload_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="350351576"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_InGame_DashReload_02" ID="{DBBD7DAD-9874-434A-9EF1-DE12B8BCEA29}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_InGame_DashReload_03" ID="{7F906B08-0CDA-49C9-8FAF-6FBE01C3F383}" ShortID="832036089">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_InGame_DashReload_03" ID="{CA73B9A9-5354-457C-9C65-77A5C6E4896A}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_InGame_DashReload\UI_InGame_DashReload_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="698753899"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_InGame_DashReload_03" ID="{CA73B9A9-5354-457C-9C65-77A5C6E4896A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_InGame_DashReload_04" ID="{F176BC70-3016-4246-9FEB-4C698D1140F6}" ShortID="148612607">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_InGame_DashReload_04" ID="{14C151AA-1F97-405E-891F-AB48B932CD73}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_InGame_DashReload\UI_InGame_DashReload_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="349160832"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_InGame_DashReload_04" ID="{14C151AA-1F97-405E-891F-AB48B932CD73}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="UI_InGame_WeaponSecondaryReload" ID="{85EF2D56-B608-40A7-AE81-5C63B9E96C08}" ShortID="728124707">
 									<PropertyList>
-										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -73,7 +175,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="UI_Menu_StartGame" ID="{F19BA89B-19F1-40B4-BFAC-C1140D8594E3}" ShortID="112700407">
+										<Sound Name="UI_InGame_WeaponSecondaryReload_01" ID="{D5D2019E-AF8C-4F35-B75F-3608DA3D73B8}" ShortID="583536834">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -83,12 +185,82 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<SourcePlugin Name="Silence" ID="{43335317-D03C-4763-967F-0F3093D63EE2}" ShortID="450762830" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+												<AudioFileSource Name="UI_InGame_WeaponSecondaryReload_01" ID="{4023D69E-0F0D-4140-8FD6-93EDDE535E16}">
 													<Language>SFX</Language>
-												</SourcePlugin>
+													<AudioFile>UI\UI_InGame_WeaponSecondaryReload\UI_InGame_WeaponSecondaryReload_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="806554694"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Silence" ID="{43335317-D03C-4763-967F-0F3093D63EE2}" Platform="Linked"/>
+												<ActiveSource Name="UI_InGame_WeaponSecondaryReload_01" ID="{4023D69E-0F0D-4140-8FD6-93EDDE535E16}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_InGame_WeaponSecondaryReload_02" ID="{597389F9-EB56-49AB-8126-371046D8DC17}" ShortID="495427583">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_InGame_WeaponSecondaryReload_02" ID="{8851702C-501D-44DE-B335-E3C3EB598550}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_InGame_WeaponSecondaryReload\UI_InGame_WeaponSecondaryReload_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="878713625"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_InGame_WeaponSecondaryReload_02" ID="{8851702C-501D-44DE-B335-E3C3EB598550}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_InGame_WeaponSecondaryReload_03" ID="{C773CA88-4959-4CC3-8D66-28E567CE8A11}" ShortID="527128724">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_InGame_WeaponSecondaryReload_03" ID="{641657B2-D356-4AF1-9C8C-1D7D339BFA90}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_InGame_WeaponSecondaryReload\UI_InGame_WeaponSecondaryReload_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="482670350"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_InGame_WeaponSecondaryReload_03" ID="{641657B2-D356-4AF1-9C8C-1D7D339BFA90}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_InGame_WeaponSecondaryReload_04" ID="{21B07D2F-18D7-4C79-86FD-1E2121F48339}" ShortID="78988665">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_InGame_WeaponSecondaryReload_04" ID="{05E12B71-1B7A-4DF7-821F-3B3E4B4D78A6}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_InGame_WeaponSecondaryReload\UI_InGame_WeaponSecondaryReload_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="609974740"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_InGame_WeaponSecondaryReload_04" ID="{05E12B71-1B7A-4DF7-821F-3B3E4B4D78A6}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -96,6 +268,13 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="UI_Menu" ID="{0C25A86F-0C5C-4118-91B5-258F12597717}" ShortID="786692131">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -107,7 +286,13 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="UI_Menu_Pause" ID="{96818A75-1363-4564-86D9-FDC7BE9F6910}" ShortID="839081095">
 									<PropertyList>
-										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -118,7 +303,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="UI_Menu_StartGame" ID="{DEB76F77-77B7-4D84-A599-15F7988B3FBD}" ShortID="122566205">
+										<Sound Name="UI_Menu_Pause_01" ID="{48EB1472-2001-4AD1-B773-50DA543782F4}" ShortID="220254078">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -128,12 +313,82 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<SourcePlugin Name="Silence" ID="{6FC1793A-B76B-4C2E-A200-2C7A9BBE8DD1}" ShortID="1037106080" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+												<AudioFileSource Name="UI_Menu_Pause_01" ID="{8E94A277-702C-4BE1-B9A1-AD6753950E6C}">
 													<Language>SFX</Language>
-												</SourcePlugin>
+													<AudioFile>UI\UI_Menu_Pause\UI_Menu_Pause_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="373475764"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Silence" ID="{6FC1793A-B76B-4C2E-A200-2C7A9BBE8DD1}" Platform="Linked"/>
+												<ActiveSource Name="UI_Menu_Pause_01" ID="{8E94A277-702C-4BE1-B9A1-AD6753950E6C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Pause_02" ID="{A1E4C2A6-0A55-4268-B6A2-5EB263A298C1}" ShortID="432067445">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Pause_02" ID="{CD28EBC0-FFA7-4C1C-84A4-2A6BFBBA18A0}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Pause\UI_Menu_Pause_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="30211341"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Pause_02" ID="{CD28EBC0-FFA7-4C1C-84A4-2A6BFBBA18A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Pause_03" ID="{16DC98FB-5575-46F7-9A5B-C43046DDD82F}" ShortID="609155261">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Pause_03" ID="{F95CCF87-2C26-46E1-95C2-EB3BACBA1693}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Pause\UI_Menu_Pause_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="597279884"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Pause_03" ID="{F95CCF87-2C26-46E1-95C2-EB3BACBA1693}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Pause_04" ID="{9BEB907D-FD98-465A-A7A8-991FCF15D6C4}" ShortID="215951943">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Pause_04" ID="{70A5E020-B96E-4EE8-8593-CA9DB89157F5}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Pause\UI_Menu_Pause_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="372932434"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Pause_04" ID="{70A5E020-B96E-4EE8-8593-CA9DB89157F5}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -141,7 +396,11 @@
 								<RandomSequenceContainer Name="UI_Menu_Hover" ID="{A3B3EAB8-EDC3-4248-80C2-BD068A1BF19A}" ShortID="893625035">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -152,7 +411,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="UI_Menu_StartGame" ID="{CEAE8CD1-E72A-469A-AA21-49CC676FF5B2}" ShortID="562706502">
+										<Sound Name="UI_Menu_Hover_01" ID="{32EA9EB1-7C00-4097-BF55-DB5E9F54E94A}" ShortID="268474578">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -162,31 +421,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<SourcePlugin Name="Silence" ID="{1AF412D1-8868-4C6C-A928-83FB442BE173}" ShortID="134705126" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+												<AudioFileSource Name="UI_Menu_Hover_01" ID="{BFBD4461-A541-4956-83CD-ACAB5C555B66}">
 													<Language>SFX</Language>
-												</SourcePlugin>
+													<AudioFile>UI\UI_Menu_Hover\UI_Menu_Hover_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="869227547"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Silence" ID="{1AF412D1-8868-4C6C-A928-83FB442BE173}" Platform="Linked"/>
+												<ActiveSource Name="UI_Menu_Hover_01" ID="{BFBD4461-A541-4956-83CD-ACAB5C555B66}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="UI_Menu_Slider" ID="{5786723A-AD86-4388-B7C5-019640DA13A5}" ShortID="708512325">
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="UI_Menu_StartGame" ID="{5E3E7B9A-161C-4C36-A6F4-030F8FD26B6A}" ShortID="117271746">
+										<Sound Name="UI_Menu_Hover_02" ID="{7153F3CA-C9B1-40A5-BCB8-29E61F2BC88B}" ShortID="801564709">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -196,12 +443,38 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<SourcePlugin Name="Silence" ID="{E2E5E429-D6B7-44E8-8F4B-7B2568972055}" ShortID="842678923" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+												<AudioFileSource Name="UI_Menu_Hover_02" ID="{BAF84988-67F9-4E9B-BA32-0187F66FC2FB}">
 													<Language>SFX</Language>
-												</SourcePlugin>
+													<AudioFile>UI\UI_Menu_Hover\UI_Menu_Hover_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="288658200"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Silence" ID="{E2E5E429-D6B7-44E8-8F4B-7B2568972055}" Platform="Linked"/>
+												<ActiveSource Name="UI_Menu_Hover_02" ID="{BAF84988-67F9-4E9B-BA32-0187F66FC2FB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Hover_03" ID="{95F1272A-F585-42A4-921D-6E556AF35242}" ShortID="604526000">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Hover_03" ID="{7133EDAD-49A5-4C2B-A861-4025AA28DC3C}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Hover\UI_Menu_Hover_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="81063726"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Hover_03" ID="{7133EDAD-49A5-4C2B-A861-4025AA28DC3C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -210,6 +483,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -220,7 +498,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="UI_Menu_StartGame" ID="{BA155183-900C-4622-BA96-E36269C1CA10}" ShortID="672046776">
+										<Sound Name="UI_Menu_Select_01" ID="{2253B7C9-0F97-4E4B-968B-E0154D10E4F0}" ShortID="127859038">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -230,19 +508,73 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<SourcePlugin Name="Silence" ID="{4954B77D-7EFE-4B79-B166-91AA295A2B7E}" ShortID="283502581" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+												<AudioFileSource Name="UI_Menu_Select_01" ID="{024DE71E-FB08-469F-AC93-DDF3A526C222}">
 													<Language>SFX</Language>
-												</SourcePlugin>
+													<AudioFile>UI\UI_Menu_Select\UI_Menu_Select_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="848808628"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Silence" ID="{4954B77D-7EFE-4B79-B166-91AA295A2B7E}" Platform="Linked"/>
+												<ActiveSource Name="UI_Menu_Select_01" ID="{024DE71E-FB08-469F-AC93-DDF3A526C222}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Select_02" ID="{320D5135-07D9-4BBF-AB6E-A0FD6F4E5296}" ShortID="1072393138">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Select_02" ID="{6AA4C32B-8644-4681-90B4-066F44B8280C}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Select\UI_Menu_Select_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="811488791"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Select_02" ID="{6AA4C32B-8644-4681-90B4-066F44B8280C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Select_03" ID="{975ED4E0-CB3D-47E2-AD66-A5BA26CB0183}" ShortID="36453593">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Select_03" ID="{FFD8A0BD-59D4-4C75-888E-2B12717AD0C3}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Select\UI_Menu_Select_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="741852206"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Select_03" ID="{FFD8A0BD-59D4-4C75-888E-2B12717AD0C3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="UI_Menu_Resume" ID="{2EDE5881-AED8-4AD6-8A88-242BAC403228}" ShortID="356639221">
 									<PropertyList>
-										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -253,7 +585,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="UI_Menu_StartGame" ID="{A61C15F1-912A-4D73-B5CD-F658A7B26A82}" ShortID="625313002">
+										<Sound Name="UI_Menu_Resume_01" ID="{F04EBEE4-6943-40B1-B36F-0AB5843083F3}" ShortID="939702101">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -263,12 +595,82 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<SourcePlugin Name="Silence" ID="{157D1E92-B121-41DB-B069-50BC0434208E}" ShortID="1017205407" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+												<AudioFileSource Name="UI_Menu_Resume_01" ID="{9198197E-18EC-47DE-8B27-621E962C302D}">
 													<Language>SFX</Language>
-												</SourcePlugin>
+													<AudioFile>UI\UI_Menu_Resume\UI_Menu_Resume_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="414190295"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Silence" ID="{157D1E92-B121-41DB-B069-50BC0434208E}" Platform="Linked"/>
+												<ActiveSource Name="UI_Menu_Resume_01" ID="{9198197E-18EC-47DE-8B27-621E962C302D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Resume_02" ID="{E4205DB4-173D-42AF-A0E4-E1D87CAAB8D2}" ShortID="224600940">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Resume_02" ID="{3BF1CB64-A051-4D3C-A223-0B5E17AB7F9F}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Resume\UI_Menu_Resume_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1027862290"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Resume_02" ID="{3BF1CB64-A051-4D3C-A223-0B5E17AB7F9F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Resume_03" ID="{16EFFD06-7D13-4983-87E5-0BB809CD423E}" ShortID="870907627">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Resume_03" ID="{FC1752B0-EED4-49FE-86C8-4371930F8BF8}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Resume\UI_Menu_Resume_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="311780862"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Resume_03" ID="{FC1752B0-EED4-49FE-86C8-4371930F8BF8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Resume_04" ID="{6BE17597-8D46-4051-915A-955C9D997BDE}" ShortID="459471112">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Resume_04" ID="{8CA398A2-1242-4FF5-9BEE-0900758E989C}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Resume\UI_Menu_Resume_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="211590427"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Resume_04" ID="{8CA398A2-1242-4FF5-9BEE-0900758E989C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -276,6 +678,11 @@
 								<RandomSequenceContainer Name="UI_Menu_Back" ID="{70EFA8A9-0329-4976-9596-CA8A8DE3E9A1}" ShortID="489187914">
 									<PropertyList>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -286,7 +693,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="UI_Menu_StartGame" ID="{18942B9F-CAE0-44F8-8780-D67B497EA929}" ShortID="717888117">
+										<Sound Name="UI_Menu_Back_01" ID="{8C2877D4-D9C9-4D66-A40D-F308247B53D0}" ShortID="134478042">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -296,12 +703,38 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<SourcePlugin Name="Silence" ID="{AD9DBF22-60F5-4C98-AD9A-078049B67C3C}" ShortID="780959177" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+												<AudioFileSource Name="UI_Menu_Back_01" ID="{8A086C90-8769-4F39-A924-7462BF781E93}">
 													<Language>SFX</Language>
-												</SourcePlugin>
+													<AudioFile>UI\UI_Menu_Back\UI_Menu_Back_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="549345743"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Silence" ID="{AD9DBF22-60F5-4C98-AD9A-078049B67C3C}" Platform="Linked"/>
+												<ActiveSource Name="UI_Menu_Back_01" ID="{8A086C90-8769-4F39-A924-7462BF781E93}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Back_02" ID="{E74EAC89-6D03-4D27-B109-C1AA30C5E22F}" ShortID="174042562">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Back_02" ID="{1FA03B22-D850-45BA-98B9-8243CF6AE1DD}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Back\UI_Menu_Back_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="798184031"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Back_02" ID="{1FA03B22-D850-45BA-98B9-8243CF6AE1DD}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -316,14 +749,139 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{6BDEF7A3-7150-4722-ABE6-6AD1436FE8B3}" ShortID="595540425" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="UI_Menu_StartGame" ID="{96BC142D-1690-497B-A4FB-C4E184B9C806}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>UI\UI_Menu_StartGame.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="288755459"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{6BDEF7A3-7150-4722-ABE6-6AD1436FE8B3}" Platform="Linked"/>
+										<ActiveSource Name="UI_Menu_StartGame" ID="{96BC142D-1690-497B-A4FB-C4E184B9C806}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="UI_Menu_Slider" ID="{CA370DE3-3CC6-48C4-93A8-5D59E2D4DE78}" ShortID="333036236">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="UI_Menu_Slider_01" ID="{AB89DB4C-8A7D-4877-ACD6-1A9EBFE8ADDC}" ShortID="501246814">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Slider_01" ID="{221F17C5-5339-4B66-83BD-DC65F9FE3DF1}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Slider\UI_Menu_Slider_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="502750741"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Slider_01" ID="{221F17C5-5339-4B66-83BD-DC65F9FE3DF1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Slider_02" ID="{13642F11-3DA5-4A11-B7B6-E25A579B1DF7}" ShortID="655999010">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Slider_02" ID="{21A716E3-34AE-4339-814B-9BAA280EC943}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Slider\UI_Menu_Slider_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="572699798"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Slider_02" ID="{21A716E3-34AE-4339-814B-9BAA280EC943}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Slider_03" ID="{C25638FA-1C8F-46A0-B82B-369C0E5AC6FC}" ShortID="1017301212">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Slider_03" ID="{B9ABE8CC-9510-4B24-B485-5B5F43D2D74F}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Slider\UI_Menu_Slider_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="761030269"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Slider_03" ID="{B9ABE8CC-9510-4B24-B485-5B5F43D2D74F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_Menu_Slider_04" ID="{6A1FCF60-5B55-4CB6-BE91-C882C3B965FD}" ShortID="645313821">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Menu_Slider_04" ID="{BE5C0638-0BC9-469B-BFF0-4E8A9DC7100B}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_Menu_Slider\UI_Menu_Slider_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="847285559"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_Menu_Slider_04" ID="{BE5C0638-0BC9-469B-BFF0-4E8A9DC7100B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

@@ -113,10 +113,10 @@
 						</Event>
 						<Event Name="UI_Menu_Slider" ID="{F996223E-185F-4419-8121-488BEE79FF46}">
 							<ChildrenList>
-								<Action Name="" ID="{879D8668-D5BD-45A2-A8C4-0C3DD0551FB8}" ShortID="748661964">
+								<Action Name="" ID="{E07B4C20-DA81-4034-B26A-35C83937E681}" ShortID="47231605">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_Menu_Slider" ID="{5786723A-AD86-4388-B7C5-019640DA13A5}" WorkUnitID="{47622809-9150-48BD-81F0-287B0DE5831F}"/>
+											<ObjectRef Name="UI_Menu_Slider" ID="{CA370DE3-3CC6-48C4-93A8-5D59E2D4DE78}" WorkUnitID="{47622809-9150-48BD-81F0-287B0DE5831F}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

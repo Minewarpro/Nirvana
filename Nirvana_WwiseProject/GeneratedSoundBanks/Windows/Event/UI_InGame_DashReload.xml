@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3087624999" Type="Event" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" Language="SFX" Hash="{1A205B18-7C3E-AB33-E18B-300ABC9E61A2}">
+		<SoundBank Id="3087624999" Type="Event" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" Language="SFX" Hash="{F94163F3-8CA4-982A-051D-5AF3458C9886}">
 			<ObjectPath>UI_InGame_DashReload</ObjectPath>
 			<ShortName>UI_InGame_DashReload</ShortName>
 			<Path>Event/UI_InGame_DashReload.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="618870441" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\UI\UI\UI_InGame\UI_InGame_DashReload\UI_Menu_StartGame\Silence" GUID="{7C8DFB18-7160-480A-BCBB-61B9F8F0C227}" LibName="Wwise Silence" LibId="6619138"/>
-				</Custom>
-			</Plugins>
+			<Media>
+				<File Id="349160832" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_InGame_DashReload\UI_InGame_DashReload_04.wav</ShortName>
+					<Path>Media/349160832.wem</Path>
+					<CachePath>SFX/UI/UI_InGame_DashReload/UI_InGame_DashReload_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="350351576" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_InGame_DashReload\UI_InGame_DashReload_02.wav</ShortName>
+					<Path>Media/350351576.wem</Path>
+					<CachePath>SFX/UI/UI_InGame_DashReload/UI_InGame_DashReload_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="698753899" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_InGame_DashReload\UI_InGame_DashReload_03.wav</ShortName>
+					<Path>Media/698753899.wem</Path>
+					<CachePath>SFX/UI/UI_InGame_DashReload/UI_InGame_DashReload_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="787442625" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_InGame_DashReload\UI_InGame_DashReload_01.wav</ShortName>
+					<Path>Media/787442625.wem</Path>
+					<CachePath>SFX/UI/UI_InGame_DashReload/UI_InGame_DashReload_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="3087624999" Name="UI_InGame_DashReload" ObjectPath="\Events\UI\UI_InGame\UI_InGame_DashReload" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="618870441"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="3087624999" Name="UI_InGame_DashReload" ObjectPath="\Events\UI\UI_InGame\UI_InGame_DashReload" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="349160832"/>
+						<MediaRef Id="350351576"/>
+						<MediaRef Id="698753899"/>
+						<MediaRef Id="787442625"/>
+					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CB96F019-6856-DAB7-7720-77FE2A9EDF4B}</FileHash>
+	<FileHash>{9B7999DA-8FBA-BCF9-E7AF-AE9F2AC6E0CE}</FileHash>
 </SoundBanksInfo>

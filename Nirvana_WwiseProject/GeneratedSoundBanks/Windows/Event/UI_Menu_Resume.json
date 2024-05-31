@@ -10,22 +10,48 @@
     "Type": "Event",
     "GUID": "{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}",
     "Language": "SFX",
-    "Hash": "{28D9B67B-D5DB-3F30-333E-764939C98E71}",
+    "Hash": "{46D81A5B-5D6E-878B-F6C8-00F56832392C}",
     "ObjectPath": "UI_Menu_Resume",
     "ShortName": "UI_Menu_Resume",
     "Path": "Event/UI_Menu_Resume.bnk",
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "1017205407",
-       "Name": "Silence",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\UI\\UI\\UI_Menu\\UI_Menu_Resume\\UI_Menu_StartGame\\Silence",
-       "GUID": "{157D1E92-B121-41DB-B069-50BC0434208E}",
-       "LibName": "Wwise Silence",
-       "LibId": "6619138"
-      }
-     ]
-    },
+    "Media": [
+     {
+      "Id": "211590427",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Resume\\UI_Menu_Resume_04.wav",
+      "Path": "Media/211590427.wem",
+      "CachePath": "SFX/UI/UI_Menu_Resume/UI_Menu_Resume_04_818F3B66.wem"
+     },
+     {
+      "Id": "311780862",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Resume\\UI_Menu_Resume_03.wav",
+      "Path": "Media/311780862.wem",
+      "CachePath": "SFX/UI/UI_Menu_Resume/UI_Menu_Resume_03_818F3B66.wem"
+     },
+     {
+      "Id": "414190295",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Resume\\UI_Menu_Resume_01.wav",
+      "Path": "Media/414190295.wem",
+      "CachePath": "SFX/UI/UI_Menu_Resume/UI_Menu_Resume_01_818F3B66.wem"
+     },
+     {
+      "Id": "1027862290",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\UI_Menu_Resume\\UI_Menu_Resume_02.wav",
+      "Path": "Media/1027862290.wem",
+      "CachePath": "SFX/UI/UI_Menu_Resume/UI_Menu_Resume_02_818F3B66.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "1464993479",
@@ -33,19 +59,26 @@
       "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_Resume",
       "GUID": "{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "1017205407"
-        }
-       ]
-      }
+      "DurationMin": "0.1",
+      "DurationMax": "0.1",
+      "MediaRefs": [
+       {
+        "Id": "211590427"
+       },
+       {
+        "Id": "311780862"
+       },
+       {
+        "Id": "414190295"
+       },
+       {
+        "Id": "1027862290"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{23C3B09B-9006-940A-BEF7-05266FA2917C}"
+  "FileHash": "{372E5A93-B3D0-5368-3FDE-58BAD694E504}"
  }
 }

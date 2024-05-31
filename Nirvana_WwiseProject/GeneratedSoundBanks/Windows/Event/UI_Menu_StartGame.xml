@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1766274592" Type="Event" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" Language="SFX" Hash="{10338A6A-6831-1B23-30B6-4EE84B3978A6}">
+		<SoundBank Id="1766274592" Type="Event" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" Language="SFX" Hash="{9F2950DD-F897-AF0C-5DA9-FA4C6F361F49}">
 			<ObjectPath>UI_Menu_StartGame</ObjectPath>
 			<ShortName>UI_Menu_StartGame</ShortName>
 			<Path>Event/UI_Menu_StartGame.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="283502581" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\UI\UI\UI_Menu\UI_Menu_Select\UI_Menu_StartGame\Silence" GUID="{4954B77D-7EFE-4B79-B166-91AA295A2B7E}" LibName="Wwise Silence" LibId="6619138"/>
-					<Plugin Id="595540425" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\UI\UI\UI_Menu\UI_Menu_StartGame\Silence" GUID="{6BDEF7A3-7150-4722-ABE6-6AD1436FE8B3}" LibName="Wwise Silence" LibId="6619138"/>
-				</Custom>
-			</Plugins>
+			<Media>
+				<File Id="288755459" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_StartGame.wav</ShortName>
+					<Path>Media/288755459.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_StartGame_818F3B66.wem</CachePath>
+				</File>
+				<File Id="741852206" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Select\UI_Menu_Select_03.wav</ShortName>
+					<Path>Media/741852206.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Select/UI_Menu_Select_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="811488791" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Select\UI_Menu_Select_02.wav</ShortName>
+					<Path>Media/811488791.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Select/UI_Menu_Select_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="848808628" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Select\UI_Menu_Select_01.wav</ShortName>
+					<Path>Media/848808628.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Select/UI_Menu_Select_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Select" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="283502581"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Select" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" DurationType="OneShot" DurationMin="0.16666667" DurationMax="0.16666667">
+					<MediaRefs>
+						<MediaRef Id="741852206"/>
+						<MediaRef Id="811488791"/>
+						<MediaRef Id="848808628"/>
+					</MediaRefs>
 				</Event>
-				<Event Id="1766274592" Name="UI_Menu_StartGame" ObjectPath="\Events\UI\UI_Menu\UI_Menu_StartGame" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="595540425"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="1766274592" Name="UI_Menu_StartGame" ObjectPath="\Events\UI\UI_Menu\UI_Menu_StartGame" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" DurationType="OneShot" DurationMin="0.76666665" DurationMax="0.76666665">
+					<MediaRefs>
+						<MediaRef Id="288755459"/>
+					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Select" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}"/>
 					</ActionPostEvent>
@@ -32,5 +46,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3190EA30-1A9E-7634-38F9-181712651050}</FileHash>
+	<FileHash>{717A828F-BE28-3D70-F276-19C656C765DA}</FileHash>
 </SoundBanksInfo>

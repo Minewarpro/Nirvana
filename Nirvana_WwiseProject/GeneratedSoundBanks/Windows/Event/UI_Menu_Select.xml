@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3474566310" Type="Event" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" Language="SFX" Hash="{425E49D8-A48D-6601-4D5E-3F1AFE4911CD}">
+		<SoundBank Id="3474566310" Type="Event" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" Language="SFX" Hash="{8CDEDFF4-633E-DC00-F838-C2C8BFFEF5C9}">
 			<ObjectPath>UI_Menu_Select</ObjectPath>
 			<ShortName>UI_Menu_Select</ShortName>
 			<Path>Event/UI_Menu_Select.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="283502581" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\UI\UI\UI_Menu\UI_Menu_Select\UI_Menu_StartGame\Silence" GUID="{4954B77D-7EFE-4B79-B166-91AA295A2B7E}" LibName="Wwise Silence" LibId="6619138"/>
-				</Custom>
-			</Plugins>
+			<Media>
+				<File Id="741852206" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Select\UI_Menu_Select_03.wav</ShortName>
+					<Path>Media/741852206.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Select/UI_Menu_Select_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="811488791" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Select\UI_Menu_Select_02.wav</ShortName>
+					<Path>Media/811488791.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Select/UI_Menu_Select_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="848808628" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\UI_Menu_Select\UI_Menu_Select_01.wav</ShortName>
+					<Path>Media/848808628.wem</Path>
+					<CachePath>SFX/UI/UI_Menu_Select/UI_Menu_Select_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Select" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="283502581"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Select" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" DurationType="OneShot" DurationMin="0.16666667" DurationMax="0.16666667">
+					<MediaRefs>
+						<MediaRef Id="741852206"/>
+						<MediaRef Id="811488791"/>
+						<MediaRef Id="848808628"/>
+					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3B7B945A-44FA-B8CC-D14E-0F61C7E80D44}</FileHash>
+	<FileHash>{4E55D532-B0AB-E35F-BE37-895509AF0D8E}</FileHash>
 </SoundBanksInfo>
