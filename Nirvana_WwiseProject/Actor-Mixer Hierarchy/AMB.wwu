@@ -8,6 +8,13 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="AMB" ID="{39851154-08C5-41BE-B72B-F410A9517CB9}" ShortID="243716419">
+					<PropertyList>
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>55</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>

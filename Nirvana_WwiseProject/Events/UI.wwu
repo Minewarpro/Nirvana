@@ -44,6 +44,40 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{5C21BD1D-37F8-4E0A-AF62-881DAFB6D5CD}" ShortID="247641116">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ST_Game_Ingame" ID="{2B772789-F7D4-4DA6-B872-245923DBF8F4}" WorkUnitID="{7A94052A-7624-4EE3-9CFC-000795F59B33}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C9DA11EC-AF92-4DE3-86B5-003AC256DBDA}" ShortID="783059868">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="10"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList/>
+									<ChildrenList>
+										<EventActionException Name="" ID="{92584A17-9D29-4EA6-8ACA-C7A0A7B9F297}">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB" ID="{EE760A39-D2EB-4347-805B-1990EA7A41E5}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+										</EventActionException>
+										<EventActionException Name="" ID="{F57B01D8-C78B-406D-A77D-78E2BB7D2C3E}">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MUSIC" ID="{259C0FDF-0A43-4EF9-953B-97C77523ACD6}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+										</EventActionException>
+									</ChildrenList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="UI_Menu_Select" ID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}">
@@ -76,6 +110,40 @@
 											<ObjectRef Name="UI_Menu_Pause" ID="{96818A75-1363-4564-86D9-FDC7BE9F6910}" WorkUnitID="{47622809-9150-48BD-81F0-287B0DE5831F}"/>
 										</Reference>
 									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DC8C3FD9-282D-42EF-8549-7416DE9085A9}" ShortID="803813246">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ST_Game_InMenu" ID="{CBADC631-6FAE-4AA9-A719-D83BE67BF4C4}" WorkUnitID="{7A94052A-7624-4EE3-9CFC-000795F59B33}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8E8E6DDE-202F-41BB-A30E-2FB87FCC46E5}" ShortID="87233261">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="8"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList/>
+									<ChildrenList>
+										<EventActionException Name="" ID="{F5880F67-424A-4612-9B33-E999A73BEAE0}">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB" ID="{EE760A39-D2EB-4347-805B-1990EA7A41E5}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+										</EventActionException>
+										<EventActionException Name="" ID="{99117CE3-846E-4416-8E3A-D8E676A7E453}">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MUSIC" ID="{259C0FDF-0A43-4EF9-953B-97C77523ACD6}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+										</EventActionException>
+									</ChildrenList>
 								</Action>
 							</ChildrenList>
 						</Event>

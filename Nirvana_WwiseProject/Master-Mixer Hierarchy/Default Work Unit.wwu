@@ -13,8 +13,41 @@
 						<Bus Name="MUSIC" ID="{259C0FDF-0A43-4EF9-953B-97C77523ACD6}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="ST_Game" ID="{C2AFF852-6A2D-42B0-B06B-6CF588CE17D6}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="ST_Game_InMenu" ID="{CBADC631-6FAE-4AA9-A719-D83BE67BF4C4}"/>
+										<CustomState Name="" ID="{A1560AFA-6D89-424F-B82E-A264A56AC07D}" ShortID="597334335">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-7"/>
+												<Property Name="Lowpass" Type="int16" Value="24"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ST_Game_Ingame" ID="{2B772789-F7D4-4DA6-B872-245923DBF8F4}"/>
+										<CustomState Name="" ID="{E3AFD6B5-65A9-4633-B95C-6D7CA61ECDFE}" ShortID="98093805"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>
@@ -58,7 +91,18 @@
 						<Bus Name="VO" ID="{A66B3553-37CD-4DF1-A039-29B29862AE71}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>16</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
@@ -110,8 +154,41 @@
 											</ValueList>
 										</Property>
 										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>24</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="ST_Game" ID="{C2AFF852-6A2D-42B0-B06B-6CF588CE17D6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="ST_Game_InMenu" ID="{CBADC631-6FAE-4AA9-A719-D83BE67BF4C4}"/>
+												<CustomState Name="" ID="{E7DC10A7-05FA-4661-B0E7-45F803B04EE2}" ShortID="318491876">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-8"/>
+														<Property Name="Lowpass" Type="int16" Value="36"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="ST_Game_Ingame" ID="{2B772789-F7D4-4DA6-B872-245923DBF8F4}"/>
+												<CustomState Name="" ID="{5DDA82AF-301B-4BDC-B908-5A6AA95F53AC}" ShortID="654716203"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</Bus>
 								<Bus Name="FOL" ID="{34585413-9811-4024-A999-0FD1F5006959}">
 									<PropertyList>
@@ -121,7 +198,17 @@
 											</ValueList>
 										</Property>
 										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 								</Bus>
 								<Bus Name="FT" ID="{DF3B16E9-05D8-4FDA-9CCB-41F48D9B5570}">
@@ -132,7 +219,17 @@
 											</ValueList>
 										</Property>
 										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 								</Bus>
 								<Bus Name="SFX" ID="{0716D6A6-9EDE-421F-B512-812E2E935389}">
@@ -143,7 +240,19 @@
 											</ValueList>
 										</Property>
 										<Property Name="Color" Type="int16" Value="13"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 								</Bus>
 								<Bus Name="UI" ID="{020D4FC4-5D20-4295-9814-95DBB08CA8D4}">
@@ -154,7 +263,17 @@
 											</ValueList>
 										</Property>
 										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 								</Bus>
 								<Bus Name="Rev" ID="{D5102433-A85B-44B5-866F-42774E67FBB2}">
@@ -218,6 +337,27 @@
 							</ObjectLists>
 						</Bus>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="ST_MC" ID="{B119F911-B8B1-4692-8D88-85CD1E0E2FF0}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="ST_MC_Alive" ID="{042EC5B6-0754-4086-A73F-F15C1A57F0BF}"/>
+								<CustomState Name="" ID="{4E408B09-BFCD-4E69-AB69-FCB0E8711559}" ShortID="391782085"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="ST_MC_Dead" ID="{419E2B39-E7AB-4F3A-9C10-F87F6940E4FF}"/>
+								<CustomState Name="" ID="{5CC829F1-0B12-4169-B989-EDF4F40B0480}" ShortID="751883502">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="23"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists>
 						<ObjectList Name="RTPC">
 							<Reference>

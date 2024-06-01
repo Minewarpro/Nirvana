@@ -6,16 +6,14 @@
 				<StateGroup Name="ST_MC" ID="{B119F911-B8B1-4692-8D88-85CD1E0E2FF0}">
 					<ChildrenList>
 						<State Name="None" ID="{79530131-2A27-4D39-BC4A-27241EAEC0BA}"/>
-						<State Name="ST_CM_Alive" ID="{042EC5B6-0754-4086-A73F-F15C1A57F0BF}"/>
+						<State Name="ST_MC_Alive" ID="{042EC5B6-0754-4086-A73F-F15C1A57F0BF}"/>
 						<State Name="ST_MC_Dead" ID="{419E2B39-E7AB-4F3A-9C10-F87F6940E4FF}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="ST_Lvl" ID="{8D12A37A-0E8A-4CD1-93E8-E9EEA4E83FEA}">
-					<ChildrenList>
-						<State Name="None" ID="{E846BDDB-2E77-4C98-A6D3-B1F1C8E26430}"/>
-					</ChildrenList>
-				</StateGroup>
 				<StateGroup Name="ST_Game" ID="{C2AFF852-6A2D-42B0-B06B-6CF588CE17D6}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.4"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{2EF11E60-4DB1-49AF-83CD-F5C803E1FD88}"/>
 						<State Name="ST_Game_Ingame" ID="{2B772789-F7D4-4DA6-B872-245923DBF8F4}"/>

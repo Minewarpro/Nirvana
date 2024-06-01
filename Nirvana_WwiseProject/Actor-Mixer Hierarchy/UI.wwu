@@ -10,14 +10,15 @@
 				<ActorMixer Name="UI" ID="{7B4A1F5E-5B27-444F-BA49-82A7530F5358}" ShortID="725874602">
 					<PropertyList>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
-								<Value>2</Value>
+								<Value>6</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
-								<Value>70</Value>
+								<Value>95</Value>
 							</ValueList>
 						</Property>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
@@ -37,6 +38,17 @@
 					<ChildrenList>
 						<ActorMixer Name="UI_InGame" ID="{8C01176D-86B8-44A2-B1CE-3AD4D29C5F86}" ShortID="16077745">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -269,6 +281,17 @@
 						</ActorMixer>
 						<ActorMixer Name="UI_Menu" ID="{0C25A86F-0C5C-4118-91B5-258F12597717}" ShortID="786692131">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
