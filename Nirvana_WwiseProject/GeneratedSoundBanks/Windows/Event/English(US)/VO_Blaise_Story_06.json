@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "166528142",
+    "Type": "Event",
+    "GUID": "{B8C3520B-DB21-4758-BC89-FB2261E22A0E}",
+    "Language": "English(US)",
+    "Hash": "{33A224D7-C90E-FE8F-249B-2446C8ED5270}",
+    "ObjectPath": "VO_Blaise_Story_06",
+    "ShortName": "VO_Blaise_Story_06",
+    "Path": "Event/English(US)/VO_Blaise_Story_06.bnk",
+    "Media": [
+     {
+      "Id": "597331527",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Blaise_Story\\VO_Blaise_Story_06.wav",
+      "Path": "Media/English(US)/597331527.wem",
+      "CachePath": "Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_06_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "166528142",
+      "Name": "VO_Blaise_Story_06",
+      "ObjectPath": "\\Events\\VO\\VO_Blaise_Story\\VO_Blaise_Story_06",
+      "GUID": "{B8C3520B-DB21-4758-BC89-FB2261E22A0E}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1733334",
+      "DurationMax": "2.1733334",
+      "MediaRefs": [
+       {
+        "Id": "597331527"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2522F016-958D-C842-2A10-0572F9026981}"
+ }
+}

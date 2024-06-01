@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2464802032" Type="Event" GUID="{B796DA7F-EE90-4019-91D4-4EA8A71C83A4}" Language="English(US)" Hash="{DCB8D353-8C5D-0E6B-94EF-E54B809A75B9}">
+			<ObjectPath>VO_Diana_Story_01</ObjectPath>
+			<ShortName>VO_Diana_Story_01</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_01.bnk</Path>
+			<Media>
+				<File Id="993424846" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_01.wav</ShortName>
+					<Path>Media/English(US)/993424846.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2464802032" Name="VO_Diana_Story_01" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_01" GUID="{B796DA7F-EE90-4019-91D4-4EA8A71C83A4}" DurationType="OneShot" DurationMin="0.64" DurationMax="0.64">
+					<MediaRefs>
+						<MediaRef Id="993424846"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B60DB34F-69B7-AB7C-B50D-E5926F0222D8}</FileHash>
+</SoundBanksInfo>

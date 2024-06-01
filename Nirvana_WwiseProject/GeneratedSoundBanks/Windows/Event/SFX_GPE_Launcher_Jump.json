@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "535776511",
+    "Type": "Event",
+    "GUID": "{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}",
+    "Language": "SFX",
+    "Hash": "{D74B1957-1CCF-6C81-B06D-1445F4BE2E8B}",
+    "ObjectPath": "SFX_GPE_Launcher_Jump",
+    "ShortName": "SFX_GPE_Launcher_Jump",
+    "Path": "Event/SFX_GPE_Launcher_Jump.bnk",
+    "Media": [
+     {
+      "Id": "188956989",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_GPE\\SFX_GPE_Launcher_Jump\\SFX_GPE_Launcher_Jump_03.wav",
+      "Path": "Media/188956989.wem",
+      "CachePath": "SFX/SFX/SFX_GPE/SFX_GPE_Launcher_Jump/SFX_GPE_Launcher_Jump_03_818F3B66.wem"
+     },
+     {
+      "Id": "341882187",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_GPE\\SFX_GPE_Launcher_Jump\\SFX_GPE_Launcher_Jump_02.wav",
+      "Path": "Media/341882187.wem",
+      "CachePath": "SFX/SFX/SFX_GPE/SFX_GPE_Launcher_Jump/SFX_GPE_Launcher_Jump_02_818F3B66.wem"
+     },
+     {
+      "Id": "1062649910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_GPE\\SFX_GPE_Launcher_Jump\\SFX_GPE_Launcher_Jump_01.wav",
+      "Path": "Media/1062649910.wem",
+      "CachePath": "SFX/SFX/SFX_GPE/SFX_GPE_Launcher_Jump/SFX_GPE_Launcher_Jump_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "535776511",
+      "Name": "SFX_GPE_Launcher_Jump",
+      "ObjectPath": "\\Events\\SFX\\SFX_GPE\\SFX_GPE_Launcher_Jump",
+      "GUID": "{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}",
+      "MaxAttenuation": "2500",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "188956989"
+       },
+       {
+        "Id": "341882187"
+       },
+       {
+        "Id": "1062649910"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1D8F30EB-1AAD-A5B8-2FC1-9134889ACAD2}"
+ }
+}

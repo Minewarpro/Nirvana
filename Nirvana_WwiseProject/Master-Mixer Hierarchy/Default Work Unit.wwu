@@ -85,6 +85,47 @@
 											</RTPC>
 										</Local>
 									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{CD8036A2-A214-4846-9F81-A2D6C1EEFCA8}" ShortID="876494908">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_SFX_MC_Weapon_Meter" ID="{86852467-6F73-4A7D-A970-056FB33188A5}" WorkUnitID="{A3920CC9-FB3C-4627-B975-069309E97AC7}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{191E4A6C-65FA-4BA0-83F2-8344D4F97DE8}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-96</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-27</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-9</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
 								</ObjectList>
 							</ObjectLists>
 						</Bus>
@@ -189,6 +230,51 @@
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{829D941C-C4AF-4D3E-A009-AFDF9322A672}" ShortID="361985299">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="RTPC_SFX_MC_Weapon_Meter" ID="{86852467-6F73-4A7D-A970-056FB33188A5}" WorkUnitID="{A3920CC9-FB3C-4627-B975-069309E97AC7}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{D0EEA908-7C94-446C-93C1-6A8CDD947829}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-96</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>-27</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-9</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</Bus>
 								<Bus Name="FOL" ID="{34585413-9811-4024-A999-0FD1F5006959}">
 									<PropertyList>
@@ -254,6 +340,35 @@
 											</ValueList>
 										</Property>
 									</PropertyList>
+									<ChildrenList>
+										<Bus Name="SFX_MC_Weapon" ID="{EB51325C-73E9-4506-A90C-000CAEB5D97D}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{646863F3-4627-42C7-B560-1E376FFD756B}" ShortID="1064949417">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="Meter (Custom)" ID="{417C41AE-A40F-4257-BE72-E499229A6261}" ShortID="491419128" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																				<PropertyList>
+																					<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+																					<Property Name="MeterMode" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PluginData>
+	<GameParameter Name="RTPC_SFX_MC_Weapon_Meter" ID="{86852467-6F73-4A7D-A970-056FB33188A5}"/>
+</PluginData>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+									</ChildrenList>
 								</Bus>
 								<Bus Name="UI" ID="{020D4FC4-5D20-4295-9814-95DBB08CA8D4}">
 									<PropertyList>

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1429928469",
+    "Type": "Event",
+    "GUID": "{5637DC57-1610-4B5B-B5CA-1D558668C593}",
+    "Language": "English(US)",
+    "Hash": "{7191C6E2-F5F9-A6FF-7DFD-4E83EF895853}",
+    "ObjectPath": "VO_Anna_Gameplay_Goodjob",
+    "ShortName": "VO_Anna_Gameplay_Goodjob",
+    "Path": "Event/English(US)/VO_Anna_Gameplay_Goodjob.bnk",
+    "Media": [
+     {
+      "Id": "402755254",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Anna_Gameplay\\VO_Anna_Gameplay_Goodjob.wav",
+      "Path": "Media/English(US)/402755254.wem",
+      "CachePath": "Voices/English(US)/VO_Anna_Gameplay/VO_Anna_Gameplay_Goodjob_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1429928469",
+      "Name": "VO_Anna_Gameplay_Goodjob",
+      "ObjectPath": "\\Events\\VO\\VO_Anna_Gameplay\\VO_Anna_Gameplay_Goodjob",
+      "GUID": "{5637DC57-1610-4B5B-B5CA-1D558668C593}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8",
+      "DurationMax": "0.8",
+      "MediaRefs": [
+       {
+        "Id": "402755254"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{38011B7B-063C-0A22-7381-5019CBA3BDE4}"
+ }
+}

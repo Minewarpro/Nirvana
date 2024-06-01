@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="143716483" Type="Event" GUID="{844B1686-5B6E-4969-A0E1-C1EC55780849}" Language="English(US)" Hash="{D5A1DF6D-1C7A-0296-26F3-DE352DB7763F}">
+			<ObjectPath>VO_Ari_Gameplay_Drowning</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Drowning</ShortName>
+			<Path>Event/English(US)/VO_Ari_Gameplay_Drowning.bnk</Path>
+			<Media>
+				<File Id="580722361" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Drowning\VO_Ari_Gameplay_Drowning_04.wav</ShortName>
+					<Path>Media/English(US)/580722361.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Drowning/VO_Ari_Gameplay_Drowning_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="665322241" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Drowning\VO_Ari_Gameplay_Drowning_02.wav</ShortName>
+					<Path>Media/English(US)/665322241.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Drowning/VO_Ari_Gameplay_Drowning_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="768000172" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Drowning\VO_Ari_Gameplay_Drowning_03.wav</ShortName>
+					<Path>Media/English(US)/768000172.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Drowning/VO_Ari_Gameplay_Drowning_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="879119373" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Drowning\VO_Ari_Gameplay_Drowning_01.wav</ShortName>
+					<Path>Media/English(US)/879119373.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Drowning/VO_Ari_Gameplay_Drowning_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="143716483" Name="VO_Ari_Gameplay_Drowning" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Drowning" GUID="{844B1686-5B6E-4969-A0E1-C1EC55780849}" DurationType="OneShot" DurationMin="0.32" DurationMax="1.16">
+					<MediaRefs>
+						<MediaRef Id="580722361"/>
+						<MediaRef Id="665322241"/>
+						<MediaRef Id="768000172"/>
+						<MediaRef Id="879119373"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9570249D-E9D3-E28D-C3EB-F3D00507F092}</FileHash>
+</SoundBanksInfo>

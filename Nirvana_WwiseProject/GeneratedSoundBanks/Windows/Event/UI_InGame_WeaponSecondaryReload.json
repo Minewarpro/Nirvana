@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B9E09E34-9199-4EDF-8B27-A6298B752B94}",
     "Language": "SFX",
-    "Hash": "{AFEBB6B6-3740-8F84-3AA2-1F75D203076E}",
+    "Hash": "{ED015DDA-6509-C20F-7DD4-B2CDFC7BBEA4}",
     "ObjectPath": "UI_InGame_WeaponSecondaryReload",
     "ShortName": "UI_InGame_WeaponSecondaryReload",
     "Path": "Event/UI_InGame_WeaponSecondaryReload.bnk",
@@ -79,6 +79,6 @@
     ]
    }
   ],
-  "FileHash": "{142F11B9-70FE-396E-233D-A89F23834CA5}"
+  "FileHash": "{F2A0F527-2AC2-E409-8860-AE096D6E7E2E}"
  }
 }

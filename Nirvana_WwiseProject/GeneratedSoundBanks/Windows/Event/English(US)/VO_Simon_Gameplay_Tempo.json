@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1418405702",
+    "Type": "Event",
+    "GUID": "{70E37884-3CEF-492F-9647-372F133334D1}",
+    "Language": "English(US)",
+    "Hash": "{5F7ADE63-873B-5695-1902-FACED7443082}",
+    "ObjectPath": "VO_Simon_Gameplay_Tempo",
+    "ShortName": "VO_Simon_Gameplay_Tempo",
+    "Path": "Event/English(US)/VO_Simon_Gameplay_Tempo.bnk",
+    "Media": [
+     {
+      "Id": "182734550",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Simon_Gameplay\\VO_Simon_Gameplay_Tempo.wav",
+      "Path": "Media/English(US)/182734550.wem",
+      "CachePath": "Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_Tempo_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1418405702",
+      "Name": "VO_Simon_Gameplay_Tempo",
+      "ObjectPath": "\\Events\\VO\\VO_Simon_Gameplay\\VO_Simon_Gameplay_Tempo",
+      "GUID": "{70E37884-3CEF-492F-9647-372F133334D1}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8",
+      "DurationMax": "1.8",
+      "MediaRefs": [
+       {
+        "Id": "182734550"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{098802AD-7463-8FB6-D68C-B3507CF8B587}"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2699544719",
+    "Type": "Event",
+    "GUID": "{0468A734-9547-42F4-B80E-337C2AC901A2}",
+    "Language": "English(US)",
+    "Hash": "{00F9D873-26B9-167E-8BE9-F132A4A101AD}",
+    "ObjectPath": "VO_Ari_Gameplay_Breath",
+    "ShortName": "VO_Ari_Gameplay_Breath",
+    "Path": "Event/English(US)/VO_Ari_Gameplay_Breath.bnk",
+    "Media": [
+     {
+      "Id": "72894477",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Breath\\VO_Ari_Gameplay_Breath_01.wav",
+      "Path": "Media/English(US)/72894477.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Breath/VO_Ari_Gameplay_Breath_01_818F3B66.wem"
+     },
+     {
+      "Id": "337048800",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Breath\\VO_Ari_Gameplay_Breath_02.wav",
+      "Path": "Media/English(US)/337048800.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Breath/VO_Ari_Gameplay_Breath_02_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2699544719",
+      "Name": "VO_Ari_Gameplay_Breath",
+      "ObjectPath": "\\Events\\VO\\VO_Ari_Gameplay\\VO_Ari_Gameplay_Breath",
+      "GUID": "{0468A734-9547-42F4-B80E-337C2AC901A2}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.44",
+      "DurationMax": "4.5333333",
+      "MediaRefs": [
+       {
+        "Id": "72894477"
+       },
+       {
+        "Id": "337048800"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E7806094-A423-DE6B-B12D-395FE431CC21}"
+ }
+}

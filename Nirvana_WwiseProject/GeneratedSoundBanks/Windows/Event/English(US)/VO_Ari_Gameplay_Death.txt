@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2999750269	VO_Ari_Gameplay_Death			\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Death	
+

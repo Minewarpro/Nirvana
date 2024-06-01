@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1121555166	VO_Ari_Gameplay_Hurt			\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt	
+

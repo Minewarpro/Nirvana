@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	339325342	SFX_MC_Weapon_Chakrams_SecondaryShot			\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot	
+

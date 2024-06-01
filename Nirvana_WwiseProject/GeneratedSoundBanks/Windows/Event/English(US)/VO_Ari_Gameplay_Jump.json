@@ -1,0 +1,84 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1316916725",
+    "Type": "Event",
+    "GUID": "{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}",
+    "Language": "English(US)",
+    "Hash": "{2F3740A4-4FEA-C161-8AD1-84E8B3066736}",
+    "ObjectPath": "VO_Ari_Gameplay_Jump",
+    "ShortName": "VO_Ari_Gameplay_Jump",
+    "Path": "Event/English(US)/VO_Ari_Gameplay_Jump.bnk",
+    "Media": [
+     {
+      "Id": "16663919",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Jump\\VO_Ari_Gameplay_Jump_04.wav",
+      "Path": "Media/English(US)/16663919.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Jump/VO_Ari_Gameplay_Jump_04_818F3B66.wem"
+     },
+     {
+      "Id": "341084454",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Jump\\VO_Ari_Gameplay_Jump_02.wav",
+      "Path": "Media/English(US)/341084454.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Jump/VO_Ari_Gameplay_Jump_02_818F3B66.wem"
+     },
+     {
+      "Id": "663140022",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Jump\\VO_Ari_Gameplay_Jump_03.wav",
+      "Path": "Media/English(US)/663140022.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Jump/VO_Ari_Gameplay_Jump_03_818F3B66.wem"
+     },
+     {
+      "Id": "767977757",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Jump\\VO_Ari_Gameplay_Jump_01.wav",
+      "Path": "Media/English(US)/767977757.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Jump/VO_Ari_Gameplay_Jump_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1316916725",
+      "Name": "VO_Ari_Gameplay_Jump",
+      "ObjectPath": "\\Events\\VO\\VO_Ari_Gameplay\\VO_Ari_Gameplay_Jump",
+      "GUID": "{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.26666668",
+      "DurationMax": "0.4",
+      "MediaRefs": [
+       {
+        "Id": "16663919"
+       },
+       {
+        "Id": "341084454"
+       },
+       {
+        "Id": "663140022"
+       },
+       {
+        "Id": "767977757"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{144FBCC2-9D17-F1B4-C2E8-B494D3D1AC2A}"
+ }
+}

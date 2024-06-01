@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	200083439	VO_Blaise_Story_21			\VO\VO_Blaise_Story\VO_Blaise_Story_21	
+

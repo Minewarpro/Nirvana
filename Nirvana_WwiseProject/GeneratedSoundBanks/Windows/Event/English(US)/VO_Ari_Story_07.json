@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3927651219",
+    "Type": "Event",
+    "GUID": "{B42545FA-0E40-4236-A59F-D03FD2A990F2}",
+    "Language": "English(US)",
+    "Hash": "{35FF9EF5-650D-E90C-5DAD-80FBBACF1195}",
+    "ObjectPath": "VO_Ari_Story_07",
+    "ShortName": "VO_Ari_Story_07",
+    "Path": "Event/English(US)/VO_Ari_Story_07.bnk",
+    "Media": [
+     {
+      "Id": "875177827",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Story\\VO_Ari_Story_07.wav",
+      "Path": "Media/English(US)/875177827.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Story/VO_Ari_Story_07_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3927651219",
+      "Name": "VO_Ari_Story_07",
+      "ObjectPath": "\\Events\\VO\\VO_Ari_Story\\VO_Ari_Story_07",
+      "GUID": "{B42545FA-0E40-4236-A59F-D03FD2A990F2}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.72",
+      "DurationMax": "1.72",
+      "MediaRefs": [
+       {
+        "Id": "875177827"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F35B0FD6-EEF2-670B-9142-5D1D59CA1C1E}"
+ }
+}

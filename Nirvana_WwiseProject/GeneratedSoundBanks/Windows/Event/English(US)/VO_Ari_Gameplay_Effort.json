@@ -1,0 +1,96 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "798162039",
+    "Type": "Event",
+    "GUID": "{14412A49-EE02-4B5F-9198-987A15F0CC83}",
+    "Language": "English(US)",
+    "Hash": "{DA59D297-6CC9-C225-9569-EF394303E8C5}",
+    "ObjectPath": "VO_Ari_Gameplay_Effort",
+    "ShortName": "VO_Ari_Gameplay_Effort",
+    "Path": "Event/English(US)/VO_Ari_Gameplay_Effort.bnk",
+    "Media": [
+     {
+      "Id": "15835442",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Effort\\VO_Ari_Gameplay_Effort_04.wav",
+      "Path": "Media/English(US)/15835442.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_04_818F3B66.wem"
+     },
+     {
+      "Id": "163928903",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Effort\\VO_Ari_Gameplay_Effort_05.wav",
+      "Path": "Media/English(US)/163928903.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_05_818F3B66.wem"
+     },
+     {
+      "Id": "305062779",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Effort\\VO_Ari_Gameplay_Effort_03.wav",
+      "Path": "Media/English(US)/305062779.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_03_818F3B66.wem"
+     },
+     {
+      "Id": "417181262",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Effort\\VO_Ari_Gameplay_Effort_02.wav",
+      "Path": "Media/English(US)/417181262.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_02_818F3B66.wem"
+     },
+     {
+      "Id": "1001602239",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Effort\\VO_Ari_Gameplay_Effort_01.wav",
+      "Path": "Media/English(US)/1001602239.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "798162039",
+      "Name": "VO_Ari_Gameplay_Effort",
+      "ObjectPath": "\\Events\\VO\\VO_Ari_Gameplay\\VO_Ari_Gameplay_Effort",
+      "GUID": "{14412A49-EE02-4B5F-9198-987A15F0CC83}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.18666667",
+      "DurationMax": "1.28",
+      "MediaRefs": [
+       {
+        "Id": "15835442"
+       },
+       {
+        "Id": "163928903"
+       },
+       {
+        "Id": "305062779"
+       },
+       {
+        "Id": "417181262"
+       },
+       {
+        "Id": "1001602239"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8762A751-152C-C169-0167-E08A94F42B4F}"
+ }
+}

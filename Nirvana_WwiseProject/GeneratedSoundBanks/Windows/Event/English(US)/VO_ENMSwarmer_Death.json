@@ -1,0 +1,84 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1621795231",
+    "Type": "Event",
+    "GUID": "{204211B5-C26C-48ED-B0C4-A5EB27971367}",
+    "Language": "English(US)",
+    "Hash": "{F7769A60-C771-4ABC-524F-6EF7695ABA63}",
+    "ObjectPath": "VO_ENMSwarmer_Death",
+    "ShortName": "VO_ENMSwarmer_Death",
+    "Path": "Event/English(US)/VO_ENMSwarmer_Death.bnk",
+    "Media": [
+     {
+      "Id": "254129431",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_ENMSwarmer_Death\\VO_ENMSwarmer_Death_04.wav",
+      "Path": "Media/English(US)/254129431.wem",
+      "CachePath": "Voices/English(US)/VO_ENMSwarmer_Death/VO_ENMSwarmer_Death_04_818F3B66.wem"
+     },
+     {
+      "Id": "563268747",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_ENMSwarmer_Death\\VO_ENMSwarmer_Death_01.wav",
+      "Path": "Media/English(US)/563268747.wem",
+      "CachePath": "Voices/English(US)/VO_ENMSwarmer_Death/VO_ENMSwarmer_Death_01_818F3B66.wem"
+     },
+     {
+      "Id": "666561006",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_ENMSwarmer_Death\\VO_ENMSwarmer_Death_02.wav",
+      "Path": "Media/English(US)/666561006.wem",
+      "CachePath": "Voices/English(US)/VO_ENMSwarmer_Death/VO_ENMSwarmer_Death_02_818F3B66.wem"
+     },
+     {
+      "Id": "946249037",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_ENMSwarmer_Death\\VO_ENMSwarmer_Death_03.wav",
+      "Path": "Media/English(US)/946249037.wem",
+      "CachePath": "Voices/English(US)/VO_ENMSwarmer_Death/VO_ENMSwarmer_Death_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1621795231",
+      "Name": "VO_ENMSwarmer_Death",
+      "ObjectPath": "\\Events\\VO\\VO_ENMSwarmer_Death",
+      "GUID": "{204211B5-C26C-48ED-B0C4-A5EB27971367}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.48",
+      "DurationMax": "4.266667",
+      "MediaRefs": [
+       {
+        "Id": "254129431"
+       },
+       {
+        "Id": "563268747"
+       },
+       {
+        "Id": "666561006"
+       },
+       {
+        "Id": "946249037"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9BB465EA-3727-7C10-87F6-72D39A05DD9D}"
+ }
+}

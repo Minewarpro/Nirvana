@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3944428800" Type="Event" GUID="{8B6B82DB-3C4E-4D63-956E-8CB3752FC1EC}" Language="English(US)" Hash="{033E642B-0013-CF9A-5B50-C8D9859391D3}">
+			<ObjectPath>VO_Ari_Story_17</ObjectPath>
+			<ShortName>VO_Ari_Story_17</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_17.bnk</Path>
+			<Media>
+				<File Id="1055112617" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_17.wav</ShortName>
+					<Path>Media/English(US)/1055112617.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_17_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3944428800" Name="VO_Ari_Story_17" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_17" GUID="{8B6B82DB-3C4E-4D63-956E-8CB3752FC1EC}" DurationType="OneShot" DurationMin="5.0933332" DurationMax="5.0933332">
+					<MediaRefs>
+						<MediaRef Id="1055112617"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4E08CC05-CFA9-6B6D-8D41-FB4AE644B2C0}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "271131294",
+    "Type": "Event",
+    "GUID": "{AE3868ED-573A-461E-8507-AA60470E9B1A}",
+    "Language": "English(US)",
+    "Hash": "{A6453F20-5B39-8380-9A39-E51E026EF63F}",
+    "ObjectPath": "VO_Blaise_Gameplay_Tempo",
+    "ShortName": "VO_Blaise_Gameplay_Tempo",
+    "Path": "Event/English(US)/VO_Blaise_Gameplay_Tempo.bnk",
+    "Media": [
+     {
+      "Id": "786676972",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Blaise_Gameplay\\VO_Blaise_Gameplay_Tempo.wav",
+      "Path": "Media/English(US)/786676972.wem",
+      "CachePath": "Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_Tempo_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "271131294",
+      "Name": "VO_Blaise_Gameplay_Tempo",
+      "ObjectPath": "\\Events\\VO\\VO_Blaise_Gameplay\\VO_Blaise_Gameplay_Tempo",
+      "GUID": "{AE3868ED-573A-461E-8507-AA60470E9B1A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5333333",
+      "DurationMax": "1.5333333",
+      "MediaRefs": [
+       {
+        "Id": "786676972"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9376FD3B-E1AC-9CF4-7129-343D39E2E388}"
+ }
+}

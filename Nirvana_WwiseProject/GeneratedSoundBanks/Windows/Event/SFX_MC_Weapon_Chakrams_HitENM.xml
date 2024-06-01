@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2042202503" Type="Event" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" Language="SFX" Hash="{DAA62C2E-6904-5141-3CB3-9FFB87E447A8}">
+			<ObjectPath>SFX_MC_Weapon_Chakrams_HitENM</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Chakrams_HitENM</ShortName>
+			<Path>Event/SFX_MC_Weapon_Chakrams_HitENM.bnk</Path>
+			<Media>
+				<File Id="126299822" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_03.wav</ShortName>
+					<Path>Media/126299822.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitENM/SFX_MC_Weapon_Chakrams_HitENM_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="496619468" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_02.wav</ShortName>
+					<Path>Media/496619468.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitENM/SFX_MC_Weapon_Chakrams_HitENM_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="656579117" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_04.wav</ShortName>
+					<Path>Media/656579117.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitENM/SFX_MC_Weapon_Chakrams_HitENM_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="674792870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_06.wav</ShortName>
+					<Path>Media/674792870.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitENM/SFX_MC_Weapon_Chakrams_HitENM_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="824777770" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_05.wav</ShortName>
+					<Path>Media/824777770.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitENM/SFX_MC_Weapon_Chakrams_HitENM_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1027520118" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_01.wav</ShortName>
+					<Path>Media/1027520118.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitENM/SFX_MC_Weapon_Chakrams_HitENM_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2042202503" Name="SFX_MC_Weapon_Chakrams_HitENM" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.23333333" DurationMax="0.23333333">
+					<MediaRefs>
+						<MediaRef Id="126299822"/>
+						<MediaRef Id="496619468"/>
+						<MediaRef Id="656579117"/>
+						<MediaRef Id="674792870"/>
+						<MediaRef Id="824777770"/>
+						<MediaRef Id="1027520118"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B9A13A78-D815-BF32-B948-FBE2FAA87B93}</FileHash>
+</SoundBanksInfo>

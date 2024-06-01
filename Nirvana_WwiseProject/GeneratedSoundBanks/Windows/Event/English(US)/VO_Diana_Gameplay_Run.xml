@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3916625737" Type="Event" GUID="{2633593B-CB85-4E2A-B3B1-47322616C39D}" Language="English(US)" Hash="{EE7481E8-A142-29CA-F633-886A65ADE960}">
+			<ObjectPath>VO_Diana_Gameplay_Run</ObjectPath>
+			<ShortName>VO_Diana_Gameplay_Run</ShortName>
+			<Path>Event/English(US)/VO_Diana_Gameplay_Run.bnk</Path>
+			<Media>
+				<File Id="63235241" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Run\VO_Diana_Gameplay_Run_03.wav</ShortName>
+					<Path>Media/English(US)/63235241.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Run/VO_Diana_Gameplay_Run_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="182394479" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Run\VO_Diana_Gameplay_Run_01.wav</ShortName>
+					<Path>Media/English(US)/182394479.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Run/VO_Diana_Gameplay_Run_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="338659443" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Run\VO_Diana_Gameplay_Run_02.wav</ShortName>
+					<Path>Media/English(US)/338659443.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Run/VO_Diana_Gameplay_Run_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3916625737" Name="VO_Diana_Gameplay_Run" ObjectPath="\Events\VO\VO_Diana_Gameplay\VO_Diana_Gameplay_Run" GUID="{2633593B-CB85-4E2A-B3B1-47322616C39D}" DurationType="OneShot" DurationMin="1.1866666" DurationMax="1.2933333">
+					<MediaRefs>
+						<MediaRef Id="63235241"/>
+						<MediaRef Id="182394479"/>
+						<MediaRef Id="338659443"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{124E0118-B135-C435-EA31-81DA8E2CCDED}</FileHash>
+</SoundBanksInfo>

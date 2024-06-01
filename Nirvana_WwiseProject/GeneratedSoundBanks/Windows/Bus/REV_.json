@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{61B63A27-C395-4317-A4AA-DEE793D4B30D}",
     "Language": "SFX",
-    "Hash": "{74A042F7-0B93-AF60-69F3-45B6F9432609}",
+    "Hash": "{CB1ECB0C-8B80-A7A6-86A1-A9FE7A2EBC2E}",
     "ObjectPath": "REV_",
     "ShortName": "REV_",
     "Path": "Bus/REV_.bnk",
@@ -24,6 +24,6 @@
     ]
    }
   ],
-  "FileHash": "{C96ACA63-E27F-DA46-3157-675A1F5199A0}"
+  "FileHash": "{A37198C5-9392-EA76-94DD-E54CD99F3877}"
  }
 }

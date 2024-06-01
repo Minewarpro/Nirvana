@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	143716483	VO_Ari_Gameplay_Drowning			\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Drowning	
+

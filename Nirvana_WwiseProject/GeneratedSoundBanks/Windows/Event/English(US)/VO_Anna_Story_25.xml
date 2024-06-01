@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="617676897" Type="Event" GUID="{0AE39232-76C9-4CF8-9125-81E7A72CC52C}" Language="English(US)" Hash="{C26BF543-D87E-8740-35CB-3CE8C9132DDB}">
+			<ObjectPath>VO_Anna_Story_25</ObjectPath>
+			<ShortName>VO_Anna_Story_25</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_25.bnk</Path>
+			<Media>
+				<File Id="265455360" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_25.wav</ShortName>
+					<Path>Media/English(US)/265455360.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_25_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="617676897" Name="VO_Anna_Story_25" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_25" GUID="{0AE39232-76C9-4CF8-9125-81E7A72CC52C}" DurationType="OneShot" DurationMin="12.8133335" DurationMax="12.8133335">
+					<MediaRefs>
+						<MediaRef Id="265455360"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EFA494AA-4803-19A8-B3DC-3EB74C7086D5}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2097537283",
+    "Type": "Event",
+    "GUID": "{AC82A196-39B4-4124-9B67-3B8333621F55}",
+    "Language": "English(US)",
+    "Hash": "{9470FD57-695B-63F7-3873-FEEB1E5E0020}",
+    "ObjectPath": "VO_Diana_Gameplay_No",
+    "ShortName": "VO_Diana_Gameplay_No",
+    "Path": "Event/English(US)/VO_Diana_Gameplay_No.bnk",
+    "Media": [
+     {
+      "Id": "59065879",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Diana_Gameplay\\VO_Diana_Gameplay_No\\VO_Diana_Gameplay_No_02.wav",
+      "Path": "Media/English(US)/59065879.wem",
+      "CachePath": "Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_No/VO_Diana_Gameplay_No_02_818F3B66.wem"
+     },
+     {
+      "Id": "147667645",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Diana_Gameplay\\VO_Diana_Gameplay_No\\VO_Diana_Gameplay_No_03.wav",
+      "Path": "Media/English(US)/147667645.wem",
+      "CachePath": "Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_No/VO_Diana_Gameplay_No_03_818F3B66.wem"
+     },
+     {
+      "Id": "722257549",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Diana_Gameplay\\VO_Diana_Gameplay_No\\VO_Diana_Gameplay_No_01.wav",
+      "Path": "Media/English(US)/722257549.wem",
+      "CachePath": "Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_No/VO_Diana_Gameplay_No_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2097537283",
+      "Name": "VO_Diana_Gameplay_No",
+      "ObjectPath": "\\Events\\VO\\VO_Diana_Gameplay\\VO_Diana_Gameplay_No",
+      "GUID": "{AC82A196-39B4-4124-9B67-3B8333621F55}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.88",
+      "DurationMax": "1.0933334",
+      "MediaRefs": [
+       {
+        "Id": "59065879"
+       },
+       {
+        "Id": "147667645"
+       },
+       {
+        "Id": "722257549"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BE5BD305-2F25-34FE-3AA5-39BFB8692306}"
+ }
+}

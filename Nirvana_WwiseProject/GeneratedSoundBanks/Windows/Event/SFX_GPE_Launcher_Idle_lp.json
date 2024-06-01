@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4218817288",
+    "Type": "Event",
+    "GUID": "{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}",
+    "Language": "SFX",
+    "Hash": "{AEB7EFDF-6B3C-6132-2DA1-84AE7328C053}",
+    "ObjectPath": "SFX_GPE_Launcher_Idle_lp",
+    "ShortName": "SFX_GPE_Launcher_Idle_lp",
+    "Path": "Event/SFX_GPE_Launcher_Idle_lp.bnk",
+    "Media": [
+     {
+      "Id": "257206005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_GPE\\SFX_GPE_Launcher_Idle_lp.wav",
+      "Path": "Media/257206005.wem",
+      "CachePath": "SFX/SFX/SFX_GPE/SFX_GPE_Launcher_Idle_lp_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4218817288",
+      "Name": "SFX_GPE_Launcher_Idle_lp",
+      "ObjectPath": "\\Events\\SFX\\SFX_GPE\\SFX_GPE_Launcher_Idle_lp",
+      "GUID": "{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "257206005"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AE542588-F6E0-8D30-FD71-45D1B157B502}"
+ }
+}

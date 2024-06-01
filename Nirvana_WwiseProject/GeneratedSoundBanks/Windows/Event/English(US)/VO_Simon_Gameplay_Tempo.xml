@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1418405702" Type="Event" GUID="{70E37884-3CEF-492F-9647-372F133334D1}" Language="English(US)" Hash="{5F7ADE63-873B-5695-1902-FACED7443082}">
+			<ObjectPath>VO_Simon_Gameplay_Tempo</ObjectPath>
+			<ShortName>VO_Simon_Gameplay_Tempo</ShortName>
+			<Path>Event/English(US)/VO_Simon_Gameplay_Tempo.bnk</Path>
+			<Media>
+				<File Id="182734550" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Gameplay\VO_Simon_Gameplay_Tempo.wav</ShortName>
+					<Path>Media/English(US)/182734550.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_Tempo_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1418405702" Name="VO_Simon_Gameplay_Tempo" ObjectPath="\Events\VO\VO_Simon_Gameplay\VO_Simon_Gameplay_Tempo" GUID="{70E37884-3CEF-492F-9647-372F133334D1}" DurationType="OneShot" DurationMin="1.8" DurationMax="1.8">
+					<MediaRefs>
+						<MediaRef Id="182734550"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{45F08A5A-B441-0EE2-EC1E-75B03EA396CB}</FileHash>
+</SoundBanksInfo>

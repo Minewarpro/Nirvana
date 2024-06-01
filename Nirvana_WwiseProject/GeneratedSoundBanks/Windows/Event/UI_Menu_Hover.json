@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9407E2CD-5885-412D-9993-63CFFD24284F}",
     "Language": "SFX",
-    "Hash": "{957A594C-3216-4DA5-F44A-F66704D7FE93}",
+    "Hash": "{77C91CF7-B201-D4AA-A7C3-4B4C60BA43B4}",
     "ObjectPath": "UI_Menu_Hover",
     "ShortName": "UI_Menu_Hover",
     "Path": "Event/UI_Menu_Hover.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{845D7F3D-3BD3-9C93-73A2-C6BBA9A5B777}"
+  "FileHash": "{F6BA2763-7604-6C72-FC23-42C4353CE99B}"
  }
 }

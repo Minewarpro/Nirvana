@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="470000317" Type="Event" GUID="{F20C35C5-A27C-40E5-9C27-A263D5E63BE6}" Language="English(US)" Hash="{77F20655-8FAD-5748-1423-6D00E49C4F3A}">
+			<ObjectPath>VO_Simon_Story_34</ObjectPath>
+			<ShortName>VO_Simon_Story_34</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_34.bnk</Path>
+			<Media>
+				<File Id="176592139" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_34.wav</ShortName>
+					<Path>Media/English(US)/176592139.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_34_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="470000317" Name="VO_Simon_Story_34" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_34" GUID="{F20C35C5-A27C-40E5-9C27-A263D5E63BE6}" DurationType="OneShot" DurationMin="2.4133334" DurationMax="2.4133334">
+					<MediaRefs>
+						<MediaRef Id="176592139"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1EFFAF42-BC21-EE25-0DC0-C7037E0D6DA6}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	535776511	SFX_GPE_Launcher_Jump			\SFX\SFX_GPE\SFX_GPE_Launcher_Jump	
+

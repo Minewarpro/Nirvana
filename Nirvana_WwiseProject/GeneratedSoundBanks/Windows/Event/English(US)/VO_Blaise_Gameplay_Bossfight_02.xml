@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="340128845" Type="Event" GUID="{A012DD56-AF11-4C4C-BD0A-8E57B1ED80B6}" Language="English(US)" Hash="{46603F71-D292-5A3D-7F28-657B3455E440}">
+			<ObjectPath>VO_Blaise_Gameplay_Bossfight_02</ObjectPath>
+			<ShortName>VO_Blaise_Gameplay_Bossfight_02</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Gameplay_Bossfight_02.bnk</Path>
+			<Media>
+				<File Id="835176052" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Gameplay\VO_Blaise_Gameplay_Bossfight_02.wav</ShortName>
+					<Path>Media/English(US)/835176052.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_Bossfight_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="340128845" Name="VO_Blaise_Gameplay_Bossfight_02" ObjectPath="\Events\VO\VO_Blaise_Gameplay\VO_Blaise_Gameplay_Bossfight_02" GUID="{A012DD56-AF11-4C4C-BD0A-8E57B1ED80B6}" DurationType="OneShot" DurationMin="1.04" DurationMax="1.04">
+					<MediaRefs>
+						<MediaRef Id="835176052"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A1629D36-1449-43C6-E748-CD28913FBE58}</FileHash>
+</SoundBanksInfo>

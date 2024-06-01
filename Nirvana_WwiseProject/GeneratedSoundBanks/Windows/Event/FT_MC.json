@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}",
     "Language": "SFX",
-    "Hash": "{07C1FF08-D844-D286-FAA0-254E19DDA409}",
+    "Hash": "{261D1400-28B5-800D-EAF7-7E986CD7B97E}",
     "ObjectPath": "FT_MC",
     "ShortName": "FT_MC",
     "Path": "Event/FT_MC.bnk",
@@ -68,6 +68,6 @@
     ]
    }
   ],
-  "FileHash": "{5560299A-2F94-0D06-3FE7-A6AC97899DFB}"
+  "FileHash": "{93224B3A-A82B-C7C2-332F-9D7DD5C759EF}"
  }
 }

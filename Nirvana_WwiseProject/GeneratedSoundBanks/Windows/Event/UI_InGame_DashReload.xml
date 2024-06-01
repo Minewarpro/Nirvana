@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3087624999" Type="Event" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" Language="SFX" Hash="{F94163F3-8CA4-982A-051D-5AF3458C9886}">
+		<SoundBank Id="3087624999" Type="Event" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" Language="SFX" Hash="{333C0E8E-E29D-FEAE-D733-D6444B97FB91}">
 			<ObjectPath>UI_InGame_DashReload</ObjectPath>
 			<ShortName>UI_InGame_DashReload</ShortName>
 			<Path>Event/UI_InGame_DashReload.bnk</Path>
@@ -39,5 +39,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9B7999DA-8FBA-BCF9-E7AF-AE9F2AC6E0CE}</FileHash>
+	<FileHash>{D8AD963F-45BA-1B80-DE29-EA2ACBAE9448}</FileHash>
 </SoundBanksInfo>

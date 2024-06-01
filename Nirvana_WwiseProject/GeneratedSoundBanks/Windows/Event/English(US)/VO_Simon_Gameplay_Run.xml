@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2855648328" Type="Event" GUID="{CF346644-104F-4F5E-9F43-902F0F6F0B6D}" Language="English(US)" Hash="{C5AE3FB8-2A3E-8F36-6705-1F1776FE42B7}">
+			<ObjectPath>VO_Simon_Gameplay_Run</ObjectPath>
+			<ShortName>VO_Simon_Gameplay_Run</ShortName>
+			<Path>Event/English(US)/VO_Simon_Gameplay_Run.bnk</Path>
+			<Media>
+				<File Id="518618919" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Gameplay\VO_Simon_Gameplay_Run.wav</ShortName>
+					<Path>Media/English(US)/518618919.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_Run_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2855648328" Name="VO_Simon_Gameplay_Run" ObjectPath="\Events\VO\VO_Simon_Gameplay\VO_Simon_Gameplay_Run" GUID="{CF346644-104F-4F5E-9F43-902F0F6F0B6D}" DurationType="OneShot" DurationMin="1.4266666" DurationMax="1.4266666">
+					<MediaRefs>
+						<MediaRef Id="518618919"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FF4D9097-21AD-BF1C-F52B-1ECEECA0BB30}</FileHash>
+</SoundBanksInfo>

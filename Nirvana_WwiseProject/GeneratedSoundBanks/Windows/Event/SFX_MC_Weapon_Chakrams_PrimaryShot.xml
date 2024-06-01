@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1686072914" Type="Event" GUID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}" Language="SFX" Hash="{5E0E10A9-AA66-B4FA-721C-D2F03B7912FB}">
+			<ObjectPath>SFX_MC_Weapon_Chakrams_PrimaryShot</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Chakrams_PrimaryShot</ShortName>
+			<Path>Event/SFX_MC_Weapon_Chakrams_PrimaryShot.bnk</Path>
+			<Media>
+				<File Id="24544438" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_04.wav</ShortName>
+					<Path>Media/24544438.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="201811152" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_03.wav</ShortName>
+					<Path>Media/201811152.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="387324727" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_02.wav</ShortName>
+					<Path>Media/387324727.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="669476249" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_07.wav</ShortName>
+					<Path>Media/669476249.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="824077979" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_01.wav</ShortName>
+					<Path>Media/824077979.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="873240344" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_05.wav</ShortName>
+					<Path>Media/873240344.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="913408638" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_08.wav</ShortName>
+					<Path>Media/913408638.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="953156655" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_06.wav</ShortName>
+					<Path>Media/953156655.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_06_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1686072914" Name="SFX_MC_Weapon_Chakrams_PrimaryShot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot" GUID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.3" DurationMax="0.3">
+					<MediaRefs>
+						<MediaRef Id="24544438"/>
+						<MediaRef Id="201811152"/>
+						<MediaRef Id="387324727"/>
+						<MediaRef Id="669476249"/>
+						<MediaRef Id="824077979"/>
+						<MediaRef Id="873240344"/>
+						<MediaRef Id="913408638"/>
+						<MediaRef Id="953156655"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{80491FD4-4717-371A-6107-416FEE863578}</FileHash>
+</SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{65E4A520-CCE6-4EEE-8B03-A68322ABD108}",
     "Language": "SFX",
-    "Hash": "{9F2950DD-F897-AF0C-5DA9-FA4C6F361F49}",
+    "Hash": "{7ACB8508-606A-7572-80FA-475542960C03}",
     "ObjectPath": "UI_Menu_StartGame",
     "ShortName": "UI_Menu_StartGame",
     "Path": "Event/UI_Menu_StartGame.bnk",
@@ -98,6 +98,6 @@
     ]
    }
   ],
-  "FileHash": "{796B44FC-2884-77F8-A5DB-F454DBBF403E}"
+  "FileHash": "{6F2DC72E-EAE1-05F1-813B-ACCEE0B93A1F}"
  }
 }

@@ -1,0 +1,133 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1686072914",
+    "Type": "Event",
+    "GUID": "{ED3A8350-B98C-446C-87D8-7B0D244A9199}",
+    "Language": "SFX",
+    "Hash": "{5E0E10A9-AA66-B4FA-721C-D2F03B7912FB}",
+    "ObjectPath": "SFX_MC_Weapon_Chakrams_PrimaryShot",
+    "ShortName": "SFX_MC_Weapon_Chakrams_PrimaryShot",
+    "Path": "Event/SFX_MC_Weapon_Chakrams_PrimaryShot.bnk",
+    "Media": [
+     {
+      "Id": "24544438",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_PrimaryShot\\SFX_MC_Weapon_Chakrams_PrimaryShot_04.wav",
+      "Path": "Media/24544438.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_04_818F3B66.wem"
+     },
+     {
+      "Id": "201811152",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_PrimaryShot\\SFX_MC_Weapon_Chakrams_PrimaryShot_03.wav",
+      "Path": "Media/201811152.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_03_818F3B66.wem"
+     },
+     {
+      "Id": "387324727",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_PrimaryShot\\SFX_MC_Weapon_Chakrams_PrimaryShot_02.wav",
+      "Path": "Media/387324727.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_02_818F3B66.wem"
+     },
+     {
+      "Id": "669476249",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_PrimaryShot\\SFX_MC_Weapon_Chakrams_PrimaryShot_07.wav",
+      "Path": "Media/669476249.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_07_818F3B66.wem"
+     },
+     {
+      "Id": "824077979",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_PrimaryShot\\SFX_MC_Weapon_Chakrams_PrimaryShot_01.wav",
+      "Path": "Media/824077979.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_01_818F3B66.wem"
+     },
+     {
+      "Id": "873240344",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_PrimaryShot\\SFX_MC_Weapon_Chakrams_PrimaryShot_05.wav",
+      "Path": "Media/873240344.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_05_818F3B66.wem"
+     },
+     {
+      "Id": "913408638",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_PrimaryShot\\SFX_MC_Weapon_Chakrams_PrimaryShot_08.wav",
+      "Path": "Media/913408638.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_08_818F3B66.wem"
+     },
+     {
+      "Id": "953156655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_PrimaryShot\\SFX_MC_Weapon_Chakrams_PrimaryShot_06.wav",
+      "Path": "Media/953156655.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_06_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1686072914",
+      "Name": "SFX_MC_Weapon_Chakrams_PrimaryShot",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_PrimaryShot",
+      "GUID": "{ED3A8350-B98C-446C-87D8-7B0D244A9199}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3",
+      "DurationMax": "0.3",
+      "MediaRefs": [
+       {
+        "Id": "24544438"
+       },
+       {
+        "Id": "201811152"
+       },
+       {
+        "Id": "387324727"
+       },
+       {
+        "Id": "669476249"
+       },
+       {
+        "Id": "824077979"
+       },
+       {
+        "Id": "873240344"
+       },
+       {
+        "Id": "913408638"
+       },
+       {
+        "Id": "953156655"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F97E4AFE-A698-7F6E-07F2-A651594D2FE7}"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1026708067",
+    "Type": "Event",
+    "GUID": "{9EAAD129-4D85-40B1-88A0-960BAC7525F8}",
+    "Language": "SFX",
+    "Hash": "{2938F0A6-03F4-CE64-E730-F0BFDB2D63C8}",
+    "ObjectPath": "SFX_MC_Weapon_Chakrams_OverheatEnd",
+    "ShortName": "SFX_MC_Weapon_Chakrams_OverheatEnd",
+    "Path": "Event/SFX_MC_Weapon_Chakrams_OverheatEnd.bnk",
+    "Media": [
+     {
+      "Id": "631856181",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_OverheatEnd\\SFX_MC_Weapon_Chakrams_OverheatEnd_02.wav",
+      "Path": "Media/631856181.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_OverheatEnd/SFX_MC_Weapon_Chakrams_OverheatEnd_02_818F3B66.wem"
+     },
+     {
+      "Id": "699784970",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_OverheatEnd\\SFX_MC_Weapon_Chakrams_OverheatEnd_01.wav",
+      "Path": "Media/699784970.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_OverheatEnd/SFX_MC_Weapon_Chakrams_OverheatEnd_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1026708067",
+      "Name": "SFX_MC_Weapon_Chakrams_OverheatEnd",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_OverheatEnd",
+      "GUID": "{9EAAD129-4D85-40B1-88A0-960BAC7525F8}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8",
+      "DurationMax": "2.8",
+      "MediaRefs": [
+       {
+        "Id": "631856181"
+       },
+       {
+        "Id": "699784970"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{90C8F8BB-116F-8458-0C11-B27A5403A177}"
+ }
+}

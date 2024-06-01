@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1559084621	VO_ENMMidRange_Death			\VO\VO_ENMMidRange_Death	
+

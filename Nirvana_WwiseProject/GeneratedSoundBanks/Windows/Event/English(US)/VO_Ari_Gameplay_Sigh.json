@@ -1,0 +1,132 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3010146220",
+    "Type": "Event",
+    "GUID": "{281B8DFA-273F-4C7B-9D7F-4844D3806E40}",
+    "Language": "English(US)",
+    "Hash": "{D39BF7B4-B659-4BF7-BA07-26BBF905C767}",
+    "ObjectPath": "VO_Ari_Gameplay_Sigh",
+    "ShortName": "VO_Ari_Gameplay_Sigh",
+    "Path": "Event/English(US)/VO_Ari_Gameplay_Sigh.bnk",
+    "Media": [
+     {
+      "Id": "354730327",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Sigh\\VO_Ari_Gameplay_Sigh_04.wav",
+      "Path": "Media/English(US)/354730327.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_04_818F3B66.wem"
+     },
+     {
+      "Id": "357687780",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Sigh\\VO_Ari_Gameplay_Sigh_03.wav",
+      "Path": "Media/English(US)/357687780.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_03_818F3B66.wem"
+     },
+     {
+      "Id": "551441254",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Sigh\\VO_Ari_Gameplay_Sigh_01.wav",
+      "Path": "Media/English(US)/551441254.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_01_818F3B66.wem"
+     },
+     {
+      "Id": "567495652",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Sigh\\VO_Ari_Gameplay_Sigh_07.wav",
+      "Path": "Media/English(US)/567495652.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_07_818F3B66.wem"
+     },
+     {
+      "Id": "654086342",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Sigh\\VO_Ari_Gameplay_Sigh_02.wav",
+      "Path": "Media/English(US)/654086342.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_02_818F3B66.wem"
+     },
+     {
+      "Id": "734658513",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Sigh\\VO_Ari_Gameplay_Sigh_05.wav",
+      "Path": "Media/English(US)/734658513.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_05_818F3B66.wem"
+     },
+     {
+      "Id": "776269528",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Sigh\\VO_Ari_Gameplay_Sigh_06.wav",
+      "Path": "Media/English(US)/776269528.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_06_818F3B66.wem"
+     },
+     {
+      "Id": "983536794",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Sigh\\VO_Ari_Gameplay_Sigh_08.wav",
+      "Path": "Media/English(US)/983536794.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_08_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3010146220",
+      "Name": "VO_Ari_Gameplay_Sigh",
+      "ObjectPath": "\\Events\\VO\\VO_Ari_Gameplay\\VO_Ari_Gameplay_Sigh",
+      "GUID": "{281B8DFA-273F-4C7B-9D7F-4844D3806E40}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4",
+      "DurationMax": "1.1333333",
+      "MediaRefs": [
+       {
+        "Id": "354730327"
+       },
+       {
+        "Id": "357687780"
+       },
+       {
+        "Id": "551441254"
+       },
+       {
+        "Id": "567495652"
+       },
+       {
+        "Id": "654086342"
+       },
+       {
+        "Id": "734658513"
+       },
+       {
+        "Id": "776269528"
+       },
+       {
+        "Id": "983536794"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{848A1D64-8450-5513-9641-8A93C0B55495}"
+ }
+}

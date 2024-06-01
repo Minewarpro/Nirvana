@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3523062195",
+    "Type": "Event",
+    "GUID": "{DC44FCC0-08B0-454B-9529-15EB68E35858}",
+    "Language": "English(US)",
+    "Hash": "{E921A769-011D-2A8F-EE83-4FFD3D9CDF9D}",
+    "ObjectPath": "VO_Blaise_Gameplay_Goodjob",
+    "ShortName": "VO_Blaise_Gameplay_Goodjob",
+    "Path": "Event/English(US)/VO_Blaise_Gameplay_Goodjob.bnk",
+    "Media": [
+     {
+      "Id": "896020104",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Blaise_Gameplay\\VO_Blaise_Gameplay_Goodjob.wav",
+      "Path": "Media/English(US)/896020104.wem",
+      "CachePath": "Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_Goodjob_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3523062195",
+      "Name": "VO_Blaise_Gameplay_Goodjob",
+      "ObjectPath": "\\Events\\VO\\VO_Blaise_Gameplay\\VO_Blaise_Gameplay_Goodjob",
+      "GUID": "{DC44FCC0-08B0-454B-9529-15EB68E35858}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8",
+      "DurationMax": "0.8",
+      "MediaRefs": [
+       {
+        "Id": "896020104"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1A8272DA-2A7B-5C1C-E18F-DE527232EEC3}"
+ }
+}

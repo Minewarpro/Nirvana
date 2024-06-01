@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "419667425",
+    "Type": "Event",
+    "GUID": "{6EEDCA55-D883-4F99-A9C1-910678A149C8}",
+    "Language": "English(US)",
+    "Hash": "{F6AF0187-F6A6-F8A1-655B-82BF72DBD05B}",
+    "ObjectPath": "VO_Simon_Story_01",
+    "ShortName": "VO_Simon_Story_01",
+    "Path": "Event/English(US)/VO_Simon_Story_01.bnk",
+    "Media": [
+     {
+      "Id": "831831398",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Simon_Story\\VO_Simon_Story_01.wav",
+      "Path": "Media/English(US)/831831398.wem",
+      "CachePath": "Voices/English(US)/VO_Simon_Story/VO_Simon_Story_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "419667425",
+      "Name": "VO_Simon_Story_01",
+      "ObjectPath": "\\Events\\VO\\VO_Simon_Story\\VO_Simon_Story_01",
+      "GUID": "{6EEDCA55-D883-4F99-A9C1-910678A149C8}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1733333",
+      "DurationMax": "1.1733333",
+      "MediaRefs": [
+       {
+        "Id": "831831398"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A5DFB3C4-A739-D1DE-93C7-5628CED91F00}"
+ }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2097537283" Type="Event" GUID="{AC82A196-39B4-4124-9B67-3B8333621F55}" Language="English(US)" Hash="{9470FD57-695B-63F7-3873-FEEB1E5E0020}">
+			<ObjectPath>VO_Diana_Gameplay_No</ObjectPath>
+			<ShortName>VO_Diana_Gameplay_No</ShortName>
+			<Path>Event/English(US)/VO_Diana_Gameplay_No.bnk</Path>
+			<Media>
+				<File Id="59065879" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_No\VO_Diana_Gameplay_No_02.wav</ShortName>
+					<Path>Media/English(US)/59065879.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_No/VO_Diana_Gameplay_No_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="147667645" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_No\VO_Diana_Gameplay_No_03.wav</ShortName>
+					<Path>Media/English(US)/147667645.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_No/VO_Diana_Gameplay_No_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="722257549" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_No\VO_Diana_Gameplay_No_01.wav</ShortName>
+					<Path>Media/English(US)/722257549.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_No/VO_Diana_Gameplay_No_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2097537283" Name="VO_Diana_Gameplay_No" ObjectPath="\Events\VO\VO_Diana_Gameplay\VO_Diana_Gameplay_No" GUID="{AC82A196-39B4-4124-9B67-3B8333621F55}" DurationType="OneShot" DurationMin="0.88" DurationMax="1.0933334">
+					<MediaRefs>
+						<MediaRef Id="59065879"/>
+						<MediaRef Id="147667645"/>
+						<MediaRef Id="722257549"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D7CCD7FC-2C1D-24B3-9FFF-C44C9BC5592A}</FileHash>
+</SoundBanksInfo>

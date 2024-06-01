@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1532872020	VO_Blaise_Gameplay_No			\VO\VO_Blaise_Gameplay\VO_Blaise_Gameplay_No	
+

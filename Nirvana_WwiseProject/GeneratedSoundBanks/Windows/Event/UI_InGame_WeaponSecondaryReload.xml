@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2517622237" Type="Event" GUID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}" Language="SFX" Hash="{AFEBB6B6-3740-8F84-3AA2-1F75D203076E}">
+		<SoundBank Id="2517622237" Type="Event" GUID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}" Language="SFX" Hash="{ED015DDA-6509-C20F-7DD4-B2CDFC7BBEA4}">
 			<ObjectPath>UI_InGame_WeaponSecondaryReload</ObjectPath>
 			<ShortName>UI_InGame_WeaponSecondaryReload</ShortName>
 			<Path>Event/UI_InGame_WeaponSecondaryReload.bnk</Path>
@@ -39,5 +39,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{51778A8A-4E62-707E-8DDE-42DA56A9CEA0}</FileHash>
+	<FileHash>{D8126B49-41DE-EA03-43DF-9FBD75F45871}</FileHash>
 </SoundBanksInfo>

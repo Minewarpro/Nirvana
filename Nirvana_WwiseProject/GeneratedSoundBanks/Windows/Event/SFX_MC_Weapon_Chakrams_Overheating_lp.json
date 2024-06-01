@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "114937303",
+    "Type": "Event",
+    "GUID": "{8646BE1A-0105-4741-8092-3F634E6213B2}",
+    "Language": "SFX",
+    "Hash": "{B99AC390-5159-9E75-7C33-F2A93991E9E4}",
+    "ObjectPath": "SFX_MC_Weapon_Chakrams_Overheating_lp",
+    "ShortName": "SFX_MC_Weapon_Chakrams_Overheating_lp",
+    "Path": "Event/SFX_MC_Weapon_Chakrams_Overheating_lp.bnk",
+    "Media": [
+     {
+      "Id": "585611060",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_Overheating_lp.wav",
+      "Path": "Media/585611060.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_Overheating_lp_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "114937303",
+      "Name": "SFX_MC_Weapon_Chakrams_Overheating_lp",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_Overheating_lp",
+      "GUID": "{8646BE1A-0105-4741-8092-3F634E6213B2}",
+      "MaxAttenuation": "7000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "585611060"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0D7A8B87-1C79-6507-62BB-DD0592ABA1B0}"
+ }
+}

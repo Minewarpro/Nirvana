@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1026708067" Type="Event" GUID="{9EAAD129-4D85-40B1-88A0-960BAC7525F8}" Language="SFX" Hash="{2938F0A6-03F4-CE64-E730-F0BFDB2D63C8}">
+			<ObjectPath>SFX_MC_Weapon_Chakrams_OverheatEnd</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Chakrams_OverheatEnd</ShortName>
+			<Path>Event/SFX_MC_Weapon_Chakrams_OverheatEnd.bnk</Path>
+			<Media>
+				<File Id="631856181" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatEnd\SFX_MC_Weapon_Chakrams_OverheatEnd_02.wav</ShortName>
+					<Path>Media/631856181.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_OverheatEnd/SFX_MC_Weapon_Chakrams_OverheatEnd_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="699784970" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatEnd\SFX_MC_Weapon_Chakrams_OverheatEnd_01.wav</ShortName>
+					<Path>Media/699784970.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_OverheatEnd/SFX_MC_Weapon_Chakrams_OverheatEnd_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1026708067" Name="SFX_MC_Weapon_Chakrams_OverheatEnd" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatEnd" GUID="{9EAAD129-4D85-40B1-88A0-960BAC7525F8}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="2.8" DurationMax="2.8">
+					<MediaRefs>
+						<MediaRef Id="631856181"/>
+						<MediaRef Id="699784970"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4C62247E-6297-6DCE-5C29-4AEB8907D615}</FileHash>
+</SoundBanksInfo>

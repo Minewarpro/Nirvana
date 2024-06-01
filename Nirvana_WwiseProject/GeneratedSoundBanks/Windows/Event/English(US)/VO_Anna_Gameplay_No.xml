@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="351521770" Type="Event" GUID="{313E5E7F-1693-4515-ABAE-730825870ED6}" Language="English(US)" Hash="{E05E7676-9F65-742C-849D-C0D8C86243C4}">
+			<ObjectPath>VO_Anna_Gameplay_No</ObjectPath>
+			<ShortName>VO_Anna_Gameplay_No</ShortName>
+			<Path>Event/English(US)/VO_Anna_Gameplay_No.bnk</Path>
+			<Media>
+				<File Id="660292358" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Gameplay\VO_Anna_Gameplay_No.wav</ShortName>
+					<Path>Media/English(US)/660292358.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Gameplay/VO_Anna_Gameplay_No_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="351521770" Name="VO_Anna_Gameplay_No" ObjectPath="\Events\VO\VO_Anna_Gameplay\VO_Anna_Gameplay_No" GUID="{313E5E7F-1693-4515-ABAE-730825870ED6}" DurationType="OneShot" DurationMin="1.48" DurationMax="1.48">
+					<MediaRefs>
+						<MediaRef Id="660292358"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B01002EA-6513-E505-D8C1-71D45BC506CC}</FileHash>
+</SoundBanksInfo>

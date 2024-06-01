@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1766274592" Type="Event" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" Language="SFX" Hash="{9F2950DD-F897-AF0C-5DA9-FA4C6F361F49}">
+		<SoundBank Id="1766274592" Type="Event" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" Language="SFX" Hash="{7ACB8508-606A-7572-80FA-475542960C03}">
 			<ObjectPath>UI_Menu_StartGame</ObjectPath>
 			<ShortName>UI_Menu_StartGame</ShortName>
 			<Path>Event/UI_Menu_StartGame.bnk</Path>
@@ -46,5 +46,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{717A828F-BE28-3D70-F276-19C656C765DA}</FileHash>
+	<FileHash>{70DE80C3-30B9-9500-07B5-EC2FA011F2A1}</FileHash>
 </SoundBanksInfo>

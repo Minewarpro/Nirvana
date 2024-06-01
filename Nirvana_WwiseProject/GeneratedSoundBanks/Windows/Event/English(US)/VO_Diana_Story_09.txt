@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2464802040	VO_Diana_Story_09			\VO\VO_Diana_Story\VO_Diana_Story_09	
+

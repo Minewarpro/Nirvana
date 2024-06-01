@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "339325342",
+    "Type": "Event",
+    "GUID": "{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}",
+    "Language": "SFX",
+    "Hash": "{04ED1BAE-CFD3-E8F7-790B-4E47A543C5A4}",
+    "ObjectPath": "SFX_MC_Weapon_Chakrams_SecondaryShot",
+    "ShortName": "SFX_MC_Weapon_Chakrams_SecondaryShot",
+    "Path": "Event/SFX_MC_Weapon_Chakrams_SecondaryShot.bnk",
+    "Media": [
+     {
+      "Id": "244943397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_SecondaryShot\\SFX_MC_Weapon_Chakrams_SecondaryShot_01.wav",
+      "Path": "Media/244943397.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_SecondaryShot/SFX_MC_Weapon_Chakrams_SecondaryShot_01_818F3B66.wem"
+     },
+     {
+      "Id": "752966009",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_SecondaryShot\\SFX_MC_Weapon_Chakrams_SecondaryShot_02.wav",
+      "Path": "Media/752966009.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_SecondaryShot/SFX_MC_Weapon_Chakrams_SecondaryShot_02_818F3B66.wem"
+     },
+     {
+      "Id": "902866026",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_SecondaryShot\\SFX_MC_Weapon_Chakrams_SecondaryShot_03.wav",
+      "Path": "Media/902866026.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_SecondaryShot/SFX_MC_Weapon_Chakrams_SecondaryShot_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "339325342",
+      "Name": "SFX_MC_Weapon_Chakrams_SecondaryShot",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_SecondaryShot",
+      "GUID": "{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0666667",
+      "DurationMax": "1.067625",
+      "MediaRefs": [
+       {
+        "Id": "244943397"
+       },
+       {
+        "Id": "752966009"
+       },
+       {
+        "Id": "902866026"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5919B1BE-EB85-329F-92AA-04133BB247ED}"
+ }
+}

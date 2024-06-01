@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2163476404" Type="Event" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" Language="SFX" Hash="{957A594C-3216-4DA5-F44A-F66704D7FE93}">
+		<SoundBank Id="2163476404" Type="Event" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" Language="SFX" Hash="{77C91CF7-B201-D4AA-A7C3-4B4C60BA43B4}">
 			<ObjectPath>UI_Menu_Hover</ObjectPath>
 			<ShortName>UI_Menu_Hover</ShortName>
 			<Path>Event/UI_Menu_Hover.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{61494D2F-9072-0DD4-BD49-84FE00AB07B2}</FileHash>
+	<FileHash>{87E67F84-2828-9C9A-6D1B-3CF67BE6AD0C}</FileHash>
 </SoundBanksInfo>

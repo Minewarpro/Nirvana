@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1719829413",
+    "Type": "Event",
+    "GUID": "{C208AEFA-12B4-434F-BD54-9F35CD6668DF}",
+    "Language": "English(US)",
+    "Hash": "{388641A8-D723-46B1-C090-791BA06C58BD}",
+    "ObjectPath": "VO_Simon_Gameplay_BossFight_02",
+    "ShortName": "VO_Simon_Gameplay_BossFight_02",
+    "Path": "Event/English(US)/VO_Simon_Gameplay_BossFight_02.bnk",
+    "Media": [
+     {
+      "Id": "254855775",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Simon_Gameplay\\VO_Simon_Gameplay_BossFight_02.wav",
+      "Path": "Media/English(US)/254855775.wem",
+      "CachePath": "Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_BossFight_02_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1719829413",
+      "Name": "VO_Simon_Gameplay_BossFight_02",
+      "ObjectPath": "\\Events\\VO\\VO_Simon_Gameplay\\VO_Simon_Gameplay_BossFight_02",
+      "GUID": "{C208AEFA-12B4-434F-BD54-9F35CD6668DF}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.56",
+      "DurationMax": "1.56",
+      "MediaRefs": [
+       {
+        "Id": "254855775"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2C96CC14-2955-0F04-7D4E-5C0CED8A0A8B}"
+ }
+}

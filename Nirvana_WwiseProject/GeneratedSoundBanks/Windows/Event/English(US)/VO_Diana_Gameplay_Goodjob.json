@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1314837374",
+    "Type": "Event",
+    "GUID": "{146637F4-D095-4CEE-86EB-0411C60012A0}",
+    "Language": "English(US)",
+    "Hash": "{653415DA-9C55-3722-562A-665C582DB2DC}",
+    "ObjectPath": "VO_Diana_Gameplay_Goodjob",
+    "ShortName": "VO_Diana_Gameplay_Goodjob",
+    "Path": "Event/English(US)/VO_Diana_Gameplay_Goodjob.bnk",
+    "Media": [
+     {
+      "Id": "87915530",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Diana_Gameplay\\VO_Diana_Gameplay_Goodjob\\VO_Diana_Gameplay_Goodjob_03.wav",
+      "Path": "Media/English(US)/87915530.wem",
+      "CachePath": "Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Goodjob/VO_Diana_Gameplay_Goodjob_03_818F3B66.wem"
+     },
+     {
+      "Id": "152942601",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Diana_Gameplay\\VO_Diana_Gameplay_Goodjob\\VO_Diana_Gameplay_Goodjob_01.wav",
+      "Path": "Media/English(US)/152942601.wem",
+      "CachePath": "Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Goodjob/VO_Diana_Gameplay_Goodjob_01_818F3B66.wem"
+     },
+     {
+      "Id": "870565627",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Diana_Gameplay\\VO_Diana_Gameplay_Goodjob\\VO_Diana_Gameplay_Goodjob_02.wav",
+      "Path": "Media/English(US)/870565627.wem",
+      "CachePath": "Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Goodjob/VO_Diana_Gameplay_Goodjob_02_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1314837374",
+      "Name": "VO_Diana_Gameplay_Goodjob",
+      "ObjectPath": "\\Events\\VO\\VO_Diana_Gameplay\\VO_Diana_Gameplay_Goodjob",
+      "GUID": "{146637F4-D095-4CEE-86EB-0411C60012A0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5733333",
+      "DurationMax": "0.6933333",
+      "MediaRefs": [
+       {
+        "Id": "87915530"
+       },
+       {
+        "Id": "152942601"
+       },
+       {
+        "Id": "870565627"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1A7B0AD6-6E95-4EC9-B3ED-13868CFB1133}"
+ }
+}

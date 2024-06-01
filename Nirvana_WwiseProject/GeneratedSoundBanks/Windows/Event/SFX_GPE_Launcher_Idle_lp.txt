@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4218817288	SFX_GPE_Launcher_Idle_lp			\SFX\SFX_GPE\SFX_GPE_Launcher_Idle_lp	
+

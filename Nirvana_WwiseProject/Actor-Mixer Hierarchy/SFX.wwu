@@ -9,6 +9,7 @@
 			<ChildrenList>
 				<ActorMixer Name="SFX" ID="{A1A1F830-F4E3-48AD-BA89-55F1D5B26882}" ShortID="651451164">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
@@ -17,6 +18,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATT_2500" ID="{65C77362-A9BC-4B8A-A5F1-C5A6E61D9E22}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 						</Reference>
@@ -24,6 +28,2234 @@
 							<ObjectRef Name="SFX" ID="{0716D6A6-9EDE-421F-B512-812E2E935389}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="SFX_ENM_MidRange" ID="{24D9785E-D3B8-4ABA-BC64-2CE7DB70C720}" ShortID="161727978">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="SFX_ENM_Swarmer" ID="{86605053-425D-4F35-9101-ABE99A38A70F}" ShortID="777911508">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="SFX_GPE_Launcher" ID="{1A043197-65A4-45FC-84F4-F60F4B1B11BD}" ShortID="720676564">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_GPE_Launcher_Idle_lp" ID="{75A93874-B9D3-4151-BDF2-E56B3713C4F4}" ShortID="1029300654">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_1500" ID="{7CC1A083-A864-4FAE-8D50-5561713979AE}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_GPE_Launcher_Idle_lp" ID="{27369883-401A-4611-B054-A728E3555277}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_GPE\SFX_GPE_Launcher_Idle_lp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="257206005"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_GPE_Launcher_Idle_lp" ID="{27369883-401A-4611-B054-A728E3555277}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="SFX_GPE_Launcher_Jump" ID="{C3239E5E-6048-4578-950D-7FBAC3E0EB0F}" ShortID="85330373">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_GPE_Launcher_Jump_01" ID="{0968BC50-0C87-4564-AD27-2EA61215A4F8}" ShortID="463023161">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Launcher_Jump_01" ID="{75867970-F07C-4093-8FDA-31E1691A6761}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_GPE\SFX_GPE_Launcher_Jump\SFX_GPE_Launcher_Jump_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1062649910"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Launcher_Jump_01" ID="{75867970-F07C-4093-8FDA-31E1691A6761}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Launcher_Jump_02" ID="{03228D09-089B-4C9A-8D74-CBBE1A6DB627}" ShortID="480156441">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Launcher_Jump_02" ID="{4FBEE096-BD87-4931-84CC-ADCEEF962EF1}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_GPE\SFX_GPE_Launcher_Jump\SFX_GPE_Launcher_Jump_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="341882187"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Launcher_Jump_02" ID="{4FBEE096-BD87-4931-84CC-ADCEEF962EF1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Launcher_Jump_03" ID="{F5CDD8AD-94C0-431C-9FDE-5B77382A6A39}" ShortID="188641791">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Launcher_Jump_03" ID="{18AF265A-AD31-4FDC-B63E-3B9B7497B713}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_GPE\SFX_GPE_Launcher_Jump\SFX_GPE_Launcher_Jump_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="188956989"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Launcher_Jump_03" ID="{18AF265A-AD31-4FDC-B63E-3B9B7497B713}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="SFX_MC_Weapon_Chakrams" ID="{06008F4B-C179-4B68-ACA1-D0BCEB2573A7}" ShortID="727048795">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_7000" ID="{A49EB5F1-363D-4893-87A4-53F087EF3ED9}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_MC_Weapon" ID="{EB51325C-73E9-4506-A90C-000CAEB5D97D}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_HitENM" ID="{60C7D297-0F62-4056-9F4D-F563D5DAAC53}" ShortID="530729145">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Chakrams_HitENM_01" ID="{CDB97A8B-95C7-4022-BAA3-02F65DD98F44}" ShortID="344484037">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_HitENM_01" ID="{4F7490B1-F24D-4BF8-A00B-2678BF16E7E7}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1027520118"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_HitENM_01" ID="{4F7490B1-F24D-4BF8-A00B-2678BF16E7E7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_HitENM_02" ID="{F1B468E1-8BC6-4571-B786-2F3F94C29488}" ShortID="1052749621">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_HitENM_02" ID="{CF80D99E-8C14-4976-92D6-1C53BF2E7177}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="496619468"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_HitENM_02" ID="{CF80D99E-8C14-4976-92D6-1C53BF2E7177}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_HitENM_03" ID="{07CE3700-9560-4C0A-9FAD-028AE1352E59}" ShortID="75640411">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_HitENM_03" ID="{18B1A96D-87BE-4EF9-B15E-5A8F9B1B2A50}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="126299822"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_HitENM_03" ID="{18B1A96D-87BE-4EF9-B15E-5A8F9B1B2A50}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_HitENM_04" ID="{AADBC1C1-1701-4DF4-A83B-62755BEB39C7}" ShortID="898946870">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_HitENM_04" ID="{691AB567-DE0E-419D-A2A5-28B618A493EE}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="656579117"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_HitENM_04" ID="{691AB567-DE0E-419D-A2A5-28B618A493EE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_HitENM_05" ID="{85424BD1-449A-45A2-9830-B4987ADBD05F}" ShortID="261228276">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_HitENM_05" ID="{55E3688F-D23F-4412-8C69-1B01851ED1E5}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="824777770"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_HitENM_05" ID="{55E3688F-D23F-4412-8C69-1B01851ED1E5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_HitENM_06" ID="{A762CD97-53B6-427F-889F-4C35D454F8D0}" ShortID="984483851">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_HitENM_06" ID="{881653BD-23BE-44B8-B080-CAF135505E32}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="674792870"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_HitENM_06" ID="{881653BD-23BE-44B8-B080-CAF135505E32}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_HitSurface" ID="{A42D47AF-3864-43BA-8EB1-7791FAA48CDE}" ShortID="76280409">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Chakrams_HitSurface_01" ID="{6628D57C-54BC-4771-899D-C65B6B6068C7}" ShortID="799059669">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_HitSurface_01" ID="{15CFA2D8-B15A-4DF1-BF60-CF482E988B22}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface\SFX_MC_Weapon_Chakrams_HitSurface_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="965695430"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_HitSurface_01" ID="{15CFA2D8-B15A-4DF1-BF60-CF482E988B22}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_HitSurface_02" ID="{998184C5-884E-4043-B417-B32041890B4D}" ShortID="333990364">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_HitSurface_02" ID="{7FE070AF-339A-4EB2-BA4B-BAA38D73205B}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface\SFX_MC_Weapon_Chakrams_HitSurface_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="94147978"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_HitSurface_02" ID="{7FE070AF-339A-4EB2-BA4B-BAA38D73205B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_HitSurface_03" ID="{34C4727A-EEA0-48E1-909F-7E75FAE1BFD2}" ShortID="1066455523">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_HitSurface_03" ID="{F22DBA25-28F7-4D23-94E6-7198B60614EE}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface\SFX_MC_Weapon_Chakrams_HitSurface_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1023204836"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_HitSurface_03" ID="{F22DBA25-28F7-4D23-94E6-7198B60614EE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_HitSurface_04" ID="{0F7CFCD1-5225-40E3-A701-B596369B73A5}" ShortID="69764713">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_HitSurface_04" ID="{A584E2F2-CB14-4E93-A0D9-3E8DAEA48E05}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface\SFX_MC_Weapon_Chakrams_HitSurface_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="458107386"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_HitSurface_04" ID="{A584E2F2-CB14-4E93-A0D9-3E8DAEA48E05}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_HitSurface_05" ID="{84C35648-3749-4FE6-8FBF-70D4CBF8B891}" ShortID="482405407">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_HitSurface_05" ID="{B10DE1DE-8C40-4CE2-8809-E94522ABAAE1}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface\SFX_MC_Weapon_Chakrams_HitSurface_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="965945325"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_HitSurface_05" ID="{B10DE1DE-8C40-4CE2-8809-E94522ABAAE1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_HitSurface_06" ID="{39E9D460-DC43-47C1-9C82-9499B5814091}" ShortID="1061122277">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_HitSurface_06" ID="{51853D5D-5729-4438-81C3-D32533222B77}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface\SFX_MC_Weapon_Chakrams_HitSurface_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1032965322"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_HitSurface_06" ID="{51853D5D-5729-4438-81C3-D32533222B77}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_OverheatBegin" ID="{9E555A81-776E-4A56-AD89-84E44FFBB1BC}" ShortID="105936833">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Chakrams_OverheatBegin_01" ID="{D44A4F1F-31E3-46C3-9113-15CEF7351DFF}" ShortID="757693177">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_OverheatBegin_01" ID="{8F0FE05B-3F5F-4092-8918-3AC0DB3B6B11}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatBegin\SFX_MC_Weapon_Chakrams_OverheatBegin_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="239793079"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_OverheatBegin_01" ID="{8F0FE05B-3F5F-4092-8918-3AC0DB3B6B11}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_OverheatBegin_02" ID="{8CFD593F-6C6F-4B27-B7AC-0FDE4574D45E}" ShortID="88683315">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_OverheatBegin_02" ID="{DF3240A3-F698-492B-8E22-DD73FA88FE1A}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatBegin\SFX_MC_Weapon_Chakrams_OverheatBegin_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="783098889"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_OverheatBegin_02" ID="{DF3240A3-F698-492B-8E22-DD73FA88FE1A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_OverheatEnd" ID="{0A20E3DF-F33C-451A-8547-378FABED574F}" ShortID="201977239">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Chakrams_OverheatEnd_01" ID="{77115DBB-BE24-49FC-86C6-18D8E6E40F24}" ShortID="99738447">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_OverheatEnd_01" ID="{0245C1F8-3051-4223-B19B-436E4505FF12}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatEnd\SFX_MC_Weapon_Chakrams_OverheatEnd_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="699784970"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_OverheatEnd_01" ID="{0245C1F8-3051-4223-B19B-436E4505FF12}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_OverheatEnd_02" ID="{189F7A43-5D59-4A78-A492-31C2CF7D2F84}" ShortID="254669746">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_OverheatEnd_02" ID="{5929FEC2-D9BB-4417-A36F-D8F2A4A9AF3E}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatEnd\SFX_MC_Weapon_Chakrams_OverheatEnd_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="631856181"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_OverheatEnd_02" ID="{5929FEC2-D9BB-4417-A36F-D8F2A4A9AF3E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="SFX_MC_Weapon_Chakrams_Overheating_lp" ID="{AA7E0936-5D60-4EDF-8C36-79D272773191}" ShortID="517027830">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Weapon_Chakrams_Overheating_lp" ID="{85F707EB-6FDB-4C4D-92F8-28E78CF52BFA}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_Overheating_lp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="585611060"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Weapon_Chakrams_Overheating_lp" ID="{85F707EB-6FDB-4C4D-92F8-28E78CF52BFA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_PrimaryShot" ID="{77F3A466-BBCE-4EBF-9712-092EC36D3374}" ShortID="223835287">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_01" ID="{C009C68C-E3D7-413C-9B99-49F350D6085A}" ShortID="1059074742">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_01" ID="{5635F01E-1827-4C70-8B21-14F8D91B7388}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="824077979"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_01" ID="{5635F01E-1827-4C70-8B21-14F8D91B7388}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_02" ID="{F8B55A1D-D5FD-4059-9CB6-58581B99A306}" ShortID="269289298">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_02" ID="{00222E08-E351-434D-BA08-C7808F780405}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="387324727"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_02" ID="{00222E08-E351-434D-BA08-C7808F780405}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_03" ID="{AB460599-7E2F-4570-B8B0-82A6A8802FC0}" ShortID="308123959">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_03" ID="{182CBE60-F846-42C2-8E6E-268DC13AB6FB}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="201811152"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_03" ID="{182CBE60-F846-42C2-8E6E-268DC13AB6FB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_04" ID="{DC59ACEA-5DC4-4C71-A1BF-CB722B2B98DB}" ShortID="867460729">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_04" ID="{FCA21FAC-E703-466D-BED6-3CB85AD99F28}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="24544438"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_04" ID="{FCA21FAC-E703-466D-BED6-3CB85AD99F28}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_05" ID="{07EC47F7-1A17-4DB9-A31E-5E510C8A7D3E}" ShortID="890647831">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_05" ID="{10303F32-EE98-45C1-95C0-F160157A58AF}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="873240344"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_05" ID="{10303F32-EE98-45C1-95C0-F160157A58AF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_06" ID="{AEE46E05-8A0D-444F-81B5-DA32F411F57A}" ShortID="96601197">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_06" ID="{0BE982DC-94B3-42BF-8E3E-959F82AB02AE}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="953156655"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_06" ID="{0BE982DC-94B3-42BF-8E3E-959F82AB02AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_07" ID="{C55E08F6-90A4-4CED-B461-DE248D56A15C}" ShortID="892061980">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_07" ID="{6E911B29-7BE1-49FD-B136-11CC55020409}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="669476249"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_07" ID="{6E911B29-7BE1-49FD-B136-11CC55020409}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_08" ID="{AE134F6B-3D26-418D-B013-A22E23592442}" ShortID="973571448">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_08" ID="{71710A4A-EF81-469B-8F33-F9FFB9036663}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="913408638"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_08" ID="{71710A4A-EF81-469B-8F33-F9FFB9036663}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_SecondaryShot" ID="{4E56CCBB-C7EB-4DA9-83A2-44AE9D5E8162}" ShortID="956560814">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Chakrams_SecondaryShot_01" ID="{A0B76F6E-2D66-4763-B68A-5F73EDA964C2}" ShortID="483541722">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_SecondaryShot_01" ID="{BF421C60-06CA-4BFC-8067-7138A195EC31}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot\SFX_MC_Weapon_Chakrams_SecondaryShot_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="244943397"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_SecondaryShot_01" ID="{BF421C60-06CA-4BFC-8067-7138A195EC31}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_SecondaryShot_02" ID="{CF5DF3C6-90AC-4A1C-ADD9-4D18E3C4F6F5}" ShortID="317128336">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_SecondaryShot_02" ID="{1E454020-25AD-4783-8FFF-51A8FB14D74E}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot\SFX_MC_Weapon_Chakrams_SecondaryShot_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="752966009"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_SecondaryShot_02" ID="{1E454020-25AD-4783-8FFF-51A8FB14D74E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Chakrams_SecondaryShot_03" ID="{DBA2EBA8-FE84-415B-8042-5BEA388BA8C2}" ShortID="504932551">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_SecondaryShot_03" ID="{348EB7BE-16DC-49D3-AF5D-9D032703A040}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot\SFX_MC_Weapon_Chakrams_SecondaryShot_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="902866026"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_SecondaryShot_03" ID="{348EB7BE-16DC-49D3-AF5D-9D032703A040}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="SFX_MC_Weapon_Vajra" ID="{A37DB4F2-013C-4475-A2FA-52DBB7A74454}" ShortID="848905085">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_7000" ID="{A49EB5F1-363D-4893-87A4-53F087EF3ED9}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_MC_Weapon" ID="{EB51325C-73E9-4506-A90C-000CAEB5D97D}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_HitENM" ID="{85C43646-BF2A-41AB-B8FA-6CE1472080F7}" ShortID="487786117">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Vajra_HitENM_01" ID="{0A88F961-E71F-48B8-8C28-4DE1F31741F3}" ShortID="502327767">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_HitENM_01" ID="{3B72BDA0-7BCB-46BD-92CC-C9D53A323CA0}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM\SFX_MC_Weapon_Vajra_HitENM_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="955010811"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_HitENM_01" ID="{3B72BDA0-7BCB-46BD-92CC-C9D53A323CA0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_HitENM_02" ID="{4046D414-A147-4849-BD0C-C6DBA406C05A}" ShortID="540470524">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_HitENM_02" ID="{960D06A4-AAB8-4D71-8429-805EBCAADBA7}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM\SFX_MC_Weapon_Vajra_HitENM_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="434616133"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_HitENM_02" ID="{960D06A4-AAB8-4D71-8429-805EBCAADBA7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_HitENM_03" ID="{8744CAA1-9992-494C-9369-73CC165C0398}" ShortID="828990680">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_HitENM_03" ID="{DC22978A-0EBA-4EDD-90E7-0AC8D2F3CC98}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM\SFX_MC_Weapon_Vajra_HitENM_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="455218719"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_HitENM_03" ID="{DC22978A-0EBA-4EDD-90E7-0AC8D2F3CC98}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_HitENM_04" ID="{7105CAE1-EE1E-4CE1-9F25-0957733A86F7}" ShortID="254670189">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_HitENM_04" ID="{912921BC-441E-4796-85EE-7EA3E22AAAFF}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM\SFX_MC_Weapon_Vajra_HitENM_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="325656962"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_HitENM_04" ID="{912921BC-441E-4796-85EE-7EA3E22AAAFF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_HitSurface" ID="{7B9CD90E-DDFD-4CA7-B637-B582DCD41F99}" ShortID="542609245">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Vajra_HitSurface_01" ID="{275D2E6D-CFC0-41AE-B99E-72F9D6A1103B}" ShortID="921950406">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_HitSurface_01" ID="{738B0C0F-B418-42C5-B1D4-0FD422B609FD}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitSurface\SFX_MC_Weapon_Vajra_HitSurface_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="911937851"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_HitSurface_01" ID="{738B0C0F-B418-42C5-B1D4-0FD422B609FD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_HitSurface_02" ID="{E8E3C5B4-43D7-4896-8CC5-04A685F5D2EC}" ShortID="1007584625">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_HitSurface_02" ID="{CE71D8D2-6D10-45B0-B45B-87F7F26BB0CB}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitSurface\SFX_MC_Weapon_Vajra_HitSurface_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1049688175"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_HitSurface_02" ID="{CE71D8D2-6D10-45B0-B45B-87F7F26BB0CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_HitSurface_03" ID="{D977BDFC-4F42-470A-B194-2DE60C861719}" ShortID="681247159">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_HitSurface_03" ID="{3A913BA3-8E2B-418B-963D-91A4C07E74A8}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitSurface\SFX_MC_Weapon_Vajra_HitSurface_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="6700452"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_HitSurface_03" ID="{3A913BA3-8E2B-418B-963D-91A4C07E74A8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_HitSurface_04" ID="{2E7856F8-D1C4-4BB7-A915-86521D883AD4}" ShortID="886330926">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_HitSurface_04" ID="{01FB78FC-4239-40FC-B93C-0C6E1EF15612}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitSurface\SFX_MC_Weapon_Vajra_HitSurface_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="918986033"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_HitSurface_04" ID="{01FB78FC-4239-40FC-B93C-0C6E1EF15612}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_OverheatBegin" ID="{8166CD36-6CC7-4DAA-9102-A4386B9E578A}" ShortID="128818718">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Vajra_OverheatBegin_01" ID="{353F96D4-61AB-4A65-92D1-C71C0F948CE9}" ShortID="679542800">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_OverheatBegin_01" ID="{7BD407C5-0752-4EC9-9715-D090F62666E1}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_OverheatBegin\SFX_MC_Weapon_Vajra_OverheatBegin_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="116385699"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_OverheatBegin_01" ID="{7BD407C5-0752-4EC9-9715-D090F62666E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_OverheatBegin_02" ID="{DE7D57A4-170E-4B8C-B742-F61D33B871C8}" ShortID="724713220">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_OverheatBegin_02" ID="{54D87848-0F6D-42ED-8FE8-ADC34FD12A32}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_OverheatBegin\SFX_MC_Weapon_Vajra_OverheatBegin_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="238155916"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_OverheatBegin_02" ID="{54D87848-0F6D-42ED-8FE8-ADC34FD12A32}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_OverheatEnd" ID="{EE06B07B-7278-45E1-9240-58E30B615CC8}" ShortID="790874112">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Vajra_OverheatEnd_01" ID="{6D914EAC-A28B-40D6-BC24-D2658B6735BB}" ShortID="553473554">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_OverheatEnd_01" ID="{1F199FEB-4C65-4F13-B5AB-85229A642034}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_OverheatEnd\SFX_MC_Weapon_Vajra_OverheatEnd_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="877948331"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_OverheatEnd_01" ID="{1F199FEB-4C65-4F13-B5AB-85229A642034}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_OverheatEnd_02" ID="{C1988A8B-D759-46CF-9D4D-DB62DF077250}" ShortID="946035784">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_OverheatEnd_02" ID="{3789F0E4-1BD0-40C6-8D6B-01E96389306D}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_OverheatEnd\SFX_MC_Weapon_Vajra_OverheatEnd_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="586556047"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_OverheatEnd_02" ID="{3789F0E4-1BD0-40C6-8D6B-01E96389306D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="SFX_MC_Weapon_Vajra_Overheating_lp" ID="{9012CC14-6750-4F6B-A08E-D308E45D2445}" ShortID="952242417">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Weapon_Vajra_Overheating_lp" ID="{BB148FFD-87F7-4DC5-A06E-A69B67CCA9A1}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Overheating_lp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="926305807"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Weapon_Vajra_Overheating_lp" ID="{BB148FFD-87F7-4DC5-A06E-A69B67CCA9A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Primary_Shot" ID="{332A063C-8FA5-4C5A-A126-675339C06311}" ShortID="275943617">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Vajra_Primary_Shot_01" ID="{AF919C20-5C09-4E35-9AAB-B83071FE093D}" ShortID="949502730">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Primary_Shot_01" ID="{FA06CC36-FE38-46BA-850F-273B09E4BD72}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="7372697"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Primary_Shot_01" ID="{FA06CC36-FE38-46BA-850F-273B09E4BD72}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Primary_Shot_02" ID="{4BF34E59-AC94-4DD4-9FB2-BF62F065839E}" ShortID="1006203903">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Primary_Shot_02" ID="{0D2B6BEB-9404-4CB2-A4FC-D672F36F1B3D}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="897649017"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Primary_Shot_02" ID="{0D2B6BEB-9404-4CB2-A4FC-D672F36F1B3D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Primary_Shot_03" ID="{AD328EB0-F8B5-468B-8A6C-78A8D5AB3B8C}" ShortID="302130067">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Primary_Shot_03" ID="{38AC4E1C-3C60-49BC-A43B-213A370961BD}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="407942986"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Primary_Shot_03" ID="{38AC4E1C-3C60-49BC-A43B-213A370961BD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Primary_Shot_04" ID="{9BC83FD3-9373-432A-892D-A665CE87433E}" ShortID="899365439">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Primary_Shot_04" ID="{08F44C76-D56F-4B2A-A84D-33EA8AA1EFBC}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="917904308"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Primary_Shot_04" ID="{08F44C76-D56F-4B2A-A84D-33EA8AA1EFBC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Primary_Shot_05" ID="{3D56F265-3024-48FB-97A7-55FED026C438}" ShortID="1030143486">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Primary_Shot_05" ID="{81A40C7E-A1C4-4CC2-A1DA-15F4BB1DD66A}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="627478544"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Primary_Shot_05" ID="{81A40C7E-A1C4-4CC2-A1DA-15F4BB1DD66A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Primary_Shot_06" ID="{76BC8EC3-3992-4849-83AE-459E455F6177}" ShortID="592687572">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Primary_Shot_06" ID="{5B037B4D-741A-49C5-A145-6CA6ABF16E8F}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="861988515"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Primary_Shot_06" ID="{5B037B4D-741A-49C5-A145-6CA6ABF16E8F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Secondary_Bounce" ID="{93755432-30C0-4A68-997F-1628E8C36C14}" ShortID="544136985">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Bounce_01" ID="{1F87AEF4-C41B-49E6-97DD-2D48C9CFC6DC}" ShortID="389294140">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Bounce_01" ID="{8E0BAFB8-D24F-4141-BF17-ADCE8CEE8C4B}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce\SFX_MC_Weapon_Vajra_Secondary_Bounce_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="648691944"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Bounce_01" ID="{8E0BAFB8-D24F-4141-BF17-ADCE8CEE8C4B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Bounce_02" ID="{AA80C56B-250C-4AED-A4D3-D7EF0516C3F2}" ShortID="133848029">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Bounce_02" ID="{95511C6F-0B8C-46C6-83E9-6B2750BF4F9F}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce\SFX_MC_Weapon_Vajra_Secondary_Bounce_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="609945175"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Bounce_02" ID="{95511C6F-0B8C-46C6-83E9-6B2750BF4F9F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Bounce_03" ID="{393E8DF3-A470-433D-9A77-459B364E1DF7}" ShortID="269170997">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Bounce_03" ID="{7922E971-5AD4-46BF-A8AE-BA4BF38D4795}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce\SFX_MC_Weapon_Vajra_Secondary_Bounce_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="358734753"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Bounce_03" ID="{7922E971-5AD4-46BF-A8AE-BA4BF38D4795}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Bounce_04" ID="{A2C07866-081C-485C-826D-26955762AA15}" ShortID="9151069">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Bounce_04" ID="{2CA463F5-0C01-4721-BAAF-437C0CE820DA}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce\SFX_MC_Weapon_Vajra_Secondary_Bounce_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="428001193"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Bounce_04" ID="{2CA463F5-0C01-4721-BAAF-437C0CE820DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Secondary_Explosion" ID="{1337706F-2AF3-41C0-BE10-3A0CC93AFB53}" ShortID="864236729">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Explosion_01" ID="{D93CD9A0-DB2A-448D-8688-6D7ADD0246B5}" ShortID="662566987">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Explosion_01" ID="{71020349-9481-4F98-B3F6-BB7820069152}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Explosion\SFX_MC_Weapon_Vajra_Secondary_Explosion_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="34378861"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Explosion_01" ID="{71020349-9481-4F98-B3F6-BB7820069152}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Explosion_02" ID="{036319B6-15DD-443B-9AB0-FE2CC5CA129A}" ShortID="825938382">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Explosion_02" ID="{BF845AB7-EB47-4149-B9D9-CAD7F3A06570}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Explosion\SFX_MC_Weapon_Vajra_Secondary_Explosion_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="443444412"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Explosion_02" ID="{BF845AB7-EB47-4149-B9D9-CAD7F3A06570}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Idle_lp" ID="{4879219E-8213-43ED-AA3F-E48B5D6AE98E}" ShortID="415155268">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Idle_lp" ID="{449C7CE4-D1A9-4E40-91B7-9F995630FC11}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Idle_lp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="256199347"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Idle_lp" ID="{449C7CE4-D1A9-4E40-91B7-9F995630FC11}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Secondary_Lightning" ID="{589E4638-EAB9-4127-B464-E666541A3D2A}" ShortID="341161540">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Lightning_01" ID="{14207B10-91F4-46B2-B3CC-B5BD8EC4879A}" ShortID="1037403514">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Lightning_01" ID="{4928DFF3-3D3D-4591-AB17-3362D655743A}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Lightning\SFX_MC_Weapon_Vajra_Secondary_Lightning_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="560254157"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Lightning_01" ID="{4928DFF3-3D3D-4591-AB17-3362D655743A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Lightning_02" ID="{F87EDB12-D747-418D-9D19-C5DE4BC96923}" ShortID="513992777">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Lightning_02" ID="{72AD4CCF-3869-48CE-BF67-862A688514B9}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Lightning\SFX_MC_Weapon_Vajra_Secondary_Lightning_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="700671199"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Lightning_02" ID="{72AD4CCF-3869-48CE-BF67-862A688514B9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Lightning_03" ID="{9BCDFF35-DAE8-48C3-AF4D-97E33F9596A3}" ShortID="496783403">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Lightning_03" ID="{13B0D811-4DB5-4B3D-8DF2-ED8DE722B901}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Lightning\SFX_MC_Weapon_Vajra_Secondary_Lightning_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="340696357"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Lightning_03" ID="{13B0D811-4DB5-4B3D-8DF2-ED8DE722B901}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Secondary_Shot" ID="{92C23DBA-5118-4F2F-8722-14C5D795C48D}" ShortID="449125954">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Shot_01" ID="{03A42F05-0233-46FB-9FAA-5127D1A448D5}" ShortID="279626457">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Shot_01" ID="{5F4553BB-5C6A-427C-B228-897F7202C392}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Shot\SFX_MC_Weapon_Vajra_Secondary_Shot_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="68615788"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Shot_01" ID="{5F4553BB-5C6A-427C-B228-897F7202C392}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Shot_02" ID="{B5819F61-45DB-479E-AE61-37E12E167736}" ShortID="914737681">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Shot_02" ID="{4BD9F60C-4894-4DCA-AFF9-F285657BADF4}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Shot\SFX_MC_Weapon_Vajra_Secondary_Shot_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="674584431"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Shot_02" ID="{4BD9F60C-4894-4DCA-AFF9-F285657BADF4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Shot_03" ID="{81A029C3-A3BD-4F51-937A-0C5DA8965412}" ShortID="576656623">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Weapon_Vajra_Secondary_Shot_03" ID="{84CABEE6-C41F-466B-ACE8-6B6E19709768}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Shot\SFX_MC_Weapon_Vajra_Secondary_Shot_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="424978134"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Weapon_Vajra_Secondary_Shot_03" ID="{84CABEE6-C41F-466B-ACE8-6B6E19709768}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="SFX_GPE_Door" ID="{27845F3F-FADD-476B-873C-EA344C99BDC1}" ShortID="809630735">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<RandomSequenceContainer Name="SFX_MC_Death" ID="{FA1151EA-BC3D-4225-AAF1-D424BB402182}" ShortID="363604826">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_MC_Death_01" ID="{C27DC21C-C50E-4B99-838A-48D28294783B}" ShortID="103615725">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Death_01" ID="{B1E2180C-61FA-42AB-983E-34EBBCDD483D}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_Death\SFX_MC_Death_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="102666523"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Death_01" ID="{B1E2180C-61FA-42AB-983E-34EBBCDD483D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Death_02" ID="{B054193B-6701-4CD8-B317-D4EDA09B8342}" ShortID="675123913">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Death_02" ID="{B850F4B4-93FF-4E89-AC93-1E5611B4E3CF}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_Death\SFX_MC_Death_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1016486179"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Death_02" ID="{B850F4B4-93FF-4E89-AC93-1E5611B4E3CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_MC_HealthPick" ID="{3F7A72E9-27DF-421E-A571-DAF6CD67080A}" ShortID="941636434">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_MC_HealthPick_01" ID="{29E68296-8AC3-44F5-A5A7-31C083F9464E}" ShortID="845342636">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_HealthPick_01" ID="{7E4CB254-9933-470C-845C-1C6990B7FBC9}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="583291291"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_HealthPick_01" ID="{7E4CB254-9933-470C-845C-1C6990B7FBC9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_HealthPick_02" ID="{850AF790-B960-452D-901F-FF1CD25730DB}" ShortID="148577190">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_HealthPick_02" ID="{830AA8F4-B709-4506-A992-92C066CED356}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1054889191"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_HealthPick_02" ID="{830AA8F4-B709-4506-A992-92C066CED356}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_HealthPick_03" ID="{9DF4AD57-71B8-49CA-B260-F3C13FADB6F1}" ShortID="974726474">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_HealthPick_03" ID="{A66335B6-C814-43D4-ACF9-647356848511}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="705435937"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_HealthPick_03" ID="{A66335B6-C814-43D4-ACF9-647356848511}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_HealthPick_04" ID="{5CD40ECB-65CB-414C-AF9E-D3F63E2E97AE}" ShortID="380684954">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_HealthPick_04" ID="{6D0DF032-5F5F-45BE-898A-1527229C64BC}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="184233588"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_HealthPick_04" ID="{6D0DF032-5F5F-45BE-898A-1527229C64BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_HealthPick_05" ID="{83714692-1DAC-4349-8CFA-AC36122FF222}" ShortID="483818835">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_HealthPick_05" ID="{53301B06-105F-4978-8CB6-3A4460231231}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="739954720"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_HealthPick_05" ID="{53301B06-105F-4978-8CB6-3A4460231231}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_HealthPick_06" ID="{DA6B96BD-7D92-427D-B10D-39B43197966A}" ShortID="734198114">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_HealthPick_06" ID="{878E864D-AA09-41E6-B45E-ECB7C2B87F0D}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="21175351"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_HealthPick_06" ID="{878E864D-AA09-41E6-B45E-ECB7C2B87F0D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_MC_Weapon_Switch" ID="{E323E3C8-540B-46F1-B949-672CF0038462}" ShortID="540828572">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_MC_Weapon_Switch_01" ID="{B8E3639C-1988-496E-8AFC-3FAE4E6F32B8}" ShortID="527853523">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Weapon_Switch_01" ID="{0ED93E3A-E4EE-4D43-9E15-B032B04FE51B}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_Weapon_Switch\SFX_MC_Weapon_Switch_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="462710297"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Weapon_Switch_01" ID="{0ED93E3A-E4EE-4D43-9E15-B032B04FE51B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Weapon_Switch_02" ID="{C1D18DF3-FF1D-40DF-BDED-AF2AC5EB23B1}" ShortID="318677973">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Weapon_Switch_02" ID="{9EEA791D-D776-42B4-A559-08F07C4EC885}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_Weapon_Switch\SFX_MC_Weapon_Switch_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="154691367"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Weapon_Switch_02" ID="{9EEA791D-D776-42B4-A559-08F07C4EC885}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Weapon_Switch_03" ID="{C328CCBF-8916-44C7-B56F-F95D9D1E0E96}" ShortID="1009549297">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Weapon_Switch_03" ID="{F95C1778-D7DA-4621-A5BD-170BC722B598}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_Weapon_Switch\SFX_MC_Weapon_Switch_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="237816432"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Weapon_Switch_03" ID="{F95C1778-D7DA-4621-A5BD-170BC722B598}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Weapon_Switch_04" ID="{323FAD54-8DA1-496C-B21C-1FC202E8C921}" ShortID="471649593">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Weapon_Switch_04" ID="{704C9960-AAA5-4C83-894F-FA7C3F0AE15B}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_Weapon_Switch\SFX_MC_Weapon_Switch_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="597777705"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Weapon_Switch_04" ID="{704C9960-AAA5-4C83-894F-FA7C3F0AE15B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_MC_TakeDamage" ID="{09F15E97-08FE-4EF9-B32B-32867E777887}" ShortID="589261292">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_MC_TakeDamage_01" ID="{88393D56-5DF3-4B04-B473-D7946169FCB2}" ShortID="801254432">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_TakeDamage_01" ID="{B702E396-EA44-4E4B-9BA1-2F988086B663}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_TakeDamage\SFX_MC_TakeDamage_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="321803169"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_TakeDamage_01" ID="{B702E396-EA44-4E4B-9BA1-2F988086B663}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_TakeDamage_02" ID="{E7A561D3-F68D-47A6-BAF5-FF3BC806E2F1}" ShortID="125961404">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_TakeDamage_02" ID="{F9040F2A-8B41-4394-9C7D-C5D54F01EFDF}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_TakeDamage\SFX_MC_TakeDamage_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="796631547"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_TakeDamage_02" ID="{F9040F2A-8B41-4394-9C7D-C5D54F01EFDF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_TakeDamage_03" ID="{0457BE91-0528-4E07-99B1-C1211CC9C641}" ShortID="116410442">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_TakeDamage_03" ID="{0236C967-E10D-4200-9FAF-540D16C1326C}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_TakeDamage\SFX_MC_TakeDamage_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="350676194"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_TakeDamage_03" ID="{0236C967-E10D-4200-9FAF-540D16C1326C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_TakeDamage_04" ID="{EF562573-8F07-4FC9-B94B-F27B0E0FCC2B}" ShortID="210082398">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_TakeDamage_04" ID="{AB8D5C1E-CAEB-46B1-9852-846BA0DE5F16}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_TakeDamage\SFX_MC_TakeDamage_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="814216493"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_TakeDamage_04" ID="{AB8D5C1E-CAEB-46B1-9852-846BA0DE5F16}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_TakeDamage_05" ID="{CC91B461-4BD0-486D-8782-B8E617F91215}" ShortID="369122512">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_TakeDamage_05" ID="{F6443F22-DD1C-42F2-AFFF-56FB23BB1A27}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_TakeDamage\SFX_MC_TakeDamage_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="568341496"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_TakeDamage_05" ID="{F6443F22-DD1C-42F2-AFFF-56FB23BB1A27}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_TakeDamage_06" ID="{FBF457E1-DC91-4372-9A98-DD01D901E33E}" ShortID="842680293">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_TakeDamage_06" ID="{9A6DEBC5-E6A1-4663-A630-28185C671AAC}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_MC_TakeDamage\SFX_MC_TakeDamage_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1007924528"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_TakeDamage_06" ID="{9A6DEBC5-E6A1-4663-A630-28185C671AAC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

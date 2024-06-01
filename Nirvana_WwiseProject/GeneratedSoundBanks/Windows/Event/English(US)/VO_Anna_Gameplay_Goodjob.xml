@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1429928469" Type="Event" GUID="{5637DC57-1610-4B5B-B5CA-1D558668C593}" Language="English(US)" Hash="{7191C6E2-F5F9-A6FF-7DFD-4E83EF895853}">
+			<ObjectPath>VO_Anna_Gameplay_Goodjob</ObjectPath>
+			<ShortName>VO_Anna_Gameplay_Goodjob</ShortName>
+			<Path>Event/English(US)/VO_Anna_Gameplay_Goodjob.bnk</Path>
+			<Media>
+				<File Id="402755254" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Gameplay\VO_Anna_Gameplay_Goodjob.wav</ShortName>
+					<Path>Media/English(US)/402755254.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Gameplay/VO_Anna_Gameplay_Goodjob_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1429928469" Name="VO_Anna_Gameplay_Goodjob" ObjectPath="\Events\VO\VO_Anna_Gameplay\VO_Anna_Gameplay_Goodjob" GUID="{5637DC57-1610-4B5B-B5CA-1D558668C593}" DurationType="OneShot" DurationMin="0.8" DurationMax="0.8">
+					<MediaRefs>
+						<MediaRef Id="402755254"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{763415E0-71FA-82F8-6E03-BE166E1C9444}</FileHash>
+</SoundBanksInfo>

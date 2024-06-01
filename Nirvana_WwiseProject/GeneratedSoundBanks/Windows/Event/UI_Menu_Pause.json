@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}",
     "Language": "SFX",
-    "Hash": "{71C76C6D-DCD8-37C1-B8E2-CB07F3F82973}",
+    "Hash": "{D76EC39B-3E37-8396-AB69-00E966D6458F}",
     "ObjectPath": "UI_Menu_Pause",
     "ShortName": "UI_Menu_Pause",
     "Path": "Event/UI_Menu_Pause.bnk",
@@ -74,11 +74,48 @@
        {
         "Id": "597279884"
        }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "4078696085",
+        "Id": "3640095552",
+        "Name": "ST_Game_InMenu",
+        "ObjectPath": "\\States\\ST_Persistent\\ST_Game\\ST_Game_InMenu",
+        "GUID": "{CBADC631-6FAE-4AA9-A719-D83BE67BF4C4}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "4078696085",
+      "Name": "ST_Game",
+      "ObjectPath": "\\States\\ST_Persistent\\ST_Game",
+      "GUID": "{C2AFF852-6A2D-42B0-B06B-6CF588CE17D6}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\ST_Persistent\\ST_Game\\None",
+        "GUID": "{2EF11E60-4DB1-49AF-83CD-F5C803E1FD88}"
+       },
+       {
+        "Id": "1745364551",
+        "Name": "ST_Game_Ingame",
+        "ObjectPath": "\\States\\ST_Persistent\\ST_Game\\ST_Game_Ingame",
+        "GUID": "{2B772789-F7D4-4DA6-B872-245923DBF8F4}"
+       },
+       {
+        "Id": "3640095552",
+        "Name": "ST_Game_InMenu",
+        "ObjectPath": "\\States\\ST_Persistent\\ST_Game\\ST_Game_InMenu",
+        "GUID": "{CBADC631-6FAE-4AA9-A719-D83BE67BF4C4}"
+       }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{40EDE819-44FB-ADB9-0971-484A6A94841F}"
+  "FileHash": "{7777F5FF-AD08-9C41-E0E8-7C00D68CD2EE}"
  }
 }

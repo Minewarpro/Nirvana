@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2153118237" Type="Event" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" Language="SFX" Hash="{C221D757-AD3C-B273-4E07-8E849B478AAA}">
+		<SoundBank Id="2153118237" Type="Event" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" Language="SFX" Hash="{D37CD905-54DB-71E9-9392-5581F210419C}">
 			<ObjectPath>UI_Menu_Slider</ObjectPath>
 			<ShortName>UI_Menu_Slider</ShortName>
 			<Path>Event/UI_Menu_Slider.bnk</Path>
@@ -39,5 +39,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8A89D4D8-B54F-4260-21CA-9845FC490ACB}</FileHash>
+	<FileHash>{74632781-9DCE-7732-D6FC-009308A9BD2F}</FileHash>
 </SoundBanksInfo>

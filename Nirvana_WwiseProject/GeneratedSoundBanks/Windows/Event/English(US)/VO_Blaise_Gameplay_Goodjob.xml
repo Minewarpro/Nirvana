@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3523062195" Type="Event" GUID="{DC44FCC0-08B0-454B-9529-15EB68E35858}" Language="English(US)" Hash="{E921A769-011D-2A8F-EE83-4FFD3D9CDF9D}">
+			<ObjectPath>VO_Blaise_Gameplay_Goodjob</ObjectPath>
+			<ShortName>VO_Blaise_Gameplay_Goodjob</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Gameplay_Goodjob.bnk</Path>
+			<Media>
+				<File Id="896020104" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Gameplay\VO_Blaise_Gameplay_Goodjob.wav</ShortName>
+					<Path>Media/English(US)/896020104.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_Goodjob_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3523062195" Name="VO_Blaise_Gameplay_Goodjob" ObjectPath="\Events\VO\VO_Blaise_Gameplay\VO_Blaise_Gameplay_Goodjob" GUID="{DC44FCC0-08B0-454B-9529-15EB68E35858}" DurationType="OneShot" DurationMin="0.8" DurationMax="0.8">
+					<MediaRefs>
+						<MediaRef Id="896020104"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{70DE24E9-D674-6464-CB15-44C23E52AF65}</FileHash>
+</SoundBanksInfo>

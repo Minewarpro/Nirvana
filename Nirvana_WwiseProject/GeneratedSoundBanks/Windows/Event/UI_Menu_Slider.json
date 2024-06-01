@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F996223E-185F-4419-8121-488BEE79FF46}",
     "Language": "SFX",
-    "Hash": "{C221D757-AD3C-B273-4E07-8E849B478AAA}",
+    "Hash": "{D37CD905-54DB-71E9-9392-5581F210419C}",
     "ObjectPath": "UI_Menu_Slider",
     "ShortName": "UI_Menu_Slider",
     "Path": "Event/UI_Menu_Slider.bnk",
@@ -79,6 +79,6 @@
     ]
    }
   ],
-  "FileHash": "{3169ACD7-D800-133E-6892-20C1F5779C8A}"
+  "FileHash": "{621716F5-B440-0C17-5BAB-8AC3F68590D2}"
  }
 }

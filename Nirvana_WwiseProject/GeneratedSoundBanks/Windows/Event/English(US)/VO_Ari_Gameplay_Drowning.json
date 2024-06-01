@@ -1,0 +1,84 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "143716483",
+    "Type": "Event",
+    "GUID": "{844B1686-5B6E-4969-A0E1-C1EC55780849}",
+    "Language": "English(US)",
+    "Hash": "{D5A1DF6D-1C7A-0296-26F3-DE352DB7763F}",
+    "ObjectPath": "VO_Ari_Gameplay_Drowning",
+    "ShortName": "VO_Ari_Gameplay_Drowning",
+    "Path": "Event/English(US)/VO_Ari_Gameplay_Drowning.bnk",
+    "Media": [
+     {
+      "Id": "580722361",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Drowning\\VO_Ari_Gameplay_Drowning_04.wav",
+      "Path": "Media/English(US)/580722361.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Drowning/VO_Ari_Gameplay_Drowning_04_818F3B66.wem"
+     },
+     {
+      "Id": "665322241",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Drowning\\VO_Ari_Gameplay_Drowning_02.wav",
+      "Path": "Media/English(US)/665322241.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Drowning/VO_Ari_Gameplay_Drowning_02_818F3B66.wem"
+     },
+     {
+      "Id": "768000172",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Drowning\\VO_Ari_Gameplay_Drowning_03.wav",
+      "Path": "Media/English(US)/768000172.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Drowning/VO_Ari_Gameplay_Drowning_03_818F3B66.wem"
+     },
+     {
+      "Id": "879119373",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Drowning\\VO_Ari_Gameplay_Drowning_01.wav",
+      "Path": "Media/English(US)/879119373.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Drowning/VO_Ari_Gameplay_Drowning_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "143716483",
+      "Name": "VO_Ari_Gameplay_Drowning",
+      "ObjectPath": "\\Events\\VO\\VO_Ari_Gameplay\\VO_Ari_Gameplay_Drowning",
+      "GUID": "{844B1686-5B6E-4969-A0E1-C1EC55780849}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.32",
+      "DurationMax": "1.16",
+      "MediaRefs": [
+       {
+        "Id": "580722361"
+       },
+       {
+        "Id": "665322241"
+       },
+       {
+        "Id": "768000172"
+       },
+       {
+        "Id": "879119373"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{25C01C2A-6C43-7852-6FD3-E31BAA7DFE3A}"
+ }
+}

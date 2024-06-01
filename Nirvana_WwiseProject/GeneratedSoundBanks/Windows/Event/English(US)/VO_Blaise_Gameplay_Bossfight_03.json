@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "340128844",
+    "Type": "Event",
+    "GUID": "{E87AF998-F0D7-4B0B-8887-36171662E7FD}",
+    "Language": "English(US)",
+    "Hash": "{8C22265F-49B7-CD72-81CA-572527E936B6}",
+    "ObjectPath": "VO_Blaise_Gameplay_Bossfight_03",
+    "ShortName": "VO_Blaise_Gameplay_Bossfight_03",
+    "Path": "Event/English(US)/VO_Blaise_Gameplay_Bossfight_03.bnk",
+    "Media": [
+     {
+      "Id": "18065002",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Blaise_Gameplay\\VO_Blaise_Gameplay_Bossfight_03.wav",
+      "Path": "Media/English(US)/18065002.wem",
+      "CachePath": "Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_Bossfight_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "340128844",
+      "Name": "VO_Blaise_Gameplay_Bossfight_03",
+      "ObjectPath": "\\Events\\VO\\VO_Blaise_Gameplay\\VO_Blaise_Gameplay_Bossfight_03",
+      "GUID": "{E87AF998-F0D7-4B0B-8887-36171662E7FD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3066666",
+      "DurationMax": "1.3066666",
+      "MediaRefs": [
+       {
+        "Id": "18065002"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7F588FA0-7166-D707-D3B5-67D8758ADF30}"
+ }
+}

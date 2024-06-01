@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="339325342" Type="Event" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" Language="SFX" Hash="{04ED1BAE-CFD3-E8F7-790B-4E47A543C5A4}">
+			<ObjectPath>SFX_MC_Weapon_Chakrams_SecondaryShot</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Chakrams_SecondaryShot</ShortName>
+			<Path>Event/SFX_MC_Weapon_Chakrams_SecondaryShot.bnk</Path>
+			<Media>
+				<File Id="244943397" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot\SFX_MC_Weapon_Chakrams_SecondaryShot_01.wav</ShortName>
+					<Path>Media/244943397.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_SecondaryShot/SFX_MC_Weapon_Chakrams_SecondaryShot_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="752966009" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot\SFX_MC_Weapon_Chakrams_SecondaryShot_02.wav</ShortName>
+					<Path>Media/752966009.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_SecondaryShot/SFX_MC_Weapon_Chakrams_SecondaryShot_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="902866026" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot\SFX_MC_Weapon_Chakrams_SecondaryShot_03.wav</ShortName>
+					<Path>Media/902866026.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_SecondaryShot/SFX_MC_Weapon_Chakrams_SecondaryShot_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="339325342" Name="SFX_MC_Weapon_Chakrams_SecondaryShot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="1.0666667" DurationMax="1.067625">
+					<MediaRefs>
+						<MediaRef Id="244943397"/>
+						<MediaRef Id="752966009"/>
+						<MediaRef Id="902866026"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E54128C1-3937-156C-E2B8-AD46B958F0F9}</FileHash>
+</SoundBanksInfo>

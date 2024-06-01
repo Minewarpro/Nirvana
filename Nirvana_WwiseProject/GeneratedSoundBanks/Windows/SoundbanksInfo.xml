@@ -9,7 +9,1162 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="922786755" Type="Event" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" Language="SFX" Hash="{7547D40A-2F74-BEBB-34FE-4C8C034541BE}">
+		<SoundBank Id="114937303" Type="Event" GUID="{8646BE1A-0105-4741-8092-3F634E6213B2}" Language="SFX" Hash="{B99AC390-5159-9E75-7C33-F2A93991E9E4}">
+			<ObjectPath>SFX_MC_Weapon_Chakrams_Overheating_lp</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Chakrams_Overheating_lp</ShortName>
+			<Path>Event/SFX_MC_Weapon_Chakrams_Overheating_lp.bnk</Path>
+			<Media>
+				<File Id="585611060" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_Overheating_lp.wav</ShortName>
+					<Path>Media/585611060.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_Overheating_lp_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="114937303" Name="SFX_MC_Weapon_Chakrams_Overheating_lp" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_Overheating_lp" GUID="{8646BE1A-0105-4741-8092-3F634E6213B2}" MaxAttenuation="7000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="585611060"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="143716483" Type="Event" GUID="{844B1686-5B6E-4969-A0E1-C1EC55780849}" Language="English(US)" Hash="{D5A1DF6D-1C7A-0296-26F3-DE352DB7763F}">
+			<ObjectPath>VO_Ari_Gameplay_Drowning</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Drowning</ShortName>
+			<Path>Event/English(US)/VO_Ari_Gameplay_Drowning.bnk</Path>
+			<Media>
+				<File Id="580722361" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Drowning\VO_Ari_Gameplay_Drowning_04.wav</ShortName>
+					<Path>Media/English(US)/580722361.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Drowning/VO_Ari_Gameplay_Drowning_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="665322241" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Drowning\VO_Ari_Gameplay_Drowning_02.wav</ShortName>
+					<Path>Media/English(US)/665322241.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Drowning/VO_Ari_Gameplay_Drowning_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="768000172" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Drowning\VO_Ari_Gameplay_Drowning_03.wav</ShortName>
+					<Path>Media/English(US)/768000172.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Drowning/VO_Ari_Gameplay_Drowning_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="879119373" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Drowning\VO_Ari_Gameplay_Drowning_01.wav</ShortName>
+					<Path>Media/English(US)/879119373.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Drowning/VO_Ari_Gameplay_Drowning_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="143716483" Name="VO_Ari_Gameplay_Drowning" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Drowning" GUID="{844B1686-5B6E-4969-A0E1-C1EC55780849}" DurationType="OneShot" DurationMin="0.32" DurationMax="1.16">
+					<MediaRefs>
+						<MediaRef Id="580722361"/>
+						<MediaRef Id="665322241"/>
+						<MediaRef Id="768000172"/>
+						<MediaRef Id="879119373"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="148639171" Type="Event" GUID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}" Language="SFX" Hash="{6964474D-95F1-3D15-9146-7FF049451AE2}">
+			<ObjectPath>SFX_MC_Weapon_Chakrams_OverheatBegin</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Chakrams_OverheatBegin</ShortName>
+			<Path>Event/SFX_MC_Weapon_Chakrams_OverheatBegin.bnk</Path>
+			<Media>
+				<File Id="239793079" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatBegin\SFX_MC_Weapon_Chakrams_OverheatBegin_01.wav</ShortName>
+					<Path>Media/239793079.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_OverheatBegin/SFX_MC_Weapon_Chakrams_OverheatBegin_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="783098889" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatBegin\SFX_MC_Weapon_Chakrams_OverheatBegin_02.wav</ShortName>
+					<Path>Media/783098889.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_OverheatBegin/SFX_MC_Weapon_Chakrams_OverheatBegin_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="148639171" Name="SFX_MC_Weapon_Chakrams_OverheatBegin" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatBegin" GUID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="3.4" DurationMax="3.4">
+					<MediaRefs>
+						<MediaRef Id="239793079"/>
+						<MediaRef Id="783098889"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="166528128" Type="Event" GUID="{AF94BA4C-E152-4CAB-B3E7-043F561D8661}" Language="English(US)" Hash="{F6D5F5AC-4AEC-80FC-E542-920759A51E47}">
+			<ObjectPath>VO_Blaise_Story_08</ObjectPath>
+			<ShortName>VO_Blaise_Story_08</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_08.bnk</Path>
+			<Media>
+				<File Id="18336796" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_08.wav</ShortName>
+					<Path>Media/English(US)/18336796.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_08_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="166528128" Name="VO_Blaise_Story_08" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_08" GUID="{AF94BA4C-E152-4CAB-B3E7-043F561D8661}" DurationType="OneShot" DurationMin="3.4533334" DurationMax="3.4533334">
+					<MediaRefs>
+						<MediaRef Id="18336796"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="166528129" Type="Event" GUID="{DB7AE044-04A1-435D-B138-5F942012C2FF}" Language="English(US)" Hash="{85DCF96D-58C4-E43E-F322-7F225201C679}">
+			<ObjectPath>VO_Blaise_Story_09</ObjectPath>
+			<ShortName>VO_Blaise_Story_09</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_09.bnk</Path>
+			<Media>
+				<File Id="21322530" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_09.wav</ShortName>
+					<Path>Media/English(US)/21322530.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_09_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="166528129" Name="VO_Blaise_Story_09" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_09" GUID="{DB7AE044-04A1-435D-B138-5F942012C2FF}" DurationType="OneShot" DurationMin="1.1999167" DurationMax="1.1999167">
+					<MediaRefs>
+						<MediaRef Id="21322530"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="166528137" Type="Event" GUID="{E78951DF-BDC9-415E-8BF8-4D1ED02F5A79}" Language="English(US)" Hash="{57F34526-F152-602C-8627-3C601015DD56}">
+			<ObjectPath>VO_Blaise_Story_01</ObjectPath>
+			<ShortName>VO_Blaise_Story_01</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_01.bnk</Path>
+			<Media>
+				<File Id="580491265" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_01.wav</ShortName>
+					<Path>Media/English(US)/580491265.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="166528137" Name="VO_Blaise_Story_01" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_01" GUID="{E78951DF-BDC9-415E-8BF8-4D1ED02F5A79}" DurationType="OneShot" DurationMin="2.4133334" DurationMax="2.4133334">
+					<MediaRefs>
+						<MediaRef Id="580491265"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="166528138" Type="Event" GUID="{2FBCB51F-CAFE-4004-A115-FA265B2B4ACB}" Language="English(US)" Hash="{1CFAB27A-88A6-2726-0CE2-14DD78291F04}">
+			<ObjectPath>VO_Blaise_Story_02</ObjectPath>
+			<ShortName>VO_Blaise_Story_02</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_02.bnk</Path>
+			<Media>
+				<File Id="1061119242" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_02.wav</ShortName>
+					<Path>Media/English(US)/1061119242.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="166528138" Name="VO_Blaise_Story_02" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_02" GUID="{2FBCB51F-CAFE-4004-A115-FA265B2B4ACB}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="1061119242"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="166528139" Type="Event" GUID="{F3A6FBAB-6CA8-4C31-98E9-7294D852F588}" Language="English(US)" Hash="{E97D8BD4-DA2F-7C6E-B187-2CC3A42E3A8D}">
+			<ObjectPath>VO_Blaise_Story_03</ObjectPath>
+			<ShortName>VO_Blaise_Story_03</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_03.bnk</Path>
+			<Media>
+				<File Id="784259690" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_03.wav</ShortName>
+					<Path>Media/English(US)/784259690.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="166528139" Name="VO_Blaise_Story_03" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_03" GUID="{F3A6FBAB-6CA8-4C31-98E9-7294D852F588}" DurationType="OneShot" DurationMin="3.8933334" DurationMax="3.8933334">
+					<MediaRefs>
+						<MediaRef Id="784259690"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="166528140" Type="Event" GUID="{F1CD593E-E04C-4955-9087-46A97CB4FCE0}" Language="English(US)" Hash="{E399212C-2E2D-6A39-5E7D-43D984C6B6FE}">
+			<ObjectPath>VO_Blaise_Story_04</ObjectPath>
+			<ShortName>VO_Blaise_Story_04</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_04.bnk</Path>
+			<Media>
+				<File Id="345175059" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_04.wav</ShortName>
+					<Path>Media/English(US)/345175059.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_04_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="166528140" Name="VO_Blaise_Story_04" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_04" GUID="{F1CD593E-E04C-4955-9087-46A97CB4FCE0}" DurationType="OneShot" DurationMin="2.56" DurationMax="2.56">
+					<MediaRefs>
+						<MediaRef Id="345175059"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="166528142" Type="Event" GUID="{B8C3520B-DB21-4758-BC89-FB2261E22A0E}" Language="English(US)" Hash="{33A224D7-C90E-FE8F-249B-2446C8ED5270}">
+			<ObjectPath>VO_Blaise_Story_06</ObjectPath>
+			<ShortName>VO_Blaise_Story_06</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_06.bnk</Path>
+			<Media>
+				<File Id="597331527" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_06.wav</ShortName>
+					<Path>Media/English(US)/597331527.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_06_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="166528142" Name="VO_Blaise_Story_06" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_06" GUID="{B8C3520B-DB21-4758-BC89-FB2261E22A0E}" DurationType="OneShot" DurationMin="2.1733334" DurationMax="2.1733334">
+					<MediaRefs>
+						<MediaRef Id="597331527"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="183305842" Type="Event" GUID="{C631CC78-2A75-4DC6-8B09-306A0D73BFF0}" Language="English(US)" Hash="{CEF67458-2828-4814-60D7-44B32E5F55EA}">
+			<ObjectPath>VO_Blaise_Story_19</ObjectPath>
+			<ShortName>VO_Blaise_Story_19</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_19.bnk</Path>
+			<Media>
+				<File Id="395183777" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_19.wav</ShortName>
+					<Path>Media/English(US)/395183777.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_19_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="183305842" Name="VO_Blaise_Story_19" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_19" GUID="{C631CC78-2A75-4DC6-8B09-306A0D73BFF0}" DurationType="OneShot" DurationMin="3.84" DurationMax="3.84">
+					<MediaRefs>
+						<MediaRef Id="395183777"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="183305848" Type="Event" GUID="{806C1673-ED3B-4308-859E-240187C18CAF}" Language="English(US)" Hash="{6BB7A322-F526-08EA-B12C-77830BFF123D}">
+			<ObjectPath>VO_Blaise_Story_13</ObjectPath>
+			<ShortName>VO_Blaise_Story_13</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_13.bnk</Path>
+			<Media>
+				<File Id="466190126" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_13.wav</ShortName>
+					<Path>Media/English(US)/466190126.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_13_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="183305848" Name="VO_Blaise_Story_13" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_13" GUID="{806C1673-ED3B-4308-859E-240187C18CAF}" DurationType="OneShot" DurationMin="1.6266667" DurationMax="1.6266667">
+					<MediaRefs>
+						<MediaRef Id="466190126"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="183305849" Type="Event" GUID="{79A800C6-817E-4DC4-BA9B-5664527E6F66}" Language="English(US)" Hash="{37FA293F-1AF4-8627-E382-A1CDE9A13E8D}">
+			<ObjectPath>VO_Blaise_Story_12</ObjectPath>
+			<ShortName>VO_Blaise_Story_12</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_12.bnk</Path>
+			<Media>
+				<File Id="407955655" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_12.wav</ShortName>
+					<Path>Media/English(US)/407955655.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_12_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="183305849" Name="VO_Blaise_Story_12" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_12" GUID="{79A800C6-817E-4DC4-BA9B-5664527E6F66}" DurationType="OneShot" DurationMin="2.6533334" DurationMax="2.6533334">
+					<MediaRefs>
+						<MediaRef Id="407955655"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="183305851" Type="Event" GUID="{E937DC12-1ECC-4590-977D-31D06855E500}" Language="English(US)" Hash="{134A52D7-DD1E-D680-BD46-CC6626FB2322}">
+			<ObjectPath>VO_Blaise_Story_10</ObjectPath>
+			<ShortName>VO_Blaise_Story_10</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_10.bnk</Path>
+			<Media>
+				<File Id="170141961" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_10.wav</ShortName>
+					<Path>Media/English(US)/170141961.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_10_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="183305851" Name="VO_Blaise_Story_10" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_10" GUID="{E937DC12-1ECC-4590-977D-31D06855E500}" DurationType="OneShot" DurationMin="1.6" DurationMax="1.6">
+					<MediaRefs>
+						<MediaRef Id="170141961"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="183305853" Type="Event" GUID="{73959EB7-94D7-4AF1-BDD3-3110426031D8}" Language="English(US)" Hash="{13D9AA6D-A95C-3B5D-3CF3-FF0B586047A6}">
+			<ObjectPath>VO_Blaise_Story_16</ObjectPath>
+			<ShortName>VO_Blaise_Story_16</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_16.bnk</Path>
+			<Media>
+				<File Id="258172618" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_16.wav</ShortName>
+					<Path>Media/English(US)/258172618.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_16_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="183305853" Name="VO_Blaise_Story_16" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_16" GUID="{73959EB7-94D7-4AF1-BDD3-3110426031D8}" DurationType="OneShot" DurationMin="0.88" DurationMax="0.88">
+					<MediaRefs>
+						<MediaRef Id="258172618"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="183305854" Type="Event" GUID="{88C514B3-7909-4AE7-B8DF-678CD05D924E}" Language="English(US)" Hash="{6AC24624-F15B-73BC-65D3-92AC2857BF13}">
+			<ObjectPath>VO_Blaise_Story_15</ObjectPath>
+			<ShortName>VO_Blaise_Story_15</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_15.bnk</Path>
+			<Media>
+				<File Id="394414794" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_15.wav</ShortName>
+					<Path>Media/English(US)/394414794.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_15_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="183305854" Name="VO_Blaise_Story_15" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_15" GUID="{88C514B3-7909-4AE7-B8DF-678CD05D924E}" DurationType="OneShot" DurationMin="2.1066666" DurationMax="2.1066666">
+					<MediaRefs>
+						<MediaRef Id="394414794"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="200083439" Type="Event" GUID="{A3940E47-13FB-44AD-9D34-E6D0B7CE0B79}" Language="English(US)" Hash="{6124376F-E24C-F14A-AFAA-BBDDC27E3490}">
+			<ObjectPath>VO_Blaise_Story_21</ObjectPath>
+			<ShortName>VO_Blaise_Story_21</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_21.bnk</Path>
+			<Media>
+				<File Id="130903820" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_21.wav</ShortName>
+					<Path>Media/English(US)/130903820.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_21_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="200083439" Name="VO_Blaise_Story_21" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_21" GUID="{A3940E47-13FB-44AD-9D34-E6D0B7CE0B79}" DurationType="OneShot" DurationMin="1.92" DurationMax="1.92">
+					<MediaRefs>
+						<MediaRef Id="130903820"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="216860994" Type="Event" GUID="{8E9ACCFE-FF80-49AD-BD92-A753D67C91B1}" Language="English(US)" Hash="{70CB3CFD-7E2D-B282-C205-DF09AACA5C36}">
+			<ObjectPath>VO_Blaise_Story_33</ObjectPath>
+			<ShortName>VO_Blaise_Story_33</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_33.bnk</Path>
+			<Media>
+				<File Id="543994396" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_33.wav</ShortName>
+					<Path>Media/English(US)/543994396.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_33_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="216860994" Name="VO_Blaise_Story_33" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_33" GUID="{8E9ACCFE-FF80-49AD-BD92-A753D67C91B1}" DurationType="OneShot" DurationMin="2.4266667" DurationMax="2.4266667">
+					<MediaRefs>
+						<MediaRef Id="543994396"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="271131294" Type="Event" GUID="{AE3868ED-573A-461E-8507-AA60470E9B1A}" Language="English(US)" Hash="{A6453F20-5B39-8380-9A39-E51E026EF63F}">
+			<ObjectPath>VO_Blaise_Gameplay_Tempo</ObjectPath>
+			<ShortName>VO_Blaise_Gameplay_Tempo</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Gameplay_Tempo.bnk</Path>
+			<Media>
+				<File Id="786676972" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Gameplay\VO_Blaise_Gameplay_Tempo.wav</ShortName>
+					<Path>Media/English(US)/786676972.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_Tempo_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="271131294" Name="VO_Blaise_Gameplay_Tempo" ObjectPath="\Events\VO\VO_Blaise_Gameplay\VO_Blaise_Gameplay_Tempo" GUID="{AE3868ED-573A-461E-8507-AA60470E9B1A}" DurationType="OneShot" DurationMin="1.5333333" DurationMax="1.5333333">
+					<MediaRefs>
+						<MediaRef Id="786676972"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="339325342" Type="Event" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" Language="SFX" Hash="{04ED1BAE-CFD3-E8F7-790B-4E47A543C5A4}">
+			<ObjectPath>SFX_MC_Weapon_Chakrams_SecondaryShot</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Chakrams_SecondaryShot</ShortName>
+			<Path>Event/SFX_MC_Weapon_Chakrams_SecondaryShot.bnk</Path>
+			<Media>
+				<File Id="244943397" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot\SFX_MC_Weapon_Chakrams_SecondaryShot_01.wav</ShortName>
+					<Path>Media/244943397.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_SecondaryShot/SFX_MC_Weapon_Chakrams_SecondaryShot_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="752966009" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot\SFX_MC_Weapon_Chakrams_SecondaryShot_02.wav</ShortName>
+					<Path>Media/752966009.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_SecondaryShot/SFX_MC_Weapon_Chakrams_SecondaryShot_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="902866026" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot\SFX_MC_Weapon_Chakrams_SecondaryShot_03.wav</ShortName>
+					<Path>Media/902866026.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_SecondaryShot/SFX_MC_Weapon_Chakrams_SecondaryShot_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="339325342" Name="SFX_MC_Weapon_Chakrams_SecondaryShot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="1.0666667" DurationMax="1.067625">
+					<MediaRefs>
+						<MediaRef Id="244943397"/>
+						<MediaRef Id="752966009"/>
+						<MediaRef Id="902866026"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="340128844" Type="Event" GUID="{E87AF998-F0D7-4B0B-8887-36171662E7FD}" Language="English(US)" Hash="{8C22265F-49B7-CD72-81CA-572527E936B6}">
+			<ObjectPath>VO_Blaise_Gameplay_Bossfight_03</ObjectPath>
+			<ShortName>VO_Blaise_Gameplay_Bossfight_03</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Gameplay_Bossfight_03.bnk</Path>
+			<Media>
+				<File Id="18065002" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Gameplay\VO_Blaise_Gameplay_Bossfight_03.wav</ShortName>
+					<Path>Media/English(US)/18065002.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_Bossfight_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="340128844" Name="VO_Blaise_Gameplay_Bossfight_03" ObjectPath="\Events\VO\VO_Blaise_Gameplay\VO_Blaise_Gameplay_Bossfight_03" GUID="{E87AF998-F0D7-4B0B-8887-36171662E7FD}" DurationType="OneShot" DurationMin="1.3066666" DurationMax="1.3066666">
+					<MediaRefs>
+						<MediaRef Id="18065002"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="340128845" Type="Event" GUID="{A012DD56-AF11-4C4C-BD0A-8E57B1ED80B6}" Language="English(US)" Hash="{46603F71-D292-5A3D-7F28-657B3455E440}">
+			<ObjectPath>VO_Blaise_Gameplay_Bossfight_02</ObjectPath>
+			<ShortName>VO_Blaise_Gameplay_Bossfight_02</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Gameplay_Bossfight_02.bnk</Path>
+			<Media>
+				<File Id="835176052" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Gameplay\VO_Blaise_Gameplay_Bossfight_02.wav</ShortName>
+					<Path>Media/English(US)/835176052.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_Bossfight_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="340128845" Name="VO_Blaise_Gameplay_Bossfight_02" ObjectPath="\Events\VO\VO_Blaise_Gameplay\VO_Blaise_Gameplay_Bossfight_02" GUID="{A012DD56-AF11-4C4C-BD0A-8E57B1ED80B6}" DurationType="OneShot" DurationMin="1.04" DurationMax="1.04">
+					<MediaRefs>
+						<MediaRef Id="835176052"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="340128846" Type="Event" GUID="{698CB1A8-3654-4D92-9783-CEC56726CAA7}" Language="English(US)" Hash="{01132D80-2A31-F2F6-7652-42528BC87A27}">
+			<ObjectPath>VO_Blaise_Gameplay_Bossfight_01</ObjectPath>
+			<ShortName>VO_Blaise_Gameplay_Bossfight_01</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Gameplay_Bossfight_01.bnk</Path>
+			<Media>
+				<File Id="347104430" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Gameplay\VO_Blaise_Gameplay_Bossfight_01.wav</ShortName>
+					<Path>Media/English(US)/347104430.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_Bossfight_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="340128846" Name="VO_Blaise_Gameplay_Bossfight_01" ObjectPath="\Events\VO\VO_Blaise_Gameplay\VO_Blaise_Gameplay_Bossfight_01" GUID="{698CB1A8-3654-4D92-9783-CEC56726CAA7}" DurationType="OneShot" DurationMin="1.5466666" DurationMax="1.5466666">
+					<MediaRefs>
+						<MediaRef Id="347104430"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="351521770" Type="Event" GUID="{313E5E7F-1693-4515-ABAE-730825870ED6}" Language="English(US)" Hash="{E05E7676-9F65-742C-849D-C0D8C86243C4}">
+			<ObjectPath>VO_Anna_Gameplay_No</ObjectPath>
+			<ShortName>VO_Anna_Gameplay_No</ShortName>
+			<Path>Event/English(US)/VO_Anna_Gameplay_No.bnk</Path>
+			<Media>
+				<File Id="660292358" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Gameplay\VO_Anna_Gameplay_No.wav</ShortName>
+					<Path>Media/English(US)/660292358.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Gameplay/VO_Anna_Gameplay_No_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="351521770" Name="VO_Anna_Gameplay_No" ObjectPath="\Events\VO\VO_Anna_Gameplay\VO_Anna_Gameplay_No" GUID="{313E5E7F-1693-4515-ABAE-730825870ED6}" DurationType="OneShot" DurationMin="1.48" DurationMax="1.48">
+					<MediaRefs>
+						<MediaRef Id="660292358"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="419667425" Type="Event" GUID="{6EEDCA55-D883-4F99-A9C1-910678A149C8}" Language="English(US)" Hash="{F6AF0187-F6A6-F8A1-655B-82BF72DBD05B}">
+			<ObjectPath>VO_Simon_Story_01</ObjectPath>
+			<ShortName>VO_Simon_Story_01</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_01.bnk</Path>
+			<Media>
+				<File Id="831831398" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_01.wav</ShortName>
+					<Path>Media/English(US)/831831398.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="419667425" Name="VO_Simon_Story_01" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_01" GUID="{6EEDCA55-D883-4F99-A9C1-910678A149C8}" DurationType="OneShot" DurationMin="1.1733333" DurationMax="1.1733333">
+					<MediaRefs>
+						<MediaRef Id="831831398"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="419667426" Type="Event" GUID="{5B05EF20-780C-46D1-A388-F4B350761B55}" Language="English(US)" Hash="{A8F89457-FE61-6CE8-B227-4053AC45057B}">
+			<ObjectPath>VO_Simon_Story_02</ObjectPath>
+			<ShortName>VO_Simon_Story_02</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_02.bnk</Path>
+			<Media>
+				<File Id="401328346" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_02.wav</ShortName>
+					<Path>Media/English(US)/401328346.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="419667426" Name="VO_Simon_Story_02" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_02" GUID="{5B05EF20-780C-46D1-A388-F4B350761B55}" DurationType="OneShot" DurationMin="0.9866667" DurationMax="0.9866667">
+					<MediaRefs>
+						<MediaRef Id="401328346"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="419667427" Type="Event" GUID="{155E0B7E-541B-44EF-BD53-A9BCC0473B6F}" Language="English(US)" Hash="{7E5A84AA-6109-D4D5-590F-F1C91CFFB164}">
+			<ObjectPath>VO_Simon_Story_03</ObjectPath>
+			<ShortName>VO_Simon_Story_03</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_03.bnk</Path>
+			<Media>
+				<File Id="86281549" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_03.wav</ShortName>
+					<Path>Media/English(US)/86281549.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="419667427" Name="VO_Simon_Story_03" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_03" GUID="{155E0B7E-541B-44EF-BD53-A9BCC0473B6F}" DurationType="OneShot" DurationMin="3.0133333" DurationMax="3.0133333">
+					<MediaRefs>
+						<MediaRef Id="86281549"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="419667428" Type="Event" GUID="{53183060-51E0-44E4-A164-00323D1A68E5}" Language="English(US)" Hash="{469F9261-7596-8746-C0AB-4C40F0E095A0}">
+			<ObjectPath>VO_Simon_Story_04</ObjectPath>
+			<ShortName>VO_Simon_Story_04</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_04.bnk</Path>
+			<Media>
+				<File Id="98029157" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_04.wav</ShortName>
+					<Path>Media/English(US)/98029157.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_04_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="419667428" Name="VO_Simon_Story_04" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_04" GUID="{53183060-51E0-44E4-A164-00323D1A68E5}" DurationType="OneShot" DurationMin="4.16" DurationMax="4.16">
+					<MediaRefs>
+						<MediaRef Id="98029157"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="419667429" Type="Event" GUID="{312735ED-7B7F-4D1E-82D6-C962CB025021}" Language="English(US)" Hash="{04E78BA4-BFB9-A91B-7BD4-E17599E3ED37}">
+			<ObjectPath>VO_Simon_Story_05</ObjectPath>
+			<ShortName>VO_Simon_Story_05</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_05.bnk</Path>
+			<Media>
+				<File Id="838224649" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_05.wav</ShortName>
+					<Path>Media/English(US)/838224649.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_05_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="419667429" Name="VO_Simon_Story_05" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_05" GUID="{312735ED-7B7F-4D1E-82D6-C962CB025021}" DurationType="OneShot" DurationMin="2.8533332" DurationMax="2.8533332">
+					<MediaRefs>
+						<MediaRef Id="838224649"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="419667433" Type="Event" GUID="{379809B8-81AE-4CE5-A6FA-EDD0E87FD57E}" Language="English(US)" Hash="{73DD144E-20BA-B562-50EB-A76C48FCBF62}">
+			<ObjectPath>VO_Simon_Story_09</ObjectPath>
+			<ShortName>VO_Simon_Story_09</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_09.bnk</Path>
+			<Media>
+				<File Id="790919653" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_09.wav</ShortName>
+					<Path>Media/English(US)/790919653.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_09_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="419667433" Name="VO_Simon_Story_09" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_09" GUID="{379809B8-81AE-4CE5-A6FA-EDD0E87FD57E}" DurationType="OneShot" DurationMin="3.2933333" DurationMax="3.2933333">
+					<MediaRefs>
+						<MediaRef Id="790919653"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="436445008" Type="Event" GUID="{032189B6-370C-4956-AE3E-BA66072346CE}" Language="English(US)" Hash="{6FA76AAC-1187-EAF7-78D0-296FAA757481}">
+			<ObjectPath>VO_Simon_Story_13</ObjectPath>
+			<ShortName>VO_Simon_Story_13</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_13.bnk</Path>
+			<Media>
+				<File Id="416302024" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_13.wav</ShortName>
+					<Path>Media/English(US)/416302024.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_13_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="436445008" Name="VO_Simon_Story_13" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_13" GUID="{032189B6-370C-4956-AE3E-BA66072346CE}" DurationType="OneShot" DurationMin="5.0666666" DurationMax="5.0666666">
+					<MediaRefs>
+						<MediaRef Id="416302024"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="436445009" Type="Event" GUID="{9D57E4FD-6AAF-4062-9E4B-581910E82D25}" Language="English(US)" Hash="{0D7C13E9-1824-20E8-ED59-8B42A9ACB930}">
+			<ObjectPath>VO_Simon_Story_12</ObjectPath>
+			<ShortName>VO_Simon_Story_12</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_12.bnk</Path>
+			<Media>
+				<File Id="369300724" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_12.wav</ShortName>
+					<Path>Media/English(US)/369300724.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_12_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="436445009" Name="VO_Simon_Story_12" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_12" GUID="{9D57E4FD-6AAF-4062-9E4B-581910E82D25}" DurationType="OneShot" DurationMin="1.0933334" DurationMax="1.0933334">
+					<MediaRefs>
+						<MediaRef Id="369300724"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="436445010" Type="Event" GUID="{E4FD996C-9FC2-4BC1-893B-D03C641A9E0E}" Language="English(US)" Hash="{137E23A5-FE52-501B-8F9E-D37696AB7A73}">
+			<ObjectPath>VO_Simon_Story_11</ObjectPath>
+			<ShortName>VO_Simon_Story_11</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_11.bnk</Path>
+			<Media>
+				<File Id="540461071" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_11.wav</ShortName>
+					<Path>Media/English(US)/540461071.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_11_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="436445010" Name="VO_Simon_Story_11" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_11" GUID="{E4FD996C-9FC2-4BC1-893B-D03C641A9E0E}" DurationType="OneShot" DurationMin="2.5466666" DurationMax="2.5466666">
+					<MediaRefs>
+						<MediaRef Id="540461071"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="436445011" Type="Event" GUID="{1541DB56-71AE-4AD1-AC88-4DEB5EBBA48E}" Language="English(US)" Hash="{9743C90A-9C1D-766D-5813-108A92D15931}">
+			<ObjectPath>VO_Simon_Story_10</ObjectPath>
+			<ShortName>VO_Simon_Story_10</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_10.bnk</Path>
+			<Media>
+				<File Id="588411115" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_10.wav</ShortName>
+					<Path>Media/English(US)/588411115.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_10_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="436445011" Name="VO_Simon_Story_10" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_10" GUID="{1541DB56-71AE-4AD1-AC88-4DEB5EBBA48E}" DurationType="OneShot" DurationMin="2.4133334" DurationMax="2.4133334">
+					<MediaRefs>
+						<MediaRef Id="588411115"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="436445013" Type="Event" GUID="{ABAD9386-F614-4A0A-97AF-1280960D05CF}" Language="English(US)" Hash="{858E6592-921D-071B-1629-CB2CC3A0C8BD}">
+			<ObjectPath>VO_Simon_Story_16</ObjectPath>
+			<ShortName>VO_Simon_Story_16</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_16.bnk</Path>
+			<Media>
+				<File Id="669291572" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_16.wav</ShortName>
+					<Path>Media/English(US)/669291572.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_16_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="436445013" Name="VO_Simon_Story_16" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_16" GUID="{ABAD9386-F614-4A0A-97AF-1280960D05CF}" DurationType="OneShot" DurationMin="1.88" DurationMax="1.88">
+					<MediaRefs>
+						<MediaRef Id="669291572"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="436445014" Type="Event" GUID="{1CC7BC8C-5619-49AB-8483-BDF3C7AAEAE1}" Language="English(US)" Hash="{18D6D574-3413-198E-29FD-4153F7D861BA}">
+			<ObjectPath>VO_Simon_Story_15</ObjectPath>
+			<ShortName>VO_Simon_Story_15</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_15.bnk</Path>
+			<Media>
+				<File Id="239504541" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_15.wav</ShortName>
+					<Path>Media/English(US)/239504541.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_15_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="436445014" Name="VO_Simon_Story_15" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_15" GUID="{1CC7BC8C-5619-49AB-8483-BDF3C7AAEAE1}" DurationType="OneShot" DurationMin="3.5733333" DurationMax="3.5733333">
+					<MediaRefs>
+						<MediaRef Id="239504541"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="453222596" Type="Event" GUID="{BF1080CC-FC8C-4B4C-BA1B-6D246FA878B2}" Language="English(US)" Hash="{481925F2-1250-6EF8-3D64-64FC2E6A36AE}">
+			<ObjectPath>VO_Simon_Story_22</ObjectPath>
+			<ShortName>VO_Simon_Story_22</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_22.bnk</Path>
+			<Media>
+				<File Id="970880455" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_22.wav</ShortName>
+					<Path>Media/English(US)/970880455.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_22_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="453222596" Name="VO_Simon_Story_22" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_22" GUID="{BF1080CC-FC8C-4B4C-BA1B-6D246FA878B2}" DurationType="OneShot" DurationMin="4.72" DurationMax="4.72">
+					<MediaRefs>
+						<MediaRef Id="970880455"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="453222599" Type="Event" GUID="{2A79FCBE-B5CD-4BC2-B902-D777BFDFBF91}" Language="English(US)" Hash="{546A8F6C-702D-05A1-5243-6B264E4C461C}">
+			<ObjectPath>VO_Simon_Story_21</ObjectPath>
+			<ShortName>VO_Simon_Story_21</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_21.bnk</Path>
+			<Media>
+				<File Id="890723246" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_21.wav</ShortName>
+					<Path>Media/English(US)/890723246.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_21_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="453222599" Name="VO_Simon_Story_21" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_21" GUID="{2A79FCBE-B5CD-4BC2-B902-D777BFDFBF91}" DurationType="OneShot" DurationMin="0.81333333" DurationMax="0.81333333">
+					<MediaRefs>
+						<MediaRef Id="890723246"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="470000317" Type="Event" GUID="{F20C35C5-A27C-40E5-9C27-A263D5E63BE6}" Language="English(US)" Hash="{77F20655-8FAD-5748-1423-6D00E49C4F3A}">
+			<ObjectPath>VO_Simon_Story_34</ObjectPath>
+			<ShortName>VO_Simon_Story_34</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_34.bnk</Path>
+			<Media>
+				<File Id="176592139" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_34.wav</ShortName>
+					<Path>Media/English(US)/176592139.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_34_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="470000317" Name="VO_Simon_Story_34" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_34" GUID="{F20C35C5-A27C-40E5-9C27-A263D5E63BE6}" DurationType="OneShot" DurationMin="2.4133334" DurationMax="2.4133334">
+					<MediaRefs>
+						<MediaRef Id="176592139"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="535776511" Type="Event" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" Language="SFX" Hash="{D74B1957-1CCF-6C81-B06D-1445F4BE2E8B}">
+			<ObjectPath>SFX_GPE_Launcher_Jump</ObjectPath>
+			<ShortName>SFX_GPE_Launcher_Jump</ShortName>
+			<Path>Event/SFX_GPE_Launcher_Jump.bnk</Path>
+			<Media>
+				<File Id="188956989" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_GPE\SFX_GPE_Launcher_Jump\SFX_GPE_Launcher_Jump_03.wav</ShortName>
+					<Path>Media/188956989.wem</Path>
+					<CachePath>SFX/SFX/SFX_GPE/SFX_GPE_Launcher_Jump/SFX_GPE_Launcher_Jump_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="341882187" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_GPE\SFX_GPE_Launcher_Jump\SFX_GPE_Launcher_Jump_02.wav</ShortName>
+					<Path>Media/341882187.wem</Path>
+					<CachePath>SFX/SFX/SFX_GPE/SFX_GPE_Launcher_Jump/SFX_GPE_Launcher_Jump_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1062649910" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_GPE\SFX_GPE_Launcher_Jump\SFX_GPE_Launcher_Jump_01.wav</ShortName>
+					<Path>Media/1062649910.wem</Path>
+					<CachePath>SFX/SFX/SFX_GPE/SFX_GPE_Launcher_Jump/SFX_GPE_Launcher_Jump_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="535776511" Name="SFX_GPE_Launcher_Jump" ObjectPath="\Events\SFX\SFX_GPE\SFX_GPE_Launcher_Jump" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="188956989"/>
+						<MediaRef Id="341882187"/>
+						<MediaRef Id="1062649910"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="577502352" Type="Event" GUID="{5488BE8E-DDB8-4BBA-8032-D59549B43C49}" Language="English(US)" Hash="{E82F60F9-50A8-B12E-CFE0-6F65A0262873}">
+			<ObjectPath>VO_Blaise_Gameplay_Run</ObjectPath>
+			<ShortName>VO_Blaise_Gameplay_Run</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Gameplay_Run.bnk</Path>
+			<Media>
+				<File Id="820038228" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Gameplay\VO_Blaise_Gameplay_Run.wav</ShortName>
+					<Path>Media/English(US)/820038228.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_Run_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="577502352" Name="VO_Blaise_Gameplay_Run" ObjectPath="\Events\VO\VO_Blaise_Gameplay\VO_Blaise_Gameplay_Run" GUID="{5488BE8E-DDB8-4BBA-8032-D59549B43C49}" DurationType="OneShot" DurationMin="1.3066666" DurationMax="1.3066666">
+					<MediaRefs>
+						<MediaRef Id="820038228"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="617676896" Type="Event" GUID="{06E8F036-5300-4CBE-9360-4DFF3221E7C8}" Language="English(US)" Hash="{946AA236-EDB9-135D-6E30-D6529FBCCE6F}">
+			<ObjectPath>VO_Anna_Story_24</ObjectPath>
+			<ShortName>VO_Anna_Story_24</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_24.bnk</Path>
+			<Media>
+				<File Id="241614408" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_24.wav</ShortName>
+					<Path>Media/English(US)/241614408.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_24_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="617676896" Name="VO_Anna_Story_24" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_24" GUID="{06E8F036-5300-4CBE-9360-4DFF3221E7C8}" DurationType="OneShot" DurationMin="7.173333" DurationMax="7.173333">
+					<MediaRefs>
+						<MediaRef Id="241614408"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="617676897" Type="Event" GUID="{0AE39232-76C9-4CF8-9125-81E7A72CC52C}" Language="English(US)" Hash="{C26BF543-D87E-8740-35CB-3CE8C9132DDB}">
+			<ObjectPath>VO_Anna_Story_25</ObjectPath>
+			<ShortName>VO_Anna_Story_25</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_25.bnk</Path>
+			<Media>
+				<File Id="265455360" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_25.wav</ShortName>
+					<Path>Media/English(US)/265455360.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_25_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="617676897" Name="VO_Anna_Story_25" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_25" GUID="{0AE39232-76C9-4CF8-9125-81E7A72CC52C}" DurationType="OneShot" DurationMin="12.8133335" DurationMax="12.8133335">
+					<MediaRefs>
+						<MediaRef Id="265455360"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="634454480" Type="Event" GUID="{9B3D03A5-76B3-4AEE-ACA5-6862CBA47135}" Language="English(US)" Hash="{C3FAACFE-9A1C-67A9-FFD5-1836CDB31B96}">
+			<ObjectPath>VO_Anna_Story_37</ObjectPath>
+			<ShortName>VO_Anna_Story_37</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_37.bnk</Path>
+			<Media>
+				<File Id="600278048" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_37.wav</ShortName>
+					<Path>Media/English(US)/600278048.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_37_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="634454480" Name="VO_Anna_Story_37" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_37" GUID="{9B3D03A5-76B3-4AEE-ACA5-6862CBA47135}" DurationType="OneShot" DurationMin="2.3333333" DurationMax="2.3333333">
+					<MediaRefs>
+						<MediaRef Id="600278048"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="651232066" Type="Event" GUID="{A6DE9CA9-253A-44B5-B10F-C6913CE37A3F}" Language="English(US)" Hash="{51F3A751-4832-75DC-BA18-E92E6D0385AD}">
+			<ObjectPath>VO_Anna_Story_08</ObjectPath>
+			<ShortName>VO_Anna_Story_08</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_08.bnk</Path>
+			<Media>
+				<File Id="1000468511" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_08.wav</ShortName>
+					<Path>Media/English(US)/1000468511.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_08_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="651232066" Name="VO_Anna_Story_08" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_08" GUID="{A6DE9CA9-253A-44B5-B10F-C6913CE37A3F}" DurationType="OneShot" DurationMin="1.4266666" DurationMax="1.4266666">
+					<MediaRefs>
+						<MediaRef Id="1000468511"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="651232072" Type="Event" GUID="{9D813595-F2D5-4FAF-8D63-3B98F99906A6}" Language="English(US)" Hash="{B0797E52-F720-B8FC-FA40-AE2F42418044}">
+			<ObjectPath>VO_Anna_Story_02</ObjectPath>
+			<ShortName>VO_Anna_Story_02</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_02.bnk</Path>
+			<Media>
+				<File Id="582108745" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_02.wav</ShortName>
+					<Path>Media/English(US)/582108745.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="651232072" Name="VO_Anna_Story_02" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_02" GUID="{9D813595-F2D5-4FAF-8D63-3B98F99906A6}" DurationType="OneShot" DurationMin="1.3066666" DurationMax="1.3066666">
+					<MediaRefs>
+						<MediaRef Id="582108745"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="651232073" Type="Event" GUID="{69061FBB-71F2-42F4-BA21-D8BCE71903FB}" Language="English(US)" Hash="{DA816105-437E-815F-F93E-5F8363FC56D6}">
+			<ObjectPath>VO_Anna_Story_03</ObjectPath>
+			<ShortName>VO_Anna_Story_03</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_03.bnk</Path>
+			<Media>
+				<File Id="982166382" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_03.wav</ShortName>
+					<Path>Media/English(US)/982166382.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="651232073" Name="VO_Anna_Story_03" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_03" GUID="{69061FBB-71F2-42F4-BA21-D8BCE71903FB}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="982166382"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="651232075" Type="Event" GUID="{D92FD9D5-3363-41E0-9B5F-633DCDE03AFE}" Language="English(US)" Hash="{CE70AAB7-F134-46E4-8124-A2459256C5F3}">
+			<ObjectPath>VO_Anna_Story_01</ObjectPath>
+			<ShortName>VO_Anna_Story_01</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_01.bnk</Path>
+			<Media>
+				<File Id="967129697" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_01.wav</ShortName>
+					<Path>Media/English(US)/967129697.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="651232075" Name="VO_Anna_Story_01" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_01" GUID="{D92FD9D5-3363-41E0-9B5F-633DCDE03AFE}" DurationType="OneShot" DurationMin="1.8933333" DurationMax="1.8933333">
+					<MediaRefs>
+						<MediaRef Id="967129697"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="651232076" Type="Event" GUID="{778441E5-19D5-426D-A398-C0BBECDE6B02}" Language="English(US)" Hash="{3B29FFA0-0B5D-F43C-7288-947ED14006AD}">
+			<ObjectPath>VO_Anna_Story_06</ObjectPath>
+			<ShortName>VO_Anna_Story_06</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_06.bnk</Path>
+			<Media>
+				<File Id="402174804" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_06.wav</ShortName>
+					<Path>Media/English(US)/402174804.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_06_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="651232076" Name="VO_Anna_Story_06" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_06" GUID="{778441E5-19D5-426D-A398-C0BBECDE6B02}" DurationType="OneShot" DurationMin="2.5733333" DurationMax="2.5733333">
+					<MediaRefs>
+						<MediaRef Id="402174804"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="651232077" Type="Event" GUID="{79208419-2D00-4641-8DA6-10AA4CB9F383}" Language="English(US)" Hash="{BFAE4A20-212D-F5D9-4C5B-7F80F041768D}">
+			<ObjectPath>VO_Anna_Story_07</ObjectPath>
+			<ShortName>VO_Anna_Story_07</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_07.bnk</Path>
+			<Media>
+				<File Id="815517999" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_07.wav</ShortName>
+					<Path>Media/English(US)/815517999.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_07_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="651232077" Name="VO_Anna_Story_07" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_07" GUID="{79208419-2D00-4641-8DA6-10AA4CB9F383}" DurationType="OneShot" DurationMin="3.5866666" DurationMax="3.5866666">
+					<MediaRefs>
+						<MediaRef Id="815517999"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="651232078" Type="Event" GUID="{25E51580-617B-4F6E-9453-FDFB18E492D9}" Language="English(US)" Hash="{7BA5C596-EB5D-C7F9-4872-105F0B5095EF}">
+			<ObjectPath>VO_Anna_Story_04</ObjectPath>
+			<ShortName>VO_Anna_Story_04</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_04.bnk</Path>
+			<Media>
+				<File Id="619701844" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_04.wav</ShortName>
+					<Path>Media/English(US)/619701844.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_04_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="651232078" Name="VO_Anna_Story_04" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_04" GUID="{25E51580-617B-4F6E-9453-FDFB18E492D9}" DurationType="OneShot" DurationMin="1.0266666" DurationMax="1.0266666">
+					<MediaRefs>
+						<MediaRef Id="619701844"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="668009781" Type="Event" GUID="{50FFFC9C-EB01-4161-BC1E-FC87E318EAF1}" Language="English(US)" Hash="{04B24CFB-8E6D-E328-A640-D1BD1A9FC018}">
+			<ObjectPath>VO_Anna_Story_18</ObjectPath>
+			<ShortName>VO_Anna_Story_18</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_18.bnk</Path>
+			<Media>
+				<File Id="150612093" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_18.wav</ShortName>
+					<Path>Media/English(US)/150612093.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_18_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="668009781" Name="VO_Anna_Story_18" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_18" GUID="{50FFFC9C-EB01-4161-BC1E-FC87E318EAF1}" DurationType="OneShot" DurationMin="12.906667" DurationMax="12.906667">
+					<MediaRefs>
+						<MediaRef Id="150612093"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="668009786" Type="Event" GUID="{461A1EAF-6B20-4906-BDE2-F186B0A11C55}" Language="English(US)" Hash="{C51DD4CE-E11C-E6DF-BFE3-445E198D760C}">
+			<ObjectPath>VO_Anna_Story_17</ObjectPath>
+			<ShortName>VO_Anna_Story_17</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_17.bnk</Path>
+			<Media>
+				<File Id="999423378" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_17.wav</ShortName>
+					<Path>Media/English(US)/999423378.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_17_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="668009786" Name="VO_Anna_Story_17" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_17" GUID="{461A1EAF-6B20-4906-BDE2-F186B0A11C55}" DurationType="OneShot" DurationMin="6.32" DurationMax="6.32">
+					<MediaRefs>
+						<MediaRef Id="999423378"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="668009788" Type="Event" GUID="{58AFC0A2-6D02-4C88-B231-7F9DA55067C6}" Language="English(US)" Hash="{BD45039B-4357-6017-2388-31C5AB4547EF}">
+			<ObjectPath>VO_Anna_Story_11</ObjectPath>
+			<ShortName>VO_Anna_Story_11</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_11.bnk</Path>
+			<Media>
+				<File Id="892180530" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_11.wav</ShortName>
+					<Path>Media/English(US)/892180530.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_11_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="668009788" Name="VO_Anna_Story_11" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_11" GUID="{58AFC0A2-6D02-4C88-B231-7F9DA55067C6}" DurationType="OneShot" DurationMin="2.88" DurationMax="2.88">
+					<MediaRefs>
+						<MediaRef Id="892180530"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="668009789" Type="Event" GUID="{BCE7EFD4-E645-4740-8106-CEF301E7A053}" Language="English(US)" Hash="{5D8E64E6-3CC8-C789-575A-487CB46C93E8}">
+			<ObjectPath>VO_Anna_Story_10</ObjectPath>
+			<ShortName>VO_Anna_Story_10</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_10.bnk</Path>
+			<Media>
+				<File Id="432879014" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_10.wav</ShortName>
+					<Path>Media/English(US)/432879014.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_10_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="668009789" Name="VO_Anna_Story_10" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_10" GUID="{BCE7EFD4-E645-4740-8106-CEF301E7A053}" DurationType="OneShot" DurationMin="6.32" DurationMax="6.32">
+					<MediaRefs>
+						<MediaRef Id="432879014"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="668009790" Type="Event" GUID="{6E237887-D345-43C5-8BA0-37FAAB0B413D}" Language="English(US)" Hash="{921BE9D7-020D-0F5F-9DCD-73ACDAE51C68}">
+			<ObjectPath>VO_Anna_Story_13</ObjectPath>
+			<ShortName>VO_Anna_Story_13</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_13.bnk</Path>
+			<Media>
+				<File Id="997204092" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_13.wav</ShortName>
+					<Path>Media/English(US)/997204092.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_13_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="668009790" Name="VO_Anna_Story_13" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_13" GUID="{6E237887-D345-43C5-8BA0-37FAAB0B413D}" DurationType="OneShot" DurationMin="4.64" DurationMax="4.64">
+					<MediaRefs>
+						<MediaRef Id="997204092"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="798162039" Type="Event" GUID="{14412A49-EE02-4B5F-9198-987A15F0CC83}" Language="English(US)" Hash="{DA59D297-6CC9-C225-9569-EF394303E8C5}">
+			<ObjectPath>VO_Ari_Gameplay_Effort</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Effort</ShortName>
+			<Path>Event/English(US)/VO_Ari_Gameplay_Effort.bnk</Path>
+			<Media>
+				<File Id="15835442" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_04.wav</ShortName>
+					<Path>Media/English(US)/15835442.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="163928903" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_05.wav</ShortName>
+					<Path>Media/English(US)/163928903.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="305062779" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_03.wav</ShortName>
+					<Path>Media/English(US)/305062779.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="417181262" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_02.wav</ShortName>
+					<Path>Media/English(US)/417181262.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1001602239" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_01.wav</ShortName>
+					<Path>Media/English(US)/1001602239.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="798162039" Name="VO_Ari_Gameplay_Effort" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Effort" GUID="{14412A49-EE02-4B5F-9198-987A15F0CC83}" DurationType="OneShot" DurationMin="0.18666667" DurationMax="1.28">
+					<MediaRefs>
+						<MediaRef Id="15835442"/>
+						<MediaRef Id="163928903"/>
+						<MediaRef Id="305062779"/>
+						<MediaRef Id="417181262"/>
+						<MediaRef Id="1001602239"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="922786755" Type="Event" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" Language="SFX" Hash="{94E82E74-AC78-31B0-066E-0751E2758292}">
 			<ObjectPath>UI_Menu_Back</ObjectPath>
 			<ShortName>UI_Menu_Back</ShortName>
 			<Path>Event/UI_Menu_Back.bnk</Path>
@@ -34,7 +1189,155 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{848B7199-ECEE-D865-D416-94030696C4CA}">
+		<SoundBank Id="1026708067" Type="Event" GUID="{9EAAD129-4D85-40B1-88A0-960BAC7525F8}" Language="SFX" Hash="{2938F0A6-03F4-CE64-E730-F0BFDB2D63C8}">
+			<ObjectPath>SFX_MC_Weapon_Chakrams_OverheatEnd</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Chakrams_OverheatEnd</ShortName>
+			<Path>Event/SFX_MC_Weapon_Chakrams_OverheatEnd.bnk</Path>
+			<Media>
+				<File Id="631856181" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatEnd\SFX_MC_Weapon_Chakrams_OverheatEnd_02.wav</ShortName>
+					<Path>Media/631856181.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_OverheatEnd/SFX_MC_Weapon_Chakrams_OverheatEnd_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="699784970" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatEnd\SFX_MC_Weapon_Chakrams_OverheatEnd_01.wav</ShortName>
+					<Path>Media/699784970.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_OverheatEnd/SFX_MC_Weapon_Chakrams_OverheatEnd_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1026708067" Name="SFX_MC_Weapon_Chakrams_OverheatEnd" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatEnd" GUID="{9EAAD129-4D85-40B1-88A0-960BAC7525F8}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="2.8" DurationMax="2.8">
+					<MediaRefs>
+						<MediaRef Id="631856181"/>
+						<MediaRef Id="699784970"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1121555166" Type="Event" GUID="{D2A3E3E0-CFD4-468F-AEBE-8312EEF048CE}" Language="English(US)" Hash="{B52B1BEE-8CF7-69E2-3FB6-18618B3F423E}">
+			<ObjectPath>VO_Ari_Gameplay_Hurt</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Hurt</ShortName>
+			<Path>Event/English(US)/VO_Ari_Gameplay_Hurt.bnk</Path>
+			<Media>
+				<File Id="59693309" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_03.wav</ShortName>
+					<Path>Media/English(US)/59693309.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="71444088" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_07.wav</ShortName>
+					<Path>Media/English(US)/71444088.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="256735463" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_05.wav</ShortName>
+					<Path>Media/English(US)/256735463.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="323284250" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_01.wav</ShortName>
+					<Path>Media/English(US)/323284250.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="328077789" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_06.wav</ShortName>
+					<Path>Media/English(US)/328077789.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="390295673" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_04.wav</ShortName>
+					<Path>Media/English(US)/390295673.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="861316731" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_02.wav</ShortName>
+					<Path>Media/English(US)/861316731.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1121555166" Name="VO_Ari_Gameplay_Hurt" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt" GUID="{D2A3E3E0-CFD4-468F-AEBE-8312EEF048CE}" DurationType="OneShot" DurationMin="0.48" DurationMax="1.4">
+					<MediaRefs>
+						<MediaRef Id="59693309"/>
+						<MediaRef Id="71444088"/>
+						<MediaRef Id="256735463"/>
+						<MediaRef Id="323284250"/>
+						<MediaRef Id="328077789"/>
+						<MediaRef Id="390295673"/>
+						<MediaRef Id="861316731"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1314837374" Type="Event" GUID="{146637F4-D095-4CEE-86EB-0411C60012A0}" Language="English(US)" Hash="{653415DA-9C55-3722-562A-665C582DB2DC}">
+			<ObjectPath>VO_Diana_Gameplay_Goodjob</ObjectPath>
+			<ShortName>VO_Diana_Gameplay_Goodjob</ShortName>
+			<Path>Event/English(US)/VO_Diana_Gameplay_Goodjob.bnk</Path>
+			<Media>
+				<File Id="87915530" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Goodjob\VO_Diana_Gameplay_Goodjob_03.wav</ShortName>
+					<Path>Media/English(US)/87915530.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Goodjob/VO_Diana_Gameplay_Goodjob_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="152942601" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Goodjob\VO_Diana_Gameplay_Goodjob_01.wav</ShortName>
+					<Path>Media/English(US)/152942601.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Goodjob/VO_Diana_Gameplay_Goodjob_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="870565627" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Goodjob\VO_Diana_Gameplay_Goodjob_02.wav</ShortName>
+					<Path>Media/English(US)/870565627.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Goodjob/VO_Diana_Gameplay_Goodjob_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1314837374" Name="VO_Diana_Gameplay_Goodjob" ObjectPath="\Events\VO\VO_Diana_Gameplay\VO_Diana_Gameplay_Goodjob" GUID="{146637F4-D095-4CEE-86EB-0411C60012A0}" DurationType="OneShot" DurationMin="0.5733333" DurationMax="0.6933333">
+					<MediaRefs>
+						<MediaRef Id="87915530"/>
+						<MediaRef Id="152942601"/>
+						<MediaRef Id="870565627"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1316916725" Type="Event" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" Language="English(US)" Hash="{2F3740A4-4FEA-C161-8AD1-84E8B3066736}">
+			<ObjectPath>VO_Ari_Gameplay_Jump</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Jump</ShortName>
+			<Path>Event/English(US)/VO_Ari_Gameplay_Jump.bnk</Path>
+			<Media>
+				<File Id="16663919" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Jump\VO_Ari_Gameplay_Jump_04.wav</ShortName>
+					<Path>Media/English(US)/16663919.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Jump/VO_Ari_Gameplay_Jump_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="341084454" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Jump\VO_Ari_Gameplay_Jump_02.wav</ShortName>
+					<Path>Media/English(US)/341084454.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Jump/VO_Ari_Gameplay_Jump_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="663140022" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Jump\VO_Ari_Gameplay_Jump_03.wav</ShortName>
+					<Path>Media/English(US)/663140022.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Jump/VO_Ari_Gameplay_Jump_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="767977757" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Jump\VO_Ari_Gameplay_Jump_01.wav</ShortName>
+					<Path>Media/English(US)/767977757.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Jump/VO_Ari_Gameplay_Jump_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1316916725" Name="VO_Ari_Gameplay_Jump" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Jump" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.4">
+					<MediaRefs>
+						<MediaRef Id="16663919"/>
+						<MediaRef Id="341084454"/>
+						<MediaRef Id="663140022"/>
+						<MediaRef Id="767977757"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{D3C9FBE8-B62B-087F-9D19-D2B07437EB29}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -71,12 +1374,7 @@
 					<States>
 						<State Id="712849048" Name="ST_MC_Dead" ObjectPath="\States\ST_Persistent\ST_MC\ST_MC_Dead" GUID="{419E2B39-E7AB-4F3A-9C10-F87F6940E4FF}"/>
 						<State Id="748895195" Name="None" ObjectPath="\States\ST_Persistent\ST_MC\None" GUID="{79530131-2A27-4D39-BC4A-27241EAEC0BA}"/>
-						<State Id="1915373357" Name="ST_CM_Alive" ObjectPath="\States\ST_Persistent\ST_MC\ST_CM_Alive" GUID="{042EC5B6-0754-4086-A73F-F15C1A57F0BF}"/>
-					</States>
-				</StateGroup>
-				<StateGroup Id="3299795555" Name="ST_Lvl" ObjectPath="\States\ST_Persistent\ST_Lvl" GUID="{8D12A37A-0E8A-4CD1-93E8-E9EEA4E83FEA}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\ST_Persistent\ST_Lvl\None" GUID="{E846BDDB-2E77-4C98-A6D3-B1F1C8E26430}"/>
+						<State Id="3907738249" Name="ST_MC_Alive" ObjectPath="\States\ST_Persistent\ST_MC\ST_MC_Alive" GUID="{042EC5B6-0754-4086-A73F-F15C1A57F0BF}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="4078696085" Name="ST_Game" ObjectPath="\States\ST_Persistent\ST_Game" GUID="{C2AFF852-6A2D-42B0-B06B-6CF588CE17D6}">
@@ -104,7 +1402,102 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1464993479" Type="Event" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" Language="SFX" Hash="{46D81A5B-5D6E-878B-F6C8-00F56832392C}">
+		<SoundBank Id="1392877436" Type="Event" GUID="{42B1E8D9-E28F-4D35-A73E-F9E0E7104D8F}" Language="English(US)" Hash="{472E95C1-C30F-472D-E1DD-DCAE6B48D8A2}">
+			<ObjectPath>VO_Diana_Gameplay_02</ObjectPath>
+			<ShortName>VO_Diana_Gameplay_02</ShortName>
+			<Path>Event/English(US)/VO_Diana_Gameplay_02.bnk</Path>
+			<Media>
+				<File Id="443785590" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_02.wav</ShortName>
+					<Path>Media/English(US)/443785590.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1392877436" Name="VO_Diana_Gameplay_02" ObjectPath="\Events\VO\VO_Diana_Gameplay\VO_Diana_Gameplay_02" GUID="{42B1E8D9-E28F-4D35-A73E-F9E0E7104D8F}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="443785590"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1392877437" Type="Event" GUID="{7E3AA543-270E-444C-865B-4BA81F6A5800}" Language="English(US)" Hash="{FDCC8D12-EC73-11CB-A1DD-0181ED2EC7EB}">
+			<ObjectPath>VO_Diana_Gameplay_03</ObjectPath>
+			<ShortName>VO_Diana_Gameplay_03</ShortName>
+			<Path>Event/English(US)/VO_Diana_Gameplay_03.bnk</Path>
+			<Media>
+				<File Id="973471863" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_03.wav</ShortName>
+					<Path>Media/English(US)/973471863.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1392877437" Name="VO_Diana_Gameplay_03" ObjectPath="\Events\VO\VO_Diana_Gameplay\VO_Diana_Gameplay_03" GUID="{7E3AA543-270E-444C-865B-4BA81F6A5800}" DurationType="OneShot" DurationMin="1.6133333" DurationMax="1.6133333">
+					<MediaRefs>
+						<MediaRef Id="973471863"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1392877439" Type="Event" GUID="{3704B11E-AD41-4823-A04A-0FFB5A82F2C1}" Language="English(US)" Hash="{021442D9-2E55-D41A-E6EC-0F6EDB5169DD}">
+			<ObjectPath>VO_Diana_Gameplay_01</ObjectPath>
+			<ShortName>VO_Diana_Gameplay_01</ShortName>
+			<Path>Event/English(US)/VO_Diana_Gameplay_01.bnk</Path>
+			<Media>
+				<File Id="646133185" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_01.wav</ShortName>
+					<Path>Media/English(US)/646133185.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1392877439" Name="VO_Diana_Gameplay_01" ObjectPath="\Events\VO\VO_Diana_Gameplay\VO_Diana_Gameplay_01" GUID="{3704B11E-AD41-4823-A04A-0FFB5A82F2C1}" DurationType="OneShot" DurationMin="1.1866666" DurationMax="1.1866666">
+					<MediaRefs>
+						<MediaRef Id="646133185"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1418405702" Type="Event" GUID="{70E37884-3CEF-492F-9647-372F133334D1}" Language="English(US)" Hash="{5F7ADE63-873B-5695-1902-FACED7443082}">
+			<ObjectPath>VO_Simon_Gameplay_Tempo</ObjectPath>
+			<ShortName>VO_Simon_Gameplay_Tempo</ShortName>
+			<Path>Event/English(US)/VO_Simon_Gameplay_Tempo.bnk</Path>
+			<Media>
+				<File Id="182734550" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Gameplay\VO_Simon_Gameplay_Tempo.wav</ShortName>
+					<Path>Media/English(US)/182734550.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_Tempo_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1418405702" Name="VO_Simon_Gameplay_Tempo" ObjectPath="\Events\VO\VO_Simon_Gameplay\VO_Simon_Gameplay_Tempo" GUID="{70E37884-3CEF-492F-9647-372F133334D1}" DurationType="OneShot" DurationMin="1.8" DurationMax="1.8">
+					<MediaRefs>
+						<MediaRef Id="182734550"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1429928469" Type="Event" GUID="{5637DC57-1610-4B5B-B5CA-1D558668C593}" Language="English(US)" Hash="{7191C6E2-F5F9-A6FF-7DFD-4E83EF895853}">
+			<ObjectPath>VO_Anna_Gameplay_Goodjob</ObjectPath>
+			<ShortName>VO_Anna_Gameplay_Goodjob</ShortName>
+			<Path>Event/English(US)/VO_Anna_Gameplay_Goodjob.bnk</Path>
+			<Media>
+				<File Id="402755254" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Gameplay\VO_Anna_Gameplay_Goodjob.wav</ShortName>
+					<Path>Media/English(US)/402755254.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Gameplay/VO_Anna_Gameplay_Goodjob_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1429928469" Name="VO_Anna_Gameplay_Goodjob" ObjectPath="\Events\VO\VO_Anna_Gameplay\VO_Anna_Gameplay_Goodjob" GUID="{5637DC57-1610-4B5B-B5CA-1D558668C593}" DurationType="OneShot" DurationMin="0.8" DurationMax="0.8">
+					<MediaRefs>
+						<MediaRef Id="402755254"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1464993479" Type="Event" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" Language="SFX" Hash="{816A12F4-7788-487A-145B-FFBA3C363949}">
 			<ObjectPath>UI_Menu_Resume</ObjectPath>
 			<ShortName>UI_Menu_Resume</ShortName>
 			<Path>Event/UI_Menu_Resume.bnk</Path>
@@ -138,10 +1531,328 @@
 						<MediaRef Id="414190295"/>
 						<MediaRef Id="1027862290"/>
 					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="4078696085" Id="1745364551" Name="ST_Game_Ingame" ObjectPath="\States\ST_Persistent\ST_Game\ST_Game_Ingame" GUID="{2B772789-F7D4-4DA6-B872-245923DBF8F4}"/>
+					</ActionSetState>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="4078696085" Name="ST_Game" ObjectPath="\States\ST_Persistent\ST_Game" GUID="{C2AFF852-6A2D-42B0-B06B-6CF588CE17D6}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\ST_Persistent\ST_Game\None" GUID="{2EF11E60-4DB1-49AF-83CD-F5C803E1FD88}"/>
+						<State Id="1745364551" Name="ST_Game_Ingame" ObjectPath="\States\ST_Persistent\ST_Game\ST_Game_Ingame" GUID="{2B772789-F7D4-4DA6-B872-245923DBF8F4}"/>
+						<State Id="3640095552" Name="ST_Game_InMenu" ObjectPath="\States\ST_Persistent\ST_Game\ST_Game_InMenu" GUID="{CBADC631-6FAE-4AA9-A719-D83BE67BF4C4}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1467256133" Type="Event" GUID="{9B1DA301-FF1A-4893-A896-70C54ADCCC91}" Language="English(US)" Hash="{8E59844E-5D0F-0D37-6065-C0265C33104E}">
+			<ObjectPath>VO_Ari_Story_13P1</ObjectPath>
+			<ShortName>VO_Ari_Story_13P1</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_13P1.bnk</Path>
+			<Media>
+				<File Id="303524746" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_13P1.wav</ShortName>
+					<Path>Media/English(US)/303524746.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_13P1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1467256133" Name="VO_Ari_Story_13P1" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_13P1" GUID="{9B1DA301-FF1A-4893-A896-70C54ADCCC91}" DurationType="OneShot" DurationMin="1.4533334" DurationMax="1.4533334">
+					<MediaRefs>
+						<MediaRef Id="303524746"/>
+					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1766274592" Type="Event" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" Language="SFX" Hash="{9F2950DD-F897-AF0C-5DA9-FA4C6F361F49}">
+		<SoundBank Id="1467256134" Type="Event" GUID="{BAA7EAC8-E738-4419-A000-14F315E339C6}" Language="English(US)" Hash="{7BD56232-A473-E60B-42BE-819F76B79819}">
+			<ObjectPath>VO_Ari_Story_13P2</ObjectPath>
+			<ShortName>VO_Ari_Story_13P2</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_13P2.bnk</Path>
+			<Media>
+				<File Id="432525696" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_13P2.wav</ShortName>
+					<Path>Media/English(US)/432525696.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_13P2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1467256134" Name="VO_Ari_Story_13P2" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_13P2" GUID="{BAA7EAC8-E738-4419-A000-14F315E339C6}" DurationType="OneShot" DurationMin="0.73333335" DurationMax="0.73333335">
+					<MediaRefs>
+						<MediaRef Id="432525696"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1532872020" Type="Event" GUID="{073692BA-1D60-4760-82EF-D426063131AB}" Language="English(US)" Hash="{563625B1-94E7-BA85-47BF-AA7EC10CFAE7}">
+			<ObjectPath>VO_Blaise_Gameplay_No</ObjectPath>
+			<ShortName>VO_Blaise_Gameplay_No</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Gameplay_No.bnk</Path>
+			<Media>
+				<File Id="302846517" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Gameplay\VO_Blaise_Gameplay_No\VO_Blaise_Gameplay_No_02.wav</ShortName>
+					<Path>Media/English(US)/302846517.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_No/VO_Blaise_Gameplay_No_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="856857197" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Gameplay\VO_Blaise_Gameplay_No\VO_Blaise_Gameplay_No_01.wav</ShortName>
+					<Path>Media/English(US)/856857197.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_No/VO_Blaise_Gameplay_No_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1532872020" Name="VO_Blaise_Gameplay_No" ObjectPath="\Events\VO\VO_Blaise_Gameplay\VO_Blaise_Gameplay_No" GUID="{073692BA-1D60-4760-82EF-D426063131AB}" DurationType="OneShot" DurationMin="1.24" DurationMax="1.5333333">
+					<MediaRefs>
+						<MediaRef Id="302846517"/>
+						<MediaRef Id="856857197"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1559084621" Type="Event" GUID="{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}" Language="English(US)" Hash="{3E762B43-AF6C-B3C1-ED70-FD1C1FC27DEA}">
+			<ObjectPath>VO_ENMMidRange_Death</ObjectPath>
+			<ShortName>VO_ENMMidRange_Death</ShortName>
+			<Path>Event/English(US)/VO_ENMMidRange_Death.bnk</Path>
+			<Media>
+				<File Id="85311797" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMMidRange_Death\VO_ENMMidRange_Death_01.wav</ShortName>
+					<Path>Media/English(US)/85311797.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMMidRange_Death/VO_ENMMidRange_Death_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="410365708" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMMidRange_Death\VO_ENMMidRange_Death_02.wav</ShortName>
+					<Path>Media/English(US)/410365708.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMMidRange_Death/VO_ENMMidRange_Death_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="892702063" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMMidRange_Death\VO_ENMMidRange_Death_03.wav</ShortName>
+					<Path>Media/English(US)/892702063.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMMidRange_Death/VO_ENMMidRange_Death_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1559084621" Name="VO_ENMMidRange_Death" ObjectPath="\Events\VO\VO_ENMMidRange_Death" GUID="{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}" DurationType="OneShot" DurationMin="1.2666667" DurationMax="2.2666667">
+					<MediaRefs>
+						<MediaRef Id="85311797"/>
+						<MediaRef Id="410365708"/>
+						<MediaRef Id="892702063"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1621795231" Type="Event" GUID="{204211B5-C26C-48ED-B0C4-A5EB27971367}" Language="English(US)" Hash="{F7769A60-C771-4ABC-524F-6EF7695ABA63}">
+			<ObjectPath>VO_ENMSwarmer_Death</ObjectPath>
+			<ShortName>VO_ENMSwarmer_Death</ShortName>
+			<Path>Event/English(US)/VO_ENMSwarmer_Death.bnk</Path>
+			<Media>
+				<File Id="254129431" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMSwarmer_Death\VO_ENMSwarmer_Death_04.wav</ShortName>
+					<Path>Media/English(US)/254129431.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMSwarmer_Death/VO_ENMSwarmer_Death_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="563268747" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMSwarmer_Death\VO_ENMSwarmer_Death_01.wav</ShortName>
+					<Path>Media/English(US)/563268747.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMSwarmer_Death/VO_ENMSwarmer_Death_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="666561006" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMSwarmer_Death\VO_ENMSwarmer_Death_02.wav</ShortName>
+					<Path>Media/English(US)/666561006.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMSwarmer_Death/VO_ENMSwarmer_Death_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="946249037" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMSwarmer_Death\VO_ENMSwarmer_Death_03.wav</ShortName>
+					<Path>Media/English(US)/946249037.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMSwarmer_Death/VO_ENMSwarmer_Death_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1621795231" Name="VO_ENMSwarmer_Death" ObjectPath="\Events\VO\VO_ENMSwarmer_Death" GUID="{204211B5-C26C-48ED-B0C4-A5EB27971367}" DurationType="OneShot" DurationMin="1.48" DurationMax="4.266667">
+					<MediaRefs>
+						<MediaRef Id="254129431"/>
+						<MediaRef Id="563268747"/>
+						<MediaRef Id="666561006"/>
+						<MediaRef Id="946249037"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1686072914" Type="Event" GUID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}" Language="SFX" Hash="{5E0E10A9-AA66-B4FA-721C-D2F03B7912FB}">
+			<ObjectPath>SFX_MC_Weapon_Chakrams_PrimaryShot</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Chakrams_PrimaryShot</ShortName>
+			<Path>Event/SFX_MC_Weapon_Chakrams_PrimaryShot.bnk</Path>
+			<Media>
+				<File Id="24544438" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_04.wav</ShortName>
+					<Path>Media/24544438.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="201811152" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_03.wav</ShortName>
+					<Path>Media/201811152.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="387324727" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_02.wav</ShortName>
+					<Path>Media/387324727.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="669476249" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_07.wav</ShortName>
+					<Path>Media/669476249.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="824077979" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_01.wav</ShortName>
+					<Path>Media/824077979.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="873240344" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_05.wav</ShortName>
+					<Path>Media/873240344.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="913408638" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_08.wav</ShortName>
+					<Path>Media/913408638.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="953156655" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_06.wav</ShortName>
+					<Path>Media/953156655.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_PrimaryShot/SFX_MC_Weapon_Chakrams_PrimaryShot_06_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1686072914" Name="SFX_MC_Weapon_Chakrams_PrimaryShot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot" GUID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.3" DurationMax="0.3">
+					<MediaRefs>
+						<MediaRef Id="24544438"/>
+						<MediaRef Id="201811152"/>
+						<MediaRef Id="387324727"/>
+						<MediaRef Id="669476249"/>
+						<MediaRef Id="824077979"/>
+						<MediaRef Id="873240344"/>
+						<MediaRef Id="913408638"/>
+						<MediaRef Id="953156655"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1719829412" Type="Event" GUID="{3C5A0758-997E-4328-A2FA-C3FE756DEF97}" Language="English(US)" Hash="{491529F8-3A76-29E4-A6F0-32B23C3EF5E1}">
+			<ObjectPath>VO_Simon_Gameplay_BossFight_03</ObjectPath>
+			<ShortName>VO_Simon_Gameplay_BossFight_03</ShortName>
+			<Path>Event/English(US)/VO_Simon_Gameplay_BossFight_03.bnk</Path>
+			<Media>
+				<File Id="926726822" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Gameplay\VO_Simon_Gameplay_BossFight_03.wav</ShortName>
+					<Path>Media/English(US)/926726822.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_BossFight_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1719829412" Name="VO_Simon_Gameplay_BossFight_03" ObjectPath="\Events\VO\VO_Simon_Gameplay\VO_Simon_Gameplay_BossFight_03" GUID="{3C5A0758-997E-4328-A2FA-C3FE756DEF97}" DurationType="OneShot" DurationMin="1.12" DurationMax="1.12">
+					<MediaRefs>
+						<MediaRef Id="926726822"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1719829413" Type="Event" GUID="{C208AEFA-12B4-434F-BD54-9F35CD6668DF}" Language="English(US)" Hash="{388641A8-D723-46B1-C090-791BA06C58BD}">
+			<ObjectPath>VO_Simon_Gameplay_BossFight_02</ObjectPath>
+			<ShortName>VO_Simon_Gameplay_BossFight_02</ShortName>
+			<Path>Event/English(US)/VO_Simon_Gameplay_BossFight_02.bnk</Path>
+			<Media>
+				<File Id="254855775" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Gameplay\VO_Simon_Gameplay_BossFight_02.wav</ShortName>
+					<Path>Media/English(US)/254855775.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_BossFight_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1719829413" Name="VO_Simon_Gameplay_BossFight_02" ObjectPath="\Events\VO\VO_Simon_Gameplay\VO_Simon_Gameplay_BossFight_02" GUID="{C208AEFA-12B4-434F-BD54-9F35CD6668DF}" DurationType="OneShot" DurationMin="1.56" DurationMax="1.56">
+					<MediaRefs>
+						<MediaRef Id="254855775"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1719829414" Type="Event" GUID="{F20155FC-04FC-451A-9B69-8109CB392C2F}" Language="English(US)" Hash="{9ADE9E31-E66F-AF7C-0AE8-2E190E3D4419}">
+			<ObjectPath>VO_Simon_Gameplay_BossFight_01</ObjectPath>
+			<ShortName>VO_Simon_Gameplay_BossFight_01</ShortName>
+			<Path>Event/English(US)/VO_Simon_Gameplay_BossFight_01.bnk</Path>
+			<Media>
+				<File Id="658940300" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Gameplay\VO_Simon_Gameplay_BossFight_01.wav</ShortName>
+					<Path>Media/English(US)/658940300.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_BossFight_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1719829414" Name="VO_Simon_Gameplay_BossFight_01" ObjectPath="\Events\VO\VO_Simon_Gameplay\VO_Simon_Gameplay_BossFight_01" GUID="{F20155FC-04FC-451A-9B69-8109CB392C2F}" DurationType="OneShot" DurationMin="1.3466667" DurationMax="1.3466667">
+					<MediaRefs>
+						<MediaRef Id="658940300"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1727286440" Type="Event" GUID="{516B2ED7-6690-4D33-944D-FEC7A2362A8F}" Language="English(US)" Hash="{42A33617-CE19-D032-26F3-F926B4FEF65B}">
+			<ObjectPath>VO_Anna_Gameplay_03</ObjectPath>
+			<ShortName>VO_Anna_Gameplay_03</ShortName>
+			<Path>Event/English(US)/VO_Anna_Gameplay_03.bnk</Path>
+			<Media>
+				<File Id="973779242" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Gameplay\VO_Anna_Gameplay_03.wav</ShortName>
+					<Path>Media/English(US)/973779242.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Gameplay/VO_Anna_Gameplay_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1727286440" Name="VO_Anna_Gameplay_03" ObjectPath="\Events\VO\VO_Anna_Gameplay\VO_Anna_Gameplay_03" GUID="{516B2ED7-6690-4D33-944D-FEC7A2362A8F}" DurationType="OneShot" DurationMin="1.4533334" DurationMax="1.4533334">
+					<MediaRefs>
+						<MediaRef Id="973779242"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1727286441" Type="Event" GUID="{B0ED0555-C21A-4E03-89EA-8E73BAFC1CF9}" Language="English(US)" Hash="{987A0331-3FB0-8872-4C0B-2095BB3AA410}">
+			<ObjectPath>VO_Anna_Gameplay_02</ObjectPath>
+			<ShortName>VO_Anna_Gameplay_02</ShortName>
+			<Path>Event/English(US)/VO_Anna_Gameplay_02.bnk</Path>
+			<Media>
+				<File Id="1063693567" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Gameplay\VO_Anna_Gameplay_02.wav</ShortName>
+					<Path>Media/English(US)/1063693567.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Gameplay/VO_Anna_Gameplay_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1727286441" Name="VO_Anna_Gameplay_02" ObjectPath="\Events\VO\VO_Anna_Gameplay\VO_Anna_Gameplay_02" GUID="{B0ED0555-C21A-4E03-89EA-8E73BAFC1CF9}" DurationType="OneShot" DurationMin="1.2933333" DurationMax="1.2933333">
+					<MediaRefs>
+						<MediaRef Id="1063693567"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1727286442" Type="Event" GUID="{F6650DD5-47D3-463D-B571-5B0E35088EDB}" Language="English(US)" Hash="{C244EDFD-005E-4017-C9C0-026BB393BDF8}">
+			<ObjectPath>VO_Anna_Gameplay_01</ObjectPath>
+			<ShortName>VO_Anna_Gameplay_01</ShortName>
+			<Path>Event/English(US)/VO_Anna_Gameplay_01.bnk</Path>
+			<Media>
+				<File Id="820871475" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Gameplay\VO_Anna_Gameplay_01.wav</ShortName>
+					<Path>Media/English(US)/820871475.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Gameplay/VO_Anna_Gameplay_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1727286442" Name="VO_Anna_Gameplay_01" ObjectPath="\Events\VO\VO_Anna_Gameplay\VO_Anna_Gameplay_01" GUID="{F6650DD5-47D3-463D-B571-5B0E35088EDB}" DurationType="OneShot" DurationMin="1.3333334" DurationMax="1.3333334">
+					<MediaRefs>
+						<MediaRef Id="820871475"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1766274592" Type="Event" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" Language="SFX" Hash="{7ACB8508-606A-7572-80FA-475542960C03}">
 			<ObjectPath>UI_Menu_StartGame</ObjectPath>
 			<ShortName>UI_Menu_StartGame</ShortName>
 			<Path>Event/UI_Menu_StartGame.bnk</Path>
@@ -185,7 +1896,106 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2153118237" Type="Event" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" Language="SFX" Hash="{C221D757-AD3C-B273-4E07-8E849B478AAA}">
+		<SoundBank Id="2042202503" Type="Event" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" Language="SFX" Hash="{DAA62C2E-6904-5141-3CB3-9FFB87E447A8}">
+			<ObjectPath>SFX_MC_Weapon_Chakrams_HitENM</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Chakrams_HitENM</ShortName>
+			<Path>Event/SFX_MC_Weapon_Chakrams_HitENM.bnk</Path>
+			<Media>
+				<File Id="126299822" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_03.wav</ShortName>
+					<Path>Media/126299822.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitENM/SFX_MC_Weapon_Chakrams_HitENM_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="496619468" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_02.wav</ShortName>
+					<Path>Media/496619468.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitENM/SFX_MC_Weapon_Chakrams_HitENM_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="656579117" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_04.wav</ShortName>
+					<Path>Media/656579117.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitENM/SFX_MC_Weapon_Chakrams_HitENM_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="674792870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_06.wav</ShortName>
+					<Path>Media/674792870.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitENM/SFX_MC_Weapon_Chakrams_HitENM_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="824777770" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_05.wav</ShortName>
+					<Path>Media/824777770.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitENM/SFX_MC_Weapon_Chakrams_HitENM_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1027520118" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM\SFX_MC_Weapon_Chakrams_HitENM_01.wav</ShortName>
+					<Path>Media/1027520118.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitENM/SFX_MC_Weapon_Chakrams_HitENM_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2042202503" Name="SFX_MC_Weapon_Chakrams_HitENM" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.23333333" DurationMax="0.23333333">
+					<MediaRefs>
+						<MediaRef Id="126299822"/>
+						<MediaRef Id="496619468"/>
+						<MediaRef Id="656579117"/>
+						<MediaRef Id="674792870"/>
+						<MediaRef Id="824777770"/>
+						<MediaRef Id="1027520118"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2097537283" Type="Event" GUID="{AC82A196-39B4-4124-9B67-3B8333621F55}" Language="English(US)" Hash="{9470FD57-695B-63F7-3873-FEEB1E5E0020}">
+			<ObjectPath>VO_Diana_Gameplay_No</ObjectPath>
+			<ShortName>VO_Diana_Gameplay_No</ShortName>
+			<Path>Event/English(US)/VO_Diana_Gameplay_No.bnk</Path>
+			<Media>
+				<File Id="59065879" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_No\VO_Diana_Gameplay_No_02.wav</ShortName>
+					<Path>Media/English(US)/59065879.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_No/VO_Diana_Gameplay_No_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="147667645" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_No\VO_Diana_Gameplay_No_03.wav</ShortName>
+					<Path>Media/English(US)/147667645.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_No/VO_Diana_Gameplay_No_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="722257549" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_No\VO_Diana_Gameplay_No_01.wav</ShortName>
+					<Path>Media/English(US)/722257549.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_No/VO_Diana_Gameplay_No_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2097537283" Name="VO_Diana_Gameplay_No" ObjectPath="\Events\VO\VO_Diana_Gameplay\VO_Diana_Gameplay_No" GUID="{AC82A196-39B4-4124-9B67-3B8333621F55}" DurationType="OneShot" DurationMin="0.88" DurationMax="1.0933334">
+					<MediaRefs>
+						<MediaRef Id="59065879"/>
+						<MediaRef Id="147667645"/>
+						<MediaRef Id="722257549"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2105091100" Type="Event" GUID="{2BD9654B-ED25-42C5-BF3C-15402B153EBB}" Language="English(US)" Hash="{8C082DC6-C859-68C3-A105-B276AF9BC99A}">
+			<ObjectPath>VO_Anna_Gameplay_Tempo</ObjectPath>
+			<ShortName>VO_Anna_Gameplay_Tempo</ShortName>
+			<Path>Event/English(US)/VO_Anna_Gameplay_Tempo.bnk</Path>
+			<Media>
+				<File Id="118802373" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Gameplay\VO_Anna_Gameplay_Tempo.wav</ShortName>
+					<Path>Media/English(US)/118802373.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Gameplay/VO_Anna_Gameplay_Tempo_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2105091100" Name="VO_Anna_Gameplay_Tempo" ObjectPath="\Events\VO\VO_Anna_Gameplay\VO_Anna_Gameplay_Tempo" GUID="{2BD9654B-ED25-42C5-BF3C-15402B153EBB}" DurationType="OneShot" DurationMin="1.4133333" DurationMax="1.4133333">
+					<MediaRefs>
+						<MediaRef Id="118802373"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2153118237" Type="Event" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" Language="SFX" Hash="{D37CD905-54DB-71E9-9392-5581F210419C}">
 			<ObjectPath>UI_Menu_Slider</ObjectPath>
 			<ShortName>UI_Menu_Slider</ShortName>
 			<Path>Event/UI_Menu_Slider.bnk</Path>
@@ -222,7 +2032,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2163476404" Type="Event" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" Language="SFX" Hash="{957A594C-3216-4DA5-F44A-F66704D7FE93}">
+		<SoundBank Id="2163476404" Type="Event" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" Language="SFX" Hash="{77C91CF7-B201-D4AA-A7C3-4B4C60BA43B4}">
 			<ObjectPath>UI_Menu_Hover</ObjectPath>
 			<ShortName>UI_Menu_Hover</ShortName>
 			<Path>Event/UI_Menu_Hover.bnk</Path>
@@ -253,7 +2063,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2193711071" Type="Bus" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}" Language="SFX" Hash="{74A042F7-0B93-AF60-69F3-45B6F9432609}">
+		<SoundBank Id="2193711071" Type="Bus" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}" Language="SFX" Hash="{CB1ECB0C-8B80-A7A6-86A1-A9FE7A2EBC2E}">
 			<ObjectPath>REV_</ObjectPath>
 			<ShortName>REV_</ShortName>
 			<Path>Bus/REV_.bnk</Path>
@@ -261,7 +2071,397 @@
 				<AuxBus Id="2193711071" Name="REV_" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\Rev\REV_" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}"/>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="2517622237" Type="Event" GUID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}" Language="SFX" Hash="{AFEBB6B6-3740-8F84-3AA2-1F75D203076E}">
+		<SoundBank Id="2243524693" Type="Event" GUID="{57A01DF4-FBF5-43E9-80C3-77B41A067B34}" Language="English(US)" Hash="{B5BF48EA-94B2-AEFA-3D7F-972018AF568D}">
+			<ObjectPath>VO_Anna_Story_12P2</ObjectPath>
+			<ShortName>VO_Anna_Story_12P2</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_12P2.bnk</Path>
+			<Media>
+				<File Id="755070960" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_12P2.wav</ShortName>
+					<Path>Media/English(US)/755070960.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_12P2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2243524693" Name="VO_Anna_Story_12P2" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_12P2" GUID="{57A01DF4-FBF5-43E9-80C3-77B41A067B34}" DurationType="OneShot" DurationMin="2.4933333" DurationMax="2.4933333">
+					<MediaRefs>
+						<MediaRef Id="755070960"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2243524694" Type="Event" GUID="{990066EF-979D-4480-B123-C21707017522}" Language="English(US)" Hash="{01205AC2-DCD7-33AA-8AD6-E09DDB08F960}">
+			<ObjectPath>VO_Anna_Story_12P1</ObjectPath>
+			<ShortName>VO_Anna_Story_12P1</ShortName>
+			<Path>Event/English(US)/VO_Anna_Story_12P1.bnk</Path>
+			<Media>
+				<File Id="509456242" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Story\VO_Anna_Story_12P1.wav</ShortName>
+					<Path>Media/English(US)/509456242.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Story/VO_Anna_Story_12P1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2243524694" Name="VO_Anna_Story_12P1" ObjectPath="\Events\VO\VO_Anna_Story\VO_Anna_Story_12P1" GUID="{990066EF-979D-4480-B123-C21707017522}" DurationType="OneShot" DurationMin="6.266667" DurationMax="6.266667">
+					<MediaRefs>
+						<MediaRef Id="509456242"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2365754676" Type="Event" GUID="{E9C7E76D-C404-4781-BE73-59D9808B1208}" Language="SFX" Hash="{EA955B95-B596-03C4-BA1F-CE353F1AE9C8}">
+			<ObjectPath>SFX_MC_Weapon_Chakrams_HitSurface</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Chakrams_HitSurface</ShortName>
+			<Path>Event/SFX_MC_Weapon_Chakrams_HitSurface.bnk</Path>
+			<Media>
+				<File Id="94147978" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface\SFX_MC_Weapon_Chakrams_HitSurface_02.wav</ShortName>
+					<Path>Media/94147978.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitSurface/SFX_MC_Weapon_Chakrams_HitSurface_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="458107386" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface\SFX_MC_Weapon_Chakrams_HitSurface_04.wav</ShortName>
+					<Path>Media/458107386.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitSurface/SFX_MC_Weapon_Chakrams_HitSurface_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="965695430" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface\SFX_MC_Weapon_Chakrams_HitSurface_01.wav</ShortName>
+					<Path>Media/965695430.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitSurface/SFX_MC_Weapon_Chakrams_HitSurface_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="965945325" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface\SFX_MC_Weapon_Chakrams_HitSurface_05.wav</ShortName>
+					<Path>Media/965945325.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitSurface/SFX_MC_Weapon_Chakrams_HitSurface_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1023204836" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface\SFX_MC_Weapon_Chakrams_HitSurface_03.wav</ShortName>
+					<Path>Media/1023204836.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitSurface/SFX_MC_Weapon_Chakrams_HitSurface_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1032965322" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface\SFX_MC_Weapon_Chakrams_HitSurface_06.wav</ShortName>
+					<Path>Media/1032965322.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_HitSurface/SFX_MC_Weapon_Chakrams_HitSurface_06_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2365754676" Name="SFX_MC_Weapon_Chakrams_HitSurface" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface" GUID="{E9C7E76D-C404-4781-BE73-59D9808B1208}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.26666668">
+					<MediaRefs>
+						<MediaRef Id="94147978"/>
+						<MediaRef Id="458107386"/>
+						<MediaRef Id="965695430"/>
+						<MediaRef Id="965945325"/>
+						<MediaRef Id="1023204836"/>
+						<MediaRef Id="1032965322"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2406365109" Type="Event" GUID="{ACFFF3E4-A3B9-4946-A9C5-26B8823F3F7F}" Language="English(US)" Hash="{1E7575CF-5310-5DAD-1FF5-D7A2FC86CFD9}">
+			<ObjectPath>VO_Ari_Gameplay_Dash</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Dash</ShortName>
+			<Path>Event/English(US)/VO_Ari_Gameplay_Dash.bnk</Path>
+			<Media>
+				<File Id="112665800" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_04.wav</ShortName>
+					<Path>Media/English(US)/112665800.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="183278750" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_02.wav</ShortName>
+					<Path>Media/English(US)/183278750.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="270131646" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_03.wav</ShortName>
+					<Path>Media/English(US)/270131646.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="559143653" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_01.wav</ShortName>
+					<Path>Media/English(US)/559143653.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2406365109" Name="VO_Ari_Gameplay_Dash" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Dash" GUID="{ACFFF3E4-A3B9-4946-A9C5-26B8823F3F7F}" DurationType="OneShot" DurationMin="0.30666667" DurationMax="0.44">
+					<MediaRefs>
+						<MediaRef Id="112665800"/>
+						<MediaRef Id="183278750"/>
+						<MediaRef Id="270131646"/>
+						<MediaRef Id="559143653"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2414469176" Type="Event" GUID="{C020EF1B-C097-495E-BF99-D001247A9601}" Language="English(US)" Hash="{5F13954C-7685-2583-1C10-64855F1E9C8D}">
+			<ObjectPath>VO_Diana_Story_30</ObjectPath>
+			<ShortName>VO_Diana_Story_30</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_30.bnk</Path>
+			<Media>
+				<File Id="632134995" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_30.wav</ShortName>
+					<Path>Media/English(US)/632134995.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_30_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2414469176" Name="VO_Diana_Story_30" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_30" GUID="{C020EF1B-C097-495E-BF99-D001247A9601}" DurationType="OneShot" DurationMin="2.4133334" DurationMax="2.4133334">
+					<MediaRefs>
+						<MediaRef Id="632134995"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2448024342" Type="Event" GUID="{EBF7488B-5259-4516-B30F-A0C5AD707F87}" Language="English(US)" Hash="{8BCDE242-BB6D-07C0-D5D3-B33D44030799}">
+			<ObjectPath>VO_Diana_Story_18</ObjectPath>
+			<ShortName>VO_Diana_Story_18</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_18.bnk</Path>
+			<Media>
+				<File Id="122502593" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_18.wav</ShortName>
+					<Path>Media/English(US)/122502593.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_18_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2448024342" Name="VO_Diana_Story_18" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_18" GUID="{EBF7488B-5259-4516-B30F-A0C5AD707F87}" DurationType="OneShot" DurationMin="2.3333333" DurationMax="2.3333333">
+					<MediaRefs>
+						<MediaRef Id="122502593"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2448024344" Type="Event" GUID="{11E2D21C-6477-40F8-B886-92AB53439288}" Language="English(US)" Hash="{D645B753-5897-E9EC-104C-1D28E8F84415}">
+			<ObjectPath>VO_Diana_Story_16</ObjectPath>
+			<ShortName>VO_Diana_Story_16</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_16.bnk</Path>
+			<Media>
+				<File Id="690836890" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_16.wav</ShortName>
+					<Path>Media/English(US)/690836890.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_16_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2448024344" Name="VO_Diana_Story_16" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_16" GUID="{11E2D21C-6477-40F8-B886-92AB53439288}" DurationType="OneShot" DurationMin="2.3333333" DurationMax="2.3333333">
+					<MediaRefs>
+						<MediaRef Id="690836890"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2448024345" Type="Event" GUID="{075BD4CA-E088-4746-B98C-71CB3770E4FE}" Language="English(US)" Hash="{A2F52B4B-3258-0D4C-BDB9-91441734012E}">
+			<ObjectPath>VO_Diana_Story_17</ObjectPath>
+			<ShortName>VO_Diana_Story_17</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_17.bnk</Path>
+			<Media>
+				<File Id="893485547" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_17.wav</ShortName>
+					<Path>Media/English(US)/893485547.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_17_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2448024345" Name="VO_Diana_Story_17" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_17" GUID="{075BD4CA-E088-4746-B98C-71CB3770E4FE}" DurationType="OneShot" DurationMin="1.1333333" DurationMax="1.1333333">
+					<MediaRefs>
+						<MediaRef Id="893485547"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2448024346" Type="Event" GUID="{5B2811CB-855A-46F2-9A32-0CDF63905D1E}" Language="English(US)" Hash="{780C1D09-95A9-BC39-E564-352C8C836765}">
+			<ObjectPath>VO_Diana_Story_14</ObjectPath>
+			<ShortName>VO_Diana_Story_14</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_14.bnk</Path>
+			<Media>
+				<File Id="939806848" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_14.wav</ShortName>
+					<Path>Media/English(US)/939806848.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_14_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2448024346" Name="VO_Diana_Story_14" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_14" GUID="{5B2811CB-855A-46F2-9A32-0CDF63905D1E}" DurationType="OneShot" DurationMin="5.4" DurationMax="5.4">
+					<MediaRefs>
+						<MediaRef Id="939806848"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2464802032" Type="Event" GUID="{B796DA7F-EE90-4019-91D4-4EA8A71C83A4}" Language="English(US)" Hash="{DCB8D353-8C5D-0E6B-94EF-E54B809A75B9}">
+			<ObjectPath>VO_Diana_Story_01</ObjectPath>
+			<ShortName>VO_Diana_Story_01</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_01.bnk</Path>
+			<Media>
+				<File Id="993424846" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_01.wav</ShortName>
+					<Path>Media/English(US)/993424846.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2464802032" Name="VO_Diana_Story_01" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_01" GUID="{B796DA7F-EE90-4019-91D4-4EA8A71C83A4}" DurationType="OneShot" DurationMin="0.64" DurationMax="0.64">
+					<MediaRefs>
+						<MediaRef Id="993424846"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2464802034" Type="Event" GUID="{BA361E4F-D5A0-4EAB-A4B3-F29A350C8F26}" Language="English(US)" Hash="{126DEEC2-0613-1E39-37EA-DD82CE7E004D}">
+			<ObjectPath>VO_Diana_Story_03</ObjectPath>
+			<ShortName>VO_Diana_Story_03</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_03.bnk</Path>
+			<Media>
+				<File Id="606716973" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_03.wav</ShortName>
+					<Path>Media/English(US)/606716973.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2464802034" Name="VO_Diana_Story_03" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_03" GUID="{BA361E4F-D5A0-4EAB-A4B3-F29A350C8F26}" DurationType="OneShot" DurationMin="0.81333333" DurationMax="0.81333333">
+					<MediaRefs>
+						<MediaRef Id="606716973"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2464802035" Type="Event" GUID="{CA1E52A6-F73B-425D-8D75-8A2B92D15CFE}" Language="English(US)" Hash="{AB5167FE-935A-573B-3C10-C72342F04C00}">
+			<ObjectPath>VO_Diana_Story_02</ObjectPath>
+			<ShortName>VO_Diana_Story_02</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_02.bnk</Path>
+			<Media>
+				<File Id="380117564" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_02.wav</ShortName>
+					<Path>Media/English(US)/380117564.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2464802035" Name="VO_Diana_Story_02" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_02" GUID="{CA1E52A6-F73B-425D-8D75-8A2B92D15CFE}" DurationType="OneShot" DurationMin="3.36" DurationMax="3.36">
+					<MediaRefs>
+						<MediaRef Id="380117564"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2464802036" Type="Event" GUID="{86D6C5E3-800A-43F2-A8CB-54CD2A88859C}" Language="English(US)" Hash="{AAE96962-A19D-D066-C356-AEF40981F2E7}">
+			<ObjectPath>VO_Diana_Story_05</ObjectPath>
+			<ShortName>VO_Diana_Story_05</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_05.bnk</Path>
+			<Media>
+				<File Id="1013132227" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_05.wav</ShortName>
+					<Path>Media/English(US)/1013132227.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_05_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2464802036" Name="VO_Diana_Story_05" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_05" GUID="{86D6C5E3-800A-43F2-A8CB-54CD2A88859C}" DurationType="OneShot" DurationMin="2.1066666" DurationMax="2.1066666">
+					<MediaRefs>
+						<MediaRef Id="1013132227"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2464802037" Type="Event" GUID="{60A6494F-398A-436F-ADDD-9E2969F8359A}" Language="English(US)" Hash="{8FF04F0F-63FA-DDFD-E611-2AE00B3BC404}">
+			<ObjectPath>VO_Diana_Story_04</ObjectPath>
+			<ShortName>VO_Diana_Story_04</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_04.bnk</Path>
+			<Media>
+				<File Id="249753040" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_04.wav</ShortName>
+					<Path>Media/English(US)/249753040.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_04_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2464802037" Name="VO_Diana_Story_04" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_04" GUID="{60A6494F-398A-436F-ADDD-9E2969F8359A}" DurationType="OneShot" DurationMin="4.306667" DurationMax="4.306667">
+					<MediaRefs>
+						<MediaRef Id="249753040"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2464802038" Type="Event" GUID="{E9CDBE23-9C19-40E5-B769-34B53CCA4D10}" Language="English(US)" Hash="{80FF74F4-B7DB-CA8A-FFA1-99FF12D590C7}">
+			<ObjectPath>VO_Diana_Story_07</ObjectPath>
+			<ShortName>VO_Diana_Story_07</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_07.bnk</Path>
+			<Media>
+				<File Id="350445875" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_07.wav</ShortName>
+					<Path>Media/English(US)/350445875.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_07_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2464802038" Name="VO_Diana_Story_07" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_07" GUID="{E9CDBE23-9C19-40E5-B769-34B53CCA4D10}" DurationType="OneShot" DurationMin="1.6266667" DurationMax="1.6266667">
+					<MediaRefs>
+						<MediaRef Id="350445875"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2464802039" Type="Event" GUID="{09CF0071-A8B0-44F4-9CB6-1C732F7EC56D}" Language="English(US)" Hash="{2721A566-C2D7-3FF4-8984-7DFFC1219C41}">
+			<ObjectPath>VO_Diana_Story_06</ObjectPath>
+			<ShortName>VO_Diana_Story_06</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_06.bnk</Path>
+			<Media>
+				<File Id="94568984" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_06.wav</ShortName>
+					<Path>Media/English(US)/94568984.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_06_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2464802039" Name="VO_Diana_Story_06" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_06" GUID="{09CF0071-A8B0-44F4-9CB6-1C732F7EC56D}" DurationType="OneShot" DurationMin="3.2933333" DurationMax="3.2933333">
+					<MediaRefs>
+						<MediaRef Id="94568984"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2464802040" Type="Event" GUID="{44C02697-5240-4C56-85A1-07503442F34F}" Language="English(US)" Hash="{BC01842D-2D82-58B8-F1CF-A0DE873AFEA7}">
+			<ObjectPath>VO_Diana_Story_09</ObjectPath>
+			<ShortName>VO_Diana_Story_09</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_09.bnk</Path>
+			<Media>
+				<File Id="1066629028" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_09.wav</ShortName>
+					<Path>Media/English(US)/1066629028.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_09_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2464802040" Name="VO_Diana_Story_09" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_09" GUID="{44C02697-5240-4C56-85A1-07503442F34F}" DurationType="OneShot" DurationMin="0.62666667" DurationMax="0.62666667">
+					<MediaRefs>
+						<MediaRef Id="1066629028"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2464802041" Type="Event" GUID="{EA299478-32B4-45AD-B8DD-A3042A88D8E4}" Language="English(US)" Hash="{71974E2B-F5F8-F41B-066F-DF21622173E5}">
+			<ObjectPath>VO_Diana_Story_08</ObjectPath>
+			<ShortName>VO_Diana_Story_08</ShortName>
+			<Path>Event/English(US)/VO_Diana_Story_08.bnk</Path>
+			<Media>
+				<File Id="12798523" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Story\VO_Diana_Story_08.wav</ShortName>
+					<Path>Media/English(US)/12798523.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Story/VO_Diana_Story_08_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2464802041" Name="VO_Diana_Story_08" ObjectPath="\Events\VO\VO_Diana_Story\VO_Diana_Story_08" GUID="{EA299478-32B4-45AD-B8DD-A3042A88D8E4}" DurationType="OneShot" DurationMin="2.3066666" DurationMax="2.3066666">
+					<MediaRefs>
+						<MediaRef Id="12798523"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2517622237" Type="Event" GUID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}" Language="SFX" Hash="{ED015DDA-6509-C20F-7DD4-B2CDFC7BBEA4}">
 			<ObjectPath>UI_InGame_WeaponSecondaryReload</ObjectPath>
 			<ShortName>UI_InGame_WeaponSecondaryReload</ShortName>
 			<Path>Event/UI_InGame_WeaponSecondaryReload.bnk</Path>
@@ -298,7 +2498,192 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3087624999" Type="Event" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" Language="SFX" Hash="{F94163F3-8CA4-982A-051D-5AF3458C9886}">
+		<SoundBank Id="2699544719" Type="Event" GUID="{0468A734-9547-42F4-B80E-337C2AC901A2}" Language="English(US)" Hash="{00F9D873-26B9-167E-8BE9-F132A4A101AD}">
+			<ObjectPath>VO_Ari_Gameplay_Breath</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Breath</ShortName>
+			<Path>Event/English(US)/VO_Ari_Gameplay_Breath.bnk</Path>
+			<Media>
+				<File Id="72894477" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Breath\VO_Ari_Gameplay_Breath_01.wav</ShortName>
+					<Path>Media/English(US)/72894477.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Breath/VO_Ari_Gameplay_Breath_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="337048800" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Breath\VO_Ari_Gameplay_Breath_02.wav</ShortName>
+					<Path>Media/English(US)/337048800.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Breath/VO_Ari_Gameplay_Breath_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2699544719" Name="VO_Ari_Gameplay_Breath" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Breath" GUID="{0468A734-9547-42F4-B80E-337C2AC901A2}" DurationType="OneShot" DurationMin="3.44" DurationMax="4.5333333">
+					<MediaRefs>
+						<MediaRef Id="72894477"/>
+						<MediaRef Id="337048800"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2855648328" Type="Event" GUID="{CF346644-104F-4F5E-9F43-902F0F6F0B6D}" Language="English(US)" Hash="{C5AE3FB8-2A3E-8F36-6705-1F1776FE42B7}">
+			<ObjectPath>VO_Simon_Gameplay_Run</ObjectPath>
+			<ShortName>VO_Simon_Gameplay_Run</ShortName>
+			<Path>Event/English(US)/VO_Simon_Gameplay_Run.bnk</Path>
+			<Media>
+				<File Id="518618919" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Gameplay\VO_Simon_Gameplay_Run.wav</ShortName>
+					<Path>Media/English(US)/518618919.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_Run_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2855648328" Name="VO_Simon_Gameplay_Run" ObjectPath="\Events\VO\VO_Simon_Gameplay\VO_Simon_Gameplay_Run" GUID="{CF346644-104F-4F5E-9F43-902F0F6F0B6D}" DurationType="OneShot" DurationMin="1.4266666" DurationMax="1.4266666">
+					<MediaRefs>
+						<MediaRef Id="518618919"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2964851327" Type="Event" GUID="{9684AF37-3F6A-4B58-8C70-3CE6AA0D99FD}" Language="English(US)" Hash="{5E097493-935A-40DE-93E9-2A576783D734}">
+			<ObjectPath>VO_Diana_Gameplay_Tempo</ObjectPath>
+			<ShortName>VO_Diana_Gameplay_Tempo</ShortName>
+			<Path>Event/English(US)/VO_Diana_Gameplay_Tempo.bnk</Path>
+			<Media>
+				<File Id="409669438" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Tempo\VO_Diana_Gameplay_Tempo_01.wav</ShortName>
+					<Path>Media/English(US)/409669438.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Tempo/VO_Diana_Gameplay_Tempo_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="849211102" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Tempo\VO_Diana_Gameplay_Tempo_03.wav</ShortName>
+					<Path>Media/English(US)/849211102.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Tempo/VO_Diana_Gameplay_Tempo_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1054848459" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Tempo\VO_Diana_Gameplay_Tempo_02.wav</ShortName>
+					<Path>Media/English(US)/1054848459.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Tempo/VO_Diana_Gameplay_Tempo_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2964851327" Name="VO_Diana_Gameplay_Tempo" ObjectPath="\Events\VO\VO_Diana_Gameplay\VO_Diana_Gameplay_Tempo" GUID="{9684AF37-3F6A-4B58-8C70-3CE6AA0D99FD}" DurationType="OneShot" DurationMin="1.28" DurationMax="1.64">
+					<MediaRefs>
+						<MediaRef Id="409669438"/>
+						<MediaRef Id="849211102"/>
+						<MediaRef Id="1054848459"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2999750269" Type="Event" GUID="{7F6F206A-239F-4FC3-A2D7-297A24FCF483}" Language="English(US)" Hash="{A22042DF-597B-7202-A69F-081F189B2713}">
+			<ObjectPath>VO_Ari_Gameplay_Death</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Death</ShortName>
+			<Path>Event/English(US)/VO_Ari_Gameplay_Death.bnk</Path>
+			<Media>
+				<File Id="124313777" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_04.wav</ShortName>
+					<Path>Media/English(US)/124313777.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="344258897" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_02.wav</ShortName>
+					<Path>Media/English(US)/344258897.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="554230171" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_05.wav</ShortName>
+					<Path>Media/English(US)/554230171.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="556237807" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_01.wav</ShortName>
+					<Path>Media/English(US)/556237807.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="573120549" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_03.wav</ShortName>
+					<Path>Media/English(US)/573120549.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="861775547" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_06.wav</ShortName>
+					<Path>Media/English(US)/861775547.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_06_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2999750269" Name="VO_Ari_Gameplay_Death" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Death" GUID="{7F6F206A-239F-4FC3-A2D7-297A24FCF483}" DurationType="OneShot" DurationMin="1.08" DurationMax="3.2933333">
+					<MediaRefs>
+						<MediaRef Id="124313777"/>
+						<MediaRef Id="344258897"/>
+						<MediaRef Id="554230171"/>
+						<MediaRef Id="556237807"/>
+						<MediaRef Id="573120549"/>
+						<MediaRef Id="861775547"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3010146220" Type="Event" GUID="{281B8DFA-273F-4C7B-9D7F-4844D3806E40}" Language="English(US)" Hash="{D39BF7B4-B659-4BF7-BA07-26BBF905C767}">
+			<ObjectPath>VO_Ari_Gameplay_Sigh</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Sigh</ShortName>
+			<Path>Event/English(US)/VO_Ari_Gameplay_Sigh.bnk</Path>
+			<Media>
+				<File Id="354730327" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Sigh\VO_Ari_Gameplay_Sigh_04.wav</ShortName>
+					<Path>Media/English(US)/354730327.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="357687780" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Sigh\VO_Ari_Gameplay_Sigh_03.wav</ShortName>
+					<Path>Media/English(US)/357687780.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="551441254" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Sigh\VO_Ari_Gameplay_Sigh_01.wav</ShortName>
+					<Path>Media/English(US)/551441254.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="567495652" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Sigh\VO_Ari_Gameplay_Sigh_07.wav</ShortName>
+					<Path>Media/English(US)/567495652.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="654086342" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Sigh\VO_Ari_Gameplay_Sigh_02.wav</ShortName>
+					<Path>Media/English(US)/654086342.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="734658513" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Sigh\VO_Ari_Gameplay_Sigh_05.wav</ShortName>
+					<Path>Media/English(US)/734658513.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="776269528" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Sigh\VO_Ari_Gameplay_Sigh_06.wav</ShortName>
+					<Path>Media/English(US)/776269528.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="983536794" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Sigh\VO_Ari_Gameplay_Sigh_08.wav</ShortName>
+					<Path>Media/English(US)/983536794.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Sigh/VO_Ari_Gameplay_Sigh_08_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3010146220" Name="VO_Ari_Gameplay_Sigh" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Sigh" GUID="{281B8DFA-273F-4C7B-9D7F-4844D3806E40}" DurationType="OneShot" DurationMin="0.4" DurationMax="1.1333333">
+					<MediaRefs>
+						<MediaRef Id="354730327"/>
+						<MediaRef Id="357687780"/>
+						<MediaRef Id="551441254"/>
+						<MediaRef Id="567495652"/>
+						<MediaRef Id="654086342"/>
+						<MediaRef Id="734658513"/>
+						<MediaRef Id="776269528"/>
+						<MediaRef Id="983536794"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3087624999" Type="Event" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" Language="SFX" Hash="{333C0E8E-E29D-FEAE-D733-D6444B97FB91}">
 			<ObjectPath>UI_InGame_DashReload</ObjectPath>
 			<ShortName>UI_InGame_DashReload</ShortName>
 			<Path>Event/UI_InGame_DashReload.bnk</Path>
@@ -335,7 +2720,26 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3237189652" Type="Event" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" Language="SFX" Hash="{71C76C6D-DCD8-37C1-B8E2-CB07F3F82973}">
+		<SoundBank Id="3233041211" Type="Event" GUID="{43402A1C-6C1A-4646-BB60-8E1109F8D0F6}" Language="English(US)" Hash="{0C82C696-6E80-9083-ADF8-AC26BB738F56}">
+			<ObjectPath>VO_Simon_Gameplay_Goodjob</ObjectPath>
+			<ShortName>VO_Simon_Gameplay_Goodjob</ShortName>
+			<Path>Event/English(US)/VO_Simon_Gameplay_Goodjob.bnk</Path>
+			<Media>
+				<File Id="217444436" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Gameplay\VO_Simon_Gameplay_Goodjob.wav</ShortName>
+					<Path>Media/English(US)/217444436.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_Goodjob_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3233041211" Name="VO_Simon_Gameplay_Goodjob" ObjectPath="\Events\VO\VO_Simon_Gameplay\VO_Simon_Gameplay_Goodjob" GUID="{43402A1C-6C1A-4646-BB60-8E1109F8D0F6}" DurationType="OneShot" DurationMin="0.70666665" DurationMax="0.70666665">
+					<MediaRefs>
+						<MediaRef Id="217444436"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3237189652" Type="Event" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" Language="SFX" Hash="{D76EC39B-3E37-8396-AB69-00E966D6458F}">
 			<ObjectPath>UI_Menu_Pause</ObjectPath>
 			<ShortName>UI_Menu_Pause</ShortName>
 			<Path>Event/UI_Menu_Pause.bnk</Path>
@@ -369,10 +2773,22 @@
 						<MediaRef Id="373475764"/>
 						<MediaRef Id="597279884"/>
 					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="4078696085" Id="3640095552" Name="ST_Game_InMenu" ObjectPath="\States\ST_Persistent\ST_Game\ST_Game_InMenu" GUID="{CBADC631-6FAE-4AA9-A719-D83BE67BF4C4}"/>
+					</ActionSetState>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="4078696085" Name="ST_Game" ObjectPath="\States\ST_Persistent\ST_Game" GUID="{C2AFF852-6A2D-42B0-B06B-6CF588CE17D6}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\ST_Persistent\ST_Game\None" GUID="{2EF11E60-4DB1-49AF-83CD-F5C803E1FD88}"/>
+						<State Id="1745364551" Name="ST_Game_Ingame" ObjectPath="\States\ST_Persistent\ST_Game\ST_Game_Ingame" GUID="{2B772789-F7D4-4DA6-B872-245923DBF8F4}"/>
+						<State Id="3640095552" Name="ST_Game_InMenu" ObjectPath="\States\ST_Persistent\ST_Game\ST_Game_InMenu" GUID="{CBADC631-6FAE-4AA9-A719-D83BE67BF4C4}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3474566310" Type="Event" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" Language="SFX" Hash="{8CDEDFF4-633E-DC00-F838-C2C8BFFEF5C9}">
+		<SoundBank Id="3474566310" Type="Event" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" Language="SFX" Hash="{5286791E-3D19-FEB1-C27D-A21A64376572}">
 			<ObjectPath>UI_Menu_Select</ObjectPath>
 			<ShortName>UI_Menu_Select</ShortName>
 			<Path>Event/UI_Menu_Select.bnk</Path>
@@ -403,7 +2819,63 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3685120562" Type="Event" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" Language="SFX" Hash="{07C1FF08-D844-D286-FAA0-254E19DDA409}">
+		<SoundBank Id="3523062195" Type="Event" GUID="{DC44FCC0-08B0-454B-9529-15EB68E35858}" Language="English(US)" Hash="{E921A769-011D-2A8F-EE83-4FFD3D9CDF9D}">
+			<ObjectPath>VO_Blaise_Gameplay_Goodjob</ObjectPath>
+			<ShortName>VO_Blaise_Gameplay_Goodjob</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Gameplay_Goodjob.bnk</Path>
+			<Media>
+				<File Id="896020104" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Gameplay\VO_Blaise_Gameplay_Goodjob.wav</ShortName>
+					<Path>Media/English(US)/896020104.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_Goodjob_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3523062195" Name="VO_Blaise_Gameplay_Goodjob" ObjectPath="\Events\VO\VO_Blaise_Gameplay\VO_Blaise_Gameplay_Goodjob" GUID="{DC44FCC0-08B0-454B-9529-15EB68E35858}" DurationType="OneShot" DurationMin="0.8" DurationMax="0.8">
+					<MediaRefs>
+						<MediaRef Id="896020104"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3657978876" Type="Event" GUID="{BC674A9A-5D48-432D-B273-1E20B1297535}" Language="English(US)" Hash="{1251C67B-F585-9EFB-4C9A-C191472EB290}">
+			<ObjectPath>VO_Ari_Gameplay_Run</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Run</ShortName>
+			<Path>Event/English(US)/VO_Ari_Gameplay_Run.bnk</Path>
+			<Media>
+				<File Id="228510137" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Run\VO_Ari_Gameplay_Run_01.wav</ShortName>
+					<Path>Media/English(US)/228510137.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Run/VO_Ari_Gameplay_Run_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="242019517" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Run\VO_Ari_Gameplay_Run_03.wav</ShortName>
+					<Path>Media/English(US)/242019517.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Run/VO_Ari_Gameplay_Run_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="854199384" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Run\VO_Ari_Gameplay_Run_04.wav</ShortName>
+					<Path>Media/English(US)/854199384.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Run/VO_Ari_Gameplay_Run_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="932320871" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Run\VO_Ari_Gameplay_Run_02.wav</ShortName>
+					<Path>Media/English(US)/932320871.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Run/VO_Ari_Gameplay_Run_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3657978876" Name="VO_Ari_Gameplay_Run" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Run" GUID="{BC674A9A-5D48-432D-B273-1E20B1297535}" DurationType="OneShot" DurationMin="2.7066667" DurationMax="8.906667">
+					<MediaRefs>
+						<MediaRef Id="228510137"/>
+						<MediaRef Id="242019517"/>
+						<MediaRef Id="854199384"/>
+						<MediaRef Id="932320871"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3685120562" Type="Event" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" Language="SFX" Hash="{261D1400-28B5-800D-EAF7-7E986CD7B97E}">
 			<ObjectPath>FT_MC</ObjectPath>
 			<ShortName>FT_MC</ShortName>
 			<Path>Event/FT_MC.bnk</Path>
@@ -424,6 +2896,493 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="3718973868" Type="Event" GUID="{81D9955F-8E1D-41D8-9295-823F18E1B7F3}" Language="English(US)" Hash="{138F81E2-FEDA-0AF3-91EC-13FC64D7E7B4}">
+			<ObjectPath>VO_Simon_Gameplay_No</ObjectPath>
+			<ShortName>VO_Simon_Gameplay_No</ShortName>
+			<Path>Event/English(US)/VO_Simon_Gameplay_No.bnk</Path>
+			<Media>
+				<File Id="555383650" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Gameplay\VO_Simon_Gameplay_No.wav</ShortName>
+					<Path>Media/English(US)/555383650.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_No_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3718973868" Name="VO_Simon_Gameplay_No" ObjectPath="\Events\VO\VO_Simon_Gameplay\VO_Simon_Gameplay_No" GUID="{81D9955F-8E1D-41D8-9295-823F18E1B7F3}" DurationType="OneShot" DurationMin="1.8666667" DurationMax="1.8666667">
+					<MediaRefs>
+						<MediaRef Id="555383650"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3916625737" Type="Event" GUID="{2633593B-CB85-4E2A-B3B1-47322616C39D}" Language="English(US)" Hash="{EE7481E8-A142-29CA-F633-886A65ADE960}">
+			<ObjectPath>VO_Diana_Gameplay_Run</ObjectPath>
+			<ShortName>VO_Diana_Gameplay_Run</ShortName>
+			<Path>Event/English(US)/VO_Diana_Gameplay_Run.bnk</Path>
+			<Media>
+				<File Id="63235241" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Run\VO_Diana_Gameplay_Run_03.wav</ShortName>
+					<Path>Media/English(US)/63235241.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Run/VO_Diana_Gameplay_Run_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="182394479" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Run\VO_Diana_Gameplay_Run_01.wav</ShortName>
+					<Path>Media/English(US)/182394479.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Run/VO_Diana_Gameplay_Run_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="338659443" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Run\VO_Diana_Gameplay_Run_02.wav</ShortName>
+					<Path>Media/English(US)/338659443.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Run/VO_Diana_Gameplay_Run_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3916625737" Name="VO_Diana_Gameplay_Run" ObjectPath="\Events\VO\VO_Diana_Gameplay\VO_Diana_Gameplay_Run" GUID="{2633593B-CB85-4E2A-B3B1-47322616C39D}" DurationType="OneShot" DurationMin="1.1866666" DurationMax="1.2933333">
+					<MediaRefs>
+						<MediaRef Id="63235241"/>
+						<MediaRef Id="182394479"/>
+						<MediaRef Id="338659443"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3927651216" Type="Event" GUID="{04A4271F-6B18-497B-9A12-2526D782AD82}" Language="English(US)" Hash="{36DECFA7-A087-15A6-76EC-1E806AAD5AAA}">
+			<ObjectPath>VO_Ari_Story_04</ObjectPath>
+			<ShortName>VO_Ari_Story_04</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_04.bnk</Path>
+			<Media>
+				<File Id="272786483" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_04.wav</ShortName>
+					<Path>Media/English(US)/272786483.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_04_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3927651216" Name="VO_Ari_Story_04" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_04" GUID="{04A4271F-6B18-497B-9A12-2526D782AD82}" DurationType="OneShot" DurationMin="2.1733334" DurationMax="2.1733334">
+					<MediaRefs>
+						<MediaRef Id="272786483"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3927651217" Type="Event" GUID="{F37F9443-F9D2-4C7B-ADE8-3A8CE7EEB4C2}" Language="English(US)" Hash="{25B54408-7A26-EFBC-1B86-8A97FDB8F2D6}">
+			<ObjectPath>VO_Ari_Story_05</ObjectPath>
+			<ShortName>VO_Ari_Story_05</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_05.bnk</Path>
+			<Media>
+				<File Id="246041119" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_05.wav</ShortName>
+					<Path>Media/English(US)/246041119.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_05_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3927651217" Name="VO_Ari_Story_05" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_05" GUID="{F37F9443-F9D2-4C7B-ADE8-3A8CE7EEB4C2}" DurationType="OneShot" DurationMin="2.1466668" DurationMax="2.1466668">
+					<MediaRefs>
+						<MediaRef Id="246041119"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3927651218" Type="Event" GUID="{EE28DB23-7F69-4BFA-8EA4-8282985BB499}" Language="English(US)" Hash="{FB8C8DF4-4F0B-D1DB-3463-0E203399151E}">
+			<ObjectPath>VO_Ari_Story_06</ObjectPath>
+			<ShortName>VO_Ari_Story_06</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_06.bnk</Path>
+			<Media>
+				<File Id="1060417731" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_06.wav</ShortName>
+					<Path>Media/English(US)/1060417731.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_06_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3927651218" Name="VO_Ari_Story_06" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_06" GUID="{EE28DB23-7F69-4BFA-8EA4-8282985BB499}" DurationType="OneShot" DurationMin="1.1333333" DurationMax="1.1333333">
+					<MediaRefs>
+						<MediaRef Id="1060417731"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3927651219" Type="Event" GUID="{B42545FA-0E40-4236-A59F-D03FD2A990F2}" Language="English(US)" Hash="{35FF9EF5-650D-E90C-5DAD-80FBBACF1195}">
+			<ObjectPath>VO_Ari_Story_07</ObjectPath>
+			<ShortName>VO_Ari_Story_07</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_07.bnk</Path>
+			<Media>
+				<File Id="875177827" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_07.wav</ShortName>
+					<Path>Media/English(US)/875177827.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_07_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3927651219" Name="VO_Ari_Story_07" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_07" GUID="{B42545FA-0E40-4236-A59F-D03FD2A990F2}" DurationType="OneShot" DurationMin="1.72" DurationMax="1.72">
+					<MediaRefs>
+						<MediaRef Id="875177827"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3927651221" Type="Event" GUID="{6B8FB3FD-9E0C-430B-8ED5-9EC376944037}" Language="English(US)" Hash="{CE944A91-4C07-B054-ABC8-75D7F579ADAD}">
+			<ObjectPath>VO_Ari_Story_01</ObjectPath>
+			<ShortName>VO_Ari_Story_01</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_01.bnk</Path>
+			<Media>
+				<File Id="672566029" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_01.wav</ShortName>
+					<Path>Media/English(US)/672566029.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3927651221" Name="VO_Ari_Story_01" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_01" GUID="{6B8FB3FD-9E0C-430B-8ED5-9EC376944037}" DurationType="OneShot" DurationMin="6.08" DurationMax="6.08">
+					<MediaRefs>
+						<MediaRef Id="672566029"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3927651222" Type="Event" GUID="{250FE7FF-DCE0-4C37-95DA-00E5E10A6C51}" Language="English(US)" Hash="{E4D5D075-93E9-0031-DA02-F0B3203032F0}">
+			<ObjectPath>VO_Ari_Story_02</ObjectPath>
+			<ShortName>VO_Ari_Story_02</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_02.bnk</Path>
+			<Media>
+				<File Id="651394134" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_02.wav</ShortName>
+					<Path>Media/English(US)/651394134.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3927651222" Name="VO_Ari_Story_02" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_02" GUID="{250FE7FF-DCE0-4C37-95DA-00E5E10A6C51}" DurationType="OneShot" DurationMin="4.36" DurationMax="4.36">
+					<MediaRefs>
+						<MediaRef Id="651394134"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3927651223" Type="Event" GUID="{4BF32ABD-2706-477B-AF41-55F36C0687B2}" Language="English(US)" Hash="{C189EA43-FD97-24F2-B211-28F436625859}">
+			<ObjectPath>VO_Ari_Story_03</ObjectPath>
+			<ShortName>VO_Ari_Story_03</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_03.bnk</Path>
+			<Media>
+				<File Id="1010622090" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_03.wav</ShortName>
+					<Path>Media/English(US)/1010622090.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3927651223" Name="VO_Ari_Story_03" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_03" GUID="{4BF32ABD-2706-477B-AF41-55F36C0687B2}" DurationType="OneShot" DurationMin="3.8266666" DurationMax="3.8266666">
+					<MediaRefs>
+						<MediaRef Id="1010622090"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3927651228" Type="Event" GUID="{6408E7D4-ABD0-48E4-AB3B-A01B4041A2F0}" Language="English(US)" Hash="{D4C6769D-AF7D-D019-A33F-616AEAECCA2E}">
+			<ObjectPath>VO_Ari_Story_08</ObjectPath>
+			<ShortName>VO_Ari_Story_08</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_08.bnk</Path>
+			<Media>
+				<File Id="1070224231" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_08.wav</ShortName>
+					<Path>Media/English(US)/1070224231.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_08_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3927651228" Name="VO_Ari_Story_08" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_08" GUID="{6408E7D4-ABD0-48E4-AB3B-A01B4041A2F0}" DurationType="OneShot" DurationMin="1.24" DurationMax="1.24">
+					<MediaRefs>
+						<MediaRef Id="1070224231"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3927651229" Type="Event" GUID="{1F1B2E99-4B06-456D-BE10-51DD017D444D}" Language="English(US)" Hash="{440A66BE-6176-6619-BF3B-5F5C81237E5B}">
+			<ObjectPath>VO_Ari_Story_09</ObjectPath>
+			<ShortName>VO_Ari_Story_09</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_09.bnk</Path>
+			<Media>
+				<File Id="832955742" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_09.wav</ShortName>
+					<Path>Media/English(US)/832955742.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_09_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3927651229" Name="VO_Ari_Story_09" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_09" GUID="{1F1B2E99-4B06-456D-BE10-51DD017D444D}" DurationType="OneShot" DurationMin="1.1466666" DurationMax="1.1466666">
+					<MediaRefs>
+						<MediaRef Id="832955742"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3944428800" Type="Event" GUID="{8B6B82DB-3C4E-4D63-956E-8CB3752FC1EC}" Language="English(US)" Hash="{033E642B-0013-CF9A-5B50-C8D9859391D3}">
+			<ObjectPath>VO_Ari_Story_17</ObjectPath>
+			<ShortName>VO_Ari_Story_17</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_17.bnk</Path>
+			<Media>
+				<File Id="1055112617" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_17.wav</ShortName>
+					<Path>Media/English(US)/1055112617.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_17_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3944428800" Name="VO_Ari_Story_17" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_17" GUID="{8B6B82DB-3C4E-4D63-956E-8CB3752FC1EC}" DurationType="OneShot" DurationMin="5.0933332" DurationMax="5.0933332">
+					<MediaRefs>
+						<MediaRef Id="1055112617"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3944428802" Type="Event" GUID="{9BB7FEE3-06C3-4DE8-94EA-6FBADBDD0518}" Language="English(US)" Hash="{B7EA7F7B-FCC8-743F-3E70-71FABFA97166}">
+			<ObjectPath>VO_Ari_Story_15</ObjectPath>
+			<ShortName>VO_Ari_Story_15</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_15.bnk</Path>
+			<Media>
+				<File Id="860600399" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_15.wav</ShortName>
+					<Path>Media/English(US)/860600399.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_15_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3944428802" Name="VO_Ari_Story_15" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_15" GUID="{9BB7FEE3-06C3-4DE8-94EA-6FBADBDD0518}" DurationType="OneShot" DurationMin="1.0133333" DurationMax="1.0133333">
+					<MediaRefs>
+						<MediaRef Id="860600399"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3944428803" Type="Event" GUID="{E3F197FE-8099-4C9B-94D0-15A065B60CD8}" Language="English(US)" Hash="{22A3F4C2-7D0E-4803-26DD-8A3B0054A71E}">
+			<ObjectPath>VO_Ari_Story_14</ObjectPath>
+			<ShortName>VO_Ari_Story_14</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_14.bnk</Path>
+			<Media>
+				<File Id="649066882" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_14.wav</ShortName>
+					<Path>Media/English(US)/649066882.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_14_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3944428803" Name="VO_Ari_Story_14" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_14" GUID="{E3F197FE-8099-4C9B-94D0-15A065B60CD8}" DurationType="OneShot" DurationMin="1.3333334" DurationMax="1.3333334">
+					<MediaRefs>
+						<MediaRef Id="649066882"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3944428805" Type="Event" GUID="{4AE27633-2A46-42EA-AA27-97AD5354C7C1}" Language="English(US)" Hash="{01373645-DAF2-6E15-775F-10E71406FAED}">
+			<ObjectPath>VO_Ari_Story_12</ObjectPath>
+			<ShortName>VO_Ari_Story_12</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_12.bnk</Path>
+			<Media>
+				<File Id="189642122" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_12.wav</ShortName>
+					<Path>Media/English(US)/189642122.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_12_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3944428805" Name="VO_Ari_Story_12" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_12" GUID="{4AE27633-2A46-42EA-AA27-97AD5354C7C1}" DurationType="OneShot" DurationMin="6.7066665" DurationMax="6.7066665">
+					<MediaRefs>
+						<MediaRef Id="189642122"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3944428806" Type="Event" GUID="{F62071B1-699E-4456-B3C1-AC8B28F5066C}" Language="English(US)" Hash="{3B4428F1-0FAC-17E1-715E-7C7E48784A84}">
+			<ObjectPath>VO_Ari_Story_11</ObjectPath>
+			<ShortName>VO_Ari_Story_11</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_11.bnk</Path>
+			<Media>
+				<File Id="260539122" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_11.wav</ShortName>
+					<Path>Media/English(US)/260539122.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_11_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3944428806" Name="VO_Ari_Story_11" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_11" GUID="{F62071B1-699E-4456-B3C1-AC8B28F5066C}" DurationType="OneShot" DurationMin="2.28" DurationMax="2.28">
+					<MediaRefs>
+						<MediaRef Id="260539122"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3944428807" Type="Event" GUID="{8694E38C-4A87-412C-B7A2-B225883F5D72}" Language="English(US)" Hash="{F043ECA4-3996-0D2A-8E4A-5560BB6CB2CE}">
+			<ObjectPath>VO_Ari_Story_10</ObjectPath>
+			<ShortName>VO_Ari_Story_10</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_10.bnk</Path>
+			<Media>
+				<File Id="542299346" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_10.wav</ShortName>
+					<Path>Media/English(US)/542299346.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_10_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3944428807" Name="VO_Ari_Story_10" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_10" GUID="{8694E38C-4A87-412C-B7A2-B225883F5D72}" DurationType="OneShot" DurationMin="0.82666665" DurationMax="0.82666665">
+					<MediaRefs>
+						<MediaRef Id="542299346"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3944428814" Type="Event" GUID="{68D48677-E280-4A26-8926-C4D60DAD6719}" Language="English(US)" Hash="{433B4BC0-D632-FFF5-8842-3CC74D8BF7DB}">
+			<ObjectPath>VO_Ari_Story_19</ObjectPath>
+			<ShortName>VO_Ari_Story_19</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_19.bnk</Path>
+			<Media>
+				<File Id="317840747" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_19.wav</ShortName>
+					<Path>Media/English(US)/317840747.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_19_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3944428814" Name="VO_Ari_Story_19" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_19" GUID="{68D48677-E280-4A26-8926-C4D60DAD6719}" DurationType="OneShot" DurationMin="1.1733333" DurationMax="1.1733333">
+					<MediaRefs>
+						<MediaRef Id="317840747"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3944428815" Type="Event" GUID="{26D83266-4DCD-449C-A70D-F9A483489087}" Language="English(US)" Hash="{FC257FA2-D5F2-BB92-727D-0E56E6D7AE03}">
+			<ObjectPath>VO_Ari_Story_18</ObjectPath>
+			<ShortName>VO_Ari_Story_18</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_18.bnk</Path>
+			<Media>
+				<File Id="284881666" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_18.wav</ShortName>
+					<Path>Media/English(US)/284881666.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_18_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3944428815" Name="VO_Ari_Story_18" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_18" GUID="{26D83266-4DCD-449C-A70D-F9A483489087}" DurationType="OneShot" DurationMin="1.0933334" DurationMax="1.0933334">
+					<MediaRefs>
+						<MediaRef Id="284881666"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3959138290" Type="Event" GUID="{D2FD929D-599B-43AB-AA67-7E9B443C1410}" Language="English(US)" Hash="{5CBAB1DE-B7C8-6D25-AD45-0B5A842C83B6}">
+			<ObjectPath>VO_Anna_Gameplay_Run</ObjectPath>
+			<ShortName>VO_Anna_Gameplay_Run</ShortName>
+			<Path>Event/English(US)/VO_Anna_Gameplay_Run.bnk</Path>
+			<Media>
+				<File Id="893407386" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Anna_Gameplay\VO_Anna_Gameplay_Run.wav</ShortName>
+					<Path>Media/English(US)/893407386.wem</Path>
+					<CachePath>Voices/English(US)/VO_Anna_Gameplay/VO_Anna_Gameplay_Run_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3959138290" Name="VO_Anna_Gameplay_Run" ObjectPath="\Events\VO\VO_Anna_Gameplay\VO_Anna_Gameplay_Run" GUID="{D2FD929D-599B-43AB-AA67-7E9B443C1410}" DurationType="OneShot" DurationMin="0.70666665" DurationMax="0.70666665">
+					<MediaRefs>
+						<MediaRef Id="893407386"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3961206520" Type="Event" GUID="{C1BE16F2-003B-4A5C-A85C-C8D070C0A984}" Language="English(US)" Hash="{B18152CC-975F-2FB8-41EB-98306AFBA0B0}">
+			<ObjectPath>VO_Ari_Story_22</ObjectPath>
+			<ShortName>VO_Ari_Story_22</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_22.bnk</Path>
+			<Media>
+				<File Id="366045746" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_22.wav</ShortName>
+					<Path>Media/English(US)/366045746.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_22_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3961206520" Name="VO_Ari_Story_22" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_22" GUID="{C1BE16F2-003B-4A5C-A85C-C8D070C0A984}" DurationType="OneShot" DurationMin="3.8933334" DurationMax="3.8933334">
+					<MediaRefs>
+						<MediaRef Id="366045746"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3961206521" Type="Event" GUID="{F4A612C4-4B54-4471-A850-A1E3B2ED1564}" Language="English(US)" Hash="{FC6FDDDA-576D-9674-8C02-A444199C646A}">
+			<ObjectPath>VO_Ari_Story_23</ObjectPath>
+			<ShortName>VO_Ari_Story_23</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_23.bnk</Path>
+			<Media>
+				<File Id="993008810" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_23.wav</ShortName>
+					<Path>Media/English(US)/993008810.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_23_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3961206521" Name="VO_Ari_Story_23" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_23" GUID="{F4A612C4-4B54-4471-A850-A1E3B2ED1564}" DurationType="OneShot" DurationMin="1.6" DurationMax="1.6">
+					<MediaRefs>
+						<MediaRef Id="993008810"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3961206522" Type="Event" GUID="{E7D0ADDC-B15B-4FBC-AE42-5BB276791073}" Language="English(US)" Hash="{C7A93598-7246-D3B3-A437-AE9A1E5F8A67}">
+			<ObjectPath>VO_Ari_Story_20</ObjectPath>
+			<ShortName>VO_Ari_Story_20</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_20.bnk</Path>
+			<Media>
+				<File Id="349343981" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_20.wav</ShortName>
+					<Path>Media/English(US)/349343981.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_20_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3961206522" Name="VO_Ari_Story_20" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_20" GUID="{E7D0ADDC-B15B-4FBC-AE42-5BB276791073}" DurationType="OneShot" DurationMin="3.2666667" DurationMax="3.2666667">
+					<MediaRefs>
+						<MediaRef Id="349343981"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3961206523" Type="Event" GUID="{B513AE10-2103-4D06-BF7B-565FD5955D2C}" Language="English(US)" Hash="{D90FE118-C8F6-3C45-A1AB-C94ADC6373B0}">
+			<ObjectPath>VO_Ari_Story_21</ObjectPath>
+			<ShortName>VO_Ari_Story_21</ShortName>
+			<Path>Event/English(US)/VO_Ari_Story_21.bnk</Path>
+			<Media>
+				<File Id="588116201" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Story\VO_Ari_Story_21.wav</ShortName>
+					<Path>Media/English(US)/588116201.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Story/VO_Ari_Story_21_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3961206523" Name="VO_Ari_Story_21" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_21" GUID="{B513AE10-2103-4D06-BF7B-565FD5955D2C}" DurationType="OneShot" DurationMin="3.36" DurationMax="3.36">
+					<MediaRefs>
+						<MediaRef Id="588116201"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="4218817288" Type="Event" GUID="{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}" Language="SFX" Hash="{AEB7EFDF-6B3C-6132-2DA1-84AE7328C053}">
+			<ObjectPath>SFX_GPE_Launcher_Idle_lp</ObjectPath>
+			<ShortName>SFX_GPE_Launcher_Idle_lp</ShortName>
+			<Path>Event/SFX_GPE_Launcher_Idle_lp.bnk</Path>
+			<Media>
+				<File Id="257206005" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_GPE\SFX_GPE_Launcher_Idle_lp.wav</ShortName>
+					<Path>Media/257206005.wem</Path>
+					<CachePath>SFX/SFX/SFX_GPE/SFX_GPE_Launcher_Idle_lp_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4218817288" Name="SFX_GPE_Launcher_Idle_lp" ObjectPath="\Events\SFX\SFX_GPE\SFX_GPE_Launcher_Idle_lp" GUID="{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}" MaxAttenuation="1500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="257206005"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D6F43BD1-CAFB-024C-E258-39C794918FB4}</FileHash>
+	<FileHash>{DEDE596E-EB10-D44A-3087-09C309CAB55D}</FileHash>
 </SoundBanksInfo>

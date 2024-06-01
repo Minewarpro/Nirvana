@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2464802036",
+    "Type": "Event",
+    "GUID": "{86D6C5E3-800A-43F2-A8CB-54CD2A88859C}",
+    "Language": "English(US)",
+    "Hash": "{AAE96962-A19D-D066-C356-AEF40981F2E7}",
+    "ObjectPath": "VO_Diana_Story_05",
+    "ShortName": "VO_Diana_Story_05",
+    "Path": "Event/English(US)/VO_Diana_Story_05.bnk",
+    "Media": [
+     {
+      "Id": "1013132227",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Diana_Story\\VO_Diana_Story_05.wav",
+      "Path": "Media/English(US)/1013132227.wem",
+      "CachePath": "Voices/English(US)/VO_Diana_Story/VO_Diana_Story_05_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2464802036",
+      "Name": "VO_Diana_Story_05",
+      "ObjectPath": "\\Events\\VO\\VO_Diana_Story\\VO_Diana_Story_05",
+      "GUID": "{86D6C5E3-800A-43F2-A8CB-54CD2A88859C}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1066666",
+      "DurationMax": "2.1066666",
+      "MediaRefs": [
+       {
+        "Id": "1013132227"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D8AC9CBC-1FB4-166C-BECC-6A8E96E8A72D}"
+ }
+}

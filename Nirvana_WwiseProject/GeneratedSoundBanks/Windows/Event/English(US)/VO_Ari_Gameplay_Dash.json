@@ -1,0 +1,84 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2406365109",
+    "Type": "Event",
+    "GUID": "{ACFFF3E4-A3B9-4946-A9C5-26B8823F3F7F}",
+    "Language": "English(US)",
+    "Hash": "{1E7575CF-5310-5DAD-1FF5-D7A2FC86CFD9}",
+    "ObjectPath": "VO_Ari_Gameplay_Dash",
+    "ShortName": "VO_Ari_Gameplay_Dash",
+    "Path": "Event/English(US)/VO_Ari_Gameplay_Dash.bnk",
+    "Media": [
+     {
+      "Id": "112665800",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Dash\\VO_Ari_Gameplay_Dash_04.wav",
+      "Path": "Media/English(US)/112665800.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_04_818F3B66.wem"
+     },
+     {
+      "Id": "183278750",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Dash\\VO_Ari_Gameplay_Dash_02.wav",
+      "Path": "Media/English(US)/183278750.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_02_818F3B66.wem"
+     },
+     {
+      "Id": "270131646",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Dash\\VO_Ari_Gameplay_Dash_03.wav",
+      "Path": "Media/English(US)/270131646.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_03_818F3B66.wem"
+     },
+     {
+      "Id": "559143653",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Dash\\VO_Ari_Gameplay_Dash_01.wav",
+      "Path": "Media/English(US)/559143653.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2406365109",
+      "Name": "VO_Ari_Gameplay_Dash",
+      "ObjectPath": "\\Events\\VO\\VO_Ari_Gameplay\\VO_Ari_Gameplay_Dash",
+      "GUID": "{ACFFF3E4-A3B9-4946-A9C5-26B8823F3F7F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.30666667",
+      "DurationMax": "0.44",
+      "MediaRefs": [
+       {
+        "Id": "112665800"
+       },
+       {
+        "Id": "183278750"
+       },
+       {
+        "Id": "270131646"
+       },
+       {
+        "Id": "559143653"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7C102ABD-9533-69E2-840B-BE28910A5E01}"
+ }
+}

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1621795231	VO_ENMSwarmer_Death			\VO\VO_ENMSwarmer_Death	
+

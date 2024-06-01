@@ -1,0 +1,108 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2999750269",
+    "Type": "Event",
+    "GUID": "{7F6F206A-239F-4FC3-A2D7-297A24FCF483}",
+    "Language": "English(US)",
+    "Hash": "{A22042DF-597B-7202-A69F-081F189B2713}",
+    "ObjectPath": "VO_Ari_Gameplay_Death",
+    "ShortName": "VO_Ari_Gameplay_Death",
+    "Path": "Event/English(US)/VO_Ari_Gameplay_Death.bnk",
+    "Media": [
+     {
+      "Id": "124313777",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Death\\VO_Ari_Gameplay_Death_04.wav",
+      "Path": "Media/English(US)/124313777.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_04_818F3B66.wem"
+     },
+     {
+      "Id": "344258897",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Death\\VO_Ari_Gameplay_Death_02.wav",
+      "Path": "Media/English(US)/344258897.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_02_818F3B66.wem"
+     },
+     {
+      "Id": "554230171",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Death\\VO_Ari_Gameplay_Death_05.wav",
+      "Path": "Media/English(US)/554230171.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_05_818F3B66.wem"
+     },
+     {
+      "Id": "556237807",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Death\\VO_Ari_Gameplay_Death_01.wav",
+      "Path": "Media/English(US)/556237807.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_01_818F3B66.wem"
+     },
+     {
+      "Id": "573120549",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Death\\VO_Ari_Gameplay_Death_03.wav",
+      "Path": "Media/English(US)/573120549.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_03_818F3B66.wem"
+     },
+     {
+      "Id": "861775547",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Death\\VO_Ari_Gameplay_Death_06.wav",
+      "Path": "Media/English(US)/861775547.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_06_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2999750269",
+      "Name": "VO_Ari_Gameplay_Death",
+      "ObjectPath": "\\Events\\VO\\VO_Ari_Gameplay\\VO_Ari_Gameplay_Death",
+      "GUID": "{7F6F206A-239F-4FC3-A2D7-297A24FCF483}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.08",
+      "DurationMax": "3.2933333",
+      "MediaRefs": [
+       {
+        "Id": "124313777"
+       },
+       {
+        "Id": "344258897"
+       },
+       {
+        "Id": "554230171"
+       },
+       {
+        "Id": "556237807"
+       },
+       {
+        "Id": "573120549"
+       },
+       {
+        "Id": "861775547"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C510A494-1126-810F-76B4-011F2F95A42E}"
+ }
+}

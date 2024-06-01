@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}",
     "Language": "SFX",
-    "Hash": "{8CDEDFF4-633E-DC00-F838-C2C8BFFEF5C9}",
+    "Hash": "{5286791E-3D19-FEB1-C27D-A21A64376572}",
     "ObjectPath": "UI_Menu_Select",
     "ShortName": "UI_Menu_Select",
     "Path": "Event/UI_Menu_Select.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{7B5BF676-CAAE-3EB0-EECE-9C58689A881E}"
+  "FileHash": "{DEF8E55F-FC62-161E-C515-5AC4F9C8F64C}"
  }
 }

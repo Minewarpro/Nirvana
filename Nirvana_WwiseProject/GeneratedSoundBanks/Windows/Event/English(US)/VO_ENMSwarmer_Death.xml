@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1621795231" Type="Event" GUID="{204211B5-C26C-48ED-B0C4-A5EB27971367}" Language="English(US)" Hash="{F7769A60-C771-4ABC-524F-6EF7695ABA63}">
+			<ObjectPath>VO_ENMSwarmer_Death</ObjectPath>
+			<ShortName>VO_ENMSwarmer_Death</ShortName>
+			<Path>Event/English(US)/VO_ENMSwarmer_Death.bnk</Path>
+			<Media>
+				<File Id="254129431" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMSwarmer_Death\VO_ENMSwarmer_Death_04.wav</ShortName>
+					<Path>Media/English(US)/254129431.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMSwarmer_Death/VO_ENMSwarmer_Death_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="563268747" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMSwarmer_Death\VO_ENMSwarmer_Death_01.wav</ShortName>
+					<Path>Media/English(US)/563268747.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMSwarmer_Death/VO_ENMSwarmer_Death_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="666561006" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMSwarmer_Death\VO_ENMSwarmer_Death_02.wav</ShortName>
+					<Path>Media/English(US)/666561006.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMSwarmer_Death/VO_ENMSwarmer_Death_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="946249037" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMSwarmer_Death\VO_ENMSwarmer_Death_03.wav</ShortName>
+					<Path>Media/English(US)/946249037.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMSwarmer_Death/VO_ENMSwarmer_Death_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1621795231" Name="VO_ENMSwarmer_Death" ObjectPath="\Events\VO\VO_ENMSwarmer_Death" GUID="{204211B5-C26C-48ED-B0C4-A5EB27971367}" DurationType="OneShot" DurationMin="1.48" DurationMax="4.266667">
+					<MediaRefs>
+						<MediaRef Id="254129431"/>
+						<MediaRef Id="563268747"/>
+						<MediaRef Id="666561006"/>
+						<MediaRef Id="946249037"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FB3C2D6F-2ED8-ABB6-390E-AC865A2AE3B9}</FileHash>
+</SoundBanksInfo>

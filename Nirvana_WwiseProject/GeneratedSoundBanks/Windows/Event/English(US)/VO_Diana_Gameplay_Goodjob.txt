@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1314837374	VO_Diana_Gameplay_Goodjob			\VO\VO_Diana_Gameplay\VO_Diana_Gameplay_Goodjob	
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3233041211" Type="Event" GUID="{43402A1C-6C1A-4646-BB60-8E1109F8D0F6}" Language="English(US)" Hash="{0C82C696-6E80-9083-ADF8-AC26BB738F56}">
+			<ObjectPath>VO_Simon_Gameplay_Goodjob</ObjectPath>
+			<ShortName>VO_Simon_Gameplay_Goodjob</ShortName>
+			<Path>Event/English(US)/VO_Simon_Gameplay_Goodjob.bnk</Path>
+			<Media>
+				<File Id="217444436" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Gameplay\VO_Simon_Gameplay_Goodjob.wav</ShortName>
+					<Path>Media/English(US)/217444436.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_Goodjob_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3233041211" Name="VO_Simon_Gameplay_Goodjob" ObjectPath="\Events\VO\VO_Simon_Gameplay\VO_Simon_Gameplay_Goodjob" GUID="{43402A1C-6C1A-4646-BB60-8E1109F8D0F6}" DurationType="OneShot" DurationMin="0.70666665" DurationMax="0.70666665">
+					<MediaRefs>
+						<MediaRef Id="217444436"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{23369DB9-B7E6-DA89-B733-865D30A4328B}</FileHash>
+</SoundBanksInfo>

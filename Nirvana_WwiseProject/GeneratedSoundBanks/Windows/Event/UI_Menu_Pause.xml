@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3237189652" Type="Event" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" Language="SFX" Hash="{71C76C6D-DCD8-37C1-B8E2-CB07F3F82973}">
+		<SoundBank Id="3237189652" Type="Event" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" Language="SFX" Hash="{D76EC39B-3E37-8396-AB69-00E966D6458F}">
 			<ObjectPath>UI_Menu_Pause</ObjectPath>
 			<ShortName>UI_Menu_Pause</ShortName>
 			<Path>Event/UI_Menu_Pause.bnk</Path>
@@ -35,9 +35,21 @@
 						<MediaRef Id="373475764"/>
 						<MediaRef Id="597279884"/>
 					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="4078696085" Id="3640095552" Name="ST_Game_InMenu" ObjectPath="\States\ST_Persistent\ST_Game\ST_Game_InMenu" GUID="{CBADC631-6FAE-4AA9-A719-D83BE67BF4C4}"/>
+					</ActionSetState>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="4078696085" Name="ST_Game" ObjectPath="\States\ST_Persistent\ST_Game" GUID="{C2AFF852-6A2D-42B0-B06B-6CF588CE17D6}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\ST_Persistent\ST_Game\None" GUID="{2EF11E60-4DB1-49AF-83CD-F5C803E1FD88}"/>
+						<State Id="1745364551" Name="ST_Game_Ingame" ObjectPath="\States\ST_Persistent\ST_Game\ST_Game_Ingame" GUID="{2B772789-F7D4-4DA6-B872-245923DBF8F4}"/>
+						<State Id="3640095552" Name="ST_Game_InMenu" ObjectPath="\States\ST_Persistent\ST_Game\ST_Game_InMenu" GUID="{CBADC631-6FAE-4AA9-A719-D83BE67BF4C4}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C041275E-4812-51B4-94E6-CA2B3994EC38}</FileHash>
+	<FileHash>{19572C6D-1936-706E-485D-79E92FD216DD}</FileHash>
 </SoundBanksInfo>

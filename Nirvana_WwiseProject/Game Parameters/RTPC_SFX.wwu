@@ -6,6 +6,15 @@
 				<Property Name="Color" Type="int16" Value="13"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<GameParameter Name="RTPC_SFX_MC_Weapon_Meter" ID="{86852467-6F73-4A7D-A970-056FB33188A5}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-96"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

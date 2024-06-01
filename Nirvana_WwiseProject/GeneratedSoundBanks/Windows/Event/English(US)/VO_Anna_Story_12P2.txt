@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2243524693	VO_Anna_Story_12P2			\VO\VO_Anna_Story\VO_Anna_Story_12P2	
+

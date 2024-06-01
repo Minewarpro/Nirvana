@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3657978876" Type="Event" GUID="{BC674A9A-5D48-432D-B273-1E20B1297535}" Language="English(US)" Hash="{1251C67B-F585-9EFB-4C9A-C191472EB290}">
+			<ObjectPath>VO_Ari_Gameplay_Run</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Run</ShortName>
+			<Path>Event/English(US)/VO_Ari_Gameplay_Run.bnk</Path>
+			<Media>
+				<File Id="228510137" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Run\VO_Ari_Gameplay_Run_01.wav</ShortName>
+					<Path>Media/English(US)/228510137.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Run/VO_Ari_Gameplay_Run_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="242019517" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Run\VO_Ari_Gameplay_Run_03.wav</ShortName>
+					<Path>Media/English(US)/242019517.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Run/VO_Ari_Gameplay_Run_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="854199384" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Run\VO_Ari_Gameplay_Run_04.wav</ShortName>
+					<Path>Media/English(US)/854199384.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Run/VO_Ari_Gameplay_Run_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="932320871" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Run\VO_Ari_Gameplay_Run_02.wav</ShortName>
+					<Path>Media/English(US)/932320871.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Run/VO_Ari_Gameplay_Run_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3657978876" Name="VO_Ari_Gameplay_Run" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Run" GUID="{BC674A9A-5D48-432D-B273-1E20B1297535}" DurationType="OneShot" DurationMin="2.7066667" DurationMax="8.906667">
+					<MediaRefs>
+						<MediaRef Id="228510137"/>
+						<MediaRef Id="242019517"/>
+						<MediaRef Id="854199384"/>
+						<MediaRef Id="932320871"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1EEEC4EC-70B4-6B36-B8CD-313AD08B2E8F}</FileHash>
+</SoundBanksInfo>

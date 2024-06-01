@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	148639171	SFX_MC_Weapon_Chakrams_OverheatBegin			\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatBegin	
+

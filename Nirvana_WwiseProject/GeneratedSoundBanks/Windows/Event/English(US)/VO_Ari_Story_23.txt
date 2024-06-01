@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3961206521	VO_Ari_Story_23			\VO\VO_Ari_Story\VO_Ari_Story_23	
+

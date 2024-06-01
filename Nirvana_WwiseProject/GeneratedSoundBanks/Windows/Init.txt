@@ -1,13 +1,11 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1695734195	ST_MC			\ST_Persistent\ST_MC	
-	3299795555	ST_Lvl			\ST_Persistent\ST_Lvl	
 	4078696085	ST_Game			\ST_Persistent\ST_Game	
 
 State	ID	Name	State Group			Notes
 	712849048	ST_MC_Dead	ST_MC			
 	748895195	None	ST_MC			
-	1915373357	ST_CM_Alive	ST_MC			
-	748895195	None	ST_Lvl			
+	3907738249	ST_MC_Alive	ST_MC			
 	748895195	None	ST_Game			
 	1745364551	ST_Game_Ingame	ST_Game			
 	3640095552	ST_Game_InMenu	ST_Game			

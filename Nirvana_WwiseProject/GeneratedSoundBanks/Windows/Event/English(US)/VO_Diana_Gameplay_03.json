@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1392877437",
+    "Type": "Event",
+    "GUID": "{7E3AA543-270E-444C-865B-4BA81F6A5800}",
+    "Language": "English(US)",
+    "Hash": "{FDCC8D12-EC73-11CB-A1DD-0181ED2EC7EB}",
+    "ObjectPath": "VO_Diana_Gameplay_03",
+    "ShortName": "VO_Diana_Gameplay_03",
+    "Path": "Event/English(US)/VO_Diana_Gameplay_03.bnk",
+    "Media": [
+     {
+      "Id": "973471863",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Diana_Gameplay\\VO_Diana_Gameplay_03.wav",
+      "Path": "Media/English(US)/973471863.wem",
+      "CachePath": "Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1392877437",
+      "Name": "VO_Diana_Gameplay_03",
+      "ObjectPath": "\\Events\\VO\\VO_Diana_Gameplay\\VO_Diana_Gameplay_03",
+      "GUID": "{7E3AA543-270E-444C-865B-4BA81F6A5800}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6133333",
+      "DurationMax": "1.6133333",
+      "MediaRefs": [
+       {
+        "Id": "973471863"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C9308AE8-5AC8-CDA0-4A6E-E770FC54D9FE}"
+ }
+}

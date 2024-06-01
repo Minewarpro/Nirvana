@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1121555166" Type="Event" GUID="{D2A3E3E0-CFD4-468F-AEBE-8312EEF048CE}" Language="English(US)" Hash="{B52B1BEE-8CF7-69E2-3FB6-18618B3F423E}">
+			<ObjectPath>VO_Ari_Gameplay_Hurt</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Hurt</ShortName>
+			<Path>Event/English(US)/VO_Ari_Gameplay_Hurt.bnk</Path>
+			<Media>
+				<File Id="59693309" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_03.wav</ShortName>
+					<Path>Media/English(US)/59693309.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="71444088" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_07.wav</ShortName>
+					<Path>Media/English(US)/71444088.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="256735463" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_05.wav</ShortName>
+					<Path>Media/English(US)/256735463.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="323284250" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_01.wav</ShortName>
+					<Path>Media/English(US)/323284250.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="328077789" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_06.wav</ShortName>
+					<Path>Media/English(US)/328077789.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="390295673" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_04.wav</ShortName>
+					<Path>Media/English(US)/390295673.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="861316731" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_02.wav</ShortName>
+					<Path>Media/English(US)/861316731.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1121555166" Name="VO_Ari_Gameplay_Hurt" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt" GUID="{D2A3E3E0-CFD4-468F-AEBE-8312EEF048CE}" DurationType="OneShot" DurationMin="0.48" DurationMax="1.4">
+					<MediaRefs>
+						<MediaRef Id="59693309"/>
+						<MediaRef Id="71444088"/>
+						<MediaRef Id="256735463"/>
+						<MediaRef Id="323284250"/>
+						<MediaRef Id="328077789"/>
+						<MediaRef Id="390295673"/>
+						<MediaRef Id="861316731"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6D52F013-724B-D848-824E-1A456723E712}</FileHash>
+</SoundBanksInfo>

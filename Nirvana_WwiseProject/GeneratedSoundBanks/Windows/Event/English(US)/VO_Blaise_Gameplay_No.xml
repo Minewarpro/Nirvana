@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1532872020" Type="Event" GUID="{073692BA-1D60-4760-82EF-D426063131AB}" Language="English(US)" Hash="{563625B1-94E7-BA85-47BF-AA7EC10CFAE7}">
+			<ObjectPath>VO_Blaise_Gameplay_No</ObjectPath>
+			<ShortName>VO_Blaise_Gameplay_No</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Gameplay_No.bnk</Path>
+			<Media>
+				<File Id="302846517" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Gameplay\VO_Blaise_Gameplay_No\VO_Blaise_Gameplay_No_02.wav</ShortName>
+					<Path>Media/English(US)/302846517.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_No/VO_Blaise_Gameplay_No_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="856857197" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Gameplay\VO_Blaise_Gameplay_No\VO_Blaise_Gameplay_No_01.wav</ShortName>
+					<Path>Media/English(US)/856857197.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Gameplay/VO_Blaise_Gameplay_No/VO_Blaise_Gameplay_No_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1532872020" Name="VO_Blaise_Gameplay_No" ObjectPath="\Events\VO\VO_Blaise_Gameplay\VO_Blaise_Gameplay_No" GUID="{073692BA-1D60-4760-82EF-D426063131AB}" DurationType="OneShot" DurationMin="1.24" DurationMax="1.5333333">
+					<MediaRefs>
+						<MediaRef Id="302846517"/>
+						<MediaRef Id="856857197"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7EA66216-BC2C-4156-C48F-701DF14BA22C}</FileHash>
+</SoundBanksInfo>

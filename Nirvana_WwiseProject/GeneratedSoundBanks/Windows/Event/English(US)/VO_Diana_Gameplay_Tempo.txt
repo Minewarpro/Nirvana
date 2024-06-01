@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2964851327	VO_Diana_Gameplay_Tempo			\VO\VO_Diana_Gameplay\VO_Diana_Gameplay_Tempo	
+

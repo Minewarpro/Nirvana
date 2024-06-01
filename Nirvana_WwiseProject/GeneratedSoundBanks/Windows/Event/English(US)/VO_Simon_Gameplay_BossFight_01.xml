@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1719829414" Type="Event" GUID="{F20155FC-04FC-451A-9B69-8109CB392C2F}" Language="English(US)" Hash="{9ADE9E31-E66F-AF7C-0AE8-2E190E3D4419}">
+			<ObjectPath>VO_Simon_Gameplay_BossFight_01</ObjectPath>
+			<ShortName>VO_Simon_Gameplay_BossFight_01</ShortName>
+			<Path>Event/English(US)/VO_Simon_Gameplay_BossFight_01.bnk</Path>
+			<Media>
+				<File Id="658940300" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Gameplay\VO_Simon_Gameplay_BossFight_01.wav</ShortName>
+					<Path>Media/English(US)/658940300.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Gameplay/VO_Simon_Gameplay_BossFight_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1719829414" Name="VO_Simon_Gameplay_BossFight_01" ObjectPath="\Events\VO\VO_Simon_Gameplay\VO_Simon_Gameplay_BossFight_01" GUID="{F20155FC-04FC-451A-9B69-8109CB392C2F}" DurationType="OneShot" DurationMin="1.3466667" DurationMax="1.3466667">
+					<MediaRefs>
+						<MediaRef Id="658940300"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F9AB338F-9005-0942-ED0C-764428B17490}</FileHash>
+</SoundBanksInfo>

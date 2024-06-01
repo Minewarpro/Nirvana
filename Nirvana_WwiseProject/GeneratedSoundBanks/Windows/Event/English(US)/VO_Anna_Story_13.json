@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "668009790",
+    "Type": "Event",
+    "GUID": "{6E237887-D345-43C5-8BA0-37FAAB0B413D}",
+    "Language": "English(US)",
+    "Hash": "{921BE9D7-020D-0F5F-9DCD-73ACDAE51C68}",
+    "ObjectPath": "VO_Anna_Story_13",
+    "ShortName": "VO_Anna_Story_13",
+    "Path": "Event/English(US)/VO_Anna_Story_13.bnk",
+    "Media": [
+     {
+      "Id": "997204092",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Anna_Story\\VO_Anna_Story_13.wav",
+      "Path": "Media/English(US)/997204092.wem",
+      "CachePath": "Voices/English(US)/VO_Anna_Story/VO_Anna_Story_13_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "668009790",
+      "Name": "VO_Anna_Story_13",
+      "ObjectPath": "\\Events\\VO\\VO_Anna_Story\\VO_Anna_Story_13",
+      "GUID": "{6E237887-D345-43C5-8BA0-37FAAB0B413D}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.64",
+      "DurationMax": "4.64",
+      "MediaRefs": [
+       {
+        "Id": "997204092"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{37934B8C-6359-3561-C450-B0191D01C4FE}"
+ }
+}

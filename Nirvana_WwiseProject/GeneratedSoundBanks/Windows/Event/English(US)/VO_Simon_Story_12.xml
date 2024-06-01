@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="436445009" Type="Event" GUID="{9D57E4FD-6AAF-4062-9E4B-581910E82D25}" Language="English(US)" Hash="{0D7C13E9-1824-20E8-ED59-8B42A9ACB930}">
+			<ObjectPath>VO_Simon_Story_12</ObjectPath>
+			<ShortName>VO_Simon_Story_12</ShortName>
+			<Path>Event/English(US)/VO_Simon_Story_12.bnk</Path>
+			<Media>
+				<File Id="369300724" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Simon_Story\VO_Simon_Story_12.wav</ShortName>
+					<Path>Media/English(US)/369300724.wem</Path>
+					<CachePath>Voices/English(US)/VO_Simon_Story/VO_Simon_Story_12_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="436445009" Name="VO_Simon_Story_12" ObjectPath="\Events\VO\VO_Simon_Story\VO_Simon_Story_12" GUID="{9D57E4FD-6AAF-4062-9E4B-581910E82D25}" DurationType="OneShot" DurationMin="1.0933334" DurationMax="1.0933334">
+					<MediaRefs>
+						<MediaRef Id="369300724"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{174DBDD7-45A3-D202-25FD-9F1F5EF07812}</FileHash>
+</SoundBanksInfo>

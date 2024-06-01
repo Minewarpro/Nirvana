@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="166528138" Type="Event" GUID="{2FBCB51F-CAFE-4004-A115-FA265B2B4ACB}" Language="English(US)" Hash="{1CFAB27A-88A6-2726-0CE2-14DD78291F04}">
+			<ObjectPath>VO_Blaise_Story_02</ObjectPath>
+			<ShortName>VO_Blaise_Story_02</ShortName>
+			<Path>Event/English(US)/VO_Blaise_Story_02.bnk</Path>
+			<Media>
+				<File Id="1061119242" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Blaise_Story\VO_Blaise_Story_02.wav</ShortName>
+					<Path>Media/English(US)/1061119242.wem</Path>
+					<CachePath>Voices/English(US)/VO_Blaise_Story/VO_Blaise_Story_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="166528138" Name="VO_Blaise_Story_02" ObjectPath="\Events\VO\VO_Blaise_Story\VO_Blaise_Story_02" GUID="{2FBCB51F-CAFE-4004-A115-FA265B2B4ACB}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="1061119242"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BA800CD7-775F-B2C2-4283-5F4DBE343357}</FileHash>
+</SoundBanksInfo>

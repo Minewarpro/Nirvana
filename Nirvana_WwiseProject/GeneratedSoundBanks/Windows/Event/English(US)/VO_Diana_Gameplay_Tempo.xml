@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2964851327" Type="Event" GUID="{9684AF37-3F6A-4B58-8C70-3CE6AA0D99FD}" Language="English(US)" Hash="{5E097493-935A-40DE-93E9-2A576783D734}">
+			<ObjectPath>VO_Diana_Gameplay_Tempo</ObjectPath>
+			<ShortName>VO_Diana_Gameplay_Tempo</ShortName>
+			<Path>Event/English(US)/VO_Diana_Gameplay_Tempo.bnk</Path>
+			<Media>
+				<File Id="409669438" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Tempo\VO_Diana_Gameplay_Tempo_01.wav</ShortName>
+					<Path>Media/English(US)/409669438.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Tempo/VO_Diana_Gameplay_Tempo_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="849211102" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Tempo\VO_Diana_Gameplay_Tempo_03.wav</ShortName>
+					<Path>Media/English(US)/849211102.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Tempo/VO_Diana_Gameplay_Tempo_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1054848459" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Diana_Gameplay\VO_Diana_Gameplay_Tempo\VO_Diana_Gameplay_Tempo_02.wav</ShortName>
+					<Path>Media/English(US)/1054848459.wem</Path>
+					<CachePath>Voices/English(US)/VO_Diana_Gameplay/VO_Diana_Gameplay_Tempo/VO_Diana_Gameplay_Tempo_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2964851327" Name="VO_Diana_Gameplay_Tempo" ObjectPath="\Events\VO\VO_Diana_Gameplay\VO_Diana_Gameplay_Tempo" GUID="{9684AF37-3F6A-4B58-8C70-3CE6AA0D99FD}" DurationType="OneShot" DurationMin="1.28" DurationMax="1.64">
+					<MediaRefs>
+						<MediaRef Id="409669438"/>
+						<MediaRef Id="849211102"/>
+						<MediaRef Id="1054848459"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4DE1DF97-A676-4DAB-4767-0DCC1BC04C3D}</FileHash>
+</SoundBanksInfo>

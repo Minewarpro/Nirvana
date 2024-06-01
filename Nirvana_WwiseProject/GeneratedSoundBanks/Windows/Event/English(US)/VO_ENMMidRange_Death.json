@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1559084621",
+    "Type": "Event",
+    "GUID": "{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}",
+    "Language": "English(US)",
+    "Hash": "{3E762B43-AF6C-B3C1-ED70-FD1C1FC27DEA}",
+    "ObjectPath": "VO_ENMMidRange_Death",
+    "ShortName": "VO_ENMMidRange_Death",
+    "Path": "Event/English(US)/VO_ENMMidRange_Death.bnk",
+    "Media": [
+     {
+      "Id": "85311797",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_ENMMidRange_Death\\VO_ENMMidRange_Death_01.wav",
+      "Path": "Media/English(US)/85311797.wem",
+      "CachePath": "Voices/English(US)/VO_ENMMidRange_Death/VO_ENMMidRange_Death_01_818F3B66.wem"
+     },
+     {
+      "Id": "410365708",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_ENMMidRange_Death\\VO_ENMMidRange_Death_02.wav",
+      "Path": "Media/English(US)/410365708.wem",
+      "CachePath": "Voices/English(US)/VO_ENMMidRange_Death/VO_ENMMidRange_Death_02_818F3B66.wem"
+     },
+     {
+      "Id": "892702063",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_ENMMidRange_Death\\VO_ENMMidRange_Death_03.wav",
+      "Path": "Media/English(US)/892702063.wem",
+      "CachePath": "Voices/English(US)/VO_ENMMidRange_Death/VO_ENMMidRange_Death_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1559084621",
+      "Name": "VO_ENMMidRange_Death",
+      "ObjectPath": "\\Events\\VO\\VO_ENMMidRange_Death",
+      "GUID": "{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2666667",
+      "DurationMax": "2.2666667",
+      "MediaRefs": [
+       {
+        "Id": "85311797"
+       },
+       {
+        "Id": "410365708"
+       },
+       {
+        "Id": "892702063"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{ED522F9B-ED91-DAB8-FC41-7ABA5E386C2B}"
+ }
+}

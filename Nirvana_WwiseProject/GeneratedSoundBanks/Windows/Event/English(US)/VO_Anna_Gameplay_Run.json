@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3959138290",
+    "Type": "Event",
+    "GUID": "{D2FD929D-599B-43AB-AA67-7E9B443C1410}",
+    "Language": "English(US)",
+    "Hash": "{5CBAB1DE-B7C8-6D25-AD45-0B5A842C83B6}",
+    "ObjectPath": "VO_Anna_Gameplay_Run",
+    "ShortName": "VO_Anna_Gameplay_Run",
+    "Path": "Event/English(US)/VO_Anna_Gameplay_Run.bnk",
+    "Media": [
+     {
+      "Id": "893407386",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Anna_Gameplay\\VO_Anna_Gameplay_Run.wav",
+      "Path": "Media/English(US)/893407386.wem",
+      "CachePath": "Voices/English(US)/VO_Anna_Gameplay/VO_Anna_Gameplay_Run_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3959138290",
+      "Name": "VO_Anna_Gameplay_Run",
+      "ObjectPath": "\\Events\\VO\\VO_Anna_Gameplay\\VO_Anna_Gameplay_Run",
+      "GUID": "{D2FD929D-599B-43AB-AA67-7E9B443C1410}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.70666665",
+      "DurationMax": "0.70666665",
+      "MediaRefs": [
+       {
+        "Id": "893407386"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2764356F-88F3-8AC3-C367-C7D8F3AB77D8}"
+ }
+}

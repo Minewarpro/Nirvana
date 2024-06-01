@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1559084621" Type="Event" GUID="{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}" Language="English(US)" Hash="{3E762B43-AF6C-B3C1-ED70-FD1C1FC27DEA}">
+			<ObjectPath>VO_ENMMidRange_Death</ObjectPath>
+			<ShortName>VO_ENMMidRange_Death</ShortName>
+			<Path>Event/English(US)/VO_ENMMidRange_Death.bnk</Path>
+			<Media>
+				<File Id="85311797" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMMidRange_Death\VO_ENMMidRange_Death_01.wav</ShortName>
+					<Path>Media/English(US)/85311797.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMMidRange_Death/VO_ENMMidRange_Death_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="410365708" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMMidRange_Death\VO_ENMMidRange_Death_02.wav</ShortName>
+					<Path>Media/English(US)/410365708.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMMidRange_Death/VO_ENMMidRange_Death_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="892702063" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_ENMMidRange_Death\VO_ENMMidRange_Death_03.wav</ShortName>
+					<Path>Media/English(US)/892702063.wem</Path>
+					<CachePath>Voices/English(US)/VO_ENMMidRange_Death/VO_ENMMidRange_Death_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1559084621" Name="VO_ENMMidRange_Death" ObjectPath="\Events\VO\VO_ENMMidRange_Death" GUID="{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}" DurationType="OneShot" DurationMin="1.2666667" DurationMax="2.2666667">
+					<MediaRefs>
+						<MediaRef Id="85311797"/>
+						<MediaRef Id="410365708"/>
+						<MediaRef Id="892702063"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7DC4C72B-173D-A7DB-828D-29DB23B0A370}</FileHash>
+</SoundBanksInfo>

@@ -7,18 +7,390 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Folder Name="ENM MidRange" ID="{3651159F-CDA1-49B5-8C20-E270D4F8575A}" ShortID="907580807"/>
-				<Folder Name="ENM Swarmer" ID="{53E91BE1-4BC3-45BC-911C-57AAB791E9CD}" ShortID="932587146"/>
-				<Folder Name="GPE Door" ID="{52637C5C-2EA8-43D5-BC14-16D8953EA76D}" ShortID="494015703"/>
-				<Folder Name="GPE Mvt" ID="{CBAF9B77-DF0B-4BD8-A470-127BD68B8559}" ShortID="866235140"/>
-				<Folder Name="GPE Trap" ID="{8E47AE6B-C278-43A6-92CC-3B4F87677F85}" ShortID="537330937"/>
-				<Folder Name="MC" ID="{22A4DA4F-20F3-44B1-853F-25BFEF44BAF0}" ShortID="149179386"/>
-				<Folder Name="Weapons" ID="{285EA9CB-07C4-4755-BA0E-27F7368E957A}" ShortID="751422277">
+				<Folder Name="SFX_ENM MidRange" ID="{3651159F-CDA1-49B5-8C20-E270D4F8575A}" ShortID="907580807"/>
+				<Folder Name="SFX_ENM Swarmer" ID="{53E91BE1-4BC3-45BC-911C-57AAB791E9CD}" ShortID="932587146"/>
+				<Folder Name="SFX_GPE" ID="{52637C5C-2EA8-43D5-BC14-16D8953EA76D}" ShortID="494015703">
 					<ChildrenList>
-						<Folder Name="Chakrams" ID="{1577EF8E-BF18-4353-81DA-AE568DA97D1E}" ShortID="417422940"/>
-						<Folder Name="Vajra" ID="{29A235E1-AE69-4FE6-9D34-C289F5E40000}" ShortID="914128811"/>
+						<Event Name="SFX_GPE_Launcher_Idle_lp" ID="{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}">
+							<ChildrenList>
+								<Action Name="" ID="{49785E76-6101-42D4-8A3A-3CF5A70F3631}" ShortID="848999090">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Launcher_Idle_lp" ID="{75A93874-B9D3-4151-BDF2-E56B3713C4F4}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{936DD00E-ACDA-4C09-8E8D-6FC44A1366E0}" ShortID="932895268">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D24BC199-CBAA-4A52-B8B1-10B64C823434}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="95"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Launcher_Idle_lp" ID="{75A93874-B9D3-4151-BDF2-E56B3713C4F4}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_GPE_Launcher_Jump" ID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}">
+							<ChildrenList>
+								<Action Name="" ID="{04DBE0A7-AC25-42BA-AF10-7665AF132B2E}" ShortID="687767441">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Launcher_Jump" ID="{C3239E5E-6048-4578-950D-7FBAC3E0EB0F}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="SFX_MC_Weapon_Chakrams" ID="{1577EF8E-BF18-4353-81DA-AE568DA97D1E}" ShortID="417422940">
+					<ChildrenList>
+						<Event Name="SFX_MC_Weapon_Chakrams_HitENM" ID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}">
+							<ChildrenList>
+								<Action Name="" ID="{C4A19D59-9632-47F3-8CAE-1BFA112B4AA1}" ShortID="532693468">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Chakrams_HitENM" ID="{60C7D297-0F62-4056-9F4D-F563D5DAAC53}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Chakrams_HitSurface" ID="{E9C7E76D-C404-4781-BE73-59D9808B1208}">
+							<ChildrenList>
+								<Action Name="" ID="{3CE3F6B9-AD5A-46E1-8D87-0C0B9DD1BD0F}" ShortID="935957585">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Chakrams_HitSurface" ID="{A42D47AF-3864-43BA-8EB1-7791FAA48CDE}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Chakrams_OverheatEnd" ID="{9EAAD129-4D85-40B1-88A0-960BAC7525F8}">
+							<ChildrenList>
+								<Action Name="" ID="{A25C1A8C-659C-4B27-B627-DE317D7D956D}" ShortID="378002902">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Chakrams_OverheatEnd" ID="{0A20E3DF-F33C-451A-8547-378FABED574F}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{128B34D8-EB94-4C1B-B174-EC693DCD3792}" ShortID="274028505">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Chakrams_Overheating_lp" ID="{AA7E0936-5D60-4EDF-8C36-79D272773191}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Chakrams_SecondaryShot" ID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}">
+							<ChildrenList>
+								<Action Name="" ID="{5BFF7353-4BE7-4E74-B1A3-07ED4A004626}" ShortID="206692894">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Chakrams_SecondaryShot" ID="{4E56CCBB-C7EB-4DA9-83A2-44AE9D5E8162}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Chakrams_OverheatBegin" ID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}">
+							<ChildrenList>
+								<Action Name="" ID="{D151CD5F-1E12-439A-84E1-76F973870FEB}" ShortID="557848586">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Chakrams_OverheatBegin" ID="{9E555A81-776E-4A56-AD89-84E44FFBB1BC}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{797EAB04-CE7C-43C7-8EED-B30C43DDC978}" ShortID="275545890">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Chakrams_Overheating_lp" ID="{AA7E0936-5D60-4EDF-8C36-79D272773191}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{28B919C9-410C-45A3-A6A9-F2FC12396E4B}" ShortID="638946484">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CE70FDF0-1BC4-41B8-B36E-18F01963EBB3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="95"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Chakrams_Overheating_lp" ID="{AA7E0936-5D60-4EDF-8C36-79D272773191}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Chakrams_PrimaryShot" ID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}">
+							<ChildrenList>
+								<Action Name="" ID="{9CB1FDFD-609F-4801-84BC-41B4967FF1E9}" ShortID="887752375">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Chakrams_PrimaryShot" ID="{77F3A466-BBCE-4EBF-9712-092EC36D3374}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX_MC_Weapon_Vajra" ID="{29A235E1-AE69-4FE6-9D34-C289F5E40000}" ShortID="914128811">
+					<ChildrenList>
+						<Event Name="SFX_MC_Weapon_Vajra_OverheatBegin" ID="{DDE6B034-63CD-4F7A-8610-080095095B13}">
+							<ChildrenList>
+								<Action Name="" ID="{B9BBCFFB-F679-426D-9AFD-F6F05F029712}" ShortID="470834936">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_OverheatBegin" ID="{8166CD36-6CC7-4DAA-9102-A4386B9E578A}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8BF8A20E-73A5-413D-936D-C3815F70F41A}" ShortID="117862142">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_Overheating_lp" ID="{9012CC14-6750-4F6B-A08E-D308E45D2445}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1A1DFF8C-CF2A-44EA-8D11-6969D6873000}" ShortID="114814661">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9C456D5D-08EE-4159-977C-40C28914F987}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="95"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_Overheating_lp" ID="{9012CC14-6750-4F6B-A08E-D308E45D2445}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Vajra_HitENM" ID="{0C4EA416-1035-4CE4-9ABB-92441DDADE14}">
+							<ChildrenList>
+								<Action Name="" ID="{53A081C8-15D7-420B-83EF-F135CC9AF3F8}" ShortID="990476784">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_HitENM" ID="{85C43646-BF2A-41AB-B8FA-6CE1472080F7}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Vajra_HitSurface" ID="{18DF74F5-BA54-49B5-8F44-F1D587D056B9}">
+							<ChildrenList>
+								<Action Name="" ID="{4577173E-BEA5-4CAD-B344-FA77141AF8D4}" ShortID="1056894637">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_HitSurface" ID="{7B9CD90E-DDFD-4CA7-B637-B582DCD41F99}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Vajra_Secondary_Explosion" ID="{38E99CB2-A3A6-447C-8618-7576FA9C65DA}">
+							<ChildrenList>
+								<Action Name="" ID="{3F45C725-ADAF-46D5-BC75-2783A2CB0ECF}" ShortID="52553513">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_Secondary_Explosion" ID="{1337706F-2AF3-41C0-BE10-3A0CC93AFB53}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Vajra_Secondary_Bounce" ID="{324428D0-0193-4CA6-9B39-69E330023645}">
+							<ChildrenList>
+								<Action Name="" ID="{9FAC69E0-DC81-458C-A1C7-1F566EF9E1D8}" ShortID="894983765">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_Secondary_Bounce" ID="{93755432-30C0-4A68-997F-1628E8C36C14}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Vajra_Secondary_Lightning" ID="{5C19D422-C820-434B-94C3-0FD0A2504D4A}">
+							<ChildrenList>
+								<Action Name="" ID="{20B19CA9-396D-4160-8EC8-E94CEEE5C65E}" ShortID="973090250">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_Secondary_Lightning" ID="{589E4638-EAB9-4127-B464-E666541A3D2A}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Vajra_Secondary_Idle_lp" ID="{06631D50-D230-4F7E-B2DD-E54FEAE107B0}">
+							<ChildrenList>
+								<Action Name="" ID="{5FC30B1E-CCCE-47B7-A9B0-1B6C9C0E9179}" ShortID="476843487">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_Secondary_Idle_lp" ID="{4879219E-8213-43ED-AA3F-E48B5D6AE98E}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C1BD70B3-F187-4BCE-B2E5-FB52538E4FE8}" ShortID="801457544">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_Secondary_Idle_lp" ID="{4879219E-8213-43ED-AA3F-E48B5D6AE98E}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Vajra_Primary_Shot" ID="{7CAB1505-06EC-4601-A109-68F07B61CA2E}">
+							<ChildrenList>
+								<Action Name="" ID="{2630F0E4-75AC-4724-B80D-C07399C81955}" ShortID="1064967870">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_Primary_Shot" ID="{332A063C-8FA5-4C5A-A126-675339C06311}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Vajra_Secondary_Shot" ID="{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}">
+							<ChildrenList>
+								<Action Name="" ID="{C347B08C-1EB1-4122-920B-1E95A6DD4404}" ShortID="414621112">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_Secondary_Shot" ID="{92C23DBA-5118-4F2F-8722-14C5D795C48D}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_MC_Weapon_Vajra_OverheatEnd" ID="{7D3EEC05-0047-48DF-BCDE-990B193F2B13}">
+							<ChildrenList>
+								<Action Name="" ID="{C3B9840F-BBEA-456A-A170-6DC5FB674245}" ShortID="999545586">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_OverheatEnd" ID="{EE06B07B-7278-45E1-9240-58E30B615CC8}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B4200B33-CB7E-4723-841F-631D4AA050B3}" ShortID="382410661">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_Overheating_lp" ID="{9012CC14-6750-4F6B-A08E-D308E45D2445}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="SFX_MC_HealthPick" ID="{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}">
+					<ChildrenList>
+						<Action Name="" ID="{B7C79329-D785-4AD4-8150-E40320FE41BB}" ShortID="129157608">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_HealthPick" ID="{3F7A72E9-27DF-421E-A571-DAF6CD67080A}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_MC_Weapon_Switch" ID="{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}">
+					<ChildrenList>
+						<Action Name="" ID="{ECBB1A25-10F5-4250-B3B5-73A059D2A6E9}" ShortID="118792003">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_Weapon_Switch" ID="{E323E3C8-540B-46F1-B949-672CF0038462}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_MC_Death" ID="{54FDB89F-2388-4096-8D03-014690817D75}">
+					<ChildrenList>
+						<Action Name="" ID="{7F9561BF-7862-46A8-9297-87451DC55522}" ShortID="338222039">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_Death" ID="{FA1151EA-BC3D-4225-AAF1-D424BB402182}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_MC_TakeDamage" ID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}">
+					<ChildrenList>
+						<Action Name="" ID="{68E9930B-C9A8-4F0E-B5ED-0CE1C0C736F6}" ShortID="169281680">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_TakeDamage" ID="{09F15E97-08FE-4EF9-B32B-32867E777887}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
