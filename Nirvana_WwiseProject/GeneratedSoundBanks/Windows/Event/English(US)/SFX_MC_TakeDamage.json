@@ -1,0 +1,192 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4227750726",
+    "Type": "Event",
+    "GUID": "{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}",
+    "Language": "English(US)",
+    "Hash": "{E855BA94-F59E-170D-740E-92FF32049EF4}",
+    "ObjectPath": "SFX_MC_TakeDamage",
+    "ShortName": "SFX_MC_TakeDamage",
+    "Path": "Event/English(US)/SFX_MC_TakeDamage.bnk",
+    "Media": [
+     {
+      "Id": "59693309",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Hurt\\VO_Ari_Gameplay_Hurt_03.wav",
+      "Path": "Media/English(US)/59693309.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_03_818F3B66.wem"
+     },
+     {
+      "Id": "71444088",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Hurt\\VO_Ari_Gameplay_Hurt_07.wav",
+      "Path": "Media/English(US)/71444088.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_07_818F3B66.wem"
+     },
+     {
+      "Id": "256735463",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Hurt\\VO_Ari_Gameplay_Hurt_05.wav",
+      "Path": "Media/English(US)/256735463.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_05_818F3B66.wem"
+     },
+     {
+      "Id": "321803169",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_TakeDamage\\SFX_MC_TakeDamage_01.wav",
+      "Path": "Media/321803169.wem",
+      "CachePath": "SFX/SFX/SFX_MC_TakeDamage/SFX_MC_TakeDamage_01_818F3B66.wem"
+     },
+     {
+      "Id": "323284250",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Hurt\\VO_Ari_Gameplay_Hurt_01.wav",
+      "Path": "Media/English(US)/323284250.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_01_818F3B66.wem"
+     },
+     {
+      "Id": "328077789",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Hurt\\VO_Ari_Gameplay_Hurt_06.wav",
+      "Path": "Media/English(US)/328077789.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_06_818F3B66.wem"
+     },
+     {
+      "Id": "350676194",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_TakeDamage\\SFX_MC_TakeDamage_03.wav",
+      "Path": "Media/350676194.wem",
+      "CachePath": "SFX/SFX/SFX_MC_TakeDamage/SFX_MC_TakeDamage_03_818F3B66.wem"
+     },
+     {
+      "Id": "390295673",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Hurt\\VO_Ari_Gameplay_Hurt_04.wav",
+      "Path": "Media/English(US)/390295673.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_04_818F3B66.wem"
+     },
+     {
+      "Id": "568341496",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_TakeDamage\\SFX_MC_TakeDamage_05.wav",
+      "Path": "Media/568341496.wem",
+      "CachePath": "SFX/SFX/SFX_MC_TakeDamage/SFX_MC_TakeDamage_05_818F3B66.wem"
+     },
+     {
+      "Id": "796631547",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_TakeDamage\\SFX_MC_TakeDamage_02.wav",
+      "Path": "Media/796631547.wem",
+      "CachePath": "SFX/SFX/SFX_MC_TakeDamage/SFX_MC_TakeDamage_02_818F3B66.wem"
+     },
+     {
+      "Id": "814216493",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_TakeDamage\\SFX_MC_TakeDamage_04.wav",
+      "Path": "Media/814216493.wem",
+      "CachePath": "SFX/SFX/SFX_MC_TakeDamage/SFX_MC_TakeDamage_04_818F3B66.wem"
+     },
+     {
+      "Id": "861316731",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Hurt\\VO_Ari_Gameplay_Hurt_02.wav",
+      "Path": "Media/English(US)/861316731.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_02_818F3B66.wem"
+     },
+     {
+      "Id": "1007924528",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_TakeDamage\\SFX_MC_TakeDamage_06.wav",
+      "Path": "Media/1007924528.wem",
+      "CachePath": "SFX/SFX/SFX_MC_TakeDamage/SFX_MC_TakeDamage_06_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4227750726",
+      "Name": "SFX_MC_TakeDamage",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_TakeDamage",
+      "GUID": "{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.48",
+      "DurationMax": "1.4",
+      "MediaRefs": [
+       {
+        "Id": "59693309"
+       },
+       {
+        "Id": "71444088"
+       },
+       {
+        "Id": "256735463"
+       },
+       {
+        "Id": "321803169"
+       },
+       {
+        "Id": "323284250"
+       },
+       {
+        "Id": "328077789"
+       },
+       {
+        "Id": "350676194"
+       },
+       {
+        "Id": "390295673"
+       },
+       {
+        "Id": "568341496"
+       },
+       {
+        "Id": "796631547"
+       },
+       {
+        "Id": "814216493"
+       },
+       {
+        "Id": "861316731"
+       },
+       {
+        "Id": "1007924528"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F173125B-D3AB-BC84-8C97-D2101680932F}"
+ }
+}

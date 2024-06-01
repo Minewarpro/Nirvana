@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4227750726	SFX_MC_TakeDamage			\SFX\SFX_MC_TakeDamage	
+

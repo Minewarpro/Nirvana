@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2E23B7D3-0559-4F9D-A9E2-D5D293BEB4A9}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{2E23B7D3-0559-4F9D-A9E2-D5D293BEB4A9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2E23B7D3-0559-4F9D-A9E2-D5D293BEB4A9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="VO_Ari_Gameplay_Death_01" ID="{56C3B3D0-8F35-4419-8507-E6ED5C9A9877}"/>
+				<Event Name="VO_Ari_Gameplay_Hurt_01" ID="{BD75D1BE-B933-4BD9-A504-4E25B2148D21}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{ED3A8350-B98C-446C-87D8-7B0D244A9199}",
     "Language": "SFX",
-    "Hash": "{5E0E10A9-AA66-B4FA-721C-D2F03B7912FB}",
+    "Hash": "{A1277C4A-63C9-2703-D58B-898A09FB2A26}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_PrimaryShot",
     "ShortName": "SFX_MC_Weapon_Chakrams_PrimaryShot",
     "Path": "Event/SFX_MC_Weapon_Chakrams_PrimaryShot.bnk",
@@ -94,10 +94,10 @@
       "Name": "SFX_MC_Weapon_Chakrams_PrimaryShot",
       "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_PrimaryShot",
       "GUID": "{ED3A8350-B98C-446C-87D8-7B0D244A9199}",
-      "MaxAttenuation": "7000",
+      "MaxAttenuation": "2500",
       "DurationType": "OneShot",
-      "DurationMin": "0.3",
-      "DurationMax": "0.3",
+      "DurationMin": "0.2831623",
+      "DurationMax": "0.42378527",
       "MediaRefs": [
        {
         "Id": "24544438"
@@ -128,6 +128,6 @@
     ]
    }
   ],
-  "FileHash": "{F97E4AFE-A698-7F6E-07F2-A651594D2FE7}"
+  "FileHash": "{D0075652-E930-340A-EF72-651EFA7C81C3}"
  }
 }

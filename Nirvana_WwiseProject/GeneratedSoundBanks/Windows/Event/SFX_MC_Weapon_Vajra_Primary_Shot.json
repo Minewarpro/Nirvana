@@ -1,0 +1,109 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1486212429",
+    "Type": "Event",
+    "GUID": "{7CAB1505-06EC-4601-A109-68F07B61CA2E}",
+    "Language": "SFX",
+    "Hash": "{56C0D991-5EBE-909F-FA94-1A7E2D82ED80}",
+    "ObjectPath": "SFX_MC_Weapon_Vajra_Primary_Shot",
+    "ShortName": "SFX_MC_Weapon_Vajra_Primary_Shot",
+    "Path": "Event/SFX_MC_Weapon_Vajra_Primary_Shot.bnk",
+    "Media": [
+     {
+      "Id": "7372697",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Primary_Shot\\SFX_MC_Weapon_Vajra_Primary_Shot_01.wav",
+      "Path": "Media/7372697.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_01_818F3B66.wem"
+     },
+     {
+      "Id": "407942986",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Primary_Shot\\SFX_MC_Weapon_Vajra_Primary_Shot_03.wav",
+      "Path": "Media/407942986.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_03_818F3B66.wem"
+     },
+     {
+      "Id": "627478544",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Primary_Shot\\SFX_MC_Weapon_Vajra_Primary_Shot_05.wav",
+      "Path": "Media/627478544.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_05_818F3B66.wem"
+     },
+     {
+      "Id": "861988515",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Primary_Shot\\SFX_MC_Weapon_Vajra_Primary_Shot_06.wav",
+      "Path": "Media/861988515.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_06_818F3B66.wem"
+     },
+     {
+      "Id": "897649017",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Primary_Shot\\SFX_MC_Weapon_Vajra_Primary_Shot_02.wav",
+      "Path": "Media/897649017.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_02_818F3B66.wem"
+     },
+     {
+      "Id": "917904308",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Primary_Shot\\SFX_MC_Weapon_Vajra_Primary_Shot_04.wav",
+      "Path": "Media/917904308.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_04_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1486212429",
+      "Name": "SFX_MC_Weapon_Vajra_Primary_Shot",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Primary_Shot",
+      "GUID": "{7CAB1505-06EC-4601-A109-68F07B61CA2E}",
+      "MaxAttenuation": "2500",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "7372697"
+       },
+       {
+        "Id": "407942986"
+       },
+       {
+        "Id": "627478544"
+       },
+       {
+        "Id": "861988515"
+       },
+       {
+        "Id": "897649017"
+       },
+       {
+        "Id": "917904308"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{41E82D2C-FF64-A129-1701-38BF5C3D18EF}"
+ }
+}

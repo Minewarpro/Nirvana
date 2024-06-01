@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2163476404" Type="Event" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" Language="SFX" Hash="{77C91CF7-B201-D4AA-A7C3-4B4C60BA43B4}">
+		<SoundBank Id="2163476404" Type="Event" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" Language="SFX" Hash="{86B8BE69-A8BD-0CCB-D7A8-B8347EA80C7D}">
 			<ObjectPath>UI_Menu_Hover</ObjectPath>
 			<ShortName>UI_Menu_Hover</ShortName>
 			<Path>Event/UI_Menu_Hover.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2163476404" Name="UI_Menu_Hover" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Hover" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" DurationType="OneShot" DurationMin="0.2" DurationMax="0.2">
+				<Event Id="2163476404" Name="UI_Menu_Hover" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Hover" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" DurationType="OneShot" DurationMin="0.18877485" DurationMax="0.21189263">
 					<MediaRefs>
 						<MediaRef Id="81063726"/>
 						<MediaRef Id="288658200"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{87E67F84-2828-9C9A-6D1B-3CF67BE6AD0C}</FileHash>
+	<FileHash>{50FE58FE-12D4-06A2-84F3-4A4371BF4673}</FileHash>
 </SoundBanksInfo>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="922786755" Type="Event" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" Language="SFX" Hash="{94E82E74-AC78-31B0-066E-0751E2758292}">
+		<SoundBank Id="922786755" Type="Event" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" Language="SFX" Hash="{0F85DF02-F94F-28EA-45B5-D9D3263C7912}">
 			<ObjectPath>UI_Menu_Back</ObjectPath>
 			<ShortName>UI_Menu_Back</ShortName>
 			<Path>Event/UI_Menu_Back.bnk</Path>
@@ -18,7 +18,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="922786755" Name="UI_Menu_Back" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Back" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" DurationType="OneShot" DurationMin="0.13333334" DurationMax="0.13333334">
+				<Event Id="922786755" Name="UI_Menu_Back" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Back" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" DurationType="OneShot" DurationMin="0.1258499" DurationMax="0.14126176">
 					<MediaRefs>
 						<MediaRef Id="549345743"/>
 						<MediaRef Id="798184031"/>
@@ -27,5 +27,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{805DC423-0AD4-5C5E-6BC4-6722ACC441D7}</FileHash>
+	<FileHash>{A0DF8718-3323-F9C9-6A09-FA3C1C3D6C8D}</FileHash>
 </SoundBanksInfo>

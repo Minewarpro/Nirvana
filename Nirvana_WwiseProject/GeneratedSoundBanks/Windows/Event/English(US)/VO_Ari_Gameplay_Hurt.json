@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{D2A3E3E0-CFD4-468F-AEBE-8312EEF048CE}",
     "Language": "English(US)",
-    "Hash": "{B52B1BEE-8CF7-69E2-3FB6-18618B3F423E}",
+    "Hash": "{65D3F0E9-6AC0-C0A3-0F9A-A4249450B7E5}",
     "ObjectPath": "VO_Ari_Gameplay_Hurt",
     "ShortName": "VO_Ari_Gameplay_Hurt",
     "Path": "Event/English(US)/VO_Ari_Gameplay_Hurt.bnk",
@@ -115,6 +115,6 @@
     ]
    }
   ],
-  "FileHash": "{77EE16D9-86D7-EA48-4DC9-85419897C059}"
+  "FileHash": "{48F45F86-DA02-312C-7100-B1A58C99487B}"
  }
 }

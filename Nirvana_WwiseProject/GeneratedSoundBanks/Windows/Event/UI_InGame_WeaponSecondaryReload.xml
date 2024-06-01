@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2517622237" Type="Event" GUID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}" Language="SFX" Hash="{ED015DDA-6509-C20F-7DD4-B2CDFC7BBEA4}">
+		<SoundBank Id="2517622237" Type="Event" GUID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}" Language="SFX" Hash="{D281B347-59F9-9140-0E71-94DCCCAEEAEE}">
 			<ObjectPath>UI_InGame_WeaponSecondaryReload</ObjectPath>
 			<ShortName>UI_InGame_WeaponSecondaryReload</ShortName>
 			<Path>Event/UI_InGame_WeaponSecondaryReload.bnk</Path>
@@ -28,7 +28,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2517622237" Name="UI_InGame_WeaponSecondaryReload" ObjectPath="\Events\UI\UI_InGame\UI_InGame_WeaponSecondaryReload" GUID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}" DurationType="OneShot" DurationMin="0.53333336" DurationMax="0.53333336">
+				<Event Id="2517622237" Name="UI_InGame_WeaponSecondaryReload" ObjectPath="\Events\UI\UI_InGame\UI_InGame_WeaponSecondaryReload" GUID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}" DurationType="OneShot" DurationMin="0.5033996" DurationMax="0.565047">
 					<MediaRefs>
 						<MediaRef Id="482670350"/>
 						<MediaRef Id="609974740"/>
@@ -39,5 +39,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D8126B49-41DE-EA03-43DF-9FBD75F45871}</FileHash>
+	<FileHash>{2CF4AF0A-3A5E-5AF2-1FCB-914FC5DCC486}</FileHash>
 </SoundBanksInfo>

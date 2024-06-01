@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9407E2CD-5885-412D-9993-63CFFD24284F}",
     "Language": "SFX",
-    "Hash": "{77C91CF7-B201-D4AA-A7C3-4B4C60BA43B4}",
+    "Hash": "{86B8BE69-A8BD-0CCB-D7A8-B8347EA80C7D}",
     "ObjectPath": "UI_Menu_Hover",
     "ShortName": "UI_Menu_Hover",
     "Path": "Event/UI_Menu_Hover.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_Hover",
       "GUID": "{9407E2CD-5885-412D-9993-63CFFD24284F}",
       "DurationType": "OneShot",
-      "DurationMin": "0.2",
-      "DurationMax": "0.2",
+      "DurationMin": "0.18877485",
+      "DurationMax": "0.21189263",
       "MediaRefs": [
        {
         "Id": "81063726"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{F6BA2763-7604-6C72-FC23-42C4353CE99B}"
+  "FileHash": "{B8D01991-1396-3C11-2716-125063830D95}"
  }
 }

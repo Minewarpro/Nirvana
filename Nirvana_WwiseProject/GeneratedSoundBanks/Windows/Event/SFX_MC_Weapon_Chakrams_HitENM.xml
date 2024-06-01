@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2042202503" Type="Event" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" Language="SFX" Hash="{DAA62C2E-6904-5141-3CB3-9FFB87E447A8}">
+		<SoundBank Id="2042202503" Type="Event" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" Language="SFX" Hash="{C0B1C090-E0FF-AC73-297F-7C64FA466CFD}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_HitENM</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_HitENM</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_HitENM.bnk</Path>
@@ -38,7 +38,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2042202503" Name="SFX_MC_Weapon_Chakrams_HitENM" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.23333333" DurationMax="0.23333333">
+				<Event Id="2042202503" Name="SFX_MC_Weapon_Chakrams_HitENM" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.22023733" DurationMax="0.24720807">
 					<MediaRefs>
 						<MediaRef Id="126299822"/>
 						<MediaRef Id="496619468"/>
@@ -51,5 +51,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B9A13A78-D815-BF32-B948-FBE2FAA87B93}</FileHash>
+	<FileHash>{CF1ECCB1-0E58-CD04-6D4A-BDF2842D59FB}</FileHash>
 </SoundBanksInfo>

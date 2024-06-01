@@ -1,0 +1,71 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1498943271",
+    "Type": "Event",
+    "GUID": "{DDE6B034-63CD-4F7A-8610-080095095B13}",
+    "Language": "SFX",
+    "Hash": "{8C22D8DE-8529-4DB5-B319-5F4CC5FAD690}",
+    "ObjectPath": "SFX_MC_Weapon_Vajra_OverheatBegin",
+    "ShortName": "SFX_MC_Weapon_Vajra_OverheatBegin",
+    "Path": "Event/SFX_MC_Weapon_Vajra_OverheatBegin.bnk",
+    "Media": [
+     {
+      "Id": "116385699",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_OverheatBegin\\SFX_MC_Weapon_Vajra_OverheatBegin_01.wav",
+      "Path": "Media/116385699.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_OverheatBegin/SFX_MC_Weapon_Vajra_OverheatBegin_01_818F3B66.wem"
+     },
+     {
+      "Id": "238155916",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_OverheatBegin\\SFX_MC_Weapon_Vajra_OverheatBegin_02.wav",
+      "Path": "Media/238155916.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_OverheatBegin/SFX_MC_Weapon_Vajra_OverheatBegin_02_818F3B66.wem"
+     },
+     {
+      "Id": "926305807",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Overheating_lp.wav",
+      "Path": "Media/926305807.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Overheating_lp_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1498943271",
+      "Name": "SFX_MC_Weapon_Vajra_OverheatBegin",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_OverheatBegin",
+      "GUID": "{DDE6B034-63CD-4F7A-8610-080095095B13}",
+      "MaxAttenuation": "2500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "116385699"
+       },
+       {
+        "Id": "238155916"
+       },
+       {
+        "Id": "926305807"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8949BC33-A424-B225-2E21-BB216BFA5E1E}"
+ }
+}

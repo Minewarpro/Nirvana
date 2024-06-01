@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1464993479" Type="Event" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" Language="SFX" Hash="{816A12F4-7788-487A-145B-FFBA3C363949}">
+		<SoundBank Id="1464993479" Type="Event" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" Language="SFX" Hash="{CD0D08FF-CDFE-AD27-7FDD-C26E28182593}">
 			<ObjectPath>UI_Menu_Resume</ObjectPath>
 			<ShortName>UI_Menu_Resume</ShortName>
 			<Path>Event/UI_Menu_Resume.bnk</Path>
@@ -28,7 +28,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Resume" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" DurationType="OneShot" DurationMin="0.1" DurationMax="0.1">
+				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Resume" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" DurationType="OneShot" DurationMin="0.09438743" DurationMax="0.10594632">
 					<MediaRefs>
 						<MediaRef Id="211590427"/>
 						<MediaRef Id="311780862"/>
@@ -51,5 +51,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CF4AB619-657B-416C-0D1B-CCB863E8DBA9}</FileHash>
+	<FileHash>{6A539CFB-4D87-F894-921F-C380296C928B}</FileHash>
 </SoundBanksInfo>

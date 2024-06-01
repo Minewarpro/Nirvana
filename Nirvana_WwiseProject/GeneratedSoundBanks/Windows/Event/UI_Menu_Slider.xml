@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2153118237" Type="Event" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" Language="SFX" Hash="{D37CD905-54DB-71E9-9392-5581F210419C}">
+		<SoundBank Id="2153118237" Type="Event" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" Language="SFX" Hash="{496F69DF-439C-EC6D-0E0D-0580DF15DE18}">
 			<ObjectPath>UI_Menu_Slider</ObjectPath>
 			<ShortName>UI_Menu_Slider</ShortName>
 			<Path>Event/UI_Menu_Slider.bnk</Path>
@@ -28,7 +28,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2153118237" Name="UI_Menu_Slider" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Slider" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" DurationType="OneShot" DurationMin="0.1" DurationMax="0.1">
+				<Event Id="2153118237" Name="UI_Menu_Slider" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Slider" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" DurationType="OneShot" DurationMin="0.09438743" DurationMax="0.10594632">
 					<MediaRefs>
 						<MediaRef Id="502750741"/>
 						<MediaRef Id="572699798"/>
@@ -39,5 +39,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{74632781-9DCE-7732-D6FC-009308A9BD2F}</FileHash>
+	<FileHash>{96E96C2F-3BAC-D86D-419E-32406A1BA1BD}</FileHash>
 </SoundBanksInfo>

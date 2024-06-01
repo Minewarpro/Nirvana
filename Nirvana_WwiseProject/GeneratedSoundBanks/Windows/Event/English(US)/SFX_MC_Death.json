@@ -1,0 +1,132 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2592439718",
+    "Type": "Event",
+    "GUID": "{54FDB89F-2388-4096-8D03-014690817D75}",
+    "Language": "English(US)",
+    "Hash": "{7898BE80-068B-263C-7E98-6E698E5A8E24}",
+    "ObjectPath": "SFX_MC_Death",
+    "ShortName": "SFX_MC_Death",
+    "Path": "Event/English(US)/SFX_MC_Death.bnk",
+    "Media": [
+     {
+      "Id": "102666523",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Death\\SFX_MC_Death_01.wav",
+      "Path": "Media/102666523.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Death/SFX_MC_Death_01_818F3B66.wem"
+     },
+     {
+      "Id": "124313777",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Death\\VO_Ari_Gameplay_Death_04.wav",
+      "Path": "Media/English(US)/124313777.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_04_818F3B66.wem"
+     },
+     {
+      "Id": "344258897",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Death\\VO_Ari_Gameplay_Death_02.wav",
+      "Path": "Media/English(US)/344258897.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_02_818F3B66.wem"
+     },
+     {
+      "Id": "554230171",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Death\\VO_Ari_Gameplay_Death_05.wav",
+      "Path": "Media/English(US)/554230171.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_05_818F3B66.wem"
+     },
+     {
+      "Id": "556237807",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Death\\VO_Ari_Gameplay_Death_01.wav",
+      "Path": "Media/English(US)/556237807.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_01_818F3B66.wem"
+     },
+     {
+      "Id": "573120549",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Death\\VO_Ari_Gameplay_Death_03.wav",
+      "Path": "Media/English(US)/573120549.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_03_818F3B66.wem"
+     },
+     {
+      "Id": "861775547",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Death\\VO_Ari_Gameplay_Death_06.wav",
+      "Path": "Media/English(US)/861775547.wem",
+      "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_06_818F3B66.wem"
+     },
+     {
+      "Id": "1016486179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Death\\SFX_MC_Death_02.wav",
+      "Path": "Media/1016486179.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Death/SFX_MC_Death_02_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2592439718",
+      "Name": "SFX_MC_Death",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Death",
+      "GUID": "{54FDB89F-2388-4096-8D03-014690817D75}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.2458653",
+      "DurationMax": "7.9016714",
+      "MediaRefs": [
+       {
+        "Id": "102666523"
+       },
+       {
+        "Id": "124313777"
+       },
+       {
+        "Id": "344258897"
+       },
+       {
+        "Id": "554230171"
+       },
+       {
+        "Id": "556237807"
+       },
+       {
+        "Id": "573120549"
+       },
+       {
+        "Id": "861775547"
+       },
+       {
+        "Id": "1016486179"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{736191AB-8C20-647C-ED10-24A5811B6AD3}"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3915970521",
+    "Type": "Event",
+    "GUID": "{56C3B3D0-8F35-4419-8507-E6ED5C9A9877}",
+    "Language": "SFX",
+    "Hash": "{EF3F9921-C3FA-2FAC-E3DD-85C47D09FC69}",
+    "ObjectPath": "VO_Ari_Gameplay_Death_01",
+    "ShortName": "VO_Ari_Gameplay_Death_01",
+    "Path": "Event/VO_Ari_Gameplay_Death_01.bnk",
+    "Events": [
+     {
+      "Id": "3915970521",
+      "Name": "VO_Ari_Gameplay_Death_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\VO_Ari_Gameplay_Death_01",
+      "GUID": "{56C3B3D0-8F35-4419-8507-E6ED5C9A9877}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{783BF394-200B-3082-B807-0FDF59D27C25}"
+ }
+}

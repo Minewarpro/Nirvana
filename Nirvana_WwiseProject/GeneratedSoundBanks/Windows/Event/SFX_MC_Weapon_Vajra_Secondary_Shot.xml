@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3397588129" Type="Event" GUID="{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}" Language="SFX" Hash="{90B69F85-717A-0513-0674-E4E7108E6BD1}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Shot</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Shot</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Shot.bnk</Path>
+			<Media>
+				<File Id="68615788" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Shot\SFX_MC_Weapon_Vajra_Secondary_Shot_01.wav</ShortName>
+					<Path>Media/68615788.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Shot/SFX_MC_Weapon_Vajra_Secondary_Shot_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="424978134" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Shot\SFX_MC_Weapon_Vajra_Secondary_Shot_03.wav</ShortName>
+					<Path>Media/424978134.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Shot/SFX_MC_Weapon_Vajra_Secondary_Shot_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="674584431" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Shot\SFX_MC_Weapon_Vajra_Secondary_Shot_02.wav</ShortName>
+					<Path>Media/674584431.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Shot/SFX_MC_Weapon_Vajra_Secondary_Shot_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3397588129" Name="SFX_MC_Weapon_Vajra_Secondary_Shot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Shot" GUID="{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0947785">
+					<MediaRefs>
+						<MediaRef Id="68615788"/>
+						<MediaRef Id="424978134"/>
+						<MediaRef Id="674584431"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2D588364-71E7-CC16-AA09-5D0056E0C767}</FileHash>
+</SoundBanksInfo>

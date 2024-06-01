@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1483737050" Type="Event" GUID="{06631D50-D230-4F7E-B2DD-E54FEAE107B0}" Language="SFX" Hash="{3DF6C977-683F-1779-7F07-5F9F0ACCBCB6}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Idle_lp</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Idle_lp</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Idle_lp.bnk</Path>
+			<Media>
+				<File Id="256199347" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Idle_lp.wav</ShortName>
+					<Path>Media/256199347.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Idle_lp_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1483737050" Name="SFX_MC_Weapon_Vajra_Secondary_Idle_lp" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Idle_lp" GUID="{06631D50-D230-4F7E-B2DD-E54FEAE107B0}" MaxAttenuation="2500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="256199347"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{ACC83BFF-9E1B-F3CC-624A-8B3A164667EF}</FileHash>
+</SoundBanksInfo>

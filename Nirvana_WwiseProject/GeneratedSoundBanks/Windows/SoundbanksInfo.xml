@@ -9,25 +9,6 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="114937303" Type="Event" GUID="{8646BE1A-0105-4741-8092-3F634E6213B2}" Language="SFX" Hash="{B99AC390-5159-9E75-7C33-F2A93991E9E4}">
-			<ObjectPath>SFX_MC_Weapon_Chakrams_Overheating_lp</ObjectPath>
-			<ShortName>SFX_MC_Weapon_Chakrams_Overheating_lp</ShortName>
-			<Path>Event/SFX_MC_Weapon_Chakrams_Overheating_lp.bnk</Path>
-			<Media>
-				<File Id="585611060" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_Overheating_lp.wav</ShortName>
-					<Path>Media/585611060.wem</Path>
-					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_Overheating_lp_FBC78EF0.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="114937303" Name="SFX_MC_Weapon_Chakrams_Overheating_lp" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_Overheating_lp" GUID="{8646BE1A-0105-4741-8092-3F634E6213B2}" MaxAttenuation="7000" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="585611060"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
 		<SoundBank Id="143716483" Type="Event" GUID="{844B1686-5B6E-4969-A0E1-C1EC55780849}" Language="English(US)" Hash="{D5A1DF6D-1C7A-0296-26F3-DE352DB7763F}">
 			<ObjectPath>VO_Ari_Gameplay_Drowning</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Drowning</ShortName>
@@ -65,7 +46,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="148639171" Type="Event" GUID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}" Language="SFX" Hash="{6964474D-95F1-3D15-9146-7FF049451AE2}">
+		<SoundBank Id="148639171" Type="Event" GUID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}" Language="SFX" Hash="{4743E84D-1CB2-DA76-BDFF-09DF92D7804A}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_OverheatBegin</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_OverheatBegin</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_OverheatBegin.bnk</Path>
@@ -75,6 +56,11 @@
 					<Path>Media/239793079.wem</Path>
 					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_OverheatBegin/SFX_MC_Weapon_Chakrams_OverheatBegin_01_818F3B66.wem</CachePath>
 				</File>
+				<File Id="585611060" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_Overheating_lp.wav</ShortName>
+					<Path>Media/585611060.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_Overheating_lp_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="783098889" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatBegin\SFX_MC_Weapon_Chakrams_OverheatBegin_02.wav</ShortName>
 					<Path>Media/783098889.wem</Path>
@@ -82,9 +68,10 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="148639171" Name="SFX_MC_Weapon_Chakrams_OverheatBegin" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatBegin" GUID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="3.4" DurationMax="3.4">
+				<Event Id="148639171" Name="SFX_MC_Weapon_Chakrams_OverheatBegin" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatBegin" GUID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}" MaxAttenuation="2500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="239793079"/>
+						<MediaRef Id="585611060"/>
 						<MediaRef Id="783098889"/>
 					</MediaRefs>
 				</Event>
@@ -394,7 +381,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="339325342" Type="Event" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" Language="SFX" Hash="{04ED1BAE-CFD3-E8F7-790B-4E47A543C5A4}">
+		<SoundBank Id="339325342" Type="Event" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" Language="SFX" Hash="{600A8A83-B77B-DE51-97ED-AE017380ECB9}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_SecondaryShot</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_SecondaryShot</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_SecondaryShot.bnk</Path>
@@ -416,7 +403,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="339325342" Name="SFX_MC_Weapon_Chakrams_SecondaryShot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="1.0666667" DurationMax="1.067625">
+				<Event Id="339325342" Name="SFX_MC_Weapon_Chakrams_SecondaryShot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="1.0067992" DurationMax="1.1311094">
 					<MediaRefs>
 						<MediaRef Id="244943397"/>
 						<MediaRef Id="752966009"/>
@@ -786,7 +773,44 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="535776511" Type="Event" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" Language="SFX" Hash="{D74B1957-1CCF-6C81-B06D-1445F4BE2E8B}">
+		<SoundBank Id="534490163" Type="Event" GUID="{0C4EA416-1035-4CE4-9ABB-92441DDADE14}" Language="SFX" Hash="{821CBE3D-04E8-30B9-7A6B-221CE65A93FF}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_HitENM</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_HitENM</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_HitENM.bnk</Path>
+			<Media>
+				<File Id="325656962" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM\SFX_MC_Weapon_Vajra_HitENM_04.wav</ShortName>
+					<Path>Media/325656962.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitENM/SFX_MC_Weapon_Vajra_HitENM_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="434616133" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM\SFX_MC_Weapon_Vajra_HitENM_02.wav</ShortName>
+					<Path>Media/434616133.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitENM/SFX_MC_Weapon_Vajra_HitENM_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="455218719" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM\SFX_MC_Weapon_Vajra_HitENM_03.wav</ShortName>
+					<Path>Media/455218719.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitENM/SFX_MC_Weapon_Vajra_HitENM_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="955010811" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM\SFX_MC_Weapon_Vajra_HitENM_01.wav</ShortName>
+					<Path>Media/955010811.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitENM/SFX_MC_Weapon_Vajra_HitENM_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="534490163" Name="SFX_MC_Weapon_Vajra_HitENM" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM" GUID="{0C4EA416-1035-4CE4-9ABB-92441DDADE14}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.84948677" DurationMax="0.9535168">
+					<MediaRefs>
+						<MediaRef Id="325656962"/>
+						<MediaRef Id="434616133"/>
+						<MediaRef Id="455218719"/>
+						<MediaRef Id="955010811"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="535776511" Type="Event" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" Language="SFX" Hash="{23C33A0C-7D74-7185-D744-AF019FC59C5E}">
 			<ObjectPath>SFX_GPE_Launcher_Jump</ObjectPath>
 			<ShortName>SFX_GPE_Launcher_Jump</ShortName>
 			<Path>Event/SFX_GPE_Launcher_Jump.bnk</Path>
@@ -808,7 +832,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="535776511" Name="SFX_GPE_Launcher_Jump" ObjectPath="\Events\SFX\SFX_GPE\SFX_GPE_Launcher_Jump" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="535776511" Name="SFX_GPE_Launcher_Jump" ObjectPath="\Events\SFX\SFX_GPE\SFX_GPE_Launcher_Jump" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.91700405" DurationMax="1.0905077">
 					<MediaRefs>
 						<MediaRef Id="188956989"/>
 						<MediaRef Id="341882187"/>
@@ -1121,6 +1145,37 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="733708365" Type="Event" GUID="{5C19D422-C820-434B-94C3-0FD0A2504D4A}" Language="SFX" Hash="{E8ACCE66-B55C-CBCB-C214-AEABFAF2F711}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Lightning</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Lightning</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Lightning.bnk</Path>
+			<Media>
+				<File Id="340696357" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Lightning\SFX_MC_Weapon_Vajra_Secondary_Lightning_03.wav</ShortName>
+					<Path>Media/340696357.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Lightning/SFX_MC_Weapon_Vajra_Secondary_Lightning_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="560254157" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Lightning\SFX_MC_Weapon_Vajra_Secondary_Lightning_01.wav</ShortName>
+					<Path>Media/560254157.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Lightning/SFX_MC_Weapon_Vajra_Secondary_Lightning_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="700671199" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Lightning\SFX_MC_Weapon_Vajra_Secondary_Lightning_02.wav</ShortName>
+					<Path>Media/700671199.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Lightning/SFX_MC_Weapon_Vajra_Secondary_Lightning_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="733708365" Name="SFX_MC_Weapon_Vajra_Secondary_Lightning" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Lightning" GUID="{5C19D422-C820-434B-94C3-0FD0A2504D4A}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.30128574" DurationMax="0.36878988">
+					<MediaRefs>
+						<MediaRef Id="340696357"/>
+						<MediaRef Id="560254157"/>
+						<MediaRef Id="700671199"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="798162039" Type="Event" GUID="{14412A49-EE02-4B5F-9198-987A15F0CC83}" Language="English(US)" Hash="{DA59D297-6CC9-C225-9569-EF394303E8C5}">
 			<ObjectPath>VO_Ari_Gameplay_Effort</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Effort</ShortName>
@@ -1164,7 +1219,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="922786755" Type="Event" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" Language="SFX" Hash="{94E82E74-AC78-31B0-066E-0751E2758292}">
+		<SoundBank Id="922786755" Type="Event" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" Language="SFX" Hash="{0F85DF02-F94F-28EA-45B5-D9D3263C7912}">
 			<ObjectPath>UI_Menu_Back</ObjectPath>
 			<ShortName>UI_Menu_Back</ShortName>
 			<Path>Event/UI_Menu_Back.bnk</Path>
@@ -1181,7 +1236,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="922786755" Name="UI_Menu_Back" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Back" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" DurationType="OneShot" DurationMin="0.13333334" DurationMax="0.13333334">
+				<Event Id="922786755" Name="UI_Menu_Back" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Back" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" DurationType="OneShot" DurationMin="0.1258499" DurationMax="0.14126176">
 					<MediaRefs>
 						<MediaRef Id="549345743"/>
 						<MediaRef Id="798184031"/>
@@ -1189,7 +1244,44 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1026708067" Type="Event" GUID="{9EAAD129-4D85-40B1-88A0-960BAC7525F8}" Language="SFX" Hash="{2938F0A6-03F4-CE64-E730-F0BFDB2D63C8}">
+		<SoundBank Id="934991481" Type="Event" GUID="{324428D0-0193-4CA6-9B39-69E330023645}" Language="SFX" Hash="{0D45C9B6-D996-3664-0EA0-8F1C09432E49}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Bounce</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Bounce</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Bounce.bnk</Path>
+			<Media>
+				<File Id="358734753" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce\SFX_MC_Weapon_Vajra_Secondary_Bounce_03.wav</ShortName>
+					<Path>Media/358734753.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Bounce/SFX_MC_Weapon_Vajra_Secondary_Bounce_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="428001193" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce\SFX_MC_Weapon_Vajra_Secondary_Bounce_04.wav</ShortName>
+					<Path>Media/428001193.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Bounce/SFX_MC_Weapon_Vajra_Secondary_Bounce_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="609945175" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce\SFX_MC_Weapon_Vajra_Secondary_Bounce_02.wav</ShortName>
+					<Path>Media/609945175.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Bounce/SFX_MC_Weapon_Vajra_Secondary_Bounce_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="648691944" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce\SFX_MC_Weapon_Vajra_Secondary_Bounce_01.wav</ShortName>
+					<Path>Media/648691944.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Bounce/SFX_MC_Weapon_Vajra_Secondary_Bounce_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="934991481" Name="SFX_MC_Weapon_Vajra_Secondary_Bounce" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce" GUID="{324428D0-0193-4CA6-9B39-69E330023645}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.5033996" DurationMax="0.8122551">
+					<MediaRefs>
+						<MediaRef Id="358734753"/>
+						<MediaRef Id="428001193"/>
+						<MediaRef Id="609945175"/>
+						<MediaRef Id="648691944"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1026708067" Type="Event" GUID="{9EAAD129-4D85-40B1-88A0-960BAC7525F8}" Language="SFX" Hash="{E2C88AF4-553C-E6B5-D799-87651C2DE02B}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_OverheatEnd</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_OverheatEnd</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_OverheatEnd.bnk</Path>
@@ -1206,7 +1298,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1026708067" Name="SFX_MC_Weapon_Chakrams_OverheatEnd" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatEnd" GUID="{9EAAD129-4D85-40B1-88A0-960BAC7525F8}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="2.8" DurationMax="2.8">
+				<Event Id="1026708067" Name="SFX_MC_Weapon_Chakrams_OverheatEnd" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatEnd" GUID="{9EAAD129-4D85-40B1-88A0-960BAC7525F8}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="2.6428478" DurationMax="2.9664967">
 					<MediaRefs>
 						<MediaRef Id="631856181"/>
 						<MediaRef Id="699784970"/>
@@ -1214,7 +1306,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1121555166" Type="Event" GUID="{D2A3E3E0-CFD4-468F-AEBE-8312EEF048CE}" Language="English(US)" Hash="{B52B1BEE-8CF7-69E2-3FB6-18618B3F423E}">
+		<SoundBank Id="1121555166" Type="Event" GUID="{D2A3E3E0-CFD4-468F-AEBE-8312EEF048CE}" Language="English(US)" Hash="{65D3F0E9-6AC0-C0A3-0F9A-A4249450B7E5}">
 			<ObjectPath>VO_Ari_Gameplay_Hurt</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Hurt</ShortName>
 			<Path>Event/English(US)/VO_Ari_Gameplay_Hurt.bnk</Path>
@@ -1265,6 +1357,55 @@
 						<MediaRef Id="328077789"/>
 						<MediaRef Id="390295673"/>
 						<MediaRef Id="861316731"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1174174029" Type="Event" GUID="{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}" Language="SFX" Hash="{2ED4E4BA-7736-F3BD-C7C4-04C00B95ECBF}">
+			<ObjectPath>SFX_MC_HealthPick</ObjectPath>
+			<ShortName>SFX_MC_HealthPick</ShortName>
+			<Path>Event/SFX_MC_HealthPick.bnk</Path>
+			<Media>
+				<File Id="21175351" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_06.wav</ShortName>
+					<Path>Media/21175351.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="184233588" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_04.wav</ShortName>
+					<Path>Media/184233588.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="583291291" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_01.wav</ShortName>
+					<Path>Media/583291291.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="705435937" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_03.wav</ShortName>
+					<Path>Media/705435937.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="739954720" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_05.wav</ShortName>
+					<Path>Media/739954720.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1054889191" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_02.wav</ShortName>
+					<Path>Media/1054889191.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1174174029" Name="SFX_MC_HealthPick" ObjectPath="\Events\SFX\SFX_MC_HealthPick" GUID="{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.79473686" DurationMax="1.0178072">
+					<MediaRefs>
+						<MediaRef Id="21175351"/>
+						<MediaRef Id="184233588"/>
+						<MediaRef Id="583291291"/>
+						<MediaRef Id="705435937"/>
+						<MediaRef Id="739954720"/>
+						<MediaRef Id="1054889191"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -1337,11 +1478,14 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{D3C9FBE8-B62B-087F-9D19-D2B07437EB29}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{608BE880-6A5A-F20F-042B-0FCE28E92985}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="491419128" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\SFX\SFX_MC_Weapon\[Effect Slot [0]: (Meter)]\Meter (Custom)" GUID="{417C41AE-A40F-4257-BE72-E499229A6261}" LibName="Wwise Meter" LibId="8454147"/>
+				</Custom>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{68B54D53-2D39-469A-80CA-ACB12F1275D5}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{3C06FC5A-7E4B-4091-875D-AE38F353ADD5}" LibName="System" LibId="11403271"/>
@@ -1354,6 +1498,13 @@
 				<Bus Id="1117531639" Name="AMB" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\AMB" GUID="{EE760A39-D2EB-4347-805B-1990EA7A41E5}"/>
 				<Bus Id="1534528548" Name="VO" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VO" GUID="{A66B3553-37CD-4DF1-A039-29B29862AE71}"/>
 				<Bus Id="1551306167" Name="UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\UI" GUID="{020D4FC4-5D20-4295-9814-95DBB08CA8D4}"/>
+				<Bus Id="1689427244" Name="SFX_MC_Weapon" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\SFX\SFX_MC_Weapon" GUID="{EB51325C-73E9-4506-A90C-000CAEB5D97D}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="491419128"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="1802970383" Name="FT" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\FT" GUID="{DF3B16E9-05D8-4FDA-9CCB-41F48D9B5570}"/>
 				<Bus Id="1942696649" Name="Effects" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects" GUID="{EDC6BCE9-F2D1-443D-A9C8-CD2C0D6B094D}"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
@@ -1365,6 +1516,7 @@
 			<GameParameters>
 				<GameParameter Id="192836257" Name="RTPC_UI_VO" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_VO" GUID="{446D2A29-793D-4B5C-9B6B-98B00E2B6658}"/>
 				<GameParameter Id="950872934" Name="RTPC_UI_Effects" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Effects" GUID="{2B55FAD0-C41F-48A2-8CBC-0F24FEDD1EE7}"/>
+				<GameParameter Id="1526392608" Name="RTPC_SFX_MC_Weapon_Meter" ObjectPath="\Game Parameters\RTPC_SFX\RTPC_SFX_MC_Weapon_Meter" GUID="{86852467-6F73-4A7D-A970-056FB33188A5}"/>
 				<GameParameter Id="3569469165" Name="RTPC_UI_Music" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Music" GUID="{53C895C6-A568-4494-BAC3-4C46C199A9EA}"/>
 				<GameParameter Id="3605688814" Name="RTPC_UI_Master" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Master" GUID="{ECF19A53-D94C-4882-8001-73C4BCCE7169}"/>
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
@@ -1497,7 +1649,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1464993479" Type="Event" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" Language="SFX" Hash="{816A12F4-7788-487A-145B-FFBA3C363949}">
+		<SoundBank Id="1464993479" Type="Event" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" Language="SFX" Hash="{CD0D08FF-CDFE-AD27-7FDD-C26E28182593}">
 			<ObjectPath>UI_Menu_Resume</ObjectPath>
 			<ShortName>UI_Menu_Resume</ShortName>
 			<Path>Event/UI_Menu_Resume.bnk</Path>
@@ -1524,7 +1676,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Resume" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" DurationType="OneShot" DurationMin="0.1" DurationMax="0.1">
+				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Resume" GUID="{AD409B64-57E1-4506-A21D-44AC0FF7A0AB}" DurationType="OneShot" DurationMin="0.09438743" DurationMax="0.10594632">
 					<MediaRefs>
 						<MediaRef Id="211590427"/>
 						<MediaRef Id="311780862"/>
@@ -1580,6 +1732,105 @@
 				<Event Id="1467256134" Name="VO_Ari_Story_13P2" ObjectPath="\Events\VO\VO_Ari_Story\VO_Ari_Story_13P2" GUID="{BAA7EAC8-E738-4419-A000-14F315E339C6}" DurationType="OneShot" DurationMin="0.73333335" DurationMax="0.73333335">
 					<MediaRefs>
 						<MediaRef Id="432525696"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1483737050" Type="Event" GUID="{06631D50-D230-4F7E-B2DD-E54FEAE107B0}" Language="SFX" Hash="{3DF6C977-683F-1779-7F07-5F9F0ACCBCB6}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Idle_lp</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Idle_lp</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Idle_lp.bnk</Path>
+			<Media>
+				<File Id="256199347" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Idle_lp.wav</ShortName>
+					<Path>Media/256199347.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Idle_lp_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1483737050" Name="SFX_MC_Weapon_Vajra_Secondary_Idle_lp" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Idle_lp" GUID="{06631D50-D230-4F7E-B2DD-E54FEAE107B0}" MaxAttenuation="2500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="256199347"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1486212429" Type="Event" GUID="{7CAB1505-06EC-4601-A109-68F07B61CA2E}" Language="SFX" Hash="{56C0D991-5EBE-909F-FA94-1A7E2D82ED80}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_Primary_Shot</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_Primary_Shot</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_Primary_Shot.bnk</Path>
+			<Media>
+				<File Id="7372697" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_01.wav</ShortName>
+					<Path>Media/7372697.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="407942986" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_03.wav</ShortName>
+					<Path>Media/407942986.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="627478544" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_05.wav</ShortName>
+					<Path>Media/627478544.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="861988515" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_06.wav</ShortName>
+					<Path>Media/861988515.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="897649017" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_02.wav</ShortName>
+					<Path>Media/897649017.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="917904308" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_04.wav</ShortName>
+					<Path>Media/917904308.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_04_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1486212429" Name="SFX_MC_Weapon_Vajra_Primary_Shot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot" GUID="{7CAB1505-06EC-4601-A109-68F07B61CA2E}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
+					<MediaRefs>
+						<MediaRef Id="7372697"/>
+						<MediaRef Id="407942986"/>
+						<MediaRef Id="627478544"/>
+						<MediaRef Id="861988515"/>
+						<MediaRef Id="897649017"/>
+						<MediaRef Id="917904308"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1498943271" Type="Event" GUID="{DDE6B034-63CD-4F7A-8610-080095095B13}" Language="SFX" Hash="{8C22D8DE-8529-4DB5-B319-5F4CC5FAD690}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_OverheatBegin</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_OverheatBegin</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_OverheatBegin.bnk</Path>
+			<Media>
+				<File Id="116385699" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_OverheatBegin\SFX_MC_Weapon_Vajra_OverheatBegin_01.wav</ShortName>
+					<Path>Media/116385699.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_OverheatBegin/SFX_MC_Weapon_Vajra_OverheatBegin_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="238155916" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_OverheatBegin\SFX_MC_Weapon_Vajra_OverheatBegin_02.wav</ShortName>
+					<Path>Media/238155916.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_OverheatBegin/SFX_MC_Weapon_Vajra_OverheatBegin_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="926305807" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Overheating_lp.wav</ShortName>
+					<Path>Media/926305807.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Overheating_lp_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1498943271" Name="SFX_MC_Weapon_Vajra_OverheatBegin" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_OverheatBegin" GUID="{DDE6B034-63CD-4F7A-8610-080095095B13}" MaxAttenuation="2500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="116385699"/>
+						<MediaRef Id="238155916"/>
+						<MediaRef Id="926305807"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -1677,7 +1928,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1686072914" Type="Event" GUID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}" Language="SFX" Hash="{5E0E10A9-AA66-B4FA-721C-D2F03B7912FB}">
+		<SoundBank Id="1686072914" Type="Event" GUID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}" Language="SFX" Hash="{A1277C4A-63C9-2703-D58B-898A09FB2A26}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_PrimaryShot</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_PrimaryShot</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_PrimaryShot.bnk</Path>
@@ -1724,7 +1975,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1686072914" Name="SFX_MC_Weapon_Chakrams_PrimaryShot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot" GUID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.3" DurationMax="0.3">
+				<Event Id="1686072914" Name="SFX_MC_Weapon_Chakrams_PrimaryShot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot" GUID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.2831623" DurationMax="0.42378527">
 					<MediaRefs>
 						<MediaRef Id="24544438"/>
 						<MediaRef Id="201811152"/>
@@ -1852,7 +2103,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1766274592" Type="Event" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" Language="SFX" Hash="{7ACB8508-606A-7572-80FA-475542960C03}">
+		<SoundBank Id="1766274592" Type="Event" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" Language="SFX" Hash="{D96D3A97-0D69-A130-092C-4222A747CC36}">
 			<ObjectPath>UI_Menu_StartGame</ObjectPath>
 			<ShortName>UI_Menu_StartGame</ShortName>
 			<Path>Event/UI_Menu_StartGame.bnk</Path>
@@ -1879,14 +2130,14 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Select" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" DurationType="OneShot" DurationMin="0.16666667" DurationMax="0.16666667">
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Select" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" DurationType="OneShot" DurationMin="0.15731238" DurationMax="0.1765772">
 					<MediaRefs>
 						<MediaRef Id="741852206"/>
 						<MediaRef Id="811488791"/>
 						<MediaRef Id="848808628"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1766274592" Name="UI_Menu_StartGame" ObjectPath="\Events\UI\UI_Menu\UI_Menu_StartGame" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" DurationType="OneShot" DurationMin="0.76666665" DurationMax="0.76666665">
+				<Event Id="1766274592" Name="UI_Menu_StartGame" ObjectPath="\Events\UI\UI_Menu\UI_Menu_StartGame" GUID="{65E4A520-CCE6-4EEE-8B03-A68322ABD108}" DurationType="OneShot" DurationMin="0.7236369" DurationMax="0.8122551">
 					<MediaRefs>
 						<MediaRef Id="288755459"/>
 					</MediaRefs>
@@ -1896,7 +2147,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2042202503" Type="Event" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" Language="SFX" Hash="{DAA62C2E-6904-5141-3CB3-9FFB87E447A8}">
+		<SoundBank Id="2042202503" Type="Event" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" Language="SFX" Hash="{C0B1C090-E0FF-AC73-297F-7C64FA466CFD}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_HitENM</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_HitENM</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_HitENM.bnk</Path>
@@ -1933,7 +2184,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2042202503" Name="SFX_MC_Weapon_Chakrams_HitENM" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.23333333" DurationMax="0.23333333">
+				<Event Id="2042202503" Name="SFX_MC_Weapon_Chakrams_HitENM" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitENM" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.22023733" DurationMax="0.24720807">
 					<MediaRefs>
 						<MediaRef Id="126299822"/>
 						<MediaRef Id="496619468"/>
@@ -1995,7 +2246,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2153118237" Type="Event" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" Language="SFX" Hash="{D37CD905-54DB-71E9-9392-5581F210419C}">
+		<SoundBank Id="2153118237" Type="Event" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" Language="SFX" Hash="{496F69DF-439C-EC6D-0E0D-0580DF15DE18}">
 			<ObjectPath>UI_Menu_Slider</ObjectPath>
 			<ShortName>UI_Menu_Slider</ShortName>
 			<Path>Event/UI_Menu_Slider.bnk</Path>
@@ -2022,7 +2273,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2153118237" Name="UI_Menu_Slider" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Slider" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" DurationType="OneShot" DurationMin="0.1" DurationMax="0.1">
+				<Event Id="2153118237" Name="UI_Menu_Slider" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Slider" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" DurationType="OneShot" DurationMin="0.09438743" DurationMax="0.10594632">
 					<MediaRefs>
 						<MediaRef Id="502750741"/>
 						<MediaRef Id="572699798"/>
@@ -2032,7 +2283,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2163476404" Type="Event" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" Language="SFX" Hash="{77C91CF7-B201-D4AA-A7C3-4B4C60BA43B4}">
+		<SoundBank Id="2163476404" Type="Event" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" Language="SFX" Hash="{86B8BE69-A8BD-0CCB-D7A8-B8347EA80C7D}">
 			<ObjectPath>UI_Menu_Hover</ObjectPath>
 			<ShortName>UI_Menu_Hover</ShortName>
 			<Path>Event/UI_Menu_Hover.bnk</Path>
@@ -2054,7 +2305,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2163476404" Name="UI_Menu_Hover" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Hover" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" DurationType="OneShot" DurationMin="0.2" DurationMax="0.2">
+				<Event Id="2163476404" Name="UI_Menu_Hover" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Hover" GUID="{9407E2CD-5885-412D-9993-63CFFD24284F}" DurationType="OneShot" DurationMin="0.18877485" DurationMax="0.21189263">
 					<MediaRefs>
 						<MediaRef Id="81063726"/>
 						<MediaRef Id="288658200"/>
@@ -2109,7 +2360,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2365754676" Type="Event" GUID="{E9C7E76D-C404-4781-BE73-59D9808B1208}" Language="SFX" Hash="{EA955B95-B596-03C4-BA1F-CE353F1AE9C8}">
+		<SoundBank Id="2365754676" Type="Event" GUID="{E9C7E76D-C404-4781-BE73-59D9808B1208}" Language="SFX" Hash="{DA2471C7-B2A4-D2E9-1B98-70E22C680A47}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_HitSurface</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_HitSurface</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_HitSurface.bnk</Path>
@@ -2146,7 +2397,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2365754676" Name="SFX_MC_Weapon_Chakrams_HitSurface" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface" GUID="{E9C7E76D-C404-4781-BE73-59D9808B1208}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.26666668">
+				<Event Id="2365754676" Name="SFX_MC_Weapon_Chakrams_HitSurface" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_HitSurface" GUID="{E9C7E76D-C404-4781-BE73-59D9808B1208}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.2516998" DurationMax="0.2825235">
 					<MediaRefs>
 						<MediaRef Id="94147978"/>
 						<MediaRef Id="458107386"/>
@@ -2461,7 +2712,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2517622237" Type="Event" GUID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}" Language="SFX" Hash="{ED015DDA-6509-C20F-7DD4-B2CDFC7BBEA4}">
+		<SoundBank Id="2517622237" Type="Event" GUID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}" Language="SFX" Hash="{D281B347-59F9-9140-0E71-94DCCCAEEAEE}">
 			<ObjectPath>UI_InGame_WeaponSecondaryReload</ObjectPath>
 			<ShortName>UI_InGame_WeaponSecondaryReload</ShortName>
 			<Path>Event/UI_InGame_WeaponSecondaryReload.bnk</Path>
@@ -2488,7 +2739,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2517622237" Name="UI_InGame_WeaponSecondaryReload" ObjectPath="\Events\UI\UI_InGame\UI_InGame_WeaponSecondaryReload" GUID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}" DurationType="OneShot" DurationMin="0.53333336" DurationMax="0.53333336">
+				<Event Id="2517622237" Name="UI_InGame_WeaponSecondaryReload" ObjectPath="\Events\UI\UI_InGame\UI_InGame_WeaponSecondaryReload" GUID="{B9E09E34-9199-4EDF-8B27-A6298B752B94}" DurationType="OneShot" DurationMin="0.5033996" DurationMax="0.565047">
 					<MediaRefs>
 						<MediaRef Id="482670350"/>
 						<MediaRef Id="609974740"/>
@@ -2496,6 +2747,75 @@
 						<MediaRef Id="878713625"/>
 					</MediaRefs>
 				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2592439718" Type="Event" GUID="{54FDB89F-2388-4096-8D03-014690817D75}" Language="English(US)" Hash="{7898BE80-068B-263C-7E98-6E698E5A8E24}">
+			<ObjectPath>SFX_MC_Death</ObjectPath>
+			<ShortName>SFX_MC_Death</ShortName>
+			<Path>Event/English(US)/SFX_MC_Death.bnk</Path>
+			<Media>
+				<File Id="102666523" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Death\SFX_MC_Death_01.wav</ShortName>
+					<Path>Media/102666523.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Death/SFX_MC_Death_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="124313777" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_04.wav</ShortName>
+					<Path>Media/English(US)/124313777.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="344258897" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_02.wav</ShortName>
+					<Path>Media/English(US)/344258897.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="554230171" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_05.wav</ShortName>
+					<Path>Media/English(US)/554230171.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="556237807" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_01.wav</ShortName>
+					<Path>Media/English(US)/556237807.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="573120549" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_03.wav</ShortName>
+					<Path>Media/English(US)/573120549.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="861775547" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_06.wav</ShortName>
+					<Path>Media/English(US)/861775547.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1016486179" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Death\SFX_MC_Death_02.wav</ShortName>
+					<Path>Media/1016486179.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Death/SFX_MC_Death_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2592439718" Name="SFX_MC_Death" ObjectPath="\Events\SFX\SFX_MC_Death" GUID="{54FDB89F-2388-4096-8D03-014690817D75}" DurationType="OneShot" DurationMin="7.2458653" DurationMax="7.9016714">
+					<MediaRefs>
+						<MediaRef Id="102666523"/>
+						<MediaRef Id="124313777"/>
+						<MediaRef Id="344258897"/>
+						<MediaRef Id="554230171"/>
+						<MediaRef Id="556237807"/>
+						<MediaRef Id="573120549"/>
+						<MediaRef Id="861775547"/>
+						<MediaRef Id="1016486179"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2685423788" Type="Event" GUID="{BD75D1BE-B933-4BD9-A504-4E25B2148D21}" Language="SFX" Hash="{31685BEF-3E9E-F882-A3A0-4ECA5D746FB9}">
+			<ObjectPath>VO_Ari_Gameplay_Hurt_01</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Hurt_01</ShortName>
+			<Path>Event/VO_Ari_Gameplay_Hurt_01.bnk</Path>
+			<Events>
+				<Event Id="2685423788" Name="VO_Ari_Gameplay_Hurt_01" ObjectPath="\Events\Default Work Unit\VO_Ari_Gameplay_Hurt_01" GUID="{BD75D1BE-B933-4BD9-A504-4E25B2148D21}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="2699544719" Type="Event" GUID="{0468A734-9547-42F4-B80E-337C2AC901A2}" Language="English(US)" Hash="{00F9D873-26B9-167E-8BE9-F132A4A101AD}">
@@ -2519,6 +2839,43 @@
 					<MediaRefs>
 						<MediaRef Id="72894477"/>
 						<MediaRef Id="337048800"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2751508176" Type="Event" GUID="{18DF74F5-BA54-49B5-8F44-F1D587D056B9}" Language="SFX" Hash="{8D7BB057-5BDA-D347-2431-5C7C8EF52FA0}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_HitSurface</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_HitSurface</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_HitSurface.bnk</Path>
+			<Media>
+				<File Id="6700452" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitSurface\SFX_MC_Weapon_Vajra_HitSurface_03.wav</ShortName>
+					<Path>Media/6700452.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitSurface/SFX_MC_Weapon_Vajra_HitSurface_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="911937851" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitSurface\SFX_MC_Weapon_Vajra_HitSurface_01.wav</ShortName>
+					<Path>Media/911937851.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitSurface/SFX_MC_Weapon_Vajra_HitSurface_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="918986033" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitSurface\SFX_MC_Weapon_Vajra_HitSurface_04.wav</ShortName>
+					<Path>Media/918986033.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitSurface/SFX_MC_Weapon_Vajra_HitSurface_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1049688175" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitSurface\SFX_MC_Weapon_Vajra_HitSurface_02.wav</ShortName>
+					<Path>Media/1049688175.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitSurface/SFX_MC_Weapon_Vajra_HitSurface_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2751508176" Name="SFX_MC_Weapon_Vajra_HitSurface" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitSurface" GUID="{18DF74F5-BA54-49B5-8F44-F1D587D056B9}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.597787" DurationMax="0.6709933">
+					<MediaRefs>
+						<MediaRef Id="6700452"/>
+						<MediaRef Id="911937851"/>
+						<MediaRef Id="918986033"/>
+						<MediaRef Id="1049688175"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -2683,7 +3040,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3087624999" Type="Event" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" Language="SFX" Hash="{333C0E8E-E29D-FEAE-D733-D6444B97FB91}">
+		<SoundBank Id="3087624999" Type="Event" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" Language="SFX" Hash="{DEA238B5-3D4F-C51C-3C6E-CC8489B5A388}">
 			<ObjectPath>UI_InGame_DashReload</ObjectPath>
 			<ShortName>UI_InGame_DashReload</ShortName>
 			<Path>Event/UI_InGame_DashReload.bnk</Path>
@@ -2710,12 +3067,37 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3087624999" Name="UI_InGame_DashReload" ObjectPath="\Events\UI\UI_InGame\UI_InGame_DashReload" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+				<Event Id="3087624999" Name="UI_InGame_DashReload" ObjectPath="\Events\UI\UI_InGame\UI_InGame_DashReload" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
 					<MediaRefs>
 						<MediaRef Id="349160832"/>
 						<MediaRef Id="350351576"/>
 						<MediaRef Id="698753899"/>
 						<MediaRef Id="787442625"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3227713063" Type="Event" GUID="{7D3EEC05-0047-48DF-BCDE-990B193F2B13}" Language="SFX" Hash="{CBFFEDA3-89C0-9EFE-52F0-7E5DB3F63591}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_OverheatEnd</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_OverheatEnd</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_OverheatEnd.bnk</Path>
+			<Media>
+				<File Id="586556047" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_OverheatEnd\SFX_MC_Weapon_Vajra_OverheatEnd_02.wav</ShortName>
+					<Path>Media/586556047.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_OverheatEnd/SFX_MC_Weapon_Vajra_OverheatEnd_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="877948331" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_OverheatEnd\SFX_MC_Weapon_Vajra_OverheatEnd_01.wav</ShortName>
+					<Path>Media/877948331.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_OverheatEnd/SFX_MC_Weapon_Vajra_OverheatEnd_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3227713063" Name="SFX_MC_Weapon_Vajra_OverheatEnd" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_OverheatEnd" GUID="{7D3EEC05-0047-48DF-BCDE-990B193F2B13}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="1.4472739" DurationMax="1.6245102">
+					<MediaRefs>
+						<MediaRef Id="586556047"/>
+						<MediaRef Id="877948331"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -2739,7 +3121,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3237189652" Type="Event" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" Language="SFX" Hash="{D76EC39B-3E37-8396-AB69-00E966D6458F}">
+		<SoundBank Id="3237189652" Type="Event" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" Language="SFX" Hash="{4E91ECE4-9DB4-697A-DAE5-5DD083897670}">
 			<ObjectPath>UI_Menu_Pause</ObjectPath>
 			<ShortName>UI_Menu_Pause</ShortName>
 			<Path>Event/UI_Menu_Pause.bnk</Path>
@@ -2766,7 +3148,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Pause" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" DurationType="OneShot" DurationMin="0.23333333" DurationMax="0.23333333">
+				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Pause" GUID="{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}" DurationType="OneShot" DurationMin="0.22023733" DurationMax="0.24720807">
 					<MediaRefs>
 						<MediaRef Id="30211341"/>
 						<MediaRef Id="372932434"/>
@@ -2788,7 +3170,63 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3474566310" Type="Event" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" Language="SFX" Hash="{5286791E-3D19-FEB1-C27D-A21A64376572}">
+		<SoundBank Id="3277769214" Type="Event" GUID="{38E99CB2-A3A6-447C-8618-7576FA9C65DA}" Language="SFX" Hash="{9818FA4C-C938-00A7-1FA3-102D42ED9A36}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Explosion</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Explosion</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Explosion.bnk</Path>
+			<Media>
+				<File Id="34378861" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Explosion\SFX_MC_Weapon_Vajra_Secondary_Explosion_01.wav</ShortName>
+					<Path>Media/34378861.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Explosion/SFX_MC_Weapon_Vajra_Secondary_Explosion_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="443444412" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Explosion\SFX_MC_Weapon_Vajra_Secondary_Explosion_02.wav</ShortName>
+					<Path>Media/443444412.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Explosion/SFX_MC_Weapon_Vajra_Secondary_Explosion_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3277769214" Name="SFX_MC_Weapon_Vajra_Secondary_Explosion" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Explosion" GUID="{38E99CB2-A3A6-447C-8618-7576FA9C65DA}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="3.0203977" DurationMax="3.3902822">
+					<MediaRefs>
+						<MediaRef Id="34378861"/>
+						<MediaRef Id="443444412"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3397588129" Type="Event" GUID="{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}" Language="SFX" Hash="{90B69F85-717A-0513-0674-E4E7108E6BD1}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Shot</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Shot</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Shot.bnk</Path>
+			<Media>
+				<File Id="68615788" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Shot\SFX_MC_Weapon_Vajra_Secondary_Shot_01.wav</ShortName>
+					<Path>Media/68615788.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Shot/SFX_MC_Weapon_Vajra_Secondary_Shot_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="424978134" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Shot\SFX_MC_Weapon_Vajra_Secondary_Shot_03.wav</ShortName>
+					<Path>Media/424978134.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Shot/SFX_MC_Weapon_Vajra_Secondary_Shot_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="674584431" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Shot\SFX_MC_Weapon_Vajra_Secondary_Shot_02.wav</ShortName>
+					<Path>Media/674584431.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Shot/SFX_MC_Weapon_Vajra_Secondary_Shot_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3397588129" Name="SFX_MC_Weapon_Vajra_Secondary_Shot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Shot" GUID="{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0947785">
+					<MediaRefs>
+						<MediaRef Id="68615788"/>
+						<MediaRef Id="424978134"/>
+						<MediaRef Id="674584431"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3474566310" Type="Event" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" Language="SFX" Hash="{17F428AD-BCA0-373D-AE35-BA9973256AE6}">
 			<ObjectPath>UI_Menu_Select</ObjectPath>
 			<ShortName>UI_Menu_Select</ShortName>
 			<Path>Event/UI_Menu_Select.bnk</Path>
@@ -2810,7 +3248,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Select" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" DurationType="OneShot" DurationMin="0.16666667" DurationMax="0.16666667">
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\UI_Menu\UI_Menu_Select" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" DurationType="OneShot" DurationMin="0.15731238" DurationMax="0.1765772">
 					<MediaRefs>
 						<MediaRef Id="741852206"/>
 						<MediaRef Id="811488791"/>
@@ -2913,6 +3351,51 @@
 						<MediaRef Id="555383650"/>
 					</MediaRefs>
 				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3824118527" Type="Event" GUID="{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}" Language="SFX" Hash="{C505C3B9-B0CA-B16A-1B72-2C61C0217D9F}">
+			<ObjectPath>SFX_MC_Weapon_Switch</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Switch</ShortName>
+			<Path>Event/SFX_MC_Weapon_Switch.bnk</Path>
+			<Media>
+				<File Id="154691367" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Switch\SFX_MC_Weapon_Switch_02.wav</ShortName>
+					<Path>Media/154691367.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Switch/SFX_MC_Weapon_Switch_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="237816432" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Switch\SFX_MC_Weapon_Switch_03.wav</ShortName>
+					<Path>Media/237816432.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Switch/SFX_MC_Weapon_Switch_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="462710297" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Switch\SFX_MC_Weapon_Switch_01.wav</ShortName>
+					<Path>Media/462710297.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Switch/SFX_MC_Weapon_Switch_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="597777705" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Switch\SFX_MC_Weapon_Switch_04.wav</ShortName>
+					<Path>Media/597777705.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Switch/SFX_MC_Weapon_Switch_04_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3824118527" Name="SFX_MC_Weapon_Switch" ObjectPath="\Events\SFX\SFX_MC_Weapon_Switch" GUID="{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.91241175" DurationMax="1.0947785">
+					<MediaRefs>
+						<MediaRef Id="154691367"/>
+						<MediaRef Id="237816432"/>
+						<MediaRef Id="462710297"/>
+						<MediaRef Id="597777705"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3915970521" Type="Event" GUID="{56C3B3D0-8F35-4419-8507-E6ED5C9A9877}" Language="SFX" Hash="{EF3F9921-C3FA-2FAC-E3DD-85C47D09FC69}">
+			<ObjectPath>VO_Ari_Gameplay_Death_01</ObjectPath>
+			<ShortName>VO_Ari_Gameplay_Death_01</ShortName>
+			<Path>Event/VO_Ari_Gameplay_Death_01.bnk</Path>
+			<Events>
+				<Event Id="3915970521" Name="VO_Ari_Gameplay_Death_01" ObjectPath="\Events\Default Work Unit\VO_Ari_Gameplay_Death_01" GUID="{56C3B3D0-8F35-4419-8507-E6ED5C9A9877}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="3916625737" Type="Event" GUID="{2633593B-CB85-4E2A-B3B1-47322616C39D}" Language="English(US)" Hash="{EE7481E8-A142-29CA-F633-886A65ADE960}">
@@ -3364,7 +3847,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4218817288" Type="Event" GUID="{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}" Language="SFX" Hash="{AEB7EFDF-6B3C-6132-2DA1-84AE7328C053}">
+		<SoundBank Id="4218817288" Type="Event" GUID="{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}" Language="SFX" Hash="{02F663CD-484F-DE62-ECFA-81B12B8410AE}">
 			<ObjectPath>SFX_GPE_Launcher_Idle_lp</ObjectPath>
 			<ShortName>SFX_GPE_Launcher_Idle_lp</ShortName>
 			<Path>Event/SFX_GPE_Launcher_Idle_lp.bnk</Path>
@@ -3383,6 +3866,97 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="4227750726" Type="Event" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" Language="English(US)" Hash="{E855BA94-F59E-170D-740E-92FF32049EF4}">
+			<ObjectPath>SFX_MC_TakeDamage</ObjectPath>
+			<ShortName>SFX_MC_TakeDamage</ShortName>
+			<Path>Event/English(US)/SFX_MC_TakeDamage.bnk</Path>
+			<Media>
+				<File Id="59693309" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_03.wav</ShortName>
+					<Path>Media/English(US)/59693309.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="71444088" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_07.wav</ShortName>
+					<Path>Media/English(US)/71444088.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="256735463" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_05.wav</ShortName>
+					<Path>Media/English(US)/256735463.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="321803169" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_TakeDamage\SFX_MC_TakeDamage_01.wav</ShortName>
+					<Path>Media/321803169.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_TakeDamage/SFX_MC_TakeDamage_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="323284250" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_01.wav</ShortName>
+					<Path>Media/English(US)/323284250.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="328077789" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_06.wav</ShortName>
+					<Path>Media/English(US)/328077789.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="350676194" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_TakeDamage\SFX_MC_TakeDamage_03.wav</ShortName>
+					<Path>Media/350676194.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_TakeDamage/SFX_MC_TakeDamage_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="390295673" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_04.wav</ShortName>
+					<Path>Media/English(US)/390295673.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="568341496" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_TakeDamage\SFX_MC_TakeDamage_05.wav</ShortName>
+					<Path>Media/568341496.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_TakeDamage/SFX_MC_TakeDamage_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="796631547" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_TakeDamage\SFX_MC_TakeDamage_02.wav</ShortName>
+					<Path>Media/796631547.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_TakeDamage/SFX_MC_TakeDamage_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="814216493" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_TakeDamage\SFX_MC_TakeDamage_04.wav</ShortName>
+					<Path>Media/814216493.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_TakeDamage/SFX_MC_TakeDamage_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="861316731" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_02.wav</ShortName>
+					<Path>Media/English(US)/861316731.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1007924528" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_TakeDamage\SFX_MC_TakeDamage_06.wav</ShortName>
+					<Path>Media/1007924528.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_TakeDamage/SFX_MC_TakeDamage_06_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4227750726" Name="SFX_MC_TakeDamage" ObjectPath="\Events\SFX\SFX_MC_TakeDamage" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" DurationType="OneShot" DurationMin="0.48" DurationMax="1.4">
+					<MediaRefs>
+						<MediaRef Id="59693309"/>
+						<MediaRef Id="71444088"/>
+						<MediaRef Id="256735463"/>
+						<MediaRef Id="321803169"/>
+						<MediaRef Id="323284250"/>
+						<MediaRef Id="328077789"/>
+						<MediaRef Id="350676194"/>
+						<MediaRef Id="390295673"/>
+						<MediaRef Id="568341496"/>
+						<MediaRef Id="796631547"/>
+						<MediaRef Id="814216493"/>
+						<MediaRef Id="861316731"/>
+						<MediaRef Id="1007924528"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DEDE596E-EB10-D44A-3087-09C309CAB55D}</FileHash>
+	<FileHash>{D796D4D0-875D-0A16-2643-CEECFCA42D69}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}",
     "Language": "SFX",
-    "Hash": "{D74B1957-1CCF-6C81-B06D-1445F4BE2E8B}",
+    "Hash": "{23C33A0C-7D74-7185-D744-AF019FC59C5E}",
     "ObjectPath": "SFX_GPE_Launcher_Jump",
     "ShortName": "SFX_GPE_Launcher_Jump",
     "Path": "Event/SFX_GPE_Launcher_Jump.bnk",
@@ -51,8 +51,8 @@
       "GUID": "{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}",
       "MaxAttenuation": "2500",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.91700405",
+      "DurationMax": "1.0905077",
       "MediaRefs": [
        {
         "Id": "188956989"
@@ -68,6 +68,6 @@
     ]
    }
   ],
-  "FileHash": "{1D8F30EB-1AAD-A5B8-2FC1-9134889ACAD2}"
+  "FileHash": "{F2AA16EB-29C3-29EB-CF6C-EA96B79FABC8}"
  }
 }

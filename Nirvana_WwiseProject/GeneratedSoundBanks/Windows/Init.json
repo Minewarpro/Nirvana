@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D3C9FBE8-B62B-087F-9D19-D2B07437EB29}",
+    "Hash": "{608BE880-6A5A-F20F-042B-0FCE28E92985}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "491419128",
+       "Name": "Meter (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\SFX\\SFX_MC_Weapon\\[Effect Slot [0]: (Meter)]\\Meter (Custom)",
+       "GUID": "{417C41AE-A40F-4257-BE72-E499229A6261}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -72,6 +82,19 @@
       "GUID": "{020D4FC4-5D20-4295-9814-95DBB08CA8D4}"
      },
      {
+      "Id": "1689427244",
+      "Name": "SFX_MC_Weapon",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\SFX\\SFX_MC_Weapon",
+      "GUID": "{EB51325C-73E9-4506-A90C-000CAEB5D97D}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "491419128"
+        }
+       ]
+      }
+     },
+     {
       "Id": "1802970383",
       "Name": "FT",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\FT",
@@ -116,6 +139,12 @@
       "Name": "RTPC_UI_Effects",
       "ObjectPath": "\\Game Parameters\\RTPC_UI\\RTPC_UI_Effects",
       "GUID": "{2B55FAD0-C41F-48A2-8CBC-0F24FEDD1EE7}"
+     },
+     {
+      "Id": "1526392608",
+      "Name": "RTPC_SFX_MC_Weapon_Meter",
+      "ObjectPath": "\\Game Parameters\\RTPC_SFX\\RTPC_SFX_MC_Weapon_Meter",
+      "GUID": "{86852467-6F73-4A7D-A970-056FB33188A5}"
      },
      {
       "Id": "3569469165",
@@ -246,6 +275,6 @@
     ]
    }
   ],
-  "FileHash": "{F27C3A07-053C-F912-3D5F-C7887E97D1C1}"
+  "FileHash": "{5C73A6F6-FFD6-0045-EF8D-FD005123C3FE}"
  }
 }

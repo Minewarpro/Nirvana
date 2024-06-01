@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3227713063",
+    "Type": "Event",
+    "GUID": "{7D3EEC05-0047-48DF-BCDE-990B193F2B13}",
+    "Language": "SFX",
+    "Hash": "{CBFFEDA3-89C0-9EFE-52F0-7E5DB3F63591}",
+    "ObjectPath": "SFX_MC_Weapon_Vajra_OverheatEnd",
+    "ShortName": "SFX_MC_Weapon_Vajra_OverheatEnd",
+    "Path": "Event/SFX_MC_Weapon_Vajra_OverheatEnd.bnk",
+    "Media": [
+     {
+      "Id": "586556047",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_OverheatEnd\\SFX_MC_Weapon_Vajra_OverheatEnd_02.wav",
+      "Path": "Media/586556047.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_OverheatEnd/SFX_MC_Weapon_Vajra_OverheatEnd_02_818F3B66.wem"
+     },
+     {
+      "Id": "877948331",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_OverheatEnd\\SFX_MC_Weapon_Vajra_OverheatEnd_01.wav",
+      "Path": "Media/877948331.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_OverheatEnd/SFX_MC_Weapon_Vajra_OverheatEnd_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3227713063",
+      "Name": "SFX_MC_Weapon_Vajra_OverheatEnd",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_OverheatEnd",
+      "GUID": "{7D3EEC05-0047-48DF-BCDE-990B193F2B13}",
+      "MaxAttenuation": "2500",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4472739",
+      "DurationMax": "1.6245102",
+      "MediaRefs": [
+       {
+        "Id": "586556047"
+       },
+       {
+        "Id": "877948331"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{05BFDFCB-EC78-8E59-5E4B-21629E4EC17A}"
+ }
+}

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}",
     "Language": "SFX",
-    "Hash": "{04ED1BAE-CFD3-E8F7-790B-4E47A543C5A4}",
+    "Hash": "{600A8A83-B77B-DE51-97ED-AE017380ECB9}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_SecondaryShot",
     "ShortName": "SFX_MC_Weapon_Chakrams_SecondaryShot",
     "Path": "Event/SFX_MC_Weapon_Chakrams_SecondaryShot.bnk",
@@ -49,10 +49,10 @@
       "Name": "SFX_MC_Weapon_Chakrams_SecondaryShot",
       "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_SecondaryShot",
       "GUID": "{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}",
-      "MaxAttenuation": "7000",
+      "MaxAttenuation": "2500",
       "DurationType": "OneShot",
-      "DurationMin": "1.0666667",
-      "DurationMax": "1.067625",
+      "DurationMin": "1.0067992",
+      "DurationMax": "1.1311094",
       "MediaRefs": [
        {
         "Id": "244943397"
@@ -68,6 +68,6 @@
     ]
    }
   ],
-  "FileHash": "{5919B1BE-EB85-329F-92AA-04133BB247ED}"
+  "FileHash": "{F68B39D1-35F4-9C2C-366E-AC473809C698}"
  }
 }

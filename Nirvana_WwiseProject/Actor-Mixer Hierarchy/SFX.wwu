@@ -9,7 +9,6 @@
 			<ChildrenList>
 				<ActorMixer Name="SFX" ID="{A1A1F830-F4E3-48AD-BA89-55F1D5B26882}" ShortID="651451164">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
@@ -50,7 +49,14 @@
 							</ReferenceList>
 						</ActorMixer>
 						<ActorMixer Name="SFX_GPE_Launcher" ID="{1A043197-65A4-45FC-84F4-F60F4B1B11BD}" ShortID="720676564">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_2500" ID="{65C77362-A9BC-4B8A-A5F1-C5A6E61D9E22}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 								</Reference>
@@ -66,9 +72,21 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C7A9F076-1F6E-4644-9FFA-C2557AAABA91}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-20</Value>
+												<Value>-23</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -104,10 +122,35 @@
 											</ValueList>
 										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{54D5735C-7FAA-4D26-AA4F-EE4A1EB22B90}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
 											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9CEE9122-7C7B-4E7B-BD6C-E4E7ED45417D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -193,7 +236,17 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{77BE876A-3C88-4E99-9FD6-FE3FC3AA49CB}">
+												<PropertyList>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -209,10 +262,43 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_HitENM" ID="{60C7D297-0F62-4056-9F4D-F563D5DAAC53}" ShortID="530729145">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{242CC0A9-F668-417B-9C90-959745712D58}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3F8948F7-DD16-4924-839D-1A68603A2E75}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-1.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_7000" ID="{A49EB5F1-363D-4893-87A4-53F087EF3ED9}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
@@ -357,10 +443,43 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_HitSurface" ID="{A42D47AF-3864-43BA-8EB1-7791FAA48CDE}" ShortID="76280409">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{89175834-9D1A-4BA2-82FF-5137AE2B8CC2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B303D4CB-402D-46F4-839E-73C4451262D6}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-1.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_7000" ID="{A49EB5F1-363D-4893-87A4-53F087EF3ED9}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
@@ -505,7 +624,32 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_OverheatBegin" ID="{9E555A81-776E-4A56-AD89-84E44FFBB1BC}" ShortID="105936833">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{15ECF2F9-C6C8-4FDA-8A8A-B042F162D783}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{30D15FFE-3764-499E-88F8-92C2A2BC9E4C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-1.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -564,7 +708,35 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_OverheatEnd" ID="{0A20E3DF-F33C-451A-8547-378FABED574F}" ShortID="201977239">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2C3B2D46-E559-4D66-B349-FB89F768051B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9F91624F-F79E-437D-8893-640807764505}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-1.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -624,6 +796,23 @@
 								<Sound Name="SFX_MC_Weapon_Chakrams_Overheating_lp" ID="{AA7E0936-5D60-4EDF-8C36-79D272773191}" ShortID="517027830">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1101D997-A512-40AF-BBFD-26EDF9EDFC37}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="75"/>
+															<Property Name="Min" Type="Real64" Value="-75"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -648,8 +837,43 @@
 								</Sound>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_PrimaryShot" ID="{77F3A466-BBCE-4EBF-9712-092EC36D3374}" ShortID="223835287">
 									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F3895F60-2B9E-4397-8C1C-CC3D82191039}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FADEA455-0C1C-4841-99D2-65FACF75EBAB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-1.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -660,7 +884,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_01" ID="{C009C68C-E3D7-413C-9B99-49F350D6085A}" ShortID="1059074742">
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_01" ID="{D2558B9B-F3CF-48A6-8517-39E086248681}" ShortID="1030457436">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -670,7 +894,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_01" ID="{5635F01E-1827-4C70-8B21-14F8D91B7388}">
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_01" ID="{05E828A6-5768-43E6-BD89-A18C6BD324B0}">
 													<Language>SFX</Language>
 													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_01.wav</AudioFile>
 													<MediaIDList>
@@ -679,10 +903,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_01" ID="{5635F01E-1827-4C70-8B21-14F8D91B7388}" Platform="Linked"/>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_01" ID="{05E828A6-5768-43E6-BD89-A18C6BD324B0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_02" ID="{F8B55A1D-D5FD-4059-9CB6-58581B99A306}" ShortID="269289298">
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_02" ID="{46AE55C3-CA2C-4F29-9156-2708DAFCC1A9}" ShortID="258640990">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -692,7 +916,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_02" ID="{00222E08-E351-434D-BA08-C7808F780405}">
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_02" ID="{B2CC7B47-AC3D-4199-8E2B-3F1617A1606D}">
 													<Language>SFX</Language>
 													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_02.wav</AudioFile>
 													<MediaIDList>
@@ -701,10 +925,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_02" ID="{00222E08-E351-434D-BA08-C7808F780405}" Platform="Linked"/>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_02" ID="{B2CC7B47-AC3D-4199-8E2B-3F1617A1606D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_03" ID="{AB460599-7E2F-4570-B8B0-82A6A8802FC0}" ShortID="308123959">
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_03" ID="{0180606E-9D34-4E84-A4BE-8FE853761944}" ShortID="526337643">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -714,7 +938,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_03" ID="{182CBE60-F846-42C2-8E6E-268DC13AB6FB}">
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_03" ID="{9CB2AAA3-2BE6-4776-BD85-5F91D9D26AD8}">
 													<Language>SFX</Language>
 													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_03.wav</AudioFile>
 													<MediaIDList>
@@ -723,10 +947,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_03" ID="{182CBE60-F846-42C2-8E6E-268DC13AB6FB}" Platform="Linked"/>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_03" ID="{9CB2AAA3-2BE6-4776-BD85-5F91D9D26AD8}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_04" ID="{DC59ACEA-5DC4-4C71-A1BF-CB722B2B98DB}" ShortID="867460729">
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_04" ID="{53B3C145-36E0-494E-A547-D90B744CFE48}" ShortID="259602736">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -736,7 +960,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_04" ID="{FCA21FAC-E703-466D-BED6-3CB85AD99F28}">
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_04" ID="{65943AC9-94C2-4461-B098-CFFD99B379AB}">
 													<Language>SFX</Language>
 													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_04.wav</AudioFile>
 													<MediaIDList>
@@ -745,10 +969,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_04" ID="{FCA21FAC-E703-466D-BED6-3CB85AD99F28}" Platform="Linked"/>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_04" ID="{65943AC9-94C2-4461-B098-CFFD99B379AB}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_05" ID="{07EC47F7-1A17-4DB9-A31E-5E510C8A7D3E}" ShortID="890647831">
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_05" ID="{DD6A5953-48FC-43AA-8D40-F590F3824BAF}" ShortID="367242464">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -758,7 +982,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_05" ID="{10303F32-EE98-45C1-95C0-F160157A58AF}">
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_05" ID="{59155ABE-3A96-4D93-9209-E058721020AE}">
 													<Language>SFX</Language>
 													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_05.wav</AudioFile>
 													<MediaIDList>
@@ -767,10 +991,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_05" ID="{10303F32-EE98-45C1-95C0-F160157A58AF}" Platform="Linked"/>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_05" ID="{59155ABE-3A96-4D93-9209-E058721020AE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_06" ID="{AEE46E05-8A0D-444F-81B5-DA32F411F57A}" ShortID="96601197">
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_06" ID="{6B5618F0-F988-4E76-A249-EA99EDF43073}" ShortID="462378304">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -780,7 +1004,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_06" ID="{0BE982DC-94B3-42BF-8E3E-959F82AB02AE}">
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_06" ID="{BFAD143C-6E9F-4CD7-AB38-944E7AB7D8F9}">
 													<Language>SFX</Language>
 													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_06.wav</AudioFile>
 													<MediaIDList>
@@ -789,10 +1013,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_06" ID="{0BE982DC-94B3-42BF-8E3E-959F82AB02AE}" Platform="Linked"/>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_06" ID="{BFAD143C-6E9F-4CD7-AB38-944E7AB7D8F9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_07" ID="{C55E08F6-90A4-4CED-B461-DE248D56A15C}" ShortID="892061980">
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_07" ID="{7E6B5035-7185-4144-8E3C-6CD5092007F8}" ShortID="648431625">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -802,7 +1026,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_07" ID="{6E911B29-7BE1-49FD-B136-11CC55020409}">
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_07" ID="{D7B9F480-0801-4087-B3F0-371C302FB333}">
 													<Language>SFX</Language>
 													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_07.wav</AudioFile>
 													<MediaIDList>
@@ -811,10 +1035,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_07" ID="{6E911B29-7BE1-49FD-B136-11CC55020409}" Platform="Linked"/>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_07" ID="{D7B9F480-0801-4087-B3F0-371C302FB333}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_08" ID="{AE134F6B-3D26-418D-B013-A22E23592442}" ShortID="973571448">
+										<Sound Name="SFX_MC_Weapon_Chakrams_PrimaryShot_08" ID="{883610D8-C04C-44F5-A70A-EA30F56E384A}" ShortID="644942212">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -824,7 +1048,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_08" ID="{71710A4A-EF81-469B-8F33-F9FFB9036663}">
+												<AudioFileSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_08" ID="{A5877A45-47D8-412C-A814-FA50D65C7AAA}">
 													<Language>SFX</Language>
 													<AudioFile>SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_PrimaryShot\SFX_MC_Weapon_Chakrams_PrimaryShot_08.wav</AudioFile>
 													<MediaIDList>
@@ -833,14 +1057,49 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_08" ID="{71710A4A-EF81-469B-8F33-F9FFB9036663}" Platform="Linked"/>
+												<ActiveSource Name="SFX_MC_Weapon_Chakrams_PrimaryShot_08" ID="{A5877A45-47D8-412C-A814-FA50D65C7AAA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_SecondaryShot" ID="{4E56CCBB-C7EB-4DA9-83A2-44AE9D5E8162}" ShortID="956560814">
 									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C3B04627-1774-4E73-AA73-B81749BB775C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3F0AC1D5-A414-48E5-A579-1E42353101EA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-1.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -925,7 +1184,6 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -941,10 +1199,40 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_HitENM" ID="{85C43646-BF2A-41AB-B8FA-6CE1472080F7}" ShortID="487786117">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{870AA967-760C-403F-8CD3-26FE0472B717}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{406391B5-2E20-40E0-9B05-3F9508A86B14}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_7000" ID="{A49EB5F1-363D-4893-87A4-53F087EF3ED9}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
@@ -1045,10 +1333,40 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_HitSurface" ID="{7B9CD90E-DDFD-4CA7-B637-B582DCD41F99}" ShortID="542609245">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3045EC46-3C60-46A3-83FF-BB1C859A439A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{217C1C13-C1BA-4B45-B355-C3B3C6B001FA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_7000" ID="{A49EB5F1-363D-4893-87A4-53F087EF3ED9}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
@@ -1149,7 +1467,35 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_OverheatBegin" ID="{8166CD36-6CC7-4DAA-9102-A4386B9E578A}" ShortID="128818718">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C76057EB-DE84-4B1F-86AA-BF3E82818AB1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B3636FCC-DBF9-41B0-A3C5-67384DCEA158}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1208,7 +1554,35 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_OverheatEnd" ID="{EE06B07B-7278-45E1-9240-58E30B615CC8}" ShortID="790874112">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4EFBED0A-6DAF-4916-B87F-B54D390585B3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A0D88592-7820-4853-A85F-0DE3D1E79E99}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1268,6 +1642,11 @@
 								<Sound Name="SFX_MC_Weapon_Vajra_Overheating_lp" ID="{9012CC14-6750-4F6B-A08E-D308E45D2445}" ShortID="952242417">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1293,7 +1672,32 @@
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Primary_Shot" ID="{332A063C-8FA5-4C5A-A126-675339C06311}" ShortID="275943617">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4EFB8BFE-64F6-40AC-AA7A-CC6EAF01EC66}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7B7E5EBE-85AD-4158-8D83-A9D3EC715046}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1439,7 +1843,39 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Secondary_Bounce" ID="{93755432-30C0-4A68-997F-1628E8C36C14}" ShortID="544136985">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B5A31409-AAC0-4541-A0E8-7D7B9921621A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CCC5DDE8-CB28-47DB-8459-9406CB433495}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_2500" ID="{65C77362-A9BC-4B8A-A5F1-C5A6E61D9E22}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
@@ -1540,9 +1976,39 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Secondary_Explosion" ID="{1337706F-2AF3-41C0-BE10-3A0CC93AFB53}" ShortID="864236729">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2ECFE681-2D73-401E-BE88-4E4EE1AECFED}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1C3A8AC3-FD20-40D9-9754-760F8700A6E1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_2500" ID="{65C77362-A9BC-4B8A-A5F1-C5A6E61D9E22}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
@@ -1599,9 +2065,19 @@
 								</RandomSequenceContainer>
 								<Sound Name="SFX_MC_Weapon_Vajra_Secondary_Idle_lp" ID="{4879219E-8213-43ED-AA3F-E48B5D6AE98E}" ShortID="415155268">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_2500" ID="{65C77362-A9BC-4B8A-A5F1-C5A6E61D9E22}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
@@ -1624,9 +2100,42 @@
 								</Sound>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Secondary_Lightning" ID="{589E4638-EAB9-4127-B464-E666541A3D2A}" ShortID="341161540">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5EF3E80C-A7E1-476F-969F-D4C8E96FCEB1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="175"/>
+															<Property Name="Min" Type="Real64" Value="-175"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4C68668C-E22C-440F-A863-88E74537EA9A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_2500" ID="{65C77362-A9BC-4B8A-A5F1-C5A6E61D9E22}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
@@ -1706,6 +2215,34 @@
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Secondary_Shot" ID="{92C23DBA-5118-4F2F-8722-14C5D795C48D}" ShortID="449125954">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{37B14E91-75BF-41EE-A723-683EB358631A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{03E8409C-456F-4BD7-963B-B32A89AA6659}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1798,9 +2335,43 @@
 						</ActorMixer>
 						<RandomSequenceContainer Name="SFX_MC_Death" ID="{FA1151EA-BC3D-4225-AAF1-D424BB402182}" ShortID="363604826">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{19955C01-15E1-4726-BE1D-47EA12FA556D}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F4FF3064-7509-41A4-8DAB-2264EB482A47}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4D750068-6B5B-48CA-A14A-BF061696A843}">
+												<PropertyList>
+													<Property Name="Min" Type="Real64" Value="-1.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_2500" ID="{65C77362-A9BC-4B8A-A5F1-C5A6E61D9E22}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 								</Reference>
@@ -1857,10 +2428,48 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="SFX_MC_HealthPick" ID="{3F7A72E9-27DF-421E-A571-DAF6CD67080A}" ShortID="941636434">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FB581D08-2A62-42CA-BCC4-BA4381C37517}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B38E0057-376C-4EF5-A7E0-90CC8A7DDEC8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_2500" ID="{65C77362-A9BC-4B8A-A5F1-C5A6E61D9E22}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 								</Reference>
@@ -2006,7 +2615,35 @@
 						<RandomSequenceContainer Name="SFX_MC_Weapon_Switch" ID="{E323E3C8-540B-46F1-B949-672CF0038462}" ShortID="540828572">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C76CE335-CC09-434D-BA0E-474662FC0574}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F01C6583-0D14-4D13-AE2D-306AD739928F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-2.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2110,9 +2747,40 @@
 						<RandomSequenceContainer Name="SFX_MC_TakeDamage" ID="{09F15E97-08FE-4EF9-B32B-32867E777887}" ShortID="589261292">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{17E5D31E-88D3-4455-942D-4C373A24689B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C6EB0D74-9F5F-4119-B8A2-DD76CEB339BA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_2500" ID="{65C77362-A9BC-4B8A-A5F1-C5A6E61D9E22}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 								</Reference>

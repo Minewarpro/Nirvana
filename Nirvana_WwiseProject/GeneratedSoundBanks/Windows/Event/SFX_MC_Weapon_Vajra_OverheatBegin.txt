@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1498943271	SFX_MC_Weapon_Vajra_OverheatBegin			\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_OverheatBegin	
+

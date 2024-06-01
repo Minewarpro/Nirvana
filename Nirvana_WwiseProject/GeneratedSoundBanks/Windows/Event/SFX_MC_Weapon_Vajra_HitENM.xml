@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="534490163" Type="Event" GUID="{0C4EA416-1035-4CE4-9ABB-92441DDADE14}" Language="SFX" Hash="{821CBE3D-04E8-30B9-7A6B-221CE65A93FF}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_HitENM</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_HitENM</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_HitENM.bnk</Path>
+			<Media>
+				<File Id="325656962" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM\SFX_MC_Weapon_Vajra_HitENM_04.wav</ShortName>
+					<Path>Media/325656962.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitENM/SFX_MC_Weapon_Vajra_HitENM_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="434616133" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM\SFX_MC_Weapon_Vajra_HitENM_02.wav</ShortName>
+					<Path>Media/434616133.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitENM/SFX_MC_Weapon_Vajra_HitENM_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="455218719" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM\SFX_MC_Weapon_Vajra_HitENM_03.wav</ShortName>
+					<Path>Media/455218719.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitENM/SFX_MC_Weapon_Vajra_HitENM_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="955010811" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM\SFX_MC_Weapon_Vajra_HitENM_01.wav</ShortName>
+					<Path>Media/955010811.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitENM/SFX_MC_Weapon_Vajra_HitENM_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="534490163" Name="SFX_MC_Weapon_Vajra_HitENM" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitENM" GUID="{0C4EA416-1035-4CE4-9ABB-92441DDADE14}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.84948677" DurationMax="0.9535168">
+					<MediaRefs>
+						<MediaRef Id="325656962"/>
+						<MediaRef Id="434616133"/>
+						<MediaRef Id="455218719"/>
+						<MediaRef Id="955010811"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1357E14A-556C-AA60-16CF-5AFB673916A9}</FileHash>
+</SoundBanksInfo>

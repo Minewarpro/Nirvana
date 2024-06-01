@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3824118527	SFX_MC_Weapon_Switch			\SFX\SFX_MC_Weapon_Switch	
+

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2751508176	SFX_MC_Weapon_Vajra_HitSurface			\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_HitSurface	
+

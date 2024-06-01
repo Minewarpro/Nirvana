@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B9E09E34-9199-4EDF-8B27-A6298B752B94}",
     "Language": "SFX",
-    "Hash": "{ED015DDA-6509-C20F-7DD4-B2CDFC7BBEA4}",
+    "Hash": "{D281B347-59F9-9140-0E71-94DCCCAEEAEE}",
     "ObjectPath": "UI_InGame_WeaponSecondaryReload",
     "ShortName": "UI_InGame_WeaponSecondaryReload",
     "Path": "Event/UI_InGame_WeaponSecondaryReload.bnk",
@@ -59,8 +59,8 @@
       "ObjectPath": "\\Events\\UI\\UI_InGame\\UI_InGame_WeaponSecondaryReload",
       "GUID": "{B9E09E34-9199-4EDF-8B27-A6298B752B94}",
       "DurationType": "OneShot",
-      "DurationMin": "0.53333336",
-      "DurationMax": "0.53333336",
+      "DurationMin": "0.5033996",
+      "DurationMax": "0.565047",
       "MediaRefs": [
        {
         "Id": "482670350"
@@ -79,6 +79,6 @@
     ]
    }
   ],
-  "FileHash": "{F2A0F527-2AC2-E409-8860-AE096D6E7E2E}"
+  "FileHash": "{DC91104E-0BE5-9B85-86FE-E9DAB4F807B5}"
  }
 }

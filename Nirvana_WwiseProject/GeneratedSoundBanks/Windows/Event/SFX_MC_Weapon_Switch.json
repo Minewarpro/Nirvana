@@ -1,0 +1,85 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3824118527",
+    "Type": "Event",
+    "GUID": "{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}",
+    "Language": "SFX",
+    "Hash": "{C505C3B9-B0CA-B16A-1B72-2C61C0217D9F}",
+    "ObjectPath": "SFX_MC_Weapon_Switch",
+    "ShortName": "SFX_MC_Weapon_Switch",
+    "Path": "Event/SFX_MC_Weapon_Switch.bnk",
+    "Media": [
+     {
+      "Id": "154691367",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Switch\\SFX_MC_Weapon_Switch_02.wav",
+      "Path": "Media/154691367.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Switch/SFX_MC_Weapon_Switch_02_818F3B66.wem"
+     },
+     {
+      "Id": "237816432",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Switch\\SFX_MC_Weapon_Switch_03.wav",
+      "Path": "Media/237816432.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Switch/SFX_MC_Weapon_Switch_03_818F3B66.wem"
+     },
+     {
+      "Id": "462710297",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Switch\\SFX_MC_Weapon_Switch_01.wav",
+      "Path": "Media/462710297.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Switch/SFX_MC_Weapon_Switch_01_818F3B66.wem"
+     },
+     {
+      "Id": "597777705",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Switch\\SFX_MC_Weapon_Switch_04.wav",
+      "Path": "Media/597777705.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Switch/SFX_MC_Weapon_Switch_04_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3824118527",
+      "Name": "SFX_MC_Weapon_Switch",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Switch",
+      "GUID": "{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}",
+      "MaxAttenuation": "2500",
+      "DurationType": "OneShot",
+      "DurationMin": "0.91241175",
+      "DurationMax": "1.0947785",
+      "MediaRefs": [
+       {
+        "Id": "154691367"
+       },
+       {
+        "Id": "237816432"
+       },
+       {
+        "Id": "462710297"
+       },
+       {
+        "Id": "597777705"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BF51B9D9-AD7B-6060-D63B-3951BDBCAFBE}"
+ }
+}

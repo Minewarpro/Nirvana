@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1174174029" Type="Event" GUID="{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}" Language="SFX" Hash="{2ED4E4BA-7736-F3BD-C7C4-04C00B95ECBF}">
+			<ObjectPath>SFX_MC_HealthPick</ObjectPath>
+			<ShortName>SFX_MC_HealthPick</ShortName>
+			<Path>Event/SFX_MC_HealthPick.bnk</Path>
+			<Media>
+				<File Id="21175351" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_06.wav</ShortName>
+					<Path>Media/21175351.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="184233588" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_04.wav</ShortName>
+					<Path>Media/184233588.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="583291291" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_01.wav</ShortName>
+					<Path>Media/583291291.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="705435937" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_03.wav</ShortName>
+					<Path>Media/705435937.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="739954720" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_05.wav</ShortName>
+					<Path>Media/739954720.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1054889191" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_HealthPick\SFX_MC_HealthPick_02.wav</ShortName>
+					<Path>Media/1054889191.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1174174029" Name="SFX_MC_HealthPick" ObjectPath="\Events\SFX\SFX_MC_HealthPick" GUID="{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.79473686" DurationMax="1.0178072">
+					<MediaRefs>
+						<MediaRef Id="21175351"/>
+						<MediaRef Id="184233588"/>
+						<MediaRef Id="583291291"/>
+						<MediaRef Id="705435937"/>
+						<MediaRef Id="739954720"/>
+						<MediaRef Id="1054889191"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6AC0650A-B465-16A1-F271-11857DF130AF}</FileHash>
+</SoundBanksInfo>

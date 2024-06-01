@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1483737050	SFX_MC_Weapon_Vajra_Secondary_Idle_lp			\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Idle_lp	
+

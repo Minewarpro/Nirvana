@@ -13,6 +13,7 @@ State	ID	Name	State Group			Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	192836257	RTPC_UI_VO			\RTPC_UI\RTPC_UI_VO	
 	950872934	RTPC_UI_Effects			\RTPC_UI\RTPC_UI_Effects	
+	1526392608	RTPC_SFX_MC_Weapon_Meter			\RTPC_SFX\RTPC_SFX_MC_Weapon_Meter	
 	3569469165	RTPC_UI_Music			\RTPC_UI\RTPC_UI_Music	
 	3605688814	RTPC_UI_Master			\RTPC_UI\RTPC_UI_Master	
 
@@ -23,6 +24,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1117531639	AMB			\Default Work Unit\Master Audio Bus\Effects\AMB	
 	1534528548	VO			\Default Work Unit\Master Audio Bus\VO	
 	1551306167	UI			\Default Work Unit\Master Audio Bus\Effects\UI	
+	1689427244	SFX_MC_Weapon			\Default Work Unit\Master Audio Bus\Effects\SFX\SFX_MC_Weapon	
 	1802970383	FT			\Default Work Unit\Master Audio Bus\Effects\FT	
 	1942696649	Effects			\Default Work Unit\Master Audio Bus\Effects	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
@@ -30,6 +32,9 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	2193711071	REV_			\Default Work Unit\Master Audio Bus\Effects\Rev\REV_	
+
+Effect plug-ins	ID	Name	Type				Notes
+	491419128	Meter (Custom)	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

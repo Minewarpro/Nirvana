@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3397588129",
+    "Type": "Event",
+    "GUID": "{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}",
+    "Language": "SFX",
+    "Hash": "{90B69F85-717A-0513-0674-E4E7108E6BD1}",
+    "ObjectPath": "SFX_MC_Weapon_Vajra_Secondary_Shot",
+    "ShortName": "SFX_MC_Weapon_Vajra_Secondary_Shot",
+    "Path": "Event/SFX_MC_Weapon_Vajra_Secondary_Shot.bnk",
+    "Media": [
+     {
+      "Id": "68615788",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Shot\\SFX_MC_Weapon_Vajra_Secondary_Shot_01.wav",
+      "Path": "Media/68615788.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Shot/SFX_MC_Weapon_Vajra_Secondary_Shot_01_818F3B66.wem"
+     },
+     {
+      "Id": "424978134",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Shot\\SFX_MC_Weapon_Vajra_Secondary_Shot_03.wav",
+      "Path": "Media/424978134.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Shot/SFX_MC_Weapon_Vajra_Secondary_Shot_03_818F3B66.wem"
+     },
+     {
+      "Id": "674584431",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Shot\\SFX_MC_Weapon_Vajra_Secondary_Shot_02.wav",
+      "Path": "Media/674584431.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Shot/SFX_MC_Weapon_Vajra_Secondary_Shot_02_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3397588129",
+      "Name": "SFX_MC_Weapon_Vajra_Secondary_Shot",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Shot",
+      "GUID": "{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}",
+      "MaxAttenuation": "2500",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0947785",
+      "MediaRefs": [
+       {
+        "Id": "68615788"
+       },
+       {
+        "Id": "424978134"
+       },
+       {
+        "Id": "674584431"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{571C1E1A-B016-64F0-D039-82860CB9EA78}"
+ }
+}

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}",
     "Language": "SFX",
-    "Hash": "{D76EC39B-3E37-8396-AB69-00E966D6458F}",
+    "Hash": "{4E91ECE4-9DB4-697A-DAE5-5DD083897670}",
     "ObjectPath": "UI_Menu_Pause",
     "ShortName": "UI_Menu_Pause",
     "Path": "Event/UI_Menu_Pause.bnk",
@@ -59,8 +59,8 @@
       "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_Pause",
       "GUID": "{FC94B9AD-AA54-46C8-9AC4-61F7DBC290FD}",
       "DurationType": "OneShot",
-      "DurationMin": "0.23333333",
-      "DurationMax": "0.23333333",
+      "DurationMin": "0.22023733",
+      "DurationMax": "0.24720807",
       "MediaRefs": [
        {
         "Id": "30211341"
@@ -116,6 +116,6 @@
     ]
    }
   ],
-  "FileHash": "{7777F5FF-AD08-9C41-E0E8-7C00D68CD2EE}"
+  "FileHash": "{AC2EBC68-237F-2E06-33C2-7C5C3C669FA8}"
  }
 }

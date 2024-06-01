@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}",
     "Language": "SFX",
-    "Hash": "{5286791E-3D19-FEB1-C27D-A21A64376572}",
+    "Hash": "{17F428AD-BCA0-373D-AE35-BA9973256AE6}",
     "ObjectPath": "UI_Menu_Select",
     "ShortName": "UI_Menu_Select",
     "Path": "Event/UI_Menu_Select.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_Select",
       "GUID": "{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}",
       "DurationType": "OneShot",
-      "DurationMin": "0.16666667",
-      "DurationMax": "0.16666667",
+      "DurationMin": "0.15731238",
+      "DurationMax": "0.1765772",
       "MediaRefs": [
        {
         "Id": "741852206"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{DEF8E55F-FC62-161E-C515-5AC4F9C8F64C}"
+  "FileHash": "{4CF212A8-0988-5B4F-943C-438ABBC0FC11}"
  }
 }

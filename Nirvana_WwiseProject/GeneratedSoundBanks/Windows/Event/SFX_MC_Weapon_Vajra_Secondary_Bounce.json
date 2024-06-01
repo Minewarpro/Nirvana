@@ -1,0 +1,85 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "934991481",
+    "Type": "Event",
+    "GUID": "{324428D0-0193-4CA6-9B39-69E330023645}",
+    "Language": "SFX",
+    "Hash": "{0D45C9B6-D996-3664-0EA0-8F1C09432E49}",
+    "ObjectPath": "SFX_MC_Weapon_Vajra_Secondary_Bounce",
+    "ShortName": "SFX_MC_Weapon_Vajra_Secondary_Bounce",
+    "Path": "Event/SFX_MC_Weapon_Vajra_Secondary_Bounce.bnk",
+    "Media": [
+     {
+      "Id": "358734753",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Bounce\\SFX_MC_Weapon_Vajra_Secondary_Bounce_03.wav",
+      "Path": "Media/358734753.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Bounce/SFX_MC_Weapon_Vajra_Secondary_Bounce_03_818F3B66.wem"
+     },
+     {
+      "Id": "428001193",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Bounce\\SFX_MC_Weapon_Vajra_Secondary_Bounce_04.wav",
+      "Path": "Media/428001193.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Bounce/SFX_MC_Weapon_Vajra_Secondary_Bounce_04_818F3B66.wem"
+     },
+     {
+      "Id": "609945175",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Bounce\\SFX_MC_Weapon_Vajra_Secondary_Bounce_02.wav",
+      "Path": "Media/609945175.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Bounce/SFX_MC_Weapon_Vajra_Secondary_Bounce_02_818F3B66.wem"
+     },
+     {
+      "Id": "648691944",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Bounce\\SFX_MC_Weapon_Vajra_Secondary_Bounce_01.wav",
+      "Path": "Media/648691944.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Bounce/SFX_MC_Weapon_Vajra_Secondary_Bounce_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "934991481",
+      "Name": "SFX_MC_Weapon_Vajra_Secondary_Bounce",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Bounce",
+      "GUID": "{324428D0-0193-4CA6-9B39-69E330023645}",
+      "MaxAttenuation": "2500",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5033996",
+      "DurationMax": "0.8122551",
+      "MediaRefs": [
+       {
+        "Id": "358734753"
+       },
+       {
+        "Id": "428001193"
+       },
+       {
+        "Id": "609945175"
+       },
+       {
+        "Id": "648691944"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E90A5B59-9160-5AB2-F046-425F9CBA84B1}"
+ }
+}

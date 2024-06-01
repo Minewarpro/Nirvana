@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1486212429" Type="Event" GUID="{7CAB1505-06EC-4601-A109-68F07B61CA2E}" Language="SFX" Hash="{56C0D991-5EBE-909F-FA94-1A7E2D82ED80}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_Primary_Shot</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_Primary_Shot</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_Primary_Shot.bnk</Path>
+			<Media>
+				<File Id="7372697" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_01.wav</ShortName>
+					<Path>Media/7372697.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="407942986" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_03.wav</ShortName>
+					<Path>Media/407942986.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="627478544" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_05.wav</ShortName>
+					<Path>Media/627478544.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="861988515" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_06.wav</ShortName>
+					<Path>Media/861988515.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="897649017" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_02.wav</ShortName>
+					<Path>Media/897649017.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="917904308" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot\SFX_MC_Weapon_Vajra_Primary_Shot_04.wav</ShortName>
+					<Path>Media/917904308.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Primary_Shot/SFX_MC_Weapon_Vajra_Primary_Shot_04_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1486212429" Name="SFX_MC_Weapon_Vajra_Primary_Shot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Primary_Shot" GUID="{7CAB1505-06EC-4601-A109-68F07B61CA2E}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
+					<MediaRefs>
+						<MediaRef Id="7372697"/>
+						<MediaRef Id="407942986"/>
+						<MediaRef Id="627478544"/>
+						<MediaRef Id="861988515"/>
+						<MediaRef Id="897649017"/>
+						<MediaRef Id="917904308"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C5EB2A45-8DD9-1E03-7F53-FE81CDD5704D}</FileHash>
+</SoundBanksInfo>

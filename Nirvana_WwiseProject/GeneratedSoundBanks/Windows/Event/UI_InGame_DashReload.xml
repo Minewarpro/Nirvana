@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3087624999" Type="Event" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" Language="SFX" Hash="{333C0E8E-E29D-FEAE-D733-D6444B97FB91}">
+		<SoundBank Id="3087624999" Type="Event" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" Language="SFX" Hash="{DEA238B5-3D4F-C51C-3C6E-CC8489B5A388}">
 			<ObjectPath>UI_InGame_DashReload</ObjectPath>
 			<ShortName>UI_InGame_DashReload</ShortName>
 			<Path>Event/UI_InGame_DashReload.bnk</Path>
@@ -28,7 +28,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3087624999" Name="UI_InGame_DashReload" ObjectPath="\Events\UI\UI_InGame\UI_InGame_DashReload" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+				<Event Id="3087624999" Name="UI_InGame_DashReload" ObjectPath="\Events\UI\UI_InGame\UI_InGame_DashReload" GUID="{2A856F51-AD8D-412B-8546-D967ECC5BF72}" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
 					<MediaRefs>
 						<MediaRef Id="349160832"/>
 						<MediaRef Id="350351576"/>
@@ -39,5 +39,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D8AD963F-45BA-1B80-DE29-EA2ACBAE9448}</FileHash>
+	<FileHash>{F9362793-2BC6-107E-8983-A96962352F22}</FileHash>
 </SoundBanksInfo>

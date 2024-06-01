@@ -1,0 +1,85 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2751508176",
+    "Type": "Event",
+    "GUID": "{18DF74F5-BA54-49B5-8F44-F1D587D056B9}",
+    "Language": "SFX",
+    "Hash": "{8D7BB057-5BDA-D347-2431-5C7C8EF52FA0}",
+    "ObjectPath": "SFX_MC_Weapon_Vajra_HitSurface",
+    "ShortName": "SFX_MC_Weapon_Vajra_HitSurface",
+    "Path": "Event/SFX_MC_Weapon_Vajra_HitSurface.bnk",
+    "Media": [
+     {
+      "Id": "6700452",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_HitSurface\\SFX_MC_Weapon_Vajra_HitSurface_03.wav",
+      "Path": "Media/6700452.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitSurface/SFX_MC_Weapon_Vajra_HitSurface_03_818F3B66.wem"
+     },
+     {
+      "Id": "911937851",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_HitSurface\\SFX_MC_Weapon_Vajra_HitSurface_01.wav",
+      "Path": "Media/911937851.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitSurface/SFX_MC_Weapon_Vajra_HitSurface_01_818F3B66.wem"
+     },
+     {
+      "Id": "918986033",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_HitSurface\\SFX_MC_Weapon_Vajra_HitSurface_04.wav",
+      "Path": "Media/918986033.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitSurface/SFX_MC_Weapon_Vajra_HitSurface_04_818F3B66.wem"
+     },
+     {
+      "Id": "1049688175",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_HitSurface\\SFX_MC_Weapon_Vajra_HitSurface_02.wav",
+      "Path": "Media/1049688175.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_HitSurface/SFX_MC_Weapon_Vajra_HitSurface_02_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2751508176",
+      "Name": "SFX_MC_Weapon_Vajra_HitSurface",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_HitSurface",
+      "GUID": "{18DF74F5-BA54-49B5-8F44-F1D587D056B9}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.597787",
+      "DurationMax": "0.6709933",
+      "MediaRefs": [
+       {
+        "Id": "6700452"
+       },
+       {
+        "Id": "911937851"
+       },
+       {
+        "Id": "918986033"
+       },
+       {
+        "Id": "1049688175"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FC8D915B-B9D0-CF1C-830A-E4ADC6FEF1F3}"
+ }
+}

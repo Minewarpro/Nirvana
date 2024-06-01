@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="934991481" Type="Event" GUID="{324428D0-0193-4CA6-9B39-69E330023645}" Language="SFX" Hash="{0D45C9B6-D996-3664-0EA0-8F1C09432E49}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Bounce</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Bounce</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Bounce.bnk</Path>
+			<Media>
+				<File Id="358734753" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce\SFX_MC_Weapon_Vajra_Secondary_Bounce_03.wav</ShortName>
+					<Path>Media/358734753.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Bounce/SFX_MC_Weapon_Vajra_Secondary_Bounce_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="428001193" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce\SFX_MC_Weapon_Vajra_Secondary_Bounce_04.wav</ShortName>
+					<Path>Media/428001193.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Bounce/SFX_MC_Weapon_Vajra_Secondary_Bounce_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="609945175" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce\SFX_MC_Weapon_Vajra_Secondary_Bounce_02.wav</ShortName>
+					<Path>Media/609945175.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Bounce/SFX_MC_Weapon_Vajra_Secondary_Bounce_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="648691944" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce\SFX_MC_Weapon_Vajra_Secondary_Bounce_01.wav</ShortName>
+					<Path>Media/648691944.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Bounce/SFX_MC_Weapon_Vajra_Secondary_Bounce_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="934991481" Name="SFX_MC_Weapon_Vajra_Secondary_Bounce" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Bounce" GUID="{324428D0-0193-4CA6-9B39-69E330023645}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.5033996" DurationMax="0.8122551">
+					<MediaRefs>
+						<MediaRef Id="358734753"/>
+						<MediaRef Id="428001193"/>
+						<MediaRef Id="609945175"/>
+						<MediaRef Id="648691944"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{92F9070E-B081-AB2C-F281-C39FDB4CFD42}</FileHash>
+</SoundBanksInfo>

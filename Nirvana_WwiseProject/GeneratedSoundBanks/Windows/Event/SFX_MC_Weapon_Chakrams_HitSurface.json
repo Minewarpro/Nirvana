@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E9C7E76D-C404-4781-BE73-59D9808B1208}",
     "Language": "SFX",
-    "Hash": "{EA955B95-B596-03C4-BA1F-CE353F1AE9C8}",
+    "Hash": "{DA2471C7-B2A4-D2E9-1B98-70E22C680A47}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_HitSurface",
     "ShortName": "SFX_MC_Weapon_Chakrams_HitSurface",
     "Path": "Event/SFX_MC_Weapon_Chakrams_HitSurface.bnk",
@@ -78,8 +78,8 @@
       "GUID": "{E9C7E76D-C404-4781-BE73-59D9808B1208}",
       "MaxAttenuation": "7000",
       "DurationType": "OneShot",
-      "DurationMin": "0.26666668",
-      "DurationMax": "0.26666668",
+      "DurationMin": "0.2516998",
+      "DurationMax": "0.2825235",
       "MediaRefs": [
        {
         "Id": "94147978"
@@ -104,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{20CF7591-FF76-9EBF-6893-005354DB5549}"
+  "FileHash": "{35422682-A066-605F-3B5B-6528D7DDA1D3}"
  }
 }

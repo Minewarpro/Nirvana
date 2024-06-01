@@ -1,0 +1,109 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1174174029",
+    "Type": "Event",
+    "GUID": "{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}",
+    "Language": "SFX",
+    "Hash": "{2ED4E4BA-7736-F3BD-C7C4-04C00B95ECBF}",
+    "ObjectPath": "SFX_MC_HealthPick",
+    "ShortName": "SFX_MC_HealthPick",
+    "Path": "Event/SFX_MC_HealthPick.bnk",
+    "Media": [
+     {
+      "Id": "21175351",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_HealthPick\\SFX_MC_HealthPick_06.wav",
+      "Path": "Media/21175351.wem",
+      "CachePath": "SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_06_818F3B66.wem"
+     },
+     {
+      "Id": "184233588",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_HealthPick\\SFX_MC_HealthPick_04.wav",
+      "Path": "Media/184233588.wem",
+      "CachePath": "SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_04_818F3B66.wem"
+     },
+     {
+      "Id": "583291291",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_HealthPick\\SFX_MC_HealthPick_01.wav",
+      "Path": "Media/583291291.wem",
+      "CachePath": "SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_01_818F3B66.wem"
+     },
+     {
+      "Id": "705435937",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_HealthPick\\SFX_MC_HealthPick_03.wav",
+      "Path": "Media/705435937.wem",
+      "CachePath": "SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_03_818F3B66.wem"
+     },
+     {
+      "Id": "739954720",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_HealthPick\\SFX_MC_HealthPick_05.wav",
+      "Path": "Media/739954720.wem",
+      "CachePath": "SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_05_818F3B66.wem"
+     },
+     {
+      "Id": "1054889191",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_HealthPick\\SFX_MC_HealthPick_02.wav",
+      "Path": "Media/1054889191.wem",
+      "CachePath": "SFX/SFX/SFX_MC_HealthPick/SFX_MC_HealthPick_02_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1174174029",
+      "Name": "SFX_MC_HealthPick",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_HealthPick",
+      "GUID": "{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}",
+      "MaxAttenuation": "2500",
+      "DurationType": "OneShot",
+      "DurationMin": "0.79473686",
+      "DurationMax": "1.0178072",
+      "MediaRefs": [
+       {
+        "Id": "21175351"
+       },
+       {
+        "Id": "184233588"
+       },
+       {
+        "Id": "583291291"
+       },
+       {
+        "Id": "705435937"
+       },
+       {
+        "Id": "739954720"
+       },
+       {
+        "Id": "1054889191"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B8C22CB1-D969-D8F9-31CD-4A6BC2F124BF}"
+ }
+}

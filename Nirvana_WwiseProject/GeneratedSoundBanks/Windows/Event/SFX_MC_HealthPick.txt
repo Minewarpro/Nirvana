@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1174174029	SFX_MC_HealthPick			\SFX\SFX_MC_HealthPick	
+

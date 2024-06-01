@@ -251,6 +251,19 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{3EBA5528-9269-4A9E-A0A5-FDDB5C147FC5}" ShortID="581269901">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="0"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Weapon_Vajra_Secondary_Idle_lp" ID="{4879219E-8213-43ED-AA3F-E48B5D6AE98E}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="SFX_MC_Weapon_Vajra_Secondary_Bounce" ID="{324428D0-0193-4CA6-9B39-69E330023645}">
@@ -378,6 +391,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{6AA04CD2-E8A3-4C8D-A5E1-4806F217B6F9}" ShortID="571924142">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_Ari_Gameplay_Death" ID="{47661741-31E1-440C-B6B6-CBC37FCC8D59}" WorkUnitID="{9F6C0C4B-6578-4A56-B6A0-DB3A2F4BFB21}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="SFX_MC_TakeDamage" ID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}">
@@ -386,6 +406,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_MC_TakeDamage" ID="{09F15E97-08FE-4EF9-B32B-32867E777887}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{15AC07CC-D928-48C8-8E48-8F1FE354C65C}" ShortID="643624180">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_Ari_Gameplay_Hurt" ID="{5D6FD190-355C-49A7-856F-DCE5F002E197}" WorkUnitID="{9F6C0C4B-6578-4A56-B6A0-DB3A2F4BFB21}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

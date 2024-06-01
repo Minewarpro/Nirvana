@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2685423788",
+    "Type": "Event",
+    "GUID": "{BD75D1BE-B933-4BD9-A504-4E25B2148D21}",
+    "Language": "SFX",
+    "Hash": "{31685BEF-3E9E-F882-A3A0-4ECA5D746FB9}",
+    "ObjectPath": "VO_Ari_Gameplay_Hurt_01",
+    "ShortName": "VO_Ari_Gameplay_Hurt_01",
+    "Path": "Event/VO_Ari_Gameplay_Hurt_01.bnk",
+    "Events": [
+     {
+      "Id": "2685423788",
+      "Name": "VO_Ari_Gameplay_Hurt_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\VO_Ari_Gameplay_Hurt_01",
+      "GUID": "{BD75D1BE-B933-4BD9-A504-4E25B2148D21}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{498350FB-3EDD-E288-8002-2507F1BE36E0}"
+ }
+}

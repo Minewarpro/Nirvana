@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}",
     "Language": "SFX",
-    "Hash": "{DAA62C2E-6904-5141-3CB3-9FFB87E447A8}",
+    "Hash": "{C0B1C090-E0FF-AC73-297F-7C64FA466CFD}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_HitENM",
     "ShortName": "SFX_MC_Weapon_Chakrams_HitENM",
     "Path": "Event/SFX_MC_Weapon_Chakrams_HitENM.bnk",
@@ -78,8 +78,8 @@
       "GUID": "{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}",
       "MaxAttenuation": "7000",
       "DurationType": "OneShot",
-      "DurationMin": "0.23333333",
-      "DurationMax": "0.23333333",
+      "DurationMin": "0.22023733",
+      "DurationMax": "0.24720807",
       "MediaRefs": [
        {
         "Id": "126299822"
@@ -104,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{479455CF-E4E6-AEEE-A065-D8CA51C7331F}"
+  "FileHash": "{3DADF655-CE15-D2A5-EAB6-5A374DFB3D6B}"
  }
 }

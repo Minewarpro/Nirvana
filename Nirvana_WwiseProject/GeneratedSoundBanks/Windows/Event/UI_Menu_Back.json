@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E7387EF2-D014-495D-9EC9-0045BB855F8F}",
     "Language": "SFX",
-    "Hash": "{94E82E74-AC78-31B0-066E-0751E2758292}",
+    "Hash": "{0F85DF02-F94F-28EA-45B5-D9D3263C7912}",
     "ObjectPath": "UI_Menu_Back",
     "ShortName": "UI_Menu_Back",
     "Path": "Event/UI_Menu_Back.bnk",
@@ -41,8 +41,8 @@
       "ObjectPath": "\\Events\\UI\\UI_Menu\\UI_Menu_Back",
       "GUID": "{E7387EF2-D014-495D-9EC9-0045BB855F8F}",
       "DurationType": "OneShot",
-      "DurationMin": "0.13333334",
-      "DurationMax": "0.13333334",
+      "DurationMin": "0.1258499",
+      "DurationMax": "0.14126176",
       "MediaRefs": [
        {
         "Id": "549345743"
@@ -55,6 +55,6 @@
     ]
    }
   ],
-  "FileHash": "{E1DB9C5A-C122-AF2E-0A57-D018A88DD91E}"
+  "FileHash": "{40539D79-E052-8326-E72A-851589C208E7}"
  }
 }

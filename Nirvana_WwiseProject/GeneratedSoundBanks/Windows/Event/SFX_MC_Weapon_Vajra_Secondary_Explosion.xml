@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3277769214" Type="Event" GUID="{38E99CB2-A3A6-447C-8618-7576FA9C65DA}" Language="SFX" Hash="{9818FA4C-C938-00A7-1FA3-102D42ED9A36}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Explosion</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Explosion</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Explosion.bnk</Path>
+			<Media>
+				<File Id="34378861" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Explosion\SFX_MC_Weapon_Vajra_Secondary_Explosion_01.wav</ShortName>
+					<Path>Media/34378861.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Explosion/SFX_MC_Weapon_Vajra_Secondary_Explosion_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="443444412" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Explosion\SFX_MC_Weapon_Vajra_Secondary_Explosion_02.wav</ShortName>
+					<Path>Media/443444412.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Explosion/SFX_MC_Weapon_Vajra_Secondary_Explosion_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3277769214" Name="SFX_MC_Weapon_Vajra_Secondary_Explosion" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Explosion" GUID="{38E99CB2-A3A6-447C-8618-7576FA9C65DA}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="3.0203977" DurationMax="3.3902822">
+					<MediaRefs>
+						<MediaRef Id="34378861"/>
+						<MediaRef Id="443444412"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{49A0EA3E-0F37-2302-EDB2-D11C40BAE456}</FileHash>
+</SoundBanksInfo>

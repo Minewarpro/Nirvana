@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "733708365",
+    "Type": "Event",
+    "GUID": "{5C19D422-C820-434B-94C3-0FD0A2504D4A}",
+    "Language": "SFX",
+    "Hash": "{E8ACCE66-B55C-CBCB-C214-AEABFAF2F711}",
+    "ObjectPath": "SFX_MC_Weapon_Vajra_Secondary_Lightning",
+    "ShortName": "SFX_MC_Weapon_Vajra_Secondary_Lightning",
+    "Path": "Event/SFX_MC_Weapon_Vajra_Secondary_Lightning.bnk",
+    "Media": [
+     {
+      "Id": "340696357",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Lightning\\SFX_MC_Weapon_Vajra_Secondary_Lightning_03.wav",
+      "Path": "Media/340696357.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Lightning/SFX_MC_Weapon_Vajra_Secondary_Lightning_03_818F3B66.wem"
+     },
+     {
+      "Id": "560254157",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Lightning\\SFX_MC_Weapon_Vajra_Secondary_Lightning_01.wav",
+      "Path": "Media/560254157.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Lightning/SFX_MC_Weapon_Vajra_Secondary_Lightning_01_818F3B66.wem"
+     },
+     {
+      "Id": "700671199",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Lightning\\SFX_MC_Weapon_Vajra_Secondary_Lightning_02.wav",
+      "Path": "Media/700671199.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Lightning/SFX_MC_Weapon_Vajra_Secondary_Lightning_02_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "733708365",
+      "Name": "SFX_MC_Weapon_Vajra_Secondary_Lightning",
+      "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Vajra\\SFX_MC_Weapon_Vajra_Secondary_Lightning",
+      "GUID": "{5C19D422-C820-434B-94C3-0FD0A2504D4A}",
+      "MaxAttenuation": "2500",
+      "DurationType": "OneShot",
+      "DurationMin": "0.30128574",
+      "DurationMax": "0.36878988",
+      "MediaRefs": [
+       {
+        "Id": "340696357"
+       },
+       {
+        "Id": "560254157"
+       },
+       {
+        "Id": "700671199"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6E3F2405-E214-0C19-9C44-EB8EC667FE9A}"
+ }
+}

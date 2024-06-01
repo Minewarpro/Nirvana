@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EECBB3DB-A081-4355-BE52-097B1FBB8522}",
     "Language": "SFX",
-    "Hash": "{6964474D-95F1-3D15-9146-7FF049451AE2}",
+    "Hash": "{4743E84D-1CB2-DA76-BDFF-09DF92D7804A}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_OverheatBegin",
     "ShortName": "SFX_MC_Weapon_Chakrams_OverheatBegin",
     "Path": "Event/SFX_MC_Weapon_Chakrams_OverheatBegin.bnk",
@@ -23,6 +23,15 @@
       "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_OverheatBegin\\SFX_MC_Weapon_Chakrams_OverheatBegin_01.wav",
       "Path": "Media/239793079.wem",
       "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_OverheatBegin/SFX_MC_Weapon_Chakrams_OverheatBegin_01_818F3B66.wem"
+     },
+     {
+      "Id": "585611060",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_Overheating_lp.wav",
+      "Path": "Media/585611060.wem",
+      "CachePath": "SFX/SFX/SFX_MC_Weapon_Chakrams/SFX_MC_Weapon_Chakrams_Overheating_lp_FBC78EF0.wem"
      },
      {
       "Id": "783098889",
@@ -40,13 +49,14 @@
       "Name": "SFX_MC_Weapon_Chakrams_OverheatBegin",
       "ObjectPath": "\\Events\\SFX\\SFX_MC_Weapon_Chakrams\\SFX_MC_Weapon_Chakrams_OverheatBegin",
       "GUID": "{EECBB3DB-A081-4355-BE52-097B1FBB8522}",
-      "MaxAttenuation": "7000",
-      "DurationType": "OneShot",
-      "DurationMin": "3.4",
-      "DurationMax": "3.4",
+      "MaxAttenuation": "2500",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "239793079"
+       },
+       {
+        "Id": "585611060"
        },
        {
         "Id": "783098889"
@@ -56,6 +66,6 @@
     ]
    }
   ],
-  "FileHash": "{A9FBD8FF-AF6A-26A5-5427-07A27AB09537}"
+  "FileHash": "{D2C8B044-9D3E-9602-6E47-FD8BED0EE5E1}"
  }
 }

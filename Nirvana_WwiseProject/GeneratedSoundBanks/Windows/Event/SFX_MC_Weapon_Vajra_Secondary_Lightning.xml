@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="733708365" Type="Event" GUID="{5C19D422-C820-434B-94C3-0FD0A2504D4A}" Language="SFX" Hash="{E8ACCE66-B55C-CBCB-C214-AEABFAF2F711}">
+			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Lightning</ObjectPath>
+			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Lightning</ShortName>
+			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Lightning.bnk</Path>
+			<Media>
+				<File Id="340696357" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Lightning\SFX_MC_Weapon_Vajra_Secondary_Lightning_03.wav</ShortName>
+					<Path>Media/340696357.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Lightning/SFX_MC_Weapon_Vajra_Secondary_Lightning_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="560254157" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Lightning\SFX_MC_Weapon_Vajra_Secondary_Lightning_01.wav</ShortName>
+					<Path>Media/560254157.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Lightning/SFX_MC_Weapon_Vajra_Secondary_Lightning_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="700671199" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Lightning\SFX_MC_Weapon_Vajra_Secondary_Lightning_02.wav</ShortName>
+					<Path>Media/700671199.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Weapon_Vajra/SFX_MC_Weapon_Vajra_Secondary_Lightning/SFX_MC_Weapon_Vajra_Secondary_Lightning_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="733708365" Name="SFX_MC_Weapon_Vajra_Secondary_Lightning" ObjectPath="\Events\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Lightning" GUID="{5C19D422-C820-434B-94C3-0FD0A2504D4A}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.30128574" DurationMax="0.36878988">
+					<MediaRefs>
+						<MediaRef Id="340696357"/>
+						<MediaRef Id="560254157"/>
+						<MediaRef Id="700671199"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5D5212B7-0C7F-C1C6-3E95-8C7CB5B7345C}</FileHash>
+</SoundBanksInfo>

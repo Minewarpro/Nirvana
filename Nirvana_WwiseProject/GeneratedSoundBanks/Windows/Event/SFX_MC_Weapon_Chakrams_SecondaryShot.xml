@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="339325342" Type="Event" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" Language="SFX" Hash="{04ED1BAE-CFD3-E8F7-790B-4E47A543C5A4}">
+		<SoundBank Id="339325342" Type="Event" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" Language="SFX" Hash="{600A8A83-B77B-DE51-97ED-AE017380ECB9}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_SecondaryShot</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_SecondaryShot</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_SecondaryShot.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="339325342" Name="SFX_MC_Weapon_Chakrams_SecondaryShot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="1.0666667" DurationMax="1.067625">
+				<Event Id="339325342" Name="SFX_MC_Weapon_Chakrams_SecondaryShot" ObjectPath="\Events\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="1.0067992" DurationMax="1.1311094">
 					<MediaRefs>
 						<MediaRef Id="244943397"/>
 						<MediaRef Id="752966009"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E54128C1-3937-156C-E2B8-AD46B958F0F9}</FileHash>
+	<FileHash>{DDF8BF28-44E7-BDE9-BA09-2E3EA077F66D}</FileHash>
 </SoundBanksInfo>

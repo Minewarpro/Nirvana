@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2592439718" Type="Event" GUID="{54FDB89F-2388-4096-8D03-014690817D75}" Language="English(US)" Hash="{7898BE80-068B-263C-7E98-6E698E5A8E24}">
+			<ObjectPath>SFX_MC_Death</ObjectPath>
+			<ShortName>SFX_MC_Death</ShortName>
+			<Path>Event/English(US)/SFX_MC_Death.bnk</Path>
+			<Media>
+				<File Id="102666523" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Death\SFX_MC_Death_01.wav</ShortName>
+					<Path>Media/102666523.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Death/SFX_MC_Death_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="124313777" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_04.wav</ShortName>
+					<Path>Media/English(US)/124313777.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="344258897" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_02.wav</ShortName>
+					<Path>Media/English(US)/344258897.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="554230171" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_05.wav</ShortName>
+					<Path>Media/English(US)/554230171.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="556237807" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_01.wav</ShortName>
+					<Path>Media/English(US)/556237807.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="573120549" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_03.wav</ShortName>
+					<Path>Media/English(US)/573120549.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="861775547" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_06.wav</ShortName>
+					<Path>Media/English(US)/861775547.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1016486179" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_MC_Death\SFX_MC_Death_02.wav</ShortName>
+					<Path>Media/1016486179.wem</Path>
+					<CachePath>SFX/SFX/SFX_MC_Death/SFX_MC_Death_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2592439718" Name="SFX_MC_Death" ObjectPath="\Events\SFX\SFX_MC_Death" GUID="{54FDB89F-2388-4096-8D03-014690817D75}" DurationType="OneShot" DurationMin="7.2458653" DurationMax="7.9016714">
+					<MediaRefs>
+						<MediaRef Id="102666523"/>
+						<MediaRef Id="124313777"/>
+						<MediaRef Id="344258897"/>
+						<MediaRef Id="554230171"/>
+						<MediaRef Id="556237807"/>
+						<MediaRef Id="573120549"/>
+						<MediaRef Id="861775547"/>
+						<MediaRef Id="1016486179"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9DF11F88-AAF8-F649-E34D-B7FA0183BE1C}</FileHash>
+</SoundBanksInfo>
