@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{54FDB89F-2388-4096-8D03-014690817D75}",
     "Language": "English(US)",
-    "Hash": "{7898BE80-068B-263C-7E98-6E698E5A8E24}",
+    "Hash": "{6029F8C5-CBA0-6397-E5E3-3364059B4654}",
     "ObjectPath": "SFX_MC_Death",
     "ShortName": "SFX_MC_Death",
     "Path": "Event/English(US)/SFX_MC_Death.bnk",
@@ -124,9 +124,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{736191AB-8C20-647C-ED10-24A5811B6AD3}"
+  "FileHash": "{7CF36785-AAE0-026D-92F3-1DE63FA06B37}"
  }
 }

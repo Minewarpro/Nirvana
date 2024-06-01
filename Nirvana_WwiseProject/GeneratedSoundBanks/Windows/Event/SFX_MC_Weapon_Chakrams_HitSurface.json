@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E9C7E76D-C404-4781-BE73-59D9808B1208}",
     "Language": "SFX",
-    "Hash": "{DA2471C7-B2A4-D2E9-1B98-70E22C680A47}",
+    "Hash": "{D5E50559-DF69-25F8-7B3C-E7B35942D16E}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_HitSurface",
     "ShortName": "SFX_MC_Weapon_Chakrams_HitSurface",
     "Path": "Event/SFX_MC_Weapon_Chakrams_HitSurface.bnk",
@@ -101,9 +101,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{35422682-A066-605F-3B5B-6528D7DDA1D3}"
+  "FileHash": "{C8783DEE-BD82-975B-ABE4-210EA35504D8}"
  }
 }

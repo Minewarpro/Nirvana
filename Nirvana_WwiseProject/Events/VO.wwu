@@ -314,45 +314,15 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="VO_Ari_Gameplay_Hurt" ID="{D2A3E3E0-CFD4-468F-AEBE-8312EEF048CE}">
-							<ChildrenList>
-								<Action Name="" ID="{AD5E7C06-8E4A-4E42-9E80-511D2CDF737F}" ShortID="486040597">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="VO_Ari_Gameplay_Hurt" ID="{5D6FD190-355C-49A7-856F-DCE5F002E197}" WorkUnitID="{9F6C0C4B-6578-4A56-B6A0-DB3A2F4BFB21}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="VO_Ari_Gameplay_Jump" ID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}">
 							<ChildrenList>
 								<Action Name="" ID="{0A35F0C4-4F28-4BF0-8A5A-F6733037B323}" ShortID="572422648">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="66"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="VO_Ari_Gameplay_Jump" ID="{BC1DC7CF-C082-4E33-8169-04DF66A64B62}" WorkUnitID="{9F6C0C4B-6578-4A56-B6A0-DB3A2F4BFB21}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="VO_Ari_Gameplay_Dash" ID="{ACFFF3E4-A3B9-4946-A9C5-26B8823F3F7F}">
-							<ChildrenList>
-								<Action Name="" ID="{B547C978-22DE-4E79-BB53-A8195C91AFC0}" ShortID="686952605">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="VO_Ari_Gameplay_Dash" ID="{6FB3A116-BA43-4634-869C-6F76E23A2B90}" WorkUnitID="{9F6C0C4B-6578-4A56-B6A0-DB3A2F4BFB21}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="VO_Ari_Gameplay_Effort" ID="{14412A49-EE02-4B5F-9198-987A15F0CC83}">
-							<ChildrenList>
-								<Action Name="" ID="{BE9A32AE-8AE0-4B68-B4E7-4908EABE2484}" ShortID="118712973">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="VO_Ari_Gameplay_Effort" ID="{97E156A1-95BB-4172-BB59-7C0B3AD48636}" WorkUnitID="{9F6C0C4B-6578-4A56-B6A0-DB3A2F4BFB21}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -364,17 +334,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="VO_Ari_Gameplay_Breath" ID="{336394DB-5C7F-49F9-AC76-69E6A80C6BD4}" WorkUnitID="{9F6C0C4B-6578-4A56-B6A0-DB3A2F4BFB21}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="VO_Ari_Gameplay_Death" ID="{7F6F206A-239F-4FC3-A2D7-297A24FCF483}">
-							<ChildrenList>
-								<Action Name="" ID="{4FC26275-EA5B-4F20-B8A3-E2D57492AE0C}" ShortID="810747974">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="VO_Ari_Gameplay_Death" ID="{47661741-31E1-440C-B6B6-CBC37FCC8D59}" WorkUnitID="{9F6C0C4B-6578-4A56-B6A0-DB3A2F4BFB21}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -1066,7 +1066,6 @@
 								<RandomSequenceContainer Name="VO_Ari_Gameplay_Jump" ID="{BC1DC7CF-C082-4E33-8169-04DF66A64B62}" ShortID="397740912">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1154,6 +1153,11 @@
 										</Sound>
 										<Sound Name="VO_Ari_Gameplay_Jump_04" ID="{4EA07E71-82B6-4960-BA22-E9D099F47E48}" ShortID="711837818">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
@@ -4741,6 +4745,55 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{0D4D1BB4-89FF-455C-9F50-9B15BE743B61}" ShortID="143734306">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_Azimuth" ID="{771130CB-E8A2-4560-ADCA-06985A29C132}" WorkUnitID="{F3A5047C-AFCE-4EF5-A5D7-3137F5C8185D}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{93DBF94C-F68D-4399-9630-C882C4E193CD}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-180</XPos>
+																		<YPos>-7</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-75</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>75</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>180</XPos>
+																		<YPos>-7</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="VO_ENMSwarmer_Death" ID="{0840CC07-6498-4591-AED8-09877AA62AAF}" ShortID="1000042489">
 							<PropertyList>
@@ -4873,6 +4926,55 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{CAF78601-A559-49E1-91A7-A41E026745B2}" ShortID="6975549">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_Azimuth" ID="{771130CB-E8A2-4560-ADCA-06985A29C132}" WorkUnitID="{F3A5047C-AFCE-4EF5-A5D7-3137F5C8185D}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{7EE78943-55D9-46DE-903F-3C0D40E8FA01}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-180</XPos>
+																		<YPos>-7</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-75</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>75</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>180</XPos>
+																		<YPos>-7</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>

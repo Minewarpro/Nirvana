@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1026708067	SFX_MC_Weapon_Chakrams_OverheatEnd			\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_OverheatEnd	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3972935021	RTPC_Azimuth			\RTPC_Persistent\RTPC_Azimuth	
+

@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	MUSIC			\MUSIC\MUSIC	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1645386324	ST_MUSIC			\ST_Music\ST_MUSIC	
+
+State	ID	Name	State Group			Notes
+	748895195	None	ST_MUSIC			
+

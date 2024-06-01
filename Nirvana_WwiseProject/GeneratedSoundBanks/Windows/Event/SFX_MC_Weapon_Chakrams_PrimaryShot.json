@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{ED3A8350-B98C-446C-87D8-7B0D244A9199}",
     "Language": "SFX",
-    "Hash": "{A1277C4A-63C9-2703-D58B-898A09FB2A26}",
+    "Hash": "{062C5ABF-FD6A-5A66-25D0-599783E66880}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_PrimaryShot",
     "ShortName": "SFX_MC_Weapon_Chakrams_PrimaryShot",
     "Path": "Event/SFX_MC_Weapon_Chakrams_PrimaryShot.bnk",
@@ -125,9 +125,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{D0075652-E930-340A-EF72-651EFA7C81C3}"
+  "FileHash": "{CD46F5D1-272F-CDB5-B2BC-6DF976AF583A}"
  }
 }

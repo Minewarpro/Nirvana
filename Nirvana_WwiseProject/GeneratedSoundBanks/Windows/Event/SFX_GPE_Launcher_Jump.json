@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}",
     "Language": "SFX",
-    "Hash": "{23C33A0C-7D74-7185-D744-AF019FC59C5E}",
+    "Hash": "{80B15ABF-A47F-05CA-AFA3-EF8F25B5301A}",
     "ObjectPath": "SFX_GPE_Launcher_Jump",
     "ShortName": "SFX_GPE_Launcher_Jump",
     "Path": "Event/SFX_GPE_Launcher_Jump.bnk",
@@ -65,9 +65,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{F2AA16EB-29C3-29EB-CF6C-EA96B79FABC8}"
+  "FileHash": "{410B3C88-55C4-3256-C81A-F7015EC621C3}"
  }
 }

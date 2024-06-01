@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="934991481" Type="Event" GUID="{324428D0-0193-4CA6-9B39-69E330023645}" Language="SFX" Hash="{0D45C9B6-D996-3664-0EA0-8F1C09432E49}">
+		<SoundBank Id="934991481" Type="Event" GUID="{324428D0-0193-4CA6-9B39-69E330023645}" Language="SFX" Hash="{D3152749-25B0-BFA7-6A30-1185DE8EA469}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Bounce</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Bounce</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Bounce.bnk</Path>
@@ -37,7 +37,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{92F9070E-B081-AB2C-F281-C39FDB4CFD42}</FileHash>
+	<FileHash>{9B5B25C8-88CB-58F2-6688-B71F9F87DA40}</FileHash>
 </SoundBanksInfo>

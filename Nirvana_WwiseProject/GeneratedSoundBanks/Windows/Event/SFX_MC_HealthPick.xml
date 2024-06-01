@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1174174029" Type="Event" GUID="{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}" Language="SFX" Hash="{2ED4E4BA-7736-F3BD-C7C4-04C00B95ECBF}">
+		<SoundBank Id="1174174029" Type="Event" GUID="{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}" Language="SFX" Hash="{97056F8F-8728-0761-FD92-22EA2FF09410}">
 			<ObjectPath>SFX_MC_HealthPick</ObjectPath>
 			<ShortName>SFX_MC_HealthPick</ShortName>
 			<Path>Event/SFX_MC_HealthPick.bnk</Path>
@@ -49,7 +49,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6AC0650A-B465-16A1-F271-11857DF130AF}</FileHash>
+	<FileHash>{AD82BB25-27A4-C4BF-F61D-0472CF1321FA}</FileHash>
 </SoundBanksInfo>

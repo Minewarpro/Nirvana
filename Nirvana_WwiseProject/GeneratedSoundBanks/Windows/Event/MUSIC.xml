@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3991942870" Type="Event" GUID="{8A0D259E-6DB0-4D09-A498-569673BE395D}" Language="SFX" Hash="{009CEAF9-D9C8-4AD2-4CF8-892B445BC002}">
+			<ObjectPath>MUSIC</ObjectPath>
+			<ShortName>MUSIC</ShortName>
+			<Path>Event/MUSIC.bnk</Path>
+			<Events>
+				<Event Id="3991942870" Name="MUSIC" ObjectPath="\Events\MUSIC\MUSIC" GUID="{8A0D259E-6DB0-4D09-A498-569673BE395D}" DurationType="Infinite"/>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1645386324" Name="ST_MUSIC" ObjectPath="\States\ST_Music\ST_MUSIC" GUID="{A7F522F4-BB23-46BA-9B35-7591E7D08985}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\ST_Music\ST_MUSIC\None" GUID="{FF4C5161-2D30-4D2A-ABF6-401285B91420}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A59BA5D2-AAA5-73E9-20BF-F4661D890A8F}</FileHash>
+</SoundBanksInfo>

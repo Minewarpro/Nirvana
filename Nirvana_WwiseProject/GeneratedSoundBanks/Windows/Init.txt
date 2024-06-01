@@ -1,8 +1,10 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	1645386324	ST_MUSIC			\ST_Music\ST_MUSIC	
 	1695734195	ST_MC			\ST_Persistent\ST_MC	
 	4078696085	ST_Game			\ST_Persistent\ST_Game	
 
 State	ID	Name	State Group			Notes
+	748895195	None	ST_MUSIC			
 	712849048	ST_MC_Dead	ST_MC			
 	748895195	None	ST_MC			
 	3907738249	ST_MC_Alive	ST_MC			

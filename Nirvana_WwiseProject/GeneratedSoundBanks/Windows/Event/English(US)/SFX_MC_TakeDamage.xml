@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4227750726" Type="Event" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" Language="English(US)" Hash="{E855BA94-F59E-170D-740E-92FF32049EF4}">
+		<SoundBank Id="4227750726" Type="Event" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" Language="English(US)" Hash="{04C308F3-9E50-0D05-284E-51D52D6E7F49}">
 			<ObjectPath>SFX_MC_TakeDamage</ObjectPath>
 			<ShortName>SFX_MC_TakeDamage</ShortName>
 			<Path>Event/English(US)/SFX_MC_TakeDamage.bnk</Path>
@@ -73,7 +73,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4227750726" Name="SFX_MC_TakeDamage" ObjectPath="\Events\SFX\SFX_MC_TakeDamage" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" DurationType="OneShot" DurationMin="0.48" DurationMax="1.4">
+				<Event Id="4227750726" Name="SFX_MC_TakeDamage" ObjectPath="\Events\SFX\SFX_MC_TakeDamage" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" DurationType="OneShot" DurationMin="0.53" DurationMax="1.65">
 					<MediaRefs>
 						<MediaRef Id="59693309"/>
 						<MediaRef Id="71444088"/>
@@ -91,7 +91,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E9419292-AA2F-AA77-5B80-DF75145964A6}</FileHash>
+	<FileHash>{3611E4E7-5486-C469-467D-1042F3FE5EAD}</FileHash>
 </SoundBanksInfo>

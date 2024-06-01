@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1316916725" Type="Event" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" Language="English(US)" Hash="{2F3740A4-4FEA-C161-8AD1-84E8B3066736}">
+		<SoundBank Id="1316916725" Type="Event" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" Language="English(US)" Hash="{BF79471E-1D3E-CD5B-93B8-0EC0AF9CEADE}">
 			<ObjectPath>VO_Ari_Gameplay_Jump</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Jump</ShortName>
 			<Path>Event/English(US)/VO_Ari_Gameplay_Jump.bnk</Path>
 			<Media>
-				<File Id="16663919" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Jump\VO_Ari_Gameplay_Jump_04.wav</ShortName>
-					<Path>Media/English(US)/16663919.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Jump/VO_Ari_Gameplay_Jump_04_818F3B66.wem</CachePath>
-				</File>
 				<File Id="341084454" Language="English(US)" Streaming="false" Location="Loose">
 					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Jump\VO_Ari_Gameplay_Jump_02.wav</ShortName>
 					<Path>Media/English(US)/341084454.wem</Path>
@@ -28,9 +23,8 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1316916725" Name="VO_Ari_Gameplay_Jump" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Jump" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.4">
+				<Event Id="1316916725" Name="VO_Ari_Gameplay_Jump" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Jump" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" DurationType="OneShot" DurationMin="0" DurationMax="0.4">
 					<MediaRefs>
-						<MediaRef Id="16663919"/>
 						<MediaRef Id="341084454"/>
 						<MediaRef Id="663140022"/>
 						<MediaRef Id="767977757"/>
@@ -39,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4C1A7BD6-8D49-842B-B4EB-A11A821DDEE6}</FileHash>
+	<FileHash>{47F8C989-61ED-F688-1297-EBD9DFA96F94}</FileHash>
 </SoundBanksInfo>

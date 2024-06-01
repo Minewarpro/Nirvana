@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}",
     "Language": "SFX",
-    "Hash": "{2ED4E4BA-7736-F3BD-C7C4-04C00B95ECBF}",
+    "Hash": "{97056F8F-8728-0761-FD92-22EA2FF09410}",
     "ObjectPath": "SFX_MC_HealthPick",
     "ShortName": "SFX_MC_HealthPick",
     "Path": "Event/SFX_MC_HealthPick.bnk",
@@ -101,9 +101,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{B8C22CB1-D969-D8F9-31CD-4A6BC2F124BF}"
+  "FileHash": "{0AC92382-C172-371A-CA66-916039C5A8B8}"
  }
 }

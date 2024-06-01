@@ -56,8 +56,14 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="SW_FT_Run" ID="{3D609066-FE78-41CF-98C4-71175BBC100B}" WorkUnitID="{70729CB6-8D53-47D9-885A-F882D74FCC8F}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="SW_FT_Loco" ID="{1AE81605-C4BC-42C8-8F5C-1A4A4788CBAF}" WorkUnitID="{70729CB6-8D53-47D9-885A-F882D74FCC8F}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -113,6 +119,26 @@
 												<ItemRef Name="FT_MC_Water_Run" ID="{F11602CD-FB3C-44C0-AF18-CEEED93FD6EA}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Jump" ID="{961CA02C-CC0F-44C6-9B70-B67C59C35709}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Water_Jump" ID="{0C093CA9-958A-4370-9FD6-C80D9270BA8B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Run" ID="{3D609066-FE78-41CF-98C4-71175BBC100B}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Water_Run" ID="{F11602CD-FB3C-44C0-AF18-CEEED93FD6EA}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Land" ID="{13B7E0EF-F725-4FEF-9EB1-376FF4280C76}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Water_Land" ID="{B9D953BB-FB7A-4E86-93E0-E9A9865263BC}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="FT_MC_Carpet" ID="{40BA41E7-18F5-49AB-8F49-E54901EB61D0}" ShortID="493632629">
@@ -120,8 +146,14 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="SW_FT_Run" ID="{3D609066-FE78-41CF-98C4-71175BBC100B}" WorkUnitID="{70729CB6-8D53-47D9-885A-F882D74FCC8F}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="SW_FT_Loco" ID="{1AE81605-C4BC-42C8-8F5C-1A4A4788CBAF}" WorkUnitID="{70729CB6-8D53-47D9-885A-F882D74FCC8F}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -177,6 +209,26 @@
 												<ItemRef Name="FT_MC_Carpet_Jump" ID="{C662DF6D-584F-466E-A13D-F9DCD3B41996}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Jump" ID="{961CA02C-CC0F-44C6-9B70-B67C59C35709}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Carpet_Jump" ID="{C662DF6D-584F-466E-A13D-F9DCD3B41996}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Run" ID="{3D609066-FE78-41CF-98C4-71175BBC100B}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Carpet_Run" ID="{4088FD08-50A9-4781-8305-E6C4B906D95C}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Land" ID="{13B7E0EF-F725-4FEF-9EB1-376FF4280C76}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Carpet_Land" ID="{9114BF3C-B8BA-49A4-8521-F2AFC92F3130}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="FT_MC_Stone" ID="{5728113A-0784-418C-B6B4-55AA70197F2A}" ShortID="122685488">
@@ -184,8 +236,14 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="SW_FT_Run" ID="{3D609066-FE78-41CF-98C4-71175BBC100B}" WorkUnitID="{70729CB6-8D53-47D9-885A-F882D74FCC8F}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="SW_FT_Loco" ID="{1AE81605-C4BC-42C8-8F5C-1A4A4788CBAF}" WorkUnitID="{70729CB6-8D53-47D9-885A-F882D74FCC8F}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -241,6 +299,26 @@
 												<ItemRef Name="FT_MC_Stone_Run" ID="{FF211BD8-865F-4FD9-A25F-B4D888A4C1AB}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Jump" ID="{961CA02C-CC0F-44C6-9B70-B67C59C35709}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Stone_Jump" ID="{DD72CD5D-72B9-4C83-98B5-87159FA82F6E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Run" ID="{3D609066-FE78-41CF-98C4-71175BBC100B}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Stone_Run" ID="{FF211BD8-865F-4FD9-A25F-B4D888A4C1AB}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Land" ID="{13B7E0EF-F725-4FEF-9EB1-376FF4280C76}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Stone_Land" ID="{B5E6FE31-76A5-4368-8479-D03E17F2B9C4}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="FT_MC_Metal" ID="{F4826DCE-2EA4-48BF-AD61-9768E7B0D3D4}" ShortID="21689535">
@@ -248,8 +326,14 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="SW_FT_Run" ID="{3D609066-FE78-41CF-98C4-71175BBC100B}" WorkUnitID="{70729CB6-8D53-47D9-885A-F882D74FCC8F}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="SW_FT_Loco" ID="{1AE81605-C4BC-42C8-8F5C-1A4A4788CBAF}" WorkUnitID="{70729CB6-8D53-47D9-885A-F882D74FCC8F}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -305,6 +389,26 @@
 												<ItemRef Name="FT_MC_Metal_Run" ID="{483006E4-F8C1-47CE-AA1D-9C7B20C77EEF}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Jump" ID="{961CA02C-CC0F-44C6-9B70-B67C59C35709}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Metal_Jump" ID="{FB56336D-D155-4DCC-98FF-09997FB178A1}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Run" ID="{3D609066-FE78-41CF-98C4-71175BBC100B}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Metal_Run" ID="{483006E4-F8C1-47CE-AA1D-9C7B20C77EEF}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Land" ID="{13B7E0EF-F725-4FEF-9EB1-376FF4280C76}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Metal_Land" ID="{281A712D-8905-4BB8-86A0-1E87F54AC5D1}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="FT_MC_Nenuphar" ID="{E872EF82-A2A9-473E-A703-99DA4C052350}" ShortID="161888304">
@@ -312,8 +416,14 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="SW_FT_Run" ID="{3D609066-FE78-41CF-98C4-71175BBC100B}" WorkUnitID="{70729CB6-8D53-47D9-885A-F882D74FCC8F}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="SW_FT_Loco" ID="{1AE81605-C4BC-42C8-8F5C-1A4A4788CBAF}" WorkUnitID="{70729CB6-8D53-47D9-885A-F882D74FCC8F}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -369,16 +479,134 @@
 												<ItemRef Name="FT_MC_Nenupharl_Land" ID="{BD4E60BF-B109-43FE-A0FE-C65FAFB0005A}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Jump" ID="{961CA02C-CC0F-44C6-9B70-B67C59C35709}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Nenuphar_Jump" ID="{9CF38577-D670-43D8-9897-EDD7DE36B9EE}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Run" ID="{3D609066-FE78-41CF-98C4-71175BBC100B}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Nenuphar_Run" ID="{7B21CC1B-2C78-4C94-8D5E-43541EEC96AB}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="SW_FT_Land" ID="{13B7E0EF-F725-4FEF-9EB1-376FF4280C76}"/>
+												<ItemList>
+													<ItemRef Name="FT_MC_Nenupharl_Land" ID="{BD4E60BF-B109-43FE-A0FE-C65FAFB0005A}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
+								<RandomSequenceContainer Name="FT_MC_Dash" ID="{8B614566-9BCE-428C-B70C-BCBB6F6D01E2}" ShortID="237023981">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>85</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FT_MC_Climb" ID="{73551A1B-EB90-4360-84E0-8DE1F59A43A5}" ShortID="1064941440">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>80</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FT_MC_JumpSecond" ID="{1FD52110-3A39-4022-B36B-19751D4C0899}" ShortID="211501401">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>80</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="FT_MC_JumpSecond" ID="{1FD52110-3A39-4022-B36B-19751D4C0899}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FT_MC_Climb" ID="{73551A1B-EB90-4360-84E0-8DE1F59A43A5}"/>
+									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="FT_MC_Stone" ID="{5728113A-0784-418C-B6B4-55AA70197F2A}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="FT_MC_Water" ID="{9BC60150-F85F-4716-ADF4-DAFAD9E53BB6}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FT_MC_Dash" ID="{8B614566-9BCE-428C-B70C-BCBB6F6D01E2}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="FT_MC_Nenuphar" ID="{E872EF82-A2A9-473E-A703-99DA4C052350}"/>
@@ -530,6 +758,80 @@
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{95F78C59-199D-461D-964F-33E2A86CF1B4}" ShortID="818298688">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_FT_Speed" ID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}" WorkUnitID="{8308EB11-EC9E-40BC-85CB-96E9DD3DB47D}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{D842CBFA-E710-415E-A739-8F99EDC64981}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-1.5</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1050</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{6EB4DF3F-742E-42FB-BBD6-0C657DC9301E}" ShortID="161648298">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_FT_Speed" ID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}" WorkUnitID="{8308EB11-EC9E-40BC-85CB-96E9DD3DB47D}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{4AF6811C-81C0-42A5-8504-8F101EC9B5F7}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-150</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1050</XPos>
+																<YPos>150</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

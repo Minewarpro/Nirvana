@@ -6,6 +6,19 @@
 				<Property Name="Color" Type="int16" Value="4"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="FOL_MC_Pants" ID="{5EC673DB-7E85-4A74-B2E5-ADCCE77E0AEB}">
+					<ChildrenList>
+						<Action Name="" ID="{4D627C98-6DE6-400B-9B23-028FC4DE0664}" ShortID="596762265">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOL_MC_Pants" ID="{01A107BB-DB02-4D9E-B2F6-A408C8501306}" WorkUnitID="{C6B694CD-D62D-40DE-9F4B-DE2FCC3884C8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

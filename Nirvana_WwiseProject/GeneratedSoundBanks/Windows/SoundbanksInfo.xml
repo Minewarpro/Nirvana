@@ -46,7 +46,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="148639171" Type="Event" GUID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}" Language="SFX" Hash="{4743E84D-1CB2-DA76-BDFF-09DF92D7804A}">
+		<SoundBank Id="148639171" Type="Event" GUID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}" Language="SFX" Hash="{A51B5CA3-5888-CE9F-AC39-88F0EF713B50}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_OverheatBegin</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_OverheatBegin</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_OverheatBegin.bnk</Path>
@@ -76,6 +76,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="166528128" Type="Event" GUID="{AF94BA4C-E152-4CAB-B3E7-043F561D8661}" Language="English(US)" Hash="{F6D5F5AC-4AEC-80FC-E542-920759A51E47}">
 			<ObjectPath>VO_Blaise_Story_08</ObjectPath>
@@ -381,7 +384,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="339325342" Type="Event" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" Language="SFX" Hash="{600A8A83-B77B-DE51-97ED-AE017380ECB9}">
+		<SoundBank Id="339325342" Type="Event" GUID="{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}" Language="SFX" Hash="{83BE3206-50AE-F450-97EA-0860BE62BF14}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_SecondaryShot</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_SecondaryShot</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_SecondaryShot.bnk</Path>
@@ -411,6 +414,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="340128844" Type="Event" GUID="{E87AF998-F0D7-4B0B-8887-36171662E7FD}" Language="English(US)" Hash="{8C22265F-49B7-CD72-81CA-572527E936B6}">
 			<ObjectPath>VO_Blaise_Gameplay_Bossfight_03</ObjectPath>
@@ -773,7 +779,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="534490163" Type="Event" GUID="{0C4EA416-1035-4CE4-9ABB-92441DDADE14}" Language="SFX" Hash="{821CBE3D-04E8-30B9-7A6B-221CE65A93FF}">
+		<SoundBank Id="534490163" Type="Event" GUID="{0C4EA416-1035-4CE4-9ABB-92441DDADE14}" Language="SFX" Hash="{5BC68A34-66E0-8F62-CAA2-663F097CA025}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_HitENM</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_HitENM</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_HitENM.bnk</Path>
@@ -809,8 +815,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="535776511" Type="Event" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" Language="SFX" Hash="{23C33A0C-7D74-7185-D744-AF019FC59C5E}">
+		<SoundBank Id="535776511" Type="Event" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" Language="SFX" Hash="{80B15ABF-A47F-05CA-AFA3-EF8F25B5301A}">
 			<ObjectPath>SFX_GPE_Launcher_Jump</ObjectPath>
 			<ShortName>SFX_GPE_Launcher_Jump</ShortName>
 			<Path>Event/SFX_GPE_Launcher_Jump.bnk</Path>
@@ -840,6 +849,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="577502352" Type="Event" GUID="{5488BE8E-DDB8-4BBA-8032-D59549B43C49}" Language="English(US)" Hash="{E82F60F9-50A8-B12E-CFE0-6F65A0262873}">
 			<ObjectPath>VO_Blaise_Gameplay_Run</ObjectPath>
@@ -1145,7 +1157,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="733708365" Type="Event" GUID="{5C19D422-C820-434B-94C3-0FD0A2504D4A}" Language="SFX" Hash="{E8ACCE66-B55C-CBCB-C214-AEABFAF2F711}">
+		<SoundBank Id="733708365" Type="Event" GUID="{5C19D422-C820-434B-94C3-0FD0A2504D4A}" Language="SFX" Hash="{952C1352-551B-AB7F-ED03-FF88322A428E}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Lightning</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Lightning</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Lightning.bnk</Path>
@@ -1175,49 +1187,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
-		</SoundBank>
-		<SoundBank Id="798162039" Type="Event" GUID="{14412A49-EE02-4B5F-9198-987A15F0CC83}" Language="English(US)" Hash="{DA59D297-6CC9-C225-9569-EF394303E8C5}">
-			<ObjectPath>VO_Ari_Gameplay_Effort</ObjectPath>
-			<ShortName>VO_Ari_Gameplay_Effort</ShortName>
-			<Path>Event/English(US)/VO_Ari_Gameplay_Effort.bnk</Path>
-			<Media>
-				<File Id="15835442" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_04.wav</ShortName>
-					<Path>Media/English(US)/15835442.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_04_818F3B66.wem</CachePath>
-				</File>
-				<File Id="163928903" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_05.wav</ShortName>
-					<Path>Media/English(US)/163928903.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_05_818F3B66.wem</CachePath>
-				</File>
-				<File Id="305062779" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_03.wav</ShortName>
-					<Path>Media/English(US)/305062779.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_03_818F3B66.wem</CachePath>
-				</File>
-				<File Id="417181262" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_02.wav</ShortName>
-					<Path>Media/English(US)/417181262.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_02_818F3B66.wem</CachePath>
-				</File>
-				<File Id="1001602239" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_01.wav</ShortName>
-					<Path>Media/English(US)/1001602239.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_01_818F3B66.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="798162039" Name="VO_Ari_Gameplay_Effort" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Effort" GUID="{14412A49-EE02-4B5F-9198-987A15F0CC83}" DurationType="OneShot" DurationMin="0.18666667" DurationMax="1.28">
-					<MediaRefs>
-						<MediaRef Id="15835442"/>
-						<MediaRef Id="163928903"/>
-						<MediaRef Id="305062779"/>
-						<MediaRef Id="417181262"/>
-						<MediaRef Id="1001602239"/>
-					</MediaRefs>
-				</Event>
-			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="922786755" Type="Event" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" Language="SFX" Hash="{0F85DF02-F94F-28EA-45B5-D9D3263C7912}">
 			<ObjectPath>UI_Menu_Back</ObjectPath>
@@ -1244,7 +1216,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="934991481" Type="Event" GUID="{324428D0-0193-4CA6-9B39-69E330023645}" Language="SFX" Hash="{0D45C9B6-D996-3664-0EA0-8F1C09432E49}">
+		<SoundBank Id="934991481" Type="Event" GUID="{324428D0-0193-4CA6-9B39-69E330023645}" Language="SFX" Hash="{D3152749-25B0-BFA7-6A30-1185DE8EA469}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Bounce</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Bounce</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Bounce.bnk</Path>
@@ -1280,8 +1252,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1026708067" Type="Event" GUID="{9EAAD129-4D85-40B1-88A0-960BAC7525F8}" Language="SFX" Hash="{E2C88AF4-553C-E6B5-D799-87651C2DE02B}">
+		<SoundBank Id="1026708067" Type="Event" GUID="{9EAAD129-4D85-40B1-88A0-960BAC7525F8}" Language="SFX" Hash="{3C6C4A49-C5CD-04E0-67E3-E36DD04C87C7}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_OverheatEnd</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_OverheatEnd</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_OverheatEnd.bnk</Path>
@@ -1305,63 +1280,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1121555166" Type="Event" GUID="{D2A3E3E0-CFD4-468F-AEBE-8312EEF048CE}" Language="English(US)" Hash="{65D3F0E9-6AC0-C0A3-0F9A-A4249450B7E5}">
-			<ObjectPath>VO_Ari_Gameplay_Hurt</ObjectPath>
-			<ShortName>VO_Ari_Gameplay_Hurt</ShortName>
-			<Path>Event/English(US)/VO_Ari_Gameplay_Hurt.bnk</Path>
-			<Media>
-				<File Id="59693309" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_03.wav</ShortName>
-					<Path>Media/English(US)/59693309.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_03_818F3B66.wem</CachePath>
-				</File>
-				<File Id="71444088" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_07.wav</ShortName>
-					<Path>Media/English(US)/71444088.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_07_818F3B66.wem</CachePath>
-				</File>
-				<File Id="256735463" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_05.wav</ShortName>
-					<Path>Media/English(US)/256735463.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_05_818F3B66.wem</CachePath>
-				</File>
-				<File Id="323284250" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_01.wav</ShortName>
-					<Path>Media/English(US)/323284250.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_01_818F3B66.wem</CachePath>
-				</File>
-				<File Id="328077789" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_06.wav</ShortName>
-					<Path>Media/English(US)/328077789.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_06_818F3B66.wem</CachePath>
-				</File>
-				<File Id="390295673" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_04.wav</ShortName>
-					<Path>Media/English(US)/390295673.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_04_818F3B66.wem</CachePath>
-				</File>
-				<File Id="861316731" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt\VO_Ari_Gameplay_Hurt_02.wav</ShortName>
-					<Path>Media/English(US)/861316731.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Hurt/VO_Ari_Gameplay_Hurt_02_818F3B66.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="1121555166" Name="VO_Ari_Gameplay_Hurt" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Hurt" GUID="{D2A3E3E0-CFD4-468F-AEBE-8312EEF048CE}" DurationType="OneShot" DurationMin="0.48" DurationMax="1.4">
-					<MediaRefs>
-						<MediaRef Id="59693309"/>
-						<MediaRef Id="71444088"/>
-						<MediaRef Id="256735463"/>
-						<MediaRef Id="323284250"/>
-						<MediaRef Id="328077789"/>
-						<MediaRef Id="390295673"/>
-						<MediaRef Id="861316731"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
-		<SoundBank Id="1174174029" Type="Event" GUID="{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}" Language="SFX" Hash="{2ED4E4BA-7736-F3BD-C7C4-04C00B95ECBF}">
+		<SoundBank Id="1174174029" Type="Event" GUID="{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}" Language="SFX" Hash="{97056F8F-8728-0761-FD92-22EA2FF09410}">
 			<ObjectPath>SFX_MC_HealthPick</ObjectPath>
 			<ShortName>SFX_MC_HealthPick</ShortName>
 			<Path>Event/SFX_MC_HealthPick.bnk</Path>
@@ -1409,6 +1332,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="1314837374" Type="Event" GUID="{146637F4-D095-4CEE-86EB-0411C60012A0}" Language="English(US)" Hash="{653415DA-9C55-3722-562A-665C582DB2DC}">
 			<ObjectPath>VO_Diana_Gameplay_Goodjob</ObjectPath>
@@ -1441,16 +1367,11 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1316916725" Type="Event" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" Language="English(US)" Hash="{2F3740A4-4FEA-C161-8AD1-84E8B3066736}">
+		<SoundBank Id="1316916725" Type="Event" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" Language="English(US)" Hash="{BF79471E-1D3E-CD5B-93B8-0EC0AF9CEADE}">
 			<ObjectPath>VO_Ari_Gameplay_Jump</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Jump</ShortName>
 			<Path>Event/English(US)/VO_Ari_Gameplay_Jump.bnk</Path>
 			<Media>
-				<File Id="16663919" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Jump\VO_Ari_Gameplay_Jump_04.wav</ShortName>
-					<Path>Media/English(US)/16663919.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Jump/VO_Ari_Gameplay_Jump_04_818F3B66.wem</CachePath>
-				</File>
 				<File Id="341084454" Language="English(US)" Streaming="false" Location="Loose">
 					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Jump\VO_Ari_Gameplay_Jump_02.wav</ShortName>
 					<Path>Media/English(US)/341084454.wem</Path>
@@ -1468,9 +1389,8 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1316916725" Name="VO_Ari_Gameplay_Jump" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Jump" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.4">
+				<Event Id="1316916725" Name="VO_Ari_Gameplay_Jump" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Jump" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" DurationType="OneShot" DurationMin="0" DurationMax="0.4">
 					<MediaRefs>
-						<MediaRef Id="16663919"/>
 						<MediaRef Id="341084454"/>
 						<MediaRef Id="663140022"/>
 						<MediaRef Id="767977757"/>
@@ -1478,7 +1398,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{608BE880-6A5A-F20F-042B-0FCE28E92985}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{4770BB9D-3FF7-BA24-2109-8942C92345D9}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -1517,11 +1437,17 @@
 				<GameParameter Id="192836257" Name="RTPC_UI_VO" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_VO" GUID="{446D2A29-793D-4B5C-9B6B-98B00E2B6658}"/>
 				<GameParameter Id="950872934" Name="RTPC_UI_Effects" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Effects" GUID="{2B55FAD0-C41F-48A2-8CBC-0F24FEDD1EE7}"/>
 				<GameParameter Id="1526392608" Name="RTPC_SFX_MC_Weapon_Meter" ObjectPath="\Game Parameters\RTPC_SFX\RTPC_SFX_MC_Weapon_Meter" GUID="{86852467-6F73-4A7D-A970-056FB33188A5}"/>
+				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 				<GameParameter Id="3569469165" Name="RTPC_UI_Music" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Music" GUID="{53C895C6-A568-4494-BAC3-4C46C199A9EA}"/>
 				<GameParameter Id="3605688814" Name="RTPC_UI_Master" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Master" GUID="{ECF19A53-D94C-4882-8001-73C4BCCE7169}"/>
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 			<StateGroups>
+				<StateGroup Id="1645386324" Name="ST_MUSIC" ObjectPath="\States\ST_Music\ST_MUSIC" GUID="{A7F522F4-BB23-46BA-9B35-7591E7D08985}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\ST_Music\ST_MUSIC\None" GUID="{FF4C5161-2D30-4D2A-ABF6-401285B91420}"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="1695734195" Name="ST_MC" ObjectPath="\States\ST_Persistent\ST_MC" GUID="{B119F911-B8B1-4692-8D88-85CD1E0E2FF0}">
 					<States>
 						<State Id="712849048" Name="ST_MC_Dead" ObjectPath="\States\ST_Persistent\ST_MC\ST_MC_Dead" GUID="{419E2B39-E7AB-4F3A-9C10-F87F6940E4FF}"/>
@@ -1540,7 +1466,9 @@
 			<SwitchGroups>
 				<SwitchGroup Id="119161186" Name="SW_FT_Loco" ObjectPath="\Switches\SW_FT\SW_FT_Loco" GUID="{1AE81605-C4BC-42C8-8F5C-1A4A4788CBAF}">
 					<Switches>
+						<Switch Id="1722772239" Name="SW_FT_Jump" ObjectPath="\Switches\SW_FT\SW_FT_Loco\SW_FT_Jump" GUID="{961CA02C-CC0F-44C6-9B70-B67C59C35709}"/>
 						<Switch Id="2162921054" Name="SW_FT_Run" ObjectPath="\Switches\SW_FT\SW_FT_Loco\SW_FT_Run" GUID="{3D609066-FE78-41CF-98C4-71175BBC100B}"/>
+						<Switch Id="3660121252" Name="SW_FT_Land" ObjectPath="\Switches\SW_FT\SW_FT_Loco\SW_FT_Land" GUID="{13B7E0EF-F725-4FEF-9EB1-376FF4280C76}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="4035313040" Name="SW_FT_Material" ObjectPath="\Switches\SW_FT\SW_FT_Material" GUID="{FF147DA2-4C43-417B-9F29-7482AAE43F6A}">
@@ -1736,7 +1664,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1483737050" Type="Event" GUID="{06631D50-D230-4F7E-B2DD-E54FEAE107B0}" Language="SFX" Hash="{3DF6C977-683F-1779-7F07-5F9F0ACCBCB6}">
+		<SoundBank Id="1483737050" Type="Event" GUID="{06631D50-D230-4F7E-B2DD-E54FEAE107B0}" Language="SFX" Hash="{212FAD9E-6D33-FB0A-35EF-3179C37CC611}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Idle_lp</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Idle_lp</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Idle_lp.bnk</Path>
@@ -1754,8 +1682,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1486212429" Type="Event" GUID="{7CAB1505-06EC-4601-A109-68F07B61CA2E}" Language="SFX" Hash="{56C0D991-5EBE-909F-FA94-1A7E2D82ED80}">
+		<SoundBank Id="1486212429" Type="Event" GUID="{7CAB1505-06EC-4601-A109-68F07B61CA2E}" Language="SFX" Hash="{EAFB9D22-4984-A9FF-B9C5-D785A20B3665}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_Primary_Shot</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_Primary_Shot</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_Primary_Shot.bnk</Path>
@@ -1803,8 +1734,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1498943271" Type="Event" GUID="{DDE6B034-63CD-4F7A-8610-080095095B13}" Language="SFX" Hash="{8C22D8DE-8529-4DB5-B319-5F4CC5FAD690}">
+		<SoundBank Id="1498943271" Type="Event" GUID="{DDE6B034-63CD-4F7A-8610-080095095B13}" Language="SFX" Hash="{EA709326-43B0-9A2C-6143-9EAD18D6D80E}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_OverheatBegin</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_OverheatBegin</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_OverheatBegin.bnk</Path>
@@ -1834,6 +1768,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="1532872020" Type="Event" GUID="{073692BA-1D60-4760-82EF-D426063131AB}" Language="English(US)" Hash="{563625B1-94E7-BA85-47BF-AA7EC10CFAE7}">
 			<ObjectPath>VO_Blaise_Gameplay_No</ObjectPath>
@@ -1860,7 +1797,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1559084621" Type="Event" GUID="{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}" Language="English(US)" Hash="{3E762B43-AF6C-B3C1-ED70-FD1C1FC27DEA}">
+		<SoundBank Id="1559084621" Type="Event" GUID="{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}" Language="English(US)" Hash="{34D893BF-DF1F-0597-F315-FF6D3C2BCEC2}">
 			<ObjectPath>VO_ENMMidRange_Death</ObjectPath>
 			<ShortName>VO_ENMMidRange_Death</ShortName>
 			<Path>Event/English(US)/VO_ENMMidRange_Death.bnk</Path>
@@ -1890,8 +1827,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1621795231" Type="Event" GUID="{204211B5-C26C-48ED-B0C4-A5EB27971367}" Language="English(US)" Hash="{F7769A60-C771-4ABC-524F-6EF7695ABA63}">
+		<SoundBank Id="1621795231" Type="Event" GUID="{204211B5-C26C-48ED-B0C4-A5EB27971367}" Language="English(US)" Hash="{466659AE-948F-0E30-F533-DD84E3F4AB25}">
 			<ObjectPath>VO_ENMSwarmer_Death</ObjectPath>
 			<ShortName>VO_ENMSwarmer_Death</ShortName>
 			<Path>Event/English(US)/VO_ENMSwarmer_Death.bnk</Path>
@@ -1927,8 +1867,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1686072914" Type="Event" GUID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}" Language="SFX" Hash="{A1277C4A-63C9-2703-D58B-898A09FB2A26}">
+		<SoundBank Id="1686072914" Type="Event" GUID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}" Language="SFX" Hash="{062C5ABF-FD6A-5A66-25D0-599783E66880}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_PrimaryShot</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_PrimaryShot</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_PrimaryShot.bnk</Path>
@@ -1988,6 +1931,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="1719829412" Type="Event" GUID="{3C5A0758-997E-4328-A2FA-C3FE756DEF97}" Language="English(US)" Hash="{491529F8-3A76-29E4-A6F0-32B23C3EF5E1}">
 			<ObjectPath>VO_Simon_Gameplay_BossFight_03</ObjectPath>
@@ -2147,7 +2093,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2042202503" Type="Event" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" Language="SFX" Hash="{C0B1C090-E0FF-AC73-297F-7C64FA466CFD}">
+		<SoundBank Id="2042202503" Type="Event" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" Language="SFX" Hash="{BDDDC92C-425D-FD6B-81D2-42239883CC65}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_HitENM</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_HitENM</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_HitENM.bnk</Path>
@@ -2195,6 +2141,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="2097537283" Type="Event" GUID="{AC82A196-39B4-4124-9B67-3B8333621F55}" Language="English(US)" Hash="{9470FD57-695B-63F7-3873-FEEB1E5E0020}">
 			<ObjectPath>VO_Diana_Gameplay_No</ObjectPath>
@@ -2360,7 +2309,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2365754676" Type="Event" GUID="{E9C7E76D-C404-4781-BE73-59D9808B1208}" Language="SFX" Hash="{DA2471C7-B2A4-D2E9-1B98-70E22C680A47}">
+		<SoundBank Id="2365754676" Type="Event" GUID="{E9C7E76D-C404-4781-BE73-59D9808B1208}" Language="SFX" Hash="{D5E50559-DF69-25F8-7B3C-E7B35942D16E}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_HitSurface</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_HitSurface</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_HitSurface.bnk</Path>
@@ -2408,43 +2357,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
-		</SoundBank>
-		<SoundBank Id="2406365109" Type="Event" GUID="{ACFFF3E4-A3B9-4946-A9C5-26B8823F3F7F}" Language="English(US)" Hash="{1E7575CF-5310-5DAD-1FF5-D7A2FC86CFD9}">
-			<ObjectPath>VO_Ari_Gameplay_Dash</ObjectPath>
-			<ShortName>VO_Ari_Gameplay_Dash</ShortName>
-			<Path>Event/English(US)/VO_Ari_Gameplay_Dash.bnk</Path>
-			<Media>
-				<File Id="112665800" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_04.wav</ShortName>
-					<Path>Media/English(US)/112665800.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_04_818F3B66.wem</CachePath>
-				</File>
-				<File Id="183278750" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_02.wav</ShortName>
-					<Path>Media/English(US)/183278750.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_02_818F3B66.wem</CachePath>
-				</File>
-				<File Id="270131646" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_03.wav</ShortName>
-					<Path>Media/English(US)/270131646.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_03_818F3B66.wem</CachePath>
-				</File>
-				<File Id="559143653" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_01.wav</ShortName>
-					<Path>Media/English(US)/559143653.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_01_818F3B66.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2406365109" Name="VO_Ari_Gameplay_Dash" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Dash" GUID="{ACFFF3E4-A3B9-4946-A9C5-26B8823F3F7F}" DurationType="OneShot" DurationMin="0.30666667" DurationMax="0.44">
-					<MediaRefs>
-						<MediaRef Id="112665800"/>
-						<MediaRef Id="183278750"/>
-						<MediaRef Id="270131646"/>
-						<MediaRef Id="559143653"/>
-					</MediaRefs>
-				</Event>
-			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="2414469176" Type="Event" GUID="{C020EF1B-C097-495E-BF99-D001247A9601}" Language="English(US)" Hash="{5F13954C-7685-2583-1C10-64855F1E9C8D}">
 			<ObjectPath>VO_Diana_Story_30</ObjectPath>
@@ -2749,7 +2664,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2592439718" Type="Event" GUID="{54FDB89F-2388-4096-8D03-014690817D75}" Language="English(US)" Hash="{7898BE80-068B-263C-7E98-6E698E5A8E24}">
+		<SoundBank Id="2592439718" Type="Event" GUID="{54FDB89F-2388-4096-8D03-014690817D75}" Language="English(US)" Hash="{6029F8C5-CBA0-6397-E5E3-3364059B4654}">
 			<ObjectPath>SFX_MC_Death</ObjectPath>
 			<ShortName>SFX_MC_Death</ShortName>
 			<Path>Event/English(US)/SFX_MC_Death.bnk</Path>
@@ -2809,14 +2724,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
-		</SoundBank>
-		<SoundBank Id="2685423788" Type="Event" GUID="{BD75D1BE-B933-4BD9-A504-4E25B2148D21}" Language="SFX" Hash="{31685BEF-3E9E-F882-A3A0-4ECA5D746FB9}">
-			<ObjectPath>VO_Ari_Gameplay_Hurt_01</ObjectPath>
-			<ShortName>VO_Ari_Gameplay_Hurt_01</ShortName>
-			<Path>Event/VO_Ari_Gameplay_Hurt_01.bnk</Path>
-			<Events>
-				<Event Id="2685423788" Name="VO_Ari_Gameplay_Hurt_01" ObjectPath="\Events\Default Work Unit\VO_Ari_Gameplay_Hurt_01" GUID="{BD75D1BE-B933-4BD9-A504-4E25B2148D21}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="2699544719" Type="Event" GUID="{0468A734-9547-42F4-B80E-337C2AC901A2}" Language="English(US)" Hash="{00F9D873-26B9-167E-8BE9-F132A4A101AD}">
 			<ObjectPath>VO_Ari_Gameplay_Breath</ObjectPath>
@@ -2843,7 +2753,64 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2751508176" Type="Event" GUID="{18DF74F5-BA54-49B5-8F44-F1D587D056B9}" Language="SFX" Hash="{8D7BB057-5BDA-D347-2431-5C7C8EF52FA0}">
+		<SoundBank Id="2727804452" Type="Event" GUID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}" Language="English(US)" Hash="{1BBFE8D1-6317-96D5-741D-1B40F8083C15}">
+			<ObjectPath>FT_MC_Climb</ObjectPath>
+			<ShortName>FT_MC_Climb</ShortName>
+			<Path>Event/English(US)/FT_MC_Climb.bnk</Path>
+			<Media>
+				<File Id="15835442" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_04.wav</ShortName>
+					<Path>Media/English(US)/15835442.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="163928903" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_05.wav</ShortName>
+					<Path>Media/English(US)/163928903.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="305062779" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_03.wav</ShortName>
+					<Path>Media/English(US)/305062779.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="417181262" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_02.wav</ShortName>
+					<Path>Media/English(US)/417181262.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1001602239" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_01.wav</ShortName>
+					<Path>Media/English(US)/1001602239.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2727804452" Name="FT_MC_Climb" ObjectPath="\Events\FT\FT_MC_Climb" GUID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}" DurationType="OneShot" DurationMin="0.18666667" DurationMax="1.28">
+					<MediaRefs>
+						<MediaRef Id="15835442"/>
+						<MediaRef Id="163928903"/>
+						<MediaRef Id="305062779"/>
+						<MediaRef Id="417181262"/>
+						<MediaRef Id="1001602239"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="4035313040" Name="SW_FT_Material" ObjectPath="\Switches\SW_FT\SW_FT_Material" GUID="{FF147DA2-4C43-417B-9F29-7482AAE43F6A}">
+					<Switches>
+						<Switch Id="314505124" Name="SW_FT_Metal" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Metal" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
+						<Switch Id="1699952942" Name="SW_FT_Stone" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Stone" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"/>
+						<Switch Id="1901335520" Name="SW_FT_Water" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Water" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
+						<Switch Id="3682161770" Name="SW_FT_Nenuphar" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Nenuphar" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
+						<Switch Id="4051928182" Name="SW_FT_Carpet" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Carpet" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2751508176" Type="Event" GUID="{18DF74F5-BA54-49B5-8F44-F1D587D056B9}" Language="SFX" Hash="{4D47C278-847C-5253-8EE3-69E58D33B462}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_HitSurface</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_HitSurface</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_HitSurface.bnk</Path>
@@ -2879,6 +2846,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="2855648328" Type="Event" GUID="{CF346644-104F-4F5E-9F43-902F0F6F0B6D}" Language="English(US)" Hash="{C5AE3FB8-2A3E-8F36-6705-1F1776FE42B7}">
 			<ObjectPath>VO_Simon_Gameplay_Run</ObjectPath>
@@ -2898,6 +2868,28 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+		</SoundBank>
+		<SoundBank Id="2935530677" Type="Event" GUID="{785476FB-AD69-4592-AE56-11AF2B38662A}" Language="SFX" Hash="{7EAF0968-9122-4460-B6A0-39F6DDAA26F6}">
+			<ObjectPath>FT_MC_JumpSecond</ObjectPath>
+			<ShortName>FT_MC_JumpSecond</ShortName>
+			<Path>Event/FT_MC_JumpSecond.bnk</Path>
+			<Events>
+				<Event Id="2935530677" Name="FT_MC_JumpSecond" ObjectPath="\Events\FT\FT_MC_JumpSecond" GUID="{785476FB-AD69-4592-AE56-11AF2B38662A}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="4035313040" Name="SW_FT_Material" ObjectPath="\Switches\SW_FT\SW_FT_Material" GUID="{FF147DA2-4C43-417B-9F29-7482AAE43F6A}">
+					<Switches>
+						<Switch Id="314505124" Name="SW_FT_Metal" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Metal" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
+						<Switch Id="1699952942" Name="SW_FT_Stone" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Stone" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"/>
+						<Switch Id="1901335520" Name="SW_FT_Water" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Water" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
+						<Switch Id="3682161770" Name="SW_FT_Nenuphar" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Nenuphar" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
+						<Switch Id="4051928182" Name="SW_FT_Carpet" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Carpet" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="2964851327" Type="Event" GUID="{9684AF37-3F6A-4B58-8C70-3CE6AA0D99FD}" Language="English(US)" Hash="{5E097493-935A-40DE-93E9-2A576783D734}">
 			<ObjectPath>VO_Diana_Gameplay_Tempo</ObjectPath>
@@ -2926,55 +2918,6 @@
 						<MediaRef Id="409669438"/>
 						<MediaRef Id="849211102"/>
 						<MediaRef Id="1054848459"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
-		<SoundBank Id="2999750269" Type="Event" GUID="{7F6F206A-239F-4FC3-A2D7-297A24FCF483}" Language="English(US)" Hash="{A22042DF-597B-7202-A69F-081F189B2713}">
-			<ObjectPath>VO_Ari_Gameplay_Death</ObjectPath>
-			<ShortName>VO_Ari_Gameplay_Death</ShortName>
-			<Path>Event/English(US)/VO_Ari_Gameplay_Death.bnk</Path>
-			<Media>
-				<File Id="124313777" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_04.wav</ShortName>
-					<Path>Media/English(US)/124313777.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_04_818F3B66.wem</CachePath>
-				</File>
-				<File Id="344258897" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_02.wav</ShortName>
-					<Path>Media/English(US)/344258897.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_02_818F3B66.wem</CachePath>
-				</File>
-				<File Id="554230171" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_05.wav</ShortName>
-					<Path>Media/English(US)/554230171.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_05_818F3B66.wem</CachePath>
-				</File>
-				<File Id="556237807" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_01.wav</ShortName>
-					<Path>Media/English(US)/556237807.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_01_818F3B66.wem</CachePath>
-				</File>
-				<File Id="573120549" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_03.wav</ShortName>
-					<Path>Media/English(US)/573120549.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_03_818F3B66.wem</CachePath>
-				</File>
-				<File Id="861775547" Language="English(US)" Streaming="false" Location="Loose">
-					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Death\VO_Ari_Gameplay_Death_06.wav</ShortName>
-					<Path>Media/English(US)/861775547.wem</Path>
-					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Death/VO_Ari_Gameplay_Death_06_818F3B66.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2999750269" Name="VO_Ari_Gameplay_Death" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Death" GUID="{7F6F206A-239F-4FC3-A2D7-297A24FCF483}" DurationType="OneShot" DurationMin="1.08" DurationMax="3.2933333">
-					<MediaRefs>
-						<MediaRef Id="124313777"/>
-						<MediaRef Id="344258897"/>
-						<MediaRef Id="554230171"/>
-						<MediaRef Id="556237807"/>
-						<MediaRef Id="573120549"/>
-						<MediaRef Id="861775547"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -3077,7 +3020,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3227713063" Type="Event" GUID="{7D3EEC05-0047-48DF-BCDE-990B193F2B13}" Language="SFX" Hash="{CBFFEDA3-89C0-9EFE-52F0-7E5DB3F63591}">
+		<SoundBank Id="3227713063" Type="Event" GUID="{7D3EEC05-0047-48DF-BCDE-990B193F2B13}" Language="SFX" Hash="{C471DC23-8A42-B12D-34D6-C47B6C610C94}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_OverheatEnd</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_OverheatEnd</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_OverheatEnd.bnk</Path>
@@ -3101,6 +3044,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="3233041211" Type="Event" GUID="{43402A1C-6C1A-4646-BB60-8E1109F8D0F6}" Language="English(US)" Hash="{0C82C696-6E80-9083-ADF8-AC26BB738F56}">
 			<ObjectPath>VO_Simon_Gameplay_Goodjob</ObjectPath>
@@ -3170,7 +3116,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3277769214" Type="Event" GUID="{38E99CB2-A3A6-447C-8618-7576FA9C65DA}" Language="SFX" Hash="{9818FA4C-C938-00A7-1FA3-102D42ED9A36}">
+		<SoundBank Id="3277769214" Type="Event" GUID="{38E99CB2-A3A6-447C-8618-7576FA9C65DA}" Language="SFX" Hash="{F647E96F-CC34-A27A-E8AF-37EFFD4C40C4}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Explosion</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Explosion</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Explosion.bnk</Path>
@@ -3194,8 +3140,22 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3397588129" Type="Event" GUID="{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}" Language="SFX" Hash="{90B69F85-717A-0513-0674-E4E7108E6BD1}">
+		<SoundBank Id="3321716380" Type="Event" GUID="{5EC673DB-7E85-4A74-B2E5-ADCCE77E0AEB}" Language="SFX" Hash="{ADF882AF-FDC9-90FF-B243-519D30990CD3}">
+			<ObjectPath>FOL_MC_Pants</ObjectPath>
+			<ShortName>FOL_MC_Pants</ShortName>
+			<Path>Event/FOL_MC_Pants.bnk</Path>
+			<Events>
+				<Event Id="3321716380" Name="FOL_MC_Pants" ObjectPath="\Events\FOL\FOL_MC_Pants" GUID="{5EC673DB-7E85-4A74-B2E5-ADCCE77E0AEB}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3397588129" Type="Event" GUID="{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}" Language="SFX" Hash="{855C9148-5FDD-A029-1A12-B889AC35F421}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Shot</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Shot</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Shot.bnk</Path>
@@ -3225,6 +3185,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="3474566310" Type="Event" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" Language="SFX" Hash="{17F428AD-BCA0-373D-AE35-BA9973256AE6}">
 			<ObjectPath>UI_Menu_Select</ObjectPath>
@@ -3313,16 +3276,47 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3685120562" Type="Event" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" Language="SFX" Hash="{261D1400-28B5-800D-EAF7-7E986CD7B97E}">
+		<SoundBank Id="3685120562" Type="Event" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" Language="SFX" Hash="{9633B5E8-2BDF-6D5C-1DA9-BD3135A5E65B}">
 			<ObjectPath>FT_MC</ObjectPath>
 			<ShortName>FT_MC</ShortName>
 			<Path>Event/FT_MC.bnk</Path>
 			<Events>
 				<Event Id="3685120562" Name="FT_MC" ObjectPath="\Events\FT\FT_MC" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<SwitchContainers/>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="1699952942" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"/>
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="1901335520" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="4051928182" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="314505124" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="3682161770" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
+							<Children/>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
+			</GameParameters>
 			<SwitchGroups>
+				<SwitchGroup Id="119161186" Name="SW_FT_Loco" ObjectPath="\Switches\SW_FT\SW_FT_Loco" GUID="{1AE81605-C4BC-42C8-8F5C-1A4A4788CBAF}">
+					<Switches>
+						<Switch Id="1722772239" Name="SW_FT_Jump" ObjectPath="\Switches\SW_FT\SW_FT_Loco\SW_FT_Jump" GUID="{961CA02C-CC0F-44C6-9B70-B67C59C35709}"/>
+						<Switch Id="2162921054" Name="SW_FT_Run" ObjectPath="\Switches\SW_FT\SW_FT_Loco\SW_FT_Run" GUID="{3D609066-FE78-41CF-98C4-71175BBC100B}"/>
+						<Switch Id="3660121252" Name="SW_FT_Land" ObjectPath="\Switches\SW_FT\SW_FT_Loco\SW_FT_Land" GUID="{13B7E0EF-F725-4FEF-9EB1-376FF4280C76}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="4035313040" Name="SW_FT_Material" ObjectPath="\Switches\SW_FT\SW_FT_Material" GUID="{FF147DA2-4C43-417B-9F29-7482AAE43F6A}">
 					<Switches>
 						<Switch Id="314505124" Name="SW_FT_Metal" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Metal" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
@@ -3353,7 +3347,58 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3824118527" Type="Event" GUID="{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}" Language="SFX" Hash="{C505C3B9-B0CA-B16A-1B72-2C61C0217D9F}">
+		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{29F1C9B3-2B28-C9B2-8166-B6383333A031}">
+			<ObjectPath>FT_MC_Dash</ObjectPath>
+			<ShortName>FT_MC_Dash</ShortName>
+			<Path>Event/English(US)/FT_MC_Dash.bnk</Path>
+			<Media>
+				<File Id="112665800" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_04.wav</ShortName>
+					<Path>Media/English(US)/112665800.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="183278750" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_02.wav</ShortName>
+					<Path>Media/English(US)/183278750.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="270131646" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_03.wav</ShortName>
+					<Path>Media/English(US)/270131646.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="559143653" Language="English(US)" Streaming="false" Location="Loose">
+					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_01.wav</ShortName>
+					<Path>Media/English(US)/559143653.wem</Path>
+					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3790997325" Name="FT_MC_Dash" ObjectPath="\Events\FT\FT_MC_Dash" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" DurationType="OneShot" DurationMin="0.30666667" DurationMax="0.74">
+					<MediaRefs>
+						<MediaRef Id="112665800"/>
+						<MediaRef Id="183278750"/>
+						<MediaRef Id="270131646"/>
+						<MediaRef Id="559143653"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="4035313040" Name="SW_FT_Material" ObjectPath="\Switches\SW_FT\SW_FT_Material" GUID="{FF147DA2-4C43-417B-9F29-7482AAE43F6A}">
+					<Switches>
+						<Switch Id="314505124" Name="SW_FT_Metal" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Metal" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
+						<Switch Id="1699952942" Name="SW_FT_Stone" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Stone" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"/>
+						<Switch Id="1901335520" Name="SW_FT_Water" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Water" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
+						<Switch Id="3682161770" Name="SW_FT_Nenuphar" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Nenuphar" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
+						<Switch Id="4051928182" Name="SW_FT_Carpet" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Carpet" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3824118527" Type="Event" GUID="{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}" Language="SFX" Hash="{1DDC7B95-0D05-93BB-BA5D-FCE258A92423}">
 			<ObjectPath>SFX_MC_Weapon_Switch</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Switch</ShortName>
 			<Path>Event/SFX_MC_Weapon_Switch.bnk</Path>
@@ -3389,14 +3434,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
-		</SoundBank>
-		<SoundBank Id="3915970521" Type="Event" GUID="{56C3B3D0-8F35-4419-8507-E6ED5C9A9877}" Language="SFX" Hash="{EF3F9921-C3FA-2FAC-E3DD-85C47D09FC69}">
-			<ObjectPath>VO_Ari_Gameplay_Death_01</ObjectPath>
-			<ShortName>VO_Ari_Gameplay_Death_01</ShortName>
-			<Path>Event/VO_Ari_Gameplay_Death_01.bnk</Path>
-			<Events>
-				<Event Id="3915970521" Name="VO_Ari_Gameplay_Death_01" ObjectPath="\Events\Default Work Unit\VO_Ari_Gameplay_Death_01" GUID="{56C3B3D0-8F35-4419-8507-E6ED5C9A9877}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="3916625737" Type="Event" GUID="{2633593B-CB85-4E2A-B3B1-47322616C39D}" Language="English(US)" Hash="{EE7481E8-A142-29CA-F633-886A65ADE960}">
 			<ObjectPath>VO_Diana_Gameplay_Run</ObjectPath>
@@ -3847,7 +3887,22 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4218817288" Type="Event" GUID="{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}" Language="SFX" Hash="{02F663CD-484F-DE62-ECFA-81B12B8410AE}">
+		<SoundBank Id="3991942870" Type="Event" GUID="{8A0D259E-6DB0-4D09-A498-569673BE395D}" Language="SFX" Hash="{009CEAF9-D9C8-4AD2-4CF8-892B445BC002}">
+			<ObjectPath>MUSIC</ObjectPath>
+			<ShortName>MUSIC</ShortName>
+			<Path>Event/MUSIC.bnk</Path>
+			<Events>
+				<Event Id="3991942870" Name="MUSIC" ObjectPath="\Events\MUSIC\MUSIC" GUID="{8A0D259E-6DB0-4D09-A498-569673BE395D}" DurationType="Infinite"/>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1645386324" Name="ST_MUSIC" ObjectPath="\States\ST_Music\ST_MUSIC" GUID="{A7F522F4-BB23-46BA-9B35-7591E7D08985}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\ST_Music\ST_MUSIC\None" GUID="{FF4C5161-2D30-4D2A-ABF6-401285B91420}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="4218817288" Type="Event" GUID="{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}" Language="SFX" Hash="{228A87EB-B000-BCC4-9E46-16C107B60798}">
 			<ObjectPath>SFX_GPE_Launcher_Idle_lp</ObjectPath>
 			<ShortName>SFX_GPE_Launcher_Idle_lp</ShortName>
 			<Path>Event/SFX_GPE_Launcher_Idle_lp.bnk</Path>
@@ -3865,8 +3920,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4227750726" Type="Event" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" Language="English(US)" Hash="{E855BA94-F59E-170D-740E-92FF32049EF4}">
+		<SoundBank Id="4227750726" Type="Event" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" Language="English(US)" Hash="{04C308F3-9E50-0D05-284E-51D52D6E7F49}">
 			<ObjectPath>SFX_MC_TakeDamage</ObjectPath>
 			<ShortName>SFX_MC_TakeDamage</ShortName>
 			<Path>Event/English(US)/SFX_MC_TakeDamage.bnk</Path>
@@ -3938,7 +3996,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4227750726" Name="SFX_MC_TakeDamage" ObjectPath="\Events\SFX\SFX_MC_TakeDamage" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" DurationType="OneShot" DurationMin="0.48" DurationMax="1.4">
+				<Event Id="4227750726" Name="SFX_MC_TakeDamage" ObjectPath="\Events\SFX\SFX_MC_TakeDamage" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" DurationType="OneShot" DurationMin="0.53" DurationMax="1.65">
 					<MediaRefs>
 						<MediaRef Id="59693309"/>
 						<MediaRef Id="71444088"/>
@@ -3956,7 +4014,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D796D4D0-875D-0A16-2643-CEECFCA42D69}</FileHash>
+	<FileHash>{B7EBF6A5-5B10-D6C7-F81E-DD7F75616941}</FileHash>
 </SoundBanksInfo>

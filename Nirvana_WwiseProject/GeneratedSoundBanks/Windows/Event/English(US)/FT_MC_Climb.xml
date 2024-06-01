@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="798162039" Type="Event" GUID="{14412A49-EE02-4B5F-9198-987A15F0CC83}" Language="English(US)" Hash="{DA59D297-6CC9-C225-9569-EF394303E8C5}">
-			<ObjectPath>VO_Ari_Gameplay_Effort</ObjectPath>
-			<ShortName>VO_Ari_Gameplay_Effort</ShortName>
-			<Path>Event/English(US)/VO_Ari_Gameplay_Effort.bnk</Path>
+		<SoundBank Id="2727804452" Type="Event" GUID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}" Language="English(US)" Hash="{1BBFE8D1-6317-96D5-741D-1B40F8083C15}">
+			<ObjectPath>FT_MC_Climb</ObjectPath>
+			<ShortName>FT_MC_Climb</ShortName>
+			<Path>Event/English(US)/FT_MC_Climb.bnk</Path>
 			<Media>
 				<File Id="15835442" Language="English(US)" Streaming="false" Location="Loose">
 					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Effort\VO_Ari_Gameplay_Effort_04.wav</ShortName>
@@ -33,7 +33,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="798162039" Name="VO_Ari_Gameplay_Effort" ObjectPath="\Events\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Effort" GUID="{14412A49-EE02-4B5F-9198-987A15F0CC83}" DurationType="OneShot" DurationMin="0.18666667" DurationMax="1.28">
+				<Event Id="2727804452" Name="FT_MC_Climb" ObjectPath="\Events\FT\FT_MC_Climb" GUID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}" DurationType="OneShot" DurationMin="0.18666667" DurationMax="1.28">
 					<MediaRefs>
 						<MediaRef Id="15835442"/>
 						<MediaRef Id="163928903"/>
@@ -43,7 +43,21 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="4035313040" Name="SW_FT_Material" ObjectPath="\Switches\SW_FT\SW_FT_Material" GUID="{FF147DA2-4C43-417B-9F29-7482AAE43F6A}">
+					<Switches>
+						<Switch Id="314505124" Name="SW_FT_Metal" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Metal" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
+						<Switch Id="1699952942" Name="SW_FT_Stone" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Stone" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"/>
+						<Switch Id="1901335520" Name="SW_FT_Water" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Water" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
+						<Switch Id="3682161770" Name="SW_FT_Nenuphar" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Nenuphar" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
+						<Switch Id="4051928182" Name="SW_FT_Carpet" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Carpet" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{56A12A28-A124-2496-738E-B387FB21184E}</FileHash>
+	<FileHash>{B13D1FB8-CE11-52F4-6801-48E063C78949}</FileHash>
 </SoundBanksInfo>

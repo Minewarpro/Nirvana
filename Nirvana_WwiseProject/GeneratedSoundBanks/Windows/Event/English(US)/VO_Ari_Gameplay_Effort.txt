@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	798162039	VO_Ari_Gameplay_Effort			\VO\VO_Ari_Gameplay\VO_Ari_Gameplay_Effort	
-

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1686072914" Type="Event" GUID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}" Language="SFX" Hash="{A1277C4A-63C9-2703-D58B-898A09FB2A26}">
+		<SoundBank Id="1686072914" Type="Event" GUID="{ED3A8350-B98C-446C-87D8-7B0D244A9199}" Language="SFX" Hash="{062C5ABF-FD6A-5A66-25D0-599783E66880}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_PrimaryShot</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_PrimaryShot</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_PrimaryShot.bnk</Path>
@@ -61,7 +61,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2CFB821F-01D3-F840-BBCC-4FF82F78C8A8}</FileHash>
+	<FileHash>{46FAE89E-7BB1-3C82-671F-DF99CBB6B6EC}</FileHash>
 </SoundBanksInfo>

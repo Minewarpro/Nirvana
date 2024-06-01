@@ -70,6 +70,11 @@
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
@@ -83,6 +88,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -263,6 +273,11 @@
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_HitENM" ID="{60C7D297-0F62-4056-9F4D-F563D5DAAC53}" ShortID="530729145">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
@@ -279,6 +294,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-5</Value>
@@ -444,6 +464,11 @@
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_HitSurface" ID="{A42D47AF-3864-43BA-8EB1-7791FAA48CDE}" ShortID="76280409">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
@@ -460,6 +485,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-3</Value>
@@ -624,6 +654,11 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_OverheatBegin" ID="{9E555A81-776E-4A56-AD89-84E44FFBB1BC}" ShortID="105936833">
 									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -638,6 +673,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ModifierList>
 												<ModifierInfo>
@@ -708,6 +748,11 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Chakrams_OverheatEnd" ID="{0A20E3DF-F33C-451A-8547-378FABED574F}" ShortID="201977239">
 									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -722,6 +767,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-6</Value>
@@ -796,6 +846,11 @@
 								<Sound Name="SFX_MC_Weapon_Chakrams_Overheating_lp" ID="{AA7E0936-5D60-4EDF-8C36-79D272773191}" ShortID="517027830">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -807,6 +862,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -839,7 +899,7 @@
 									<PropertyList>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>1</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1200,6 +1260,11 @@
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_HitENM" ID="{85C43646-BF2A-41AB-B8FA-6CE1472080F7}" ShortID="487786117">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
@@ -1216,6 +1281,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ModifierList>
 												<ModifierInfo>
@@ -1334,6 +1404,11 @@
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_HitSurface" ID="{7B9CD90E-DDFD-4CA7-B637-B582DCD41F99}" ShortID="542609245">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
@@ -1350,6 +1425,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ModifierList>
 												<ModifierInfo>
@@ -1467,6 +1547,11 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_OverheatBegin" ID="{8166CD36-6CC7-4DAA-9102-A4386B9E578A}" ShortID="128818718">
 									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1481,6 +1566,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-2</Value>
@@ -1554,6 +1644,11 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_OverheatEnd" ID="{EE06B07B-7278-45E1-9240-58E30B615CC8}" ShortID="790874112">
 									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1568,6 +1663,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-4</Value>
@@ -1642,6 +1742,16 @@
 								<Sound Name="SFX_MC_Weapon_Vajra_Overheating_lp" ID="{9012CC14-6750-4F6B-A08E-D308E45D2445}" ShortID="952242417">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-9</Value>
@@ -1671,6 +1781,11 @@
 								</Sound>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Primary_Shot" ID="{332A063C-8FA5-4C5A-A126-675339C06311}" ShortID="275943617">
 									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -1686,6 +1801,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ModifierList>
 												<ModifierInfo>
@@ -1845,6 +1965,12 @@
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Secondary_Bounce" ID="{93755432-30C0-4A68-997F-1628E8C36C14}" ShortID="544136985">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -1858,6 +1984,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ModifierList>
@@ -1977,6 +2108,11 @@
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Secondary_Explosion" ID="{1337706F-2AF3-41C0-BE10-3A0CC93AFB53}" ShortID="864236729">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -1992,6 +2128,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ModifierList>
 												<ModifierInfo>
@@ -2067,7 +2208,17 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-6</Value>
@@ -2101,6 +2252,11 @@
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Secondary_Lightning" ID="{589E4638-EAB9-4127-B464-E666541A3D2A}" ShortID="341161540">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
@@ -2115,6 +2271,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -2214,6 +2375,11 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_MC_Weapon_Vajra_Secondary_Shot" ID="{92C23DBA-5118-4F2F-8722-14C5D795C48D}" ShortID="449125954">
 									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -2227,6 +2393,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -2342,6 +2513,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -2356,6 +2532,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ModifierList>
 										<ModifierInfo>
@@ -2430,7 +2611,7 @@
 							<PropertyList>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
-										<Value>1</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2614,6 +2795,11 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="SFX_MC_Weapon_Switch" ID="{E323E3C8-540B-46F1-B949-672CF0038462}" ShortID="540828572">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -2629,6 +2815,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -2746,6 +2937,11 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="SFX_MC_TakeDamage" ID="{09F15E97-08FE-4EF9-B32B-32867E777887}" ShortID="589261292">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -2761,6 +2957,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-9</Value>
@@ -2924,6 +3125,55 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{CC517F87-B29C-42B7-B9F0-65BDE1DAF4DB}" ShortID="634163608">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Azimuth" ID="{771130CB-E8A2-4560-ADCA-06985A29C132}" WorkUnitID="{F3A5047C-AFCE-4EF5-A5D7-3137F5C8185D}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{E33BAD9C-2182-4A24-807C-E78C32E0CF4C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-180</XPos>
+																<YPos>-7</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-75</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>75</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>-7</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

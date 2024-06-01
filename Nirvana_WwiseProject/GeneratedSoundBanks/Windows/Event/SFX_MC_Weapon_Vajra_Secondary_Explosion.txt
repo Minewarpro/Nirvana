@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	3277769214	SFX_MC_Weapon_Vajra_Secondary_Explosion			\SFX\SFX_MC_Weapon_Vajra\SFX_MC_Weapon_Vajra_Secondary_Explosion	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3972935021	RTPC_Azimuth			\RTPC_Persistent\RTPC_Azimuth	
+

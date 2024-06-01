@@ -40,6 +40,13 @@
 							</Custom>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Arguments">
+							<Reference>
+								<ObjectRef Name="ST_MUSIC" ID="{A7F522F4-BB23-46BA-9B35-7591E7D08985}" WorkUnitID="{54338FA3-4393-4329-8E03-2FC8F077CF4A}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>

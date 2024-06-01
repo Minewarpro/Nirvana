@@ -6,6 +6,13 @@
 				<Property Name="Color" Type="int16" Value="16"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<StateGroup Name="ST_MUSIC" ID="{A7F522F4-BB23-46BA-9B35-7591E7D08985}">
+					<ChildrenList>
+						<State Name="None" ID="{FF4C5161-2D30-4D2A-ABF6-401285B91420}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
 		</WorkUnit>
 	</States>
 </WwiseDocument>

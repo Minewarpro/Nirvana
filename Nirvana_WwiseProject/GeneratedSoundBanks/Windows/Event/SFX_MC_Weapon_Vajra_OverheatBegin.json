@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{DDE6B034-63CD-4F7A-8610-080095095B13}",
     "Language": "SFX",
-    "Hash": "{8C22D8DE-8529-4DB5-B319-5F4CC5FAD690}",
+    "Hash": "{EA709326-43B0-9A2C-6143-9EAD18D6D80E}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_OverheatBegin",
     "ShortName": "SFX_MC_Weapon_Vajra_OverheatBegin",
     "Path": "Event/SFX_MC_Weapon_Vajra_OverheatBegin.bnk",
@@ -63,9 +63,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{8949BC33-A424-B225-2E21-BB216BFA5E1E}"
+  "FileHash": "{14EAFDB6-0681-42AA-81C5-C4470A0C0DA6}"
  }
 }

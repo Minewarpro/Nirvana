@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3824118527" Type="Event" GUID="{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}" Language="SFX" Hash="{C505C3B9-B0CA-B16A-1B72-2C61C0217D9F}">
+		<SoundBank Id="3824118527" Type="Event" GUID="{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}" Language="SFX" Hash="{1DDC7B95-0D05-93BB-BA5D-FCE258A92423}">
 			<ObjectPath>SFX_MC_Weapon_Switch</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Switch</ShortName>
 			<Path>Event/SFX_MC_Weapon_Switch.bnk</Path>
@@ -37,7 +37,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B04C2682-DA44-7031-ECDF-E794BA3B00B1}</FileHash>
+	<FileHash>{62282910-D3E3-5D63-E233-EE91EBA8BFF5}</FileHash>
 </SoundBanksInfo>

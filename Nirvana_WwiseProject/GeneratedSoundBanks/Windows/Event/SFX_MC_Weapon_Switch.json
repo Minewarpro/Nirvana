@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}",
     "Language": "SFX",
-    "Hash": "{C505C3B9-B0CA-B16A-1B72-2C61C0217D9F}",
+    "Hash": "{1DDC7B95-0D05-93BB-BA5D-FCE258A92423}",
     "ObjectPath": "SFX_MC_Weapon_Switch",
     "ShortName": "SFX_MC_Weapon_Switch",
     "Path": "Event/SFX_MC_Weapon_Switch.bnk",
@@ -77,9 +77,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{BF51B9D9-AD7B-6060-D63B-3951BDBCAFBE}"
+  "FileHash": "{DFE539D4-1660-01A8-9D5E-8BFB768C44EF}"
  }
 }

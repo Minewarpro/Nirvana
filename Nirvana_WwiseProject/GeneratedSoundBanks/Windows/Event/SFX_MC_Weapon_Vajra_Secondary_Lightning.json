@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5C19D422-C820-434B-94C3-0FD0A2504D4A}",
     "Language": "SFX",
-    "Hash": "{E8ACCE66-B55C-CBCB-C214-AEABFAF2F711}",
+    "Hash": "{952C1352-551B-AB7F-ED03-FF88322A428E}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_Secondary_Lightning",
     "ShortName": "SFX_MC_Weapon_Vajra_Secondary_Lightning",
     "Path": "Event/SFX_MC_Weapon_Vajra_Secondary_Lightning.bnk",
@@ -65,9 +65,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{6E3F2405-E214-0C19-9C44-EB8EC667FE9A}"
+  "FileHash": "{5F461D50-E37A-3292-0A62-74635CB70C22}"
  }
 }

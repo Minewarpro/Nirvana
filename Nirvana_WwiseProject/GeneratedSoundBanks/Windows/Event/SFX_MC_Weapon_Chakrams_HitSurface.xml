@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2365754676" Type="Event" GUID="{E9C7E76D-C404-4781-BE73-59D9808B1208}" Language="SFX" Hash="{DA2471C7-B2A4-D2E9-1B98-70E22C680A47}">
+		<SoundBank Id="2365754676" Type="Event" GUID="{E9C7E76D-C404-4781-BE73-59D9808B1208}" Language="SFX" Hash="{D5E50559-DF69-25F8-7B3C-E7B35942D16E}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_HitSurface</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_HitSurface</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_HitSurface.bnk</Path>
@@ -49,7 +49,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9338E9E0-1F2B-0D87-5B45-D7D8A43ADD20}</FileHash>
+	<FileHash>{25E954DE-355B-4E14-84E7-F5AE0EB80780}</FileHash>
 </SoundBanksInfo>

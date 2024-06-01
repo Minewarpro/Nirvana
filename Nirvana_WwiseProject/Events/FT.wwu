@@ -18,6 +18,71 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="FT_MC_Climb" ID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}">
+					<ChildrenList>
+						<Action Name="" ID="{D7BE1EAD-4707-4748-8FB0-1504A68FD1E3}" ShortID="317497742">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FT_MC_Climb" ID="{73551A1B-EB90-4360-84E0-8DE1F59A43A5}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BE9A32AE-8AE0-4B68-B4E7-4908EABE2484}" ShortID="118712973">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="66"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_Ari_Gameplay_Effort" ID="{97E156A1-95BB-4172-BB59-7C0B3AD48636}" WorkUnitID="{9F6C0C4B-6578-4A56-B6A0-DB3A2F4BFB21}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FT_MC_Dash" ID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}">
+					<ChildrenList>
+						<Action Name="" ID="{C0841FF9-8500-4C46-9263-3994CB8C55FD}" ShortID="531321059">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FT_MC_Dash" ID="{8B614566-9BCE-428C-B70C-BCBB6F6D01E2}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B547C978-22DE-4E79-BB53-A8195C91AFC0}" ShortID="686952605">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E7FE531B-E6C0-491A-B5DA-08B7C9471983}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Probability" Type="Real64" Value="66"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_Ari_Gameplay_Dash" ID="{6FB3A116-BA43-4634-869C-6F76E23A2B90}" WorkUnitID="{9F6C0C4B-6578-4A56-B6A0-DB3A2F4BFB21}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FT_MC_JumpSecond" ID="{785476FB-AD69-4592-AE56-11AF2B38662A}">
+					<ChildrenList>
+						<Action Name="" ID="{C17A6246-0253-4A94-8C50-C52A5AFF5B40}" ShortID="233182447">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FT_MC_JumpSecond" ID="{1FD52110-3A39-4022-B36B-19751D4C0899}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

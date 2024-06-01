@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="148639171" Type="Event" GUID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}" Language="SFX" Hash="{4743E84D-1CB2-DA76-BDFF-09DF92D7804A}">
+		<SoundBank Id="148639171" Type="Event" GUID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}" Language="SFX" Hash="{A51B5CA3-5888-CE9F-AC39-88F0EF713B50}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_OverheatBegin</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_OverheatBegin</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_OverheatBegin.bnk</Path>
@@ -31,7 +31,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C78BBE11-6C7F-9FC9-F905-0F636E56A904}</FileHash>
+	<FileHash>{4803A4D5-8169-BF28-8818-9F4777639528}</FileHash>
 </SoundBanksInfo>

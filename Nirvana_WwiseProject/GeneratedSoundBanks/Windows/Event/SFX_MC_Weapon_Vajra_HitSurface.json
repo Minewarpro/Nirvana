@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{18DF74F5-BA54-49B5-8F44-F1D587D056B9}",
     "Language": "SFX",
-    "Hash": "{8D7BB057-5BDA-D347-2431-5C7C8EF52FA0}",
+    "Hash": "{4D47C278-847C-5253-8EE3-69E58D33B462}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_HitSurface",
     "ShortName": "SFX_MC_Weapon_Vajra_HitSurface",
     "Path": "Event/SFX_MC_Weapon_Vajra_HitSurface.bnk",
@@ -77,9 +77,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{FC8D915B-B9D0-CF1C-830A-E4ADC6FEF1F3}"
+  "FileHash": "{D0E0928C-67AA-7E34-5EC9-36F497D0132B}"
  }
 }

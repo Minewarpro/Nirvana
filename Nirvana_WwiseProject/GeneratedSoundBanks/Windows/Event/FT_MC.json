@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}",
     "Language": "SFX",
-    "Hash": "{261D1400-28B5-800D-EAF7-7E986CD7B97E}",
+    "Hash": "{9633B5E8-2BDF-6D5C-1DA9-BD3135A5E65B}",
     "ObjectPath": "FT_MC",
     "ShortName": "FT_MC",
     "Path": "Event/FT_MC.bnk",
@@ -23,10 +23,90 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0",
-      "SwitchContainers": []
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4035313040",
+         "Id": "1699952942",
+         "GUID": "{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"
+        },
+        "Children": []
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4035313040",
+         "Id": "1901335520",
+         "GUID": "{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"
+        },
+        "Children": []
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4035313040",
+         "Id": "4051928182",
+         "GUID": "{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"
+        },
+        "Children": []
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4035313040",
+         "Id": "314505124",
+         "GUID": "{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"
+        },
+        "Children": []
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4035313040",
+         "Id": "3682161770",
+         "GUID": "{4542D8F7-2774-4820-9402-34B9207369C5}"
+        },
+        "Children": []
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3059389217",
+      "Name": "RTPC_FT_Speed",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
+      "GUID": "{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"
      }
     ],
     "SwitchGroups": [
+     {
+      "Id": "119161186",
+      "Name": "SW_FT_Loco",
+      "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Loco",
+      "GUID": "{1AE81605-C4BC-42C8-8F5C-1A4A4788CBAF}",
+      "Switches": [
+       {
+        "Id": "1722772239",
+        "Name": "SW_FT_Jump",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Loco\\SW_FT_Jump",
+        "GUID": "{961CA02C-CC0F-44C6-9B70-B67C59C35709}"
+       },
+       {
+        "Id": "2162921054",
+        "Name": "SW_FT_Run",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Loco\\SW_FT_Run",
+        "GUID": "{3D609066-FE78-41CF-98C4-71175BBC100B}"
+       },
+       {
+        "Id": "3660121252",
+        "Name": "SW_FT_Land",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Loco\\SW_FT_Land",
+        "GUID": "{13B7E0EF-F725-4FEF-9EB1-376FF4280C76}"
+       }
+      ]
+     },
      {
       "Id": "4035313040",
       "Name": "SW_FT_Material",
@@ -68,6 +148,6 @@
     ]
    }
   ],
-  "FileHash": "{93224B3A-A82B-C7C2-332F-9D7DD5C759EF}"
+  "FileHash": "{DD140F21-D549-A7C0-46EA-AE2D6323CEF2}"
  }
 }

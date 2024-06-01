@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EECBB3DB-A081-4355-BE52-097B1FBB8522}",
     "Language": "SFX",
-    "Hash": "{4743E84D-1CB2-DA76-BDFF-09DF92D7804A}",
+    "Hash": "{A51B5CA3-5888-CE9F-AC39-88F0EF713B50}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_OverheatBegin",
     "ShortName": "SFX_MC_Weapon_Chakrams_OverheatBegin",
     "Path": "Event/SFX_MC_Weapon_Chakrams_OverheatBegin.bnk",
@@ -63,9 +63,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{D2C8B044-9D3E-9602-6E47-FD8BED0EE5E1}"
+  "FileHash": "{FF875053-27EC-F222-2E78-DC3A35634181}"
  }
 }

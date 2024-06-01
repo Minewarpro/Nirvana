@@ -410,6 +410,20 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{15AC07CC-D928-48C8-8E48-8F1FE354C65C}" ShortID="643624180">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D933494A-9082-4AFF-8AC3-89FFAF80D89D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="VO_Ari_Gameplay_Hurt" ID="{5D6FD190-355C-49A7-856F-DCE5F002E197}" WorkUnitID="{9F6C0C4B-6578-4A56-B6A0-DB3A2F4BFB21}"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3227713063" Type="Event" GUID="{7D3EEC05-0047-48DF-BCDE-990B193F2B13}" Language="SFX" Hash="{CBFFEDA3-89C0-9EFE-52F0-7E5DB3F63591}">
+		<SoundBank Id="3227713063" Type="Event" GUID="{7D3EEC05-0047-48DF-BCDE-990B193F2B13}" Language="SFX" Hash="{C471DC23-8A42-B12D-34D6-C47B6C610C94}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_OverheatEnd</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_OverheatEnd</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_OverheatEnd.bnk</Path>
@@ -25,7 +25,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0879758D-CB33-7301-4A19-22B3748EA2EF}</FileHash>
+	<FileHash>{4CEEABEB-D6A8-F9CB-33F4-288F3228E196}</FileHash>
 </SoundBanksInfo>

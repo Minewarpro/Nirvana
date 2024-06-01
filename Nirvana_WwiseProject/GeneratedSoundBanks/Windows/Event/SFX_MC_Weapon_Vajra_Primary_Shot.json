@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7CAB1505-06EC-4601-A109-68F07B61CA2E}",
     "Language": "SFX",
-    "Hash": "{56C0D991-5EBE-909F-FA94-1A7E2D82ED80}",
+    "Hash": "{EAFB9D22-4984-A9FF-B9C5-D785A20B3665}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_Primary_Shot",
     "ShortName": "SFX_MC_Weapon_Vajra_Primary_Shot",
     "Path": "Event/SFX_MC_Weapon_Vajra_Primary_Shot.bnk",
@@ -101,9 +101,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{41E82D2C-FF64-A129-1701-38BF5C3D18EF}"
+  "FileHash": "{D077CEDA-A35A-A88A-E5F3-33344C8C9AFE}"
  }
 }

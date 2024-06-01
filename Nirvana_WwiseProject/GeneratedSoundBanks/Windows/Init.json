@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{608BE880-6A5A-F20F-042B-0FCE28E92985}",
+    "Hash": "{4770BB9D-3FF7-BA24-2109-8942C92345D9}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -147,6 +147,12 @@
       "GUID": "{86852467-6F73-4A7D-A970-056FB33188A5}"
      },
      {
+      "Id": "3059389217",
+      "Name": "RTPC_FT_Speed",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
+      "GUID": "{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"
+     },
+     {
       "Id": "3569469165",
       "Name": "RTPC_UI_Music",
       "ObjectPath": "\\Game Parameters\\RTPC_UI\\RTPC_UI_Music",
@@ -166,6 +172,20 @@
      }
     ],
     "StateGroups": [
+     {
+      "Id": "1645386324",
+      "Name": "ST_MUSIC",
+      "ObjectPath": "\\States\\ST_Music\\ST_MUSIC",
+      "GUID": "{A7F522F4-BB23-46BA-9B35-7591E7D08985}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\None",
+        "GUID": "{FF4C5161-2D30-4D2A-ABF6-401285B91420}"
+       }
+      ]
+     },
      {
       "Id": "1695734195",
       "Name": "ST_MC",
@@ -227,10 +247,22 @@
       "GUID": "{1AE81605-C4BC-42C8-8F5C-1A4A4788CBAF}",
       "Switches": [
        {
+        "Id": "1722772239",
+        "Name": "SW_FT_Jump",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Loco\\SW_FT_Jump",
+        "GUID": "{961CA02C-CC0F-44C6-9B70-B67C59C35709}"
+       },
+       {
         "Id": "2162921054",
         "Name": "SW_FT_Run",
         "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Loco\\SW_FT_Run",
         "GUID": "{3D609066-FE78-41CF-98C4-71175BBC100B}"
+       },
+       {
+        "Id": "3660121252",
+        "Name": "SW_FT_Land",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Loco\\SW_FT_Land",
+        "GUID": "{13B7E0EF-F725-4FEF-9EB1-376FF4280C76}"
        }
       ]
      },
@@ -275,6 +307,6 @@
     ]
    }
   ],
-  "FileHash": "{5C73A6F6-FFD6-0045-EF8D-FD005123C3FE}"
+  "FileHash": "{FB56BCB5-181C-7207-02F5-879BA068C5DD}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}",
     "Language": "SFX",
-    "Hash": "{600A8A83-B77B-DE51-97ED-AE017380ECB9}",
+    "Hash": "{83BE3206-50AE-F450-97EA-0860BE62BF14}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_SecondaryShot",
     "ShortName": "SFX_MC_Weapon_Chakrams_SecondaryShot",
     "Path": "Event/SFX_MC_Weapon_Chakrams_SecondaryShot.bnk",
@@ -65,9 +65,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{F68B39D1-35F4-9C2C-366E-AC473809C698}"
+  "FileHash": "{7F9C93C8-EA14-31A4-898F-2D686022FF44}"
  }
 }

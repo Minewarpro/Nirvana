@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3991942870",
+    "Type": "Event",
+    "GUID": "{8A0D259E-6DB0-4D09-A498-569673BE395D}",
+    "Language": "SFX",
+    "Hash": "{009CEAF9-D9C8-4AD2-4CF8-892B445BC002}",
+    "ObjectPath": "MUSIC",
+    "ShortName": "MUSIC",
+    "Path": "Event/MUSIC.bnk",
+    "Events": [
+     {
+      "Id": "3991942870",
+      "Name": "MUSIC",
+      "ObjectPath": "\\Events\\MUSIC\\MUSIC",
+      "GUID": "{8A0D259E-6DB0-4D09-A498-569673BE395D}",
+      "DurationType": "Infinite"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1645386324",
+      "Name": "ST_MUSIC",
+      "ObjectPath": "\\States\\ST_Music\\ST_MUSIC",
+      "GUID": "{A7F522F4-BB23-46BA-9B35-7591E7D08985}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\None",
+        "GUID": "{FF4C5161-2D30-4D2A-ABF6-401285B91420}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AC20FA2D-B7F9-2D3B-058A-8C5765240753}"
+ }
+}

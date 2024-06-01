@@ -6,6 +6,14 @@
 				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<GameParameter Name="RTPC_FT_Speed" ID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1050"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

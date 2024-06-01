@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1483737050" Type="Event" GUID="{06631D50-D230-4F7E-B2DD-E54FEAE107B0}" Language="SFX" Hash="{3DF6C977-683F-1779-7F07-5F9F0ACCBCB6}">
+		<SoundBank Id="1483737050" Type="Event" GUID="{06631D50-D230-4F7E-B2DD-E54FEAE107B0}" Language="SFX" Hash="{212FAD9E-6D33-FB0A-35EF-3179C37CC611}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Idle_lp</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Idle_lp</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Idle_lp.bnk</Path>
@@ -19,7 +19,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{ACC83BFF-9E1B-F3CC-624A-8B3A164667EF}</FileHash>
+	<FileHash>{2DC9DE0A-C7CE-532A-D27F-23779BFAF708}</FileHash>
 </SoundBanksInfo>

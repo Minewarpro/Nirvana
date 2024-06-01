@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}",
     "Language": "English(US)",
-    "Hash": "{E855BA94-F59E-170D-740E-92FF32049EF4}",
+    "Hash": "{04C308F3-9E50-0D05-284E-51D52D6E7F49}",
     "ObjectPath": "SFX_MC_TakeDamage",
     "ShortName": "SFX_MC_TakeDamage",
     "Path": "Event/English(US)/SFX_MC_TakeDamage.bnk",
@@ -140,8 +140,8 @@
       "ObjectPath": "\\Events\\SFX\\SFX_MC_TakeDamage",
       "GUID": "{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}",
       "DurationType": "OneShot",
-      "DurationMin": "0.48",
-      "DurationMax": "1.4",
+      "DurationMin": "0.53",
+      "DurationMax": "1.65",
       "MediaRefs": [
        {
         "Id": "59693309"
@@ -184,9 +184,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{F173125B-D3AB-BC84-8C97-D2101680932F}"
+  "FileHash": "{FFE843CA-AC5D-F0A8-B89A-7DA446C6B6EB}"
  }
 }

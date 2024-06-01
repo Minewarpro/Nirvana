@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{324428D0-0193-4CA6-9B39-69E330023645}",
     "Language": "SFX",
-    "Hash": "{0D45C9B6-D996-3664-0EA0-8F1C09432E49}",
+    "Hash": "{D3152749-25B0-BFA7-6A30-1185DE8EA469}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_Secondary_Bounce",
     "ShortName": "SFX_MC_Weapon_Vajra_Secondary_Bounce",
     "Path": "Event/SFX_MC_Weapon_Vajra_Secondary_Bounce.bnk",
@@ -77,9 +77,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{E90A5B59-9160-5AB2-F046-425F9CBA84B1}"
+  "FileHash": "{9ACD7BE1-FAB2-4E38-0EF3-6D45789ED64C}"
  }
 }

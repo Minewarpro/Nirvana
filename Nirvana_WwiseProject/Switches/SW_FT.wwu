@@ -19,6 +19,8 @@
 				<SwitchGroup Name="SW_FT_Loco" ID="{1AE81605-C4BC-42C8-8F5C-1A4A4788CBAF}">
 					<ChildrenList>
 						<Switch Name="SW_FT_Run" ID="{3D609066-FE78-41CF-98C4-71175BBC100B}"/>
+						<Switch Name="SW_FT_Jump" ID="{961CA02C-CC0F-44C6-9B70-B67C59C35709}"/>
+						<Switch Name="SW_FT_Land" ID="{13B7E0EF-F725-4FEF-9EB1-376FF4280C76}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
