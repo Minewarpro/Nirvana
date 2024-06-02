@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	849362003	FT_MC_Slide_Exit			\FT\FT_MC_Slide_Exit	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3059389217	RTPC_FT_Speed			\RTPC_FT\RTPC_FT_Speed	
+

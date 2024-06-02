@@ -12,7 +12,7 @@
 						<Action Name="" ID="{86CCD5AD-95E4-4326-9051-C64D38CB6B62}" ShortID="990675270">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FT_MC" ID="{EBBD7FAF-6EB3-4E36-9D67-C54EEB0E11C0}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
+									<ObjectRef Name="FT_MC_Loco" ID="{EBBD7FAF-6EB3-4E36-9D67-C54EEB0E11C0}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -78,6 +78,86 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FT_MC_JumpSecond" ID="{1FD52110-3A39-4022-B36B-19751D4C0899}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FT_MC_Slide_Exit" ID="{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}">
+					<ChildrenList>
+						<Action Name="" ID="{F442753C-C0D7-479D-AC61-5D05D01E7B89}" ShortID="782022798">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FT_MC_Slide_Exit" ID="{26BCAD6C-26DB-43A2-B61A-6369CDAC88C9}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8CB606AE-0D7C-405C-A174-2D1A0AB5E6EE}" ShortID="371097792">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FT_MC_Slide_Ongoing" ID="{E17ADCFD-0C43-4954-AFFE-19CD16EB8E3F}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FT_MC_Slide_Enter" ID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}">
+					<ChildrenList>
+						<Action Name="" ID="{A78EB8DD-D132-4D1F-878C-0CCB4741D7CC}" ShortID="930117561">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FT_MC_Slide_Enter" ID="{A8214B55-7FBD-4CAF-929B-46F5135AF300}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6B389182-05F3-4E4A-9EAB-69286DBA383A}" ShortID="896561294">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0B8ECB96-EE0C-4484-8F0D-FDB020B65C4C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FT_MC_Slide_Ongoing" ID="{E17ADCFD-0C43-4954-AFFE-19CD16EB8E3F}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A09CEFAE-B5CF-49C3-9F32-AA451199F336}" ShortID="957768641">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BAF2735B-1294-4342-9E8C-C6408FA39B1C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="95"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FT_MC_Slide_Ongoing" ID="{E17ADCFD-0C43-4954-AFFE-19CD16EB8E3F}" WorkUnitID="{1C906ACD-559A-4C5C-83DF-1E4E232470E3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

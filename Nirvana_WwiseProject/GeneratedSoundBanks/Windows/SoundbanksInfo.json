@@ -2334,6 +2334,35 @@
     ]
    },
    {
+    "Id": "849362003",
+    "Type": "Event",
+    "GUID": "{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}",
+    "Language": "SFX",
+    "Hash": "{8D2D9C77-8FDC-D802-7FAA-2ED82540712A}",
+    "ObjectPath": "FT_MC_Slide_Exit",
+    "ShortName": "FT_MC_Slide_Exit",
+    "Path": "Event/FT_MC_Slide_Exit.bnk",
+    "Events": [
+     {
+      "Id": "849362003",
+      "Name": "FT_MC_Slide_Exit",
+      "ObjectPath": "\\Events\\FT\\FT_MC_Slide_Exit",
+      "GUID": "{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3059389217",
+      "Name": "RTPC_FT_Speed",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
+      "GUID": "{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"
+     }
+    ]
+   },
+   {
     "Id": "922786755",
     "Type": "Event",
     "GUID": "{E7387EF2-D014-495D-9EC9-0045BB855F8F}",
@@ -4486,6 +4515,75 @@
     ]
    },
    {
+    "Id": "2107232147",
+    "Type": "Event",
+    "GUID": "{B938B411-A41C-469A-B1F4-9D6AFA5CE561}",
+    "Language": "SFX",
+    "Hash": "{CA9B5B17-0DEC-21B1-AE3E-F255B8467346}",
+    "ObjectPath": "FT_MC_Slide_Enter",
+    "ShortName": "FT_MC_Slide_Enter",
+    "Path": "Event/FT_MC_Slide_Enter.bnk",
+    "Events": [
+     {
+      "Id": "2107232147",
+      "Name": "FT_MC_Slide_Enter",
+      "ObjectPath": "\\Events\\FT\\FT_MC_Slide_Enter",
+      "GUID": "{B938B411-A41C-469A-B1F4-9D6AFA5CE561}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3059389217",
+      "Name": "RTPC_FT_Speed",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
+      "GUID": "{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "4035313040",
+      "Name": "SW_FT_Material",
+      "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material",
+      "GUID": "{FF147DA2-4C43-417B-9F29-7482AAE43F6A}",
+      "Switches": [
+       {
+        "Id": "314505124",
+        "Name": "SW_FT_Metal",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Metal",
+        "GUID": "{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"
+       },
+       {
+        "Id": "1699952942",
+        "Name": "SW_FT_Stone",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Stone",
+        "GUID": "{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"
+       },
+       {
+        "Id": "1901335520",
+        "Name": "SW_FT_Water",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Water",
+        "GUID": "{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"
+       },
+       {
+        "Id": "3682161770",
+        "Name": "SW_FT_Nenuphar",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Nenuphar",
+        "GUID": "{4542D8F7-2774-4820-9402-34B9207369C5}"
+       },
+       {
+        "Id": "4051928182",
+        "Name": "SW_FT_Carpet",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Carpet",
+        "GUID": "{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "2153118237",
     "Type": "Event",
     "GUID": "{F996223E-185F-4419-8121-488BEE79FF46}",
@@ -5591,7 +5689,7 @@
     "Type": "Event",
     "GUID": "{8A840DDD-FF65-4860-AD26-8E951B65D7A5}",
     "Language": "English(US)",
-    "Hash": "{1BBFE8D1-6317-96D5-741D-1B40F8083C15}",
+    "Hash": "{053FED42-85A8-8FD2-B27B-E72E60C601DD}",
     "ObjectPath": "FT_MC_Climb",
     "ShortName": "FT_MC_Climb",
     "Path": "Event/English(US)/FT_MC_Climb.bnk",
@@ -5676,46 +5774,6 @@
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
       "GUID": "{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"
-     }
-    ],
-    "SwitchGroups": [
-     {
-      "Id": "4035313040",
-      "Name": "SW_FT_Material",
-      "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material",
-      "GUID": "{FF147DA2-4C43-417B-9F29-7482AAE43F6A}",
-      "Switches": [
-       {
-        "Id": "314505124",
-        "Name": "SW_FT_Metal",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Metal",
-        "GUID": "{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"
-       },
-       {
-        "Id": "1699952942",
-        "Name": "SW_FT_Stone",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Stone",
-        "GUID": "{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"
-       },
-       {
-        "Id": "1901335520",
-        "Name": "SW_FT_Water",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Water",
-        "GUID": "{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"
-       },
-       {
-        "Id": "3682161770",
-        "Name": "SW_FT_Nenuphar",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Nenuphar",
-        "GUID": "{4542D8F7-2774-4820-9402-34B9207369C5}"
-       },
-       {
-        "Id": "4051928182",
-        "Name": "SW_FT_Carpet",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Carpet",
-        "GUID": "{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"
-       }
-      ]
      }
     ]
    },
@@ -5843,7 +5901,7 @@
     "Type": "Event",
     "GUID": "{785476FB-AD69-4592-AE56-11AF2B38662A}",
     "Language": "SFX",
-    "Hash": "{7EAF0968-9122-4460-B6A0-39F6DDAA26F6}",
+    "Hash": "{6D59BB48-3583-7114-BA95-C99771635F8D}",
     "ObjectPath": "FT_MC_JumpSecond",
     "ShortName": "FT_MC_JumpSecond",
     "Path": "Event/FT_MC_JumpSecond.bnk",
@@ -5864,46 +5922,6 @@
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
       "GUID": "{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"
-     }
-    ],
-    "SwitchGroups": [
-     {
-      "Id": "4035313040",
-      "Name": "SW_FT_Material",
-      "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material",
-      "GUID": "{FF147DA2-4C43-417B-9F29-7482AAE43F6A}",
-      "Switches": [
-       {
-        "Id": "314505124",
-        "Name": "SW_FT_Metal",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Metal",
-        "GUID": "{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"
-       },
-       {
-        "Id": "1699952942",
-        "Name": "SW_FT_Stone",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Stone",
-        "GUID": "{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"
-       },
-       {
-        "Id": "1901335520",
-        "Name": "SW_FT_Water",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Water",
-        "GUID": "{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"
-       },
-       {
-        "Id": "3682161770",
-        "Name": "SW_FT_Nenuphar",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Nenuphar",
-        "GUID": "{4542D8F7-2774-4820-9402-34B9207369C5}"
-       },
-       {
-        "Id": "4051928182",
-        "Name": "SW_FT_Carpet",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Carpet",
-        "GUID": "{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"
-       }
-      ]
      }
     ]
    },
@@ -6700,7 +6718,7 @@
     "Type": "Event",
     "GUID": "{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}",
     "Language": "SFX",
-    "Hash": "{9633B5E8-2BDF-6D5C-1DA9-BD3135A5E65B}",
+    "Hash": "{BCBE2F54-3688-9840-E70B-69CC2758CB23}",
     "ObjectPath": "FT_MC",
     "ShortName": "FT_MC",
     "Path": "Event/FT_MC.bnk",
@@ -6879,7 +6897,7 @@
     "Type": "Event",
     "GUID": "{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}",
     "Language": "English(US)",
-    "Hash": "{29F1C9B3-2B28-C9B2-8166-B6383333A031}",
+    "Hash": "{14BED376-7C4A-0952-EC1D-C1E25724F6B7}",
     "ObjectPath": "FT_MC_Dash",
     "ShortName": "FT_MC_Dash",
     "Path": "Event/English(US)/FT_MC_Dash.bnk",
@@ -6952,46 +6970,6 @@
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
       "GUID": "{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"
-     }
-    ],
-    "SwitchGroups": [
-     {
-      "Id": "4035313040",
-      "Name": "SW_FT_Material",
-      "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material",
-      "GUID": "{FF147DA2-4C43-417B-9F29-7482AAE43F6A}",
-      "Switches": [
-       {
-        "Id": "314505124",
-        "Name": "SW_FT_Metal",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Metal",
-        "GUID": "{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"
-       },
-       {
-        "Id": "1699952942",
-        "Name": "SW_FT_Stone",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Stone",
-        "GUID": "{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"
-       },
-       {
-        "Id": "1901335520",
-        "Name": "SW_FT_Water",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Water",
-        "GUID": "{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"
-       },
-       {
-        "Id": "3682161770",
-        "Name": "SW_FT_Nenuphar",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Nenuphar",
-        "GUID": "{4542D8F7-2774-4820-9402-34B9207369C5}"
-       },
-       {
-        "Id": "4051928182",
-        "Name": "SW_FT_Carpet",
-        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Carpet",
-        "GUID": "{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"
-       }
-      ]
      }
     ]
    },
@@ -8221,6 +8199,6 @@
     ]
    }
   ],
-  "FileHash": "{E2CF0B00-A4E8-0A09-5C6A-0E3B0899BBCE}"
+  "FileHash": "{A57C5E90-1D7B-3C9C-68A8-91EE748540B0}"
  }
 }

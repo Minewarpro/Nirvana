@@ -1,0 +1,40 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "849362003",
+    "Type": "Event",
+    "GUID": "{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}",
+    "Language": "SFX",
+    "Hash": "{8D2D9C77-8FDC-D802-7FAA-2ED82540712A}",
+    "ObjectPath": "FT_MC_Slide_Exit",
+    "ShortName": "FT_MC_Slide_Exit",
+    "Path": "Event/FT_MC_Slide_Exit.bnk",
+    "Events": [
+     {
+      "Id": "849362003",
+      "Name": "FT_MC_Slide_Exit",
+      "ObjectPath": "\\Events\\FT\\FT_MC_Slide_Exit",
+      "GUID": "{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3059389217",
+      "Name": "RTPC_FT_Speed",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
+      "GUID": "{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4116A8B6-F269-88F4-2421-27CA64D5988D}"
+ }
+}

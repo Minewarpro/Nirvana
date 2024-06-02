@@ -1191,6 +1191,17 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
+		<SoundBank Id="849362003" Type="Event" GUID="{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}" Language="SFX" Hash="{8D2D9C77-8FDC-D802-7FAA-2ED82540712A}">
+			<ObjectPath>FT_MC_Slide_Exit</ObjectPath>
+			<ShortName>FT_MC_Slide_Exit</ShortName>
+			<Path>Event/FT_MC_Slide_Exit.bnk</Path>
+			<Events>
+				<Event Id="849362003" Name="FT_MC_Slide_Exit" ObjectPath="\Events\FT\FT_MC_Slide_Exit" GUID="{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
+			</GameParameters>
+		</SoundBank>
 		<SoundBank Id="922786755" Type="Event" GUID="{E7387EF2-D014-495D-9EC9-0045BB855F8F}" Language="SFX" Hash="{0F85DF02-F94F-28EA-45B5-D9D3263C7912}">
 			<ObjectPath>UI_Menu_Back</ObjectPath>
 			<ShortName>UI_Menu_Back</ShortName>
@@ -2195,6 +2206,28 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="2107232147" Type="Event" GUID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}" Language="SFX" Hash="{CA9B5B17-0DEC-21B1-AE3E-F255B8467346}">
+			<ObjectPath>FT_MC_Slide_Enter</ObjectPath>
+			<ShortName>FT_MC_Slide_Enter</ShortName>
+			<Path>Event/FT_MC_Slide_Enter.bnk</Path>
+			<Events>
+				<Event Id="2107232147" Name="FT_MC_Slide_Enter" ObjectPath="\Events\FT\FT_MC_Slide_Enter" GUID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="4035313040" Name="SW_FT_Material" ObjectPath="\Switches\SW_FT\SW_FT_Material" GUID="{FF147DA2-4C43-417B-9F29-7482AAE43F6A}">
+					<Switches>
+						<Switch Id="314505124" Name="SW_FT_Metal" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Metal" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
+						<Switch Id="1699952942" Name="SW_FT_Stone" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Stone" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"/>
+						<Switch Id="1901335520" Name="SW_FT_Water" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Water" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
+						<Switch Id="3682161770" Name="SW_FT_Nenuphar" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Nenuphar" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
+						<Switch Id="4051928182" Name="SW_FT_Carpet" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Carpet" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
 		<SoundBank Id="2153118237" Type="Event" GUID="{F996223E-185F-4419-8121-488BEE79FF46}" Language="SFX" Hash="{496F69DF-439C-EC6D-0E0D-0580DF15DE18}">
 			<ObjectPath>UI_Menu_Slider</ObjectPath>
 			<ShortName>UI_Menu_Slider</ShortName>
@@ -2753,7 +2786,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2727804452" Type="Event" GUID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}" Language="English(US)" Hash="{1BBFE8D1-6317-96D5-741D-1B40F8083C15}">
+		<SoundBank Id="2727804452" Type="Event" GUID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}" Language="English(US)" Hash="{053FED42-85A8-8FD2-B27B-E72E60C601DD}">
 			<ObjectPath>FT_MC_Climb</ObjectPath>
 			<ShortName>FT_MC_Climb</ShortName>
 			<Path>Event/English(US)/FT_MC_Climb.bnk</Path>
@@ -2798,17 +2831,6 @@
 			<GameParameters>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 			</GameParameters>
-			<SwitchGroups>
-				<SwitchGroup Id="4035313040" Name="SW_FT_Material" ObjectPath="\Switches\SW_FT\SW_FT_Material" GUID="{FF147DA2-4C43-417B-9F29-7482AAE43F6A}">
-					<Switches>
-						<Switch Id="314505124" Name="SW_FT_Metal" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Metal" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
-						<Switch Id="1699952942" Name="SW_FT_Stone" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Stone" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"/>
-						<Switch Id="1901335520" Name="SW_FT_Water" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Water" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
-						<Switch Id="3682161770" Name="SW_FT_Nenuphar" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Nenuphar" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
-						<Switch Id="4051928182" Name="SW_FT_Carpet" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Carpet" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="2751508176" Type="Event" GUID="{18DF74F5-BA54-49B5-8F44-F1D587D056B9}" Language="SFX" Hash="{4D47C278-847C-5253-8EE3-69E58D33B462}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_HitSurface</ObjectPath>
@@ -2869,7 +2891,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2935530677" Type="Event" GUID="{785476FB-AD69-4592-AE56-11AF2B38662A}" Language="SFX" Hash="{7EAF0968-9122-4460-B6A0-39F6DDAA26F6}">
+		<SoundBank Id="2935530677" Type="Event" GUID="{785476FB-AD69-4592-AE56-11AF2B38662A}" Language="SFX" Hash="{6D59BB48-3583-7114-BA95-C99771635F8D}">
 			<ObjectPath>FT_MC_JumpSecond</ObjectPath>
 			<ShortName>FT_MC_JumpSecond</ShortName>
 			<Path>Event/FT_MC_JumpSecond.bnk</Path>
@@ -2879,17 +2901,6 @@
 			<GameParameters>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 			</GameParameters>
-			<SwitchGroups>
-				<SwitchGroup Id="4035313040" Name="SW_FT_Material" ObjectPath="\Switches\SW_FT\SW_FT_Material" GUID="{FF147DA2-4C43-417B-9F29-7482AAE43F6A}">
-					<Switches>
-						<Switch Id="314505124" Name="SW_FT_Metal" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Metal" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
-						<Switch Id="1699952942" Name="SW_FT_Stone" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Stone" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"/>
-						<Switch Id="1901335520" Name="SW_FT_Water" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Water" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
-						<Switch Id="3682161770" Name="SW_FT_Nenuphar" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Nenuphar" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
-						<Switch Id="4051928182" Name="SW_FT_Carpet" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Carpet" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="2964851327" Type="Event" GUID="{9684AF37-3F6A-4B58-8C70-3CE6AA0D99FD}" Language="English(US)" Hash="{5E097493-935A-40DE-93E9-2A576783D734}">
 			<ObjectPath>VO_Diana_Gameplay_Tempo</ObjectPath>
@@ -3276,7 +3287,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3685120562" Type="Event" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" Language="SFX" Hash="{9633B5E8-2BDF-6D5C-1DA9-BD3135A5E65B}">
+		<SoundBank Id="3685120562" Type="Event" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" Language="SFX" Hash="{BCBE2F54-3688-9840-E70B-69CC2758CB23}">
 			<ObjectPath>FT_MC</ObjectPath>
 			<ShortName>FT_MC</ShortName>
 			<Path>Event/FT_MC.bnk</Path>
@@ -3347,7 +3358,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{29F1C9B3-2B28-C9B2-8166-B6383333A031}">
+		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{14BED376-7C4A-0952-EC1D-C1E25724F6B7}">
 			<ObjectPath>FT_MC_Dash</ObjectPath>
 			<ShortName>FT_MC_Dash</ShortName>
 			<Path>Event/English(US)/FT_MC_Dash.bnk</Path>
@@ -3386,17 +3397,6 @@
 			<GameParameters>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 			</GameParameters>
-			<SwitchGroups>
-				<SwitchGroup Id="4035313040" Name="SW_FT_Material" ObjectPath="\Switches\SW_FT\SW_FT_Material" GUID="{FF147DA2-4C43-417B-9F29-7482AAE43F6A}">
-					<Switches>
-						<Switch Id="314505124" Name="SW_FT_Metal" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Metal" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
-						<Switch Id="1699952942" Name="SW_FT_Stone" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Stone" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"/>
-						<Switch Id="1901335520" Name="SW_FT_Water" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Water" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
-						<Switch Id="3682161770" Name="SW_FT_Nenuphar" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Nenuphar" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
-						<Switch Id="4051928182" Name="SW_FT_Carpet" ObjectPath="\Switches\SW_FT\SW_FT_Material\SW_FT_Carpet" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="3824118527" Type="Event" GUID="{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}" Language="SFX" Hash="{1DDC7B95-0D05-93BB-BA5D-FCE258A92423}">
 			<ObjectPath>SFX_MC_Weapon_Switch</ObjectPath>
@@ -4019,5 +4019,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B7EBF6A5-5B10-D6C7-F81E-DD7F75616941}</FileHash>
+	<FileHash>{5B71F146-74FB-2005-C691-4FFCA3BDE52C}</FileHash>
 </SoundBanksInfo>
