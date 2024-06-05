@@ -10,10 +10,102 @@
     "Type": "Event",
     "GUID": "{5EC673DB-7E85-4A74-B2E5-ADCCE77E0AEB}",
     "Language": "SFX",
-    "Hash": "{ADF882AF-FDC9-90FF-B243-519D30990CD3}",
+    "Hash": "{C113A4CC-87FC-A54A-B637-315F6FE2CDCD}",
     "ObjectPath": "FOL_MC_Pants",
     "ShortName": "FOL_MC_Pants",
     "Path": "Event/FOL_MC_Pants.bnk",
+    "Media": [
+     {
+      "Id": "99245452",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL\\FOL_MC_Pants\\FOL_MC_Pants_04.wav",
+      "Path": "Media/99245452.wem",
+      "CachePath": "SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_04_818F3B66.wem"
+     },
+     {
+      "Id": "185834537",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL\\FOL_MC_Pants\\FOL_MC_Pants_10.wav",
+      "Path": "Media/185834537.wem",
+      "CachePath": "SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_10_818F3B66.wem"
+     },
+     {
+      "Id": "366845026",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL\\FOL_MC_Pants\\FOL_MC_Pants_09.wav",
+      "Path": "Media/366845026.wem",
+      "CachePath": "SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_09_818F3B66.wem"
+     },
+     {
+      "Id": "469662304",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL\\FOL_MC_Pants\\FOL_MC_Pants_01.wav",
+      "Path": "Media/469662304.wem",
+      "CachePath": "SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_01_818F3B66.wem"
+     },
+     {
+      "Id": "524777716",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL\\FOL_MC_Pants\\FOL_MC_Pants_02.wav",
+      "Path": "Media/524777716.wem",
+      "CachePath": "SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_02_818F3B66.wem"
+     },
+     {
+      "Id": "674955360",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL\\FOL_MC_Pants\\FOL_MC_Pants_06.wav",
+      "Path": "Media/674955360.wem",
+      "CachePath": "SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_06_818F3B66.wem"
+     },
+     {
+      "Id": "744499472",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL\\FOL_MC_Pants\\FOL_MC_Pants_03.wav",
+      "Path": "Media/744499472.wem",
+      "CachePath": "SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_03_818F3B66.wem"
+     },
+     {
+      "Id": "945890201",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL\\FOL_MC_Pants\\FOL_MC_Pants_08.wav",
+      "Path": "Media/945890201.wem",
+      "CachePath": "SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_08_818F3B66.wem"
+     },
+     {
+      "Id": "955536414",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL\\FOL_MC_Pants\\FOL_MC_Pants_07.wav",
+      "Path": "Media/955536414.wem",
+      "CachePath": "SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_07_818F3B66.wem"
+     },
+     {
+      "Id": "1003592585",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL\\FOL_MC_Pants\\FOL_MC_Pants_05.wav",
+      "Path": "Media/1003592585.wem",
+      "CachePath": "SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_05_818F3B66.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "3321716380",
@@ -21,8 +113,40 @@
       "ObjectPath": "\\Events\\FOL\\FOL_MC_Pants",
       "GUID": "{5EC673DB-7E85-4A74-B2E5-ADCCE77E0AEB}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.33333334",
+      "DurationMax": "0.4035",
+      "MediaRefs": [
+       {
+        "Id": "99245452"
+       },
+       {
+        "Id": "185834537"
+       },
+       {
+        "Id": "366845026"
+       },
+       {
+        "Id": "469662304"
+       },
+       {
+        "Id": "524777716"
+       },
+       {
+        "Id": "674955360"
+       },
+       {
+        "Id": "744499472"
+       },
+       {
+        "Id": "945890201"
+       },
+       {
+        "Id": "955536414"
+       },
+       {
+        "Id": "1003592585"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -35,6 +159,6 @@
     ]
    }
   ],
-  "FileHash": "{F5D7A3DB-E0F4-1FFA-BA07-6A5F1FF3F767}"
+  "FileHash": "{EEDF89BC-AA05-1092-B050-4158E89FC9B9}"
  }
 }

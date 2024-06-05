@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{516B2ED7-6690-4D33-944D-FEC7A2362A8F}",
     "Language": "English(US)",
-    "Hash": "{42A33617-CE19-D032-26F3-F926B4FEF65B}",
+    "Hash": "{8A14C7D7-41F1-9900-D68C-3D215BAA739D}",
     "ObjectPath": "VO_Anna_Gameplay_03",
     "ShortName": "VO_Anna_Gameplay_03",
     "Path": "Event/English(US)/VO_Anna_Gameplay_03.bnk",
@@ -40,9 +40,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{A5161479-4191-84BD-A6CA-42E06C660CCC}"
+  "FileHash": "{89341FB5-12CC-5398-2141-7AE420F2B9B2}"
  }
 }

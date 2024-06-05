@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A012DD56-AF11-4C4C-BD0A-8E57B1ED80B6}",
     "Language": "English(US)",
-    "Hash": "{46603F71-D292-5A3D-7F28-657B3455E440}",
+    "Hash": "{619F889F-25EA-8E33-E6C7-3AADE98F7ADC}",
     "ObjectPath": "VO_Blaise_Gameplay_Bossfight_02",
     "ShortName": "VO_Blaise_Gameplay_Bossfight_02",
     "Path": "Event/English(US)/VO_Blaise_Gameplay_Bossfight_02.bnk",
@@ -40,9 +40,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{1FC46107-0621-8F94-CF8A-96E3C62B0A8C}"
+  "FileHash": "{9148E48B-1CE5-9FA4-0C6D-5C5EBC3F019E}"
  }
 }

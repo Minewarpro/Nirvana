@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{4770BB9D-3FF7-BA24-2109-8942C92345D9}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{1D0DDDCC-D631-3DC6-76A4-BF6DE6633578}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -16,7 +16,7 @@
 			</Plugins>
 			<Busses>
 				<Bus Id="393239870" Name="SFX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\SFX" GUID="{0716D6A6-9EDE-421F-B512-812E2E935389}"/>
-				<Bus Id="980603520" Name="Rev" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\Rev" GUID="{D5102433-A85B-44B5-866F-42774E67FBB2}"/>
+				<Bus Id="980603520" Name="REV" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV" GUID="{D5102433-A85B-44B5-866F-42774E67FBB2}"/>
 				<Bus Id="1083137552" Name="FOL" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\FOL" GUID="{34585413-9811-4024-A999-0FD1F5006959}"/>
 				<Bus Id="1117531639" Name="AMB" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\AMB" GUID="{EE760A39-D2EB-4347-805B-1990EA7A41E5}"/>
 				<Bus Id="1534528548" Name="VO" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VO" GUID="{A66B3553-37CD-4DF1-A039-29B29862AE71}"/>
@@ -34,11 +34,16 @@
 				<Bus Id="3991942870" Name="MUSIC" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC" GUID="{259C0FDF-0A43-4EF9-953B-97C77523ACD6}"/>
 			</Busses>
 			<AuxBusses>
-				<AuxBus Id="2193711071" Name="REV_" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\Rev\REV_" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}"/>
+				<AuxBus Id="1709113120" Name="REV_CorridorMedium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorMedium" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}"/>
+				<AuxBus Id="3397355070" Name="REV_LargeExtra" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_LargeExtra" GUID="{021A88FF-E165-4DEF-B712-841FED23080F}"/>
+				<AuxBus Id="3549141946" Name="REV_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Medium" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}"/>
+				<AuxBus Id="3750820532" Name="REV_Large" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Large" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}"/>
+				<AuxBus Id="4061537322" Name="REV_CorridorSmall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorSmall" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}"/>
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="192836257" Name="RTPC_UI_VO" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_VO" GUID="{446D2A29-793D-4B5C-9B6B-98B00E2B6658}"/>
 				<GameParameter Id="950872934" Name="RTPC_UI_Effects" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Effects" GUID="{2B55FAD0-C41F-48A2-8CBC-0F24FEDD1EE7}"/>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
 				<GameParameter Id="1526392608" Name="RTPC_SFX_MC_Weapon_Meter" ObjectPath="\Game Parameters\RTPC_SFX\RTPC_SFX_MC_Weapon_Meter" GUID="{86852467-6F73-4A7D-A970-056FB33188A5}"/>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 				<GameParameter Id="3569469165" Name="RTPC_UI_Music" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Music" GUID="{53C895C6-A568-4494-BAC3-4C46C199A9EA}"/>
@@ -86,5 +91,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3694E0D7-2A27-8801-0220-315BF91CE587}</FileHash>
+	<FileHash>{572E987B-6687-D776-8F96-CD28630CB21D}</FileHash>
 </SoundBanksInfo>

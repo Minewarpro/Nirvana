@@ -21,7 +21,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\Effects\SFX	
-	980603520	Rev			\Default Work Unit\Master Audio Bus\Effects\Rev	
+	980603520	REV			\Default Work Unit\Master Audio Bus\Effects\REV	
 	1083137552	FOL			\Default Work Unit\Master Audio Bus\Effects\FOL	
 	1117531639	AMB			\Default Work Unit\Master Audio Bus\Effects\AMB	
 	1534528548	VO			\Default Work Unit\Master Audio Bus\VO	
@@ -33,7 +33,11 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	2193711071	REV_			\Default Work Unit\Master Audio Bus\Effects\Rev\REV_	
+	1709113120	REV_CorridorMedium			\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorMedium	
+	3397355070	REV_LargeExtra			\Default Work Unit\Master Audio Bus\Effects\REV\REV_LargeExtra	
+	3549141946	REV_Medium			\Default Work Unit\Master Audio Bus\Effects\REV\REV_Medium	
+	3750820532	REV_Large			\Default Work Unit\Master Audio Bus\Effects\REV\REV_Large	
+	4061537322	REV_CorridorSmall			\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorSmall	
 
 Effect plug-ins	ID	Name	Type				Notes
 	491419128	Meter (Custom)	Wwise Meter			

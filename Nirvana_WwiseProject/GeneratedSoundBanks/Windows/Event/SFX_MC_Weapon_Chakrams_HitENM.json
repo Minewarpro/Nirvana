@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}",
     "Language": "SFX",
-    "Hash": "{BDDDC92C-425D-FD6B-81D2-42239883CC65}",
+    "Hash": "{9C4612ED-58D9-A527-6280-D5007300A051}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_HitENM",
     "ShortName": "SFX_MC_Weapon_Chakrams_HitENM",
     "Path": "Event/SFX_MC_Weapon_Chakrams_HitENM.bnk",
@@ -104,6 +104,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
       "Id": "3972935021",
       "Name": "RTPC_Azimuth",
       "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
@@ -112,6 +118,6 @@
     ]
    }
   ],
-  "FileHash": "{2634BC16-9515-F737-7311-897F850BEC30}"
+  "FileHash": "{BC588053-B09D-A7B8-EB89-3377FD7F933B}"
  }
 }

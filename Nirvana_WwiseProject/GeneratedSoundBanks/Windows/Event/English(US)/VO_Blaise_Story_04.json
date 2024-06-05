@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F1CD593E-E04C-4955-9087-46A97CB4FCE0}",
     "Language": "English(US)",
-    "Hash": "{E399212C-2E2D-6A39-5E7D-43D984C6B6FE}",
+    "Hash": "{FE543914-34A4-6B4F-B96C-265ADC38F0EA}",
     "ObjectPath": "VO_Blaise_Story_04",
     "ShortName": "VO_Blaise_Story_04",
     "Path": "Event/English(US)/VO_Blaise_Story_04.bnk",
@@ -40,9 +40,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{2F3ACB18-AD1A-2604-4E18-542561E03485}"
+  "FileHash": "{6F292A1D-DFD8-8A36-0391-325B4CEAE876}"
  }
 }

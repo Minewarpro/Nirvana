@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}",
     "Language": "English(US)",
-    "Hash": "{04C308F3-9E50-0D05-284E-51D52D6E7F49}",
+    "Hash": "{7CAA0385-E8E1-698F-A4D2-A8FC21A16880}",
     "ObjectPath": "SFX_MC_TakeDamage",
     "ShortName": "SFX_MC_TakeDamage",
     "Path": "Event/English(US)/SFX_MC_TakeDamage.bnk",
@@ -187,6 +187,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
       "Id": "3972935021",
       "Name": "RTPC_Azimuth",
       "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
@@ -195,6 +201,6 @@
     ]
    }
   ],
-  "FileHash": "{FFE843CA-AC5D-F0A8-B89A-7DA446C6B6EB}"
+  "FileHash": "{DB1F0020-9F21-4195-0B20-C2D422ABC1A8}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}",
     "Language": "SFX",
-    "Hash": "{228A87EB-B000-BCC4-9E46-16C107B60798}",
+    "Hash": "{D0DE5E57-104B-DE21-7FE0-383C1D4B14AC}",
     "ObjectPath": "SFX_GPE_Launcher_Idle_lp",
     "ShortName": "SFX_GPE_Launcher_Idle_lp",
     "Path": "Event/SFX_GPE_Launcher_Idle_lp.bnk",
@@ -42,6 +42,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
       "Id": "3972935021",
       "Name": "RTPC_Azimuth",
       "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
@@ -50,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{F25CE2E4-5BE8-7BEC-3EC1-17881A63D966}"
+  "FileHash": "{B1BD6B78-B776-8BE9-0CC6-CD0F75A1657F}"
  }
 }

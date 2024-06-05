@@ -10,11 +10,20 @@
     "Type": "Event",
     "GUID": "{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}",
     "Language": "English(US)",
-    "Hash": "{14BED376-7C4A-0952-EC1D-C1E25724F6B7}",
+    "Hash": "{1EA7AE19-3F9E-0147-D309-D25DF92D4491}",
     "ObjectPath": "FT_MC_Dash",
     "ShortName": "FT_MC_Dash",
     "Path": "Event/English(US)/FT_MC_Dash.bnk",
     "Media": [
+     {
+      "Id": "53338511",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Dash\\FT_MC_Dash_02.wav",
+      "Path": "Media/53338511.wem",
+      "CachePath": "SFX/FT/FT_MC_Dash/FT_MC_Dash_02_818F3B66.wem"
+     },
      {
       "Id": "112665800",
       "Language": "English(US)",
@@ -23,6 +32,15 @@
       "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Dash\\VO_Ari_Gameplay_Dash_04.wav",
       "Path": "Media/English(US)/112665800.wem",
       "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_04_818F3B66.wem"
+     },
+     {
+      "Id": "168736510",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Dash\\FT_MC_Dash_03.wav",
+      "Path": "Media/168736510.wem",
+      "CachePath": "SFX/FT/FT_MC_Dash/FT_MC_Dash_03_818F3B66.wem"
      },
      {
       "Id": "183278750",
@@ -43,6 +61,15 @@
       "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_03_818F3B66.wem"
      },
      {
+      "Id": "399743278",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Dash\\FT_MC_Dash_04.wav",
+      "Path": "Media/399743278.wem",
+      "CachePath": "SFX/FT/FT_MC_Dash/FT_MC_Dash_04_818F3B66.wem"
+     },
+     {
       "Id": "559143653",
       "Language": "English(US)",
       "Streaming": "false",
@@ -50,6 +77,15 @@
       "ShortName": "VO_Ari_Gameplay\\VO_Ari_Gameplay_Dash\\VO_Ari_Gameplay_Dash_01.wav",
       "Path": "Media/English(US)/559143653.wem",
       "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_01_818F3B66.wem"
+     },
+     {
+      "Id": "882746946",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Dash\\FT_MC_Dash_01.wav",
+      "Path": "Media/882746946.wem",
+      "CachePath": "SFX/FT/FT_MC_Dash/FT_MC_Dash_01_818F3B66.wem"
      }
     ],
     "Events": [
@@ -59,11 +95,17 @@
       "ObjectPath": "\\Events\\FT\\FT_MC_Dash",
       "GUID": "{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}",
       "DurationType": "OneShot",
-      "DurationMin": "0.30666667",
-      "DurationMax": "0.74",
+      "DurationMin": "0.9753367",
+      "DurationMax": "1.0947785",
       "MediaRefs": [
        {
+        "Id": "53338511"
+       },
+       {
         "Id": "112665800"
+       },
+       {
+        "Id": "168736510"
        },
        {
         "Id": "183278750"
@@ -72,21 +114,39 @@
         "Id": "270131646"
        },
        {
+        "Id": "399743278"
+       },
+       {
         "Id": "559143653"
+       },
+       {
+        "Id": "882746946"
        }
       ]
      }
     ],
     "GameParameters": [
      {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
       "GUID": "{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
      }
     ]
    }
   ],
-  "FileHash": "{410EABD5-6952-1153-0E63-DBCFF2BD0C5B}"
+  "FileHash": "{AB133095-46FD-D11D-A61A-E6B99F43874A}"
  }
 }

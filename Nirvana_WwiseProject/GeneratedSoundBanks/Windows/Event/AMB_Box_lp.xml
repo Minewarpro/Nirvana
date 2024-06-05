@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2634490640" Type="Event" GUID="{FB1D6191-B358-40F9-967B-570040F4EA82}" Language="SFX" Hash="{7DD617FF-CE25-6CFE-CC1A-376F89D49534}">
+			<ObjectPath>AMB_Box_lp</ObjectPath>
+			<ShortName>AMB_Box_lp</ShortName>
+			<Path>Event/AMB_Box_lp.bnk</Path>
+			<Media>
+				<File Id="748637969" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AMB\AMB_Box_lp.wav</ShortName>
+					<Path>Media/748637969.wem</Path>
+					<CachePath>SFX/AMB/AMB_Box_lp_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2634490640" Name="AMB_Box_lp" ObjectPath="\Events\AMB\AMB_Box_lp" GUID="{FB1D6191-B358-40F9-967B-570040F4EA82}" MaxAttenuation="2500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="748637969"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5D381B2B-CE97-DC9D-65AB-871C35A84521}</FileHash>
+</SoundBanksInfo>

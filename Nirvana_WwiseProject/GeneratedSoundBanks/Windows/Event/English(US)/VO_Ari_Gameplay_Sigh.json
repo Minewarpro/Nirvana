@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{281B8DFA-273F-4C7B-9D7F-4844D3806E40}",
     "Language": "English(US)",
-    "Hash": "{D39BF7B4-B659-4BF7-BA07-26BBF905C767}",
+    "Hash": "{6709F218-1DDA-393F-F791-28E86716E349}",
     "ObjectPath": "VO_Ari_Gameplay_Sigh",
     "ShortName": "VO_Ari_Gameplay_Sigh",
     "Path": "Event/English(US)/VO_Ari_Gameplay_Sigh.bnk",
@@ -124,9 +124,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{848A1D64-8450-5513-9641-8A93C0B55495}"
+  "FileHash": "{62A502E4-8CED-6ABD-671A-580551BE84A9}"
  }
 }

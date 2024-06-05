@@ -7,7 +7,7 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<ActorMixer Name="FOL" ID="{59FEDBC7-0533-4F37-898C-944F5228602B}" ShortID="544052302">
+				<RandomSequenceContainer Name="FOL_MC_Pants" ID="{01A107BB-DB02-4D9E-B2F6-A408C8501306}" ShortID="775230516">
 					<PropertyList>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -15,6 +15,15 @@
 								<Value>4</Value>
 							</ValueList>
 						</Property>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -30,11 +39,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="FOL_MC_Pants" ID="{01A107BB-DB02-4D9E-B2F6-A408C8501306}" ShortID="775230516">
-							<PropertyList>
-								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
-							</PropertyList>
+						<Sound Name="FOL_MC_Pants_01" ID="{EAA4F7A8-89A7-462D-9248-D1DB7D28F9C7}" ShortID="559701505">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -43,48 +48,223 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
 								</Reference>
 							</ReferenceList>
-						</RandomSequenceContainer>
+							<ChildrenList>
+								<AudioFileSource Name="FOL_MC_Pants_01" ID="{830B593F-E5D3-4FE7-8C0E-59AC086D84B3}">
+									<Language>SFX</Language>
+									<AudioFile>FOL\FOL_MC_Pants\FOL_MC_Pants_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="469662304"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL_MC_Pants_01" ID="{830B593F-E5D3-4FE7-8C0E-59AC086D84B3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOL_MC_Pants_02" ID="{DDC271BA-42D8-423B-BABA-B4978E8DAB4C}" ShortID="536431936">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOL_MC_Pants_02" ID="{D8327595-0D04-4080-A843-F5742177C0A2}">
+									<Language>SFX</Language>
+									<AudioFile>FOL\FOL_MC_Pants\FOL_MC_Pants_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="524777716"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL_MC_Pants_02" ID="{D8327595-0D04-4080-A843-F5742177C0A2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOL_MC_Pants_03" ID="{E0302B0D-141B-4E4C-9A37-DB9FF40380CB}" ShortID="299219893">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOL_MC_Pants_03" ID="{60968AF2-7463-4614-9B0E-4C42B9EAB570}">
+									<Language>SFX</Language>
+									<AudioFile>FOL\FOL_MC_Pants\FOL_MC_Pants_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="744499472"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL_MC_Pants_03" ID="{60968AF2-7463-4614-9B0E-4C42B9EAB570}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOL_MC_Pants_04" ID="{92630D07-5FC4-446B-ADCA-B8415A07FBEA}" ShortID="101575359">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOL_MC_Pants_04" ID="{EA24D220-FB5D-4760-B631-228996F018A0}">
+									<Language>SFX</Language>
+									<AudioFile>FOL\FOL_MC_Pants\FOL_MC_Pants_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="99245452"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL_MC_Pants_04" ID="{EA24D220-FB5D-4760-B631-228996F018A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOL_MC_Pants_05" ID="{4F47BC2B-6E32-4E94-AC43-3401062A8DBE}" ShortID="860825095">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOL_MC_Pants_05" ID="{DE050032-3BAD-4C5E-A574-96D064553B5F}">
+									<Language>SFX</Language>
+									<AudioFile>FOL\FOL_MC_Pants\FOL_MC_Pants_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1003592585"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL_MC_Pants_05" ID="{DE050032-3BAD-4C5E-A574-96D064553B5F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOL_MC_Pants_06" ID="{01158EF4-8BF6-4821-9C73-60AEC09D8BE5}" ShortID="713690171">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOL_MC_Pants_06" ID="{14944CB5-0EBD-42D1-87C5-928B29943CDD}">
+									<Language>SFX</Language>
+									<AudioFile>FOL\FOL_MC_Pants\FOL_MC_Pants_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="674955360"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL_MC_Pants_06" ID="{14944CB5-0EBD-42D1-87C5-928B29943CDD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOL_MC_Pants_07" ID="{5BD8477C-80A0-48A9-8D85-9A4A89E80A76}" ShortID="779713710">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOL_MC_Pants_07" ID="{8550AD80-1D1B-4DE1-B71A-9949019EAA85}">
+									<Language>SFX</Language>
+									<AudioFile>FOL\FOL_MC_Pants\FOL_MC_Pants_07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="955536414"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL_MC_Pants_07" ID="{8550AD80-1D1B-4DE1-B71A-9949019EAA85}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOL_MC_Pants_08" ID="{B4E86EF9-11AA-4F9C-8E9C-F0ADEDCA68F6}" ShortID="68384020">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOL_MC_Pants_08" ID="{919BD71F-FF64-48C1-8F49-C0D2F5A418DE}">
+									<Language>SFX</Language>
+									<AudioFile>FOL\FOL_MC_Pants\FOL_MC_Pants_08.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="945890201"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL_MC_Pants_08" ID="{919BD71F-FF64-48C1-8F49-C0D2F5A418DE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOL_MC_Pants_09" ID="{D80D1F9B-F976-4FDD-A9D1-21C3ABB10DDA}" ShortID="1062619185">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOL_MC_Pants_09" ID="{2E5E7CB2-0C70-4713-B5D3-4E3233CAA87A}">
+									<Language>SFX</Language>
+									<AudioFile>FOL\FOL_MC_Pants\FOL_MC_Pants_09.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="366845026"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL_MC_Pants_09" ID="{2E5E7CB2-0C70-4713-B5D3-4E3233CAA87A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOL_MC_Pants_10" ID="{7E94AA25-8C37-48CE-A91C-D491C077FE6E}" ShortID="726736082">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOL_MC_Pants_10" ID="{45474CFE-5DB6-4746-A611-A0105A41135F}">
+									<Language>SFX</Language>
+									<AudioFile>FOL\FOL_MC_Pants\FOL_MC_Pants_10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="185834537"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL_MC_Pants_10" ID="{45474CFE-5DB6-4746-A611-A0105A41135F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">
 							<Reference>
 								<Local>
-									<RTPC Name="" ID="{A6A28AD1-5D23-4A62-AA57-1FA410B87DEA}" ShortID="181762718">
-										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Volume"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="ControlInput">
-												<ObjectRef Name="RTPC_FT_Speed" ID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}" WorkUnitID="{8308EB11-EC9E-40BC-85CB-96E9DD3DB47D}"/>
-											</Reference>
-											<Reference Name="Curve">
-												<Custom>
-													<Curve Name="" ID="{EFAA6814-4FAE-4905-BAB9-57D83BA65ED6}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-1.5</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1050</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</RTPC>
-								</Local>
-							</Reference>
-							<Reference>
-								<Local>
-									<RTPC Name="" ID="{4E70BE68-2940-4277-877A-3D6899B5B752}" ShortID="733173180">
+									<RTPC Name="" ID="{CB077CD7-634C-458E-AEC0-C58277496DAE}" ShortID="69877474">
 										<PropertyList>
 											<Property Name="PropertyName" Type="string" Value="Pitch"/>
 										</PropertyList>
@@ -94,7 +274,7 @@
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{4172411C-93DB-418E-944B-0ABD18658870}">
+													<Curve Name="" ID="{2A2F29B1-DCC5-483C-80BB-269239F3DC11}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="65537"/>
 														</PropertyList>
@@ -117,9 +297,44 @@
 									</RTPC>
 								</Local>
 							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{CE8C7709-1B55-43C3-9E70-C5D22B04D95D}" ShortID="581679872">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_FT_Speed" ID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}" WorkUnitID="{8308EB11-EC9E-40BC-85CB-96E9DD3DB47D}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{8E5454FD-15C9-4C0D-993D-C74DFA453E09}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-1.5</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1050</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
 						</ObjectList>
 					</ObjectLists>
-				</ActorMixer>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

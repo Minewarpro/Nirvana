@@ -299,11 +299,6 @@
 								</Bus>
 								<Bus Name="FT" ID="{DF3B16E9-05D8-4FDA-9CCB-41F48D9B5570}">
 									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<ValueList>
-												<Value>-6</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Color" Type="int16" Value="19"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
@@ -391,7 +386,7 @@
 										</Property>
 									</PropertyList>
 								</Bus>
-								<Bus Name="Rev" ID="{D5102433-A85B-44B5-866F-42774E67FBB2}">
+								<Bus Name="REV" ID="{D5102433-A85B-44B5-866F-42774E67FBB2}">
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
@@ -402,7 +397,31 @@
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
-										<AuxBus Name="REV_" ID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}">
+										<AuxBus Name="REV_CorridorSmall" ID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+										</AuxBus>
+										<AuxBus Name="REV_CorridorMedium" ID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+										</AuxBus>
+										<AuxBus Name="REV_Large" ID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+										</AuxBus>
+										<AuxBus Name="REV_Medium" ID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+										</AuxBus>
+										<AuxBus Name="REV_LargeExtra" ID="{021A88FF-E165-4DEF-B712-841FED23080F}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>

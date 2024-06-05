@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1F1B2E99-4B06-456D-BE10-51DD017D444D}",
     "Language": "English(US)",
-    "Hash": "{440A66BE-6176-6619-BF3B-5F5C81237E5B}",
+    "Hash": "{E48E2040-FCDF-242E-2736-26FC089F3EB9}",
     "ObjectPath": "VO_Ari_Story_09",
     "ShortName": "VO_Ari_Story_09",
     "Path": "Event/English(US)/VO_Ari_Story_09.bnk",
@@ -40,9 +40,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{40FDD157-70EE-D13E-D90D-8A04E035FE90}"
+  "FileHash": "{50AC9DE6-4C4B-5F11-4127-C5F31BB7A25C}"
  }
 }

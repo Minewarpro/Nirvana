@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5488BE8E-DDB8-4BBA-8032-D59549B43C49}",
     "Language": "English(US)",
-    "Hash": "{E82F60F9-50A8-B12E-CFE0-6F65A0262873}",
+    "Hash": "{33695D9A-65B9-64B5-847D-A8872C745C3E}",
     "ObjectPath": "VO_Blaise_Gameplay_Run",
     "ShortName": "VO_Blaise_Gameplay_Run",
     "Path": "Event/English(US)/VO_Blaise_Gameplay_Run.bnk",
@@ -40,9 +40,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{EF1BB931-0E5B-C0A7-98B3-E1AACD9CBF7A}"
+  "FileHash": "{D7848A35-0CA4-41CA-9B34-59864BBD2EE2}"
  }
 }

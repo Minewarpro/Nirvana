@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1461763015",
+    "Type": "Event",
+    "GUID": "{7D5E7F04-C163-42CA-9E0E-233DFC4B83A9}",
+    "Language": "SFX",
+    "Hash": "{22FC6AC6-AD4F-540B-E8E6-DACA53C60877}",
+    "ObjectPath": "AMB_TorchBlue_lp",
+    "ShortName": "AMB_TorchBlue_lp",
+    "Path": "Event/AMB_TorchBlue_lp.bnk",
+    "Media": [
+     {
+      "Id": "509977302",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB\\AMB_Torch\\AMB_TorchBlue_lp.wav",
+      "Path": "Media/509977302.wem",
+      "CachePath": "SFX/AMB/AMB_Torch/AMB_TorchBlue_lp_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1461763015",
+      "Name": "AMB_TorchBlue_lp",
+      "ObjectPath": "\\Events\\AMB\\AMB_Torch\\AMB_TorchBlue_lp",
+      "GUID": "{7D5E7F04-C163-42CA-9E0E-233DFC4B83A9}",
+      "MaxAttenuation": "2500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "509977302"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{58E32376-B174-477D-148E-5D7BA05F8302}"
+ }
+}

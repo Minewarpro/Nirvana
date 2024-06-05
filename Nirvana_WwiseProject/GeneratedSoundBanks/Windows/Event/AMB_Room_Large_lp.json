@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3507897130",
+    "Type": "Event",
+    "GUID": "{39F73A58-AA55-460B-ABAC-548B501C548F}",
+    "Language": "SFX",
+    "Hash": "{88CEC73D-50D7-DE3F-4C47-850EB5078367}",
+    "ObjectPath": "AMB_Room_Large_lp",
+    "ShortName": "AMB_Room_Large_lp",
+    "Path": "Event/AMB_Room_Large_lp.bnk",
+    "Media": [
+     {
+      "Id": "337331324",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB\\AMB_Room\\AMB_Room_Large_lp.wav",
+      "Path": "Media/337331324.wem",
+      "CachePath": "SFX/AMB/AMB_Room/AMB_Room_Large_lp_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3507897130",
+      "Name": "AMB_Room_Large_lp",
+      "ObjectPath": "\\Events\\AMB\\AMB_Room\\AMB_Room_Large_lp",
+      "GUID": "{39F73A58-AA55-460B-ABAC-548B501C548F}",
+      "MaxAttenuation": "2500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "337331324"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1FA41558-5531-B475-4DCA-AFCA38147E34}"
+ }
+}

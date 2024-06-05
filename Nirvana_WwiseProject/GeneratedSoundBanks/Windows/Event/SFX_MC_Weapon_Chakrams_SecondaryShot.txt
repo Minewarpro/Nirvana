@@ -2,5 +2,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	339325342	SFX_MC_Weapon_Chakrams_SecondaryShot			\SFX\SFX_MC_Weapon_Chakrams\SFX_MC_Weapon_Chakrams_SecondaryShot	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1474581964	RTPC_Elevation			\RTPC_Persistent\RTPC_Elevation	
 	3972935021	RTPC_Azimuth			\RTPC_Persistent\RTPC_Azimuth	
 

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9EAAD129-4D85-40B1-88A0-960BAC7525F8}",
     "Language": "SFX",
-    "Hash": "{3C6C4A49-C5CD-04E0-67E3-E36DD04C87C7}",
+    "Hash": "{7DFAA099-6D6C-6128-2549-ABBEAEF3C3DA}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_OverheatEnd",
     "ShortName": "SFX_MC_Weapon_Chakrams_OverheatEnd",
     "Path": "Event/SFX_MC_Weapon_Chakrams_OverheatEnd.bnk",
@@ -56,6 +56,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
       "Id": "3972935021",
       "Name": "RTPC_Azimuth",
       "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
@@ -64,6 +70,6 @@
     ]
    }
   ],
-  "FileHash": "{432C6F8A-F338-74A2-1BDF-33476409518F}"
+  "FileHash": "{3959A008-DF2A-E332-7936-1941CB3E1FD9}"
  }
 }

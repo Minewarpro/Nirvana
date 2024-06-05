@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1727286442" Type="Event" GUID="{F6650DD5-47D3-463D-B571-5B0E35088EDB}" Language="English(US)" Hash="{C244EDFD-005E-4017-C9C0-026BB393BDF8}">
+		<SoundBank Id="1727286442" Type="Event" GUID="{F6650DD5-47D3-463D-B571-5B0E35088EDB}" Language="English(US)" Hash="{CF5CBE83-3987-7629-7949-8A35BB71F283}">
 			<ObjectPath>VO_Anna_Gameplay_01</ObjectPath>
 			<ShortName>VO_Anna_Gameplay_01</ShortName>
 			<Path>Event/English(US)/VO_Anna_Gameplay_01.bnk</Path>
@@ -19,7 +19,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EA1FD72E-307F-79A0-655C-BDEE40162CC0}</FileHash>
+	<FileHash>{4751373C-46CD-64C6-8F66-6D6D4AFD18C9}</FileHash>
 </SoundBanksInfo>

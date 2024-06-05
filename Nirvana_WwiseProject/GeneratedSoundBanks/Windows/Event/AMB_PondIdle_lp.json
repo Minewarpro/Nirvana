@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2568759048",
+    "Type": "Event",
+    "GUID": "{B8F0FB8C-23FA-43D4-9DCE-5D71C6F518E9}",
+    "Language": "SFX",
+    "Hash": "{B3DA4961-C9DC-6110-EEC2-3891DA1E1E39}",
+    "ObjectPath": "AMB_PondIdle_lp",
+    "ShortName": "AMB_PondIdle_lp",
+    "Path": "Event/AMB_PondIdle_lp.bnk",
+    "Media": [
+     {
+      "Id": "1064426627",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB\\AMB_Water\\AMB_PondIdle_lp.wav",
+      "Path": "Media/1064426627.wem",
+      "CachePath": "SFX/AMB/AMB_Water/AMB_PondIdle_lp_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2568759048",
+      "Name": "AMB_PondIdle_lp",
+      "ObjectPath": "\\Events\\AMB\\AMB_Water\\AMB_PondIdle_lp",
+      "GUID": "{B8F0FB8C-23FA-43D4-9DCE-5D71C6F518E9}",
+      "MaxAttenuation": "2500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1064426627"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{71B1DC3F-FA65-1D0C-DA01-5B942546CA02}"
+ }
+}

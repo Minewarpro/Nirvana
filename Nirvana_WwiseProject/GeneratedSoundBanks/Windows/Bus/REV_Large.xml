@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3750820532" Type="Bus" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}" Language="SFX" Hash="{1D81641C-381A-0F8F-C697-633DE4A1E13C}">
+			<ObjectPath>REV_Large</ObjectPath>
+			<ShortName>REV_Large</ShortName>
+			<Path>Bus/REV_Large.bnk</Path>
+			<AuxBusses>
+				<AuxBus Id="3750820532" Name="REV_Large" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Large" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}"/>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EE988D1D-8E65-6503-9BAA-37D678493093}</FileHash>
+</SoundBanksInfo>

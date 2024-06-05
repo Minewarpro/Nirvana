@@ -1,17 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2935530677" Type="Event" GUID="{785476FB-AD69-4592-AE56-11AF2B38662A}" Language="SFX" Hash="{6D59BB48-3583-7114-BA95-C99771635F8D}">
+		<SoundBank Id="2935530677" Type="Event" GUID="{785476FB-AD69-4592-AE56-11AF2B38662A}" Language="SFX" Hash="{025F7598-F714-EFD4-F1C2-DEBA7E7CFCB3}">
 			<ObjectPath>FT_MC_JumpSecond</ObjectPath>
 			<ShortName>FT_MC_JumpSecond</ShortName>
 			<Path>Event/FT_MC_JumpSecond.bnk</Path>
+			<Media>
+				<File Id="2632655" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_JumpSecond\FT_MC_JumpSecond_03.wav</ShortName>
+					<Path>Media/2632655.wem</Path>
+					<CachePath>SFX/FT/FT_MC_JumpSecond/FT_MC_JumpSecond_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="392745763" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_JumpSecond\FT_MC_JumpSecond_01.wav</ShortName>
+					<Path>Media/392745763.wem</Path>
+					<CachePath>SFX/FT/FT_MC_JumpSecond/FT_MC_JumpSecond_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="718871001" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_JumpSecond\FT_MC_JumpSecond_04.wav</ShortName>
+					<Path>Media/718871001.wem</Path>
+					<CachePath>SFX/FT/FT_MC_JumpSecond/FT_MC_JumpSecond_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="790672820" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_JumpSecond\FT_MC_JumpSecond_02.wav</ShortName>
+					<Path>Media/790672820.wem</Path>
+					<CachePath>SFX/FT/FT_MC_JumpSecond/FT_MC_JumpSecond_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="2935530677" Name="FT_MC_JumpSecond" ObjectPath="\Events\FT\FT_MC_JumpSecond" GUID="{785476FB-AD69-4592-AE56-11AF2B38662A}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2935530677" Name="FT_MC_JumpSecond" ObjectPath="\Events\FT\FT_MC_JumpSecond" GUID="{785476FB-AD69-4592-AE56-11AF2B38662A}" DurationType="OneShot" DurationMin="0.3775497" DurationMax="0.42378527">
+					<MediaRefs>
+						<MediaRef Id="2632655"/>
+						<MediaRef Id="392745763"/>
+						<MediaRef Id="718871001"/>
+						<MediaRef Id="790672820"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E278799E-3C33-0117-0E78-947A153D3C06}</FileHash>
+	<FileHash>{10F30E1A-E75D-9756-7050-5B8E8D6FCE7A}</FileHash>
 </SoundBanksInfo>

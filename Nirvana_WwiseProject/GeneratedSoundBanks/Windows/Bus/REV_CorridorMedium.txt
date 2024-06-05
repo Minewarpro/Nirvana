@@ -1,0 +1,3 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1709113120	REV_CorridorMedium			\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorMedium	
+

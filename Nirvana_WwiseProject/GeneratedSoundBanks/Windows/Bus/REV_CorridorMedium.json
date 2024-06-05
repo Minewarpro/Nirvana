@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1709113120",
+    "Type": "Bus",
+    "GUID": "{F485D18B-61BB-4138-A53F-7D4875F45B3D}",
+    "Language": "SFX",
+    "Hash": "{49CD286E-AD81-1326-847E-B5A70DA3C97F}",
+    "ObjectPath": "REV_CorridorMedium",
+    "ShortName": "REV_CorridorMedium",
+    "Path": "Bus/REV_CorridorMedium.bnk",
+    "AuxBusses": [
+     {
+      "Id": "1709113120",
+      "Name": "REV_CorridorMedium",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_CorridorMedium",
+      "GUID": "{F485D18B-61BB-4138-A53F-7D4875F45B3D}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5CD9526E-D787-CE8C-A10E-0D34426EA13D}"
+ }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1138556192" Type="Event" GUID="{B38CF970-DCF4-442A-BE05-6085A293A20F}" Language="SFX" Hash="{FBACF02B-6602-A964-BEE0-0203F2502387}">
+			<ObjectPath>AMB_Waterfall_Impact_lp</ObjectPath>
+			<ShortName>AMB_Waterfall_Impact_lp</ShortName>
+			<Path>Event/AMB_Waterfall_Impact_lp.bnk</Path>
+			<Media>
+				<File Id="816987938" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AMB\AMB_Water\AMB_Waterfall_Impact_lp.wav</ShortName>
+					<Path>Media/816987938.wem</Path>
+					<CachePath>SFX/AMB/AMB_Water/AMB_Waterfall_Impact_lp_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1138556192" Name="AMB_Waterfall_Impact_lp" ObjectPath="\Events\AMB\AMB_Water\AMB_Waterfall_Impact_lp" GUID="{B38CF970-DCF4-442A-BE05-6085A293A20F}" MaxAttenuation="2500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="816987938"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9431BC16-7856-3C42-135E-81168CF4B450}</FileHash>
+</SoundBanksInfo>

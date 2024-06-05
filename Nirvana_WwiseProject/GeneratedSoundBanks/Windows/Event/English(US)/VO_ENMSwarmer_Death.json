@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{204211B5-C26C-48ED-B0C4-A5EB27971367}",
     "Language": "English(US)",
-    "Hash": "{466659AE-948F-0E30-F533-DD84E3F4AB25}",
+    "Hash": "{4A8A79C7-6B36-46FD-6555-E141844321EA}",
     "ObjectPath": "VO_ENMSwarmer_Death",
     "ShortName": "VO_ENMSwarmer_Death",
     "Path": "Event/English(US)/VO_ENMSwarmer_Death.bnk",
@@ -79,6 +79,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
       "Id": "3972935021",
       "Name": "RTPC_Azimuth",
       "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
@@ -87,6 +93,6 @@
     ]
    }
   ],
-  "FileHash": "{6E82B984-5AD3-5A22-53A2-DCE44EF7141E}"
+  "FileHash": "{4E85D557-C117-4D0C-9887-F99065D1B23A}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0C4EA416-1035-4CE4-9ABB-92441DDADE14}",
     "Language": "SFX",
-    "Hash": "{5BC68A34-66E0-8F62-CAA2-663F097CA025}",
+    "Hash": "{4CD758E1-09BF-240A-05B1-3B0520A4417D}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_HitENM",
     "ShortName": "SFX_MC_Weapon_Vajra_HitENM",
     "Path": "Event/SFX_MC_Weapon_Vajra_HitENM.bnk",
@@ -80,6 +80,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
       "Id": "3972935021",
       "Name": "RTPC_Azimuth",
       "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
@@ -88,6 +94,6 @@
     ]
    }
   ],
-  "FileHash": "{82903521-26A6-BA0F-441B-BE236B261282}"
+  "FileHash": "{011C4794-383A-E98B-CBD6-B205D3CCEC26}"
  }
 }

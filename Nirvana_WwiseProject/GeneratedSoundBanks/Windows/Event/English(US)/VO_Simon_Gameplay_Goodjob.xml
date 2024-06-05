@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3233041211" Type="Event" GUID="{43402A1C-6C1A-4646-BB60-8E1109F8D0F6}" Language="English(US)" Hash="{0C82C696-6E80-9083-ADF8-AC26BB738F56}">
+		<SoundBank Id="3233041211" Type="Event" GUID="{43402A1C-6C1A-4646-BB60-8E1109F8D0F6}" Language="English(US)" Hash="{5F92E285-90DE-BB14-2D1C-5EA42DA34631}">
 			<ObjectPath>VO_Simon_Gameplay_Goodjob</ObjectPath>
 			<ShortName>VO_Simon_Gameplay_Goodjob</ShortName>
 			<Path>Event/English(US)/VO_Simon_Gameplay_Goodjob.bnk</Path>
@@ -19,7 +19,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{23369DB9-B7E6-DA89-B733-865D30A4328B}</FileHash>
+	<FileHash>{AC6038B0-914F-690D-5F9D-6B68141B211E}</FileHash>
 </SoundBanksInfo>

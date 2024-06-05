@@ -10,10 +10,102 @@
     "Type": "Event",
     "GUID": "{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}",
     "Language": "SFX",
-    "Hash": "{8D2D9C77-8FDC-D802-7FAA-2ED82540712A}",
+    "Hash": "{30FAE5F4-398C-EE45-162C-7C64EBB29C1F}",
     "ObjectPath": "FT_MC_Slide_Exit",
     "ShortName": "FT_MC_Slide_Exit",
     "Path": "Event/FT_MC_Slide_Exit.bnk",
+    "Media": [
+     {
+      "Id": "27098427",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Water\\FT_MC_Water_Slide_Exit\\FT_MC_Water_Slide_Exit_01.wav",
+      "Path": "Media/27098427.wem",
+      "CachePath": "SFX/FT/FT_MC_Water/FT_MC_Water_Slide_Exit/FT_MC_Water_Slide_Exit_01_818F3B66.wem"
+     },
+     {
+      "Id": "86830819",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Carpet\\FT_MC_Carpet_Slide_Exit\\FT_MC_Carpet_Slide_Exit_04.wav",
+      "Path": "Media/86830819.wem",
+      "CachePath": "SFX/FT/FT_MC_Carpet/FT_MC_Carpet_Slide_Exit/FT_MC_Carpet_Slide_Exit_04_818F3B66.wem"
+     },
+     {
+      "Id": "240547311",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Water\\FT_MC_Water_Slide_Exit\\FT_MC_Water_Slide_Exit_02.wav",
+      "Path": "Media/240547311.wem",
+      "CachePath": "SFX/FT/FT_MC_Water/FT_MC_Water_Slide_Exit/FT_MC_Water_Slide_Exit_02_818F3B66.wem"
+     },
+     {
+      "Id": "270334769",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Carpet\\FT_MC_Carpet_Slide_Exit\\FT_MC_Carpet_Slide_Exit_03.wav",
+      "Path": "Media/270334769.wem",
+      "CachePath": "SFX/FT/FT_MC_Carpet/FT_MC_Carpet_Slide_Exit/FT_MC_Carpet_Slide_Exit_03_818F3B66.wem"
+     },
+     {
+      "Id": "330720866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Stone\\FT_MC_Stone_Slide_Exit\\FT_MC_Stone_Slide_Exit_02.wav",
+      "Path": "Media/330720866.wem",
+      "CachePath": "SFX/FT/FT_MC_Stone/FT_MC_Stone_Slide_Exit/FT_MC_Stone_Slide_Exit_02_818F3B66.wem"
+     },
+     {
+      "Id": "358607267",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Metal\\FT_MC_Metal_Slide_Exit\\FT_MC_Metal_Slide_Exit_02.wav",
+      "Path": "Media/358607267.wem",
+      "CachePath": "SFX/FT/FT_MC_Metal/FT_MC_Metal_Slide_Exit/FT_MC_Metal_Slide_Exit_02_818F3B66.wem"
+     },
+     {
+      "Id": "450099578",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Carpet\\FT_MC_Carpet_Slide_Exit\\FT_MC_Carpet_Slide_Exit_01.wav",
+      "Path": "Media/450099578.wem",
+      "CachePath": "SFX/FT/FT_MC_Carpet/FT_MC_Carpet_Slide_Exit/FT_MC_Carpet_Slide_Exit_01_818F3B66.wem"
+     },
+     {
+      "Id": "450506643",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Stone\\FT_MC_Stone_Slide_Exit\\FT_MC_Stone_Slide_Exit_01.wav",
+      "Path": "Media/450506643.wem",
+      "CachePath": "SFX/FT/FT_MC_Stone/FT_MC_Stone_Slide_Exit/FT_MC_Stone_Slide_Exit_01_818F3B66.wem"
+     },
+     {
+      "Id": "849590075",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Metal\\FT_MC_Metal_Slide_Exit\\FT_MC_Metal_Slide_Exit_01.wav",
+      "Path": "Media/849590075.wem",
+      "CachePath": "SFX/FT/FT_MC_Metal/FT_MC_Metal_Slide_Exit/FT_MC_Metal_Slide_Exit_01_818F3B66.wem"
+     },
+     {
+      "Id": "861315096",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Carpet\\FT_MC_Carpet_Slide_Exit\\FT_MC_Carpet_Slide_Exit_02.wav",
+      "Path": "Media/861315096.wem",
+      "CachePath": "SFX/FT/FT_MC_Carpet/FT_MC_Carpet_Slide_Exit/FT_MC_Carpet_Slide_Exit_02_818F3B66.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "849362003",
@@ -21,8 +113,97 @@
       "ObjectPath": "\\Events\\FT\\FT_MC_Slide_Exit",
       "GUID": "{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.31462476",
+      "DurationMax": "0.88288593",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4035313040",
+         "Id": "1699952942",
+         "GUID": "{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "330720866"
+         },
+         {
+          "Id": "450506643"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4035313040",
+         "Id": "1901335520",
+         "GUID": "{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "27098427"
+         },
+         {
+          "Id": "240547311"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4035313040",
+         "Id": "4051928182",
+         "GUID": "{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "86830819"
+         },
+         {
+          "Id": "270334769"
+         },
+         {
+          "Id": "450099578"
+         },
+         {
+          "Id": "861315096"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4035313040",
+         "Id": "314505124",
+         "GUID": "{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "358607267"
+         },
+         {
+          "Id": "849590075"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4035313040",
+         "Id": "3682161770",
+         "GUID": "{4542D8F7-2774-4820-9402-34B9207369C5}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "27098427"
+         },
+         {
+          "Id": "240547311"
+         }
+        ]
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -32,9 +213,49 @@
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
       "GUID": "{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "4035313040",
+      "Name": "SW_FT_Material",
+      "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material",
+      "GUID": "{FF147DA2-4C43-417B-9F29-7482AAE43F6A}",
+      "Switches": [
+       {
+        "Id": "314505124",
+        "Name": "SW_FT_Metal",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Metal",
+        "GUID": "{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"
+       },
+       {
+        "Id": "1699952942",
+        "Name": "SW_FT_Stone",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Stone",
+        "GUID": "{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}"
+       },
+       {
+        "Id": "1901335520",
+        "Name": "SW_FT_Water",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Water",
+        "GUID": "{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"
+       },
+       {
+        "Id": "3682161770",
+        "Name": "SW_FT_Nenuphar",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Nenuphar",
+        "GUID": "{4542D8F7-2774-4820-9402-34B9207369C5}"
+       },
+       {
+        "Id": "4051928182",
+        "Name": "SW_FT_Carpet",
+        "ObjectPath": "\\Switches\\SW_FT\\SW_FT_Material\\SW_FT_Carpet",
+        "GUID": "{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{4116A8B6-F269-88F4-2421-27CA64D5988D}"
+  "FileHash": "{43ADDED1-71AF-FC17-9351-A6257184E187}"
  }
 }

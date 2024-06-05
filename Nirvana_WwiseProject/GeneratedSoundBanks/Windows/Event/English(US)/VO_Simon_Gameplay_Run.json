@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{CF346644-104F-4F5E-9F43-902F0F6F0B6D}",
     "Language": "English(US)",
-    "Hash": "{C5AE3FB8-2A3E-8F36-6705-1F1776FE42B7}",
+    "Hash": "{D6B34AD4-C246-1BF0-BC01-AC84240C2F7B}",
     "ObjectPath": "VO_Simon_Gameplay_Run",
     "ShortName": "VO_Simon_Gameplay_Run",
     "Path": "Event/English(US)/VO_Simon_Gameplay_Run.bnk",
@@ -40,9 +40,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{0A678A19-59B6-7BFA-1357-5E020177A8AE}"
+  "FileHash": "{FE626487-833D-FC16-3FC2-347AF9F5241C}"
  }
 }
