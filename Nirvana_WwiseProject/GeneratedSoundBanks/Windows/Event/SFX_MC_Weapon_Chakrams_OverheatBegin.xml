@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="148639171" Type="Event" GUID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}" Language="SFX" Hash="{95AE6F2D-8E87-1157-30B6-536728540FB9}">
+		<SoundBank Id="148639171" Type="Event" GUID="{EECBB3DB-A081-4355-BE52-097B1FBB8522}" Language="SFX" Hash="{34C7F645-95E2-3D4F-12EB-B7E000176E84}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_OverheatBegin</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_OverheatBegin</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_OverheatBegin.bnk</Path>
@@ -37,5 +37,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C2F6745B-A699-2961-09A3-870DDF9CB6C5}</FileHash>
+	<FileHash>{EC51FFDB-EB72-AFD8-12A0-B23F06364751}</FileHash>
 </SoundBanksInfo>

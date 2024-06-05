@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2935530677" Type="Event" GUID="{785476FB-AD69-4592-AE56-11AF2B38662A}" Language="SFX" Hash="{879C8432-BA25-7607-2666-9116B1FACBC0}">
+		<SoundBank Id="2935530677" Type="Event" GUID="{785476FB-AD69-4592-AE56-11AF2B38662A}" Language="SFX" Hash="{025F7598-F714-EFD4-F1C2-DEBA7E7CFCB3}">
 			<ObjectPath>FT_MC_JumpSecond</ObjectPath>
 			<ShortName>FT_MC_JumpSecond</ShortName>
 			<Path>Event/FT_MC_JumpSecond.bnk</Path>
@@ -42,5 +42,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BB3F1959-C315-8E07-E993-28F668C159F0}</FileHash>
+	<FileHash>{10F30E1A-E75D-9756-7050-5B8E8D6FCE7A}</FileHash>
 </SoundBanksInfo>

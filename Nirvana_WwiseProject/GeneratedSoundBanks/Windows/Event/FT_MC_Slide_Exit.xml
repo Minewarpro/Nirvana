@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="849362003" Type="Event" GUID="{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}" Language="SFX" Hash="{80FAAAB4-19CE-0087-0E53-72554C00E739}">
+		<SoundBank Id="849362003" Type="Event" GUID="{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}" Language="SFX" Hash="{30FAE5F4-398C-EE45-162C-7C64EBB29C1F}">
 			<ObjectPath>FT_MC_Slide_Exit</ObjectPath>
 			<ShortName>FT_MC_Slide_Exit</ShortName>
 			<Path>Event/FT_MC_Slide_Exit.bnk</Path>
@@ -116,5 +116,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D23D71E9-9A44-E19A-953D-0AE6084FCDA7}</FileHash>
+	<FileHash>{08704EAE-5DFC-9CC4-4970-6D2A06859168}</FileHash>
 </SoundBanksInfo>

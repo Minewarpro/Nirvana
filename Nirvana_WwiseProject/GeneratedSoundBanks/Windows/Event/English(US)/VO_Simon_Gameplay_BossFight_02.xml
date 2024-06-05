@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1719829413" Type="Event" GUID="{C208AEFA-12B4-434F-BD54-9F35CD6668DF}" Language="English(US)" Hash="{2279A942-8081-25F2-0EAF-238671F8C263}">
+		<SoundBank Id="1719829413" Type="Event" GUID="{C208AEFA-12B4-434F-BD54-9F35CD6668DF}" Language="English(US)" Hash="{132DAB3B-52B6-C63E-06A1-3C470026F941}">
 			<ObjectPath>VO_Simon_Gameplay_BossFight_02</ObjectPath>
 			<ShortName>VO_Simon_Gameplay_BossFight_02</ShortName>
 			<Path>Event/English(US)/VO_Simon_Gameplay_BossFight_02.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{319BFFB6-5F51-CC3B-780A-AF7CD4B8EBC9}</FileHash>
+	<FileHash>{994882C6-93A9-6110-96B7-E060C7D2EEBB}</FileHash>
 </SoundBanksInfo>

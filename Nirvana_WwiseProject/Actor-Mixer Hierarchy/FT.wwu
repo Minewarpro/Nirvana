@@ -24,6 +24,7 @@
 							</ModifierList>
 						</Property>
 						<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ModifierList>
 								<ModifierInfo>
@@ -1939,7 +1940,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="FT_MC_Dash_01" ID="{6FEEBD28-DDE3-4891-812D-2CB9A160FF3F}" ShortID="940933387">
+								<Sound Name="FT_MC_Dash_01" ID="{CD4AC792-78AB-4114-95DC-199FC3829CFC}" ShortID="861727292">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -1949,7 +1950,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_Dash_01" ID="{0687B006-27E5-41FA-AF2E-471594A3327A}">
+										<AudioFileSource Name="FT_MC_Dash_01" ID="{5A4D2141-6A66-4CAD-AF70-751C6EC30680}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_Dash\FT_MC_Dash_01.wav</AudioFile>
 											<MediaIDList>
@@ -1958,10 +1959,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_Dash_01" ID="{0687B006-27E5-41FA-AF2E-471594A3327A}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_Dash_01" ID="{5A4D2141-6A66-4CAD-AF70-751C6EC30680}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="FT_MC_Dash_02" ID="{6A8C5F4D-CCA9-4913-8A90-04B2535FAE44}" ShortID="737242571">
+								<Sound Name="FT_MC_Dash_02" ID="{67A49F83-43A7-4FE3-8AB4-3359DC1299E8}" ShortID="577130998">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -1971,7 +1972,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_Dash_02" ID="{99C5C9C7-03E6-4F93-8A7E-00339A527A68}">
+										<AudioFileSource Name="FT_MC_Dash_02" ID="{00AD5269-C695-45CC-8C6D-94E03B775C93}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_Dash\FT_MC_Dash_02.wav</AudioFile>
 											<MediaIDList>
@@ -1980,10 +1981,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_Dash_02" ID="{99C5C9C7-03E6-4F93-8A7E-00339A527A68}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_Dash_02" ID="{00AD5269-C695-45CC-8C6D-94E03B775C93}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="FT_MC_Dash_03" ID="{8C9D4A4A-241E-4B69-8B35-BB8B1D8331CB}" ShortID="533825220">
+								<Sound Name="FT_MC_Dash_03" ID="{2DC41B69-DA8B-4E24-AF8A-7759C2C4A390}" ShortID="1019566277">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -1993,7 +1994,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_Dash_03" ID="{B6DDAF21-2C7B-4CB7-86EF-F3679A3A4B6E}">
+										<AudioFileSource Name="FT_MC_Dash_03" ID="{1B5FFC5E-EA00-4893-B88B-043CF64ED0AF}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_Dash\FT_MC_Dash_03.wav</AudioFile>
 											<MediaIDList>
@@ -2002,10 +2003,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_Dash_03" ID="{B6DDAF21-2C7B-4CB7-86EF-F3679A3A4B6E}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_Dash_03" ID="{1B5FFC5E-EA00-4893-B88B-043CF64ED0AF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="FT_MC_Dash_04" ID="{C10610AD-83D7-4B97-9CA1-F2747CB09DFF}" ShortID="814398566">
+								<Sound Name="FT_MC_Dash_04" ID="{8E3E7705-77A5-4D1C-A44B-F2A9B65E2A0F}" ShortID="465790236">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -2015,7 +2016,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_Dash_04" ID="{2457C0FF-25D9-43DD-815B-5FC23E2F01AA}">
+										<AudioFileSource Name="FT_MC_Dash_04" ID="{8A8C7AFE-9223-456F-A52A-536B2A788AED}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_Dash\FT_MC_Dash_04.wav</AudioFile>
 											<MediaIDList>
@@ -2024,7 +2025,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_Dash_04" ID="{2457C0FF-25D9-43DD-815B-5FC23E2F01AA}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_Dash_04" ID="{8A8C7AFE-9223-456F-A52A-536B2A788AED}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -2049,6 +2050,11 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-22</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2059,7 +2065,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="FT_MC_Climb_01" ID="{CAA2E72E-FC8F-40AE-B5DD-15F2FF02AAF2}" ShortID="745620736">
+								<Sound Name="FT_MC_Climb_01" ID="{D9AF59F7-0428-463B-9F35-07A1F126AA02}" ShortID="612738968">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -2069,7 +2075,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_Climb_01" ID="{D7E5F04A-560E-4DA9-A29C-C96D2957649A}">
+										<AudioFileSource Name="FT_MC_Climb_01" ID="{81B2E6C6-8704-47D5-A16D-8DA224905129}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_Climb\FT_MC_Climb_01.wav</AudioFile>
 											<MediaIDList>
@@ -2078,10 +2084,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_Climb_01" ID="{D7E5F04A-560E-4DA9-A29C-C96D2957649A}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_Climb_01" ID="{81B2E6C6-8704-47D5-A16D-8DA224905129}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="FT_MC_Climb_02" ID="{60DC17EE-4FA9-4AE5-9E37-0A652A1289DA}" ShortID="643007688">
+								<Sound Name="FT_MC_Climb_02" ID="{5FB236CB-BE02-4944-BFFE-5EE342C40FAE}" ShortID="314633981">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -2091,7 +2097,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_Climb_02" ID="{AF73A8CE-F654-438D-9185-BB426F9085E7}">
+										<AudioFileSource Name="FT_MC_Climb_02" ID="{7E6021D3-6F9E-4F7C-95C8-15646D7DB300}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_Climb\FT_MC_Climb_02.wav</AudioFile>
 											<MediaIDList>
@@ -2100,10 +2106,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_Climb_02" ID="{AF73A8CE-F654-438D-9185-BB426F9085E7}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_Climb_02" ID="{7E6021D3-6F9E-4F7C-95C8-15646D7DB300}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="FT_MC_Climb_03" ID="{28D9515E-B8F9-4022-894A-5D792CE086EA}" ShortID="528445143">
+								<Sound Name="FT_MC_Climb_03" ID="{5676748E-EF59-4F1F-B226-D574F3EE2DC4}" ShortID="905972001">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -2113,7 +2119,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_Climb_03" ID="{0A644E9F-CFC2-44FD-A50F-305D0A4A7353}">
+										<AudioFileSource Name="FT_MC_Climb_03" ID="{0A347281-15B1-4C9A-93F5-08B818FED1F2}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_Climb\FT_MC_Climb_03.wav</AudioFile>
 											<MediaIDList>
@@ -2122,7 +2128,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_Climb_03" ID="{0A644E9F-CFC2-44FD-A50F-305D0A4A7353}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_Climb_03" ID="{0A347281-15B1-4C9A-93F5-08B818FED1F2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -2148,6 +2154,11 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-21</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2158,7 +2169,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="FT_MC_JumpSecond_01" ID="{979E1870-FE70-475F-8967-7A03776FACA8}" ShortID="950672946">
+								<Sound Name="FT_MC_JumpSecond_01" ID="{13D08B98-8DC2-451F-A40E-F9396EBC4FCC}" ShortID="901865800">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -2168,7 +2179,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_JumpSecond_01" ID="{6511F6D8-807A-423C-AA84-B128AE5FF676}">
+										<AudioFileSource Name="FT_MC_JumpSecond_01" ID="{70495400-482E-485F-BE8B-2F844D747919}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_JumpSecond\FT_MC_JumpSecond_01.wav</AudioFile>
 											<MediaIDList>
@@ -2177,10 +2188,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_JumpSecond_01" ID="{6511F6D8-807A-423C-AA84-B128AE5FF676}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_JumpSecond_01" ID="{70495400-482E-485F-BE8B-2F844D747919}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="FT_MC_JumpSecond_02" ID="{7B1D8D53-9210-4759-9510-AC71E4374DA0}" ShortID="488463980">
+								<Sound Name="FT_MC_JumpSecond_02" ID="{4320009F-8093-4153-8A09-D277CC84A273}" ShortID="509596135">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -2190,7 +2201,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_JumpSecond_02" ID="{07DE6398-04AC-4792-A5EF-7EF84E561DCE}">
+										<AudioFileSource Name="FT_MC_JumpSecond_02" ID="{962F77D7-5109-49E6-9811-D7BA29DE0698}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_JumpSecond\FT_MC_JumpSecond_02.wav</AudioFile>
 											<MediaIDList>
@@ -2199,10 +2210,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_JumpSecond_02" ID="{07DE6398-04AC-4792-A5EF-7EF84E561DCE}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_JumpSecond_02" ID="{962F77D7-5109-49E6-9811-D7BA29DE0698}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="FT_MC_JumpSecond_03" ID="{93F19226-822B-49B8-9D0E-B69F9DF39911}" ShortID="144968750">
+								<Sound Name="FT_MC_JumpSecond_03" ID="{9D579AC9-0748-4A4F-843A-6A1CFBAECE1B}" ShortID="712382226">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -2212,7 +2223,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_JumpSecond_03" ID="{0D2CEA76-7ECA-4C5B-9E13-649DDE1B4F35}">
+										<AudioFileSource Name="FT_MC_JumpSecond_03" ID="{86E6690C-CF05-4C14-9E91-6517911BB071}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_JumpSecond\FT_MC_JumpSecond_03.wav</AudioFile>
 											<MediaIDList>
@@ -2221,10 +2232,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_JumpSecond_03" ID="{0D2CEA76-7ECA-4C5B-9E13-649DDE1B4F35}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_JumpSecond_03" ID="{86E6690C-CF05-4C14-9E91-6517911BB071}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="FT_MC_JumpSecond_04" ID="{B6C16DBB-DA36-4115-9693-3E243E2BBCC2}" ShortID="698357622">
+								<Sound Name="FT_MC_JumpSecond_04" ID="{1A1FD72E-2363-4264-91E5-8EEF18557173}" ShortID="443033303">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -2234,7 +2245,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_JumpSecond_04" ID="{8DCD8A0A-5ADB-4986-9700-0199E6C03749}">
+										<AudioFileSource Name="FT_MC_JumpSecond_04" ID="{58ABB6EF-289C-4ED4-895A-7AE02B0ECE48}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_JumpSecond\FT_MC_JumpSecond_04.wav</AudioFile>
 											<MediaIDList>
@@ -2243,7 +2254,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_JumpSecond_04" ID="{8DCD8A0A-5ADB-4986-9700-0199E6C03749}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_JumpSecond_04" ID="{58ABB6EF-289C-4ED4-895A-7AE02B0ECE48}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3824118527" Type="Event" GUID="{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}" Language="SFX" Hash="{F9A42022-D59B-A485-B823-3E4FB85E594E}">
+		<SoundBank Id="3824118527" Type="Event" GUID="{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}" Language="SFX" Hash="{086D366E-833C-31BE-C89C-4521BD0FC8E2}">
 			<ObjectPath>SFX_MC_Weapon_Switch</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Switch</ShortName>
 			<Path>Event/SFX_MC_Weapon_Switch.bnk</Path>
@@ -43,5 +43,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BC37B0AB-D013-09AE-925F-15C1B5B34357}</FileHash>
+	<FileHash>{20EF7DD2-D33D-0E2E-06C1-BF2BE1032ECA}</FileHash>
 </SoundBanksInfo>

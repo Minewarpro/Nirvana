@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B938B411-A41C-469A-B1F4-9D6AFA5CE561}",
     "Language": "SFX",
-    "Hash": "{55488013-E00B-FED7-7FB3-B449184A19A5}",
+    "Hash": "{40E09E70-8E5A-7E05-F5A2-CA880CCBCCF3}",
     "ObjectPath": "FT_MC_Slide_Enter",
     "ShortName": "FT_MC_Slide_Enter",
     "Path": "Event/FT_MC_Slide_Enter.bnk",
@@ -356,6 +356,6 @@
     ]
    }
   ],
-  "FileHash": "{56245FEE-489E-651B-EAF0-6629014E4D5A}"
+  "FileHash": "{6D195B8A-2F62-20FD-88A9-E7F47C5B009A}"
  }
 }

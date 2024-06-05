@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="436445011" Type="Event" GUID="{1541DB56-71AE-4AD1-AC88-4DEB5EBBA48E}" Language="English(US)" Hash="{3ED53DD4-37E7-751D-0ED4-A35BC27FA811}">
+		<SoundBank Id="436445011" Type="Event" GUID="{1541DB56-71AE-4AD1-AC88-4DEB5EBBA48E}" Language="English(US)" Hash="{07487AE4-92AB-D32F-A0C7-C1309A12785D}">
 			<ObjectPath>VO_Simon_Story_10</ObjectPath>
 			<ShortName>VO_Simon_Story_10</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_10.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{68D1EAF8-F270-23D5-A3F6-69980B06DA18}</FileHash>
+	<FileHash>{952810AD-FD0D-3C6D-F2D7-ED7431DB9AA4}</FileHash>
 </SoundBanksInfo>

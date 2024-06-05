@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="733708365" Type="Event" GUID="{5C19D422-C820-434B-94C3-0FD0A2504D4A}" Language="SFX" Hash="{D0933BDE-BFD1-F605-8D98-61B3B98E4856}">
+		<SoundBank Id="733708365" Type="Event" GUID="{5C19D422-C820-434B-94C3-0FD0A2504D4A}" Language="SFX" Hash="{37F13FED-6C20-BFC1-0375-28742EEC036A}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Lightning</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Lightning</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Lightning.bnk</Path>
@@ -37,5 +37,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{658BA251-17A6-7AC9-07DA-33595EE72E71}</FileHash>
+	<FileHash>{DBECF4D0-C0DC-58AD-2809-54E0B3709670}</FileHash>
 </SoundBanksInfo>

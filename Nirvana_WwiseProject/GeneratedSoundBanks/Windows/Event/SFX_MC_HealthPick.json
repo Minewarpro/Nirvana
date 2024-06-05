@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}",
     "Language": "SFX",
-    "Hash": "{263D5865-B029-947A-445D-2951B28D3E5D}",
+    "Hash": "{9B6A2155-18D1-1343-C8B2-555EEDAAFD98}",
     "ObjectPath": "SFX_MC_HealthPick",
     "ShortName": "SFX_MC_HealthPick",
     "Path": "Event/SFX_MC_HealthPick.bnk",
@@ -118,6 +118,6 @@
     ]
    }
   ],
-  "FileHash": "{EFBAF00F-B177-F36F-71BF-BE5D6ED9F205}"
+  "FileHash": "{1C8876FE-3B52-FA9B-EF67-0F8D3ED2B0EB}"
  }
 }

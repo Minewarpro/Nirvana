@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1174174029" Type="Event" GUID="{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}" Language="SFX" Hash="{263D5865-B029-947A-445D-2951B28D3E5D}">
+		<SoundBank Id="1174174029" Type="Event" GUID="{8D6ADADC-DC3C-4134-98B5-00ED353A0D01}" Language="SFX" Hash="{9B6A2155-18D1-1343-C8B2-555EEDAAFD98}">
 			<ObjectPath>SFX_MC_HealthPick</ObjectPath>
 			<ShortName>SFX_MC_HealthPick</ShortName>
 			<Path>Event/SFX_MC_HealthPick.bnk</Path>
@@ -55,5 +55,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A0038459-7CC2-73B6-0710-F3311DD804A6}</FileHash>
+	<FileHash>{CB1346C9-7EF7-62F0-C2D8-E29E5EEF21DE}</FileHash>
 </SoundBanksInfo>

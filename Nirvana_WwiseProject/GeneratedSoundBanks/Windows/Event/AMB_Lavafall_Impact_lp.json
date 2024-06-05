@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8414CCB4-4D7F-4E4B-8A17-3E511D2D6B66}",
     "Language": "SFX",
-    "Hash": "{E2880435-EC53-719F-D4A8-A32979AF43E4}",
+    "Hash": "{03F6B20A-9CA0-BEF5-5C47-CEB535374103}",
     "ObjectPath": "AMB_Lavafall_Impact_lp",
     "ShortName": "AMB_Lavafall_Impact_lp",
     "Path": "Event/AMB_Lavafall_Impact_lp.bnk",
@@ -31,6 +31,7 @@
       "Name": "AMB_Lavafall_Impact_lp",
       "ObjectPath": "\\Events\\AMB\\AMB_Lava\\AMB_Lavafall_Impact_lp",
       "GUID": "{8414CCB4-4D7F-4E4B-8A17-3E511D2D6B66}",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -55,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{FB8C1565-49C4-57BE-74D7-EE565C56A99C}"
+  "FileHash": "{EE2EE051-5E9F-6772-A273-E13E1043C6D0}"
  }
 }

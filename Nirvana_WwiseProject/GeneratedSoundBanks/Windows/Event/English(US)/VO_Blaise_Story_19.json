@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C631CC78-2A75-4DC6-8B09-306A0D73BFF0}",
     "Language": "English(US)",
-    "Hash": "{B50A6805-1332-3A15-6537-746916825CD5}",
+    "Hash": "{E31C8805-112E-00AD-9D3E-155B4D566D70}",
     "ObjectPath": "VO_Blaise_Story_19",
     "ShortName": "VO_Blaise_Story_19",
     "Path": "Event/English(US)/VO_Blaise_Story_19.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{D1557CE8-4AF4-CF22-3178-F932710D1271}"
+  "FileHash": "{F0CC78C7-6B95-D004-FC0B-F9D1A12838C7}"
  }
 }

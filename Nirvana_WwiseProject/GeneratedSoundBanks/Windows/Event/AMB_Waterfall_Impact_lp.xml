@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1138556192" Type="Event" GUID="{B38CF970-DCF4-442A-BE05-6085A293A20F}" Language="SFX" Hash="{4DDF469B-1E25-116B-7535-025361339983}">
+		<SoundBank Id="1138556192" Type="Event" GUID="{B38CF970-DCF4-442A-BE05-6085A293A20F}" Language="SFX" Hash="{FBACF02B-6602-A964-BEE0-0203F2502387}">
 			<ObjectPath>AMB_Waterfall_Impact_lp</ObjectPath>
 			<ShortName>AMB_Waterfall_Impact_lp</ShortName>
 			<Path>Event/AMB_Waterfall_Impact_lp.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1138556192" Name="AMB_Waterfall_Impact_lp" ObjectPath="\Events\AMB\AMB_Water\AMB_Waterfall_Impact_lp" GUID="{B38CF970-DCF4-442A-BE05-6085A293A20F}" DurationType="Infinite">
+				<Event Id="1138556192" Name="AMB_Waterfall_Impact_lp" ObjectPath="\Events\AMB\AMB_Water\AMB_Waterfall_Impact_lp" GUID="{B38CF970-DCF4-442A-BE05-6085A293A20F}" MaxAttenuation="2500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="816987938"/>
 					</MediaRefs>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{744CE982-D428-28D7-55BE-23947DEF9010}</FileHash>
+	<FileHash>{9431BC16-7856-3C42-135E-81168CF4B450}</FileHash>
 </SoundBanksInfo>

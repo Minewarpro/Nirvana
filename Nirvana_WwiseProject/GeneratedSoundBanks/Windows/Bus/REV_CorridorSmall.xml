@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="4061537322" Type="Bus" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}" Language="SFX" Hash="{61C57C57-5484-C547-85D5-B4B79643F908}">
+			<ObjectPath>REV_CorridorSmall</ObjectPath>
+			<ShortName>REV_CorridorSmall</ShortName>
+			<Path>Bus/REV_CorridorSmall.bnk</Path>
+			<AuxBusses>
+				<AuxBus Id="4061537322" Name="REV_CorridorSmall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorSmall" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}"/>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D309F0C4-7FE6-F9F5-97A3-A566C52708B0}</FileHash>
+</SoundBanksInfo>

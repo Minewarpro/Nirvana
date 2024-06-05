@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2042202503" Type="Event" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" Language="SFX" Hash="{57E9F877-7521-FCCF-D707-2181C248E54A}">
+		<SoundBank Id="2042202503" Type="Event" GUID="{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}" Language="SFX" Hash="{9C4612ED-58D9-A527-6280-D5007300A051}">
 			<ObjectPath>SFX_MC_Weapon_Chakrams_HitENM</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Chakrams_HitENM</ShortName>
 			<Path>Event/SFX_MC_Weapon_Chakrams_HitENM.bnk</Path>
@@ -55,5 +55,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{031AD69C-89D9-A188-AF8E-8224CCAD8181}</FileHash>
+	<FileHash>{10A995C3-D916-9CF9-FDC4-AC7C571A7691}</FileHash>
 </SoundBanksInfo>

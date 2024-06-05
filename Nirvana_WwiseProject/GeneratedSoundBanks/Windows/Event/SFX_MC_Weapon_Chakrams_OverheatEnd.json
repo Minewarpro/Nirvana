@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9EAAD129-4D85-40B1-88A0-960BAC7525F8}",
     "Language": "SFX",
-    "Hash": "{59A78C99-F4A2-49DC-8D02-F0B0C72834E5}",
+    "Hash": "{7DFAA099-6D6C-6128-2549-ABBEAEF3C3DA}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_OverheatEnd",
     "ShortName": "SFX_MC_Weapon_Chakrams_OverheatEnd",
     "Path": "Event/SFX_MC_Weapon_Chakrams_OverheatEnd.bnk",
@@ -70,6 +70,6 @@
     ]
    }
   ],
-  "FileHash": "{963B87AA-90D8-BB9D-33BF-9749753FB89A}"
+  "FileHash": "{3959A008-DF2A-E332-7936-1941CB3E1FD9}"
  }
 }

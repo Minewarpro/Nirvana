@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2634490640" Type="Event" GUID="{FB1D6191-B358-40F9-967B-570040F4EA82}" Language="SFX" Hash="{991E7BDA-C81F-0116-03DD-E41DF84B741C}">
+		<SoundBank Id="2634490640" Type="Event" GUID="{FB1D6191-B358-40F9-967B-570040F4EA82}" Language="SFX" Hash="{7DD617FF-CE25-6CFE-CC1A-376F89D49534}">
 			<ObjectPath>AMB_Box_lp</ObjectPath>
 			<ShortName>AMB_Box_lp</ShortName>
 			<Path>Event/AMB_Box_lp.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2634490640" Name="AMB_Box_lp" ObjectPath="\Events\AMB\AMB_Box_lp" GUID="{FB1D6191-B358-40F9-967B-570040F4EA82}" DurationType="Infinite">
+				<Event Id="2634490640" Name="AMB_Box_lp" ObjectPath="\Events\AMB\AMB_Box_lp" GUID="{FB1D6191-B358-40F9-967B-570040F4EA82}" MaxAttenuation="2500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="748637969"/>
 					</MediaRefs>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{58F36CF1-AF15-C7AF-BC99-A4E2792AEB27}</FileHash>
+	<FileHash>{5D381B2B-CE97-DC9D-65AB-871C35A84521}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{DDE6B034-63CD-4F7A-8610-080095095B13}",
     "Language": "SFX",
-    "Hash": "{46AE4133-FF1E-6981-D543-2663948655B5}",
+    "Hash": "{E774F306-FB02-71AD-824F-DEDA5EE59AAA}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_OverheatBegin",
     "ShortName": "SFX_MC_Weapon_Vajra_OverheatBegin",
     "Path": "Event/SFX_MC_Weapon_Vajra_OverheatBegin.bnk",
@@ -80,6 +80,6 @@
     ]
    }
   ],
-  "FileHash": "{3F1046DF-6553-B9A7-C1D0-E7B0DC38B7A8}"
+  "FileHash": "{5195D07E-9816-D682-0BAA-B5BD3CFA3930}"
  }
 }

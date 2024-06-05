@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="535776511" Type="Event" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" Language="SFX" Hash="{B806BC2D-321C-AEAA-404F-D4AFCD550050}">
+		<SoundBank Id="535776511" Type="Event" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" Language="SFX" Hash="{9CB795BA-0BBB-0D79-6D90-FED4D2EB6BE6}">
 			<ObjectPath>SFX_GPE_Launcher_Jump</ObjectPath>
 			<ShortName>SFX_GPE_Launcher_Jump</ShortName>
 			<Path>Event/SFX_GPE_Launcher_Jump.bnk</Path>
@@ -37,5 +37,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8DD37913-C56C-BF05-1134-143E56FE141D}</FileHash>
+	<FileHash>{C4C9876B-DC79-DDC4-DDF9-3ADAAD087F63}</FileHash>
 </SoundBanksInfo>

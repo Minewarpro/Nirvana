@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E87AF998-F0D7-4B0B-8887-36171662E7FD}",
     "Language": "English(US)",
-    "Hash": "{AAC72E31-5FDE-3692-77AA-9FEB27A658D0}",
+    "Hash": "{2405C451-A815-30A5-4D1B-D2AB8744CFAE}",
     "ObjectPath": "VO_Blaise_Gameplay_Bossfight_03",
     "ShortName": "VO_Blaise_Gameplay_Bossfight_03",
     "Path": "Event/English(US)/VO_Blaise_Gameplay_Bossfight_03.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{839C6903-BEBB-BA9E-D433-28DBBB6CFE92}"
+  "FileHash": "{DA850551-1EF2-BF57-4A6E-D05C47E5A454}"
  }
 }

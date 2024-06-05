@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{AE3868ED-573A-461E-8507-AA60470E9B1A}",
     "Language": "English(US)",
-    "Hash": "{C76105E6-038B-6444-76CA-C3C73E9CCDA2}",
+    "Hash": "{723746DC-2736-C762-DFEC-F491CCE47779}",
     "ObjectPath": "VO_Blaise_Gameplay_Tempo",
     "ShortName": "VO_Blaise_Gameplay_Tempo",
     "Path": "Event/English(US)/VO_Blaise_Gameplay_Tempo.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{03A8DD60-30BF-3EFD-61A5-5BF08B0EADA8}"
+  "FileHash": "{6BB379DF-4345-60D3-E54E-3B6B1CB0A8C4}"
  }
 }

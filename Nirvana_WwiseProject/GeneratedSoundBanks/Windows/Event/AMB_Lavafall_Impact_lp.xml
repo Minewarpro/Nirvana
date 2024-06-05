@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2010822627" Type="Event" GUID="{8414CCB4-4D7F-4E4B-8A17-3E511D2D6B66}" Language="SFX" Hash="{E2880435-EC53-719F-D4A8-A32979AF43E4}">
+		<SoundBank Id="2010822627" Type="Event" GUID="{8414CCB4-4D7F-4E4B-8A17-3E511D2D6B66}" Language="SFX" Hash="{03F6B20A-9CA0-BEF5-5C47-CEB535374103}">
 			<ObjectPath>AMB_Lavafall_Impact_lp</ObjectPath>
 			<ShortName>AMB_Lavafall_Impact_lp</ShortName>
 			<Path>Event/AMB_Lavafall_Impact_lp.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2010822627" Name="AMB_Lavafall_Impact_lp" ObjectPath="\Events\AMB\AMB_Lava\AMB_Lavafall_Impact_lp" GUID="{8414CCB4-4D7F-4E4B-8A17-3E511D2D6B66}" DurationType="Infinite">
+				<Event Id="2010822627" Name="AMB_Lavafall_Impact_lp" ObjectPath="\Events\AMB\AMB_Lava\AMB_Lavafall_Impact_lp" GUID="{8414CCB4-4D7F-4E4B-8A17-3E511D2D6B66}" MaxAttenuation="2500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="812616162"/>
 					</MediaRefs>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{10DDCF02-406F-15EC-EB0A-FA6D154BF675}</FileHash>
+	<FileHash>{119B8798-049D-B884-B13E-5A2B002E13A0}</FileHash>
 </SoundBanksInfo>

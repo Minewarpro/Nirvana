@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{70E37884-3CEF-492F-9647-372F133334D1}",
     "Language": "English(US)",
-    "Hash": "{23305E9D-BDFD-516C-390B-A6A76C4ECE2D}",
+    "Hash": "{FDE61D8C-9295-D098-0E5A-EA4801B116C6}",
     "ObjectPath": "VO_Simon_Gameplay_Tempo",
     "ShortName": "VO_Simon_Gameplay_Tempo",
     "Path": "Event/English(US)/VO_Simon_Gameplay_Tempo.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{7FBBA640-7267-845A-302A-F65A564B77F9}"
+  "FileHash": "{A0D32584-69F1-B264-9B7C-041F0B7D406C}"
  }
 }

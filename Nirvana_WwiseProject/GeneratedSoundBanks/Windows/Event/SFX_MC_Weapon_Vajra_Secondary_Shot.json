@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}",
     "Language": "SFX",
-    "Hash": "{1159163C-2604-C8FA-2FD9-67CA889E1963}",
+    "Hash": "{D8911EEA-2065-1A97-6534-54380E0D3F08}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_Secondary_Shot",
     "ShortName": "SFX_MC_Weapon_Vajra_Secondary_Shot",
     "Path": "Event/SFX_MC_Weapon_Vajra_Secondary_Shot.bnk",
@@ -82,6 +82,6 @@
     ]
    }
   ],
-  "FileHash": "{37ADB2C3-D664-9250-AEFD-50D9821AD163}"
+  "FileHash": "{2BF95E80-2A38-E607-1D1E-49A887FE6EE3}"
  }
 }

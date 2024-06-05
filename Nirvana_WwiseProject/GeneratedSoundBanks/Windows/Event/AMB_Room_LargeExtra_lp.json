@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EF498D69-BD7B-4ECE-B0F3-FE4CE56EE555}",
     "Language": "SFX",
-    "Hash": "{2184BBA4-DE17-223F-95FA-E3A6FF9A5F00}",
+    "Hash": "{78CD9A4C-0BB3-3D7C-3D48-9207165BBA17}",
     "ObjectPath": "AMB_Room_LargeExtra_lp",
     "ShortName": "AMB_Room_LargeExtra_lp",
     "Path": "Event/AMB_Room_LargeExtra_lp.bnk",
@@ -31,6 +31,7 @@
       "Name": "AMB_Room_LargeExtra_lp",
       "ObjectPath": "\\Events\\AMB\\AMB_Room\\AMB_Room_LargeExtra_lp",
       "GUID": "{EF498D69-BD7B-4ECE-B0F3-FE4CE56EE555}",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -55,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{4ED987D6-FF7A-4C5C-4BBD-AF0A52DFD46A}"
+  "FileHash": "{9FE5534F-AFDA-0AEC-960D-7DAE8D704B6E}"
  }
 }

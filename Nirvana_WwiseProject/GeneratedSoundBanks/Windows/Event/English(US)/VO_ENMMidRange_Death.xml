@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1559084621" Type="Event" GUID="{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}" Language="English(US)" Hash="{C74D5241-09BE-700F-CCEA-1B722267C773}">
+		<SoundBank Id="1559084621" Type="Event" GUID="{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}" Language="English(US)" Hash="{EF117A30-8761-75A8-B9D5-84B8FD997FE2}">
 			<ObjectPath>VO_ENMMidRange_Death</ObjectPath>
 			<ShortName>VO_ENMMidRange_Death</ShortName>
 			<Path>Event/English(US)/VO_ENMMidRange_Death.bnk</Path>
@@ -37,5 +37,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F4519BD0-03AB-7AD8-989C-EDA6986DB4BE}</FileHash>
+	<FileHash>{358AD332-6921-A4A8-1F69-9F7BC56D0A9D}</FileHash>
 </SoundBanksInfo>

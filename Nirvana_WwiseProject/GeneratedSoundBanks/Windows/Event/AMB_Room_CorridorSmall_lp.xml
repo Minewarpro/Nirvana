@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2689866444" Type="Event" GUID="{90FFE52E-CB5D-47F5-A0FA-BE839473C3A3}" Language="SFX" Hash="{B477AA90-6CD2-ACBF-926C-7BDC00146B32}">
+		<SoundBank Id="2689866444" Type="Event" GUID="{90FFE52E-CB5D-47F5-A0FA-BE839473C3A3}" Language="SFX" Hash="{68B6C624-C558-7F0E-6C8C-AE5DFD234FC6}">
 			<ObjectPath>AMB_Room_CorridorSmall_lp</ObjectPath>
 			<ShortName>AMB_Room_CorridorSmall_lp</ShortName>
 			<Path>Event/AMB_Room_CorridorSmall_lp.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2689866444" Name="AMB_Room_CorridorSmall_lp" ObjectPath="\Events\AMB\AMB_Room\AMB_Room_CorridorSmall_lp" GUID="{90FFE52E-CB5D-47F5-A0FA-BE839473C3A3}" DurationType="Infinite">
+				<Event Id="2689866444" Name="AMB_Room_CorridorSmall_lp" ObjectPath="\Events\AMB\AMB_Room\AMB_Room_CorridorSmall_lp" GUID="{90FFE52E-CB5D-47F5-A0FA-BE839473C3A3}" MaxAttenuation="2500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="203516124"/>
 					</MediaRefs>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3E473E9A-AA0A-73B7-C8D4-D4E622383BFC}</FileHash>
+	<FileHash>{01EACFD9-439F-4E97-D343-14B85EA5C5AC}</FileHash>
 </SoundBanksInfo>

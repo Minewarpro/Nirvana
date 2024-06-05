@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{281B8DFA-273F-4C7B-9D7F-4844D3806E40}",
     "Language": "English(US)",
-    "Hash": "{86B7E3A0-4BE6-80E6-1944-EC2CDA14D117}",
+    "Hash": "{6709F218-1DDA-393F-F791-28E86716E349}",
     "ObjectPath": "VO_Ari_Gameplay_Sigh",
     "ShortName": "VO_Ari_Gameplay_Sigh",
     "Path": "Event/English(US)/VO_Ari_Gameplay_Sigh.bnk",
@@ -141,6 +141,6 @@
     ]
    }
   ],
-  "FileHash": "{D8932F86-DD94-2885-B436-8627BBFA9D51}"
+  "FileHash": "{62A502E4-8CED-6ABD-671A-580551BE84A9}"
  }
 }

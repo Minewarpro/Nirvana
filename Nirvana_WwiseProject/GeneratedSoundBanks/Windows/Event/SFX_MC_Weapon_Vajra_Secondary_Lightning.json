@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5C19D422-C820-434B-94C3-0FD0A2504D4A}",
     "Language": "SFX",
-    "Hash": "{D0933BDE-BFD1-F605-8D98-61B3B98E4856}",
+    "Hash": "{37F13FED-6C20-BFC1-0375-28742EEC036A}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_Secondary_Lightning",
     "ShortName": "SFX_MC_Weapon_Vajra_Secondary_Lightning",
     "Path": "Event/SFX_MC_Weapon_Vajra_Secondary_Lightning.bnk",
@@ -82,6 +82,6 @@
     ]
    }
   ],
-  "FileHash": "{C53DBC28-1B5E-0C98-0A2A-6DE1685319B2}"
+  "FileHash": "{6516113D-4828-2850-37BB-1C508F0E3C89}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3321716380" Type="Event" GUID="{5EC673DB-7E85-4A74-B2E5-ADCCE77E0AEB}" Language="SFX" Hash="{A7BDD028-20F7-C58B-98FB-D2B8A62C589B}">
+		<SoundBank Id="3321716380" Type="Event" GUID="{5EC673DB-7E85-4A74-B2E5-ADCCE77E0AEB}" Language="SFX" Hash="{C113A4CC-87FC-A54A-B637-315F6FE2CDCD}">
 			<ObjectPath>FOL_MC_Pants</ObjectPath>
 			<ShortName>FOL_MC_Pants</ShortName>
 			<Path>Event/FOL_MC_Pants.bnk</Path>
@@ -78,5 +78,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A8388719-B370-7229-688B-58FA77B7AAAF}</FileHash>
+	<FileHash>{33AECD4A-8C30-8E59-B505-4151BC5016B1}</FileHash>
 </SoundBanksInfo>

@@ -16,6 +16,7 @@
 							</ValueList>
 						</Property>
 						<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

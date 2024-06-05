@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2727804452" Type="Event" GUID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}" Language="English(US)" Hash="{8111C43B-410C-CA8A-E620-3E96F0BAF2DE}">
+		<SoundBank Id="2727804452" Type="Event" GUID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}" Language="English(US)" Hash="{53CE204B-D91C-B0B4-7946-15FA7F46838A}">
 			<ObjectPath>FT_MC_Climb</ObjectPath>
 			<ShortName>FT_MC_Climb</ShortName>
 			<Path>Event/English(US)/FT_MC_Climb.bnk</Path>
@@ -68,5 +68,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CAEF85C4-CA30-C377-B0C4-54A36592DB9F}</FileHash>
+	<FileHash>{C130DF8C-2B0E-A9EC-63B5-99E1C4793506}</FileHash>
 </SoundBanksInfo>

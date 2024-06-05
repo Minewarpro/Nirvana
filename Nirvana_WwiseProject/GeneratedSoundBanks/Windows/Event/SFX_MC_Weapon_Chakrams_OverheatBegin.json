@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EECBB3DB-A081-4355-BE52-097B1FBB8522}",
     "Language": "SFX",
-    "Hash": "{95AE6F2D-8E87-1157-30B6-536728540FB9}",
+    "Hash": "{34C7F645-95E2-3D4F-12EB-B7E000176E84}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_OverheatBegin",
     "ShortName": "SFX_MC_Weapon_Chakrams_OverheatBegin",
     "Path": "Event/SFX_MC_Weapon_Chakrams_OverheatBegin.bnk",
@@ -80,6 +80,6 @@
     ]
    }
   ],
-  "FileHash": "{A16389EE-4413-58A7-2F92-7F812D47D2A6}"
+  "FileHash": "{E583E575-34B2-8DCD-6AF0-DA19970C8B3D}"
  }
 }

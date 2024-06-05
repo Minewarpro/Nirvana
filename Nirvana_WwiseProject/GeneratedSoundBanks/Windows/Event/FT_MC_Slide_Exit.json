@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}",
     "Language": "SFX",
-    "Hash": "{80FAAAB4-19CE-0087-0E53-72554C00E739}",
+    "Hash": "{30FAE5F4-398C-EE45-162C-7C64EBB29C1F}",
     "ObjectPath": "FT_MC_Slide_Exit",
     "ShortName": "FT_MC_Slide_Exit",
     "Path": "Event/FT_MC_Slide_Exit.bnk",
@@ -256,6 +256,6 @@
     ]
    }
   ],
-  "FileHash": "{61CFC5D0-6288-4401-70E3-B4B331CB4D62}"
+  "FileHash": "{43ADDED1-71AF-FC17-9351-A6257184E187}"
  }
 }

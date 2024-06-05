@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2262339484" Type="Event" GUID="{58DF7032-8DBE-4E62-B869-CA59F47AE449}" Language="SFX" Hash="{B31BF981-D506-FD14-502C-FC0153D2D90D}">
+		<SoundBank Id="2262339484" Type="Event" GUID="{58DF7032-8DBE-4E62-B869-CA59F47AE449}" Language="SFX" Hash="{787FC2EE-D69C-CAE2-489A-E37E0F6468E4}">
 			<ObjectPath>AMB_Obelisque_lp</ObjectPath>
 			<ShortName>AMB_Obelisque_lp</ShortName>
 			<Path>Event/AMB_Obelisque_lp.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2262339484" Name="AMB_Obelisque_lp" ObjectPath="\Events\AMB\AMB_Obelisque_lp" GUID="{58DF7032-8DBE-4E62-B869-CA59F47AE449}" DurationType="Infinite">
+				<Event Id="2262339484" Name="AMB_Obelisque_lp" ObjectPath="\Events\AMB\AMB_Obelisque_lp" GUID="{58DF7032-8DBE-4E62-B869-CA59F47AE449}" MaxAttenuation="2500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="590203699"/>
 					</MediaRefs>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B142C44B-831B-0F29-4BBF-5168AA79739D}</FileHash>
+	<FileHash>{92C78A9A-3871-4414-A913-4EDAA669CF94}</FileHash>
 </SoundBanksInfo>

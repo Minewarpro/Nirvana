@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E9C7E76D-C404-4781-BE73-59D9808B1208}",
     "Language": "SFX",
-    "Hash": "{1A5A378E-198B-8FF7-C5D3-BDB93EE3F22D}",
+    "Hash": "{402D0302-575E-ED8B-83F0-033060A76DB2}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_HitSurface",
     "ShortName": "SFX_MC_Weapon_Chakrams_HitSurface",
     "Path": "Event/SFX_MC_Weapon_Chakrams_HitSurface.bnk",
@@ -118,6 +118,6 @@
     ]
    }
   ],
-  "FileHash": "{8A462F99-6E86-4796-AE98-C1719E682636}"
+  "FileHash": "{8BC6F216-883A-FD58-A08E-02E7B606B83F}"
  }
 }

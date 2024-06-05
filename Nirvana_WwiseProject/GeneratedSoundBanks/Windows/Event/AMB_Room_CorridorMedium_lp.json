@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9670EA26-B74F-4B4B-89B0-9866E7287DAF}",
     "Language": "SFX",
-    "Hash": "{D5F013EF-D9DB-6B89-2C9B-C366EC8074F0}",
+    "Hash": "{3C2CD694-E2F5-A6A3-B208-400573152018}",
     "ObjectPath": "AMB_Room_CorridorMedium_lp",
     "ShortName": "AMB_Room_CorridorMedium_lp",
     "Path": "Event/AMB_Room_CorridorMedium_lp.bnk",
@@ -31,6 +31,7 @@
       "Name": "AMB_Room_CorridorMedium_lp",
       "ObjectPath": "\\Events\\AMB\\AMB_Room\\AMB_Room_CorridorMedium_lp",
       "GUID": "{9670EA26-B74F-4B4B-89B0-9866E7287DAF}",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -55,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{C227A9D7-BD75-2610-1489-AD5781C3D759}"
+  "FileHash": "{581C8A98-07A0-C796-F781-87B8D2EBCB1A}"
  }
 }

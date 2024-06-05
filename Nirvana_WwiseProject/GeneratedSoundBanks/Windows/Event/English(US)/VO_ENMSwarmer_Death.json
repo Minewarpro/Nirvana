@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{204211B5-C26C-48ED-B0C4-A5EB27971367}",
     "Language": "English(US)",
-    "Hash": "{B0C88CED-E513-857D-5964-F5FD14135E0B}",
+    "Hash": "{4A8A79C7-6B36-46FD-6555-E141844321EA}",
     "ObjectPath": "VO_ENMSwarmer_Death",
     "ShortName": "VO_ENMSwarmer_Death",
     "Path": "Event/English(US)/VO_ENMSwarmer_Death.bnk",
@@ -93,6 +93,6 @@
     ]
    }
   ],
-  "FileHash": "{931E4783-E1AE-7307-E690-09EDCE084A73}"
+  "FileHash": "{4E85D557-C117-4D0C-9887-F99065D1B23A}"
  }
 }

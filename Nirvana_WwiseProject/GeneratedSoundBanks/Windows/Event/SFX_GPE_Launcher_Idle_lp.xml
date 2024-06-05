@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4218817288" Type="Event" GUID="{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}" Language="SFX" Hash="{99D72593-9D0D-4D18-71F0-FBC46C12C04B}">
+		<SoundBank Id="4218817288" Type="Event" GUID="{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}" Language="SFX" Hash="{D0DE5E57-104B-DE21-7FE0-383C1D4B14AC}">
 			<ObjectPath>SFX_GPE_Launcher_Idle_lp</ObjectPath>
 			<ShortName>SFX_GPE_Launcher_Idle_lp</ShortName>
 			<Path>Event/SFX_GPE_Launcher_Idle_lp.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{37B6BFE0-1AAF-345E-94F7-AE69F036C600}</FileHash>
+	<FileHash>{4989C3C6-64DD-4E1A-1926-A569202D1DE8}</FileHash>
 </SoundBanksInfo>

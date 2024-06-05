@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}",
     "Language": "English(US)",
-    "Hash": "{137C7BD3-5C7B-5CA2-82A0-411D6B66BB58}",
+    "Hash": "{9F43597E-B15D-3F38-AC35-E2FBBA810038}",
     "ObjectPath": "VO_Ari_Gameplay_Jump",
     "ShortName": "VO_Ari_Gameplay_Jump",
     "Path": "Event/English(US)/VO_Ari_Gameplay_Jump.bnk",
@@ -81,6 +81,6 @@
     ]
    }
   ],
-  "FileHash": "{83DA0D76-B36A-4282-3CFE-A52F84E1247F}"
+  "FileHash": "{1D589F07-F9EB-45EA-8960-DAF98A97B9EF}"
  }
 }

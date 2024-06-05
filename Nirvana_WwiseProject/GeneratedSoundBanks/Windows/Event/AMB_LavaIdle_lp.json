@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{700FC89E-7D96-4C0E-903D-56EA8BD0F965}",
     "Language": "SFX",
-    "Hash": "{9A232109-FD28-9F40-435E-CB2655198EEE}",
+    "Hash": "{3CAF738E-0CB8-C426-E5E7-2B1999CC8CB8}",
     "ObjectPath": "AMB_LavaIdle_lp",
     "ShortName": "AMB_LavaIdle_lp",
     "Path": "Event/AMB_LavaIdle_lp.bnk",
@@ -31,6 +31,7 @@
       "Name": "AMB_LavaIdle_lp",
       "ObjectPath": "\\Events\\AMB\\AMB_Lava\\AMB_LavaIdle_lp",
       "GUID": "{700FC89E-7D96-4C0E-903D-56EA8BD0F965}",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -55,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{4154F0A4-88E0-9D2B-C172-BD937CDFEBD8}"
+  "FileHash": "{EAADE12E-8AD3-D97C-72DE-DC5598076E2C}"
  }
 }

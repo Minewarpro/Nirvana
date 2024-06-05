@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3549141946" Type="Bus" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}" Language="SFX" Hash="{2BFF18E8-BC1A-19A2-BED2-4C47818DEEC8}">
+			<ObjectPath>REV_Medium</ObjectPath>
+			<ShortName>REV_Medium</ShortName>
+			<Path>Bus/REV_Medium.bnk</Path>
+			<AuxBusses>
+				<AuxBus Id="3549141946" Name="REV_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Medium" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}"/>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F6EA484A-4B3E-587E-3C7A-2B05D4ECBB96}</FileHash>
+</SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{58DF7032-8DBE-4E62-B869-CA59F47AE449}",
     "Language": "SFX",
-    "Hash": "{B31BF981-D506-FD14-502C-FC0153D2D90D}",
+    "Hash": "{787FC2EE-D69C-CAE2-489A-E37E0F6468E4}",
     "ObjectPath": "AMB_Obelisque_lp",
     "ShortName": "AMB_Obelisque_lp",
     "Path": "Event/AMB_Obelisque_lp.bnk",
@@ -31,6 +31,7 @@
       "Name": "AMB_Obelisque_lp",
       "ObjectPath": "\\Events\\AMB\\AMB_Obelisque_lp",
       "GUID": "{58DF7032-8DBE-4E62-B869-CA59F47AE449}",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -55,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{D598BFDB-BABB-ABDB-56CC-E25552DB7D25}"
+  "FileHash": "{4D078363-1759-451C-4AB8-D5B2B9AED096}"
  }
 }

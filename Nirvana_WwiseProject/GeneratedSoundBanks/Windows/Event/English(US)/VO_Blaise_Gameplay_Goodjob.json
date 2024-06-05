@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{DC44FCC0-08B0-454B-9529-15EB68E35858}",
     "Language": "English(US)",
-    "Hash": "{E5FA73AE-53F3-DCF2-C9E4-DECA7C8127D6}",
+    "Hash": "{A6C4F38F-F48C-2981-99F6-76CB5B95B9A6}",
     "ObjectPath": "VO_Blaise_Gameplay_Goodjob",
     "ShortName": "VO_Blaise_Gameplay_Goodjob",
     "Path": "Event/English(US)/VO_Blaise_Gameplay_Goodjob.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{42B44C2D-CB7E-D7B5-0000-D7233BF9A8AF}"
+  "FileHash": "{E7C0F01C-9519-E00A-424E-B19BE7FC1B59}"
  }
 }

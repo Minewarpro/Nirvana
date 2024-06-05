@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{06631D50-D230-4F7E-B2DD-E54FEAE107B0}",
     "Language": "SFX",
-    "Hash": "{656B0F2A-C007-524A-2452-6E0DB9875450}",
+    "Hash": "{E85002EB-A179-CED9-7D38-1032DD8783BD}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_Secondary_Idle_lp",
     "ShortName": "SFX_MC_Weapon_Vajra_Secondary_Idle_lp",
     "Path": "Event/SFX_MC_Weapon_Vajra_Secondary_Idle_lp.bnk",
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{46BB53CF-9280-52AF-6259-009D11480A70}"
+  "FileHash": "{6E3FE421-106E-1480-3376-05E4182EDC5E}"
  }
 }

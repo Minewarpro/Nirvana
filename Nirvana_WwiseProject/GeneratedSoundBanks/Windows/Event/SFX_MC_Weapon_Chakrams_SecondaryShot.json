@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7270EAF8-FE0A-4B42-B5A5-C158AA58DE03}",
     "Language": "SFX",
-    "Hash": "{A357886D-0CA3-60F2-9AD1-546284D4DF4D}",
+    "Hash": "{DE14F080-B8EF-AE95-3A0B-94F63138D163}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_SecondaryShot",
     "ShortName": "SFX_MC_Weapon_Chakrams_SecondaryShot",
     "Path": "Event/SFX_MC_Weapon_Chakrams_SecondaryShot.bnk",
@@ -82,6 +82,6 @@
     ]
    }
   ],
-  "FileHash": "{F94BD9A1-F357-0CED-5D04-5D33316B05BA}"
+  "FileHash": "{DE6B4930-43DC-14D3-CA1F-3D1471FFF182}"
  }
 }

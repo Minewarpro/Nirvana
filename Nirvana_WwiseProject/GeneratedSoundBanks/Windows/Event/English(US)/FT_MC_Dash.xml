@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{B48C64F3-E139-F452-CBC7-A020B138E18A}">
+		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{1EA7AE19-3F9E-0147-D309-D25DF92D4491}">
 			<ObjectPath>FT_MC_Dash</ObjectPath>
 			<ShortName>FT_MC_Dash</ShortName>
 			<Path>Event/English(US)/FT_MC_Dash.bnk</Path>
@@ -68,5 +68,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DAEF532F-39AB-113F-25BB-031255ECB275}</FileHash>
+	<FileHash>{E40C0056-8362-9DEF-76E0-F4190BBE54AB}</FileHash>
 </SoundBanksInfo>

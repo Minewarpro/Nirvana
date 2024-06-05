@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9684AF37-3F6A-4B58-8C70-3CE6AA0D99FD}",
     "Language": "English(US)",
-    "Hash": "{C306FEE4-A8A3-6B57-BAE3-888289624B78}",
+    "Hash": "{8C22554F-A4B6-2F29-2AE2-FFF6C4C843CB}",
     "ObjectPath": "VO_Diana_Gameplay_Tempo",
     "ShortName": "VO_Diana_Gameplay_Tempo",
     "Path": "Event/English(US)/VO_Diana_Gameplay_Tempo.bnk",
@@ -81,6 +81,6 @@
     ]
    }
   ],
-  "FileHash": "{DC1FCFE7-9C0D-7FDA-F46D-DB3FF99F952C}"
+  "FileHash": "{D7AB0F02-1BBC-1F5B-44F1-DC4DBD28247E}"
  }
 }

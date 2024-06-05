@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{075BD4CA-E088-4746-B98C-71CB3770E4FE}",
     "Language": "English(US)",
-    "Hash": "{580188AA-7F6D-F31B-A0B3-59412999B315}",
+    "Hash": "{4848D44E-5CC6-80CA-81E1-2E9A382C822E}",
     "ObjectPath": "VO_Diana_Story_17",
     "ShortName": "VO_Diana_Story_17",
     "Path": "Event/English(US)/VO_Diana_Story_17.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{6A4650C5-034E-8156-07DC-25784C37936F}"
+  "FileHash": "{67CC6D8A-0030-E7A0-5971-69004E5B9CB9}"
  }
 }

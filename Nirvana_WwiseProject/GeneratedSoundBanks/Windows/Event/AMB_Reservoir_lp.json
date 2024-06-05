@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{321B7219-B6A3-42FD-8D16-9802D3DC12D1}",
     "Language": "SFX",
-    "Hash": "{654E9F89-3DA3-068E-5AE0-1DD56DB6CF4C}",
+    "Hash": "{EF43EFBB-550B-0673-C7A2-EA17CFE22FF1}",
     "ObjectPath": "AMB_Reservoir_lp",
     "ShortName": "AMB_Reservoir_lp",
     "Path": "Event/AMB_Reservoir_lp.bnk",
@@ -31,6 +31,7 @@
       "Name": "AMB_Reservoir_lp",
       "ObjectPath": "\\Events\\AMB\\AMB_Reservoir_lp",
       "GUID": "{321B7219-B6A3-42FD-8D16-9802D3DC12D1}",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -55,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{FBA29B93-CF0E-11D2-B6E2-F44178A2B38F}"
+  "FileHash": "{61056A45-8F0C-2130-06EF-ADE1A6BE0F82}"
  }
 }

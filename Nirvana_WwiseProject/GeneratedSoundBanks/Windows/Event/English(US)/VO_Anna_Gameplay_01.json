@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F6650DD5-47D3-463D-B571-5B0E35088EDB}",
     "Language": "English(US)",
-    "Hash": "{6DB1AFA1-6ECE-3C2A-817D-7A7E68BAB5FF}",
+    "Hash": "{CF5CBE83-3987-7629-7949-8A35BB71F283}",
     "ObjectPath": "VO_Anna_Gameplay_01",
     "ShortName": "VO_Anna_Gameplay_01",
     "Path": "Event/English(US)/VO_Anna_Gameplay_01.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{00ECF21C-86A3-EF7B-D6F2-65916E1A114D}"
+  "FileHash": "{AD39A285-1BB6-2DE1-BF90-1C99C60DC75F}"
  }
 }

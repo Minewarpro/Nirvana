@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1314837374" Type="Event" GUID="{146637F4-D095-4CEE-86EB-0411C60012A0}" Language="English(US)" Hash="{407EEB78-950A-F3E5-76A4-3801E4CBFF00}">
+		<SoundBank Id="1314837374" Type="Event" GUID="{146637F4-D095-4CEE-86EB-0411C60012A0}" Language="English(US)" Hash="{909FF346-EC04-DE44-186E-626A77B5987D}">
 			<ObjectPath>VO_Diana_Gameplay_Goodjob</ObjectPath>
 			<ShortName>VO_Diana_Gameplay_Goodjob</ShortName>
 			<Path>Event/English(US)/VO_Diana_Gameplay_Goodjob.bnk</Path>
@@ -37,5 +37,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2F93CA3F-1C86-5B4B-FBD9-F9681FF70096}</FileHash>
+	<FileHash>{80D32708-E40F-BF8C-4B5D-99C921EB2E55}</FileHash>
 </SoundBanksInfo>

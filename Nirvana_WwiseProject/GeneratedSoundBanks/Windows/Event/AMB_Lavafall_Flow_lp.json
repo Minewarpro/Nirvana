@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{6CF50F88-284F-48DD-AE1D-5E063CC60ACA}",
     "Language": "SFX",
-    "Hash": "{AB066DA5-2286-C4F7-7171-ADE4BF82B51C}",
+    "Hash": "{E2CECB21-5406-1895-2ABB-BEC2F49A9C2F}",
     "ObjectPath": "AMB_Lavafall_Flow_lp",
     "ShortName": "AMB_Lavafall_Flow_lp",
     "Path": "Event/AMB_Lavafall_Flow_lp.bnk",
@@ -31,6 +31,7 @@
       "Name": "AMB_Lavafall_Flow_lp",
       "ObjectPath": "\\Events\\AMB\\AMB_Lava\\AMB_Lavafall_Flow_lp",
       "GUID": "{6CF50F88-284F-48DD-AE1D-5E063CC60ACA}",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -55,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{2B3198A3-6154-339D-3781-98CF56343892}"
+  "FileHash": "{16F1BD32-43D7-9FC3-CEF8-07C946820247}"
  }
 }

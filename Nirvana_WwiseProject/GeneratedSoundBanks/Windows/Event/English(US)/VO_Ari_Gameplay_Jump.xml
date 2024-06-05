@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1316916725" Type="Event" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" Language="English(US)" Hash="{137C7BD3-5C7B-5CA2-82A0-411D6B66BB58}">
+		<SoundBank Id="1316916725" Type="Event" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" Language="English(US)" Hash="{9F43597E-B15D-3F38-AC35-E2FBBA810038}">
 			<ObjectPath>VO_Ari_Gameplay_Jump</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Jump</ShortName>
 			<Path>Event/English(US)/VO_Ari_Gameplay_Jump.bnk</Path>
@@ -37,5 +37,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2C50705F-223C-7FDD-B7B2-4E1FA9F200F7}</FileHash>
+	<FileHash>{7E5C9097-DE74-6558-3AB7-C12A8F33ACFD}</FileHash>
 </SoundBanksInfo>

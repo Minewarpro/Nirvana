@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3523062195" Type="Event" GUID="{DC44FCC0-08B0-454B-9529-15EB68E35858}" Language="English(US)" Hash="{E5FA73AE-53F3-DCF2-C9E4-DECA7C8127D6}">
+		<SoundBank Id="3523062195" Type="Event" GUID="{DC44FCC0-08B0-454B-9529-15EB68E35858}" Language="English(US)" Hash="{A6C4F38F-F48C-2981-99F6-76CB5B95B9A6}">
 			<ObjectPath>VO_Blaise_Gameplay_Goodjob</ObjectPath>
 			<ShortName>VO_Blaise_Gameplay_Goodjob</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Gameplay_Goodjob.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{53DECD9F-5F95-248F-5E81-E99F92A2977F}</FileHash>
+	<FileHash>{29FE099D-4E5E-02D6-8D90-1F897AB70E98}</FileHash>
 </SoundBanksInfo>

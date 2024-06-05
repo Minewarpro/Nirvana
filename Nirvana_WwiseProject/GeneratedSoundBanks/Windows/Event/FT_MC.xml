@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3685120562" Type="Event" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" Language="SFX" Hash="{AFEA8AE0-7F32-C157-FEFD-522A2B3B879A}">
+		<SoundBank Id="3685120562" Type="Event" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" Language="SFX" Hash="{EDF0C0A8-D989-8DFE-202F-8DCF8577065D}">
 			<ObjectPath>FT_MC</ObjectPath>
 			<ShortName>FT_MC</ShortName>
 			<Path>Event/FT_MC.bnk</Path>
@@ -522,5 +522,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{14916F02-ECFB-4E02-D266-2CC38037B938}</FileHash>
+	<FileHash>{1A73A3C0-C71A-7612-C893-12D2615BE6EC}</FileHash>
 </SoundBanksInfo>

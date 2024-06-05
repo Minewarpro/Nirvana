@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0413F9A5-433D-4E9E-A784-66B8FC6D40ED}",
     "Language": "SFX",
-    "Hash": "{F9A42022-D59B-A485-B823-3E4FB85E594E}",
+    "Hash": "{086D366E-833C-31BE-C89C-4521BD0FC8E2}",
     "ObjectPath": "SFX_MC_Weapon_Switch",
     "ShortName": "SFX_MC_Weapon_Switch",
     "Path": "Event/SFX_MC_Weapon_Switch.bnk",
@@ -94,6 +94,6 @@
     ]
    }
   ],
-  "FileHash": "{84A9E43E-E699-30D6-4A21-457E490E28E6}"
+  "FileHash": "{D2F33E24-4460-5673-8B24-CB52D3F6019C}"
  }
 }

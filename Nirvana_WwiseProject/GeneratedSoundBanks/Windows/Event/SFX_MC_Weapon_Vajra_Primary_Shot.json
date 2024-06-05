@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7CAB1505-06EC-4601-A109-68F07B61CA2E}",
     "Language": "SFX",
-    "Hash": "{03CB9F4B-98F9-C846-BD64-7B5AEA983DBC}",
+    "Hash": "{795CCA69-DCDB-07E7-74FC-101AC82D64C0}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_Primary_Shot",
     "ShortName": "SFX_MC_Weapon_Vajra_Primary_Shot",
     "Path": "Event/SFX_MC_Weapon_Vajra_Primary_Shot.bnk",
@@ -118,6 +118,6 @@
     ]
    }
   ],
-  "FileHash": "{78660C7E-87EB-1047-DF89-2EE03F47F4C5}"
+  "FileHash": "{36204B78-6FBE-A6A1-0181-714E0D15C4B9}"
  }
 }

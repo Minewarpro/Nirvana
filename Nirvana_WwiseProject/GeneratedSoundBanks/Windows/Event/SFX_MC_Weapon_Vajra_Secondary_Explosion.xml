@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3277769214" Type="Event" GUID="{38E99CB2-A3A6-447C-8618-7576FA9C65DA}" Language="SFX" Hash="{DCD3EA9C-AB72-41F6-E06B-0AE5F740E585}">
+		<SoundBank Id="3277769214" Type="Event" GUID="{38E99CB2-A3A6-447C-8618-7576FA9C65DA}" Language="SFX" Hash="{EC168619-482B-46C6-BABF-75DFE95B1BBD}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Explosion</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Explosion</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Explosion.bnk</Path>
@@ -31,5 +31,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D67AC788-9AF0-2D32-DE78-630A6922F0C8}</FileHash>
+	<FileHash>{4F6E6EA9-7E7A-44F2-617E-8D8050D9FCD3}</FileHash>
 </SoundBanksInfo>

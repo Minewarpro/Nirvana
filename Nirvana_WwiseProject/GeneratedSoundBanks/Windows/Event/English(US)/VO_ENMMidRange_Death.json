@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}",
     "Language": "English(US)",
-    "Hash": "{C74D5241-09BE-700F-CCEA-1B722267C773}",
+    "Hash": "{EF117A30-8761-75A8-B9D5-84B8FD997FE2}",
     "ObjectPath": "VO_ENMMidRange_Death",
     "ShortName": "VO_ENMMidRange_Death",
     "Path": "Event/English(US)/VO_ENMMidRange_Death.bnk",
@@ -81,6 +81,6 @@
     ]
    }
   ],
-  "FileHash": "{DB01D3E9-D964-AB93-4826-FA7EB32F57A7}"
+  "FileHash": "{D486D117-9795-243C-D1AC-8E742DC83EB2}"
  }
 }

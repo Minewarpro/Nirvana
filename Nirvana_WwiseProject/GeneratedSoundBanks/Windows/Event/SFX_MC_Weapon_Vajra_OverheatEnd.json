@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7D3EEC05-0047-48DF-BCDE-990B193F2B13}",
     "Language": "SFX",
-    "Hash": "{C824C0CA-97D4-BD56-96D2-D7E8CED78489}",
+    "Hash": "{56A2FEE2-CD5A-BEC1-D622-6442069F4166}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_OverheatEnd",
     "ShortName": "SFX_MC_Weapon_Vajra_OverheatEnd",
     "Path": "Event/SFX_MC_Weapon_Vajra_OverheatEnd.bnk",
@@ -70,6 +70,6 @@
     ]
    }
   ],
-  "FileHash": "{45AF56FC-16BD-3443-AD93-F20D76A1AE04}"
+  "FileHash": "{AFD9B7D6-3E66-7258-EEFE-96EA9C6A1604}"
  }
 }

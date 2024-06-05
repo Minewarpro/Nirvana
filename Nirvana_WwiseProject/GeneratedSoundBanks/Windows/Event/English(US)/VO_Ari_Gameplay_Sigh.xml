@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3010146220" Type="Event" GUID="{281B8DFA-273F-4C7B-9D7F-4844D3806E40}" Language="English(US)" Hash="{86B7E3A0-4BE6-80E6-1944-EC2CDA14D117}">
+		<SoundBank Id="3010146220" Type="Event" GUID="{281B8DFA-273F-4C7B-9D7F-4844D3806E40}" Language="English(US)" Hash="{6709F218-1DDA-393F-F791-28E86716E349}">
 			<ObjectPath>VO_Ari_Gameplay_Sigh</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Sigh</ShortName>
 			<Path>Event/English(US)/VO_Ari_Gameplay_Sigh.bnk</Path>
@@ -67,5 +67,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BB800962-55A0-457F-72C2-497D6FCC3033}</FileHash>
+	<FileHash>{BFFD0868-669B-72CA-FEB7-49115586C74A}</FileHash>
 </SoundBanksInfo>

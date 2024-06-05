@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7D5E7F04-C163-42CA-9E0E-233DFC4B83A9}",
     "Language": "SFX",
-    "Hash": "{8BA2440E-709C-CE6B-B1CB-31F4B7EC0315}",
+    "Hash": "{22FC6AC6-AD4F-540B-E8E6-DACA53C60877}",
     "ObjectPath": "AMB_TorchBlue_lp",
     "ShortName": "AMB_TorchBlue_lp",
     "Path": "Event/AMB_TorchBlue_lp.bnk",
@@ -31,6 +31,7 @@
       "Name": "AMB_TorchBlue_lp",
       "ObjectPath": "\\Events\\AMB\\AMB_Torch\\AMB_TorchBlue_lp",
       "GUID": "{7D5E7F04-C163-42CA-9E0E-233DFC4B83A9}",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -55,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{3A7B8847-E10C-7CC9-1147-F50FC4926E2B}"
+  "FileHash": "{58E32376-B174-477D-148E-5D7BA05F8302}"
  }
 }

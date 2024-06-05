@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8B851061-ACD5-4A54-A8A1-E4DD1D25F643}",
     "Language": "SFX",
-    "Hash": "{4D4804A9-40D4-9D6B-BEB9-5F9B10AC4D52}",
+    "Hash": "{DA9BADE4-C27D-BB03-986B-4433818E61E7}",
     "ObjectPath": "AMB_CocoonIdle_lp",
     "ShortName": "AMB_CocoonIdle_lp",
     "Path": "Event/AMB_CocoonIdle_lp.bnk",
@@ -31,6 +31,7 @@
       "Name": "AMB_CocoonIdle_lp",
       "ObjectPath": "\\Events\\AMB\\AMB_CocoonIdle_lp",
       "GUID": "{8B851061-ACD5-4A54-A8A1-E4DD1D25F643}",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -55,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{207C9C2E-9C5E-E1AB-FC3B-037582685E2B}"
+  "FileHash": "{D7ACA2DB-B53B-CDF4-94A0-2120130A455A}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2BD9654B-ED25-42C5-BF3C-15402B153EBB}",
     "Language": "English(US)",
-    "Hash": "{9BA4342A-5F4C-25E3-1251-82A9C227821A}",
+    "Hash": "{C3776797-DD9A-29B0-B678-334978ADC9DF}",
     "ObjectPath": "VO_Anna_Gameplay_Tempo",
     "ShortName": "VO_Anna_Gameplay_Tempo",
     "Path": "Event/English(US)/VO_Anna_Gameplay_Tempo.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{00697796-7036-DDBB-0B43-AF1997FC31ED}"
+  "FileHash": "{F2D194CF-9EB2-72DC-535C-88B105808ECC}"
  }
 }

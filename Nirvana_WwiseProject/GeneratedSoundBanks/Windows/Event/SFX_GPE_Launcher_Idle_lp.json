@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}",
     "Language": "SFX",
-    "Hash": "{99D72593-9D0D-4D18-71F0-FBC46C12C04B}",
+    "Hash": "{D0DE5E57-104B-DE21-7FE0-383C1D4B14AC}",
     "ObjectPath": "SFX_GPE_Launcher_Idle_lp",
     "ShortName": "SFX_GPE_Launcher_Idle_lp",
     "Path": "Event/SFX_GPE_Launcher_Idle_lp.bnk",
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{025DD3E9-C195-27DF-770A-11523633A676}"
+  "FileHash": "{B1BD6B78-B776-8BE9-0CC6-CD0F75A1657F}"
  }
 }

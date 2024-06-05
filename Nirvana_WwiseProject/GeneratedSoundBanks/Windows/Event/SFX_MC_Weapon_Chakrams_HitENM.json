@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9B8A1B2E-8170-46F4-A4F0-914634BD4EC5}",
     "Language": "SFX",
-    "Hash": "{57E9F877-7521-FCCF-D707-2181C248E54A}",
+    "Hash": "{9C4612ED-58D9-A527-6280-D5007300A051}",
     "ObjectPath": "SFX_MC_Weapon_Chakrams_HitENM",
     "ShortName": "SFX_MC_Weapon_Chakrams_HitENM",
     "Path": "Event/SFX_MC_Weapon_Chakrams_HitENM.bnk",
@@ -118,6 +118,6 @@
     ]
    }
   ],
-  "FileHash": "{542C765F-FB88-83AC-42D0-2C855FAD95E7}"
+  "FileHash": "{BC588053-B09D-A7B8-EB89-3377FD7F933B}"
  }
 }

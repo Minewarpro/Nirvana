@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}",
     "Language": "English(US)",
-    "Hash": "{B48C64F3-E139-F452-CBC7-A020B138E18A}",
+    "Hash": "{1EA7AE19-3F9E-0147-D309-D25DF92D4491}",
     "ObjectPath": "FT_MC_Dash",
     "ShortName": "FT_MC_Dash",
     "Path": "Event/English(US)/FT_MC_Dash.bnk",
@@ -147,6 +147,6 @@
     ]
    }
   ],
-  "FileHash": "{CB7AC857-9ED3-7DFC-F7C6-CB9DBFE63315}"
+  "FileHash": "{AB133095-46FD-D11D-A61A-E6B99F43874A}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1CC7BC8C-5619-49AB-8483-BDF3C7AAEAE1}",
     "Language": "English(US)",
-    "Hash": "{01D1EFE6-1B8B-D790-600C-21107CA96520}",
+    "Hash": "{970313A2-26C0-CA38-1C7C-77C564B22973}",
     "ObjectPath": "VO_Simon_Story_15",
     "ShortName": "VO_Simon_Story_15",
     "Path": "Event/English(US)/VO_Simon_Story_15.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{4E32EEA2-8571-B0A4-CEC9-E938260C1A7E}"
+  "FileHash": "{7A1177ED-D9D8-ECC3-A1C7-D59D81F0F691}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{324428D0-0193-4CA6-9B39-69E330023645}",
     "Language": "SFX",
-    "Hash": "{D3B9D841-C10C-A256-5DD2-DD63F1DE60E4}",
+    "Hash": "{C3F0A904-5874-A817-3102-1C96242301FD}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_Secondary_Bounce",
     "ShortName": "SFX_MC_Weapon_Vajra_Secondary_Bounce",
     "Path": "Event/SFX_MC_Weapon_Vajra_Secondary_Bounce.bnk",
@@ -94,6 +94,6 @@
     ]
    }
   ],
-  "FileHash": "{FD3DAB34-90BD-534D-736D-1E8F7FDD4CEE}"
+  "FileHash": "{C5BD996D-0BCC-0EED-E193-5385EF25227F}"
  }
 }

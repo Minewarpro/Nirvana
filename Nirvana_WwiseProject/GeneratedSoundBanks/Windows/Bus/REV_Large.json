@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3750820532",
+    "Type": "Bus",
+    "GUID": "{C808D903-300A-4DD8-A6D6-144BD2FD3123}",
+    "Language": "SFX",
+    "Hash": "{1D81641C-381A-0F8F-C697-633DE4A1E13C}",
+    "ObjectPath": "REV_Large",
+    "ShortName": "REV_Large",
+    "Path": "Bus/REV_Large.bnk",
+    "AuxBusses": [
+     {
+      "Id": "3750820532",
+      "Name": "REV_Large",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_Large",
+      "GUID": "{C808D903-300A-4DD8-A6D6-144BD2FD3123}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{074F09BC-A8A4-2BB5-3D81-EFCF11D850BB}"
+ }
+}

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0C4EA416-1035-4CE4-9ABB-92441DDADE14}",
     "Language": "SFX",
-    "Hash": "{0F5FD4BB-4DBC-B781-84C9-88C4ACAD18EA}",
+    "Hash": "{4CD758E1-09BF-240A-05B1-3B0520A4417D}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_HitENM",
     "ShortName": "SFX_MC_Weapon_Vajra_HitENM",
     "Path": "Event/SFX_MC_Weapon_Vajra_HitENM.bnk",
@@ -94,6 +94,6 @@
     ]
    }
   ],
-  "FileHash": "{E9467CEA-283C-6F23-E45D-9A8199EBA882}"
+  "FileHash": "{011C4794-383A-E98B-CBD6-B205D3CCEC26}"
  }
 }

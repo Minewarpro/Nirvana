@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="340128845" Type="Event" GUID="{A012DD56-AF11-4C4C-BD0A-8E57B1ED80B6}" Language="English(US)" Hash="{6C532D4E-4124-8C77-708E-62299F3AA886}">
+		<SoundBank Id="340128845" Type="Event" GUID="{A012DD56-AF11-4C4C-BD0A-8E57B1ED80B6}" Language="English(US)" Hash="{619F889F-25EA-8E33-E6C7-3AADE98F7ADC}">
 			<ObjectPath>VO_Blaise_Gameplay_Bossfight_02</ObjectPath>
 			<ShortName>VO_Blaise_Gameplay_Bossfight_02</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Gameplay_Bossfight_02.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{21AB0029-1A0F-43D3-A97F-2CEA44D40DC6}</FileHash>
+	<FileHash>{B2E8F31E-8DD6-E55D-BF83-5F5FFA1B5EA4}</FileHash>
 </SoundBanksInfo>

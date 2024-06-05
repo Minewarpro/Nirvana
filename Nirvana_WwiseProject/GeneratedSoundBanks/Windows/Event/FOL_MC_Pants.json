@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5EC673DB-7E85-4A74-B2E5-ADCCE77E0AEB}",
     "Language": "SFX",
-    "Hash": "{A7BDD028-20F7-C58B-98FB-D2B8A62C589B}",
+    "Hash": "{C113A4CC-87FC-A54A-B637-315F6FE2CDCD}",
     "ObjectPath": "FOL_MC_Pants",
     "ShortName": "FOL_MC_Pants",
     "Path": "Event/FOL_MC_Pants.bnk",
@@ -159,6 +159,6 @@
     ]
    }
   ],
-  "FileHash": "{C1D7E258-E08B-1694-94C9-18440D0A6699}"
+  "FileHash": "{EEDF89BC-AA05-1092-B050-4158E89FC9B9}"
  }
 }

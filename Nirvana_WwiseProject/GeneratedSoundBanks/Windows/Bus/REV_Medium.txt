@@ -1,0 +1,3 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3549141946	REV_Medium			\Default Work Unit\Master Audio Bus\Effects\REV\REV_Medium	
+

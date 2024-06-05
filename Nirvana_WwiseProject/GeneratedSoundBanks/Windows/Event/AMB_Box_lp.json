@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FB1D6191-B358-40F9-967B-570040F4EA82}",
     "Language": "SFX",
-    "Hash": "{991E7BDA-C81F-0116-03DD-E41DF84B741C}",
+    "Hash": "{7DD617FF-CE25-6CFE-CC1A-376F89D49534}",
     "ObjectPath": "AMB_Box_lp",
     "ShortName": "AMB_Box_lp",
     "Path": "Event/AMB_Box_lp.bnk",
@@ -31,6 +31,7 @@
       "Name": "AMB_Box_lp",
       "ObjectPath": "\\Events\\AMB\\AMB_Box_lp",
       "GUID": "{FB1D6191-B358-40F9-967B-570040F4EA82}",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -55,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{5C926C0C-CD80-AC83-8587-5F4A8D289AB6}"
+  "FileHash": "{6C190EDF-4F40-1AA3-600E-3F27EF0E63CC}"
  }
 }

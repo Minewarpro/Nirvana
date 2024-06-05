@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{146637F4-D095-4CEE-86EB-0411C60012A0}",
     "Language": "English(US)",
-    "Hash": "{407EEB78-950A-F3E5-76A4-3801E4CBFF00}",
+    "Hash": "{909FF346-EC04-DE44-186E-626A77B5987D}",
     "ObjectPath": "VO_Diana_Gameplay_Goodjob",
     "ShortName": "VO_Diana_Gameplay_Goodjob",
     "Path": "Event/English(US)/VO_Diana_Gameplay_Goodjob.bnk",
@@ -81,6 +81,6 @@
     ]
    }
   ],
-  "FileHash": "{72922996-C98D-314E-E7ED-9D7EF1FD4B1B}"
+  "FileHash": "{7830B8E1-983A-D089-A43A-BA84057DB284}"
  }
 }

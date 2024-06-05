@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2107232147" Type="Event" GUID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}" Language="SFX" Hash="{55488013-E00B-FED7-7FB3-B449184A19A5}">
+		<SoundBank Id="2107232147" Type="Event" GUID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}" Language="SFX" Hash="{40E09E70-8E5A-7E05-F5A2-CA880CCBCCF3}">
 			<ObjectPath>FT_MC_Slide_Enter</ObjectPath>
 			<ShortName>FT_MC_Slide_Enter</ShortName>
 			<Path>Event/FT_MC_Slide_Enter.bnk</Path>
@@ -166,5 +166,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DF378C3B-86C4-3D0A-403D-405EB586DED7}</FileHash>
+	<FileHash>{7EF1F7A8-AF91-9E45-0187-D433E387C289}</FileHash>
 </SoundBanksInfo>

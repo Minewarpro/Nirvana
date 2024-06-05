@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2751508176" Type="Event" GUID="{18DF74F5-BA54-49B5-8F44-F1D587D056B9}" Language="SFX" Hash="{40054523-E39E-4390-F549-9BCE7162D17A}">
+		<SoundBank Id="2751508176" Type="Event" GUID="{18DF74F5-BA54-49B5-8F44-F1D587D056B9}" Language="SFX" Hash="{EB70C5A9-255E-A5E1-0E88-1ADB1C29B6D9}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_HitSurface</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_HitSurface</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_HitSurface.bnk</Path>
@@ -43,5 +43,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E95EA3A1-5FB1-CB9C-F09B-5078A13E6691}</FileHash>
+	<FileHash>{6D7D751F-D18B-3795-E10F-7EE8854A7780}</FileHash>
 </SoundBanksInfo>

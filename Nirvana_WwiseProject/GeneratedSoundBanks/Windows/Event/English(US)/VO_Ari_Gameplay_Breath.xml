@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2699544719" Type="Event" GUID="{0468A734-9547-42F4-B80E-337C2AC901A2}" Language="English(US)" Hash="{AB2507C6-346B-EF55-767E-940100A4BA8C}">
+		<SoundBank Id="2699544719" Type="Event" GUID="{0468A734-9547-42F4-B80E-337C2AC901A2}" Language="English(US)" Hash="{DDC6F898-44F2-944D-B7FE-E5F5A3CFF30E}">
 			<ObjectPath>VO_Ari_Gameplay_Breath</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Breath</ShortName>
 			<Path>Event/English(US)/VO_Ari_Gameplay_Breath.bnk</Path>
@@ -31,5 +31,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BBBDFC14-5AB1-8CA9-894A-F13BD91EDB0E}</FileHash>
+	<FileHash>{69C9C02C-2638-7B1D-5E78-6344F8264402}</FileHash>
 </SoundBanksInfo>

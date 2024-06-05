@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1498943271" Type="Event" GUID="{DDE6B034-63CD-4F7A-8610-080095095B13}" Language="SFX" Hash="{46AE4133-FF1E-6981-D543-2663948655B5}">
+		<SoundBank Id="1498943271" Type="Event" GUID="{DDE6B034-63CD-4F7A-8610-080095095B13}" Language="SFX" Hash="{E774F306-FB02-71AD-824F-DEDA5EE59AAA}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_OverheatBegin</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_OverheatBegin</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_OverheatBegin.bnk</Path>
@@ -37,5 +37,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AD8EFC4E-2FFF-9AC3-19BA-A3D7E58D023A}</FileHash>
+	<FileHash>{A47ABBC1-88C3-96E7-CDCB-0FADBED54D6D}</FileHash>
 </SoundBanksInfo>

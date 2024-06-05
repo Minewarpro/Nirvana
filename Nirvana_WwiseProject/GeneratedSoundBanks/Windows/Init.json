@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{1D8BEDBD-DCC8-400D-B0D5-1F725209431E}",
+    "Hash": "{1D0DDDCC-D631-3DC6-76A4-BF6DE6633578}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -53,8 +53,8 @@
      },
      {
       "Id": "980603520",
-      "Name": "Rev",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\Rev",
+      "Name": "REV",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV",
       "GUID": "{D5102433-A85B-44B5-866F-42774E67FBB2}"
      },
      {
@@ -121,9 +121,33 @@
     ],
     "AuxBusses": [
      {
-      "Id": "2193711071",
-      "Name": "REV_",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\Rev\\REV_",
+      "Id": "1709113120",
+      "Name": "REV_CorridorMedium",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_CorridorMedium",
+      "GUID": "{F485D18B-61BB-4138-A53F-7D4875F45B3D}"
+     },
+     {
+      "Id": "3397355070",
+      "Name": "REV_LargeExtra",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_LargeExtra",
+      "GUID": "{021A88FF-E165-4DEF-B712-841FED23080F}"
+     },
+     {
+      "Id": "3549141946",
+      "Name": "REV_Medium",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_Medium",
+      "GUID": "{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}"
+     },
+     {
+      "Id": "3750820532",
+      "Name": "REV_Large",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_Large",
+      "GUID": "{C808D903-300A-4DD8-A6D6-144BD2FD3123}"
+     },
+     {
+      "Id": "4061537322",
+      "Name": "REV_CorridorSmall",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_CorridorSmall",
       "GUID": "{61B63A27-C395-4317-A4AA-DEE793D4B30D}"
      }
     ],
@@ -313,6 +337,6 @@
     ]
    }
   ],
-  "FileHash": "{94337FA0-DD08-C638-FDE0-AAD4B18C3560}"
+  "FileHash": "{C7D68EBC-14F6-B698-20FF-DFBA770B858E}"
  }
 }

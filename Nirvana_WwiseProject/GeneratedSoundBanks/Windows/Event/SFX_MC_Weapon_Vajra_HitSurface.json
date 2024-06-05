@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{18DF74F5-BA54-49B5-8F44-F1D587D056B9}",
     "Language": "SFX",
-    "Hash": "{40054523-E39E-4390-F549-9BCE7162D17A}",
+    "Hash": "{EB70C5A9-255E-A5E1-0E88-1ADB1C29B6D9}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_HitSurface",
     "ShortName": "SFX_MC_Weapon_Vajra_HitSurface",
     "Path": "Event/SFX_MC_Weapon_Vajra_HitSurface.bnk",
@@ -94,6 +94,6 @@
     ]
    }
   ],
-  "FileHash": "{BB1CEE58-336A-E2EA-B664-48D2A3E0EE1F}"
+  "FileHash": "{8C34DB48-C72C-942D-5058-50E1AA7C2D41}"
  }
 }
