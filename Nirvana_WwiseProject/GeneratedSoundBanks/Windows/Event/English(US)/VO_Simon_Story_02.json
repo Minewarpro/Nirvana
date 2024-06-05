@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5B05EF20-780C-46D1-A388-F4B350761B55}",
     "Language": "English(US)",
-    "Hash": "{A8F89457-FE61-6CE8-B227-4053AC45057B}",
+    "Hash": "{121B809F-8A50-93A9-3CA0-D3AF4FE3623F}",
     "ObjectPath": "VO_Simon_Story_02",
     "ShortName": "VO_Simon_Story_02",
     "Path": "Event/English(US)/VO_Simon_Story_02.bnk",
@@ -40,9 +40,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{C0BC656D-A16D-EDC6-D8C6-ED86C6DE0181}"
+  "FileHash": "{B601D4C2-0703-A829-252F-9CFCA03DEE4A}"
  }
 }

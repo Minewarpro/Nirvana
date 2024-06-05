@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1392877436" Type="Event" GUID="{42B1E8D9-E28F-4D35-A73E-F9E0E7104D8F}" Language="English(US)" Hash="{472E95C1-C30F-472D-E1DD-DCAE6B48D8A2}">
+		<SoundBank Id="1392877436" Type="Event" GUID="{42B1E8D9-E28F-4D35-A73E-F9E0E7104D8F}" Language="English(US)" Hash="{815F3317-3726-7EDA-C8DC-14693F2C6750}">
 			<ObjectPath>VO_Diana_Gameplay_02</ObjectPath>
 			<ShortName>VO_Diana_Gameplay_02</ShortName>
 			<Path>Event/English(US)/VO_Diana_Gameplay_02.bnk</Path>
@@ -19,7 +19,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{80D81320-1621-7A46-CD1D-60516029D779}</FileHash>
+	<FileHash>{F4E68797-D6A6-70B3-B360-2849C5763DC1}</FileHash>
 </SoundBanksInfo>

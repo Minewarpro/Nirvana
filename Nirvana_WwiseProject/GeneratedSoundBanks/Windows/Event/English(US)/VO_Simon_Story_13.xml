@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="436445008" Type="Event" GUID="{032189B6-370C-4956-AE3E-BA66072346CE}" Language="English(US)" Hash="{6FA76AAC-1187-EAF7-78D0-296FAA757481}">
+		<SoundBank Id="436445008" Type="Event" GUID="{032189B6-370C-4956-AE3E-BA66072346CE}" Language="English(US)" Hash="{BF6F5DA2-5006-F625-814B-4AF356EA2760}">
 			<ObjectPath>VO_Simon_Story_13</ObjectPath>
 			<ShortName>VO_Simon_Story_13</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_13.bnk</Path>
@@ -19,7 +19,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9D211DE0-B23F-5933-7689-59EB5800EC38}</FileHash>
+	<FileHash>{862E7A03-1C2D-BCDC-A6E6-B951DCAA9F23}</FileHash>
 </SoundBanksInfo>

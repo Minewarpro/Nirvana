@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3927651229" Type="Event" GUID="{1F1B2E99-4B06-456D-BE10-51DD017D444D}" Language="English(US)" Hash="{440A66BE-6176-6619-BF3B-5F5C81237E5B}">
+		<SoundBank Id="3927651229" Type="Event" GUID="{1F1B2E99-4B06-456D-BE10-51DD017D444D}" Language="English(US)" Hash="{1B4222AF-4081-71C6-455C-A01923D337F6}">
 			<ObjectPath>VO_Ari_Story_09</ObjectPath>
 			<ShortName>VO_Ari_Story_09</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_09.bnk</Path>
@@ -19,7 +19,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D777BC9E-71AE-0C0E-0F4B-71B594051A9B}</FileHash>
+	<FileHash>{5BA39FBC-C2D0-10CB-26F6-A1DA9DE0FD0C}</FileHash>
 </SoundBanksInfo>

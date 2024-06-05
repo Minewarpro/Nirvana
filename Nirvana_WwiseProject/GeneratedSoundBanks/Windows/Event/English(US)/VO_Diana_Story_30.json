@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C020EF1B-C097-495E-BF99-D001247A9601}",
     "Language": "English(US)",
-    "Hash": "{5F13954C-7685-2583-1C10-64855F1E9C8D}",
+    "Hash": "{BE63B733-A4E1-37C5-1E57-CEDEEE6E1C86}",
     "ObjectPath": "VO_Diana_Story_30",
     "ShortName": "VO_Diana_Story_30",
     "Path": "Event/English(US)/VO_Diana_Story_30.bnk",
@@ -40,9 +40,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{93AD52EB-8132-2138-BDCA-CAF9655A0FA2}"
+  "FileHash": "{E94F839F-1A53-15FD-0278-44AFA721A036}"
  }
 }

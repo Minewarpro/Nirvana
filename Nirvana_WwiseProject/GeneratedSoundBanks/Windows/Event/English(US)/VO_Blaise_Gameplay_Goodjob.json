@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{DC44FCC0-08B0-454B-9529-15EB68E35858}",
     "Language": "English(US)",
-    "Hash": "{E921A769-011D-2A8F-EE83-4FFD3D9CDF9D}",
+    "Hash": "{E5FA73AE-53F3-DCF2-C9E4-DECA7C8127D6}",
     "ObjectPath": "VO_Blaise_Gameplay_Goodjob",
     "ShortName": "VO_Blaise_Gameplay_Goodjob",
     "Path": "Event/English(US)/VO_Blaise_Gameplay_Goodjob.bnk",
@@ -40,9 +40,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{1A8272DA-2A7B-5C1C-E18F-DE527232EEC3}"
+  "FileHash": "{42B44C2D-CB7E-D7B5-0000-D7233BF9A8AF}"
  }
 }

@@ -2,5 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2727804452	FT_MC_Climb			\FT\FT_MC_Climb	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1474581964	RTPC_Elevation			\RTPC_Persistent\RTPC_Elevation	
 	3059389217	RTPC_FT_Speed			\RTPC_FT\RTPC_FT_Speed	
+	3972935021	RTPC_Azimuth			\RTPC_Persistent\RTPC_Azimuth	
 

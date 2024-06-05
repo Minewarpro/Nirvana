@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7D3EEC05-0047-48DF-BCDE-990B193F2B13}",
     "Language": "SFX",
-    "Hash": "{C471DC23-8A42-B12D-34D6-C47B6C610C94}",
+    "Hash": "{C824C0CA-97D4-BD56-96D2-D7E8CED78489}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_OverheatEnd",
     "ShortName": "SFX_MC_Weapon_Vajra_OverheatEnd",
     "Path": "Event/SFX_MC_Weapon_Vajra_OverheatEnd.bnk",
@@ -56,6 +56,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
       "Id": "3972935021",
       "Name": "RTPC_Azimuth",
       "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
@@ -64,6 +70,6 @@
     ]
    }
   ],
-  "FileHash": "{045B85CE-0FE1-DB8E-04B1-B2DA0415FB34}"
+  "FileHash": "{45AF56FC-16BD-3443-AD93-F20D76A1AE04}"
  }
 }

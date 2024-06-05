@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="252786122" Type="Event" GUID="{8B851061-ACD5-4A54-A8A1-E4DD1D25F643}" Language="SFX" Hash="{4D4804A9-40D4-9D6B-BEB9-5F9B10AC4D52}">
+			<ObjectPath>AMB_CocoonIdle_lp</ObjectPath>
+			<ShortName>AMB_CocoonIdle_lp</ShortName>
+			<Path>Event/AMB_CocoonIdle_lp.bnk</Path>
+			<Media>
+				<File Id="366083926" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AMB\AMB_CocoonIdle_lp.wav</ShortName>
+					<Path>Media/366083926.wem</Path>
+					<CachePath>SFX/AMB/AMB_CocoonIdle_lp_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="252786122" Name="AMB_CocoonIdle_lp" ObjectPath="\Events\AMB\AMB_CocoonIdle_lp" GUID="{8B851061-ACD5-4A54-A8A1-E4DD1D25F643}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="366083926"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7824BE09-8E16-449B-CE87-0736EC4CCCFC}</FileHash>
+</SoundBanksInfo>

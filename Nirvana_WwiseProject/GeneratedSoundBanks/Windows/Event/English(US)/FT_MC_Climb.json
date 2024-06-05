@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8A840DDD-FF65-4860-AD26-8E951B65D7A5}",
     "Language": "English(US)",
-    "Hash": "{053FED42-85A8-8FD2-B27B-E72E60C601DD}",
+    "Hash": "{8111C43B-410C-CA8A-E620-3E96F0BAF2DE}",
     "ObjectPath": "FT_MC_Climb",
     "ShortName": "FT_MC_Climb",
     "Path": "Event/English(US)/FT_MC_Climb.bnk",
@@ -52,6 +52,33 @@
       "CachePath": "Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Effort/VO_Ari_Gameplay_Effort_02_818F3B66.wem"
      },
      {
+      "Id": "610967146",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Climb\\FT_MC_Climb_02.wav",
+      "Path": "Media/610967146.wem",
+      "CachePath": "SFX/FT/FT_MC_Climb/FT_MC_Climb_02_818F3B66.wem"
+     },
+     {
+      "Id": "710757570",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Climb\\FT_MC_Climb_03.wav",
+      "Path": "Media/710757570.wem",
+      "CachePath": "SFX/FT/FT_MC_Climb/FT_MC_Climb_03_818F3B66.wem"
+     },
+     {
+      "Id": "766936500",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_Climb\\FT_MC_Climb_01.wav",
+      "Path": "Media/766936500.wem",
+      "CachePath": "SFX/FT/FT_MC_Climb/FT_MC_Climb_01_818F3B66.wem"
+     },
+     {
       "Id": "1001602239",
       "Language": "English(US)",
       "Streaming": "false",
@@ -68,7 +95,7 @@
       "ObjectPath": "\\Events\\FT\\FT_MC_Climb",
       "GUID": "{8A840DDD-FF65-4860-AD26-8E951B65D7A5}",
       "DurationType": "OneShot",
-      "DurationMin": "0.18666667",
+      "DurationMin": "0.31462476",
       "DurationMax": "1.28",
       "MediaRefs": [
        {
@@ -84,6 +111,15 @@
         "Id": "417181262"
        },
        {
+        "Id": "610967146"
+       },
+       {
+        "Id": "710757570"
+       },
+       {
+        "Id": "766936500"
+       },
+       {
         "Id": "1001602239"
        }
       ]
@@ -91,14 +127,26 @@
     ],
     "GameParameters": [
      {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
       "GUID": "{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
      }
     ]
    }
   ],
-  "FileHash": "{CBE9100A-2354-AEEE-C13C-2DCFA7CED8A6}"
+  "FileHash": "{1DDD352B-4471-2CD3-6D81-5E8069334BD0}"
  }
 }

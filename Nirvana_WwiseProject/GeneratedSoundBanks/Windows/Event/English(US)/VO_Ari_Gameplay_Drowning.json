@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{844B1686-5B6E-4969-A0E1-C1EC55780849}",
     "Language": "English(US)",
-    "Hash": "{D5A1DF6D-1C7A-0296-26F3-DE352DB7763F}",
+    "Hash": "{A7E6BE92-22A4-807D-ED92-6FD4450AF272}",
     "ObjectPath": "VO_Ari_Gameplay_Drowning",
     "ShortName": "VO_Ari_Gameplay_Drowning",
     "Path": "Event/English(US)/VO_Ari_Gameplay_Drowning.bnk",
@@ -76,9 +76,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{25C01C2A-6C43-7852-6FD3-E31BAA7DFE3A}"
+  "FileHash": "{8B65ED6A-0B84-CC06-A112-B45E7A9A1204}"
  }
 }

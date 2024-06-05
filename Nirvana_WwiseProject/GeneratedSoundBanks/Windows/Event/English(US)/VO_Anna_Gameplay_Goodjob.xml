@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1429928469" Type="Event" GUID="{5637DC57-1610-4B5B-B5CA-1D558668C593}" Language="English(US)" Hash="{7191C6E2-F5F9-A6FF-7DFD-4E83EF895853}">
+		<SoundBank Id="1429928469" Type="Event" GUID="{5637DC57-1610-4B5B-B5CA-1D558668C593}" Language="English(US)" Hash="{6DCF2AD1-6C8C-6B94-6F69-9D1EEF7284CC}">
 			<ObjectPath>VO_Anna_Gameplay_Goodjob</ObjectPath>
 			<ShortName>VO_Anna_Gameplay_Goodjob</ShortName>
 			<Path>Event/English(US)/VO_Anna_Gameplay_Goodjob.bnk</Path>
@@ -19,7 +19,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{763415E0-71FA-82F8-6E03-BE166E1C9444}</FileHash>
+	<FileHash>{F0010D06-7456-E979-7F60-8D4AAFFA794D}</FileHash>
 </SoundBanksInfo>

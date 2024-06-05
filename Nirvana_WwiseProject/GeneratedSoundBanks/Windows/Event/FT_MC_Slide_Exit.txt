@@ -1,6 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
 	849362003	FT_MC_Slide_Exit			\FT\FT_MC_Slide_Exit	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4035313040	SW_FT_Material			\SW_FT\SW_FT_Material	
+
+Switch	ID	Name	Switch Group			Notes
+	314505124	SW_FT_Metal	SW_FT_Material			
+	1699952942	SW_FT_Stone	SW_FT_Material			
+	1901335520	SW_FT_Water	SW_FT_Material			
+	3682161770	SW_FT_Nenuphar	SW_FT_Material			
+	4051928182	SW_FT_Carpet	SW_FT_Material			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3059389217	RTPC_FT_Speed			\RTPC_FT\RTPC_FT_Speed	
 

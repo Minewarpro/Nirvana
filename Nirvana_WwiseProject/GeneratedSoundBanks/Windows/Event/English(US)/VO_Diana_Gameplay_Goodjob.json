@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{146637F4-D095-4CEE-86EB-0411C60012A0}",
     "Language": "English(US)",
-    "Hash": "{653415DA-9C55-3722-562A-665C582DB2DC}",
+    "Hash": "{407EEB78-950A-F3E5-76A4-3801E4CBFF00}",
     "ObjectPath": "VO_Diana_Gameplay_Goodjob",
     "ShortName": "VO_Diana_Gameplay_Goodjob",
     "Path": "Event/English(US)/VO_Diana_Gameplay_Goodjob.bnk",
@@ -64,9 +64,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{1A7B0AD6-6E95-4EC9-B3ED-13868CFB1133}"
+  "FileHash": "{72922996-C98D-314E-E7ED-9D7EF1FD4B1B}"
  }
 }

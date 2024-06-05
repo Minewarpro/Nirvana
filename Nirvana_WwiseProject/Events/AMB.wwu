@@ -6,6 +6,262 @@
 				<Property Name="Color" Type="int16" Value="20"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="AMB_Box_lp" ID="{FB1D6191-B358-40F9-967B-570040F4EA82}">
+					<ChildrenList>
+						<Action Name="" ID="{E7967D7B-E6CC-493F-A460-CD320C2124B2}" ShortID="718187148">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Box_lp" ID="{35AFA2F3-366F-4978-88F9-6696492B50F7}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_CocoonIdle_lp" ID="{8B851061-ACD5-4A54-A8A1-E4DD1D25F643}">
+					<ChildrenList>
+						<Action Name="" ID="{6228112D-8A3E-4E2C-86DE-822C94BE27F0}" ShortID="16065629">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_CocoonIdle_lp" ID="{95524CB8-67BC-4426-A0BB-C45A7FD89941}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Obelisque_lp" ID="{58DF7032-8DBE-4E62-B869-CA59F47AE449}">
+					<ChildrenList>
+						<Action Name="" ID="{6105E74C-39AD-47B8-8CD4-E4F8063D9572}" ShortID="839323827">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Obelisque_lp" ID="{28B29E37-C6BD-4DB5-BA51-DB5BC41308D5}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Reservoir_lp" ID="{321B7219-B6A3-42FD-8D16-9802D3DC12D1}">
+					<ChildrenList>
+						<Action Name="" ID="{5ED7558A-75DD-4829-9FC0-21E69B3A0598}" ShortID="720478971">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Reservoir_lp" ID="{F7C938D0-8AE2-484B-8B34-FB4C3EFCED14}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="AMB_Lava" ID="{3BFD7A2C-B49B-4D76-A1ED-827A2345F6B1}" ShortID="794086735">
+					<ChildrenList>
+						<Event Name="AMB_Lavafall_Impact_lp" ID="{8414CCB4-4D7F-4E4B-8A17-3E511D2D6B66}">
+							<ChildrenList>
+								<Action Name="" ID="{41CE5DB4-B8ED-4228-8589-AAEF94B8452D}" ShortID="115903435">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Lavafall_Impact_lp" ID="{158B63D3-3447-4DAF-AFC6-E0859AE359EB}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_LavaIdle_lp" ID="{700FC89E-7D96-4C0E-903D-56EA8BD0F965}">
+							<ChildrenList>
+								<Action Name="" ID="{C18EEC0B-8E82-4B10-8873-31F8D16F3CB2}" ShortID="1049316597">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_LavaIdle_lp" ID="{52DB8572-8F65-4CEF-8DD8-18AE33BEA632}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_Lavafall_Flow_lp" ID="{6CF50F88-284F-48DD-AE1D-5E063CC60ACA}">
+							<ChildrenList>
+								<Action Name="" ID="{39DB5E79-B78D-4DF1-9BEC-9B8EBFB2FF21}" ShortID="556754620">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Lavafall_Flow_lp" ID="{CDBC33BF-0E84-4690-A627-53F243E6048B}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AMB_Water" ID="{04A86880-6368-485A-BE02-9EC6B5CAF7BD}" ShortID="205292909">
+					<ChildrenList>
+						<Event Name="AMB_Waterfall_Flow_lp" ID="{BA812F80-E018-413F-8567-65E9CD0702C9}">
+							<ChildrenList>
+								<Action Name="" ID="{364BFC85-0CC1-43A3-96C0-619F33B5F4F6}" ShortID="449322478">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Waterfall_Flow_lp" ID="{CD50C161-18DE-4627-B01B-41CDCB274BBE}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_PondIdle_lp" ID="{B8F0FB8C-23FA-43D4-9DCE-5D71C6F518E9}">
+							<ChildrenList>
+								<Action Name="" ID="{A5A0F362-3C42-401D-AF75-FF50BF749E74}" ShortID="884863489">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_PondIdle_lp" ID="{6F5E8771-F25D-455F-94F2-271517ECD08C}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_Waterfall_Impact_lp" ID="{B38CF970-DCF4-442A-BE05-6085A293A20F}">
+							<ChildrenList>
+								<Action Name="" ID="{14EA6F4F-C5A8-43F5-B44C-058CFCBD334F}" ShortID="916966235">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Waterfall_Impact_lp" ID="{FD17FD04-EED9-45FB-A557-2AE80C4E4C23}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AMB_Torch" ID="{E3D0552B-6A1A-469A-B239-B00E19228224}" ShortID="65072684">
+					<ChildrenList>
+						<Event Name="AMB_TorchBlue_lp" ID="{7D5E7F04-C163-42CA-9E0E-233DFC4B83A9}">
+							<ChildrenList>
+								<Action Name="" ID="{8AC7E0DE-AB57-494F-AF4C-A36BAE5837CB}" ShortID="788297683">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_TorchBlue_lp" ID="{65F7BA73-9F35-4D56-A8E2-D2D8D3A825E7}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_TorchRed_lp" ID="{32D4E95D-0F5B-4462-BAB6-07EB4350F72E}">
+							<ChildrenList>
+								<Action Name="" ID="{12C52B8E-D2CD-47DF-AE31-F3D40CA63AD9}" ShortID="274419991">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_TorchRed_lp" ID="{9154471C-2471-4F2C-8E5B-7AE3D2DEACD4}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AMB_Room" ID="{338803C6-F517-478C-940C-DFB0405D6B63}" ShortID="845066829">
+					<ChildrenList>
+						<Event Name="AMB_Room_CorridorMedium_lp" ID="{9670EA26-B74F-4B4B-89B0-9866E7287DAF}">
+							<ChildrenList>
+								<Action Name="" ID="{660422DB-A1E7-4C05-9F77-EAC3D2A30D23}" ShortID="647376640">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Room_CorridorMedium_lp" ID="{3ADCD6FD-9C26-4627-A7BC-7E73E38F55BB}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_Room_Large_lp" ID="{39F73A58-AA55-460B-ABAC-548B501C548F}">
+							<ChildrenList>
+								<Action Name="" ID="{12963EE1-446A-4AEF-9A9E-45FB36563233}" ShortID="317180163">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Room_Large_lp" ID="{A5254046-1C3E-4972-AD2A-E305C36EB723}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_Room_CorridorSmall_lp" ID="{90FFE52E-CB5D-47F5-A0FA-BE839473C3A3}">
+							<ChildrenList>
+								<Action Name="" ID="{F094AB36-0CEC-4DF1-9B15-23D7A7FCFCD2}" ShortID="164392436">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Room_CorridorSmall_lp" ID="{789B688C-8974-460A-9AF3-3F1BBE8426D6}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_Room_LargeExtra_lp" ID="{EF498D69-BD7B-4ECE-B0F3-FE4CE56EE555}">
+							<ChildrenList>
+								<Action Name="" ID="{0B8CD88E-101C-460F-8FEB-49F9710B3406}" ShortID="500423821">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Room_LargeExtra_lp" ID="{7F595185-9874-465D-8D95-5D6112EC5A56}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_Room_Medium_lp" ID="{576A100F-350F-4273-B501-2B9BBA9C330C}">
+							<ChildrenList>
+								<Action Name="" ID="{751444FD-482C-4164-8027-812B85AE347A}" ShortID="641509817">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Room_Medium_lp" ID="{02D84931-D35F-47E6-B775-95DBCD3787F7}" WorkUnitID="{982CB918-4ACC-4F94-8799-D40147A78945}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

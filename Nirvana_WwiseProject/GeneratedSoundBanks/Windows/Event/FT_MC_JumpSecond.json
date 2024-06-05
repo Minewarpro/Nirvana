@@ -10,10 +10,48 @@
     "Type": "Event",
     "GUID": "{785476FB-AD69-4592-AE56-11AF2B38662A}",
     "Language": "SFX",
-    "Hash": "{6D59BB48-3583-7114-BA95-C99771635F8D}",
+    "Hash": "{879C8432-BA25-7607-2666-9116B1FACBC0}",
     "ObjectPath": "FT_MC_JumpSecond",
     "ShortName": "FT_MC_JumpSecond",
     "Path": "Event/FT_MC_JumpSecond.bnk",
+    "Media": [
+     {
+      "Id": "2632655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_JumpSecond\\FT_MC_JumpSecond_03.wav",
+      "Path": "Media/2632655.wem",
+      "CachePath": "SFX/FT/FT_MC_JumpSecond/FT_MC_JumpSecond_03_818F3B66.wem"
+     },
+     {
+      "Id": "392745763",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_JumpSecond\\FT_MC_JumpSecond_01.wav",
+      "Path": "Media/392745763.wem",
+      "CachePath": "SFX/FT/FT_MC_JumpSecond/FT_MC_JumpSecond_01_818F3B66.wem"
+     },
+     {
+      "Id": "718871001",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_JumpSecond\\FT_MC_JumpSecond_04.wav",
+      "Path": "Media/718871001.wem",
+      "CachePath": "SFX/FT/FT_MC_JumpSecond/FT_MC_JumpSecond_04_818F3B66.wem"
+     },
+     {
+      "Id": "790672820",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FT\\FT_MC_JumpSecond\\FT_MC_JumpSecond_02.wav",
+      "Path": "Media/790672820.wem",
+      "CachePath": "SFX/FT/FT_MC_JumpSecond/FT_MC_JumpSecond_02_818F3B66.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "2935530677",
@@ -21,8 +59,22 @@
       "ObjectPath": "\\Events\\FT\\FT_MC_JumpSecond",
       "GUID": "{785476FB-AD69-4592-AE56-11AF2B38662A}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.3775497",
+      "DurationMax": "0.42378527",
+      "MediaRefs": [
+       {
+        "Id": "2632655"
+       },
+       {
+        "Id": "392745763"
+       },
+       {
+        "Id": "718871001"
+       },
+       {
+        "Id": "790672820"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -35,6 +87,6 @@
     ]
    }
   ],
-  "FileHash": "{0020D6E7-C8AC-194D-7524-3FAFD8FD5B82}"
+  "FileHash": "{9CAD5BCA-751B-27EC-14C2-3FA56306A393}"
  }
 }

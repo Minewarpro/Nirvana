@@ -1,12 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2107232147" Type="Event" GUID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}" Language="SFX" Hash="{CA9B5B17-0DEC-21B1-AE3E-F255B8467346}">
+		<SoundBank Id="2107232147" Type="Event" GUID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}" Language="SFX" Hash="{55488013-E00B-FED7-7FB3-B449184A19A5}">
 			<ObjectPath>FT_MC_Slide_Enter</ObjectPath>
 			<ShortName>FT_MC_Slide_Enter</ShortName>
 			<Path>Event/FT_MC_Slide_Enter.bnk</Path>
+			<Media>
+				<File Id="58204768" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Stone\FT_MC_Stone_Slide_OnGoing_lp_01.wav</ShortName>
+					<Path>Media/58204768.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Stone/FT_MC_Stone_Slide_OnGoing_lp_01_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="128793272" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Water\FT_MC_Water_Slide_Enter\FT_MC_Water_Slide_Enter_01.wav</ShortName>
+					<Path>Media/128793272.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Water/FT_MC_Water_Slide_Enter/FT_MC_Water_Slide_Enter_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="299031045" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Carpet\FT_MC_Carpet_Slide_Enter\FT_MC_Carpet_Slide_Enter_03.wav</ShortName>
+					<Path>Media/299031045.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Carpet/FT_MC_Carpet_Slide_Enter/FT_MC_Carpet_Slide_Enter_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="313729773" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Carpet\FT_MC_Carpet_Slide_Enter\FT_MC_Carpet_Slide_Enter_04.wav</ShortName>
+					<Path>Media/313729773.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Carpet/FT_MC_Carpet_Slide_Enter/FT_MC_Carpet_Slide_Enter_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="349600135" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Stone\FT_MC_Stone_Slide_Enter\FT_MC_Stone_Slide_Enter_01.wav</ShortName>
+					<Path>Media/349600135.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Stone/FT_MC_Stone_Slide_Enter/FT_MC_Stone_Slide_Enter_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="363592256" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Water\FT_MC_Water_Slide_Enter\FT_MC_Water_Slide_Enter_02.wav</ShortName>
+					<Path>Media/363592256.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Water/FT_MC_Water_Slide_Enter/FT_MC_Water_Slide_Enter_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="497169354" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Water\FT_MC_Water_Slide_OnGoing_lp_01.wav</ShortName>
+					<Path>Media/497169354.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Water/FT_MC_Water_Slide_OnGoing_lp_01_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="594348594" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Stone\FT_MC_Stone_Slide_Enter\FT_MC_Stone_Slide_Enter_02.wav</ShortName>
+					<Path>Media/594348594.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Stone/FT_MC_Stone_Slide_Enter/FT_MC_Stone_Slide_Enter_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="607782398" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Carpet\FT_MC_Carpet_Slide_Enter\FT_MC_Carpet_Slide_Enter_02.wav</ShortName>
+					<Path>Media/607782398.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Carpet/FT_MC_Carpet_Slide_Enter/FT_MC_Carpet_Slide_Enter_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="838924591" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Carpet\FT_MC_Carpet_Slide_Enter\FT_MC_Carpet_Slide_Enter_01.wav</ShortName>
+					<Path>Media/838924591.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Carpet/FT_MC_Carpet_Slide_Enter/FT_MC_Carpet_Slide_Enter_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="840262072" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Carpet\FT_MC_Carpet_Slide_OnGoing_lp.wav</ShortName>
+					<Path>Media/840262072.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Carpet/FT_MC_Carpet_Slide_OnGoing_lp_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="854584470" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Metal\FT_MC_Metal_Slide_OnGoing_lp.wav</ShortName>
+					<Path>Media/854584470.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Metal/FT_MC_Metal_Slide_OnGoing_lp_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="895614343" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Metal\FT_MC_Metal_Slide_Enter\FT_MC_Metal_Slide_Enter_01.wav</ShortName>
+					<Path>Media/895614343.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Metal/FT_MC_Metal_Slide_Enter/FT_MC_Metal_Slide_Enter_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1025393762" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Metal\FT_MC_Metal_Slide_Enter\FT_MC_Metal_Slide_Enter_02.wav</ShortName>
+					<Path>Media/1025393762.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Metal/FT_MC_Metal_Slide_Enter/FT_MC_Metal_Slide_Enter_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="2107232147" Name="FT_MC_Slide_Enter" ObjectPath="\Events\FT\FT_MC_Slide_Enter" GUID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2107232147" Name="FT_MC_Slide_Enter" ObjectPath="\Events\FT\FT_MC_Slide_Enter" GUID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="1699952942" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="349600135"/>
+								<MediaRef Id="594348594"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="1901335520" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
+							<MediaRefs>
+								<MediaRef Id="128793272"/>
+								<MediaRef Id="363592256"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="4051928182" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
+							<MediaRefs>
+								<MediaRef Id="299031045"/>
+								<MediaRef Id="313729773"/>
+								<MediaRef Id="607782398"/>
+								<MediaRef Id="838924591"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="314505124" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
+							<MediaRefs>
+								<MediaRef Id="895614343"/>
+								<MediaRef Id="1025393762"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="3682161770" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
+							<MediaRefs>
+								<MediaRef Id="128793272"/>
+								<MediaRef Id="363592256"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="1699952942" GUID="{F1D10D28-1C99-46C9-8E8F-F65FF3EB09C7}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="58204768"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="1901335520" GUID="{9BF3864B-3F37-4D9F-8DC8-32C79353FB7C}"/>
+							<MediaRefs>
+								<MediaRef Id="497169354"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="4051928182" GUID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
+							<MediaRefs>
+								<MediaRef Id="840262072"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="314505124" GUID="{D12257AC-E331-42E1-81E6-4BE4E28C68C4}"/>
+							<MediaRefs>
+								<MediaRef Id="854584470"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4035313040" Id="3682161770" GUID="{4542D8F7-2774-4820-9402-34B9207369C5}"/>
+							<MediaRefs>
+								<MediaRef Id="497169354"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
@@ -24,5 +166,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E4D7451D-27BA-D100-0FF7-14C80060B9CB}</FileHash>
+	<FileHash>{DF378C3B-86C4-3D0A-403D-405EB586DED7}</FileHash>
 </SoundBanksInfo>

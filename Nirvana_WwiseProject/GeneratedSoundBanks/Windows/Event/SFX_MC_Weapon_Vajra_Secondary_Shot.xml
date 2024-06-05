@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3397588129" Type="Event" GUID="{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}" Language="SFX" Hash="{855C9148-5FDD-A029-1A12-B889AC35F421}">
+		<SoundBank Id="3397588129" Type="Event" GUID="{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}" Language="SFX" Hash="{1159163C-2604-C8FA-2FD9-67CA889E1963}">
 			<ObjectPath>SFX_MC_Weapon_Vajra_Secondary_Shot</ObjectPath>
 			<ShortName>SFX_MC_Weapon_Vajra_Secondary_Shot</ShortName>
 			<Path>Event/SFX_MC_Weapon_Vajra_Secondary_Shot.bnk</Path>
@@ -32,9 +32,10 @@
 				</Event>
 			</Events>
 			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F7440599-6256-7819-C2B5-5E93C8785B92}</FileHash>
+	<FileHash>{A29B6505-C3C7-1784-4041-81CFADB7C125}</FileHash>
 </SoundBanksInfo>

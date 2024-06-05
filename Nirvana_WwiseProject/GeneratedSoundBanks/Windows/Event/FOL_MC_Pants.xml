@@ -1,17 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3321716380" Type="Event" GUID="{5EC673DB-7E85-4A74-B2E5-ADCCE77E0AEB}" Language="SFX" Hash="{ADF882AF-FDC9-90FF-B243-519D30990CD3}">
+		<SoundBank Id="3321716380" Type="Event" GUID="{5EC673DB-7E85-4A74-B2E5-ADCCE77E0AEB}" Language="SFX" Hash="{A7BDD028-20F7-C58B-98FB-D2B8A62C589B}">
 			<ObjectPath>FOL_MC_Pants</ObjectPath>
 			<ShortName>FOL_MC_Pants</ShortName>
 			<Path>Event/FOL_MC_Pants.bnk</Path>
+			<Media>
+				<File Id="99245452" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOL\FOL_MC_Pants\FOL_MC_Pants_04.wav</ShortName>
+					<Path>Media/99245452.wem</Path>
+					<CachePath>SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="185834537" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOL\FOL_MC_Pants\FOL_MC_Pants_10.wav</ShortName>
+					<Path>Media/185834537.wem</Path>
+					<CachePath>SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="366845026" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOL\FOL_MC_Pants\FOL_MC_Pants_09.wav</ShortName>
+					<Path>Media/366845026.wem</Path>
+					<CachePath>SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="469662304" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOL\FOL_MC_Pants\FOL_MC_Pants_01.wav</ShortName>
+					<Path>Media/469662304.wem</Path>
+					<CachePath>SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="524777716" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOL\FOL_MC_Pants\FOL_MC_Pants_02.wav</ShortName>
+					<Path>Media/524777716.wem</Path>
+					<CachePath>SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="674955360" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOL\FOL_MC_Pants\FOL_MC_Pants_06.wav</ShortName>
+					<Path>Media/674955360.wem</Path>
+					<CachePath>SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="744499472" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOL\FOL_MC_Pants\FOL_MC_Pants_03.wav</ShortName>
+					<Path>Media/744499472.wem</Path>
+					<CachePath>SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="945890201" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOL\FOL_MC_Pants\FOL_MC_Pants_08.wav</ShortName>
+					<Path>Media/945890201.wem</Path>
+					<CachePath>SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="955536414" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOL\FOL_MC_Pants\FOL_MC_Pants_07.wav</ShortName>
+					<Path>Media/955536414.wem</Path>
+					<CachePath>SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1003592585" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOL\FOL_MC_Pants\FOL_MC_Pants_05.wav</ShortName>
+					<Path>Media/1003592585.wem</Path>
+					<CachePath>SFX/FOL/FOL_MC_Pants/FOL_MC_Pants_05_818F3B66.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="3321716380" Name="FOL_MC_Pants" ObjectPath="\Events\FOL\FOL_MC_Pants" GUID="{5EC673DB-7E85-4A74-B2E5-ADCCE77E0AEB}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3321716380" Name="FOL_MC_Pants" ObjectPath="\Events\FOL\FOL_MC_Pants" GUID="{5EC673DB-7E85-4A74-B2E5-ADCCE77E0AEB}" DurationType="OneShot" DurationMin="0.33333334" DurationMax="0.4035">
+					<MediaRefs>
+						<MediaRef Id="99245452"/>
+						<MediaRef Id="185834537"/>
+						<MediaRef Id="366845026"/>
+						<MediaRef Id="469662304"/>
+						<MediaRef Id="524777716"/>
+						<MediaRef Id="674955360"/>
+						<MediaRef Id="744499472"/>
+						<MediaRef Id="945890201"/>
+						<MediaRef Id="955536414"/>
+						<MediaRef Id="1003592585"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2E1AFFE1-D8FE-C389-9578-98CDD110EFB3}</FileHash>
+	<FileHash>{A8388719-B370-7229-688B-58FA77B7AAAF}</FileHash>
 </SoundBanksInfo>

@@ -1,0 +1,60 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2602167941",
+    "Type": "Event",
+    "GUID": "{6CF50F88-284F-48DD-AE1D-5E063CC60ACA}",
+    "Language": "SFX",
+    "Hash": "{AB066DA5-2286-C4F7-7171-ADE4BF82B51C}",
+    "ObjectPath": "AMB_Lavafall_Flow_lp",
+    "ShortName": "AMB_Lavafall_Flow_lp",
+    "Path": "Event/AMB_Lavafall_Flow_lp.bnk",
+    "Media": [
+     {
+      "Id": "485393511",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB\\AMB_Lava\\AMB_Lavafall_Flow_lp.wav",
+      "Path": "Media/485393511.wem",
+      "CachePath": "SFX/AMB/AMB_Lava/AMB_Lavafall_Flow_lp_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2602167941",
+      "Name": "AMB_Lavafall_Flow_lp",
+      "ObjectPath": "\\Events\\AMB\\AMB_Lava\\AMB_Lavafall_Flow_lp",
+      "GUID": "{6CF50F88-284F-48DD-AE1D-5E063CC60ACA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "485393511"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2B3198A3-6154-339D-3781-98CF56343892}"
+ }
+}

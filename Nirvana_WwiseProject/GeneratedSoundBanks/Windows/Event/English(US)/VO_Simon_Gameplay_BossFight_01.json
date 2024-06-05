@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F20155FC-04FC-451A-9B69-8109CB392C2F}",
     "Language": "English(US)",
-    "Hash": "{9ADE9E31-E66F-AF7C-0AE8-2E190E3D4419}",
+    "Hash": "{F6BF474C-44BE-11AD-DFBF-DF66150C0579}",
     "ObjectPath": "VO_Simon_Gameplay_BossFight_01",
     "ShortName": "VO_Simon_Gameplay_BossFight_01",
     "Path": "Event/English(US)/VO_Simon_Gameplay_BossFight_01.bnk",
@@ -40,9 +40,23 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
     ]
    }
   ],
-  "FileHash": "{E1596A98-4BCC-ED4B-6AEF-5F28CC540BCB}"
+  "FileHash": "{173E8EB0-C5A1-7503-B4C7-82673608F42F}"
  }
 }

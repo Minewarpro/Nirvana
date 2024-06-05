@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{4770BB9D-3FF7-BA24-2109-8942C92345D9}",
+    "Hash": "{1D8BEDBD-DCC8-400D-B0D5-1F725209431E}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -139,6 +139,12 @@
       "Name": "RTPC_UI_Effects",
       "ObjectPath": "\\Game Parameters\\RTPC_UI\\RTPC_UI_Effects",
       "GUID": "{2B55FAD0-C41F-48A2-8CBC-0F24FEDD1EE7}"
+     },
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
      },
      {
       "Id": "1526392608",
@@ -307,6 +313,6 @@
     ]
    }
   ],
-  "FileHash": "{FB56BCB5-181C-7207-02F5-879BA068C5DD}"
+  "FileHash": "{94337FA0-DD08-C638-FDE0-AAD4B18C3560}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="166528142" Type="Event" GUID="{B8C3520B-DB21-4758-BC89-FB2261E22A0E}" Language="English(US)" Hash="{33A224D7-C90E-FE8F-249B-2446C8ED5270}">
+		<SoundBank Id="166528142" Type="Event" GUID="{B8C3520B-DB21-4758-BC89-FB2261E22A0E}" Language="English(US)" Hash="{65978CF0-23F4-0CE6-7F20-CCF614CEC1E6}">
 			<ObjectPath>VO_Blaise_Story_06</ObjectPath>
 			<ShortName>VO_Blaise_Story_06</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_06.bnk</Path>
@@ -19,7 +19,11 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C5F5DF3E-05D2-1ADA-FA49-A559CDFEEB4F}</FileHash>
+	<FileHash>{B1A102A8-A9D5-2424-5425-FAE938DF1CD0}</FileHash>
 </SoundBanksInfo>

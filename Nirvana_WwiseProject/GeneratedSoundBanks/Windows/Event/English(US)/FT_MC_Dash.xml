@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{14BED376-7C4A-0952-EC1D-C1E25724F6B7}">
+		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{B48C64F3-E139-F452-CBC7-A020B138E18A}">
 			<ObjectPath>FT_MC_Dash</ObjectPath>
 			<ShortName>FT_MC_Dash</ShortName>
 			<Path>Event/English(US)/FT_MC_Dash.bnk</Path>
 			<Media>
+				<File Id="53338511" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Dash\FT_MC_Dash_02.wav</ShortName>
+					<Path>Media/53338511.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Dash/FT_MC_Dash_02_818F3B66.wem</CachePath>
+				</File>
 				<File Id="112665800" Language="English(US)" Streaming="false" Location="Loose">
 					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_04.wav</ShortName>
 					<Path>Media/English(US)/112665800.wem</Path>
 					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="168736510" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Dash\FT_MC_Dash_03.wav</ShortName>
+					<Path>Media/168736510.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Dash/FT_MC_Dash_03_818F3B66.wem</CachePath>
 				</File>
 				<File Id="183278750" Language="English(US)" Streaming="false" Location="Loose">
 					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_02.wav</ShortName>
@@ -21,26 +31,42 @@
 					<Path>Media/English(US)/270131646.wem</Path>
 					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_03_818F3B66.wem</CachePath>
 				</File>
+				<File Id="399743278" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Dash\FT_MC_Dash_04.wav</ShortName>
+					<Path>Media/399743278.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Dash/FT_MC_Dash_04_818F3B66.wem</CachePath>
+				</File>
 				<File Id="559143653" Language="English(US)" Streaming="false" Location="Loose">
 					<ShortName>VO_Ari_Gameplay\VO_Ari_Gameplay_Dash\VO_Ari_Gameplay_Dash_01.wav</ShortName>
 					<Path>Media/English(US)/559143653.wem</Path>
 					<CachePath>Voices/English(US)/VO_Ari_Gameplay/VO_Ari_Gameplay_Dash/VO_Ari_Gameplay_Dash_01_818F3B66.wem</CachePath>
 				</File>
+				<File Id="882746946" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FT\FT_MC_Dash\FT_MC_Dash_01.wav</ShortName>
+					<Path>Media/882746946.wem</Path>
+					<CachePath>SFX/FT/FT_MC_Dash/FT_MC_Dash_01_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="3790997325" Name="FT_MC_Dash" ObjectPath="\Events\FT\FT_MC_Dash" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" DurationType="OneShot" DurationMin="0.30666667" DurationMax="0.74">
+				<Event Id="3790997325" Name="FT_MC_Dash" ObjectPath="\Events\FT\FT_MC_Dash" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" DurationType="OneShot" DurationMin="0.9753367" DurationMax="1.0947785">
 					<MediaRefs>
+						<MediaRef Id="53338511"/>
 						<MediaRef Id="112665800"/>
+						<MediaRef Id="168736510"/>
 						<MediaRef Id="183278750"/>
 						<MediaRef Id="270131646"/>
+						<MediaRef Id="399743278"/>
 						<MediaRef Id="559143653"/>
+						<MediaRef Id="882746946"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{91296943-CC77-9069-C543-E915F5531C9D}</FileHash>
+	<FileHash>{DAEF532F-39AB-113F-25BB-031255ECB275}</FileHash>
 </SoundBanksInfo>

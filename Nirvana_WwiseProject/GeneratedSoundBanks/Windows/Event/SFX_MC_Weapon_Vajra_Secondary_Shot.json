@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}",
     "Language": "SFX",
-    "Hash": "{855C9148-5FDD-A029-1A12-B889AC35F421}",
+    "Hash": "{1159163C-2604-C8FA-2FD9-67CA889E1963}",
     "ObjectPath": "SFX_MC_Weapon_Vajra_Secondary_Shot",
     "ShortName": "SFX_MC_Weapon_Vajra_Secondary_Shot",
     "Path": "Event/SFX_MC_Weapon_Vajra_Secondary_Shot.bnk",
@@ -68,6 +68,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
       "Id": "3972935021",
       "Name": "RTPC_Azimuth",
       "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
@@ -76,6 +82,6 @@
     ]
    }
   ],
-  "FileHash": "{AE8FA5A4-056F-573A-D0C0-F18047D4AC51}"
+  "FileHash": "{37ADB2C3-D664-9250-AEFD-50D9821AD163}"
  }
 }
