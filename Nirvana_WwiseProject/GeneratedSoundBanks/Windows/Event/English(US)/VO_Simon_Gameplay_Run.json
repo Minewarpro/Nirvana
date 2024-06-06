@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{CF346644-104F-4F5E-9F43-902F0F6F0B6D}",
     "Language": "English(US)",
-    "Hash": "{D6B34AD4-C246-1BF0-BC01-AC84240C2F7B}",
+    "Hash": "{97826EBA-CB48-AB64-395E-BBBF5BBF557C}",
     "ObjectPath": "VO_Simon_Gameplay_Run",
     "ShortName": "VO_Simon_Gameplay_Run",
     "Path": "Event/English(US)/VO_Simon_Gameplay_Run.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{FE626487-833D-FC16-3FC2-347AF9F5241C}"
+  "FileHash": "{64AF597E-77D9-32C8-49B7-F09B17D3CE3A}"
  }
 }

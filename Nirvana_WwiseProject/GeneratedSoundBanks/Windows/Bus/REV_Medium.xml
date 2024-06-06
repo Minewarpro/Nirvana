@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3549141946" Type="Bus" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}" Language="SFX" Hash="{2BFF18E8-BC1A-19A2-BED2-4C47818DEEC8}">
+		<SoundBank Id="3549141946" Type="Bus" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}" Language="SFX" Hash="{57A3A2B0-17EB-8A6C-4CC4-C328F797F2D9}">
 			<ObjectPath>REV_Medium</ObjectPath>
 			<ShortName>REV_Medium</ShortName>
 			<Path>Bus/REV_Medium.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="3549141946" Name="REV_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Medium" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}"/>
+				<AuxBus Id="3549141946" Name="REV_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Medium" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F6EA484A-4B3E-587E-3C7A-2B05D4ECBB96}</FileHash>
+	<FileHash>{9826051B-3A3E-3FF5-A6B5-6183E9D7A344}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{54FDB89F-2388-4096-8D03-014690817D75}",
     "Language": "English(US)",
-    "Hash": "{01EF148E-C053-B221-9A96-0B343726457E}",
+    "Hash": "{4B6FC55A-435F-D0C3-C233-7550512E59EC}",
     "ObjectPath": "SFX_MC_Death",
     "ShortName": "SFX_MC_Death",
     "Path": "Event/English(US)/SFX_MC_Death.bnk",
@@ -141,6 +141,6 @@
     ]
    }
   ],
-  "FileHash": "{31388A74-97EC-3119-D39F-4475E5320123}"
+  "FileHash": "{B03EBAAB-74CF-BCD4-6392-FFE9FFAA3DD0}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1532872020" Type="Event" GUID="{073692BA-1D60-4760-82EF-D426063131AB}" Language="English(US)" Hash="{ED6BB0A3-E37C-9F42-1E30-3ABDB1BA7395}">
+		<SoundBank Id="1532872020" Type="Event" GUID="{073692BA-1D60-4760-82EF-D426063131AB}" Language="English(US)" Hash="{13D9D452-6FED-B37E-6592-0094539A1965}">
 			<ObjectPath>VO_Blaise_Gameplay_No</ObjectPath>
 			<ShortName>VO_Blaise_Gameplay_No</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Gameplay_No.bnk</Path>
@@ -31,5 +31,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7855ADE3-43E4-863F-2365-C49C1CCEF62C}</FileHash>
+	<FileHash>{1835317D-2496-4D6A-ECC5-F86AA1DC1341}</FileHash>
 </SoundBanksInfo>

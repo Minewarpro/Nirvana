@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1621795231" Type="Event" GUID="{204211B5-C26C-48ED-B0C4-A5EB27971367}" Language="English(US)" Hash="{4A8A79C7-6B36-46FD-6555-E141844321EA}">
+		<SoundBank Id="1621795231" Type="Event" GUID="{204211B5-C26C-48ED-B0C4-A5EB27971367}" Language="English(US)" Hash="{59061142-4D65-06C2-C619-572121834136}">
 			<ObjectPath>VO_ENMSwarmer_Death</ObjectPath>
 			<ShortName>VO_ENMSwarmer_Death</ShortName>
 			<Path>Event/English(US)/VO_ENMSwarmer_Death.bnk</Path>
@@ -43,5 +43,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{87738D3B-1022-95A0-A5F4-B3DEF3E526E7}</FileHash>
+	<FileHash>{E3456EB4-F55A-40C1-2501-351B2AFC442F}</FileHash>
 </SoundBanksInfo>

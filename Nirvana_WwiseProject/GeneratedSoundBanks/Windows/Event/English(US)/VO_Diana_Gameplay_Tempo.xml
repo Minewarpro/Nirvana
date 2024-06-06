@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2964851327" Type="Event" GUID="{9684AF37-3F6A-4B58-8C70-3CE6AA0D99FD}" Language="English(US)" Hash="{8C22554F-A4B6-2F29-2AE2-FFF6C4C843CB}">
+		<SoundBank Id="2964851327" Type="Event" GUID="{9684AF37-3F6A-4B58-8C70-3CE6AA0D99FD}" Language="English(US)" Hash="{AB783418-E23F-19A0-8ABC-C3CFB16E24B5}">
 			<ObjectPath>VO_Diana_Gameplay_Tempo</ObjectPath>
 			<ShortName>VO_Diana_Gameplay_Tempo</ShortName>
 			<Path>Event/English(US)/VO_Diana_Gameplay_Tempo.bnk</Path>
@@ -37,5 +37,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{27E20DC2-739A-E3B7-C337-B405AC8A93FF}</FileHash>
+	<FileHash>{A779D02B-6E4A-9AE2-3162-45D5EE79A373}</FileHash>
 </SoundBanksInfo>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="143716483" Type="Event" GUID="{844B1686-5B6E-4969-A0E1-C1EC55780849}" Language="English(US)" Hash="{B8A33B62-21F7-3DE7-5118-3CB6377EF6A9}">
+		<SoundBank Id="143716483" Type="Event" GUID="{844B1686-5B6E-4969-A0E1-C1EC55780849}" Language="English(US)" Hash="{11FDCD73-E40D-E4D4-A2D0-6BDE0933B7AD}">
 			<ObjectPath>VO_Ari_Gameplay_Drowning</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Drowning</ShortName>
 			<Path>Event/English(US)/VO_Ari_Gameplay_Drowning.bnk</Path>
@@ -43,5 +43,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BEB4AB1D-60B9-9F10-1703-81778AAE3370}</FileHash>
+	<FileHash>{ED313A63-026D-71CC-3A81-B78C15ADA228}</FileHash>
 </SoundBanksInfo>

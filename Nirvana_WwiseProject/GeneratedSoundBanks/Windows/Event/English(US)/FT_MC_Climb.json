@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8A840DDD-FF65-4860-AD26-8E951B65D7A5}",
     "Language": "English(US)",
-    "Hash": "{53CE204B-D91C-B0B4-7946-15FA7F46838A}",
+    "Hash": "{BBA2D4FC-6FD8-9688-BDE6-B32E8B6D1696}",
     "ObjectPath": "FT_MC_Climb",
     "ShortName": "FT_MC_Climb",
     "Path": "Event/English(US)/FT_MC_Climb.bnk",
@@ -147,6 +147,6 @@
     ]
    }
   ],
-  "FileHash": "{030A684C-2281-EDF8-3B70-C5BB467891C1}"
+  "FileHash": "{D9DBC29D-19A0-3295-9FB5-9614613527B0}"
  }
 }

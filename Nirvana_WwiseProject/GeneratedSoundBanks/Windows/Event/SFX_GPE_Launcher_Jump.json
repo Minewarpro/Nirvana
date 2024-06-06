@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}",
     "Language": "SFX",
-    "Hash": "{9CB795BA-0BBB-0D79-6D90-FED4D2EB6BE6}",
+    "Hash": "{0D12102F-18F1-8623-D892-E96907FC4A4B}",
     "ObjectPath": "SFX_GPE_Launcher_Jump",
     "ShortName": "SFX_GPE_Launcher_Jump",
     "Path": "Event/SFX_GPE_Launcher_Jump.bnk",
@@ -49,7 +49,7 @@
       "Name": "SFX_GPE_Launcher_Jump",
       "ObjectPath": "\\Events\\SFX\\SFX_GPE\\SFX_GPE_Launcher_Jump",
       "GUID": "{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}",
-      "MaxAttenuation": "2500",
+      "MaxAttenuation": "7000",
       "DurationType": "OneShot",
       "DurationMin": "0.91700405",
       "DurationMax": "1.0905077",
@@ -82,6 +82,6 @@
     ]
    }
   ],
-  "FileHash": "{59BCC951-78C3-D81A-3DE2-582F23FE7B40}"
+  "FileHash": "{1E4C9DE5-6251-FE2E-7CF0-B10F5C290337}"
  }
 }

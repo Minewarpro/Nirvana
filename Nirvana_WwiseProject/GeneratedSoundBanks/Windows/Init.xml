@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{1D0DDDCC-D631-3DC6-76A4-BF6DE6633578}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{C2A3D035-21B1-65E6-2E61-E6231F2C0653}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -9,6 +9,13 @@
 				<Custom>
 					<Plugin Id="491419128" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\SFX\SFX_MC_Weapon\[Effect Slot [0]: (Meter)]\Meter (Custom)" GUID="{417C41AE-A40F-4257-BE72-E499229A6261}" LibName="Wwise Meter" LibId="8454147"/>
 				</Custom>
+				<ShareSets>
+					<Plugin Id="602546716" Name="Room_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Large" GUID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2265839006" Name="Not_A_Yellow_Submarine" ObjectPath="\Effects\Factory Effects\RoomVerb\Claustrophobia\Not_A_Yellow_Submarine" GUID="{B5719071-C58D-49FA-8766-B1D986D017EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2945072214" Name="My_Closet" ObjectPath="\Effects\Factory Effects\RoomVerb\Claustrophobia\My_Closet" GUID="{384A82A1-3C92-4AC5-AFC2-474F2080642C}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{68B54D53-2D39-469A-80CA-ACB12F1275D5}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{3C06FC5A-7E4B-4091-875D-AE38F353ADD5}" LibName="System" LibId="11403271"/>
@@ -34,11 +41,41 @@
 				<Bus Id="3991942870" Name="MUSIC" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC" GUID="{259C0FDF-0A43-4EF9-953B-97C77523ACD6}"/>
 			</Busses>
 			<AuxBusses>
-				<AuxBus Id="1709113120" Name="REV_CorridorMedium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorMedium" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}"/>
-				<AuxBus Id="3397355070" Name="REV_LargeExtra" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_LargeExtra" GUID="{021A88FF-E165-4DEF-B712-841FED23080F}"/>
-				<AuxBus Id="3549141946" Name="REV_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Medium" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}"/>
-				<AuxBus Id="3750820532" Name="REV_Large" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Large" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}"/>
-				<AuxBus Id="4061537322" Name="REV_CorridorSmall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorSmall" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}"/>
+				<AuxBus Id="1709113120" Name="REV_CorridorMedium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorMedium" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2265839006"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3397355070" Name="REV_LargeExtra" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_LargeExtra" GUID="{021A88FF-E165-4DEF-B712-841FED23080F}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3549141946" Name="REV_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Medium" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3750820532" Name="REV_Large" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Large" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1990128658"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4061537322" Name="REV_CorridorSmall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorSmall" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2945072214"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="192836257" Name="RTPC_UI_VO" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_VO" GUID="{446D2A29-793D-4B5C-9B6B-98B00E2B6658}"/>
@@ -91,5 +128,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{572E987B-6687-D776-8F96-CD28630CB21D}</FileHash>
+	<FileHash>{147F029B-5EF3-F90E-8C05-D769E13CAD42}</FileHash>
 </SoundBanksInfo>

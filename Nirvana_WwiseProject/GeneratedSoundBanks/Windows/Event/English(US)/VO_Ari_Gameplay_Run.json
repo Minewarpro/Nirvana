@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{BC674A9A-5D48-432D-B273-1E20B1297535}",
     "Language": "English(US)",
-    "Hash": "{21E47E4A-C383-2772-2B39-DBB64CCE4D6F}",
+    "Hash": "{C8B4EA56-9E14-89F4-26B7-817D4E4FBDF2}",
     "ObjectPath": "VO_Ari_Gameplay_Run",
     "ShortName": "VO_Ari_Gameplay_Run",
     "Path": "Event/English(US)/VO_Ari_Gameplay_Run.bnk",
@@ -93,6 +93,6 @@
     ]
    }
   ],
-  "FileHash": "{87DA09C5-CEDE-AFF8-F11F-1FCD452DA3CC}"
+  "FileHash": "{8F2E4F08-848E-5141-D0D9-C7994FB06CFF}"
  }
 }

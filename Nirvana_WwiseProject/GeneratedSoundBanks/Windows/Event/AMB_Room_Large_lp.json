@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{39F73A58-AA55-460B-ABAC-548B501C548F}",
     "Language": "SFX",
-    "Hash": "{88CEC73D-50D7-DE3F-4C47-850EB5078367}",
+    "Hash": "{C19348C2-6FEC-CE02-0F9C-965DB807DB15}",
     "ObjectPath": "AMB_Room_Large_lp",
     "ShortName": "AMB_Room_Large_lp",
     "Path": "Event/AMB_Room_Large_lp.bnk",
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{1FA41558-5531-B475-4DCA-AFCA38147E34}"
+  "FileHash": "{D465B448-5220-F8C7-8894-84F6FEDFACC5}"
  }
 }

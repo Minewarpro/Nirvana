@@ -10,6 +10,11 @@
 				<ActorMixer Name="VO" ID="{786AA2D1-303B-4A89-8644-197BBF9D0488}" ShortID="368321227">
 					<PropertyList>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="GameAuxSendVolume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
 								<Value>90</Value>

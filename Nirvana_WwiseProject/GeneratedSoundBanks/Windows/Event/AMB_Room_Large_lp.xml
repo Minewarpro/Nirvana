@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3507897130" Type="Event" GUID="{39F73A58-AA55-460B-ABAC-548B501C548F}" Language="SFX" Hash="{88CEC73D-50D7-DE3F-4C47-850EB5078367}">
+		<SoundBank Id="3507897130" Type="Event" GUID="{39F73A58-AA55-460B-ABAC-548B501C548F}" Language="SFX" Hash="{C19348C2-6FEC-CE02-0F9C-965DB807DB15}">
 			<ObjectPath>AMB_Room_Large_lp</ObjectPath>
 			<ShortName>AMB_Room_Large_lp</ShortName>
 			<Path>Event/AMB_Room_Large_lp.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2E74C772-B400-393C-ADEA-A141F53CED78}</FileHash>
+	<FileHash>{DC46D8F2-DA94-D117-9B7B-DBFF8DDE85E8}</FileHash>
 </SoundBanksInfo>

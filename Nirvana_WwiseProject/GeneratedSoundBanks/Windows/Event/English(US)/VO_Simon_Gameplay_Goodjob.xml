@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3233041211" Type="Event" GUID="{43402A1C-6C1A-4646-BB60-8E1109F8D0F6}" Language="English(US)" Hash="{5F92E285-90DE-BB14-2D1C-5EA42DA34631}">
+		<SoundBank Id="3233041211" Type="Event" GUID="{43402A1C-6C1A-4646-BB60-8E1109F8D0F6}" Language="English(US)" Hash="{FED3A732-4232-82B2-94C8-A0B8428FAD46}">
 			<ObjectPath>VO_Simon_Gameplay_Goodjob</ObjectPath>
 			<ShortName>VO_Simon_Gameplay_Goodjob</ShortName>
 			<Path>Event/English(US)/VO_Simon_Gameplay_Goodjob.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AC6038B0-914F-690D-5F9D-6B68141B211E}</FileHash>
+	<FileHash>{8A2B5BD0-E6DD-3FF0-6B62-CF1125B1968F}</FileHash>
 </SoundBanksInfo>

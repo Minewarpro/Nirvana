@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2448024342" Type="Event" GUID="{EBF7488B-5259-4516-B30F-A0C5AD707F87}" Language="English(US)" Hash="{2844DAB3-18F9-E820-5DB9-962D02818606}">
+		<SoundBank Id="2448024342" Type="Event" GUID="{EBF7488B-5259-4516-B30F-A0C5AD707F87}" Language="English(US)" Hash="{615FDCF1-0FF4-2FD5-7E05-C58EA3FF72F2}">
 			<ObjectPath>VO_Diana_Story_18</ObjectPath>
 			<ShortName>VO_Diana_Story_18</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_18.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{05AEE26E-AA8B-5921-8737-4D85C19D6B2F}</FileHash>
+	<FileHash>{C8E1E152-55F2-4B2A-93B6-7C8965EF5619}</FileHash>
 </SoundBanksInfo>

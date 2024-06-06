@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5637DC57-1610-4B5B-B5CA-1D558668C593}",
     "Language": "English(US)",
-    "Hash": "{A8107D7D-CBD9-183E-BE9C-C1F688367023}",
+    "Hash": "{078E448D-967B-14DB-A705-C3B9DC31CA5A}",
     "ObjectPath": "VO_Anna_Gameplay_Goodjob",
     "ShortName": "VO_Anna_Gameplay_Goodjob",
     "Path": "Event/English(US)/VO_Anna_Gameplay_Goodjob.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{1589C50F-34F6-9C48-846C-DD828FF31947}"
+  "FileHash": "{378CA89D-125C-D852-071D-5D3617AACB51}"
  }
 }

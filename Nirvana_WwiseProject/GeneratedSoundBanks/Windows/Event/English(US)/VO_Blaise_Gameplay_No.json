@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{073692BA-1D60-4760-82EF-D426063131AB}",
     "Language": "English(US)",
-    "Hash": "{ED6BB0A3-E37C-9F42-1E30-3ABDB1BA7395}",
+    "Hash": "{13D9D452-6FED-B37E-6592-0094539A1965}",
     "ObjectPath": "VO_Blaise_Gameplay_No",
     "ShortName": "VO_Blaise_Gameplay_No",
     "Path": "Event/English(US)/VO_Blaise_Gameplay_No.bnk",
@@ -69,6 +69,6 @@
     ]
    }
   ],
-  "FileHash": "{393A691F-349B-F715-32F9-A1EF05966EEA}"
+  "FileHash": "{DB5DF368-9622-4528-CEEB-983F683D21A5}"
  }
 }

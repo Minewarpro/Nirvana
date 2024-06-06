@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7E3AA543-270E-444C-865B-4BA81F6A5800}",
     "Language": "English(US)",
-    "Hash": "{CF033115-D2EF-67B1-6812-25B40F7125E9}",
+    "Hash": "{ADB7210C-9BC8-E97B-57BA-E65F4BA1056E}",
     "ObjectPath": "VO_Diana_Gameplay_03",
     "ShortName": "VO_Diana_Gameplay_03",
     "Path": "Event/English(US)/VO_Diana_Gameplay_03.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{2B3B0E04-10FD-8AB0-F9EB-C3685701EA0A}"
+  "FileHash": "{1CA6C608-B629-0262-BF1D-1E114AC1D902}"
  }
 }

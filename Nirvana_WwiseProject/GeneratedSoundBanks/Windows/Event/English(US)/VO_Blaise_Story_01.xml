@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="166528137" Type="Event" GUID="{E78951DF-BDC9-415E-8BF8-4D1ED02F5A79}" Language="English(US)" Hash="{0CA72FB9-C9D3-F5EB-0325-275772C51752}">
+		<SoundBank Id="166528137" Type="Event" GUID="{E78951DF-BDC9-415E-8BF8-4D1ED02F5A79}" Language="English(US)" Hash="{078C6866-619B-1EA7-EC3B-C779E1009ACA}">
 			<ObjectPath>VO_Blaise_Story_01</ObjectPath>
 			<ShortName>VO_Blaise_Story_01</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_01.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CD8F7E23-E99B-CC7B-A5E6-F016933255C7}</FileHash>
+	<FileHash>{4719C48B-5489-837B-3BE3-5133CCCBB153}</FileHash>
 </SoundBanksInfo>

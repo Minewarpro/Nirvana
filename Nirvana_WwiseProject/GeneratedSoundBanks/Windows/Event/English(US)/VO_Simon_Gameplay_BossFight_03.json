@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3C5A0758-997E-4328-A2FA-C3FE756DEF97}",
     "Language": "English(US)",
-    "Hash": "{52DF6C55-AE73-9DBE-C371-20C12DE1CB55}",
+    "Hash": "{2EB3FBCC-1903-76AD-841E-4AFDEFEC3081}",
     "ObjectPath": "VO_Simon_Gameplay_BossFight_03",
     "ShortName": "VO_Simon_Gameplay_BossFight_03",
     "Path": "Event/English(US)/VO_Simon_Gameplay_BossFight_03.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{B506B795-04F2-2643-5BD6-5DD8E3803C7A}"
+  "FileHash": "{D3741750-3110-1FA5-667E-7A9FCE9BE0C3}"
  }
 }

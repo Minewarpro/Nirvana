@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3750820532" Type="Bus" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}" Language="SFX" Hash="{1D81641C-381A-0F8F-C697-633DE4A1E13C}">
+		<SoundBank Id="3750820532" Type="Bus" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}" Language="SFX" Hash="{2C8AEF7B-80E8-B698-E8B7-B3B16BF7D7AE}">
 			<ObjectPath>REV_Large</ObjectPath>
 			<ShortName>REV_Large</ShortName>
 			<Path>Bus/REV_Large.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="3750820532" Name="REV_Large" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Large" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}"/>
+				<AuxBus Id="3750820532" Name="REV_Large" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Large" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1990128658"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EE988D1D-8E65-6503-9BAA-37D678493093}</FileHash>
+	<FileHash>{2634339B-932F-97E5-D416-70D6B5058E0E}</FileHash>
 </SoundBanksInfo>

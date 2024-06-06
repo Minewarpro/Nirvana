@@ -1,3 +1,6 @@
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3397355070	REV_LargeExtra			\Default Work Unit\Master Audio Bus\Effects\REV\REV_LargeExtra	
 
+Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
+

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9670EA26-B74F-4B4B-89B0-9866E7287DAF}",
     "Language": "SFX",
-    "Hash": "{3C2CD694-E2F5-A6A3-B208-400573152018}",
+    "Hash": "{8ABA24DB-511A-C8B4-4086-652D64FE79E2}",
     "ObjectPath": "AMB_Room_CorridorMedium_lp",
     "ShortName": "AMB_Room_CorridorMedium_lp",
     "Path": "Event/AMB_Room_CorridorMedium_lp.bnk",
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{581C8A98-07A0-C796-F781-87B8D2EBCB1A}"
+  "FileHash": "{0B3A0A69-857A-EDD9-FEED-245C64FAE773}"
  }
 }

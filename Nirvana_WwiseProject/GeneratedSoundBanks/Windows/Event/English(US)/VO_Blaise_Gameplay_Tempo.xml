@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="271131294" Type="Event" GUID="{AE3868ED-573A-461E-8507-AA60470E9B1A}" Language="English(US)" Hash="{723746DC-2736-C762-DFEC-F491CCE47779}">
+		<SoundBank Id="271131294" Type="Event" GUID="{AE3868ED-573A-461E-8507-AA60470E9B1A}" Language="English(US)" Hash="{4DB266CC-E454-1A86-D263-240F29BA187C}">
 			<ObjectPath>VO_Blaise_Gameplay_Tempo</ObjectPath>
 			<ShortName>VO_Blaise_Gameplay_Tempo</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Gameplay_Tempo.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{37A5EB17-F868-468F-8BB4-009191C8482A}</FileHash>
+	<FileHash>{E16D61D2-EE34-233A-8A57-38E1564F18FA}</FileHash>
 </SoundBanksInfo>

@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1709113120" Type="Bus" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}" Language="SFX" Hash="{49CD286E-AD81-1326-847E-B5A70DA3C97F}">
+		<SoundBank Id="1709113120" Type="Bus" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}" Language="SFX" Hash="{2E7B41E9-A544-626E-8AB6-3C072ECBDDE3}">
 			<ObjectPath>REV_CorridorMedium</ObjectPath>
 			<ShortName>REV_CorridorMedium</ShortName>
 			<Path>Bus/REV_CorridorMedium.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2265839006" Name="Not_A_Yellow_Submarine" ObjectPath="\Effects\Factory Effects\RoomVerb\Claustrophobia\Not_A_Yellow_Submarine" GUID="{B5719071-C58D-49FA-8766-B1D986D017EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="1709113120" Name="REV_CorridorMedium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorMedium" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}"/>
+				<AuxBus Id="1709113120" Name="REV_CorridorMedium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorMedium" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2265839006"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{556705FA-C099-4931-4853-F880CCAEE3D9}</FileHash>
+	<FileHash>{C264F067-3CBE-A05A-C286-93E4897C76DD}</FileHash>
 </SoundBanksInfo>

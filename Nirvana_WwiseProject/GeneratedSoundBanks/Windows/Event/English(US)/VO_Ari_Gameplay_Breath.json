@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0468A734-9547-42F4-B80E-337C2AC901A2}",
     "Language": "English(US)",
-    "Hash": "{DDC6F898-44F2-944D-B7FE-E5F5A3CFF30E}",
+    "Hash": "{B0798DDA-D53C-2D42-CB7F-1AB6510D9A5E}",
     "ObjectPath": "VO_Ari_Gameplay_Breath",
     "ShortName": "VO_Ari_Gameplay_Breath",
     "Path": "Event/English(US)/VO_Ari_Gameplay_Breath.bnk",
@@ -69,6 +69,6 @@
     ]
    }
   ],
-  "FileHash": "{A468E18A-14A7-6B49-948E-8DBF3F6F5028}"
+  "FileHash": "{ACD57172-701F-9F87-01CC-7C4D4D0AA976}"
  }
 }

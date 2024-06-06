@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{58AFC0A2-6D02-4C88-B231-7F9DA55067C6}",
     "Language": "English(US)",
-    "Hash": "{AEEF1061-6465-A8C8-FDD6-46FABF3B827A}",
+    "Hash": "{148A88EC-CB2F-2A9D-53CA-571411A7CDAA}",
     "ObjectPath": "VO_Anna_Story_11",
     "ShortName": "VO_Anna_Story_11",
     "Path": "Event/English(US)/VO_Anna_Story_11.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{027A3296-6C69-07D4-3571-C744A62C378B}"
+  "FileHash": "{497709C7-EEDF-E644-A688-6B2C46BE4CDE}"
  }
 }

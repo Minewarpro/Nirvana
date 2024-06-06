@@ -1,3 +1,6 @@
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	4061537322	REV_CorridorSmall			\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorSmall	
 
+Effect plug-ins	ID	Name	Type				Notes
+	2945072214	My_Closet	Wwise RoomVerb			
+

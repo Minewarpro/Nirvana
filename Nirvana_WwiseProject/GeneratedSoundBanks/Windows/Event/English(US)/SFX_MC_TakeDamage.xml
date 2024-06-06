@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4227750726" Type="Event" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" Language="English(US)" Hash="{7CAA0385-E8E1-698F-A4D2-A8FC21A16880}">
+		<SoundBank Id="4227750726" Type="Event" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" Language="English(US)" Hash="{522F0C69-E5A7-8EF3-D42F-7A4BD82C3AE6}">
 			<ObjectPath>SFX_MC_TakeDamage</ObjectPath>
 			<ShortName>SFX_MC_TakeDamage</ShortName>
 			<Path>Event/English(US)/SFX_MC_TakeDamage.bnk</Path>
@@ -97,5 +97,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AB231166-8EFE-BEE5-C85A-43E39AFB04D6}</FileHash>
+	<FileHash>{4B1F6E13-DE1E-CBA3-DF02-60278EDBD387}</FileHash>
 </SoundBanksInfo>
