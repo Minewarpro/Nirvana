@@ -41,6 +41,11 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	491419128	Meter (Custom)	Wwise Meter			
+	602546716	Room_Large	Wwise RoomVerb			
+	1990128658	Room_Medium	Wwise RoomVerb			
+	2265839006	Not_A_Yellow_Submarine	Wwise RoomVerb			
+	2945072214	My_Closet	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

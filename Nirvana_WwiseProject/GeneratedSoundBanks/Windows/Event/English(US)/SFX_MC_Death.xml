@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2592439718" Type="Event" GUID="{54FDB89F-2388-4096-8D03-014690817D75}" Language="English(US)" Hash="{01EF148E-C053-B221-9A96-0B343726457E}">
+		<SoundBank Id="2592439718" Type="Event" GUID="{54FDB89F-2388-4096-8D03-014690817D75}" Language="English(US)" Hash="{4B6FC55A-435F-D0C3-C233-7550512E59EC}">
 			<ObjectPath>SFX_MC_Death</ObjectPath>
 			<ShortName>SFX_MC_Death</ShortName>
 			<Path>Event/English(US)/SFX_MC_Death.bnk</Path>
@@ -67,5 +67,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5E335E3A-96A9-C4FF-31DB-94D365206530}</FileHash>
+	<FileHash>{49CEDA48-CFA5-BCB4-B4C8-BDF6BA040343}</FileHash>
 </SoundBanksInfo>

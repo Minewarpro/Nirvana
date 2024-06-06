@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="143716483" Type="Event" GUID="{844B1686-5B6E-4969-A0E1-C1EC55780849}" Language="English(US)" Hash="{B8A33B62-21F7-3DE7-5118-3CB6377EF6A9}">
+		<SoundBank Id="143716483" Type="Event" GUID="{844B1686-5B6E-4969-A0E1-C1EC55780849}" Language="English(US)" Hash="{11FDCD73-E40D-E4D4-A2D0-6BDE0933B7AD}">
 			<ObjectPath>VO_Ari_Gameplay_Drowning</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Drowning</ShortName>
 			<Path>Event/English(US)/VO_Ari_Gameplay_Drowning.bnk</Path>
@@ -85,7 +85,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="166528128" Type="Event" GUID="{AF94BA4C-E152-4CAB-B3E7-043F561D8661}" Language="English(US)" Hash="{A03A9BF9-A8AF-6A04-DA07-DD70EF2F0BC5}">
+		<SoundBank Id="166528128" Type="Event" GUID="{AF94BA4C-E152-4CAB-B3E7-043F561D8661}" Language="English(US)" Hash="{8CB84A6D-1A9F-E596-C493-775D8F525CE2}">
 			<ObjectPath>VO_Blaise_Story_08</ObjectPath>
 			<ShortName>VO_Blaise_Story_08</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_08.bnk</Path>
@@ -108,7 +108,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="166528129" Type="Event" GUID="{DB7AE044-04A1-435D-B138-5F942012C2FF}" Language="English(US)" Hash="{048E5DE7-D594-283D-ECEB-2AD8F977E2B2}">
+		<SoundBank Id="166528129" Type="Event" GUID="{DB7AE044-04A1-435D-B138-5F942012C2FF}" Language="English(US)" Hash="{5675D881-E10E-8814-63C8-7FD5AF7A95F2}">
 			<ObjectPath>VO_Blaise_Story_09</ObjectPath>
 			<ShortName>VO_Blaise_Story_09</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_09.bnk</Path>
@@ -131,7 +131,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="166528137" Type="Event" GUID="{E78951DF-BDC9-415E-8BF8-4D1ED02F5A79}" Language="English(US)" Hash="{0CA72FB9-C9D3-F5EB-0325-275772C51752}">
+		<SoundBank Id="166528137" Type="Event" GUID="{E78951DF-BDC9-415E-8BF8-4D1ED02F5A79}" Language="English(US)" Hash="{078C6866-619B-1EA7-EC3B-C779E1009ACA}">
 			<ObjectPath>VO_Blaise_Story_01</ObjectPath>
 			<ShortName>VO_Blaise_Story_01</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_01.bnk</Path>
@@ -154,7 +154,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="166528138" Type="Event" GUID="{2FBCB51F-CAFE-4004-A115-FA265B2B4ACB}" Language="English(US)" Hash="{B1D1B0AF-6869-960E-C8C6-D82B58E93CCC}">
+		<SoundBank Id="166528138" Type="Event" GUID="{2FBCB51F-CAFE-4004-A115-FA265B2B4ACB}" Language="English(US)" Hash="{3C546274-9618-11D2-E56A-F43172892170}">
 			<ObjectPath>VO_Blaise_Story_02</ObjectPath>
 			<ShortName>VO_Blaise_Story_02</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_02.bnk</Path>
@@ -177,7 +177,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="166528139" Type="Event" GUID="{F3A6FBAB-6CA8-4C31-98E9-7294D852F588}" Language="English(US)" Hash="{92B525AD-B70A-F1C8-4BBA-03035DD2CD50}">
+		<SoundBank Id="166528139" Type="Event" GUID="{F3A6FBAB-6CA8-4C31-98E9-7294D852F588}" Language="English(US)" Hash="{4E88684D-F474-9433-313B-36DCE50090FD}">
 			<ObjectPath>VO_Blaise_Story_03</ObjectPath>
 			<ShortName>VO_Blaise_Story_03</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_03.bnk</Path>
@@ -200,7 +200,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="166528140" Type="Event" GUID="{F1CD593E-E04C-4955-9087-46A97CB4FCE0}" Language="English(US)" Hash="{FE543914-34A4-6B4F-B96C-265ADC38F0EA}">
+		<SoundBank Id="166528140" Type="Event" GUID="{F1CD593E-E04C-4955-9087-46A97CB4FCE0}" Language="English(US)" Hash="{D75477C5-E730-B5B6-6CFE-48AF0438D1AD}">
 			<ObjectPath>VO_Blaise_Story_04</ObjectPath>
 			<ShortName>VO_Blaise_Story_04</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_04.bnk</Path>
@@ -223,7 +223,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="166528142" Type="Event" GUID="{B8C3520B-DB21-4758-BC89-FB2261E22A0E}" Language="English(US)" Hash="{2CAB11BA-AA1E-0CC0-A4E6-B3DC00C350A7}">
+		<SoundBank Id="166528142" Type="Event" GUID="{B8C3520B-DB21-4758-BC89-FB2261E22A0E}" Language="English(US)" Hash="{AC23A3BB-B18F-C7E8-2FCB-02CE7AB444B8}">
 			<ObjectPath>VO_Blaise_Story_06</ObjectPath>
 			<ShortName>VO_Blaise_Story_06</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_06.bnk</Path>
@@ -246,7 +246,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="183305842" Type="Event" GUID="{C631CC78-2A75-4DC6-8B09-306A0D73BFF0}" Language="English(US)" Hash="{E31C8805-112E-00AD-9D3E-155B4D566D70}">
+		<SoundBank Id="183305842" Type="Event" GUID="{C631CC78-2A75-4DC6-8B09-306A0D73BFF0}" Language="English(US)" Hash="{FE42E79E-0C69-A278-0DC7-663E4AC72AD9}">
 			<ObjectPath>VO_Blaise_Story_19</ObjectPath>
 			<ShortName>VO_Blaise_Story_19</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_19.bnk</Path>
@@ -269,7 +269,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="183305848" Type="Event" GUID="{806C1673-ED3B-4308-859E-240187C18CAF}" Language="English(US)" Hash="{8FF83CE9-BEC8-6B29-D16A-C77C12A3E3B7}">
+		<SoundBank Id="183305848" Type="Event" GUID="{806C1673-ED3B-4308-859E-240187C18CAF}" Language="English(US)" Hash="{DCBF006B-5752-BD54-2A31-B22759D05700}">
 			<ObjectPath>VO_Blaise_Story_13</ObjectPath>
 			<ShortName>VO_Blaise_Story_13</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_13.bnk</Path>
@@ -292,7 +292,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="183305849" Type="Event" GUID="{79A800C6-817E-4DC4-BA9B-5664527E6F66}" Language="English(US)" Hash="{0ED79F7C-D9F3-548C-CD98-605B7DB883E8}">
+		<SoundBank Id="183305849" Type="Event" GUID="{79A800C6-817E-4DC4-BA9B-5664527E6F66}" Language="English(US)" Hash="{5C921071-46CD-2EE1-2592-29667A9B5224}">
 			<ObjectPath>VO_Blaise_Story_12</ObjectPath>
 			<ShortName>VO_Blaise_Story_12</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_12.bnk</Path>
@@ -315,7 +315,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="183305851" Type="Event" GUID="{E937DC12-1ECC-4590-977D-31D06855E500}" Language="English(US)" Hash="{0250ECDB-8596-D43B-BFA0-3EA86D32C09B}">
+		<SoundBank Id="183305851" Type="Event" GUID="{E937DC12-1ECC-4590-977D-31D06855E500}" Language="English(US)" Hash="{AD275DB0-F190-5EF7-D951-57EB59B9FC01}">
 			<ObjectPath>VO_Blaise_Story_10</ObjectPath>
 			<ShortName>VO_Blaise_Story_10</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_10.bnk</Path>
@@ -338,7 +338,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="183305853" Type="Event" GUID="{73959EB7-94D7-4AF1-BDD3-3110426031D8}" Language="English(US)" Hash="{1CB16A94-51D3-FCA7-9BC3-DEAB7C489490}">
+		<SoundBank Id="183305853" Type="Event" GUID="{73959EB7-94D7-4AF1-BDD3-3110426031D8}" Language="English(US)" Hash="{858309E0-44EE-0F1F-1A90-2619EAD9C497}">
 			<ObjectPath>VO_Blaise_Story_16</ObjectPath>
 			<ShortName>VO_Blaise_Story_16</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_16.bnk</Path>
@@ -361,7 +361,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="183305854" Type="Event" GUID="{88C514B3-7909-4AE7-B8DF-678CD05D924E}" Language="English(US)" Hash="{089C30A1-F7B5-22C8-2129-8942316FD932}">
+		<SoundBank Id="183305854" Type="Event" GUID="{88C514B3-7909-4AE7-B8DF-678CD05D924E}" Language="English(US)" Hash="{23537BCE-5B72-3347-228B-BCBAF616779A}">
 			<ObjectPath>VO_Blaise_Story_15</ObjectPath>
 			<ShortName>VO_Blaise_Story_15</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_15.bnk</Path>
@@ -384,7 +384,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="200083439" Type="Event" GUID="{A3940E47-13FB-44AD-9D34-E6D0B7CE0B79}" Language="English(US)" Hash="{8B9901F5-9166-E6DA-E878-99A91FC015CB}">
+		<SoundBank Id="200083439" Type="Event" GUID="{A3940E47-13FB-44AD-9D34-E6D0B7CE0B79}" Language="English(US)" Hash="{81307D54-C58F-CB0A-E730-606F0DB67B43}">
 			<ObjectPath>VO_Blaise_Story_21</ObjectPath>
 			<ShortName>VO_Blaise_Story_21</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_21.bnk</Path>
@@ -407,7 +407,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="202396534" Type="Event" GUID="{EF498D69-BD7B-4ECE-B0F3-FE4CE56EE555}" Language="SFX" Hash="{78CD9A4C-0BB3-3D7C-3D48-9207165BBA17}">
+		<SoundBank Id="202396534" Type="Event" GUID="{EF498D69-BD7B-4ECE-B0F3-FE4CE56EE555}" Language="SFX" Hash="{148C03A9-642D-0192-E0E2-AB72C09D1947}">
 			<ObjectPath>AMB_Room_LargeExtra_lp</ObjectPath>
 			<ShortName>AMB_Room_LargeExtra_lp</ShortName>
 			<Path>Event/AMB_Room_LargeExtra_lp.bnk</Path>
@@ -430,7 +430,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="216860994" Type="Event" GUID="{8E9ACCFE-FF80-49AD-BD92-A753D67C91B1}" Language="English(US)" Hash="{A96852A4-E622-1578-2FD7-74A427854D1D}">
+		<SoundBank Id="216860994" Type="Event" GUID="{8E9ACCFE-FF80-49AD-BD92-A753D67C91B1}" Language="English(US)" Hash="{840FFCC9-D729-839A-F847-E8FDD2673F5C}">
 			<ObjectPath>VO_Blaise_Story_33</ObjectPath>
 			<ShortName>VO_Blaise_Story_33</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Story_33.bnk</Path>
@@ -476,7 +476,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="271131294" Type="Event" GUID="{AE3868ED-573A-461E-8507-AA60470E9B1A}" Language="English(US)" Hash="{723746DC-2736-C762-DFEC-F491CCE47779}">
+		<SoundBank Id="271131294" Type="Event" GUID="{AE3868ED-573A-461E-8507-AA60470E9B1A}" Language="English(US)" Hash="{4DB266CC-E454-1A86-D263-240F29BA187C}">
 			<ObjectPath>VO_Blaise_Gameplay_Tempo</ObjectPath>
 			<ShortName>VO_Blaise_Gameplay_Tempo</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Gameplay_Tempo.bnk</Path>
@@ -534,7 +534,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="340128844" Type="Event" GUID="{E87AF998-F0D7-4B0B-8887-36171662E7FD}" Language="English(US)" Hash="{2405C451-A815-30A5-4D1B-D2AB8744CFAE}">
+		<SoundBank Id="340128844" Type="Event" GUID="{E87AF998-F0D7-4B0B-8887-36171662E7FD}" Language="English(US)" Hash="{9E4B4FDC-F4AD-BC4E-AF23-ECC267DC4637}">
 			<ObjectPath>VO_Blaise_Gameplay_Bossfight_03</ObjectPath>
 			<ShortName>VO_Blaise_Gameplay_Bossfight_03</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Gameplay_Bossfight_03.bnk</Path>
@@ -557,7 +557,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="340128845" Type="Event" GUID="{A012DD56-AF11-4C4C-BD0A-8E57B1ED80B6}" Language="English(US)" Hash="{619F889F-25EA-8E33-E6C7-3AADE98F7ADC}">
+		<SoundBank Id="340128845" Type="Event" GUID="{A012DD56-AF11-4C4C-BD0A-8E57B1ED80B6}" Language="English(US)" Hash="{2399BEF0-0095-318F-F5FC-E83A92D57057}">
 			<ObjectPath>VO_Blaise_Gameplay_Bossfight_02</ObjectPath>
 			<ShortName>VO_Blaise_Gameplay_Bossfight_02</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Gameplay_Bossfight_02.bnk</Path>
@@ -580,7 +580,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="340128846" Type="Event" GUID="{698CB1A8-3654-4D92-9783-CEC56726CAA7}" Language="English(US)" Hash="{CE91B515-EFBA-BFB5-FE00-12DB456B3333}">
+		<SoundBank Id="340128846" Type="Event" GUID="{698CB1A8-3654-4D92-9783-CEC56726CAA7}" Language="English(US)" Hash="{C4588A9B-2D3C-11D1-2486-2FF18596B4FD}">
 			<ObjectPath>VO_Blaise_Gameplay_Bossfight_01</ObjectPath>
 			<ShortName>VO_Blaise_Gameplay_Bossfight_01</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Gameplay_Bossfight_01.bnk</Path>
@@ -603,7 +603,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="351521770" Type="Event" GUID="{313E5E7F-1693-4515-ABAE-730825870ED6}" Language="English(US)" Hash="{DC7E0D7F-1FB9-84D5-0A77-D93ECEDBFACF}">
+		<SoundBank Id="351521770" Type="Event" GUID="{313E5E7F-1693-4515-ABAE-730825870ED6}" Language="English(US)" Hash="{44E65495-5D71-0A18-081C-71B7799F76E6}">
 			<ObjectPath>VO_Anna_Gameplay_No</ObjectPath>
 			<ShortName>VO_Anna_Gameplay_No</ShortName>
 			<Path>Event/English(US)/VO_Anna_Gameplay_No.bnk</Path>
@@ -626,7 +626,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="419667425" Type="Event" GUID="{6EEDCA55-D883-4F99-A9C1-910678A149C8}" Language="English(US)" Hash="{F9C0188C-B78B-598D-CA02-5DC0F74B4DCE}">
+		<SoundBank Id="419667425" Type="Event" GUID="{6EEDCA55-D883-4F99-A9C1-910678A149C8}" Language="English(US)" Hash="{C75DC9C2-DA22-10D2-CEE2-BA0ADAFFED75}">
 			<ObjectPath>VO_Simon_Story_01</ObjectPath>
 			<ShortName>VO_Simon_Story_01</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_01.bnk</Path>
@@ -649,7 +649,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="419667426" Type="Event" GUID="{5B05EF20-780C-46D1-A388-F4B350761B55}" Language="English(US)" Hash="{C453FF24-C5CE-3DBD-5463-077F7EF75374}">
+		<SoundBank Id="419667426" Type="Event" GUID="{5B05EF20-780C-46D1-A388-F4B350761B55}" Language="English(US)" Hash="{D4F14489-40BB-1DD9-7A1E-C11B54DACCEC}">
 			<ObjectPath>VO_Simon_Story_02</ObjectPath>
 			<ShortName>VO_Simon_Story_02</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_02.bnk</Path>
@@ -672,7 +672,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="419667427" Type="Event" GUID="{155E0B7E-541B-44EF-BD53-A9BCC0473B6F}" Language="English(US)" Hash="{BE465106-7E77-DA9B-74D3-6A3185C84CC6}">
+		<SoundBank Id="419667427" Type="Event" GUID="{155E0B7E-541B-44EF-BD53-A9BCC0473B6F}" Language="English(US)" Hash="{63C86F8F-9301-B715-8D4B-5C96DEEFB4C5}">
 			<ObjectPath>VO_Simon_Story_03</ObjectPath>
 			<ShortName>VO_Simon_Story_03</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_03.bnk</Path>
@@ -695,7 +695,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="419667428" Type="Event" GUID="{53183060-51E0-44E4-A164-00323D1A68E5}" Language="English(US)" Hash="{56B2B986-9EF3-9D32-5453-5FCA5CEB12E1}">
+		<SoundBank Id="419667428" Type="Event" GUID="{53183060-51E0-44E4-A164-00323D1A68E5}" Language="English(US)" Hash="{484A5935-E374-91B2-D358-8C06129A71F7}">
 			<ObjectPath>VO_Simon_Story_04</ObjectPath>
 			<ShortName>VO_Simon_Story_04</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_04.bnk</Path>
@@ -718,7 +718,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="419667429" Type="Event" GUID="{312735ED-7B7F-4D1E-82D6-C962CB025021}" Language="English(US)" Hash="{EBE8CC2B-C818-784C-4CA5-E3403C5BD2A4}">
+		<SoundBank Id="419667429" Type="Event" GUID="{312735ED-7B7F-4D1E-82D6-C962CB025021}" Language="English(US)" Hash="{1FCF88D2-B49B-4C10-963F-AA225EE8C436}">
 			<ObjectPath>VO_Simon_Story_05</ObjectPath>
 			<ShortName>VO_Simon_Story_05</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_05.bnk</Path>
@@ -741,7 +741,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="419667433" Type="Event" GUID="{379809B8-81AE-4CE5-A6FA-EDD0E87FD57E}" Language="English(US)" Hash="{2FDAA902-99CE-4E4F-5D35-845E1578DA19}">
+		<SoundBank Id="419667433" Type="Event" GUID="{379809B8-81AE-4CE5-A6FA-EDD0E87FD57E}" Language="English(US)" Hash="{502FC34F-6D14-3926-D758-06985305FE4B}">
 			<ObjectPath>VO_Simon_Story_09</ObjectPath>
 			<ShortName>VO_Simon_Story_09</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_09.bnk</Path>
@@ -764,7 +764,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="436445008" Type="Event" GUID="{032189B6-370C-4956-AE3E-BA66072346CE}" Language="English(US)" Hash="{08704590-9ADC-1A39-623D-B9A8589224AE}">
+		<SoundBank Id="436445008" Type="Event" GUID="{032189B6-370C-4956-AE3E-BA66072346CE}" Language="English(US)" Hash="{13E30ED3-5C1F-E717-FC1D-476A708202E4}">
 			<ObjectPath>VO_Simon_Story_13</ObjectPath>
 			<ShortName>VO_Simon_Story_13</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_13.bnk</Path>
@@ -787,7 +787,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="436445009" Type="Event" GUID="{9D57E4FD-6AAF-4062-9E4B-581910E82D25}" Language="English(US)" Hash="{EA2E6396-C2AD-7D43-3796-375A27528694}">
+		<SoundBank Id="436445009" Type="Event" GUID="{9D57E4FD-6AAF-4062-9E4B-581910E82D25}" Language="English(US)" Hash="{34315EB1-C91C-3963-5974-0DEF01D94B34}">
 			<ObjectPath>VO_Simon_Story_12</ObjectPath>
 			<ShortName>VO_Simon_Story_12</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_12.bnk</Path>
@@ -810,7 +810,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="436445010" Type="Event" GUID="{E4FD996C-9FC2-4BC1-893B-D03C641A9E0E}" Language="English(US)" Hash="{FA7CC88E-A3AF-A990-0D5D-1BDB3A58EC03}">
+		<SoundBank Id="436445010" Type="Event" GUID="{E4FD996C-9FC2-4BC1-893B-D03C641A9E0E}" Language="English(US)" Hash="{D5AE151B-04F4-49CB-0D65-DDA17E98668B}">
 			<ObjectPath>VO_Simon_Story_11</ObjectPath>
 			<ShortName>VO_Simon_Story_11</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_11.bnk</Path>
@@ -833,7 +833,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="436445011" Type="Event" GUID="{1541DB56-71AE-4AD1-AC88-4DEB5EBBA48E}" Language="English(US)" Hash="{07487AE4-92AB-D32F-A0C7-C1309A12785D}">
+		<SoundBank Id="436445011" Type="Event" GUID="{1541DB56-71AE-4AD1-AC88-4DEB5EBBA48E}" Language="English(US)" Hash="{4ECDA889-665C-0B1E-5CEC-720A944C02DE}">
 			<ObjectPath>VO_Simon_Story_10</ObjectPath>
 			<ShortName>VO_Simon_Story_10</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_10.bnk</Path>
@@ -856,7 +856,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="436445013" Type="Event" GUID="{ABAD9386-F614-4A0A-97AF-1280960D05CF}" Language="English(US)" Hash="{967F217E-E411-1DD8-C134-839A7ABC0014}">
+		<SoundBank Id="436445013" Type="Event" GUID="{ABAD9386-F614-4A0A-97AF-1280960D05CF}" Language="English(US)" Hash="{1E62C826-309C-2EC5-9B83-A1D1B1B20FF4}">
 			<ObjectPath>VO_Simon_Story_16</ObjectPath>
 			<ShortName>VO_Simon_Story_16</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_16.bnk</Path>
@@ -879,7 +879,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="436445014" Type="Event" GUID="{1CC7BC8C-5619-49AB-8483-BDF3C7AAEAE1}" Language="English(US)" Hash="{970313A2-26C0-CA38-1C7C-77C564B22973}">
+		<SoundBank Id="436445014" Type="Event" GUID="{1CC7BC8C-5619-49AB-8483-BDF3C7AAEAE1}" Language="English(US)" Hash="{BA2BA424-A331-BD2A-490A-845236EA9B09}">
 			<ObjectPath>VO_Simon_Story_15</ObjectPath>
 			<ShortName>VO_Simon_Story_15</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_15.bnk</Path>
@@ -902,7 +902,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="453222596" Type="Event" GUID="{BF1080CC-FC8C-4B4C-BA1B-6D246FA878B2}" Language="English(US)" Hash="{AFE31914-636D-6F7A-E660-895C92B50BE9}">
+		<SoundBank Id="453222596" Type="Event" GUID="{BF1080CC-FC8C-4B4C-BA1B-6D246FA878B2}" Language="English(US)" Hash="{D77978C5-01C4-459D-B7BD-EE57FEA8C12C}">
 			<ObjectPath>VO_Simon_Story_22</ObjectPath>
 			<ShortName>VO_Simon_Story_22</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_22.bnk</Path>
@@ -925,7 +925,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="453222599" Type="Event" GUID="{2A79FCBE-B5CD-4BC2-B902-D777BFDFBF91}" Language="English(US)" Hash="{F3E9AC46-5512-2BBE-59A0-EEDEB546425D}">
+		<SoundBank Id="453222599" Type="Event" GUID="{2A79FCBE-B5CD-4BC2-B902-D777BFDFBF91}" Language="English(US)" Hash="{62960E7D-1DAF-A9AD-55BE-EBD9ACFAE5CF}">
 			<ObjectPath>VO_Simon_Story_21</ObjectPath>
 			<ShortName>VO_Simon_Story_21</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_21.bnk</Path>
@@ -948,7 +948,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="470000317" Type="Event" GUID="{F20C35C5-A27C-40E5-9C27-A263D5E63BE6}" Language="English(US)" Hash="{B2021548-09B2-6C4C-42D9-7DD1570768A6}">
+		<SoundBank Id="470000317" Type="Event" GUID="{F20C35C5-A27C-40E5-9C27-A263D5E63BE6}" Language="English(US)" Hash="{2059645A-D094-AEF2-8A95-63C223CF304C}">
 			<ObjectPath>VO_Simon_Story_34</ObjectPath>
 			<ShortName>VO_Simon_Story_34</ShortName>
 			<Path>Event/English(US)/VO_Simon_Story_34.bnk</Path>
@@ -1012,7 +1012,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="535776511" Type="Event" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" Language="SFX" Hash="{9CB795BA-0BBB-0D79-6D90-FED4D2EB6BE6}">
+		<SoundBank Id="535776511" Type="Event" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" Language="SFX" Hash="{0D12102F-18F1-8623-D892-E96907FC4A4B}">
 			<ObjectPath>SFX_GPE_Launcher_Jump</ObjectPath>
 			<ShortName>SFX_GPE_Launcher_Jump</ShortName>
 			<Path>Event/SFX_GPE_Launcher_Jump.bnk</Path>
@@ -1034,7 +1034,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="535776511" Name="SFX_GPE_Launcher_Jump" ObjectPath="\Events\SFX\SFX_GPE\SFX_GPE_Launcher_Jump" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.91700405" DurationMax="1.0905077">
+				<Event Id="535776511" Name="SFX_GPE_Launcher_Jump" ObjectPath="\Events\SFX\SFX_GPE\SFX_GPE_Launcher_Jump" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.91700405" DurationMax="1.0905077">
 					<MediaRefs>
 						<MediaRef Id="188956989"/>
 						<MediaRef Id="341882187"/>
@@ -1047,7 +1047,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="577502352" Type="Event" GUID="{5488BE8E-DDB8-4BBA-8032-D59549B43C49}" Language="English(US)" Hash="{33695D9A-65B9-64B5-847D-A8872C745C3E}">
+		<SoundBank Id="577502352" Type="Event" GUID="{5488BE8E-DDB8-4BBA-8032-D59549B43C49}" Language="English(US)" Hash="{23338A1A-D29D-5CBD-113B-E07FC6E74B3E}">
 			<ObjectPath>VO_Blaise_Gameplay_Run</ObjectPath>
 			<ShortName>VO_Blaise_Gameplay_Run</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Gameplay_Run.bnk</Path>
@@ -1070,7 +1070,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="617676896" Type="Event" GUID="{06E8F036-5300-4CBE-9360-4DFF3221E7C8}" Language="English(US)" Hash="{EB6FF9DD-C193-EE31-CB28-19BEEFDDE2F7}">
+		<SoundBank Id="617676896" Type="Event" GUID="{06E8F036-5300-4CBE-9360-4DFF3221E7C8}" Language="English(US)" Hash="{5F996DCE-88A0-DECA-1C0F-72A6BBFC6A2F}">
 			<ObjectPath>VO_Anna_Story_24</ObjectPath>
 			<ShortName>VO_Anna_Story_24</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_24.bnk</Path>
@@ -1093,7 +1093,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="617676897" Type="Event" GUID="{0AE39232-76C9-4CF8-9125-81E7A72CC52C}" Language="English(US)" Hash="{D82DB345-6B61-F153-1251-0B981BB2B2F3}">
+		<SoundBank Id="617676897" Type="Event" GUID="{0AE39232-76C9-4CF8-9125-81E7A72CC52C}" Language="English(US)" Hash="{4D0CCFC2-902A-0363-88A7-D435B014A57A}">
 			<ObjectPath>VO_Anna_Story_25</ObjectPath>
 			<ShortName>VO_Anna_Story_25</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_25.bnk</Path>
@@ -1116,7 +1116,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="634454480" Type="Event" GUID="{9B3D03A5-76B3-4AEE-ACA5-6862CBA47135}" Language="English(US)" Hash="{37A0E9EC-BCE6-4DDE-360C-F4ABD0902D68}">
+		<SoundBank Id="634454480" Type="Event" GUID="{9B3D03A5-76B3-4AEE-ACA5-6862CBA47135}" Language="English(US)" Hash="{70410BDC-372A-1D64-BFDB-299A43E8E268}">
 			<ObjectPath>VO_Anna_Story_37</ObjectPath>
 			<ShortName>VO_Anna_Story_37</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_37.bnk</Path>
@@ -1139,7 +1139,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="651232066" Type="Event" GUID="{A6DE9CA9-253A-44B5-B10F-C6913CE37A3F}" Language="English(US)" Hash="{4F6880CB-CB97-1EF0-B726-C9FB9BDC552C}">
+		<SoundBank Id="651232066" Type="Event" GUID="{A6DE9CA9-253A-44B5-B10F-C6913CE37A3F}" Language="English(US)" Hash="{9D354D1B-8214-1B81-C302-4899E749944F}">
 			<ObjectPath>VO_Anna_Story_08</ObjectPath>
 			<ShortName>VO_Anna_Story_08</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_08.bnk</Path>
@@ -1162,7 +1162,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="651232072" Type="Event" GUID="{9D813595-F2D5-4FAF-8D63-3B98F99906A6}" Language="English(US)" Hash="{E19C3851-87BF-B47F-BDD7-99F70C340EB5}">
+		<SoundBank Id="651232072" Type="Event" GUID="{9D813595-F2D5-4FAF-8D63-3B98F99906A6}" Language="English(US)" Hash="{55B6514D-8FD5-61A0-1637-3D73BB564E83}">
 			<ObjectPath>VO_Anna_Story_02</ObjectPath>
 			<ShortName>VO_Anna_Story_02</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_02.bnk</Path>
@@ -1185,7 +1185,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="651232073" Type="Event" GUID="{69061FBB-71F2-42F4-BA21-D8BCE71903FB}" Language="English(US)" Hash="{6B21BA16-8C99-EA3E-B167-5A1A66FCDD76}">
+		<SoundBank Id="651232073" Type="Event" GUID="{69061FBB-71F2-42F4-BA21-D8BCE71903FB}" Language="English(US)" Hash="{B8D91B8B-0C7B-5FBF-9ED1-8E8E8DA9311E}">
 			<ObjectPath>VO_Anna_Story_03</ObjectPath>
 			<ShortName>VO_Anna_Story_03</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_03.bnk</Path>
@@ -1208,7 +1208,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="651232075" Type="Event" GUID="{D92FD9D5-3363-41E0-9B5F-633DCDE03AFE}" Language="English(US)" Hash="{5D6C3D34-5C28-DBA9-618A-02417E72B489}">
+		<SoundBank Id="651232075" Type="Event" GUID="{D92FD9D5-3363-41E0-9B5F-633DCDE03AFE}" Language="English(US)" Hash="{E1BAE025-EA58-A527-27F1-CABA7F9495E8}">
 			<ObjectPath>VO_Anna_Story_01</ObjectPath>
 			<ShortName>VO_Anna_Story_01</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_01.bnk</Path>
@@ -1231,7 +1231,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="651232076" Type="Event" GUID="{778441E5-19D5-426D-A398-C0BBECDE6B02}" Language="English(US)" Hash="{9ABBF6B0-CDC5-6B37-EB6C-0C993605A9B0}">
+		<SoundBank Id="651232076" Type="Event" GUID="{778441E5-19D5-426D-A398-C0BBECDE6B02}" Language="English(US)" Hash="{3D2CD5C0-F67F-105F-4ED0-3DE7AC1F5B54}">
 			<ObjectPath>VO_Anna_Story_06</ObjectPath>
 			<ShortName>VO_Anna_Story_06</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_06.bnk</Path>
@@ -1254,7 +1254,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="651232077" Type="Event" GUID="{79208419-2D00-4641-8DA6-10AA4CB9F383}" Language="English(US)" Hash="{E58A3194-E5CA-71E8-5705-0635284C94B8}">
+		<SoundBank Id="651232077" Type="Event" GUID="{79208419-2D00-4641-8DA6-10AA4CB9F383}" Language="English(US)" Hash="{57BFCEFD-C8A7-3B28-801B-6349C0B314B7}">
 			<ObjectPath>VO_Anna_Story_07</ObjectPath>
 			<ShortName>VO_Anna_Story_07</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_07.bnk</Path>
@@ -1277,7 +1277,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="651232078" Type="Event" GUID="{25E51580-617B-4F6E-9453-FDFB18E492D9}" Language="English(US)" Hash="{1414EC47-C4B7-B2A4-3546-1DD736FD0BD4}">
+		<SoundBank Id="651232078" Type="Event" GUID="{25E51580-617B-4F6E-9453-FDFB18E492D9}" Language="English(US)" Hash="{880C2EC3-045A-3F5C-790F-364BF5C01CD5}">
 			<ObjectPath>VO_Anna_Story_04</ObjectPath>
 			<ShortName>VO_Anna_Story_04</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_04.bnk</Path>
@@ -1300,7 +1300,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="668009781" Type="Event" GUID="{50FFFC9C-EB01-4161-BC1E-FC87E318EAF1}" Language="English(US)" Hash="{4073A2CD-A1DD-8B36-B9B8-461994D12110}">
+		<SoundBank Id="668009781" Type="Event" GUID="{50FFFC9C-EB01-4161-BC1E-FC87E318EAF1}" Language="English(US)" Hash="{8DEF3817-E1A7-2835-2730-E63FF5BEB020}">
 			<ObjectPath>VO_Anna_Story_18</ObjectPath>
 			<ShortName>VO_Anna_Story_18</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_18.bnk</Path>
@@ -1323,7 +1323,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="668009786" Type="Event" GUID="{461A1EAF-6B20-4906-BDE2-F186B0A11C55}" Language="English(US)" Hash="{346B6A58-E743-7BB8-4561-8678427BA581}">
+		<SoundBank Id="668009786" Type="Event" GUID="{461A1EAF-6B20-4906-BDE2-F186B0A11C55}" Language="English(US)" Hash="{7173F044-237A-20D8-751C-607EEACFA658}">
 			<ObjectPath>VO_Anna_Story_17</ObjectPath>
 			<ShortName>VO_Anna_Story_17</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_17.bnk</Path>
@@ -1346,7 +1346,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="668009788" Type="Event" GUID="{58AFC0A2-6D02-4C88-B231-7F9DA55067C6}" Language="English(US)" Hash="{AEEF1061-6465-A8C8-FDD6-46FABF3B827A}">
+		<SoundBank Id="668009788" Type="Event" GUID="{58AFC0A2-6D02-4C88-B231-7F9DA55067C6}" Language="English(US)" Hash="{148A88EC-CB2F-2A9D-53CA-571411A7CDAA}">
 			<ObjectPath>VO_Anna_Story_11</ObjectPath>
 			<ShortName>VO_Anna_Story_11</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_11.bnk</Path>
@@ -1369,7 +1369,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="668009789" Type="Event" GUID="{BCE7EFD4-E645-4740-8106-CEF301E7A053}" Language="English(US)" Hash="{04C6AB0F-A0B4-DB89-C836-385CF7BB299B}">
+		<SoundBank Id="668009789" Type="Event" GUID="{BCE7EFD4-E645-4740-8106-CEF301E7A053}" Language="English(US)" Hash="{3FFD5E57-9AE9-A7B6-CA1E-BEA4436DB533}">
 			<ObjectPath>VO_Anna_Story_10</ObjectPath>
 			<ShortName>VO_Anna_Story_10</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_10.bnk</Path>
@@ -1392,7 +1392,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="668009790" Type="Event" GUID="{6E237887-D345-43C5-8BA0-37FAAB0B413D}" Language="English(US)" Hash="{82532AC2-602F-EDCA-28A1-FD009EA9C23C}">
+		<SoundBank Id="668009790" Type="Event" GUID="{6E237887-D345-43C5-8BA0-37FAAB0B413D}" Language="English(US)" Hash="{9CC11B95-B0D6-F057-DBE2-57D486259615}">
 			<ObjectPath>VO_Anna_Story_13</ObjectPath>
 			<ShortName>VO_Anna_Story_13</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_13.bnk</Path>
@@ -1758,7 +1758,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1314837374" Type="Event" GUID="{146637F4-D095-4CEE-86EB-0411C60012A0}" Language="English(US)" Hash="{909FF346-EC04-DE44-186E-626A77B5987D}">
+		<SoundBank Id="1314837374" Type="Event" GUID="{146637F4-D095-4CEE-86EB-0411C60012A0}" Language="English(US)" Hash="{C6019E8E-8865-CCD7-6795-A8E7673A60C0}">
 			<ObjectPath>VO_Diana_Gameplay_Goodjob</ObjectPath>
 			<ShortName>VO_Diana_Gameplay_Goodjob</ShortName>
 			<Path>Event/English(US)/VO_Diana_Gameplay_Goodjob.bnk</Path>
@@ -1793,7 +1793,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1316916725" Type="Event" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" Language="English(US)" Hash="{9F43597E-B15D-3F38-AC35-E2FBBA810038}">
+		<SoundBank Id="1316916725" Type="Event" GUID="{F4B638BA-62FD-48CE-AB2D-A254582E0FB2}" Language="English(US)" Hash="{08E25F98-9C39-AFE2-2ACB-D73E11BF842F}">
 			<ObjectPath>VO_Ari_Gameplay_Jump</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Jump</ShortName>
 			<Path>Event/English(US)/VO_Ari_Gameplay_Jump.bnk</Path>
@@ -1828,7 +1828,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{1D0DDDCC-D631-3DC6-76A4-BF6DE6633578}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{C2A3D035-21B1-65E6-2E61-E6231F2C0653}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -1836,6 +1836,13 @@
 				<Custom>
 					<Plugin Id="491419128" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\SFX\SFX_MC_Weapon\[Effect Slot [0]: (Meter)]\Meter (Custom)" GUID="{417C41AE-A40F-4257-BE72-E499229A6261}" LibName="Wwise Meter" LibId="8454147"/>
 				</Custom>
+				<ShareSets>
+					<Plugin Id="602546716" Name="Room_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Large" GUID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2265839006" Name="Not_A_Yellow_Submarine" ObjectPath="\Effects\Factory Effects\RoomVerb\Claustrophobia\Not_A_Yellow_Submarine" GUID="{B5719071-C58D-49FA-8766-B1D986D017EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2945072214" Name="My_Closet" ObjectPath="\Effects\Factory Effects\RoomVerb\Claustrophobia\My_Closet" GUID="{384A82A1-3C92-4AC5-AFC2-474F2080642C}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{68B54D53-2D39-469A-80CA-ACB12F1275D5}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{3C06FC5A-7E4B-4091-875D-AE38F353ADD5}" LibName="System" LibId="11403271"/>
@@ -1861,11 +1868,41 @@
 				<Bus Id="3991942870" Name="MUSIC" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC" GUID="{259C0FDF-0A43-4EF9-953B-97C77523ACD6}"/>
 			</Busses>
 			<AuxBusses>
-				<AuxBus Id="1709113120" Name="REV_CorridorMedium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorMedium" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}"/>
-				<AuxBus Id="3397355070" Name="REV_LargeExtra" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_LargeExtra" GUID="{021A88FF-E165-4DEF-B712-841FED23080F}"/>
-				<AuxBus Id="3549141946" Name="REV_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Medium" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}"/>
-				<AuxBus Id="3750820532" Name="REV_Large" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Large" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}"/>
-				<AuxBus Id="4061537322" Name="REV_CorridorSmall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorSmall" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}"/>
+				<AuxBus Id="1709113120" Name="REV_CorridorMedium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorMedium" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2265839006"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3397355070" Name="REV_LargeExtra" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_LargeExtra" GUID="{021A88FF-E165-4DEF-B712-841FED23080F}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3549141946" Name="REV_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Medium" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3750820532" Name="REV_Large" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Large" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1990128658"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4061537322" Name="REV_CorridorSmall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorSmall" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2945072214"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="192836257" Name="RTPC_UI_VO" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_VO" GUID="{446D2A29-793D-4B5C-9B6B-98B00E2B6658}"/>
@@ -1917,7 +1954,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1392877436" Type="Event" GUID="{42B1E8D9-E28F-4D35-A73E-F9E0E7104D8F}" Language="English(US)" Hash="{3B473909-231B-FCB0-6427-317567779EA1}">
+		<SoundBank Id="1392877436" Type="Event" GUID="{42B1E8D9-E28F-4D35-A73E-F9E0E7104D8F}" Language="English(US)" Hash="{C90EB98C-A39C-AB6D-DA6B-1000367E8CD2}">
 			<ObjectPath>VO_Diana_Gameplay_02</ObjectPath>
 			<ShortName>VO_Diana_Gameplay_02</ShortName>
 			<Path>Event/English(US)/VO_Diana_Gameplay_02.bnk</Path>
@@ -1940,7 +1977,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1392877437" Type="Event" GUID="{7E3AA543-270E-444C-865B-4BA81F6A5800}" Language="English(US)" Hash="{CF033115-D2EF-67B1-6812-25B40F7125E9}">
+		<SoundBank Id="1392877437" Type="Event" GUID="{7E3AA543-270E-444C-865B-4BA81F6A5800}" Language="English(US)" Hash="{ADB7210C-9BC8-E97B-57BA-E65F4BA1056E}">
 			<ObjectPath>VO_Diana_Gameplay_03</ObjectPath>
 			<ShortName>VO_Diana_Gameplay_03</ShortName>
 			<Path>Event/English(US)/VO_Diana_Gameplay_03.bnk</Path>
@@ -1963,7 +2000,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1392877439" Type="Event" GUID="{3704B11E-AD41-4823-A04A-0FFB5A82F2C1}" Language="English(US)" Hash="{245D8AEE-1286-5AD9-7A44-FBB34B50F150}">
+		<SoundBank Id="1392877439" Type="Event" GUID="{3704B11E-AD41-4823-A04A-0FFB5A82F2C1}" Language="English(US)" Hash="{B6121558-6906-0216-F9A9-A888A4831AA1}">
 			<ObjectPath>VO_Diana_Gameplay_01</ObjectPath>
 			<ShortName>VO_Diana_Gameplay_01</ShortName>
 			<Path>Event/English(US)/VO_Diana_Gameplay_01.bnk</Path>
@@ -1986,7 +2023,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1418405702" Type="Event" GUID="{70E37884-3CEF-492F-9647-372F133334D1}" Language="English(US)" Hash="{FDE61D8C-9295-D098-0E5A-EA4801B116C6}">
+		<SoundBank Id="1418405702" Type="Event" GUID="{70E37884-3CEF-492F-9647-372F133334D1}" Language="English(US)" Hash="{A512E178-9E4A-5880-5F0E-BDE04C948B93}">
 			<ObjectPath>VO_Simon_Gameplay_Tempo</ObjectPath>
 			<ShortName>VO_Simon_Gameplay_Tempo</ShortName>
 			<Path>Event/English(US)/VO_Simon_Gameplay_Tempo.bnk</Path>
@@ -2009,7 +2046,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1429928469" Type="Event" GUID="{5637DC57-1610-4B5B-B5CA-1D558668C593}" Language="English(US)" Hash="{A8107D7D-CBD9-183E-BE9C-C1F688367023}">
+		<SoundBank Id="1429928469" Type="Event" GUID="{5637DC57-1610-4B5B-B5CA-1D558668C593}" Language="English(US)" Hash="{078E448D-967B-14DB-A705-C3B9DC31CA5A}">
 			<ObjectPath>VO_Anna_Gameplay_Goodjob</ObjectPath>
 			<ShortName>VO_Anna_Gameplay_Goodjob</ShortName>
 			<Path>Event/English(US)/VO_Anna_Gameplay_Goodjob.bnk</Path>
@@ -2032,7 +2069,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1461763015" Type="Event" GUID="{7D5E7F04-C163-42CA-9E0E-233DFC4B83A9}" Language="SFX" Hash="{22FC6AC6-AD4F-540B-E8E6-DACA53C60877}">
+		<SoundBank Id="1461763015" Type="Event" GUID="{7D5E7F04-C163-42CA-9E0E-233DFC4B83A9}" Language="SFX" Hash="{D055C061-05ED-50C3-74D7-A0EC9A1A52D7}">
 			<ObjectPath>AMB_TorchBlue_lp</ObjectPath>
 			<ShortName>AMB_TorchBlue_lp</ShortName>
 			<Path>Event/AMB_TorchBlue_lp.bnk</Path>
@@ -2044,7 +2081,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1461763015" Name="AMB_TorchBlue_lp" ObjectPath="\Events\AMB\AMB_Torch\AMB_TorchBlue_lp" GUID="{7D5E7F04-C163-42CA-9E0E-233DFC4B83A9}" MaxAttenuation="2500" DurationType="Infinite">
+				<Event Id="1461763015" Name="AMB_TorchBlue_lp" ObjectPath="\Events\AMB\AMB_Torch\AMB_TorchBlue_lp" GUID="{7D5E7F04-C163-42CA-9E0E-233DFC4B83A9}" MaxAttenuation="1500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="509977302"/>
 					</MediaRefs>
@@ -2104,7 +2141,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1467256133" Type="Event" GUID="{9B1DA301-FF1A-4893-A896-70C54ADCCC91}" Language="English(US)" Hash="{BC825DF4-E988-AEDF-DB94-1883142E79EA}">
+		<SoundBank Id="1467256133" Type="Event" GUID="{9B1DA301-FF1A-4893-A896-70C54ADCCC91}" Language="English(US)" Hash="{70C56E2D-AB70-F098-73D3-E9FD1E9B0DFA}">
 			<ObjectPath>VO_Ari_Story_13P1</ObjectPath>
 			<ShortName>VO_Ari_Story_13P1</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_13P1.bnk</Path>
@@ -2127,7 +2164,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1467256134" Type="Event" GUID="{BAA7EAC8-E738-4419-A000-14F315E339C6}" Language="English(US)" Hash="{7915FD1E-1B9C-5574-7DE4-CA1FD8E36442}">
+		<SoundBank Id="1467256134" Type="Event" GUID="{BAA7EAC8-E738-4419-A000-14F315E339C6}" Language="English(US)" Hash="{EE9C832F-758A-3C4C-2915-6275F72271EE}">
 			<ObjectPath>VO_Ari_Story_13P2</ObjectPath>
 			<ShortName>VO_Ari_Story_13P2</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_13P2.bnk</Path>
@@ -2261,7 +2298,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1532872020" Type="Event" GUID="{073692BA-1D60-4760-82EF-D426063131AB}" Language="English(US)" Hash="{ED6BB0A3-E37C-9F42-1E30-3ABDB1BA7395}">
+		<SoundBank Id="1532872020" Type="Event" GUID="{073692BA-1D60-4760-82EF-D426063131AB}" Language="English(US)" Hash="{13D9D452-6FED-B37E-6592-0094539A1965}">
 			<ObjectPath>VO_Blaise_Gameplay_No</ObjectPath>
 			<ShortName>VO_Blaise_Gameplay_No</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Gameplay_No.bnk</Path>
@@ -2290,7 +2327,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1559084621" Type="Event" GUID="{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}" Language="English(US)" Hash="{EF117A30-8761-75A8-B9D5-84B8FD997FE2}">
+		<SoundBank Id="1559084621" Type="Event" GUID="{2382F4BD-108A-4F72-A0CC-9C37A87ADD75}" Language="English(US)" Hash="{9D4A3141-DBE4-9127-D8C1-016464F4E9CD}">
 			<ObjectPath>VO_ENMMidRange_Death</ObjectPath>
 			<ShortName>VO_ENMMidRange_Death</ShortName>
 			<Path>Event/English(US)/VO_ENMMidRange_Death.bnk</Path>
@@ -2325,7 +2362,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1621795231" Type="Event" GUID="{204211B5-C26C-48ED-B0C4-A5EB27971367}" Language="English(US)" Hash="{4A8A79C7-6B36-46FD-6555-E141844321EA}">
+		<SoundBank Id="1621795231" Type="Event" GUID="{204211B5-C26C-48ED-B0C4-A5EB27971367}" Language="English(US)" Hash="{59061142-4D65-06C2-C619-572121834136}">
 			<ObjectPath>VO_ENMSwarmer_Death</ObjectPath>
 			<ShortName>VO_ENMSwarmer_Death</ShortName>
 			<Path>Event/English(US)/VO_ENMSwarmer_Death.bnk</Path>
@@ -2431,15 +2468,26 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1709113120" Type="Bus" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}" Language="SFX" Hash="{49CD286E-AD81-1326-847E-B5A70DA3C97F}">
+		<SoundBank Id="1709113120" Type="Bus" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}" Language="SFX" Hash="{2E7B41E9-A544-626E-8AB6-3C072ECBDDE3}">
 			<ObjectPath>REV_CorridorMedium</ObjectPath>
 			<ShortName>REV_CorridorMedium</ShortName>
 			<Path>Bus/REV_CorridorMedium.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2265839006" Name="Not_A_Yellow_Submarine" ObjectPath="\Effects\Factory Effects\RoomVerb\Claustrophobia\Not_A_Yellow_Submarine" GUID="{B5719071-C58D-49FA-8766-B1D986D017EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="1709113120" Name="REV_CorridorMedium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorMedium" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}"/>
+				<AuxBus Id="1709113120" Name="REV_CorridorMedium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorMedium" GUID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2265839006"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1719829412" Type="Event" GUID="{3C5A0758-997E-4328-A2FA-C3FE756DEF97}" Language="English(US)" Hash="{52DF6C55-AE73-9DBE-C371-20C12DE1CB55}">
+		<SoundBank Id="1719829412" Type="Event" GUID="{3C5A0758-997E-4328-A2FA-C3FE756DEF97}" Language="English(US)" Hash="{2EB3FBCC-1903-76AD-841E-4AFDEFEC3081}">
 			<ObjectPath>VO_Simon_Gameplay_BossFight_03</ObjectPath>
 			<ShortName>VO_Simon_Gameplay_BossFight_03</ShortName>
 			<Path>Event/English(US)/VO_Simon_Gameplay_BossFight_03.bnk</Path>
@@ -2462,7 +2510,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1719829413" Type="Event" GUID="{C208AEFA-12B4-434F-BD54-9F35CD6668DF}" Language="English(US)" Hash="{132DAB3B-52B6-C63E-06A1-3C470026F941}">
+		<SoundBank Id="1719829413" Type="Event" GUID="{C208AEFA-12B4-434F-BD54-9F35CD6668DF}" Language="English(US)" Hash="{B63FC394-FB3B-F70B-A61B-DE82574F1C0B}">
 			<ObjectPath>VO_Simon_Gameplay_BossFight_02</ObjectPath>
 			<ShortName>VO_Simon_Gameplay_BossFight_02</ShortName>
 			<Path>Event/English(US)/VO_Simon_Gameplay_BossFight_02.bnk</Path>
@@ -2485,7 +2533,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1719829414" Type="Event" GUID="{F20155FC-04FC-451A-9B69-8109CB392C2F}" Language="English(US)" Hash="{28020FE9-E986-8DAE-6AC8-30B4A7AC90E8}">
+		<SoundBank Id="1719829414" Type="Event" GUID="{F20155FC-04FC-451A-9B69-8109CB392C2F}" Language="English(US)" Hash="{83D2E017-84EC-CA60-2FCF-F985B17663EB}">
 			<ObjectPath>VO_Simon_Gameplay_BossFight_01</ObjectPath>
 			<ShortName>VO_Simon_Gameplay_BossFight_01</ShortName>
 			<Path>Event/English(US)/VO_Simon_Gameplay_BossFight_01.bnk</Path>
@@ -2508,7 +2556,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1727286440" Type="Event" GUID="{516B2ED7-6690-4D33-944D-FEC7A2362A8F}" Language="English(US)" Hash="{8A14C7D7-41F1-9900-D68C-3D215BAA739D}">
+		<SoundBank Id="1727286440" Type="Event" GUID="{516B2ED7-6690-4D33-944D-FEC7A2362A8F}" Language="English(US)" Hash="{1C5ABD75-3AF0-2EBA-4885-09FA5D5B4EC2}">
 			<ObjectPath>VO_Anna_Gameplay_03</ObjectPath>
 			<ShortName>VO_Anna_Gameplay_03</ShortName>
 			<Path>Event/English(US)/VO_Anna_Gameplay_03.bnk</Path>
@@ -2531,7 +2579,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1727286441" Type="Event" GUID="{B0ED0555-C21A-4E03-89EA-8E73BAFC1CF9}" Language="English(US)" Hash="{35B2A909-2B75-CECD-3368-26F8C66A5A66}">
+		<SoundBank Id="1727286441" Type="Event" GUID="{B0ED0555-C21A-4E03-89EA-8E73BAFC1CF9}" Language="English(US)" Hash="{CD0BFCC1-508A-5629-B6F1-542323DFEFC4}">
 			<ObjectPath>VO_Anna_Gameplay_02</ObjectPath>
 			<ShortName>VO_Anna_Gameplay_02</ShortName>
 			<Path>Event/English(US)/VO_Anna_Gameplay_02.bnk</Path>
@@ -2554,7 +2602,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1727286442" Type="Event" GUID="{F6650DD5-47D3-463D-B571-5B0E35088EDB}" Language="English(US)" Hash="{CF5CBE83-3987-7629-7949-8A35BB71F283}">
+		<SoundBank Id="1727286442" Type="Event" GUID="{F6650DD5-47D3-463D-B571-5B0E35088EDB}" Language="English(US)" Hash="{96462658-92EC-4B2A-95A8-257FE451B8B4}">
 			<ObjectPath>VO_Anna_Gameplay_01</ObjectPath>
 			<ShortName>VO_Anna_Gameplay_01</ShortName>
 			<Path>Event/English(US)/VO_Anna_Gameplay_01.bnk</Path>
@@ -2577,7 +2625,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1738887270" Type="Event" GUID="{576A100F-350F-4273-B501-2B9BBA9C330C}" Language="SFX" Hash="{161A7041-D0FF-05E6-51CA-8EFF36AAE435}">
+		<SoundBank Id="1738887270" Type="Event" GUID="{576A100F-350F-4273-B501-2B9BBA9C330C}" Language="SFX" Hash="{BE520FA4-DE4D-DCDA-9334-C916843FE142}">
 			<ObjectPath>AMB_Room_Medium_lp</ObjectPath>
 			<ShortName>AMB_Room_Medium_lp</ShortName>
 			<Path>Event/AMB_Room_Medium_lp.bnk</Path>
@@ -2743,7 +2791,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2097537283" Type="Event" GUID="{AC82A196-39B4-4124-9B67-3B8333621F55}" Language="English(US)" Hash="{A2F717D7-BE50-8AC1-3BDA-9B8B71EC6422}">
+		<SoundBank Id="2097537283" Type="Event" GUID="{AC82A196-39B4-4124-9B67-3B8333621F55}" Language="English(US)" Hash="{DE272372-14CD-46A9-40D5-68214DBA9CB2}">
 			<ObjectPath>VO_Diana_Gameplay_No</ObjectPath>
 			<ShortName>VO_Diana_Gameplay_No</ShortName>
 			<Path>Event/English(US)/VO_Diana_Gameplay_No.bnk</Path>
@@ -2778,7 +2826,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2105091100" Type="Event" GUID="{2BD9654B-ED25-42C5-BF3C-15402B153EBB}" Language="English(US)" Hash="{C3776797-DD9A-29B0-B678-334978ADC9DF}">
+		<SoundBank Id="2105091100" Type="Event" GUID="{2BD9654B-ED25-42C5-BF3C-15402B153EBB}" Language="English(US)" Hash="{8BB50830-DF01-7A3F-9191-14601B000148}">
 			<ObjectPath>VO_Anna_Gameplay_Tempo</ObjectPath>
 			<ShortName>VO_Anna_Gameplay_Tempo</ShortName>
 			<Path>Event/English(US)/VO_Anna_Gameplay_Tempo.bnk</Path>
@@ -3033,7 +3081,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2243524693" Type="Event" GUID="{57A01DF4-FBF5-43E9-80C3-77B41A067B34}" Language="English(US)" Hash="{949C4807-65CC-B580-E9FB-BFE10AA3E88D}">
+		<SoundBank Id="2243524693" Type="Event" GUID="{57A01DF4-FBF5-43E9-80C3-77B41A067B34}" Language="English(US)" Hash="{68E42E38-E354-6F2A-B7E9-13E8CD92A99A}">
 			<ObjectPath>VO_Anna_Story_12P2</ObjectPath>
 			<ShortName>VO_Anna_Story_12P2</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_12P2.bnk</Path>
@@ -3056,7 +3104,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2243524694" Type="Event" GUID="{990066EF-979D-4480-B123-C21707017522}" Language="English(US)" Hash="{46966C11-E470-2A4C-9CE4-44298F44CA3C}">
+		<SoundBank Id="2243524694" Type="Event" GUID="{990066EF-979D-4480-B123-C21707017522}" Language="English(US)" Hash="{A5751D7D-1BC8-8D59-AABF-086A36AFFF5C}">
 			<ObjectPath>VO_Anna_Story_12P1</ObjectPath>
 			<ShortName>VO_Anna_Story_12P1</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_12P1.bnk</Path>
@@ -3155,7 +3203,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2414469176" Type="Event" GUID="{C020EF1B-C097-495E-BF99-D001247A9601}" Language="English(US)" Hash="{2D1BC839-BE4F-C2AB-AE02-85D8C6E34DFB}">
+		<SoundBank Id="2414469176" Type="Event" GUID="{C020EF1B-C097-495E-BF99-D001247A9601}" Language="English(US)" Hash="{03826D7D-10E6-E827-DA4B-BB3A716E0FAC}">
 			<ObjectPath>VO_Diana_Story_30</ObjectPath>
 			<ShortName>VO_Diana_Story_30</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_30.bnk</Path>
@@ -3178,7 +3226,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2448024342" Type="Event" GUID="{EBF7488B-5259-4516-B30F-A0C5AD707F87}" Language="English(US)" Hash="{2844DAB3-18F9-E820-5DB9-962D02818606}">
+		<SoundBank Id="2448024342" Type="Event" GUID="{EBF7488B-5259-4516-B30F-A0C5AD707F87}" Language="English(US)" Hash="{615FDCF1-0FF4-2FD5-7E05-C58EA3FF72F2}">
 			<ObjectPath>VO_Diana_Story_18</ObjectPath>
 			<ShortName>VO_Diana_Story_18</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_18.bnk</Path>
@@ -3201,7 +3249,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2448024344" Type="Event" GUID="{11E2D21C-6477-40F8-B886-92AB53439288}" Language="English(US)" Hash="{854BA0C7-EBD6-7F97-EB69-34A091C88473}">
+		<SoundBank Id="2448024344" Type="Event" GUID="{11E2D21C-6477-40F8-B886-92AB53439288}" Language="English(US)" Hash="{F478428C-7404-C1AA-C3FC-430A1FB10AB5}">
 			<ObjectPath>VO_Diana_Story_16</ObjectPath>
 			<ShortName>VO_Diana_Story_16</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_16.bnk</Path>
@@ -3224,7 +3272,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2448024345" Type="Event" GUID="{075BD4CA-E088-4746-B98C-71CB3770E4FE}" Language="English(US)" Hash="{4848D44E-5CC6-80CA-81E1-2E9A382C822E}">
+		<SoundBank Id="2448024345" Type="Event" GUID="{075BD4CA-E088-4746-B98C-71CB3770E4FE}" Language="English(US)" Hash="{39E25644-029E-0736-26C0-F8E4408C9BA6}">
 			<ObjectPath>VO_Diana_Story_17</ObjectPath>
 			<ShortName>VO_Diana_Story_17</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_17.bnk</Path>
@@ -3247,7 +3295,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2448024346" Type="Event" GUID="{5B2811CB-855A-46F2-9A32-0CDF63905D1E}" Language="English(US)" Hash="{85FFEC30-4F7D-C036-8A81-B5DC14E8182E}">
+		<SoundBank Id="2448024346" Type="Event" GUID="{5B2811CB-855A-46F2-9A32-0CDF63905D1E}" Language="English(US)" Hash="{73AC2325-CEE6-E0AE-DDD9-6303E5935520}">
 			<ObjectPath>VO_Diana_Story_14</ObjectPath>
 			<ShortName>VO_Diana_Story_14</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_14.bnk</Path>
@@ -3270,7 +3318,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2464802032" Type="Event" GUID="{B796DA7F-EE90-4019-91D4-4EA8A71C83A4}" Language="English(US)" Hash="{B41D2E7D-DCE8-9714-2351-A3A3F0D6EF22}">
+		<SoundBank Id="2464802032" Type="Event" GUID="{B796DA7F-EE90-4019-91D4-4EA8A71C83A4}" Language="English(US)" Hash="{D0DB6853-97A5-2C7C-93E0-30307004BA78}">
 			<ObjectPath>VO_Diana_Story_01</ObjectPath>
 			<ShortName>VO_Diana_Story_01</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_01.bnk</Path>
@@ -3293,7 +3341,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2464802034" Type="Event" GUID="{BA361E4F-D5A0-4EAB-A4B3-F29A350C8F26}" Language="English(US)" Hash="{A78634A0-BD97-932C-0D74-65DA68A1E590}">
+		<SoundBank Id="2464802034" Type="Event" GUID="{BA361E4F-D5A0-4EAB-A4B3-F29A350C8F26}" Language="English(US)" Hash="{076F6DFD-41EF-EF02-6802-06A2ED29CCBE}">
 			<ObjectPath>VO_Diana_Story_03</ObjectPath>
 			<ShortName>VO_Diana_Story_03</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_03.bnk</Path>
@@ -3316,7 +3364,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2464802035" Type="Event" GUID="{CA1E52A6-F73B-425D-8D75-8A2B92D15CFE}" Language="English(US)" Hash="{2F95DA23-23CF-9618-DB63-1BB5E39ACA35}">
+		<SoundBank Id="2464802035" Type="Event" GUID="{CA1E52A6-F73B-425D-8D75-8A2B92D15CFE}" Language="English(US)" Hash="{A58B38E9-542B-90BB-441E-E017A45194B3}">
 			<ObjectPath>VO_Diana_Story_02</ObjectPath>
 			<ShortName>VO_Diana_Story_02</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_02.bnk</Path>
@@ -3339,7 +3387,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2464802036" Type="Event" GUID="{86D6C5E3-800A-43F2-A8CB-54CD2A88859C}" Language="English(US)" Hash="{5032DB72-7A94-BC44-6455-AE7872952D20}">
+		<SoundBank Id="2464802036" Type="Event" GUID="{86D6C5E3-800A-43F2-A8CB-54CD2A88859C}" Language="English(US)" Hash="{7B7CD029-D36E-B8B9-88DF-3DF2FD309713}">
 			<ObjectPath>VO_Diana_Story_05</ObjectPath>
 			<ShortName>VO_Diana_Story_05</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_05.bnk</Path>
@@ -3362,7 +3410,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2464802037" Type="Event" GUID="{60A6494F-398A-436F-ADDD-9E2969F8359A}" Language="English(US)" Hash="{ABE20359-55DA-FC7C-8800-D3CFA3E781A2}">
+		<SoundBank Id="2464802037" Type="Event" GUID="{60A6494F-398A-436F-ADDD-9E2969F8359A}" Language="English(US)" Hash="{85B4349D-E175-2E7D-FAAF-D80DDEEEFED8}">
 			<ObjectPath>VO_Diana_Story_04</ObjectPath>
 			<ShortName>VO_Diana_Story_04</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_04.bnk</Path>
@@ -3385,7 +3433,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2464802038" Type="Event" GUID="{E9CDBE23-9C19-40E5-B769-34B53CCA4D10}" Language="English(US)" Hash="{749EE225-B54F-E1A7-520F-FA4B7F450455}">
+		<SoundBank Id="2464802038" Type="Event" GUID="{E9CDBE23-9C19-40E5-B769-34B53CCA4D10}" Language="English(US)" Hash="{10F31FCA-0B30-1A77-6676-BEB72D7E0F1C}">
 			<ObjectPath>VO_Diana_Story_07</ObjectPath>
 			<ShortName>VO_Diana_Story_07</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_07.bnk</Path>
@@ -3408,7 +3456,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2464802039" Type="Event" GUID="{09CF0071-A8B0-44F4-9CB6-1C732F7EC56D}" Language="English(US)" Hash="{27ACDA3C-C649-48F7-992B-47F7B934E1D9}">
+		<SoundBank Id="2464802039" Type="Event" GUID="{09CF0071-A8B0-44F4-9CB6-1C732F7EC56D}" Language="English(US)" Hash="{E395E06B-B338-90EC-F378-BE6350A10CAE}">
 			<ObjectPath>VO_Diana_Story_06</ObjectPath>
 			<ShortName>VO_Diana_Story_06</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_06.bnk</Path>
@@ -3431,7 +3479,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2464802040" Type="Event" GUID="{44C02697-5240-4C56-85A1-07503442F34F}" Language="English(US)" Hash="{CB948E54-EAA7-5F6D-DB45-53C33D38A802}">
+		<SoundBank Id="2464802040" Type="Event" GUID="{44C02697-5240-4C56-85A1-07503442F34F}" Language="English(US)" Hash="{2FE569FF-DF40-933F-54FD-78890511018A}">
 			<ObjectPath>VO_Diana_Story_09</ObjectPath>
 			<ShortName>VO_Diana_Story_09</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_09.bnk</Path>
@@ -3454,7 +3502,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2464802041" Type="Event" GUID="{EA299478-32B4-45AD-B8DD-A3042A88D8E4}" Language="English(US)" Hash="{AEDF1ABE-6D8B-F87C-FD18-DA80438C0070}">
+		<SoundBank Id="2464802041" Type="Event" GUID="{EA299478-32B4-45AD-B8DD-A3042A88D8E4}" Language="English(US)" Hash="{E95510C2-0CEE-FA2F-A7BC-3208978C4A04}">
 			<ObjectPath>VO_Diana_Story_08</ObjectPath>
 			<ShortName>VO_Diana_Story_08</ShortName>
 			<Path>Event/English(US)/VO_Diana_Story_08.bnk</Path>
@@ -3537,7 +3585,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2592439718" Type="Event" GUID="{54FDB89F-2388-4096-8D03-014690817D75}" Language="English(US)" Hash="{01EF148E-C053-B221-9A96-0B343726457E}">
+		<SoundBank Id="2592439718" Type="Event" GUID="{54FDB89F-2388-4096-8D03-014690817D75}" Language="English(US)" Hash="{4B6FC55A-435F-D0C3-C233-7550512E59EC}">
 			<ObjectPath>SFX_MC_Death</ObjectPath>
 			<ShortName>SFX_MC_Death</ShortName>
 			<Path>Event/English(US)/SFX_MC_Death.bnk</Path>
@@ -3648,7 +3696,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2689866444" Type="Event" GUID="{90FFE52E-CB5D-47F5-A0FA-BE839473C3A3}" Language="SFX" Hash="{68B6C624-C558-7F0E-6C8C-AE5DFD234FC6}">
+		<SoundBank Id="2689866444" Type="Event" GUID="{90FFE52E-CB5D-47F5-A0FA-BE839473C3A3}" Language="SFX" Hash="{57EB22EC-C26B-FF27-0004-3F3E738A96C5}">
 			<ObjectPath>AMB_Room_CorridorSmall_lp</ObjectPath>
 			<ShortName>AMB_Room_CorridorSmall_lp</ShortName>
 			<Path>Event/AMB_Room_CorridorSmall_lp.bnk</Path>
@@ -3671,7 +3719,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2699544719" Type="Event" GUID="{0468A734-9547-42F4-B80E-337C2AC901A2}" Language="English(US)" Hash="{DDC6F898-44F2-944D-B7FE-E5F5A3CFF30E}">
+		<SoundBank Id="2699544719" Type="Event" GUID="{0468A734-9547-42F4-B80E-337C2AC901A2}" Language="English(US)" Hash="{B0798DDA-D53C-2D42-CB7F-1AB6510D9A5E}">
 			<ObjectPath>VO_Ari_Gameplay_Breath</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Breath</ShortName>
 			<Path>Event/English(US)/VO_Ari_Gameplay_Breath.bnk</Path>
@@ -3700,7 +3748,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2727804452" Type="Event" GUID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}" Language="English(US)" Hash="{53CE204B-D91C-B0B4-7946-15FA7F46838A}">
+		<SoundBank Id="2727804452" Type="Event" GUID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}" Language="English(US)" Hash="{BBA2D4FC-6FD8-9688-BDE6-B32E8B6D1696}">
 			<ObjectPath>FT_MC_Climb</ObjectPath>
 			<ShortName>FT_MC_Climb</ShortName>
 			<Path>Event/English(US)/FT_MC_Climb.bnk</Path>
@@ -3807,7 +3855,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2855648328" Type="Event" GUID="{CF346644-104F-4F5E-9F43-902F0F6F0B6D}" Language="English(US)" Hash="{D6B34AD4-C246-1BF0-BC01-AC84240C2F7B}">
+		<SoundBank Id="2855648328" Type="Event" GUID="{CF346644-104F-4F5E-9F43-902F0F6F0B6D}" Language="English(US)" Hash="{97826EBA-CB48-AB64-395E-BBBF5BBF557C}">
 			<ObjectPath>VO_Simon_Gameplay_Run</ObjectPath>
 			<ShortName>VO_Simon_Gameplay_Run</ShortName>
 			<Path>Event/English(US)/VO_Simon_Gameplay_Run.bnk</Path>
@@ -3870,7 +3918,7 @@
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2964851327" Type="Event" GUID="{9684AF37-3F6A-4B58-8C70-3CE6AA0D99FD}" Language="English(US)" Hash="{8C22554F-A4B6-2F29-2AE2-FFF6C4C843CB}">
+		<SoundBank Id="2964851327" Type="Event" GUID="{9684AF37-3F6A-4B58-8C70-3CE6AA0D99FD}" Language="English(US)" Hash="{AB783418-E23F-19A0-8ABC-C3CFB16E24B5}">
 			<ObjectPath>VO_Diana_Gameplay_Tempo</ObjectPath>
 			<ShortName>VO_Diana_Gameplay_Tempo</ShortName>
 			<Path>Event/English(US)/VO_Diana_Gameplay_Tempo.bnk</Path>
@@ -3905,7 +3953,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3010146220" Type="Event" GUID="{281B8DFA-273F-4C7B-9D7F-4844D3806E40}" Language="English(US)" Hash="{6709F218-1DDA-393F-F791-28E86716E349}">
+		<SoundBank Id="3010146220" Type="Event" GUID="{281B8DFA-273F-4C7B-9D7F-4844D3806E40}" Language="English(US)" Hash="{3DD36FA6-80F9-1E1D-424B-4418B4349131}">
 			<ObjectPath>VO_Ari_Gameplay_Sigh</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Sigh</ShortName>
 			<Path>Event/English(US)/VO_Ari_Gameplay_Sigh.bnk</Path>
@@ -4059,7 +4107,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3233041211" Type="Event" GUID="{43402A1C-6C1A-4646-BB60-8E1109F8D0F6}" Language="English(US)" Hash="{5F92E285-90DE-BB14-2D1C-5EA42DA34631}">
+		<SoundBank Id="3233041211" Type="Event" GUID="{43402A1C-6C1A-4646-BB60-8E1109F8D0F6}" Language="English(US)" Hash="{FED3A732-4232-82B2-94C8-A0B8428FAD46}">
 			<ObjectPath>VO_Simon_Gameplay_Goodjob</ObjectPath>
 			<ShortName>VO_Simon_Gameplay_Goodjob</ShortName>
 			<Path>Event/English(US)/VO_Simon_Gameplay_Goodjob.bnk</Path>
@@ -4236,12 +4284,23 @@
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3397355070" Type="Bus" GUID="{021A88FF-E165-4DEF-B712-841FED23080F}" Language="SFX" Hash="{8EECACEE-F92C-3049-0F80-7B76DD0F55F5}">
+		<SoundBank Id="3397355070" Type="Bus" GUID="{021A88FF-E165-4DEF-B712-841FED23080F}" Language="SFX" Hash="{8C560C2E-D247-82BB-6AC8-D74FE05B150C}">
 			<ObjectPath>REV_LargeExtra</ObjectPath>
 			<ShortName>REV_LargeExtra</ShortName>
 			<Path>Bus/REV_LargeExtra.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="602546716" Name="Room_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Large" GUID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="3397355070" Name="REV_LargeExtra" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_LargeExtra" GUID="{021A88FF-E165-4DEF-B712-841FED23080F}"/>
+				<AuxBus Id="3397355070" Name="REV_LargeExtra" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_LargeExtra" GUID="{021A88FF-E165-4DEF-B712-841FED23080F}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
 		<SoundBank Id="3397588129" Type="Event" GUID="{2BED61E6-59A5-4985-8A4D-CCA6EF2864CB}" Language="SFX" Hash="{D8911EEA-2065-1A97-6534-54380E0D3F08}">
@@ -4279,7 +4338,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3406354228" Type="Event" GUID="{9670EA26-B74F-4B4B-89B0-9866E7287DAF}" Language="SFX" Hash="{3C2CD694-E2F5-A6A3-B208-400573152018}">
+		<SoundBank Id="3406354228" Type="Event" GUID="{9670EA26-B74F-4B4B-89B0-9866E7287DAF}" Language="SFX" Hash="{8ABA24DB-511A-C8B4-4086-652D64FE79E2}">
 			<ObjectPath>AMB_Room_CorridorMedium_lp</ObjectPath>
 			<ShortName>AMB_Room_CorridorMedium_lp</ShortName>
 			<Path>Event/AMB_Room_CorridorMedium_lp.bnk</Path>
@@ -4333,7 +4392,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3483184852" Type="Event" GUID="{32D4E95D-0F5B-4462-BAB6-07EB4350F72E}" Language="SFX" Hash="{36E5F52C-D462-4275-BBAA-7BED740721C6}">
+		<SoundBank Id="3483184852" Type="Event" GUID="{32D4E95D-0F5B-4462-BAB6-07EB4350F72E}" Language="SFX" Hash="{5F84135B-9D66-066F-8B5A-D0F49EB242C7}">
 			<ObjectPath>AMB_TorchRed_lp</ObjectPath>
 			<ShortName>AMB_TorchRed_lp</ShortName>
 			<Path>Event/AMB_TorchRed_lp.bnk</Path>
@@ -4345,7 +4404,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3483184852" Name="AMB_TorchRed_lp" ObjectPath="\Events\AMB\AMB_Torch\AMB_TorchRed_lp" GUID="{32D4E95D-0F5B-4462-BAB6-07EB4350F72E}" MaxAttenuation="2500" DurationType="Infinite">
+				<Event Id="3483184852" Name="AMB_TorchRed_lp" ObjectPath="\Events\AMB\AMB_Torch\AMB_TorchRed_lp" GUID="{32D4E95D-0F5B-4462-BAB6-07EB4350F72E}" MaxAttenuation="1500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="795554822"/>
 					</MediaRefs>
@@ -4356,7 +4415,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3507897130" Type="Event" GUID="{39F73A58-AA55-460B-ABAC-548B501C548F}" Language="SFX" Hash="{88CEC73D-50D7-DE3F-4C47-850EB5078367}">
+		<SoundBank Id="3507897130" Type="Event" GUID="{39F73A58-AA55-460B-ABAC-548B501C548F}" Language="SFX" Hash="{C19348C2-6FEC-CE02-0F9C-965DB807DB15}">
 			<ObjectPath>AMB_Room_Large_lp</ObjectPath>
 			<ShortName>AMB_Room_Large_lp</ShortName>
 			<Path>Event/AMB_Room_Large_lp.bnk</Path>
@@ -4379,7 +4438,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3523062195" Type="Event" GUID="{DC44FCC0-08B0-454B-9529-15EB68E35858}" Language="English(US)" Hash="{A6C4F38F-F48C-2981-99F6-76CB5B95B9A6}">
+		<SoundBank Id="3523062195" Type="Event" GUID="{DC44FCC0-08B0-454B-9529-15EB68E35858}" Language="English(US)" Hash="{1B0605CE-5B92-3229-E890-FBD0C5F85249}">
 			<ObjectPath>VO_Blaise_Gameplay_Goodjob</ObjectPath>
 			<ShortName>VO_Blaise_Gameplay_Goodjob</ShortName>
 			<Path>Event/English(US)/VO_Blaise_Gameplay_Goodjob.bnk</Path>
@@ -4402,15 +4461,26 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3549141946" Type="Bus" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}" Language="SFX" Hash="{2BFF18E8-BC1A-19A2-BED2-4C47818DEEC8}">
+		<SoundBank Id="3549141946" Type="Bus" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}" Language="SFX" Hash="{57A3A2B0-17EB-8A6C-4CC4-C328F797F2D9}">
 			<ObjectPath>REV_Medium</ObjectPath>
 			<ShortName>REV_Medium</ShortName>
 			<Path>Bus/REV_Medium.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="3549141946" Name="REV_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Medium" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}"/>
+				<AuxBus Id="3549141946" Name="REV_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Medium" GUID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3657978876" Type="Event" GUID="{BC674A9A-5D48-432D-B273-1E20B1297535}" Language="English(US)" Hash="{21E47E4A-C383-2772-2B39-DBB64CCE4D6F}">
+		<SoundBank Id="3657978876" Type="Event" GUID="{BC674A9A-5D48-432D-B273-1E20B1297535}" Language="English(US)" Hash="{C8B4EA56-9E14-89F4-26B7-817D4E4FBDF2}">
 			<ObjectPath>VO_Ari_Gameplay_Run</ObjectPath>
 			<ShortName>VO_Ari_Gameplay_Run</ShortName>
 			<Path>Event/English(US)/VO_Ari_Gameplay_Run.bnk</Path>
@@ -4971,7 +5041,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3718973868" Type="Event" GUID="{81D9955F-8E1D-41D8-9295-823F18E1B7F3}" Language="English(US)" Hash="{F6DB34EF-BFF2-946E-339F-C08AB3978223}">
+		<SoundBank Id="3718973868" Type="Event" GUID="{81D9955F-8E1D-41D8-9295-823F18E1B7F3}" Language="English(US)" Hash="{B1041D9F-28AB-DCFE-F210-2F1F76C8BFC8}">
 			<ObjectPath>VO_Simon_Gameplay_No</ObjectPath>
 			<ShortName>VO_Simon_Gameplay_No</ShortName>
 			<Path>Event/English(US)/VO_Simon_Gameplay_No.bnk</Path>
@@ -4994,15 +5064,26 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3750820532" Type="Bus" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}" Language="SFX" Hash="{1D81641C-381A-0F8F-C697-633DE4A1E13C}">
+		<SoundBank Id="3750820532" Type="Bus" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}" Language="SFX" Hash="{2C8AEF7B-80E8-B698-E8B7-B3B16BF7D7AE}">
 			<ObjectPath>REV_Large</ObjectPath>
 			<ShortName>REV_Large</ShortName>
 			<Path>Bus/REV_Large.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="3750820532" Name="REV_Large" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Large" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}"/>
+				<AuxBus Id="3750820532" Name="REV_Large" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_Large" GUID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1990128658"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{1EA7AE19-3F9E-0147-D309-D25DF92D4491}">
+		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{0309AEDE-B3F7-260F-10B8-084043039F82}">
 			<ObjectPath>FT_MC_Dash</ObjectPath>
 			<ShortName>FT_MC_Dash</ShortName>
 			<Path>Event/English(US)/FT_MC_Dash.bnk</Path>
@@ -5109,7 +5190,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3916625737" Type="Event" GUID="{2633593B-CB85-4E2A-B3B1-47322616C39D}" Language="English(US)" Hash="{2C3F608B-FB5F-5A73-B597-7104FF097291}">
+		<SoundBank Id="3916625737" Type="Event" GUID="{2633593B-CB85-4E2A-B3B1-47322616C39D}" Language="English(US)" Hash="{CF771366-9240-5D00-6836-748BFCD31C1F}">
 			<ObjectPath>VO_Diana_Gameplay_Run</ObjectPath>
 			<ShortName>VO_Diana_Gameplay_Run</ShortName>
 			<Path>Event/English(US)/VO_Diana_Gameplay_Run.bnk</Path>
@@ -5144,7 +5225,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3927651216" Type="Event" GUID="{04A4271F-6B18-497B-9A12-2526D782AD82}" Language="English(US)" Hash="{2FDBAEA9-9EAA-B571-7CB9-D476E253EB25}">
+		<SoundBank Id="3927651216" Type="Event" GUID="{04A4271F-6B18-497B-9A12-2526D782AD82}" Language="English(US)" Hash="{0C5F9FF3-3069-87C1-8599-46EDBA334160}">
 			<ObjectPath>VO_Ari_Story_04</ObjectPath>
 			<ShortName>VO_Ari_Story_04</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_04.bnk</Path>
@@ -5167,7 +5248,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3927651217" Type="Event" GUID="{F37F9443-F9D2-4C7B-ADE8-3A8CE7EEB4C2}" Language="English(US)" Hash="{490CD6C7-D41D-7852-725F-EEF549BF48E1}">
+		<SoundBank Id="3927651217" Type="Event" GUID="{F37F9443-F9D2-4C7B-ADE8-3A8CE7EEB4C2}" Language="English(US)" Hash="{16D5FF74-107E-D7C9-3864-CF5CB8EB9120}">
 			<ObjectPath>VO_Ari_Story_05</ObjectPath>
 			<ShortName>VO_Ari_Story_05</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_05.bnk</Path>
@@ -5190,7 +5271,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3927651218" Type="Event" GUID="{EE28DB23-7F69-4BFA-8EA4-8282985BB499}" Language="English(US)" Hash="{13C79CE3-30FF-F7EB-D3CD-48BC03B18747}">
+		<SoundBank Id="3927651218" Type="Event" GUID="{EE28DB23-7F69-4BFA-8EA4-8282985BB499}" Language="English(US)" Hash="{B6109D4C-96EE-3288-1C38-877A3AB0BB3B}">
 			<ObjectPath>VO_Ari_Story_06</ObjectPath>
 			<ShortName>VO_Ari_Story_06</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_06.bnk</Path>
@@ -5213,7 +5294,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3927651219" Type="Event" GUID="{B42545FA-0E40-4236-A59F-D03FD2A990F2}" Language="English(US)" Hash="{40D31AFB-D697-3A44-491B-DEBEC1F8A2A2}">
+		<SoundBank Id="3927651219" Type="Event" GUID="{B42545FA-0E40-4236-A59F-D03FD2A990F2}" Language="English(US)" Hash="{2549DFE4-2BD3-E155-F300-6702C0A7B2DF}">
 			<ObjectPath>VO_Ari_Story_07</ObjectPath>
 			<ShortName>VO_Ari_Story_07</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_07.bnk</Path>
@@ -5236,7 +5317,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3927651221" Type="Event" GUID="{6B8FB3FD-9E0C-430B-8ED5-9EC376944037}" Language="English(US)" Hash="{8AEA121C-8E59-6731-1A05-F8EE0970C473}">
+		<SoundBank Id="3927651221" Type="Event" GUID="{6B8FB3FD-9E0C-430B-8ED5-9EC376944037}" Language="English(US)" Hash="{8A74DF74-513C-660C-2550-80B767EA924B}">
 			<ObjectPath>VO_Ari_Story_01</ObjectPath>
 			<ShortName>VO_Ari_Story_01</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_01.bnk</Path>
@@ -5259,7 +5340,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3927651222" Type="Event" GUID="{250FE7FF-DCE0-4C37-95DA-00E5E10A6C51}" Language="English(US)" Hash="{E8A81C6A-E496-131A-FB74-2F906A245B00}">
+		<SoundBank Id="3927651222" Type="Event" GUID="{250FE7FF-DCE0-4C37-95DA-00E5E10A6C51}" Language="English(US)" Hash="{7A0D4796-0F34-ED70-B570-AD5387099050}">
 			<ObjectPath>VO_Ari_Story_02</ObjectPath>
 			<ShortName>VO_Ari_Story_02</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_02.bnk</Path>
@@ -5282,7 +5363,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3927651223" Type="Event" GUID="{4BF32ABD-2706-477B-AF41-55F36C0687B2}" Language="English(US)" Hash="{AAB5E05B-5573-4175-F4DF-6F7878F3EAE7}">
+		<SoundBank Id="3927651223" Type="Event" GUID="{4BF32ABD-2706-477B-AF41-55F36C0687B2}" Language="English(US)" Hash="{A56B517F-79FD-B5F4-4F0C-8C4C4D8E58E7}">
 			<ObjectPath>VO_Ari_Story_03</ObjectPath>
 			<ShortName>VO_Ari_Story_03</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_03.bnk</Path>
@@ -5305,7 +5386,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3927651228" Type="Event" GUID="{6408E7D4-ABD0-48E4-AB3B-A01B4041A2F0}" Language="English(US)" Hash="{EB99E09F-EC77-1CE9-6AD1-03230567CFDE}">
+		<SoundBank Id="3927651228" Type="Event" GUID="{6408E7D4-ABD0-48E4-AB3B-A01B4041A2F0}" Language="English(US)" Hash="{9D105980-B9C6-9646-AC4A-B94478EC3640}">
 			<ObjectPath>VO_Ari_Story_08</ObjectPath>
 			<ShortName>VO_Ari_Story_08</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_08.bnk</Path>
@@ -5328,7 +5409,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3927651229" Type="Event" GUID="{1F1B2E99-4B06-456D-BE10-51DD017D444D}" Language="English(US)" Hash="{E48E2040-FCDF-242E-2736-26FC089F3EB9}">
+		<SoundBank Id="3927651229" Type="Event" GUID="{1F1B2E99-4B06-456D-BE10-51DD017D444D}" Language="English(US)" Hash="{1058CBD5-F211-B9A5-3E4A-F652225EEDB2}">
 			<ObjectPath>VO_Ari_Story_09</ObjectPath>
 			<ShortName>VO_Ari_Story_09</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_09.bnk</Path>
@@ -5351,7 +5432,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3944428800" Type="Event" GUID="{8B6B82DB-3C4E-4D63-956E-8CB3752FC1EC}" Language="English(US)" Hash="{8437AA5A-F7FA-1DB9-9FE2-D1573FDCBF59}">
+		<SoundBank Id="3944428800" Type="Event" GUID="{8B6B82DB-3C4E-4D63-956E-8CB3752FC1EC}" Language="English(US)" Hash="{5A53C516-9ACF-EBD9-4E23-43CA69BF0341}">
 			<ObjectPath>VO_Ari_Story_17</ObjectPath>
 			<ShortName>VO_Ari_Story_17</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_17.bnk</Path>
@@ -5374,7 +5455,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3944428802" Type="Event" GUID="{9BB7FEE3-06C3-4DE8-94EA-6FBADBDD0518}" Language="English(US)" Hash="{7F5CBA80-8D61-9069-6B3D-7D6EE1E97350}">
+		<SoundBank Id="3944428802" Type="Event" GUID="{9BB7FEE3-06C3-4DE8-94EA-6FBADBDD0518}" Language="English(US)" Hash="{425306C8-555F-9ECA-76D1-D1A92C86EC07}">
 			<ObjectPath>VO_Ari_Story_15</ObjectPath>
 			<ShortName>VO_Ari_Story_15</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_15.bnk</Path>
@@ -5397,7 +5478,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3944428803" Type="Event" GUID="{E3F197FE-8099-4C9B-94D0-15A065B60CD8}" Language="English(US)" Hash="{A5A5AE64-BD10-828D-6E56-F1659279BD7F}">
+		<SoundBank Id="3944428803" Type="Event" GUID="{E3F197FE-8099-4C9B-94D0-15A065B60CD8}" Language="English(US)" Hash="{F7B716CB-B0C0-0814-75E6-63EA089E2938}">
 			<ObjectPath>VO_Ari_Story_14</ObjectPath>
 			<ShortName>VO_Ari_Story_14</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_14.bnk</Path>
@@ -5420,7 +5501,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3944428805" Type="Event" GUID="{4AE27633-2A46-42EA-AA27-97AD5354C7C1}" Language="English(US)" Hash="{CD09D832-B828-7F56-C5BE-FAC80DAB3E11}">
+		<SoundBank Id="3944428805" Type="Event" GUID="{4AE27633-2A46-42EA-AA27-97AD5354C7C1}" Language="English(US)" Hash="{BFB2930C-3DF0-1BFC-1B82-8CCEB9A79C49}">
 			<ObjectPath>VO_Ari_Story_12</ObjectPath>
 			<ShortName>VO_Ari_Story_12</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_12.bnk</Path>
@@ -5443,7 +5524,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3944428806" Type="Event" GUID="{F62071B1-699E-4456-B3C1-AC8B28F5066C}" Language="English(US)" Hash="{D325BA4F-67FA-1CD5-2BE9-F3015700385A}">
+		<SoundBank Id="3944428806" Type="Event" GUID="{F62071B1-699E-4456-B3C1-AC8B28F5066C}" Language="English(US)" Hash="{7F517F5D-0B7D-F889-E66B-97DD67F53688}">
 			<ObjectPath>VO_Ari_Story_11</ObjectPath>
 			<ShortName>VO_Ari_Story_11</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_11.bnk</Path>
@@ -5466,7 +5547,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3944428807" Type="Event" GUID="{8694E38C-4A87-412C-B7A2-B225883F5D72}" Language="English(US)" Hash="{4F255BB4-D311-4F04-8093-7D1700AD7FA8}">
+		<SoundBank Id="3944428807" Type="Event" GUID="{8694E38C-4A87-412C-B7A2-B225883F5D72}" Language="English(US)" Hash="{2818000C-E894-56FF-18A2-2E6666F5A688}">
 			<ObjectPath>VO_Ari_Story_10</ObjectPath>
 			<ShortName>VO_Ari_Story_10</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_10.bnk</Path>
@@ -5489,7 +5570,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3944428814" Type="Event" GUID="{68D48677-E280-4A26-8926-C4D60DAD6719}" Language="English(US)" Hash="{3E57B4E5-D340-77F1-20E8-E8FAD2F57BF6}">
+		<SoundBank Id="3944428814" Type="Event" GUID="{68D48677-E280-4A26-8926-C4D60DAD6719}" Language="English(US)" Hash="{3DA26419-78C1-7E51-695F-DE7F109EDD25}">
 			<ObjectPath>VO_Ari_Story_19</ObjectPath>
 			<ShortName>VO_Ari_Story_19</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_19.bnk</Path>
@@ -5512,7 +5593,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3944428815" Type="Event" GUID="{26D83266-4DCD-449C-A70D-F9A483489087}" Language="English(US)" Hash="{FE31C796-346B-1B27-B69C-954E8F13B9A4}">
+		<SoundBank Id="3944428815" Type="Event" GUID="{26D83266-4DCD-449C-A70D-F9A483489087}" Language="English(US)" Hash="{2E489E4D-D30B-B572-EE12-2D5CDBF4D891}">
 			<ObjectPath>VO_Ari_Story_18</ObjectPath>
 			<ShortName>VO_Ari_Story_18</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_18.bnk</Path>
@@ -5535,7 +5616,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3959138290" Type="Event" GUID="{D2FD929D-599B-43AB-AA67-7E9B443C1410}" Language="English(US)" Hash="{A36FC839-F2F3-BC21-5F58-59694E299DD1}">
+		<SoundBank Id="3959138290" Type="Event" GUID="{D2FD929D-599B-43AB-AA67-7E9B443C1410}" Language="English(US)" Hash="{A80BDB14-6CCE-D0AA-7B02-24B462BB8C19}">
 			<ObjectPath>VO_Anna_Gameplay_Run</ObjectPath>
 			<ShortName>VO_Anna_Gameplay_Run</ShortName>
 			<Path>Event/English(US)/VO_Anna_Gameplay_Run.bnk</Path>
@@ -5558,7 +5639,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3961206520" Type="Event" GUID="{C1BE16F2-003B-4A5C-A85C-C8D070C0A984}" Language="English(US)" Hash="{22935FC2-6B08-9F8B-5040-EC82E078996F}">
+		<SoundBank Id="3961206520" Type="Event" GUID="{C1BE16F2-003B-4A5C-A85C-C8D070C0A984}" Language="English(US)" Hash="{EBABF582-5DC7-00B7-0DD4-76C92376FF3D}">
 			<ObjectPath>VO_Ari_Story_22</ObjectPath>
 			<ShortName>VO_Ari_Story_22</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_22.bnk</Path>
@@ -5581,7 +5662,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3961206521" Type="Event" GUID="{F4A612C4-4B54-4471-A850-A1E3B2ED1564}" Language="English(US)" Hash="{A935AFAC-2972-2B3F-2B98-B0437B1B347A}">
+		<SoundBank Id="3961206521" Type="Event" GUID="{F4A612C4-4B54-4471-A850-A1E3B2ED1564}" Language="English(US)" Hash="{C4F7D440-F749-AC34-E2AC-6B52F16F718F}">
 			<ObjectPath>VO_Ari_Story_23</ObjectPath>
 			<ShortName>VO_Ari_Story_23</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_23.bnk</Path>
@@ -5604,7 +5685,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3961206522" Type="Event" GUID="{E7D0ADDC-B15B-4FBC-AE42-5BB276791073}" Language="English(US)" Hash="{B0303640-30DB-523D-1428-DB74D671F92A}">
+		<SoundBank Id="3961206522" Type="Event" GUID="{E7D0ADDC-B15B-4FBC-AE42-5BB276791073}" Language="English(US)" Hash="{E06AEF58-3570-3EF8-1BA0-37BFF2352C17}">
 			<ObjectPath>VO_Ari_Story_20</ObjectPath>
 			<ShortName>VO_Ari_Story_20</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_20.bnk</Path>
@@ -5627,7 +5708,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3961206523" Type="Event" GUID="{B513AE10-2103-4D06-BF7B-565FD5955D2C}" Language="English(US)" Hash="{75BA42D2-C3ED-0E8F-9995-2B13BEACE590}">
+		<SoundBank Id="3961206523" Type="Event" GUID="{B513AE10-2103-4D06-BF7B-565FD5955D2C}" Language="English(US)" Hash="{240330DC-FF0E-4951-71CB-2D1DFC568319}">
 			<ObjectPath>VO_Ari_Story_21</ObjectPath>
 			<ShortName>VO_Ari_Story_21</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_21.bnk</Path>
@@ -5665,15 +5746,26 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4061537322" Type="Bus" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}" Language="SFX" Hash="{61C57C57-5484-C547-85D5-B4B79643F908}">
+		<SoundBank Id="4061537322" Type="Bus" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}" Language="SFX" Hash="{28F8D873-3685-CA5E-C8E2-3A2490B18993}">
 			<ObjectPath>REV_CorridorSmall</ObjectPath>
 			<ShortName>REV_CorridorSmall</ShortName>
 			<Path>Bus/REV_CorridorSmall.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2945072214" Name="My_Closet" ObjectPath="\Effects\Factory Effects\RoomVerb\Claustrophobia\My_Closet" GUID="{384A82A1-3C92-4AC5-AFC2-474F2080642C}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="4061537322" Name="REV_CorridorSmall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorSmall" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}"/>
+				<AuxBus Id="4061537322" Name="REV_CorridorSmall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects\REV\REV_CorridorSmall" GUID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2945072214"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="4218817288" Type="Event" GUID="{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}" Language="SFX" Hash="{D0DE5E57-104B-DE21-7FE0-383C1D4B14AC}">
+		<SoundBank Id="4218817288" Type="Event" GUID="{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}" Language="SFX" Hash="{8772C186-ADFC-F1C2-9B8A-62F7BDEEF5A3}">
 			<ObjectPath>SFX_GPE_Launcher_Idle_lp</ObjectPath>
 			<ShortName>SFX_GPE_Launcher_Idle_lp</ShortName>
 			<Path>Event/SFX_GPE_Launcher_Idle_lp.bnk</Path>
@@ -5696,7 +5788,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4227750726" Type="Event" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" Language="English(US)" Hash="{7CAA0385-E8E1-698F-A4D2-A8FC21A16880}">
+		<SoundBank Id="4227750726" Type="Event" GUID="{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}" Language="English(US)" Hash="{522F0C69-E5A7-8EF3-D42F-7A4BD82C3AE6}">
 			<ObjectPath>SFX_MC_TakeDamage</ObjectPath>
 			<ShortName>SFX_MC_TakeDamage</ShortName>
 			<Path>Event/English(US)/SFX_MC_TakeDamage.bnk</Path>
@@ -5792,5 +5884,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D6DE7AF5-C4AC-1CE1-AC35-FE919DB426B0}</FileHash>
+	<FileHash>{F258D6C5-0161-85E9-8CCA-42602FEB5785}</FileHash>
 </SoundBanksInfo>

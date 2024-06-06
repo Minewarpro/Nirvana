@@ -10,20 +10,39 @@
     "Type": "Bus",
     "GUID": "{F485D18B-61BB-4138-A53F-7D4875F45B3D}",
     "Language": "SFX",
-    "Hash": "{49CD286E-AD81-1326-847E-B5A70DA3C97F}",
+    "Hash": "{2E7B41E9-A544-626E-8AB6-3C072ECBDDE3}",
     "ObjectPath": "REV_CorridorMedium",
     "ShortName": "REV_CorridorMedium",
     "Path": "Bus/REV_CorridorMedium.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2265839006",
+       "Name": "Not_A_Yellow_Submarine",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Not_A_Yellow_Submarine",
+       "GUID": "{B5719071-C58D-49FA-8766-B1D986D017EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "AuxBusses": [
      {
       "Id": "1709113120",
       "Name": "REV_CorridorMedium",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_CorridorMedium",
-      "GUID": "{F485D18B-61BB-4138-A53F-7D4875F45B3D}"
+      "GUID": "{F485D18B-61BB-4138-A53F-7D4875F45B3D}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2265839006"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{5CD9526E-D787-CE8C-A10E-0D34426EA13D}"
+  "FileHash": "{6DC564AC-9CE8-A349-80F4-AC5FF16B5BB5}"
  }
 }

@@ -57,7 +57,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="ATT_2500" ID="{65C77362-A9BC-4B8A-A5F1-C5A6E61D9E22}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+									<ObjectRef Name="ATT_7000" ID="{A49EB5F1-363D-4893-87A4-53F087EF3ED9}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3927651216" Type="Event" GUID="{04A4271F-6B18-497B-9A12-2526D782AD82}" Language="English(US)" Hash="{2FDBAEA9-9EAA-B571-7CB9-D476E253EB25}">
+		<SoundBank Id="3927651216" Type="Event" GUID="{04A4271F-6B18-497B-9A12-2526D782AD82}" Language="English(US)" Hash="{0C5F9FF3-3069-87C1-8599-46EDBA334160}">
 			<ObjectPath>VO_Ari_Story_04</ObjectPath>
 			<ShortName>VO_Ari_Story_04</ShortName>
 			<Path>Event/English(US)/VO_Ari_Story_04.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{20F19E33-7887-6E85-4F81-DB4A67C3EADD}</FileHash>
+	<FileHash>{A5D696BE-262E-CCA6-3805-18E3C7B097C8}</FileHash>
 </SoundBanksInfo>

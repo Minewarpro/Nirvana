@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{32D4E95D-0F5B-4462-BAB6-07EB4350F72E}",
     "Language": "SFX",
-    "Hash": "{36E5F52C-D462-4275-BBAA-7BED740721C6}",
+    "Hash": "{5F84135B-9D66-066F-8B5A-D0F49EB242C7}",
     "ObjectPath": "AMB_TorchRed_lp",
     "ShortName": "AMB_TorchRed_lp",
     "Path": "Event/AMB_TorchRed_lp.bnk",
@@ -31,7 +31,7 @@
       "Name": "AMB_TorchRed_lp",
       "ObjectPath": "\\Events\\AMB\\AMB_Torch\\AMB_TorchRed_lp",
       "GUID": "{32D4E95D-0F5B-4462-BAB6-07EB4350F72E}",
-      "MaxAttenuation": "2500",
+      "MaxAttenuation": "1500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{639802BC-D10C-1333-2D42-964E66220A0D}"
+  "FileHash": "{EBD549D2-8CBB-CA48-BCBC-327A708FBA0B}"
  }
 }

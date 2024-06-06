@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1429928469" Type="Event" GUID="{5637DC57-1610-4B5B-B5CA-1D558668C593}" Language="English(US)" Hash="{A8107D7D-CBD9-183E-BE9C-C1F688367023}">
+		<SoundBank Id="1429928469" Type="Event" GUID="{5637DC57-1610-4B5B-B5CA-1D558668C593}" Language="English(US)" Hash="{078E448D-967B-14DB-A705-C3B9DC31CA5A}">
 			<ObjectPath>VO_Anna_Gameplay_Goodjob</ObjectPath>
 			<ShortName>VO_Anna_Gameplay_Goodjob</ShortName>
 			<Path>Event/English(US)/VO_Anna_Gameplay_Goodjob.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BD81BBCB-D107-CE05-14B4-F3570FAFA176}</FileHash>
+	<FileHash>{717521AB-9C48-F756-D11E-62E52CF6DF69}</FileHash>
 </SoundBanksInfo>

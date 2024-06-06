@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F4A612C4-4B54-4471-A850-A1E3B2ED1564}",
     "Language": "English(US)",
-    "Hash": "{A935AFAC-2972-2B3F-2B98-B0437B1B347A}",
+    "Hash": "{C4F7D440-F749-AC34-E2AC-6B52F16F718F}",
     "ObjectPath": "VO_Ari_Story_23",
     "ShortName": "VO_Ari_Story_23",
     "Path": "Event/English(US)/VO_Ari_Story_23.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{52FCF065-983B-BB8C-F1E1-85C5210A7177}"
+  "FileHash": "{26E1377B-566F-E5D4-DC4D-377DDE17DF8C}"
  }
 }

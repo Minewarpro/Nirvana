@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="651232076" Type="Event" GUID="{778441E5-19D5-426D-A398-C0BBECDE6B02}" Language="English(US)" Hash="{9ABBF6B0-CDC5-6B37-EB6C-0C993605A9B0}">
+		<SoundBank Id="651232076" Type="Event" GUID="{778441E5-19D5-426D-A398-C0BBECDE6B02}" Language="English(US)" Hash="{3D2CD5C0-F67F-105F-4ED0-3DE7AC1F5B54}">
 			<ObjectPath>VO_Anna_Story_06</ObjectPath>
 			<ShortName>VO_Anna_Story_06</ShortName>
 			<Path>Event/English(US)/VO_Anna_Story_06.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9855597F-E7EF-649F-9FE4-0D723BDBE12A}</FileHash>
+	<FileHash>{C2288534-D169-79FA-391E-9633754F19E1}</FileHash>
 </SoundBanksInfo>

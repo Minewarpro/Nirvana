@@ -10,20 +10,39 @@
     "Type": "Bus",
     "GUID": "{021A88FF-E165-4DEF-B712-841FED23080F}",
     "Language": "SFX",
-    "Hash": "{8EECACEE-F92C-3049-0F80-7B76DD0F55F5}",
+    "Hash": "{8C560C2E-D247-82BB-6AC8-D74FE05B150C}",
     "ObjectPath": "REV_LargeExtra",
     "ShortName": "REV_LargeExtra",
     "Path": "Bus/REV_LargeExtra.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "602546716",
+       "Name": "Room_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Large",
+       "GUID": "{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "AuxBusses": [
      {
       "Id": "3397355070",
       "Name": "REV_LargeExtra",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_LargeExtra",
-      "GUID": "{021A88FF-E165-4DEF-B712-841FED23080F}"
+      "GUID": "{021A88FF-E165-4DEF-B712-841FED23080F}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "602546716"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{FD86EA84-0E95-193C-24D6-A44AAD87FBA4}"
+  "FileHash": "{01DCD6E7-BA2F-313B-F585-0D5FA99BFE8E}"
  }
 }

@@ -400,32 +400,132 @@
 										<AuxBus Name="REV_CorridorSmall" ID="{61B63A27-C395-4317-A4AA-DEE793D4B30D}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{552D97B5-50FE-4355-8139-A5888A1B253E}" ShortID="149892659">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="My_Closet" ID="{384A82A1-3C92-4AC5-AFC2-474F2080642C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</AuxBus>
 										<AuxBus Name="REV_CorridorMedium" ID="{F485D18B-61BB-4138-A53F-7D4875F45B3D}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
 												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{14DCE76F-9A96-4386-B231-FF47C476F9F2}" ShortID="841683436">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="Not_A_Yellow_Submarine" ID="{B5719071-C58D-49FA-8766-B1D986D017EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</AuxBus>
 										<AuxBus Name="REV_Large" ID="{C808D903-300A-4DD8-A6D6-144BD2FD3123}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
 												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{F34F568B-CC9B-4355-A419-9B44AC9C80B7}" ShortID="7615426">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</AuxBus>
 										<AuxBus Name="REV_Medium" ID="{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
 												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{98F835A1-C664-49B0-842C-4BC0B97C3CB7}" ShortID="141039237">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</AuxBus>
 										<AuxBus Name="REV_LargeExtra" ID="{021A88FF-E165-4DEF-B712-841FED23080F}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
 												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{8166D5DD-DA43-45C7-8CF9-CB0AFA644FAE}" ShortID="834324211">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</AuxBus>
 									</ChildrenList>
 								</Bus>

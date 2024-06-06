@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="535776511" Type="Event" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" Language="SFX" Hash="{9CB795BA-0BBB-0D79-6D90-FED4D2EB6BE6}">
+		<SoundBank Id="535776511" Type="Event" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" Language="SFX" Hash="{0D12102F-18F1-8623-D892-E96907FC4A4B}">
 			<ObjectPath>SFX_GPE_Launcher_Jump</ObjectPath>
 			<ShortName>SFX_GPE_Launcher_Jump</ShortName>
 			<Path>Event/SFX_GPE_Launcher_Jump.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="535776511" Name="SFX_GPE_Launcher_Jump" ObjectPath="\Events\SFX\SFX_GPE\SFX_GPE_Launcher_Jump" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.91700405" DurationMax="1.0905077">
+				<Event Id="535776511" Name="SFX_GPE_Launcher_Jump" ObjectPath="\Events\SFX\SFX_GPE\SFX_GPE_Launcher_Jump" GUID="{1B56EBA5-430D-4C95-8A02-3F2B11574C2A}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.91700405" DurationMax="1.0905077">
 					<MediaRefs>
 						<MediaRef Id="188956989"/>
 						<MediaRef Id="341882187"/>
@@ -37,5 +37,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C4C9876B-DC79-DDC4-DDF9-3ADAAD087F63}</FileHash>
+	<FileHash>{F2677654-F097-F4A9-DAA6-D20D2EE0C826}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8F927A24-B8D4-40B0-8DDF-097754ECFF7C}",
     "Language": "English(US)",
-    "Hash": "{7CAA0385-E8E1-698F-A4D2-A8FC21A16880}",
+    "Hash": "{522F0C69-E5A7-8EF3-D42F-7A4BD82C3AE6}",
     "ObjectPath": "SFX_MC_TakeDamage",
     "ShortName": "SFX_MC_TakeDamage",
     "Path": "Event/English(US)/SFX_MC_TakeDamage.bnk",
@@ -201,6 +201,6 @@
     ]
    }
   ],
-  "FileHash": "{DB1F0020-9F21-4195-0B20-C2D422ABC1A8}"
+  "FileHash": "{41451593-D891-D6AF-5276-238CC1232DC0}"
  }
 }

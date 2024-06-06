@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{1D0DDDCC-D631-3DC6-76A4-BF6DE6633578}",
+    "Hash": "{C2A3D035-21B1-65E6-2E61-E6231F2C0653}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -23,6 +23,48 @@
        "GUID": "{417C41AE-A40F-4257-BE72-E499229A6261}",
        "LibName": "Wwise Meter",
        "LibId": "8454147"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "602546716",
+       "Name": "Room_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Large",
+       "GUID": "{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2265839006",
+       "Name": "Not_A_Yellow_Submarine",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Not_A_Yellow_Submarine",
+       "GUID": "{B5719071-C58D-49FA-8766-B1D986D017EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2945072214",
+       "Name": "My_Closet",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\My_Closet",
+       "GUID": "{384A82A1-3C92-4AC5-AFC2-474F2080642C}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
       }
      ],
      "AudioDevices": [
@@ -124,31 +166,66 @@
       "Id": "1709113120",
       "Name": "REV_CorridorMedium",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_CorridorMedium",
-      "GUID": "{F485D18B-61BB-4138-A53F-7D4875F45B3D}"
+      "GUID": "{F485D18B-61BB-4138-A53F-7D4875F45B3D}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2265839006"
+        }
+       ]
+      }
      },
      {
       "Id": "3397355070",
       "Name": "REV_LargeExtra",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_LargeExtra",
-      "GUID": "{021A88FF-E165-4DEF-B712-841FED23080F}"
+      "GUID": "{021A88FF-E165-4DEF-B712-841FED23080F}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "602546716"
+        }
+       ]
+      }
      },
      {
       "Id": "3549141946",
       "Name": "REV_Medium",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_Medium",
-      "GUID": "{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}"
+      "GUID": "{D6A51E1C-C855-4415-9BFF-ACD3388D1FAC}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
      },
      {
       "Id": "3750820532",
       "Name": "REV_Large",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_Large",
-      "GUID": "{C808D903-300A-4DD8-A6D6-144BD2FD3123}"
+      "GUID": "{C808D903-300A-4DD8-A6D6-144BD2FD3123}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      }
      },
      {
       "Id": "4061537322",
       "Name": "REV_CorridorSmall",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Effects\\REV\\REV_CorridorSmall",
-      "GUID": "{61B63A27-C395-4317-A4AA-DEE793D4B30D}"
+      "GUID": "{61B63A27-C395-4317-A4AA-DEE793D4B30D}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2945072214"
+        }
+       ]
+      }
      }
     ],
     "GameParameters": [
@@ -337,6 +414,6 @@
     ]
    }
   ],
-  "FileHash": "{C7D68EBC-14F6-B698-20FF-DFBA770B858E}"
+  "FileHash": "{D75DD007-8F81-7213-FD19-CFECFDAC94DB}"
  }
 }

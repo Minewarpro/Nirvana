@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{844B1686-5B6E-4969-A0E1-C1EC55780849}",
     "Language": "English(US)",
-    "Hash": "{B8A33B62-21F7-3DE7-5118-3CB6377EF6A9}",
+    "Hash": "{11FDCD73-E40D-E4D4-A2D0-6BDE0933B7AD}",
     "ObjectPath": "VO_Ari_Gameplay_Drowning",
     "ShortName": "VO_Ari_Gameplay_Drowning",
     "Path": "Event/English(US)/VO_Ari_Gameplay_Drowning.bnk",
@@ -93,6 +93,6 @@
     ]
    }
   ],
-  "FileHash": "{87DE67E8-A928-73F2-6EE5-D65B35244F14}"
+  "FileHash": "{062DDD47-34C6-48F8-94BC-4A3699EB8BD3}"
  }
 }

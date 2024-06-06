@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{43402A1C-6C1A-4646-BB60-8E1109F8D0F6}",
     "Language": "English(US)",
-    "Hash": "{5F92E285-90DE-BB14-2D1C-5EA42DA34631}",
+    "Hash": "{FED3A732-4232-82B2-94C8-A0B8428FAD46}",
     "ObjectPath": "VO_Simon_Gameplay_Goodjob",
     "ShortName": "VO_Simon_Gameplay_Goodjob",
     "Path": "Event/English(US)/VO_Simon_Gameplay_Goodjob.bnk",
@@ -57,6 +57,6 @@
     ]
    }
   ],
-  "FileHash": "{CBBC5FD9-9647-13EF-B55A-4E4EAA56C799}"
+  "FileHash": "{0B6C73C1-432F-7750-D37F-F03F78A5C0FE}"
  }
 }
