@@ -2050,11 +2050,6 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-22</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2065,7 +2060,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="FT_MC_Climb_01" ID="{D9AF59F7-0428-463B-9F35-07A1F126AA02}" ShortID="612738968">
+								<Sound Name="FT_MC_Climb_01" ID="{634C9BEC-8FB1-4428-BCA1-8EB8D667F352}" ShortID="834176367">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -2075,7 +2070,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_Climb_01" ID="{81B2E6C6-8704-47D5-A16D-8DA224905129}">
+										<AudioFileSource Name="FT_MC_Climb_01" ID="{3CF86693-31B1-4C33-9590-0AB55D2572AC}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_Climb\FT_MC_Climb_01.wav</AudioFile>
 											<MediaIDList>
@@ -2084,10 +2079,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_Climb_01" ID="{81B2E6C6-8704-47D5-A16D-8DA224905129}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_Climb_01" ID="{3CF86693-31B1-4C33-9590-0AB55D2572AC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="FT_MC_Climb_02" ID="{5FB236CB-BE02-4944-BFFE-5EE342C40FAE}" ShortID="314633981">
+								<Sound Name="FT_MC_Climb_02" ID="{3612C295-D49D-4876-83F3-B60416C1799D}" ShortID="1062235564">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -2097,7 +2092,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_Climb_02" ID="{7E6021D3-6F9E-4F7C-95C8-15646D7DB300}">
+										<AudioFileSource Name="FT_MC_Climb_02" ID="{C1CBED13-FEF5-4865-BD17-AEB60BE88263}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_Climb\FT_MC_Climb_02.wav</AudioFile>
 											<MediaIDList>
@@ -2106,10 +2101,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_Climb_02" ID="{7E6021D3-6F9E-4F7C-95C8-15646D7DB300}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_Climb_02" ID="{C1CBED13-FEF5-4865-BD17-AEB60BE88263}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="FT_MC_Climb_03" ID="{5676748E-EF59-4F1F-B226-D574F3EE2DC4}" ShortID="905972001">
+								<Sound Name="FT_MC_Climb_03" ID="{DBA5F924-3379-4F9D-BFE6-0688003EEFCE}" ShortID="531155139">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
@@ -2119,7 +2114,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FT_MC_Climb_03" ID="{0A347281-15B1-4C9A-93F5-08B818FED1F2}">
+										<AudioFileSource Name="FT_MC_Climb_03" ID="{C6817C5C-8FF2-458C-A403-57FE7DC828DC}">
 											<Language>SFX</Language>
 											<AudioFile>FT\FT_MC_Climb\FT_MC_Climb_03.wav</AudioFile>
 											<MediaIDList>
@@ -2128,7 +2123,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FT_MC_Climb_03" ID="{0A347281-15B1-4C9A-93F5-08B818FED1F2}" Platform="Linked"/>
+										<ActiveSource Name="FT_MC_Climb_03" ID="{C6817C5C-8FF2-458C-A403-57FE7DC828DC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -3228,6 +3223,41 @@
 															<Point>
 																<XPos>1050</XPos>
 																<YPos>150</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{2BACD490-FDB2-45B8-AF58-54AEE6A4CA1B}" ShortID="305165204">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_FT_Swarmer" ID="{B290FC99-4E3E-40BE-953F-D9902DC26B2D}" WorkUnitID="{8308EB11-EC9E-40BC-85CB-96E9DD3DB47D}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{F7E794B9-5DA0-46B5-BE5F-1ED4EE77E944}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-12</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>

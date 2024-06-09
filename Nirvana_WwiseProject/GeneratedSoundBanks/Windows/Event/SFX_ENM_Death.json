@@ -1,0 +1,99 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3427854526",
+    "Type": "Event",
+    "GUID": "{6A23C9C9-9850-4C9E-AE50-ABD661920B6C}",
+    "Language": "SFX",
+    "Hash": "{13A00313-B71E-B22E-0C12-6AF7441A4DB2}",
+    "ObjectPath": "SFX_ENM_Death",
+    "ShortName": "SFX_ENM_Death",
+    "Path": "Event/SFX_ENM_Death.bnk",
+    "Media": [
+     {
+      "Id": "162137369",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Death\\SFX_ENM_Death_01.wav",
+      "Path": "Media/162137369.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Death/SFX_ENM_Death_01_818F3B66.wem"
+     },
+     {
+      "Id": "786156599",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Death\\SFX_ENM_Death_02.wav",
+      "Path": "Media/786156599.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Death/SFX_ENM_Death_02_818F3B66.wem"
+     },
+     {
+      "Id": "911259716",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Death\\SFX_ENM_Death_04.wav",
+      "Path": "Media/911259716.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Death/SFX_ENM_Death_04_818F3B66.wem"
+     },
+     {
+      "Id": "962586025",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Death\\SFX_ENM_Death_03.wav",
+      "Path": "Media/962586025.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Death/SFX_ENM_Death_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3427854526",
+      "Name": "SFX_ENM_Death",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM_Death",
+      "GUID": "{6A23C9C9-9850-4C9E-AE50-ABD661920B6C}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9152067",
+      "DurationMax": "2.0885475",
+      "MediaRefs": [
+       {
+        "Id": "162137369"
+       },
+       {
+        "Id": "786156599"
+       },
+       {
+        "Id": "911259716"
+       },
+       {
+        "Id": "962586025"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{676827C4-2CF0-29AC-18B0-B7661389B90A}"
+ }
+}

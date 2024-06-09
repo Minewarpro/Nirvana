@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1140314359	SFX_ENM_Swarmer_AttackSwing_Long			\SFX\SFX_ENM Swarmer\SFX_ENM_Swarmer_AttackSwing_Long	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1474581964	RTPC_Elevation			\RTPC_Persistent\RTPC_Elevation	
+	3972935021	RTPC_Azimuth			\RTPC_Persistent\RTPC_Azimuth	
+

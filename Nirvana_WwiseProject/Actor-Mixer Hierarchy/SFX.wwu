@@ -31,7 +31,50 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="SFX_ENM_MidRange" ID="{24D9785E-D3B8-4ABA-BC64-2CE7DB70C720}" ShortID="161727978">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>60</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FBE10CB2-78BE-4C44-844D-5D6D134D90F3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{32D3C040-CF88-4CA0-B582-E6505EE2E679}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_7000" ID="{A49EB5F1-363D-4893-87A4-53F087EF3ED9}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 								</Reference>
@@ -39,9 +82,729 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_ENM_MidRange_AttackPillar" ID="{197EC09D-944C-4211-A67E-28B90C8DE585}" ShortID="1040888895">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>14</Value>
+											</ValueList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+										<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_1500" ID="{7CC1A083-A864-4FAE-8D50-5561713979AE}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_ENM_MidRange_AttackPillar_01" ID="{EDA46BD9-EAB3-46AE-8CBB-9CB180158454}" ShortID="375251910">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_AttackPillar_01" ID="{61F3305A-662D-4997-A673-E13D77639969}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_AttackPillar\SFX_ENM_MidRange_AttackPillar_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="417564133"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_AttackPillar_01" ID="{61F3305A-662D-4997-A673-E13D77639969}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_AttackPillar_02" ID="{EDB2ED78-3DF8-4C58-AEE9-5ED102DA0381}" ShortID="568252093">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_AttackPillar_02" ID="{0C622E53-F2F7-4DAD-940B-656B1B750FB2}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_AttackPillar\SFX_ENM_MidRange_AttackPillar_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="527970490"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_AttackPillar_02" ID="{0C622E53-F2F7-4DAD-940B-656B1B750FB2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_AttackPillar_03" ID="{6B559938-49B5-46DC-9B74-2EB590404054}" ShortID="197255062">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_AttackPillar_03" ID="{F2F86591-1305-4EE9-BC01-BB6240E06A00}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_AttackPillar\SFX_ENM_MidRange_AttackPillar_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1037107958"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_AttackPillar_03" ID="{F2F86591-1305-4EE9-BC01-BB6240E06A00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_AttackPillar_04" ID="{B142A909-51FD-4CB2-9809-42641A419E4E}" ShortID="657835759">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_AttackPillar_04" ID="{C49AEF9C-520C-44D8-ACFD-EE52325C1F05}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_AttackPillar\SFX_ENM_MidRange_AttackPillar_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="716800789"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_AttackPillar_04" ID="{C49AEF9C-520C-44D8-ACFD-EE52325C1F05}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_ENM_MidRange_Projectile_HitSurface" ID="{A5A9179D-586A-4459-A669-92587E95897D}" ShortID="661498165">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
+										<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_1500_3d" ID="{CB30408C-38B6-4E40-B470-80D42A582BD9}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_ENM_MidRange_Projectile_HitSurface_01" ID="{757F8886-7BAA-4928-A9AE-43C0B1123695}" ShortID="753227025">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Projectile_HitSurface_01" ID="{9A37C34F-FF07-40DC-8121-01E55882118F}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1033314170"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Projectile_HitSurface_01" ID="{9A37C34F-FF07-40DC-8121-01E55882118F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_Projectile_HitSurface_02" ID="{D4094666-6EED-440C-8003-94C6C4FB4BD0}" ShortID="136391479">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Projectile_HitSurface_02" ID="{2D76D56F-2ADD-4E90-B140-760C0CE469BF}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="87218469"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Projectile_HitSurface_02" ID="{2D76D56F-2ADD-4E90-B140-760C0CE469BF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_Projectile_HitSurface_03" ID="{D7835CE5-7CCA-4AD1-9B3F-4739151818C3}" ShortID="1028100896">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Projectile_HitSurface_03" ID="{E972AF6A-E05D-495A-BDB4-A8F72D8463DD}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="122653084"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Projectile_HitSurface_03" ID="{E972AF6A-E05D-495A-BDB4-A8F72D8463DD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_Projectile_HitSurface_04" ID="{B1BDE77E-20CC-4932-AF3C-7E7664A7C5D0}" ShortID="108224313">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Projectile_HitSurface_04" ID="{2F6200A0-BD21-4CA9-B028-8A4F486A38C1}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="731115657"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Projectile_HitSurface_04" ID="{2F6200A0-BD21-4CA9-B028-8A4F486A38C1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_Projectile_HitSurface_05" ID="{F90AA545-48F9-4EAA-85F1-E14A7C0D9BBE}" ShortID="389448778">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Projectile_HitSurface_05" ID="{274CFF02-E384-4CA1-B4DB-351C22688FE2}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="670204497"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Projectile_HitSurface_05" ID="{274CFF02-E384-4CA1-B4DB-351C22688FE2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_Projectile_HitSurface_06" ID="{C5103661-F85C-4BF3-9D8F-6A8B77D5DBFF}" ShortID="567677185">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Projectile_HitSurface_06" ID="{59D25541-3A83-4D32-A21E-BFEDF265719C}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="562930133"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Projectile_HitSurface_06" ID="{59D25541-3A83-4D32-A21E-BFEDF265719C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_Projectile_HitSurface_07" ID="{D9988943-0518-4A07-A177-E84EBD00C84A}" ShortID="902347807">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Projectile_HitSurface_07" ID="{1AB5FF4A-3926-401E-A066-C8E65B4B586C}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="912136316"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Projectile_HitSurface_07" ID="{1AB5FF4A-3926-401E-A066-C8E65B4B586C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_Projectile_HitSurface_08" ID="{DFE3457E-7D63-41E3-8CAD-497410BAEFED}" ShortID="937921643">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Projectile_HitSurface_08" ID="{33CE32A8-02FF-47FB-85EB-7C50128A67F5}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="376948939"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Projectile_HitSurface_08" ID="{33CE32A8-02FF-47FB-85EB-7C50128A67F5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{E9481C5E-8BA6-43A9-B847-517B7478B704}" ShortID="66366366">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="RTPC_Azimuth" ID="{771130CB-E8A2-4560-ADCA-06985A29C132}" WorkUnitID="{F3A5047C-AFCE-4EF5-A5D7-3137F5C8185D}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{9EE73D9D-EBA4-47F2-B070-1B6DB16A450E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-180</XPos>
+																				<YPos>-15</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>-40</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>40</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>180</XPos>
+																				<YPos>-15</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_ENM_MidRange_Purple_Launch" ID="{592238B3-B751-4A13-AEAC-3C238323CC12}" ShortID="659641644">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_ENM_MidRange_Purple_Launch_01" ID="{E65550AE-48BE-4829-B0E2-50428EC6F2C7}" ShortID="218476500">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Purple_Launch_01" ID="{D3D01EAC-064D-44E5-BD16-B94E8EEF7CE8}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Purple_Launch\SFX_ENM_MidRange_Purple_Launch_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="688365243"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Purple_Launch_01" ID="{D3D01EAC-064D-44E5-BD16-B94E8EEF7CE8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_Purple_Launch_02" ID="{0E7872AF-3FA8-4980-9918-258908BE577D}" ShortID="334025194">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Purple_Launch_02" ID="{C075E49C-233E-4341-A708-7D3386E09519}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Purple_Launch\SFX_ENM_MidRange_Purple_Launch_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="92112209"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Purple_Launch_02" ID="{C075E49C-233E-4341-A708-7D3386E09519}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_Purple_Launch_03" ID="{2AED0899-A385-4707-8006-3C9D5B015555}" ShortID="997745086">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Purple_Launch_03" ID="{02DF56A9-D5F6-4280-B7ED-637267B982B3}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Purple_Launch\SFX_ENM_MidRange_Purple_Launch_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="749633438"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Purple_Launch_03" ID="{02DF56A9-D5F6-4280-B7ED-637267B982B3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_ENM_MidRange_Red_Launch" ID="{2402A630-CD7F-464B-9F09-A5ED3F91C595}" ShortID="295365531">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_ENM_MidRange_Red_Launch_01" ID="{6F22EB07-477D-4DDB-B35B-97AEA3FDA850}" ShortID="959712366">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Red_Launch_01" ID="{625BE17F-F562-464C-8C45-D60F2AAD123D}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Red_Launch\SFX_ENM_MidRange_Red_Launch_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="42380848"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Red_Launch_01" ID="{625BE17F-F562-464C-8C45-D60F2AAD123D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_Red_Launch_02" ID="{6952F3B6-25BF-4028-A7CF-D30E9C41989D}" ShortID="443859153">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Red_Launch_02" ID="{3D3CDCE7-B6AB-4F7A-8D96-BB1590925718}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Red_Launch\SFX_ENM_MidRange_Red_Launch_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="892919980"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Red_Launch_02" ID="{3D3CDCE7-B6AB-4F7A-8D96-BB1590925718}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_Red_Launch_03" ID="{CEAE3A50-81E0-4559-B312-485AFAE71961}" ShortID="817283425">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_Red_Launch_03" ID="{ABA11064-7FB3-4E26-854C-070D0C6021C7}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Red_Launch\SFX_ENM_MidRange_Red_Launch_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="946238448"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_Red_Launch_03" ID="{ABA11064-7FB3-4E26-854C-070D0C6021C7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_ENM_MidRange_White_Launch" ID="{368F562F-A7E6-43C3-90C0-1C02DA2871C6}" ShortID="707230131">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_ENM_MidRange_White_Launch_01" ID="{02FF7C75-62D1-4EFC-A001-7ACD5B3BD2B2}" ShortID="707935591">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_White_Launch_01" ID="{57904F0B-D521-43D5-9EFE-C735110942B8}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_White_Launch\SFX_ENM_MidRange_White_Launch_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="102076178"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_White_Launch_01" ID="{57904F0B-D521-43D5-9EFE-C735110942B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_White_Launch_02" ID="{707B3EF1-684D-4F99-A251-8D82F26B0C8A}" ShortID="540559170">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_White_Launch_02" ID="{BA11507C-7DB5-47D8-A4D1-E3F7E6CF504F}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_White_Launch\SFX_ENM_MidRange_White_Launch_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="493518379"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_White_Launch_02" ID="{BA11507C-7DB5-47D8-A4D1-E3F7E6CF504F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_MidRange_White_Launch_03" ID="{B46066D1-D224-450C-ABEB-28EA1E2D0790}" ShortID="254584111">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_MidRange_White_Launch_03" ID="{F4D3E7B2-9F09-4EFA-96E2-2CBFF84D3078}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_White_Launch\SFX_ENM_MidRange_White_Launch_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="818957834"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_MidRange_White_Launch_03" ID="{F4D3E7B2-9F09-4EFA-96E2-2CBFF84D3078}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="SFX_ENM_Swarmer" ID="{86605053-425D-4F35-9101-ABE99A38A70F}" ShortID="777911508">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{676F5CAD-223F-4D55-ABF2-245BBEFE6495}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{91B03DCB-ED54-4BF0-A895-43C6457D2DA5}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_7000" ID="{A49EB5F1-363D-4893-87A4-53F087EF3ED9}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
 								</Reference>
@@ -49,6 +812,216 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_ENM_Swarmer_AttackSwing_Long" ID="{0BA6A980-8640-4BA7-9A77-9C1931352DE3}" ShortID="232470149">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_ENM_Swarmer_AttackSwing_Long_01" ID="{C993765B-C24E-4E97-9234-47E18FEF93FA}" ShortID="421163072">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_Swarmer_AttackSwing_Long_01" ID="{23800A41-7734-40D1-AF2E-352E851F94D0}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Long\SFX_ENM_Swarmer_AttackSwing_Long_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="320439662"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_Swarmer_AttackSwing_Long_01" ID="{23800A41-7734-40D1-AF2E-352E851F94D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_Swarmer_AttackSwing_Long_02" ID="{FB82B093-FE90-419B-B689-0B6C70CDF128}" ShortID="467772030">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_Swarmer_AttackSwing_Long_02" ID="{32DC0A46-86BD-4F0D-995A-3FDBD4C254DE}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Long\SFX_ENM_Swarmer_AttackSwing_Long_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="92315080"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_Swarmer_AttackSwing_Long_02" ID="{32DC0A46-86BD-4F0D-995A-3FDBD4C254DE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_Swarmer_AttackSwing_Long_03" ID="{96A8F03E-F206-4140-A57E-AB1EF2C8A495}" ShortID="263191824">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_Swarmer_AttackSwing_Long_03" ID="{571D301F-D803-45E3-8BEE-3C8E259FB565}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Long\SFX_ENM_Swarmer_AttackSwing_Long_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="280432872"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_Swarmer_AttackSwing_Long_03" ID="{571D301F-D803-45E3-8BEE-3C8E259FB565}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_Swarmer_AttackSwing_Long_04" ID="{35DFD68C-A55E-4091-957D-6428E924339F}" ShortID="724565582">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_Swarmer_AttackSwing_Long_04" ID="{86F2755F-10A8-487B-A931-9EAF327AF420}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Long\SFX_ENM_Swarmer_AttackSwing_Long_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="112780819"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_Swarmer_AttackSwing_Long_04" ID="{86F2755F-10A8-487B-A931-9EAF327AF420}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_ENM_Swarmer_AttackSwing_Short" ID="{62AC8CEA-7A33-40B2-987A-41FC512BAA94}" ShortID="316270187">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_ENM_Swarmer_AttackSwing_Short_01" ID="{28ACD150-FF89-4FE9-A75A-5D5280FE0576}" ShortID="163722645">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_Swarmer_AttackSwing_Short_01" ID="{9B82608E-9F4C-4542-8052-10006668F668}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Short\SFX_ENM_Swarmer_AttackSwing_Short_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="145894492"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_Swarmer_AttackSwing_Short_01" ID="{9B82608E-9F4C-4542-8052-10006668F668}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_Swarmer_AttackSwing_Short_02" ID="{384C765E-8493-4193-804A-A912F61C7B52}" ShortID="987856616">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_Swarmer_AttackSwing_Short_02" ID="{405AA5E5-BB73-481C-82D8-8558FFAE63C5}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Short\SFX_ENM_Swarmer_AttackSwing_Short_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="265531358"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_Swarmer_AttackSwing_Short_02" ID="{405AA5E5-BB73-481C-82D8-8558FFAE63C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_Swarmer_AttackSwing_Short_03" ID="{72E92CA0-0B66-40EE-88CE-F4BBC59FF1DA}" ShortID="8989432">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_Swarmer_AttackSwing_Short_03" ID="{496E56B2-4A07-4461-92A7-93CC736E5E14}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Short\SFX_ENM_Swarmer_AttackSwing_Short_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="769345124"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_Swarmer_AttackSwing_Short_03" ID="{496E56B2-4A07-4461-92A7-93CC736E5E14}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_ENM_Swarmer_AttackSwing_Short_04" ID="{FE8C3032-B912-4B8C-8A33-33FE8B078BEE}" ShortID="940858154">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_ENM_Swarmer_AttackSwing_Short_04" ID="{1F4D441A-29BE-4650-ACE9-11A00600FF10}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Short\SFX_ENM_Swarmer_AttackSwing_Short_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="567184695"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_ENM_Swarmer_AttackSwing_Short_04" ID="{1F4D441A-29BE-4650-ACE9-11A00600FF10}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="SFX_GPE_Launcher" ID="{1A043197-65A4-45FC-84F4-F60F4B1B11BD}" ShortID="720676564">
 							<PropertyList>
@@ -3122,6 +4095,271 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="SFX_MC_TakeDamage_06" ID="{9A6DEBC5-E6A1-4663-A630-28185C671AAC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_ENM_Death" ID="{FBEDC2C0-4AF9-470D-A67B-C6BC903E376F}" ShortID="1025615493">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6127B834-F042-40A9-AD30-7473D6BFA9A9}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{31CE70EB-57F5-425C-9E2B-9C4CD2E02C20}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_7000" ID="{A49EB5F1-363D-4893-87A4-53F087EF3ED9}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_ENM_Death_01" ID="{9701CDC7-C5DC-4BE5-BF6F-D3CC1926998D}" ShortID="218817772">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_ENM_Death_01" ID="{9E54CBB8-F73A-417F-A8F1-BA15863729B4}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_ENM_Death\SFX_ENM_Death_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162137369"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_ENM_Death_01" ID="{9E54CBB8-F73A-417F-A8F1-BA15863729B4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_ENM_Death_02" ID="{245D4173-EF6D-46DA-AF27-803A870C0B8C}" ShortID="876775844">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_ENM_Death_02" ID="{6535E243-DA95-455D-AEB7-28B7EE7AFA4E}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_ENM_Death\SFX_ENM_Death_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="786156599"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_ENM_Death_02" ID="{6535E243-DA95-455D-AEB7-28B7EE7AFA4E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_ENM_Death_03" ID="{B6615197-0F4F-4089-8900-44660B41E435}" ShortID="1041425675">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_ENM_Death_03" ID="{491FED09-AA48-426E-908B-317FFEC6BD46}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_ENM_Death\SFX_ENM_Death_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="962586025"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_ENM_Death_03" ID="{491FED09-AA48-426E-908B-317FFEC6BD46}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_ENM_Death_04" ID="{2D5D5E11-E587-409F-AD1E-767808BDB0E3}" ShortID="307836846">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_ENM_Death_04" ID="{A24B4966-ABD5-4EB9-BCCA-B6E22C335A83}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_ENM_Death\SFX_ENM_Death_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="911259716"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_ENM_Death_04" ID="{A24B4966-ABD5-4EB9-BCCA-B6E22C335A83}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_ENM_Spawn" ID="{43D817B9-4793-4DB9-83A2-D52438CB9F58}" ShortID="491720526">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4FA13124-F8C8-4E6D-B4CF-C2E7F4DAFA29}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{97E562B7-7AFC-4B2B-9A5B-65117E7D1A3C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_7000" ID="{A49EB5F1-363D-4893-87A4-53F087EF3ED9}" WorkUnitID="{265B036E-9A06-4B06-AA43-A6C1D7CFE7FC}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_ENM_Spawn_01" ID="{34A266CA-34D3-4BC8-B43F-7BEF664E6F28}" ShortID="556325733">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_ENM_Spawn_01" ID="{12F96141-30D1-4D41-AF0D-4DA0DAA2A4E0}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_ENM_Spawn\SFX_ENM_Spawn_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1044191164"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_ENM_Spawn_01" ID="{12F96141-30D1-4D41-AF0D-4DA0DAA2A4E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_ENM_Spawn_02" ID="{A8D6AE94-00DF-4AC2-9BC4-A657FA1BF04A}" ShortID="531435000">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_ENM_Spawn_02" ID="{70A3330F-5320-454A-9FF8-62E9876FF168}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_ENM_Spawn\SFX_ENM_Spawn_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="210736494"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_ENM_Spawn_02" ID="{70A3330F-5320-454A-9FF8-62E9876FF168}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_ENM_Spawn_03" ID="{A697CDB3-0F3E-4759-841D-6EBD96491407}" ShortID="586877497">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E87BDDC7-2477-4C37-AC4D-0305E7A45DEC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_ENM_Spawn_03" ID="{A39987F8-3EA3-445C-99EF-8F3487ABF0DF}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_ENM_Spawn\SFX_ENM_Spawn_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="802547109"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_ENM_Spawn_03" ID="{A39987F8-3EA3-445C-99EF-8F3487ABF0DF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

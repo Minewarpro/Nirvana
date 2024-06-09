@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8A840DDD-FF65-4860-AD26-8E951B65D7A5}",
     "Language": "English(US)",
-    "Hash": "{BBA2D4FC-6FD8-9688-BDE6-B32E8B6D1696}",
+    "Hash": "{D8ACE719-F976-EFEF-0559-FF4ED4696C97}",
     "ObjectPath": "FT_MC_Climb",
     "ShortName": "FT_MC_Climb",
     "Path": "Event/English(US)/FT_MC_Climb.bnk",
@@ -133,6 +133,12 @@
       "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
      },
      {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
+     },
+     {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
@@ -147,6 +153,6 @@
     ]
    }
   ],
-  "FileHash": "{D9DBC29D-19A0-3295-9FB5-9614613527B0}"
+  "FileHash": "{E8821FBB-70D2-3F97-8FF6-11E16423E2C3}"
  }
 }

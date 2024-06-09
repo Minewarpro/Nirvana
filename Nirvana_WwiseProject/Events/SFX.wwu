@@ -7,8 +7,91 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Folder Name="SFX_ENM MidRange" ID="{3651159F-CDA1-49B5-8C20-E270D4F8575A}" ShortID="907580807"/>
-				<Folder Name="SFX_ENM Swarmer" ID="{53E91BE1-4BC3-45BC-911C-57AAB791E9CD}" ShortID="932587146"/>
+				<Folder Name="SFX_ENM MidRange" ID="{3651159F-CDA1-49B5-8C20-E270D4F8575A}" ShortID="907580807">
+					<ChildrenList>
+						<Event Name="SFX_ENM_MidRange_Projectile_HitSurface" ID="{FCD607CA-E731-4017-AFBA-4D2D2B2104D9}">
+							<ChildrenList>
+								<Action Name="" ID="{BE1ED151-5FD3-489E-A994-A942339E920E}" ShortID="902788663">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_ENM_MidRange_Projectile_HitSurface" ID="{A5A9179D-586A-4459-A669-92587E95897D}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_ENM_MidRange_Red_Launch" ID="{17B05FE1-729A-4C92-964E-D4CCCD377704}">
+							<ChildrenList>
+								<Action Name="" ID="{39FE99BB-99A5-4B8A-914F-57397D48E7E4}" ShortID="1053293551">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_ENM_MidRange_Red_Launch" ID="{2402A630-CD7F-464B-9F09-A5ED3F91C595}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_ENM_MidRange_Purple_Launch" ID="{06BD0A37-08FF-4EC5-8979-3800062C3CB6}">
+							<ChildrenList>
+								<Action Name="" ID="{408D0A04-F34A-418F-B7D3-4356E2658D49}" ShortID="364871767">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_ENM_MidRange_Purple_Launch" ID="{592238B3-B751-4A13-AEAC-3C238323CC12}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_ENM_MidRange_AttackPillar" ID="{B39D313B-16B8-4B4C-9004-38B0E763D058}">
+							<ChildrenList>
+								<Action Name="" ID="{48F45CE9-376A-4B11-8B13-9AD401C724FB}" ShortID="438774619">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_ENM_MidRange_AttackPillar" ID="{197EC09D-944C-4211-A67E-28B90C8DE585}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_ENM_MidRange_White_Launch" ID="{D97A656C-55B2-43BC-B4DB-92386E96CE8F}">
+							<ChildrenList>
+								<Action Name="" ID="{8B174148-CE2C-473A-BA8E-4F028238C79A}" ShortID="160491466">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_ENM_MidRange_White_Launch" ID="{368F562F-A7E6-43C3-90C0-1C02DA2871C6}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX_ENM Swarmer" ID="{53E91BE1-4BC3-45BC-911C-57AAB791E9CD}" ShortID="932587146">
+					<ChildrenList>
+						<Event Name="SFX_ENM_Swarmer_AttackSwing_Long" ID="{16A69BD1-8C97-42DA-B779-66771BE84F1B}">
+							<ChildrenList>
+								<Action Name="" ID="{DF6E1FFE-41AE-431F-9A91-2C71F5DE2DBA}" ShortID="331173541">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_ENM_Swarmer_AttackSwing_Long" ID="{0BA6A980-8640-4BA7-9A77-9C1931352DE3}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_ENM_Swarmer_AttackSwing_Short" ID="{98AE0793-111B-458D-9EF8-8A9824EB7983}">
+							<ChildrenList>
+								<Action Name="" ID="{E15DED00-73A3-4F90-9079-1225373420A9}" ShortID="345630108">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_ENM_Swarmer_AttackSwing_Short" ID="{62AC8CEA-7A33-40B2-987A-41FC512BAA94}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="SFX_GPE" ID="{52637C5C-2EA8-43D5-BC14-16D8953EA76D}" ShortID="494015703">
 					<ChildrenList>
 						<Event Name="SFX_GPE_Launcher_Idle_lp" ID="{F9ECE36B-B8A5-4C9F-972B-F3127E47133D}">
@@ -427,6 +510,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="VO_Ari_Gameplay_Hurt" ID="{5D6FD190-355C-49A7-856F-DCE5F002E197}" WorkUnitID="{9F6C0C4B-6578-4A56-B6A0-DB3A2F4BFB21}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_ENM_Spawn" ID="{4389ED31-A929-49BD-A395-DAB6497CE6DA}">
+					<ChildrenList>
+						<Action Name="" ID="{5E8CBF43-478E-4719-A214-37DE708FEAD1}" ShortID="231930019">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_ENM_Spawn" ID="{43D817B9-4793-4DB9-83A2-D52438CB9F58}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_ENM_Death" ID="{6A23C9C9-9850-4C9E-AE50-ABD661920B6C}">
+					<ChildrenList>
+						<Action Name="" ID="{19ED6BB9-C04C-4CB7-9F72-0EDEC66E58C0}" ShortID="447885642">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_ENM_Death" ID="{FBEDC2C0-4AF9-470D-A67B-C6BC903E376F}" WorkUnitID="{ABD777F1-578C-43ED-A98F-82147B1F33F1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

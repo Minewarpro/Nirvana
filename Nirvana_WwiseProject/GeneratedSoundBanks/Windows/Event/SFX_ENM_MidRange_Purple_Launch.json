@@ -1,0 +1,87 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "608835776",
+    "Type": "Event",
+    "GUID": "{06BD0A37-08FF-4EC5-8979-3800062C3CB6}",
+    "Language": "SFX",
+    "Hash": "{09ABC0D7-5CFA-1C4D-F677-9644FB65082B}",
+    "ObjectPath": "SFX_ENM_MidRange_Purple_Launch",
+    "ShortName": "SFX_ENM_MidRange_Purple_Launch",
+    "Path": "Event/SFX_ENM_MidRange_Purple_Launch.bnk",
+    "Media": [
+     {
+      "Id": "92112209",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Purple_Launch\\SFX_ENM_MidRange_Purple_Launch_02.wav",
+      "Path": "Media/92112209.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Purple_Launch/SFX_ENM_MidRange_Purple_Launch_02_818F3B66.wem"
+     },
+     {
+      "Id": "688365243",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Purple_Launch\\SFX_ENM_MidRange_Purple_Launch_01.wav",
+      "Path": "Media/688365243.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Purple_Launch/SFX_ENM_MidRange_Purple_Launch_01_818F3B66.wem"
+     },
+     {
+      "Id": "749633438",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Purple_Launch\\SFX_ENM_MidRange_Purple_Launch_03.wav",
+      "Path": "Media/749633438.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Purple_Launch/SFX_ENM_MidRange_Purple_Launch_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "608835776",
+      "Name": "SFX_ENM_MidRange_Purple_Launch",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM MidRange\\SFX_ENM_MidRange_Purple_Launch",
+      "GUID": "{06BD0A37-08FF-4EC5-8979-3800062C3CB6}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3406446",
+      "DurationMax": "1.4967923",
+      "MediaRefs": [
+       {
+        "Id": "92112209"
+       },
+       {
+        "Id": "688365243"
+       },
+       {
+        "Id": "749633438"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D6963DA2-AEA4-E49C-1EBC-791A21C73C04}"
+ }
+}

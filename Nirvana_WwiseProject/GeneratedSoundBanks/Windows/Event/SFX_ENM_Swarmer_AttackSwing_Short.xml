@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1554417481" Type="Event" GUID="{98AE0793-111B-458D-9EF8-8A9824EB7983}" Language="SFX" Hash="{46F52335-2899-A8CC-21A3-59C72951DDBD}">
+			<ObjectPath>SFX_ENM_Swarmer_AttackSwing_Short</ObjectPath>
+			<ShortName>SFX_ENM_Swarmer_AttackSwing_Short</ShortName>
+			<Path>Event/SFX_ENM_Swarmer_AttackSwing_Short.bnk</Path>
+			<Media>
+				<File Id="145894492" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Short\SFX_ENM_Swarmer_AttackSwing_Short_01.wav</ShortName>
+					<Path>Media/145894492.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Short/SFX_ENM_Swarmer_AttackSwing_Short_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="265531358" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Short\SFX_ENM_Swarmer_AttackSwing_Short_02.wav</ShortName>
+					<Path>Media/265531358.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Short/SFX_ENM_Swarmer_AttackSwing_Short_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="567184695" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Short\SFX_ENM_Swarmer_AttackSwing_Short_04.wav</ShortName>
+					<Path>Media/567184695.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Short/SFX_ENM_Swarmer_AttackSwing_Short_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="769345124" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Short\SFX_ENM_Swarmer_AttackSwing_Short_03.wav</ShortName>
+					<Path>Media/769345124.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Short/SFX_ENM_Swarmer_AttackSwing_Short_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1554417481" Name="SFX_ENM_Swarmer_AttackSwing_Short" ObjectPath="\Events\SFX\SFX_ENM Swarmer\SFX_ENM_Swarmer_AttackSwing_Short" GUID="{98AE0793-111B-458D-9EF8-8A9824EB7983}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.6384022" DurationMax="0.6961825">
+					<MediaRefs>
+						<MediaRef Id="145894492"/>
+						<MediaRef Id="265531358"/>
+						<MediaRef Id="567184695"/>
+						<MediaRef Id="769345124"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F96DBE50-6357-2FA8-B126-21A84617B236}</FileHash>
+</SoundBanksInfo>

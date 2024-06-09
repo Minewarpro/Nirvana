@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{785476FB-AD69-4592-AE56-11AF2B38662A}",
     "Language": "SFX",
-    "Hash": "{025F7598-F714-EFD4-F1C2-DEBA7E7CFCB3}",
+    "Hash": "{C46725F4-86D5-08F9-B290-21293947FD53}",
     "ObjectPath": "FT_MC_JumpSecond",
     "ShortName": "FT_MC_JumpSecond",
     "Path": "Event/FT_MC_JumpSecond.bnk",
@@ -79,6 +79,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
+     },
+     {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
@@ -87,6 +93,6 @@
     ]
    }
   ],
-  "FileHash": "{B9AAF52A-C12D-CCFD-4421-EE3DE4A185D8}"
+  "FileHash": "{3E797E1F-EF1C-524F-D619-61A6170F0D07}"
  }
 }

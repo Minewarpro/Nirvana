@@ -2351,6 +2351,82 @@
     ]
    },
    {
+    "Id": "608835776",
+    "Type": "Event",
+    "GUID": "{06BD0A37-08FF-4EC5-8979-3800062C3CB6}",
+    "Language": "SFX",
+    "Hash": "{09ABC0D7-5CFA-1C4D-F677-9644FB65082B}",
+    "ObjectPath": "SFX_ENM_MidRange_Purple_Launch",
+    "ShortName": "SFX_ENM_MidRange_Purple_Launch",
+    "Path": "Event/SFX_ENM_MidRange_Purple_Launch.bnk",
+    "Media": [
+     {
+      "Id": "92112209",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Purple_Launch\\SFX_ENM_MidRange_Purple_Launch_02.wav",
+      "Path": "Media/92112209.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Purple_Launch/SFX_ENM_MidRange_Purple_Launch_02_818F3B66.wem"
+     },
+     {
+      "Id": "688365243",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Purple_Launch\\SFX_ENM_MidRange_Purple_Launch_01.wav",
+      "Path": "Media/688365243.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Purple_Launch/SFX_ENM_MidRange_Purple_Launch_01_818F3B66.wem"
+     },
+     {
+      "Id": "749633438",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Purple_Launch\\SFX_ENM_MidRange_Purple_Launch_03.wav",
+      "Path": "Media/749633438.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Purple_Launch/SFX_ENM_MidRange_Purple_Launch_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "608835776",
+      "Name": "SFX_ENM_MidRange_Purple_Launch",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM MidRange\\SFX_ENM_MidRange_Purple_Launch",
+      "GUID": "{06BD0A37-08FF-4EC5-8979-3800062C3CB6}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3406446",
+      "DurationMax": "1.4967923",
+      "MediaRefs": [
+       {
+        "Id": "92112209"
+       },
+       {
+        "Id": "688365243"
+       },
+       {
+        "Id": "749633438"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   },
+   {
     "Id": "617676896",
     "Type": "Event",
     "GUID": "{06E8F036-5300-4CBE-9360-4DFF3221E7C8}",
@@ -3196,7 +3272,7 @@
     "Type": "Event",
     "GUID": "{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}",
     "Language": "SFX",
-    "Hash": "{30FAE5F4-398C-EE45-162C-7C64EBB29C1F}",
+    "Hash": "{084E13F4-4503-1A2A-5D2D-81C85D19F273}",
     "ObjectPath": "FT_MC_Slide_Exit",
     "ShortName": "FT_MC_Slide_Exit",
     "Path": "Event/FT_MC_Slide_Exit.bnk",
@@ -3393,6 +3469,12 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
+     },
      {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
@@ -3673,6 +3755,94 @@
       "MediaRefs": [
        {
         "Id": "816987938"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   },
+   {
+    "Id": "1140314359",
+    "Type": "Event",
+    "GUID": "{16A69BD1-8C97-42DA-B779-66771BE84F1B}",
+    "Language": "SFX",
+    "Hash": "{141519E4-EA04-DE4E-30A7-D6D20B74C460}",
+    "ObjectPath": "SFX_ENM_Swarmer_AttackSwing_Long",
+    "ShortName": "SFX_ENM_Swarmer_AttackSwing_Long",
+    "Path": "Event/SFX_ENM_Swarmer_AttackSwing_Long.bnk",
+    "Media": [
+     {
+      "Id": "92315080",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Swarmer\\SFX_ENM_Swarmer_AttackSwing_Long\\SFX_ENM_Swarmer_AttackSwing_Long_02.wav",
+      "Path": "Media/92315080.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Long/SFX_ENM_Swarmer_AttackSwing_Long_02_818F3B66.wem"
+     },
+     {
+      "Id": "112780819",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Swarmer\\SFX_ENM_Swarmer_AttackSwing_Long\\SFX_ENM_Swarmer_AttackSwing_Long_04.wav",
+      "Path": "Media/112780819.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Long/SFX_ENM_Swarmer_AttackSwing_Long_04_818F3B66.wem"
+     },
+     {
+      "Id": "280432872",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Swarmer\\SFX_ENM_Swarmer_AttackSwing_Long\\SFX_ENM_Swarmer_AttackSwing_Long_03.wav",
+      "Path": "Media/280432872.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Long/SFX_ENM_Swarmer_AttackSwing_Long_03_818F3B66.wem"
+     },
+     {
+      "Id": "320439662",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Swarmer\\SFX_ENM_Swarmer_AttackSwing_Long\\SFX_ENM_Swarmer_AttackSwing_Long_01.wav",
+      "Path": "Media/320439662.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Long/SFX_ENM_Swarmer_AttackSwing_Long_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1140314359",
+      "Name": "SFX_ENM_Swarmer_AttackSwing_Long",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM Swarmer\\SFX_ENM_Swarmer_AttackSwing_Long",
+      "GUID": "{16A69BD1-8C97-42DA-B779-66771BE84F1B}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.70224243",
+      "DurationMax": "0.7658008",
+      "MediaRefs": [
+       {
+        "Id": "92315080"
+       },
+       {
+        "Id": "112780819"
+       },
+       {
+        "Id": "280432872"
+       },
+       {
+        "Id": "320439662"
        }
       ]
      }
@@ -4009,7 +4179,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{C2A3D035-21B1-65E6-2E61-E6231F2C0653}",
+    "Hash": "{9513C81B-9C62-428D-852A-F83D63C6B6D2}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -4251,6 +4421,12 @@
       "Name": "RTPC_SFX_MC_Weapon_Meter",
       "ObjectPath": "\\Game Parameters\\RTPC_SFX\\RTPC_SFX_MC_Weapon_Meter",
       "GUID": "{86852467-6F73-4A7D-A970-056FB33188A5}"
+     },
+     {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
      },
      {
       "Id": "3059389217",
@@ -5166,6 +5342,82 @@
     ]
    },
    {
+    "Id": "1510227421",
+    "Type": "Event",
+    "GUID": "{4389ED31-A929-49BD-A395-DAB6497CE6DA}",
+    "Language": "SFX",
+    "Hash": "{265C3BF3-F377-4618-6FAD-C85DC9FC33C3}",
+    "ObjectPath": "SFX_ENM_Spawn",
+    "ShortName": "SFX_ENM_Spawn",
+    "Path": "Event/SFX_ENM_Spawn.bnk",
+    "Media": [
+     {
+      "Id": "210736494",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Spawn\\SFX_ENM_Spawn_02.wav",
+      "Path": "Media/210736494.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Spawn/SFX_ENM_Spawn_02_818F3B66.wem"
+     },
+     {
+      "Id": "802547109",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Spawn\\SFX_ENM_Spawn_03.wav",
+      "Path": "Media/802547109.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Spawn/SFX_ENM_Spawn_03_818F3B66.wem"
+     },
+     {
+      "Id": "1044191164",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Spawn\\SFX_ENM_Spawn_01.wav",
+      "Path": "Media/1044191164.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Spawn/SFX_ENM_Spawn_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1510227421",
+      "Name": "SFX_ENM_Spawn",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM_Spawn",
+      "GUID": "{4389ED31-A929-49BD-A395-DAB6497CE6DA}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.95760334",
+      "DurationMax": "1.0442737",
+      "MediaRefs": [
+       {
+        "Id": "210736494"
+       },
+       {
+        "Id": "802547109"
+       },
+       {
+        "Id": "1044191164"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   },
+   {
     "Id": "1532872020",
     "Type": "Event",
     "GUID": "{073692BA-1D60-4760-82EF-D426063131AB}",
@@ -5209,6 +5461,94 @@
        },
        {
         "Id": "856857197"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   },
+   {
+    "Id": "1554417481",
+    "Type": "Event",
+    "GUID": "{98AE0793-111B-458D-9EF8-8A9824EB7983}",
+    "Language": "SFX",
+    "Hash": "{46F52335-2899-A8CC-21A3-59C72951DDBD}",
+    "ObjectPath": "SFX_ENM_Swarmer_AttackSwing_Short",
+    "ShortName": "SFX_ENM_Swarmer_AttackSwing_Short",
+    "Path": "Event/SFX_ENM_Swarmer_AttackSwing_Short.bnk",
+    "Media": [
+     {
+      "Id": "145894492",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Swarmer\\SFX_ENM_Swarmer_AttackSwing_Short\\SFX_ENM_Swarmer_AttackSwing_Short_01.wav",
+      "Path": "Media/145894492.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Short/SFX_ENM_Swarmer_AttackSwing_Short_01_818F3B66.wem"
+     },
+     {
+      "Id": "265531358",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Swarmer\\SFX_ENM_Swarmer_AttackSwing_Short\\SFX_ENM_Swarmer_AttackSwing_Short_02.wav",
+      "Path": "Media/265531358.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Short/SFX_ENM_Swarmer_AttackSwing_Short_02_818F3B66.wem"
+     },
+     {
+      "Id": "567184695",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Swarmer\\SFX_ENM_Swarmer_AttackSwing_Short\\SFX_ENM_Swarmer_AttackSwing_Short_04.wav",
+      "Path": "Media/567184695.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Short/SFX_ENM_Swarmer_AttackSwing_Short_04_818F3B66.wem"
+     },
+     {
+      "Id": "769345124",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Swarmer\\SFX_ENM_Swarmer_AttackSwing_Short\\SFX_ENM_Swarmer_AttackSwing_Short_03.wav",
+      "Path": "Media/769345124.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Short/SFX_ENM_Swarmer_AttackSwing_Short_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1554417481",
+      "Name": "SFX_ENM_Swarmer_AttackSwing_Short",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM Swarmer\\SFX_ENM_Swarmer_AttackSwing_Short",
+      "GUID": "{98AE0793-111B-458D-9EF8-8A9824EB7983}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6384022",
+      "DurationMax": "0.6961825",
+      "MediaRefs": [
+       {
+        "Id": "145894492"
+       },
+       {
+        "Id": "265531358"
+       },
+       {
+        "Id": "567184695"
+       },
+       {
+        "Id": "769345124"
        }
       ]
      }
@@ -6354,7 +6694,7 @@
     "Type": "Event",
     "GUID": "{B938B411-A41C-469A-B1F4-9D6AFA5CE561}",
     "Language": "SFX",
-    "Hash": "{40E09E70-8E5A-7E05-F5A2-CA880CCBCCF3}",
+    "Hash": "{E2D15973-3638-1209-5EE1-2A489D009D5F}",
     "ObjectPath": "FT_MC_Slide_Enter",
     "ShortName": "FT_MC_Slide_Enter",
     "Path": "Event/FT_MC_Slide_Enter.bnk",
@@ -6651,6 +6991,12 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
+     },
      {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
@@ -8287,7 +8633,7 @@
     "Type": "Event",
     "GUID": "{8A840DDD-FF65-4860-AD26-8E951B65D7A5}",
     "Language": "English(US)",
-    "Hash": "{BBA2D4FC-6FD8-9688-BDE6-B32E8B6D1696}",
+    "Hash": "{D8ACE719-F976-EFEF-0559-FF4ED4696C97}",
     "ObjectPath": "FT_MC_Climb",
     "ShortName": "FT_MC_Climb",
     "Path": "Event/English(US)/FT_MC_Climb.bnk",
@@ -8410,6 +8756,12 @@
       "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
      },
      {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
+     },
+     {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
@@ -8512,6 +8864,218 @@
     ]
    },
    {
+    "Id": "2753918892",
+    "Type": "Event",
+    "GUID": "{FCD607CA-E731-4017-AFBA-4D2D2B2104D9}",
+    "Language": "SFX",
+    "Hash": "{F52ABAF6-260F-8BC9-4BCB-AA696ECB8285}",
+    "ObjectPath": "SFX_ENM_MidRange_Projectile_HitSurface",
+    "ShortName": "SFX_ENM_MidRange_Projectile_HitSurface",
+    "Path": "Event/SFX_ENM_MidRange_Projectile_HitSurface.bnk",
+    "Media": [
+     {
+      "Id": "87218469",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_02.wav",
+      "Path": "Media/87218469.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_02_818F3B66.wem"
+     },
+     {
+      "Id": "122653084",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_03.wav",
+      "Path": "Media/122653084.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_03_818F3B66.wem"
+     },
+     {
+      "Id": "376948939",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_08.wav",
+      "Path": "Media/376948939.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_08_818F3B66.wem"
+     },
+     {
+      "Id": "562930133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_06.wav",
+      "Path": "Media/562930133.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_06_818F3B66.wem"
+     },
+     {
+      "Id": "670204497",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_05.wav",
+      "Path": "Media/670204497.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_05_818F3B66.wem"
+     },
+     {
+      "Id": "731115657",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_04.wav",
+      "Path": "Media/731115657.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_04_818F3B66.wem"
+     },
+     {
+      "Id": "912136316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_07.wav",
+      "Path": "Media/912136316.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_07_818F3B66.wem"
+     },
+     {
+      "Id": "1033314170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_01.wav",
+      "Path": "Media/1033314170.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2753918892",
+      "Name": "SFX_ENM_MidRange_Projectile_HitSurface",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM MidRange\\SFX_ENM_MidRange_Projectile_HitSurface",
+      "GUID": "{FCD607CA-E731-4017-AFBA-4D2D2B2104D9}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "0.774342",
+      "DurationMax": "1.2165354",
+      "MediaRefs": [
+       {
+        "Id": "87218469"
+       },
+       {
+        "Id": "122653084"
+       },
+       {
+        "Id": "376948939"
+       },
+       {
+        "Id": "562930133"
+       },
+       {
+        "Id": "670204497"
+       },
+       {
+        "Id": "731115657"
+       },
+       {
+        "Id": "912136316"
+       },
+       {
+        "Id": "1033314170"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   },
+   {
+    "Id": "2775645227",
+    "Type": "Event",
+    "GUID": "{D97A656C-55B2-43BC-B4DB-92386E96CE8F}",
+    "Language": "SFX",
+    "Hash": "{E68F3B41-B460-A6F1-AB57-8054175097B2}",
+    "ObjectPath": "SFX_ENM_MidRange_White_Launch",
+    "ShortName": "SFX_ENM_MidRange_White_Launch",
+    "Path": "Event/SFX_ENM_MidRange_White_Launch.bnk",
+    "Media": [
+     {
+      "Id": "102076178",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_White_Launch\\SFX_ENM_MidRange_White_Launch_01.wav",
+      "Path": "Media/102076178.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_White_Launch/SFX_ENM_MidRange_White_Launch_01_818F3B66.wem"
+     },
+     {
+      "Id": "493518379",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_White_Launch\\SFX_ENM_MidRange_White_Launch_02.wav",
+      "Path": "Media/493518379.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_White_Launch/SFX_ENM_MidRange_White_Launch_02_818F3B66.wem"
+     },
+     {
+      "Id": "818957834",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_White_Launch\\SFX_ENM_MidRange_White_Launch_03.wav",
+      "Path": "Media/818957834.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_White_Launch/SFX_ENM_MidRange_White_Launch_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2775645227",
+      "Name": "SFX_ENM_MidRange_White_Launch",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM MidRange\\SFX_ENM_MidRange_White_Launch",
+      "GUID": "{D97A656C-55B2-43BC-B4DB-92386E96CE8F}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3406446",
+      "DurationMax": "1.4619832",
+      "MediaRefs": [
+       {
+        "Id": "102076178"
+       },
+       {
+        "Id": "493518379"
+       },
+       {
+        "Id": "818957834"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   },
+   {
     "Id": "2855648328",
     "Type": "Event",
     "GUID": "{CF346644-104F-4F5E-9F43-902F0F6F0B6D}",
@@ -8567,7 +9131,7 @@
     "Type": "Event",
     "GUID": "{785476FB-AD69-4592-AE56-11AF2B38662A}",
     "Language": "SFX",
-    "Hash": "{025F7598-F714-EFD4-F1C2-DEBA7E7CFCB3}",
+    "Hash": "{C46725F4-86D5-08F9-B290-21293947FD53}",
     "ObjectPath": "FT_MC_JumpSecond",
     "ShortName": "FT_MC_JumpSecond",
     "Path": "Event/FT_MC_JumpSecond.bnk",
@@ -8635,6 +9199,12 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
+     },
      {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
@@ -8834,6 +9404,82 @@
        },
        {
         "Id": "983536794"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   },
+   {
+    "Id": "3034218025",
+    "Type": "Event",
+    "GUID": "{17B05FE1-729A-4C92-964E-D4CCCD377704}",
+    "Language": "SFX",
+    "Hash": "{5FDC04B7-6AB6-B6DF-ADB4-EF9D558BCFB2}",
+    "ObjectPath": "SFX_ENM_MidRange_Red_Launch",
+    "ShortName": "SFX_ENM_MidRange_Red_Launch",
+    "Path": "Event/SFX_ENM_MidRange_Red_Launch.bnk",
+    "Media": [
+     {
+      "Id": "42380848",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Red_Launch\\SFX_ENM_MidRange_Red_Launch_01.wav",
+      "Path": "Media/42380848.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Red_Launch/SFX_ENM_MidRange_Red_Launch_01_818F3B66.wem"
+     },
+     {
+      "Id": "892919980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Red_Launch\\SFX_ENM_MidRange_Red_Launch_02.wav",
+      "Path": "Media/892919980.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Red_Launch/SFX_ENM_MidRange_Red_Launch_02_818F3B66.wem"
+     },
+     {
+      "Id": "946238448",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Red_Launch\\SFX_ENM_MidRange_Red_Launch_03.wav",
+      "Path": "Media/946238448.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Red_Launch/SFX_ENM_MidRange_Red_Launch_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3034218025",
+      "Name": "SFX_ENM_MidRange_Red_Launch",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM MidRange\\SFX_ENM_MidRange_Red_Launch",
+      "GUID": "{17B05FE1-729A-4C92-964E-D4CCCD377704}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3406446",
+      "DurationMax": "1.4619832",
+      "MediaRefs": [
+       {
+        "Id": "42380848"
+       },
+       {
+        "Id": "892919980"
+       },
+       {
+        "Id": "946238448"
        }
       ]
      }
@@ -9582,6 +10228,94 @@
     ]
    },
    {
+    "Id": "3427854526",
+    "Type": "Event",
+    "GUID": "{6A23C9C9-9850-4C9E-AE50-ABD661920B6C}",
+    "Language": "SFX",
+    "Hash": "{13A00313-B71E-B22E-0C12-6AF7441A4DB2}",
+    "ObjectPath": "SFX_ENM_Death",
+    "ShortName": "SFX_ENM_Death",
+    "Path": "Event/SFX_ENM_Death.bnk",
+    "Media": [
+     {
+      "Id": "162137369",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Death\\SFX_ENM_Death_01.wav",
+      "Path": "Media/162137369.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Death/SFX_ENM_Death_01_818F3B66.wem"
+     },
+     {
+      "Id": "786156599",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Death\\SFX_ENM_Death_02.wav",
+      "Path": "Media/786156599.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Death/SFX_ENM_Death_02_818F3B66.wem"
+     },
+     {
+      "Id": "911259716",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Death\\SFX_ENM_Death_04.wav",
+      "Path": "Media/911259716.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Death/SFX_ENM_Death_04_818F3B66.wem"
+     },
+     {
+      "Id": "962586025",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Death\\SFX_ENM_Death_03.wav",
+      "Path": "Media/962586025.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Death/SFX_ENM_Death_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3427854526",
+      "Name": "SFX_ENM_Death",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM_Death",
+      "GUID": "{6A23C9C9-9850-4C9E-AE50-ABD661920B6C}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9152067",
+      "DurationMax": "2.0885475",
+      "MediaRefs": [
+       {
+        "Id": "162137369"
+       },
+       {
+        "Id": "786156599"
+       },
+       {
+        "Id": "911259716"
+       },
+       {
+        "Id": "962586025"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   },
+   {
     "Id": "3474566310",
     "Type": "Event",
     "GUID": "{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}",
@@ -9922,7 +10656,7 @@
     "Type": "Event",
     "GUID": "{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}",
     "Language": "SFX",
-    "Hash": "{EDF0C0A8-D989-8DFE-202F-8DCF8577065D}",
+    "Hash": "{21FACBD3-9944-1E85-1735-D7F3FE32AB7F}",
     "ObjectPath": "FT_MC",
     "ShortName": "FT_MC",
     "Path": "Event/FT_MC.bnk",
@@ -10935,6 +11669,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
+     },
+     {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
@@ -11101,7 +11841,7 @@
     "Type": "Event",
     "GUID": "{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}",
     "Language": "English(US)",
-    "Hash": "{0309AEDE-B3F7-260F-10B8-084043039F82}",
+    "Hash": "{BB6C7D06-8EDE-0C27-BA6F-59327331FD06}",
     "ObjectPath": "FT_MC_Dash",
     "ShortName": "FT_MC_Dash",
     "Path": "Event/English(US)/FT_MC_Dash.bnk",
@@ -11224,10 +11964,104 @@
       "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
      },
      {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
+     },
+     {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
       "GUID": "{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   },
+   {
+    "Id": "3799313888",
+    "Type": "Event",
+    "GUID": "{B39D313B-16B8-4B4C-9004-38B0E763D058}",
+    "Language": "SFX",
+    "Hash": "{D98B84A4-680B-5A30-117E-1AD70B8E764D}",
+    "ObjectPath": "SFX_ENM_MidRange_AttackPillar",
+    "ShortName": "SFX_ENM_MidRange_AttackPillar",
+    "Path": "Event/SFX_ENM_MidRange_AttackPillar.bnk",
+    "Media": [
+     {
+      "Id": "417564133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_AttackPillar\\SFX_ENM_MidRange_AttackPillar_01.wav",
+      "Path": "Media/417564133.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_01_818F3B66.wem"
+     },
+     {
+      "Id": "527970490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_AttackPillar\\SFX_ENM_MidRange_AttackPillar_02.wav",
+      "Path": "Media/527970490.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_02_818F3B66.wem"
+     },
+     {
+      "Id": "716800789",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_AttackPillar\\SFX_ENM_MidRange_AttackPillar_04.wav",
+      "Path": "Media/716800789.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_04_818F3B66.wem"
+     },
+     {
+      "Id": "1037107958",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_AttackPillar\\SFX_ENM_MidRange_AttackPillar_03.wav",
+      "Path": "Media/1037107958.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3799313888",
+      "Name": "SFX_ENM_MidRange_AttackPillar",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM MidRange\\SFX_ENM_MidRange_AttackPillar",
+      "GUID": "{B39D313B-16B8-4B4C-9004-38B0E763D058}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "3.223931",
+      "DurationMax": "3.6897671",
+      "MediaRefs": [
+       {
+        "Id": "417564133"
+       },
+       {
+        "Id": "527970490"
+       },
+       {
+        "Id": "716800789"
+       },
+       {
+        "Id": "1037107958"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
      },
      {
       "Id": "3972935021",
@@ -12840,6 +13674,6 @@
     ]
    }
   ],
-  "FileHash": "{9E1CA739-2A89-EE3E-F632-284A47E5C0E2}"
+  "FileHash": "{EDA37E4D-C527-1077-87F0-D9CFF10BD07E}"
  }
 }

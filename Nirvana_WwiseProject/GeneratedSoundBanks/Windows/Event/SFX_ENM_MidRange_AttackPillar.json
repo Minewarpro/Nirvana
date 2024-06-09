@@ -1,0 +1,99 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3799313888",
+    "Type": "Event",
+    "GUID": "{B39D313B-16B8-4B4C-9004-38B0E763D058}",
+    "Language": "SFX",
+    "Hash": "{D98B84A4-680B-5A30-117E-1AD70B8E764D}",
+    "ObjectPath": "SFX_ENM_MidRange_AttackPillar",
+    "ShortName": "SFX_ENM_MidRange_AttackPillar",
+    "Path": "Event/SFX_ENM_MidRange_AttackPillar.bnk",
+    "Media": [
+     {
+      "Id": "417564133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_AttackPillar\\SFX_ENM_MidRange_AttackPillar_01.wav",
+      "Path": "Media/417564133.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_01_818F3B66.wem"
+     },
+     {
+      "Id": "527970490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_AttackPillar\\SFX_ENM_MidRange_AttackPillar_02.wav",
+      "Path": "Media/527970490.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_02_818F3B66.wem"
+     },
+     {
+      "Id": "716800789",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_AttackPillar\\SFX_ENM_MidRange_AttackPillar_04.wav",
+      "Path": "Media/716800789.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_04_818F3B66.wem"
+     },
+     {
+      "Id": "1037107958",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_AttackPillar\\SFX_ENM_MidRange_AttackPillar_03.wav",
+      "Path": "Media/1037107958.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3799313888",
+      "Name": "SFX_ENM_MidRange_AttackPillar",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM MidRange\\SFX_ENM_MidRange_AttackPillar",
+      "GUID": "{B39D313B-16B8-4B4C-9004-38B0E763D058}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "3.223931",
+      "DurationMax": "3.6897671",
+      "MediaRefs": [
+       {
+        "Id": "417564133"
+       },
+       {
+        "Id": "527970490"
+       },
+       {
+        "Id": "716800789"
+       },
+       {
+        "Id": "1037107958"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4CBA087C-80A8-17A4-AA13-E63AAFE291E1}"
+ }
+}

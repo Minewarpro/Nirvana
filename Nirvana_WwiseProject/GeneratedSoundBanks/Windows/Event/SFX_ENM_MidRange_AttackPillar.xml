@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3799313888" Type="Event" GUID="{B39D313B-16B8-4B4C-9004-38B0E763D058}" Language="SFX" Hash="{D98B84A4-680B-5A30-117E-1AD70B8E764D}">
+			<ObjectPath>SFX_ENM_MidRange_AttackPillar</ObjectPath>
+			<ShortName>SFX_ENM_MidRange_AttackPillar</ShortName>
+			<Path>Event/SFX_ENM_MidRange_AttackPillar.bnk</Path>
+			<Media>
+				<File Id="417564133" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_AttackPillar\SFX_ENM_MidRange_AttackPillar_01.wav</ShortName>
+					<Path>Media/417564133.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="527970490" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_AttackPillar\SFX_ENM_MidRange_AttackPillar_02.wav</ShortName>
+					<Path>Media/527970490.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="716800789" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_AttackPillar\SFX_ENM_MidRange_AttackPillar_04.wav</ShortName>
+					<Path>Media/716800789.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1037107958" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_AttackPillar\SFX_ENM_MidRange_AttackPillar_03.wav</ShortName>
+					<Path>Media/1037107958.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3799313888" Name="SFX_ENM_MidRange_AttackPillar" ObjectPath="\Events\SFX\SFX_ENM MidRange\SFX_ENM_MidRange_AttackPillar" GUID="{B39D313B-16B8-4B4C-9004-38B0E763D058}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="3.223931" DurationMax="3.6897671">
+					<MediaRefs>
+						<MediaRef Id="417564133"/>
+						<MediaRef Id="527970490"/>
+						<MediaRef Id="716800789"/>
+						<MediaRef Id="1037107958"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{08452997-4693-E15E-6511-95E76F21E51F}</FileHash>
+</SoundBanksInfo>

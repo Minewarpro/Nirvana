@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}",
     "Language": "SFX",
-    "Hash": "{EDF0C0A8-D989-8DFE-202F-8DCF8577065D}",
+    "Hash": "{21FACBD3-9944-1E85-1735-D7F3FE32AB7F}",
     "ObjectPath": "FT_MC",
     "ShortName": "FT_MC",
     "Path": "Event/FT_MC.bnk",
@@ -1023,6 +1023,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
+     },
+     {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
@@ -1097,6 +1103,6 @@
     ]
    }
   ],
-  "FileHash": "{75EFB0D4-D1C4-CA1E-CA20-85EF267509EF}"
+  "FileHash": "{6C272B9C-88DB-AB90-B924-93640CB61D3F}"
  }
 }

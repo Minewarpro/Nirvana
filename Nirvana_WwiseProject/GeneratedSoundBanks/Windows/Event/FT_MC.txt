@@ -16,5 +16,6 @@ Switch	ID	Name	Switch Group			Notes
 	4051928182	SW_FT_Carpet	SW_FT_Material			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	2618424801	RTPC_FT_Swarmer			\RTPC_FT\RTPC_FT_Swarmer	
 	3059389217	RTPC_FT_Speed			\RTPC_FT\RTPC_FT_Speed	
 

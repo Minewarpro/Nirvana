@@ -1,0 +1,87 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3034218025",
+    "Type": "Event",
+    "GUID": "{17B05FE1-729A-4C92-964E-D4CCCD377704}",
+    "Language": "SFX",
+    "Hash": "{5FDC04B7-6AB6-B6DF-ADB4-EF9D558BCFB2}",
+    "ObjectPath": "SFX_ENM_MidRange_Red_Launch",
+    "ShortName": "SFX_ENM_MidRange_Red_Launch",
+    "Path": "Event/SFX_ENM_MidRange_Red_Launch.bnk",
+    "Media": [
+     {
+      "Id": "42380848",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Red_Launch\\SFX_ENM_MidRange_Red_Launch_01.wav",
+      "Path": "Media/42380848.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Red_Launch/SFX_ENM_MidRange_Red_Launch_01_818F3B66.wem"
+     },
+     {
+      "Id": "892919980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Red_Launch\\SFX_ENM_MidRange_Red_Launch_02.wav",
+      "Path": "Media/892919980.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Red_Launch/SFX_ENM_MidRange_Red_Launch_02_818F3B66.wem"
+     },
+     {
+      "Id": "946238448",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Red_Launch\\SFX_ENM_MidRange_Red_Launch_03.wav",
+      "Path": "Media/946238448.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Red_Launch/SFX_ENM_MidRange_Red_Launch_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3034218025",
+      "Name": "SFX_ENM_MidRange_Red_Launch",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM MidRange\\SFX_ENM_MidRange_Red_Launch",
+      "GUID": "{17B05FE1-729A-4C92-964E-D4CCCD377704}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3406446",
+      "DurationMax": "1.4619832",
+      "MediaRefs": [
+       {
+        "Id": "42380848"
+       },
+       {
+        "Id": "892919980"
+       },
+       {
+        "Id": "946238448"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F47AAE73-0757-E170-20D2-714DA45089BF}"
+ }
+}

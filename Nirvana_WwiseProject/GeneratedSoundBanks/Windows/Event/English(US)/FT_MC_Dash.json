@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}",
     "Language": "English(US)",
-    "Hash": "{0309AEDE-B3F7-260F-10B8-084043039F82}",
+    "Hash": "{BB6C7D06-8EDE-0C27-BA6F-59327331FD06}",
     "ObjectPath": "FT_MC_Dash",
     "ShortName": "FT_MC_Dash",
     "Path": "Event/English(US)/FT_MC_Dash.bnk",
@@ -133,6 +133,12 @@
       "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
      },
      {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
+     },
+     {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
@@ -147,6 +153,6 @@
     ]
    }
   ],
-  "FileHash": "{D80275FF-69C9-9C4C-2603-D0E0B8382D45}"
+  "FileHash": "{2E8F1EE3-A4A9-1FBE-7582-D73D1B682531}"
  }
 }

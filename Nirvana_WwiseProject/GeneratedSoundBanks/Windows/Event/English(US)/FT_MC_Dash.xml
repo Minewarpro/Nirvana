@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{0309AEDE-B3F7-260F-10B8-084043039F82}">
+		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{BB6C7D06-8EDE-0C27-BA6F-59327331FD06}">
 			<ObjectPath>FT_MC_Dash</ObjectPath>
 			<ShortName>FT_MC_Dash</ShortName>
 			<Path>Event/English(US)/FT_MC_Dash.bnk</Path>
@@ -63,10 +63,11 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="2618424801" Name="RTPC_FT_Swarmer" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Swarmer" GUID="{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"/>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{93CADF50-D3EE-6799-AABB-B9CB53F65FAA}</FileHash>
+	<FileHash>{ECEB8EE6-533C-A38B-DCBE-B0CBC5C656F8}</FileHash>
 </SoundBanksInfo>

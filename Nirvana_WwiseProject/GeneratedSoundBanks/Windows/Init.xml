@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{C2A3D035-21B1-65E6-2E61-E6231F2C0653}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{9513C81B-9C62-428D-852A-F83D63C6B6D2}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -82,6 +82,7 @@
 				<GameParameter Id="950872934" Name="RTPC_UI_Effects" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Effects" GUID="{2B55FAD0-C41F-48A2-8CBC-0F24FEDD1EE7}"/>
 				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
 				<GameParameter Id="1526392608" Name="RTPC_SFX_MC_Weapon_Meter" ObjectPath="\Game Parameters\RTPC_SFX\RTPC_SFX_MC_Weapon_Meter" GUID="{86852467-6F73-4A7D-A970-056FB33188A5}"/>
+				<GameParameter Id="2618424801" Name="RTPC_FT_Swarmer" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Swarmer" GUID="{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"/>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 				<GameParameter Id="3569469165" Name="RTPC_UI_Music" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Music" GUID="{53C895C6-A568-4494-BAC3-4C46C199A9EA}"/>
 				<GameParameter Id="3605688814" Name="RTPC_UI_Master" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Master" GUID="{ECF19A53-D94C-4882-8001-73C4BCCE7169}"/>
@@ -128,5 +129,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{147F029B-5EF3-F90E-8C05-D769E13CAD42}</FileHash>
+	<FileHash>{7166A49F-370B-10CD-B4F5-EB9E75434F37}</FileHash>
 </SoundBanksInfo>

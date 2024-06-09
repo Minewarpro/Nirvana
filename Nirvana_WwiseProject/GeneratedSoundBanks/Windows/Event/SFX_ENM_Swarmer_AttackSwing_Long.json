@@ -1,0 +1,99 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1140314359",
+    "Type": "Event",
+    "GUID": "{16A69BD1-8C97-42DA-B779-66771BE84F1B}",
+    "Language": "SFX",
+    "Hash": "{141519E4-EA04-DE4E-30A7-D6D20B74C460}",
+    "ObjectPath": "SFX_ENM_Swarmer_AttackSwing_Long",
+    "ShortName": "SFX_ENM_Swarmer_AttackSwing_Long",
+    "Path": "Event/SFX_ENM_Swarmer_AttackSwing_Long.bnk",
+    "Media": [
+     {
+      "Id": "92315080",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Swarmer\\SFX_ENM_Swarmer_AttackSwing_Long\\SFX_ENM_Swarmer_AttackSwing_Long_02.wav",
+      "Path": "Media/92315080.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Long/SFX_ENM_Swarmer_AttackSwing_Long_02_818F3B66.wem"
+     },
+     {
+      "Id": "112780819",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Swarmer\\SFX_ENM_Swarmer_AttackSwing_Long\\SFX_ENM_Swarmer_AttackSwing_Long_04.wav",
+      "Path": "Media/112780819.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Long/SFX_ENM_Swarmer_AttackSwing_Long_04_818F3B66.wem"
+     },
+     {
+      "Id": "280432872",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Swarmer\\SFX_ENM_Swarmer_AttackSwing_Long\\SFX_ENM_Swarmer_AttackSwing_Long_03.wav",
+      "Path": "Media/280432872.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Long/SFX_ENM_Swarmer_AttackSwing_Long_03_818F3B66.wem"
+     },
+     {
+      "Id": "320439662",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Swarmer\\SFX_ENM_Swarmer_AttackSwing_Long\\SFX_ENM_Swarmer_AttackSwing_Long_01.wav",
+      "Path": "Media/320439662.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Long/SFX_ENM_Swarmer_AttackSwing_Long_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1140314359",
+      "Name": "SFX_ENM_Swarmer_AttackSwing_Long",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM Swarmer\\SFX_ENM_Swarmer_AttackSwing_Long",
+      "GUID": "{16A69BD1-8C97-42DA-B779-66771BE84F1B}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.70224243",
+      "DurationMax": "0.7658008",
+      "MediaRefs": [
+       {
+        "Id": "92315080"
+       },
+       {
+        "Id": "112780819"
+       },
+       {
+        "Id": "280432872"
+       },
+       {
+        "Id": "320439662"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{ED918B65-C01B-E533-4B00-B08CCFF0B9C3}"
+ }
+}

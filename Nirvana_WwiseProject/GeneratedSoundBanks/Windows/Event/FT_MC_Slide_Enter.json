@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B938B411-A41C-469A-B1F4-9D6AFA5CE561}",
     "Language": "SFX",
-    "Hash": "{40E09E70-8E5A-7E05-F5A2-CA880CCBCCF3}",
+    "Hash": "{E2D15973-3638-1209-5EE1-2A489D009D5F}",
     "ObjectPath": "FT_MC_Slide_Enter",
     "ShortName": "FT_MC_Slide_Enter",
     "Path": "Event/FT_MC_Slide_Enter.bnk",
@@ -308,6 +308,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
+     },
+     {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
@@ -356,6 +362,6 @@
     ]
    }
   ],
-  "FileHash": "{6D195B8A-2F62-20FD-88A9-E7F47C5B009A}"
+  "FileHash": "{B1938D4D-A303-CCAC-5D2E-DA70C5D29179}"
  }
 }

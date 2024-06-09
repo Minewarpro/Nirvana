@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2775645227" Type="Event" GUID="{D97A656C-55B2-43BC-B4DB-92386E96CE8F}" Language="SFX" Hash="{E68F3B41-B460-A6F1-AB57-8054175097B2}">
+			<ObjectPath>SFX_ENM_MidRange_White_Launch</ObjectPath>
+			<ShortName>SFX_ENM_MidRange_White_Launch</ShortName>
+			<Path>Event/SFX_ENM_MidRange_White_Launch.bnk</Path>
+			<Media>
+				<File Id="102076178" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_White_Launch\SFX_ENM_MidRange_White_Launch_01.wav</ShortName>
+					<Path>Media/102076178.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_White_Launch/SFX_ENM_MidRange_White_Launch_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="493518379" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_White_Launch\SFX_ENM_MidRange_White_Launch_02.wav</ShortName>
+					<Path>Media/493518379.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_White_Launch/SFX_ENM_MidRange_White_Launch_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="818957834" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_White_Launch\SFX_ENM_MidRange_White_Launch_03.wav</ShortName>
+					<Path>Media/818957834.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_White_Launch/SFX_ENM_MidRange_White_Launch_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2775645227" Name="SFX_ENM_MidRange_White_Launch" ObjectPath="\Events\SFX\SFX_ENM MidRange\SFX_ENM_MidRange_White_Launch" GUID="{D97A656C-55B2-43BC-B4DB-92386E96CE8F}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="1.3406446" DurationMax="1.4619832">
+					<MediaRefs>
+						<MediaRef Id="102076178"/>
+						<MediaRef Id="493518379"/>
+						<MediaRef Id="818957834"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E553D435-20E1-3370-3D44-03AB8169C6BD}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,87 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1510227421",
+    "Type": "Event",
+    "GUID": "{4389ED31-A929-49BD-A395-DAB6497CE6DA}",
+    "Language": "SFX",
+    "Hash": "{265C3BF3-F377-4618-6FAD-C85DC9FC33C3}",
+    "ObjectPath": "SFX_ENM_Spawn",
+    "ShortName": "SFX_ENM_Spawn",
+    "Path": "Event/SFX_ENM_Spawn.bnk",
+    "Media": [
+     {
+      "Id": "210736494",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Spawn\\SFX_ENM_Spawn_02.wav",
+      "Path": "Media/210736494.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Spawn/SFX_ENM_Spawn_02_818F3B66.wem"
+     },
+     {
+      "Id": "802547109",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Spawn\\SFX_ENM_Spawn_03.wav",
+      "Path": "Media/802547109.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Spawn/SFX_ENM_Spawn_03_818F3B66.wem"
+     },
+     {
+      "Id": "1044191164",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_Spawn\\SFX_ENM_Spawn_01.wav",
+      "Path": "Media/1044191164.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_Spawn/SFX_ENM_Spawn_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1510227421",
+      "Name": "SFX_ENM_Spawn",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM_Spawn",
+      "GUID": "{4389ED31-A929-49BD-A395-DAB6497CE6DA}",
+      "MaxAttenuation": "7000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.95760334",
+      "DurationMax": "1.0442737",
+      "MediaRefs": [
+       {
+        "Id": "210736494"
+       },
+       {
+        "Id": "802547109"
+       },
+       {
+        "Id": "1044191164"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{79AD4EEC-1EBF-4C6F-71EC-70F7E0532D21}"
+ }
+}

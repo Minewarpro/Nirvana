@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1474581964	RTPC_Elevation			\RTPC_Persistent\RTPC_Elevation	
+	2618424801	RTPC_FT_Swarmer			\RTPC_FT\RTPC_FT_Swarmer	
 	3059389217	RTPC_FT_Speed			\RTPC_FT\RTPC_FT_Speed	
 	3972935021	RTPC_Azimuth			\RTPC_Persistent\RTPC_Azimuth	
 

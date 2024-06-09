@@ -1070,6 +1070,41 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
+		<SoundBank Id="608835776" Type="Event" GUID="{06BD0A37-08FF-4EC5-8979-3800062C3CB6}" Language="SFX" Hash="{09ABC0D7-5CFA-1C4D-F677-9644FB65082B}">
+			<ObjectPath>SFX_ENM_MidRange_Purple_Launch</ObjectPath>
+			<ShortName>SFX_ENM_MidRange_Purple_Launch</ShortName>
+			<Path>Event/SFX_ENM_MidRange_Purple_Launch.bnk</Path>
+			<Media>
+				<File Id="92112209" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Purple_Launch\SFX_ENM_MidRange_Purple_Launch_02.wav</ShortName>
+					<Path>Media/92112209.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Purple_Launch/SFX_ENM_MidRange_Purple_Launch_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="688365243" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Purple_Launch\SFX_ENM_MidRange_Purple_Launch_01.wav</ShortName>
+					<Path>Media/688365243.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Purple_Launch/SFX_ENM_MidRange_Purple_Launch_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="749633438" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Purple_Launch\SFX_ENM_MidRange_Purple_Launch_03.wav</ShortName>
+					<Path>Media/749633438.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Purple_Launch/SFX_ENM_MidRange_Purple_Launch_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="608835776" Name="SFX_ENM_MidRange_Purple_Launch" ObjectPath="\Events\SFX\SFX_ENM MidRange\SFX_ENM_MidRange_Purple_Launch" GUID="{06BD0A37-08FF-4EC5-8979-3800062C3CB6}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="1.3406446" DurationMax="1.4967923">
+					<MediaRefs>
+						<MediaRef Id="92112209"/>
+						<MediaRef Id="688365243"/>
+						<MediaRef Id="749633438"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
 		<SoundBank Id="617676896" Type="Event" GUID="{06E8F036-5300-4CBE-9360-4DFF3221E7C8}" Language="English(US)" Hash="{5F996DCE-88A0-DECA-1C0F-72A6BBFC6A2F}">
 			<ObjectPath>VO_Anna_Story_24</ObjectPath>
 			<ShortName>VO_Anna_Story_24</ShortName>
@@ -1450,7 +1485,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="849362003" Type="Event" GUID="{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}" Language="SFX" Hash="{30FAE5F4-398C-EE45-162C-7C64EBB29C1F}">
+		<SoundBank Id="849362003" Type="Event" GUID="{4D4EA69C-E59A-451D-8EC1-1DF45BDDB966}" Language="SFX" Hash="{084E13F4-4503-1A2A-5D2D-81C85D19F273}">
 			<ObjectPath>FT_MC_Slide_Exit</ObjectPath>
 			<ShortName>FT_MC_Slide_Exit</ShortName>
 			<Path>Event/FT_MC_Slide_Exit.bnk</Path>
@@ -1550,6 +1585,7 @@
 				</Event>
 			</Events>
 			<GameParameters>
+				<GameParameter Id="2618424801" Name="RTPC_FT_Swarmer" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Swarmer" GUID="{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"/>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 			</GameParameters>
 			<SwitchGroups>
@@ -1674,6 +1710,47 @@
 				<Event Id="1138556192" Name="AMB_Waterfall_Impact_lp" ObjectPath="\Events\AMB\AMB_Water\AMB_Waterfall_Impact_lp" GUID="{B38CF970-DCF4-442A-BE05-6085A293A20F}" MaxAttenuation="2500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="816987938"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1140314359" Type="Event" GUID="{16A69BD1-8C97-42DA-B779-66771BE84F1B}" Language="SFX" Hash="{141519E4-EA04-DE4E-30A7-D6D20B74C460}">
+			<ObjectPath>SFX_ENM_Swarmer_AttackSwing_Long</ObjectPath>
+			<ShortName>SFX_ENM_Swarmer_AttackSwing_Long</ShortName>
+			<Path>Event/SFX_ENM_Swarmer_AttackSwing_Long.bnk</Path>
+			<Media>
+				<File Id="92315080" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Long\SFX_ENM_Swarmer_AttackSwing_Long_02.wav</ShortName>
+					<Path>Media/92315080.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Long/SFX_ENM_Swarmer_AttackSwing_Long_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="112780819" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Long\SFX_ENM_Swarmer_AttackSwing_Long_04.wav</ShortName>
+					<Path>Media/112780819.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Long/SFX_ENM_Swarmer_AttackSwing_Long_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="280432872" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Long\SFX_ENM_Swarmer_AttackSwing_Long_03.wav</ShortName>
+					<Path>Media/280432872.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Long/SFX_ENM_Swarmer_AttackSwing_Long_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="320439662" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Long\SFX_ENM_Swarmer_AttackSwing_Long_01.wav</ShortName>
+					<Path>Media/320439662.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Long/SFX_ENM_Swarmer_AttackSwing_Long_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1140314359" Name="SFX_ENM_Swarmer_AttackSwing_Long" ObjectPath="\Events\SFX\SFX_ENM Swarmer\SFX_ENM_Swarmer_AttackSwing_Long" GUID="{16A69BD1-8C97-42DA-B779-66771BE84F1B}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.70224243" DurationMax="0.7658008">
+					<MediaRefs>
+						<MediaRef Id="92315080"/>
+						<MediaRef Id="112780819"/>
+						<MediaRef Id="280432872"/>
+						<MediaRef Id="320439662"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -1828,7 +1905,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{C2A3D035-21B1-65E6-2E61-E6231F2C0653}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{9513C81B-9C62-428D-852A-F83D63C6B6D2}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -1909,6 +1986,7 @@
 				<GameParameter Id="950872934" Name="RTPC_UI_Effects" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Effects" GUID="{2B55FAD0-C41F-48A2-8CBC-0F24FEDD1EE7}"/>
 				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
 				<GameParameter Id="1526392608" Name="RTPC_SFX_MC_Weapon_Meter" ObjectPath="\Game Parameters\RTPC_SFX\RTPC_SFX_MC_Weapon_Meter" GUID="{86852467-6F73-4A7D-A970-056FB33188A5}"/>
+				<GameParameter Id="2618424801" Name="RTPC_FT_Swarmer" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Swarmer" GUID="{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"/>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 				<GameParameter Id="3569469165" Name="RTPC_UI_Music" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Music" GUID="{53C895C6-A568-4494-BAC3-4C46C199A9EA}"/>
 				<GameParameter Id="3605688814" Name="RTPC_UI_Master" ObjectPath="\Game Parameters\RTPC_UI\RTPC_UI_Master" GUID="{ECF19A53-D94C-4882-8001-73C4BCCE7169}"/>
@@ -2298,6 +2376,41 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
+		<SoundBank Id="1510227421" Type="Event" GUID="{4389ED31-A929-49BD-A395-DAB6497CE6DA}" Language="SFX" Hash="{265C3BF3-F377-4618-6FAD-C85DC9FC33C3}">
+			<ObjectPath>SFX_ENM_Spawn</ObjectPath>
+			<ShortName>SFX_ENM_Spawn</ShortName>
+			<Path>Event/SFX_ENM_Spawn.bnk</Path>
+			<Media>
+				<File Id="210736494" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Spawn\SFX_ENM_Spawn_02.wav</ShortName>
+					<Path>Media/210736494.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Spawn/SFX_ENM_Spawn_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="802547109" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Spawn\SFX_ENM_Spawn_03.wav</ShortName>
+					<Path>Media/802547109.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Spawn/SFX_ENM_Spawn_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1044191164" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Spawn\SFX_ENM_Spawn_01.wav</ShortName>
+					<Path>Media/1044191164.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Spawn/SFX_ENM_Spawn_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1510227421" Name="SFX_ENM_Spawn" ObjectPath="\Events\SFX\SFX_ENM_Spawn" GUID="{4389ED31-A929-49BD-A395-DAB6497CE6DA}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.95760334" DurationMax="1.0442737">
+					<MediaRefs>
+						<MediaRef Id="210736494"/>
+						<MediaRef Id="802547109"/>
+						<MediaRef Id="1044191164"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
 		<SoundBank Id="1532872020" Type="Event" GUID="{073692BA-1D60-4760-82EF-D426063131AB}" Language="English(US)" Hash="{13D9D452-6FED-B37E-6592-0094539A1965}">
 			<ObjectPath>VO_Blaise_Gameplay_No</ObjectPath>
 			<ShortName>VO_Blaise_Gameplay_No</ShortName>
@@ -2319,6 +2432,47 @@
 					<MediaRefs>
 						<MediaRef Id="302846517"/>
 						<MediaRef Id="856857197"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1554417481" Type="Event" GUID="{98AE0793-111B-458D-9EF8-8A9824EB7983}" Language="SFX" Hash="{46F52335-2899-A8CC-21A3-59C72951DDBD}">
+			<ObjectPath>SFX_ENM_Swarmer_AttackSwing_Short</ObjectPath>
+			<ShortName>SFX_ENM_Swarmer_AttackSwing_Short</ShortName>
+			<Path>Event/SFX_ENM_Swarmer_AttackSwing_Short.bnk</Path>
+			<Media>
+				<File Id="145894492" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Short\SFX_ENM_Swarmer_AttackSwing_Short_01.wav</ShortName>
+					<Path>Media/145894492.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Short/SFX_ENM_Swarmer_AttackSwing_Short_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="265531358" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Short\SFX_ENM_Swarmer_AttackSwing_Short_02.wav</ShortName>
+					<Path>Media/265531358.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Short/SFX_ENM_Swarmer_AttackSwing_Short_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="567184695" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Short\SFX_ENM_Swarmer_AttackSwing_Short_04.wav</ShortName>
+					<Path>Media/567184695.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Short/SFX_ENM_Swarmer_AttackSwing_Short_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="769345124" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Swarmer\SFX_ENM_Swarmer_AttackSwing_Short\SFX_ENM_Swarmer_AttackSwing_Short_03.wav</ShortName>
+					<Path>Media/769345124.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Swarmer/SFX_ENM_Swarmer_AttackSwing_Short/SFX_ENM_Swarmer_AttackSwing_Short_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1554417481" Name="SFX_ENM_Swarmer_AttackSwing_Short" ObjectPath="\Events\SFX\SFX_ENM Swarmer\SFX_ENM_Swarmer_AttackSwing_Short" GUID="{98AE0793-111B-458D-9EF8-8A9824EB7983}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="0.6384022" DurationMax="0.6961825">
+					<MediaRefs>
+						<MediaRef Id="145894492"/>
+						<MediaRef Id="265531358"/>
+						<MediaRef Id="567184695"/>
+						<MediaRef Id="769345124"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -2849,7 +3003,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2107232147" Type="Event" GUID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}" Language="SFX" Hash="{40E09E70-8E5A-7E05-F5A2-CA880CCBCCF3}">
+		<SoundBank Id="2107232147" Type="Event" GUID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}" Language="SFX" Hash="{E2D15973-3638-1209-5EE1-2A489D009D5F}">
 			<ObjectPath>FT_MC_Slide_Enter</ObjectPath>
 			<ShortName>FT_MC_Slide_Enter</ShortName>
 			<Path>Event/FT_MC_Slide_Enter.bnk</Path>
@@ -2999,6 +3153,7 @@
 				</Event>
 			</Events>
 			<GameParameters>
+				<GameParameter Id="2618424801" Name="RTPC_FT_Swarmer" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Swarmer" GUID="{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"/>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 			</GameParameters>
 			<SwitchGroups>
@@ -3748,7 +3903,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2727804452" Type="Event" GUID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}" Language="English(US)" Hash="{BBA2D4FC-6FD8-9688-BDE6-B32E8B6D1696}">
+		<SoundBank Id="2727804452" Type="Event" GUID="{8A840DDD-FF65-4860-AD26-8E951B65D7A5}" Language="English(US)" Hash="{D8ACE719-F976-EFEF-0559-FF4ED4696C97}">
 			<ObjectPath>FT_MC_Climb</ObjectPath>
 			<ShortName>FT_MC_Climb</ShortName>
 			<Path>Event/English(US)/FT_MC_Climb.bnk</Path>
@@ -3810,6 +3965,7 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="2618424801" Name="RTPC_FT_Swarmer" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Swarmer" GUID="{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"/>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
@@ -3855,6 +4011,106 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
+		<SoundBank Id="2753918892" Type="Event" GUID="{FCD607CA-E731-4017-AFBA-4D2D2B2104D9}" Language="SFX" Hash="{F52ABAF6-260F-8BC9-4BCB-AA696ECB8285}">
+			<ObjectPath>SFX_ENM_MidRange_Projectile_HitSurface</ObjectPath>
+			<ShortName>SFX_ENM_MidRange_Projectile_HitSurface</ShortName>
+			<Path>Event/SFX_ENM_MidRange_Projectile_HitSurface.bnk</Path>
+			<Media>
+				<File Id="87218469" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_02.wav</ShortName>
+					<Path>Media/87218469.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="122653084" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_03.wav</ShortName>
+					<Path>Media/122653084.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="376948939" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_08.wav</ShortName>
+					<Path>Media/376948939.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="562930133" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_06.wav</ShortName>
+					<Path>Media/562930133.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="670204497" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_05.wav</ShortName>
+					<Path>Media/670204497.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="731115657" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_04.wav</ShortName>
+					<Path>Media/731115657.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="912136316" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_07.wav</ShortName>
+					<Path>Media/912136316.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1033314170" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Projectile_HitSurface\SFX_ENM_MidRange_Projectile_HitSurface_01.wav</ShortName>
+					<Path>Media/1033314170.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2753918892" Name="SFX_ENM_MidRange_Projectile_HitSurface" ObjectPath="\Events\SFX\SFX_ENM MidRange\SFX_ENM_MidRange_Projectile_HitSurface" GUID="{FCD607CA-E731-4017-AFBA-4D2D2B2104D9}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="0.774342" DurationMax="1.2165354">
+					<MediaRefs>
+						<MediaRef Id="87218469"/>
+						<MediaRef Id="122653084"/>
+						<MediaRef Id="376948939"/>
+						<MediaRef Id="562930133"/>
+						<MediaRef Id="670204497"/>
+						<MediaRef Id="731115657"/>
+						<MediaRef Id="912136316"/>
+						<MediaRef Id="1033314170"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2775645227" Type="Event" GUID="{D97A656C-55B2-43BC-B4DB-92386E96CE8F}" Language="SFX" Hash="{E68F3B41-B460-A6F1-AB57-8054175097B2}">
+			<ObjectPath>SFX_ENM_MidRange_White_Launch</ObjectPath>
+			<ShortName>SFX_ENM_MidRange_White_Launch</ShortName>
+			<Path>Event/SFX_ENM_MidRange_White_Launch.bnk</Path>
+			<Media>
+				<File Id="102076178" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_White_Launch\SFX_ENM_MidRange_White_Launch_01.wav</ShortName>
+					<Path>Media/102076178.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_White_Launch/SFX_ENM_MidRange_White_Launch_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="493518379" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_White_Launch\SFX_ENM_MidRange_White_Launch_02.wav</ShortName>
+					<Path>Media/493518379.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_White_Launch/SFX_ENM_MidRange_White_Launch_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="818957834" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_White_Launch\SFX_ENM_MidRange_White_Launch_03.wav</ShortName>
+					<Path>Media/818957834.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_White_Launch/SFX_ENM_MidRange_White_Launch_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2775645227" Name="SFX_ENM_MidRange_White_Launch" ObjectPath="\Events\SFX\SFX_ENM MidRange\SFX_ENM_MidRange_White_Launch" GUID="{D97A656C-55B2-43BC-B4DB-92386E96CE8F}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="1.3406446" DurationMax="1.4619832">
+					<MediaRefs>
+						<MediaRef Id="102076178"/>
+						<MediaRef Id="493518379"/>
+						<MediaRef Id="818957834"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
 		<SoundBank Id="2855648328" Type="Event" GUID="{CF346644-104F-4F5E-9F43-902F0F6F0B6D}" Language="English(US)" Hash="{97826EBA-CB48-AB64-395E-BBBF5BBF557C}">
 			<ObjectPath>VO_Simon_Gameplay_Run</ObjectPath>
 			<ShortName>VO_Simon_Gameplay_Run</ShortName>
@@ -3878,7 +4134,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2935530677" Type="Event" GUID="{785476FB-AD69-4592-AE56-11AF2B38662A}" Language="SFX" Hash="{025F7598-F714-EFD4-F1C2-DEBA7E7CFCB3}">
+		<SoundBank Id="2935530677" Type="Event" GUID="{785476FB-AD69-4592-AE56-11AF2B38662A}" Language="SFX" Hash="{C46725F4-86D5-08F9-B290-21293947FD53}">
 			<ObjectPath>FT_MC_JumpSecond</ObjectPath>
 			<ShortName>FT_MC_JumpSecond</ShortName>
 			<Path>Event/FT_MC_JumpSecond.bnk</Path>
@@ -3915,6 +4171,7 @@
 				</Event>
 			</Events>
 			<GameParameters>
+				<GameParameter Id="2618424801" Name="RTPC_FT_Swarmer" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Swarmer" GUID="{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"/>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 			</GameParameters>
 		</SoundBank>
@@ -4010,6 +4267,41 @@
 						<MediaRef Id="734658513"/>
 						<MediaRef Id="776269528"/>
 						<MediaRef Id="983536794"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3034218025" Type="Event" GUID="{17B05FE1-729A-4C92-964E-D4CCCD377704}" Language="SFX" Hash="{5FDC04B7-6AB6-B6DF-ADB4-EF9D558BCFB2}">
+			<ObjectPath>SFX_ENM_MidRange_Red_Launch</ObjectPath>
+			<ShortName>SFX_ENM_MidRange_Red_Launch</ShortName>
+			<Path>Event/SFX_ENM_MidRange_Red_Launch.bnk</Path>
+			<Media>
+				<File Id="42380848" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Red_Launch\SFX_ENM_MidRange_Red_Launch_01.wav</ShortName>
+					<Path>Media/42380848.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Red_Launch/SFX_ENM_MidRange_Red_Launch_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="892919980" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Red_Launch\SFX_ENM_MidRange_Red_Launch_02.wav</ShortName>
+					<Path>Media/892919980.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Red_Launch/SFX_ENM_MidRange_Red_Launch_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="946238448" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_Red_Launch\SFX_ENM_MidRange_Red_Launch_03.wav</ShortName>
+					<Path>Media/946238448.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Red_Launch/SFX_ENM_MidRange_Red_Launch_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3034218025" Name="SFX_ENM_MidRange_Red_Launch" ObjectPath="\Events\SFX\SFX_ENM MidRange\SFX_ENM_MidRange_Red_Launch" GUID="{17B05FE1-729A-4C92-964E-D4CCCD377704}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="1.3406446" DurationMax="1.4619832">
+					<MediaRefs>
+						<MediaRef Id="42380848"/>
+						<MediaRef Id="892919980"/>
+						<MediaRef Id="946238448"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -4361,6 +4653,47 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
+		<SoundBank Id="3427854526" Type="Event" GUID="{6A23C9C9-9850-4C9E-AE50-ABD661920B6C}" Language="SFX" Hash="{13A00313-B71E-B22E-0C12-6AF7441A4DB2}">
+			<ObjectPath>SFX_ENM_Death</ObjectPath>
+			<ShortName>SFX_ENM_Death</ShortName>
+			<Path>Event/SFX_ENM_Death.bnk</Path>
+			<Media>
+				<File Id="162137369" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Death\SFX_ENM_Death_01.wav</ShortName>
+					<Path>Media/162137369.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Death/SFX_ENM_Death_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="786156599" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Death\SFX_ENM_Death_02.wav</ShortName>
+					<Path>Media/786156599.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Death/SFX_ENM_Death_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="911259716" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Death\SFX_ENM_Death_04.wav</ShortName>
+					<Path>Media/911259716.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Death/SFX_ENM_Death_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="962586025" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_Death\SFX_ENM_Death_03.wav</ShortName>
+					<Path>Media/962586025.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_Death/SFX_ENM_Death_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3427854526" Name="SFX_ENM_Death" ObjectPath="\Events\SFX\SFX_ENM_Death" GUID="{6A23C9C9-9850-4C9E-AE50-ABD661920B6C}" MaxAttenuation="7000" DurationType="OneShot" DurationMin="1.9152067" DurationMax="2.0885475">
+					<MediaRefs>
+						<MediaRef Id="162137369"/>
+						<MediaRef Id="786156599"/>
+						<MediaRef Id="911259716"/>
+						<MediaRef Id="962586025"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
 		<SoundBank Id="3474566310" Type="Event" GUID="{9B803EEA-A3CC-412E-9DA8-B79A5FB322CC}" Language="SFX" Hash="{17F428AD-BCA0-373D-AE35-BA9973256AE6}">
 			<ObjectPath>UI_Menu_Select</ObjectPath>
 			<ShortName>UI_Menu_Select</ShortName>
@@ -4521,7 +4854,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3685120562" Type="Event" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" Language="SFX" Hash="{EDF0C0A8-D989-8DFE-202F-8DCF8577065D}">
+		<SoundBank Id="3685120562" Type="Event" GUID="{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}" Language="SFX" Hash="{21FACBD3-9944-1E85-1735-D7F3FE32AB7F}">
 			<ObjectPath>FT_MC</ObjectPath>
 			<ShortName>FT_MC</ShortName>
 			<Path>Event/FT_MC.bnk</Path>
@@ -5020,6 +5353,7 @@
 				</Event>
 			</Events>
 			<GameParameters>
+				<GameParameter Id="2618424801" Name="RTPC_FT_Swarmer" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Swarmer" GUID="{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"/>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 			</GameParameters>
 			<SwitchGroups>
@@ -5083,7 +5417,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{0309AEDE-B3F7-260F-10B8-084043039F82}">
+		<SoundBank Id="3790997325" Type="Event" GUID="{0ADD422D-BA59-4F4F-8AC2-1B6DBB3801D7}" Language="English(US)" Hash="{BB6C7D06-8EDE-0C27-BA6F-59327331FD06}">
 			<ObjectPath>FT_MC_Dash</ObjectPath>
 			<ShortName>FT_MC_Dash</ShortName>
 			<Path>Event/English(US)/FT_MC_Dash.bnk</Path>
@@ -5145,7 +5479,49 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
+				<GameParameter Id="2618424801" Name="RTPC_FT_Swarmer" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Swarmer" GUID="{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"/>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
+				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3799313888" Type="Event" GUID="{B39D313B-16B8-4B4C-9004-38B0E763D058}" Language="SFX" Hash="{D98B84A4-680B-5A30-117E-1AD70B8E764D}">
+			<ObjectPath>SFX_ENM_MidRange_AttackPillar</ObjectPath>
+			<ShortName>SFX_ENM_MidRange_AttackPillar</ShortName>
+			<Path>Event/SFX_ENM_MidRange_AttackPillar.bnk</Path>
+			<Media>
+				<File Id="417564133" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_AttackPillar\SFX_ENM_MidRange_AttackPillar_01.wav</ShortName>
+					<Path>Media/417564133.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="527970490" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_AttackPillar\SFX_ENM_MidRange_AttackPillar_02.wav</ShortName>
+					<Path>Media/527970490.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="716800789" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_AttackPillar\SFX_ENM_MidRange_AttackPillar_04.wav</ShortName>
+					<Path>Media/716800789.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1037107958" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\SFX_ENM_MidRange\SFX_ENM_MidRange_AttackPillar\SFX_ENM_MidRange_AttackPillar_03.wav</ShortName>
+					<Path>Media/1037107958.wem</Path>
+					<CachePath>SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_AttackPillar/SFX_ENM_MidRange_AttackPillar_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3799313888" Name="SFX_ENM_MidRange_AttackPillar" ObjectPath="\Events\SFX\SFX_ENM MidRange\SFX_ENM_MidRange_AttackPillar" GUID="{B39D313B-16B8-4B4C-9004-38B0E763D058}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="3.223931" DurationMax="3.6897671">
+					<MediaRefs>
+						<MediaRef Id="417564133"/>
+						<MediaRef Id="527970490"/>
+						<MediaRef Id="716800789"/>
+						<MediaRef Id="1037107958"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1474581964" Name="RTPC_Elevation" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Elevation" GUID="{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"/>
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
@@ -5884,5 +6260,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F258D6C5-0161-85E9-8CCA-42602FEB5785}</FileHash>
+	<FileHash>{CB68E042-B344-E098-4FC7-9773B67E9676}</FileHash>
 </SoundBanksInfo>

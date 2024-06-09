@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{C2A3D035-21B1-65E6-2E61-E6231F2C0653}",
+    "Hash": "{9513C81B-9C62-428D-852A-F83D63C6B6D2}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -254,6 +254,12 @@
       "GUID": "{86852467-6F73-4A7D-A970-056FB33188A5}"
      },
      {
+      "Id": "2618424801",
+      "Name": "RTPC_FT_Swarmer",
+      "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Swarmer",
+      "GUID": "{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"
+     },
+     {
       "Id": "3059389217",
       "Name": "RTPC_FT_Speed",
       "ObjectPath": "\\Game Parameters\\RTPC_FT\\RTPC_FT_Speed",
@@ -414,6 +420,6 @@
     ]
    }
   ],
-  "FileHash": "{D75DD007-8F81-7213-FD19-CFECFDAC94DB}"
+  "FileHash": "{199B2CCC-0702-A351-A4EC-3ACDD204BEB2}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2107232147" Type="Event" GUID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}" Language="SFX" Hash="{40E09E70-8E5A-7E05-F5A2-CA880CCBCCF3}">
+		<SoundBank Id="2107232147" Type="Event" GUID="{B938B411-A41C-469A-B1F4-9D6AFA5CE561}" Language="SFX" Hash="{E2D15973-3638-1209-5EE1-2A489D009D5F}">
 			<ObjectPath>FT_MC_Slide_Enter</ObjectPath>
 			<ShortName>FT_MC_Slide_Enter</ShortName>
 			<Path>Event/FT_MC_Slide_Enter.bnk</Path>
@@ -151,6 +151,7 @@
 				</Event>
 			</Events>
 			<GameParameters>
+				<GameParameter Id="2618424801" Name="RTPC_FT_Swarmer" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Swarmer" GUID="{B290FC99-4E3E-40BE-953F-D9902DC26B2D}"/>
 				<GameParameter Id="3059389217" Name="RTPC_FT_Speed" ObjectPath="\Game Parameters\RTPC_FT\RTPC_FT_Speed" GUID="{94DAF2D7-7D4A-4423-AC0F-F675A2E7310F}"/>
 			</GameParameters>
 			<SwitchGroups>
@@ -166,5 +167,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7EF1F7A8-AF91-9E45-0187-D433E387C289}</FileHash>
+	<FileHash>{96A12113-B986-B628-863B-6C34D32B823D}</FileHash>
 </SoundBanksInfo>

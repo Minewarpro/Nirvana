@@ -13,6 +13,12 @@
 						<Property Name="Max" Type="Real64" Value="1050"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="RTPC_FT_Swarmer" ID="{B290FC99-4E3E-40BE-953F-D9902DC26B2D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

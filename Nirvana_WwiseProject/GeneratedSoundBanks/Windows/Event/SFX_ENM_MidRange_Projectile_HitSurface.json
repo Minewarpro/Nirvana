@@ -1,0 +1,147 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2753918892",
+    "Type": "Event",
+    "GUID": "{FCD607CA-E731-4017-AFBA-4D2D2B2104D9}",
+    "Language": "SFX",
+    "Hash": "{F52ABAF6-260F-8BC9-4BCB-AA696ECB8285}",
+    "ObjectPath": "SFX_ENM_MidRange_Projectile_HitSurface",
+    "ShortName": "SFX_ENM_MidRange_Projectile_HitSurface",
+    "Path": "Event/SFX_ENM_MidRange_Projectile_HitSurface.bnk",
+    "Media": [
+     {
+      "Id": "87218469",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_02.wav",
+      "Path": "Media/87218469.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_02_818F3B66.wem"
+     },
+     {
+      "Id": "122653084",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_03.wav",
+      "Path": "Media/122653084.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_03_818F3B66.wem"
+     },
+     {
+      "Id": "376948939",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_08.wav",
+      "Path": "Media/376948939.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_08_818F3B66.wem"
+     },
+     {
+      "Id": "562930133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_06.wav",
+      "Path": "Media/562930133.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_06_818F3B66.wem"
+     },
+     {
+      "Id": "670204497",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_05.wav",
+      "Path": "Media/670204497.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_05_818F3B66.wem"
+     },
+     {
+      "Id": "731115657",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_04.wav",
+      "Path": "Media/731115657.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_04_818F3B66.wem"
+     },
+     {
+      "Id": "912136316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_07.wav",
+      "Path": "Media/912136316.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_07_818F3B66.wem"
+     },
+     {
+      "Id": "1033314170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\SFX_ENM_MidRange\\SFX_ENM_MidRange_Projectile_HitSurface\\SFX_ENM_MidRange_Projectile_HitSurface_01.wav",
+      "Path": "Media/1033314170.wem",
+      "CachePath": "SFX/SFX/SFX_ENM_MidRange/SFX_ENM_MidRange_Projectile_HitSurface/SFX_ENM_MidRange_Projectile_HitSurface_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2753918892",
+      "Name": "SFX_ENM_MidRange_Projectile_HitSurface",
+      "ObjectPath": "\\Events\\SFX\\SFX_ENM MidRange\\SFX_ENM_MidRange_Projectile_HitSurface",
+      "GUID": "{FCD607CA-E731-4017-AFBA-4D2D2B2104D9}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "0.774342",
+      "DurationMax": "1.2165354",
+      "MediaRefs": [
+       {
+        "Id": "87218469"
+       },
+       {
+        "Id": "122653084"
+       },
+       {
+        "Id": "376948939"
+       },
+       {
+        "Id": "562930133"
+       },
+       {
+        "Id": "670204497"
+       },
+       {
+        "Id": "731115657"
+       },
+       {
+        "Id": "912136316"
+       },
+       {
+        "Id": "1033314170"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1474581964",
+      "Name": "RTPC_Elevation",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Elevation",
+      "GUID": "{B7917ADE-F1CD-4C71-BAE5-1C0713B8B931}"
+     },
+     {
+      "Id": "3972935021",
+      "Name": "RTPC_Azimuth",
+      "ObjectPath": "\\Game Parameters\\RTPC_Persistent\\RTPC_Azimuth",
+      "GUID": "{771130CB-E8A2-4560-ADCA-06985A29C132}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F5E46251-F271-3699-A55D-9A47294D165B}"
+ }
+}
