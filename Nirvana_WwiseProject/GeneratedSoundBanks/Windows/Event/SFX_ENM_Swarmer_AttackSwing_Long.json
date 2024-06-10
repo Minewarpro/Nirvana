@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{16A69BD1-8C97-42DA-B779-66771BE84F1B}",
     "Language": "SFX",
-    "Hash": "{141519E4-EA04-DE4E-30A7-D6D20B74C460}",
+    "Hash": "{7438260F-6B56-32E0-FD83-581E78ED75DF}",
     "ObjectPath": "SFX_ENM_Swarmer_AttackSwing_Long",
     "ShortName": "SFX_ENM_Swarmer_AttackSwing_Long",
     "Path": "Event/SFX_ENM_Swarmer_AttackSwing_Long.bnk",
@@ -94,6 +94,6 @@
     ]
    }
   ],
-  "FileHash": "{ED918B65-C01B-E533-4B00-B08CCFF0B9C3}"
+  "FileHash": "{99216DDC-4391-2CF6-3BE4-FE08C4B3C1E1}"
  }
 }

@@ -3779,7 +3779,7 @@
     "Type": "Event",
     "GUID": "{16A69BD1-8C97-42DA-B779-66771BE84F1B}",
     "Language": "SFX",
-    "Hash": "{141519E4-EA04-DE4E-30A7-D6D20B74C460}",
+    "Hash": "{7438260F-6B56-32E0-FD83-581E78ED75DF}",
     "ObjectPath": "SFX_ENM_Swarmer_AttackSwing_Long",
     "ShortName": "SFX_ENM_Swarmer_AttackSwing_Long",
     "Path": "Event/SFX_ENM_Swarmer_AttackSwing_Long.bnk",
@@ -4179,7 +4179,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{9513C81B-9C62-428D-852A-F83D63C6B6D2}",
+    "Hash": "{906531BB-0503-6C28-61C1-C99AEFE7E028}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -4458,13 +4458,97 @@
       "Id": "1645386324",
       "Name": "ST_MUSIC",
       "ObjectPath": "\\States\\ST_Music\\ST_MUSIC",
-      "GUID": "{A7F522F4-BB23-46BA-9B35-7591E7D08985}",
+      "GUID": "{7C52C26D-CF32-4F39-9578-7638D38F46D1}",
       "States": [
+       {
+        "Id": "438713049",
+        "Name": "ST_MUSIC_Scientist_Z01_01",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z01_01",
+        "GUID": "{78CAB365-DC34-4643-A178-32A36B2677D6}"
+       },
+       {
+        "Id": "438713050",
+        "Name": "ST_MUSIC_Scientist_Z01_02",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z01_02",
+        "GUID": "{29F056A9-2F89-44C3-8CCF-C6365526AA78}"
+       },
+       {
+        "Id": "684459385",
+        "Name": "ST_MUSIC_Military_Z01_02",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Military_Z01_02",
+        "GUID": "{705E912C-5789-4FE4-8988-C45B9DC34263}"
+       },
+       {
+        "Id": "684459386",
+        "Name": "ST_MUSIC_Military_Z01_01",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Military_Z01_01",
+        "GUID": "{325ADD5C-EB3A-4AB1-824D-8613B5202B3A}"
+       },
        {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\None",
-        "GUID": "{FF4C5161-2D30-4D2A-ABF6-401285B91420}"
+        "GUID": "{4E2D1831-609B-418C-8984-EE30E1BA2863}"
+       },
+       {
+        "Id": "1876249920",
+        "Name": "ST_MUSIC_Scientist_Z03_02",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z03_02",
+        "GUID": "{1CB58AE5-890B-4676-9086-1099C0CB9E09}"
+       },
+       {
+        "Id": "1876249921",
+        "Name": "ST_MUSIC_Scientist_Z03_03",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z03_03",
+        "GUID": "{EB54A605-E277-4454-A2E8-71CA63E5E9CB}"
+       },
+       {
+        "Id": "1876249923",
+        "Name": "ST_MUSIC_Scientist_Z03_01",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z03_01",
+        "GUID": "{815004FA-28AF-4B47-B0D5-F5BC5F2A56AF}"
+       },
+       {
+        "Id": "1876249926",
+        "Name": "ST_MUSIC_Scientist_Z03_04",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z03_04",
+        "GUID": "{5DB174A8-561C-4980-A19A-2583483A4CBA}"
+       },
+       {
+        "Id": "2494468108",
+        "Name": "ST_MUSIC_Scientist_Z02_01",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z02_01",
+        "GUID": "{9E5DD768-79E8-4327-8FD8-D9466134866A}"
+       },
+       {
+        "Id": "2494468110",
+        "Name": "ST_MUSIC_Scientist_Z02_03",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z02_03",
+        "GUID": "{9CF7DEFB-611D-467C-B5C5-C151CF996892}"
+       },
+       {
+        "Id": "2494468111",
+        "Name": "ST_MUSIC_Scientist_Z02_02",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z02_02",
+        "GUID": "{BE1AEFFF-2076-4443-B7FB-058E1323060E}"
+       },
+       {
+        "Id": "4167408728",
+        "Name": "ST_MUSIC_Military_Z02_02",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Military_Z02_02",
+        "GUID": "{725C573B-A842-49D1-AC64-9FF1FEBB125F}"
+       },
+       {
+        "Id": "4167408729",
+        "Name": "ST_MUSIC_Military_Z02_03",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Military_Z02_03",
+        "GUID": "{1EE8957E-3503-44C8-9DF6-8F2AD2ACBC93}"
+       },
+       {
+        "Id": "4167408731",
+        "Name": "ST_MUSIC_Military_Z02_01",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Military_Z02_01",
+        "GUID": "{E937D937-C860-49A4-8497-914EDFBB3DF4}"
        }
       ]
      },
@@ -5485,7 +5569,7 @@
     "Type": "Event",
     "GUID": "{98AE0793-111B-458D-9EF8-8A9824EB7983}",
     "Language": "SFX",
-    "Hash": "{46F52335-2899-A8CC-21A3-59C72951DDBD}",
+    "Hash": "{20357D6C-3477-3BDC-8163-7138830FB1C0}",
     "ObjectPath": "SFX_ENM_Swarmer_AttackSwing_Short",
     "ShortName": "SFX_ENM_Swarmer_AttackSwing_Short",
     "Path": "Event/SFX_ENM_Swarmer_AttackSwing_Short.bnk",
@@ -10656,7 +10740,7 @@
     "Type": "Event",
     "GUID": "{B669FE19-4B5B-447F-AB13-68BC79D9BCC4}",
     "Language": "SFX",
-    "Hash": "{21FACBD3-9944-1E85-1735-D7F3FE32AB7F}",
+    "Hash": "{CD198B99-435E-8680-911E-3DA5F7E9E102}",
     "ObjectPath": "FT_MC",
     "ShortName": "FT_MC",
     "Path": "Event/FT_MC.bnk",
@@ -13361,17 +13445,285 @@
     "Type": "Event",
     "GUID": "{8A0D259E-6DB0-4D09-A498-569673BE395D}",
     "Language": "SFX",
-    "Hash": "{009CEAF9-D9C8-4AD2-4CF8-892B445BC002}",
+    "Hash": "{521E9BF7-A16E-90D1-CE6C-34D6C9678598}",
     "ObjectPath": "MUSIC",
     "ShortName": "MUSIC",
     "Path": "Event/MUSIC.bnk",
+    "Media": [
+     {
+      "Id": "192293005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Arena02_Intro_01.wav",
+      "Path": "Media/192293005.wem",
+      "CachePath": "SFX/MUSIC/M_Arena02_Intro_01_FBC78EF0.wem"
+     },
+     {
+      "Id": "199616222",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Ambiance_Intro_Loop.wav",
+      "Path": "Media/199616222.wem",
+      "CachePath": "SFX/MUSIC/M_Ambiance_Intro_Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "307989502",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Arena02_Drop_01.wav",
+      "Path": "Media/307989502.wem",
+      "CachePath": "SFX/MUSIC/M_Arena02_Drop_01_FBC78EF0.wem"
+     },
+     {
+      "Id": "320975980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Ambiance_02_Loop.wav",
+      "Path": "Media/320975980.wem",
+      "CachePath": "SFX/MUSIC/M_Ambiance_02_Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "358253382",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Fight_01_Loop.wav",
+      "Path": "Media/358253382.wem",
+      "CachePath": "SFX/MUSIC/M_Fight_01_Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "430809735",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Arena02_Intro_02.wav",
+      "Path": "Media/430809735.wem",
+      "CachePath": "SFX/MUSIC/M_Arena02_Intro_02_FBC78EF0.wem"
+     },
+     {
+      "Id": "602416596",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Fight_02_Loop.wav",
+      "Path": "Media/602416596.wem",
+      "CachePath": "SFX/MUSIC/M_Fight_02_Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "664604911",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Fight_03_Loop.wav",
+      "Path": "Media/664604911.wem",
+      "CachePath": "SFX/MUSIC/M_Fight_03_Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "798161426",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Tuto_02_Loop.wav",
+      "Path": "Media/798161426.wem",
+      "CachePath": "SFX/MUSIC/M_Tuto_02_Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "923254381",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Fight_04_Loop.wav",
+      "Path": "Media/923254381.wem",
+      "CachePath": "SFX/MUSIC/M_Fight_04_Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "931061521",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Tuto_03_Loop.wav",
+      "Path": "Media/931061521.wem",
+      "CachePath": "SFX/MUSIC/M_Tuto_03_Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "964996617",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Tuto_01_Loop.wav",
+      "Path": "Media/964996617.wem",
+      "CachePath": "SFX/MUSIC/M_Tuto_01_Loop_FBC78EF0.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "3991942870",
       "Name": "MUSIC",
       "ObjectPath": "\\Events\\MUSIC\\MUSIC",
       "GUID": "{8A0D259E-6DB0-4D09-A498-569673BE395D}",
-      "DurationType": "Infinite"
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "1876249926",
+         "GUID": "{5DB174A8-561C-4980-A19A-2583483A4CBA}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "923254381"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "2494468111",
+         "GUID": "{BE1AEFFF-2076-4443-B7FB-058E1323060E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "798161426"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "2494468110",
+         "GUID": "{9CF7DEFB-611D-467C-B5C5-C151CF996892}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "931061521"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "1876249920",
+         "GUID": "{1CB58AE5-890B-4676-9086-1099C0CB9E09}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "602416596"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "1876249921",
+         "GUID": "{EB54A605-E277-4454-A2E8-71CA63E5E9CB}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "664604911"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "1876249923",
+         "GUID": "{815004FA-28AF-4B47-B0D5-F5BC5F2A56AF}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "358253382"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "2494468108",
+         "GUID": "{9E5DD768-79E8-4327-8FD8-D9466134866A}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "964996617"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "4167408731",
+         "GUID": "{E937D937-C860-49A4-8497-914EDFBB3DF4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "192293005"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "438713049",
+         "GUID": "{78CAB365-DC34-4643-A178-32A36B2677D6}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "199616222"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "438713050",
+         "GUID": "{29F056A9-2F89-44C3-8CCF-C6365526AA78}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "320975980"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "4167408728",
+         "GUID": "{725C573B-A842-49D1-AC64-9FF1FEBB125F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "430809735"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "4167408729",
+         "GUID": "{1EE8957E-3503-44C8-9DF6-8F2AD2ACBC93}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "307989502"
+         }
+        ]
+       }
+      ]
      }
     ],
     "StateGroups": [
@@ -13379,13 +13731,97 @@
       "Id": "1645386324",
       "Name": "ST_MUSIC",
       "ObjectPath": "\\States\\ST_Music\\ST_MUSIC",
-      "GUID": "{A7F522F4-BB23-46BA-9B35-7591E7D08985}",
+      "GUID": "{7C52C26D-CF32-4F39-9578-7638D38F46D1}",
       "States": [
+       {
+        "Id": "438713049",
+        "Name": "ST_MUSIC_Scientist_Z01_01",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z01_01",
+        "GUID": "{78CAB365-DC34-4643-A178-32A36B2677D6}"
+       },
+       {
+        "Id": "438713050",
+        "Name": "ST_MUSIC_Scientist_Z01_02",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z01_02",
+        "GUID": "{29F056A9-2F89-44C3-8CCF-C6365526AA78}"
+       },
+       {
+        "Id": "684459385",
+        "Name": "ST_MUSIC_Military_Z01_02",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Military_Z01_02",
+        "GUID": "{705E912C-5789-4FE4-8988-C45B9DC34263}"
+       },
+       {
+        "Id": "684459386",
+        "Name": "ST_MUSIC_Military_Z01_01",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Military_Z01_01",
+        "GUID": "{325ADD5C-EB3A-4AB1-824D-8613B5202B3A}"
+       },
        {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\None",
-        "GUID": "{FF4C5161-2D30-4D2A-ABF6-401285B91420}"
+        "GUID": "{4E2D1831-609B-418C-8984-EE30E1BA2863}"
+       },
+       {
+        "Id": "1876249920",
+        "Name": "ST_MUSIC_Scientist_Z03_02",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z03_02",
+        "GUID": "{1CB58AE5-890B-4676-9086-1099C0CB9E09}"
+       },
+       {
+        "Id": "1876249921",
+        "Name": "ST_MUSIC_Scientist_Z03_03",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z03_03",
+        "GUID": "{EB54A605-E277-4454-A2E8-71CA63E5E9CB}"
+       },
+       {
+        "Id": "1876249923",
+        "Name": "ST_MUSIC_Scientist_Z03_01",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z03_01",
+        "GUID": "{815004FA-28AF-4B47-B0D5-F5BC5F2A56AF}"
+       },
+       {
+        "Id": "1876249926",
+        "Name": "ST_MUSIC_Scientist_Z03_04",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z03_04",
+        "GUID": "{5DB174A8-561C-4980-A19A-2583483A4CBA}"
+       },
+       {
+        "Id": "2494468108",
+        "Name": "ST_MUSIC_Scientist_Z02_01",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z02_01",
+        "GUID": "{9E5DD768-79E8-4327-8FD8-D9466134866A}"
+       },
+       {
+        "Id": "2494468110",
+        "Name": "ST_MUSIC_Scientist_Z02_03",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z02_03",
+        "GUID": "{9CF7DEFB-611D-467C-B5C5-C151CF996892}"
+       },
+       {
+        "Id": "2494468111",
+        "Name": "ST_MUSIC_Scientist_Z02_02",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Scientist_Z02_02",
+        "GUID": "{BE1AEFFF-2076-4443-B7FB-058E1323060E}"
+       },
+       {
+        "Id": "4167408728",
+        "Name": "ST_MUSIC_Military_Z02_02",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Military_Z02_02",
+        "GUID": "{725C573B-A842-49D1-AC64-9FF1FEBB125F}"
+       },
+       {
+        "Id": "4167408729",
+        "Name": "ST_MUSIC_Military_Z02_03",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Military_Z02_03",
+        "GUID": "{1EE8957E-3503-44C8-9DF6-8F2AD2ACBC93}"
+       },
+       {
+        "Id": "4167408731",
+        "Name": "ST_MUSIC_Military_Z02_01",
+        "ObjectPath": "\\States\\ST_Music\\ST_MUSIC\\ST_MUSIC_Military_Z02_01",
+        "GUID": "{E937D937-C860-49A4-8497-914EDFBB3DF4}"
        }
       ]
      }
@@ -13674,6 +14110,6 @@
     ]
    }
   ],
-  "FileHash": "{EDA37E4D-C527-1077-87F0-D9CFF10BD07E}"
+  "FileHash": "{F6E2740A-6C52-3F86-EE71-4CFD3314781B}"
  }
 }

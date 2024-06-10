@@ -10,6 +10,10 @@
 				<Event Name="MUSIC" ID="{8A0D259E-6DB0-4D09-A498-569673BE395D}">
 					<ChildrenList>
 						<Action Name="" ID="{5E4A9E57-E21D-4593-A6FD-46C9F0E0E70C}" ShortID="1021267531">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MUSIC" ID="{EE37B473-40EB-480A-8CEA-027F3734FA35}" WorkUnitID="{F1AB928F-2C2F-4FB7-8D49-89D4805190DC}"/>

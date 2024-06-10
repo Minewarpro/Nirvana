@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1554417481" Type="Event" GUID="{98AE0793-111B-458D-9EF8-8A9824EB7983}" Language="SFX" Hash="{46F52335-2899-A8CC-21A3-59C72951DDBD}">
+		<SoundBank Id="1554417481" Type="Event" GUID="{98AE0793-111B-458D-9EF8-8A9824EB7983}" Language="SFX" Hash="{20357D6C-3477-3BDC-8163-7138830FB1C0}">
 			<ObjectPath>SFX_ENM_Swarmer_AttackSwing_Short</ObjectPath>
 			<ShortName>SFX_ENM_Swarmer_AttackSwing_Short</ShortName>
 			<Path>Event/SFX_ENM_Swarmer_AttackSwing_Short.bnk</Path>
@@ -43,5 +43,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F96DBE50-6357-2FA8-B126-21A84617B236}</FileHash>
+	<FileHash>{A200519F-77C0-4FDA-50C1-BDEC8F27778F}</FileHash>
 </SoundBanksInfo>

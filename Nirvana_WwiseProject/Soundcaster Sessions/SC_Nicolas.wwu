@@ -6,6 +6,26 @@
 				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<SoundcasterSession Name="Nico" ID="{81DA76C8-D3E5-4C45-BA9B-B5F3E39973C3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="MUSIC" ID="{EE37B473-40EB-480A-8CEA-027F3734FA35}" WorkUnitID="{F1AB928F-2C2F-4FB7-8D49-89D4805190DC}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{2EF11E60-4DB1-49AF-83CD-F5C803E1FD88}"/>
+						<CurrentStateRef Name="None" ID="{79530131-2A27-4D39-BC4A-27241EAEC0BA}"/>
+						<CurrentStateRef Name="ST_MUSIC_Military_Z02_01" ID="{E937D937-C860-49A4-8497-914EDFBB3DF4}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="SW_FT_Carpet" ID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>
+						<CurrentSwitchRef Name="SW_FT_Jump" ID="{961CA02C-CC0F-44C6-9B70-B67C59C35709}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

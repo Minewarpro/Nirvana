@@ -489,6 +489,13 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="FT_MC_Carpet" ID="{40BA41E7-18F5-49AB-8F49-E54901EB61D0}" ShortID="493632629">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{324B3FBE-C8E8-4068-9849-928CC0470716}"/>
