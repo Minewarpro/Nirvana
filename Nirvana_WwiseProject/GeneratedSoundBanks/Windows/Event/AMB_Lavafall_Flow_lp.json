@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{6CF50F88-284F-48DD-AE1D-5E063CC60ACA}",
     "Language": "SFX",
-    "Hash": "{E2CECB21-5406-1895-2ABB-BEC2F49A9C2F}",
+    "Hash": "{A481D728-7105-C375-DF3E-6D41214BCE95}",
     "ObjectPath": "AMB_Lavafall_Flow_lp",
     "ShortName": "AMB_Lavafall_Flow_lp",
     "Path": "Event/AMB_Lavafall_Flow_lp.bnk",
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{16F1BD32-43D7-9FC3-CEF8-07C946820247}"
+  "FileHash": "{F28623E6-8A3D-5F11-63BC-4638DB148967}"
  }
 }

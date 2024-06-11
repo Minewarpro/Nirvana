@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8B851061-ACD5-4A54-A8A1-E4DD1D25F643}",
     "Language": "SFX",
-    "Hash": "{DA9BADE4-C27D-BB03-986B-4433818E61E7}",
+    "Hash": "{96A69DFC-2E5C-6BCC-9927-393F6B5651E4}",
     "ObjectPath": "AMB_CocoonIdle_lp",
     "ShortName": "AMB_CocoonIdle_lp",
     "Path": "Event/AMB_CocoonIdle_lp.bnk",
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{D7ACA2DB-B53B-CDF4-94A0-2120130A455A}"
+  "FileHash": "{7DA8B40B-90C0-1457-15B0-7DF54970F971}"
  }
 }

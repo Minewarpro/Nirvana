@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3483184852" Type="Event" GUID="{32D4E95D-0F5B-4462-BAB6-07EB4350F72E}" Language="SFX" Hash="{5F84135B-9D66-066F-8B5A-D0F49EB242C7}">
+		<SoundBank Id="3483184852" Type="Event" GUID="{32D4E95D-0F5B-4462-BAB6-07EB4350F72E}" Language="SFX" Hash="{9B27EEBF-79BA-D59D-1AE2-7890624B6515}">
 			<ObjectPath>AMB_TorchRed_lp</ObjectPath>
 			<ShortName>AMB_TorchRed_lp</ShortName>
 			<Path>Event/AMB_TorchRed_lp.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0B6F4072-56EF-2E30-F2CB-5863B7E96BCC}</FileHash>
+	<FileHash>{58983A6A-AB44-8E36-7EFE-507D6A9BC765}</FileHash>
 </SoundBanksInfo>

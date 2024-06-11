@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2568759048" Type="Event" GUID="{B8F0FB8C-23FA-43D4-9DCE-5D71C6F518E9}" Language="SFX" Hash="{B3DA4961-C9DC-6110-EEC2-3891DA1E1E39}">
+		<SoundBank Id="2568759048" Type="Event" GUID="{B8F0FB8C-23FA-43D4-9DCE-5D71C6F518E9}" Language="SFX" Hash="{26B12059-3E8B-121D-6122-46CA6172232C}">
 			<ObjectPath>AMB_PondIdle_lp</ObjectPath>
 			<ShortName>AMB_PondIdle_lp</ShortName>
 			<Path>Event/AMB_PondIdle_lp.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2568759048" Name="AMB_PondIdle_lp" ObjectPath="\Events\AMB\AMB_Water\AMB_PondIdle_lp" GUID="{B8F0FB8C-23FA-43D4-9DCE-5D71C6F518E9}" MaxAttenuation="2500" DurationType="Infinite">
+				<Event Id="2568759048" Name="AMB_PondIdle_lp" ObjectPath="\Events\AMB\AMB_Water\AMB_PondIdle_lp" GUID="{B8F0FB8C-23FA-43D4-9DCE-5D71C6F518E9}" MaxAttenuation="1500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1064426627"/>
 					</MediaRefs>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F5CEE3D2-C610-C040-0724-4512D26F8DAA}</FileHash>
+	<FileHash>{FA8B65B1-4370-6753-C583-ECB6E459A7DC}</FileHash>
 </SoundBanksInfo>

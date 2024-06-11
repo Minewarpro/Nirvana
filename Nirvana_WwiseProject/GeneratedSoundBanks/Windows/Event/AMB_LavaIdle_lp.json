@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{700FC89E-7D96-4C0E-903D-56EA8BD0F965}",
     "Language": "SFX",
-    "Hash": "{3CAF738E-0CB8-C426-E5E7-2B1999CC8CB8}",
+    "Hash": "{D98ECC4A-2977-C1A9-5847-26A5F42818C5}",
     "ObjectPath": "AMB_LavaIdle_lp",
     "ShortName": "AMB_LavaIdle_lp",
     "Path": "Event/AMB_LavaIdle_lp.bnk",
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{EAADE12E-8AD3-D97C-72DE-DC5598076E2C}"
+  "FileHash": "{40647FC8-9FEA-13A6-CD69-97DF2955A382}"
  }
 }

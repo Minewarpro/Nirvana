@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B8F0FB8C-23FA-43D4-9DCE-5D71C6F518E9}",
     "Language": "SFX",
-    "Hash": "{B3DA4961-C9DC-6110-EEC2-3891DA1E1E39}",
+    "Hash": "{26B12059-3E8B-121D-6122-46CA6172232C}",
     "ObjectPath": "AMB_PondIdle_lp",
     "ShortName": "AMB_PondIdle_lp",
     "Path": "Event/AMB_PondIdle_lp.bnk",
@@ -31,7 +31,7 @@
       "Name": "AMB_PondIdle_lp",
       "ObjectPath": "\\Events\\AMB\\AMB_Water\\AMB_PondIdle_lp",
       "GUID": "{B8F0FB8C-23FA-43D4-9DCE-5D71C6F518E9}",
-      "MaxAttenuation": "2500",
+      "MaxAttenuation": "1500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{71B1DC3F-FA65-1D0C-DA01-5B942546CA02}"
+  "FileHash": "{71ED996F-C398-137A-9C3C-1CBFE0602CEF}"
  }
 }

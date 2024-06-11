@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2262339484" Type="Event" GUID="{58DF7032-8DBE-4E62-B869-CA59F47AE449}" Language="SFX" Hash="{787FC2EE-D69C-CAE2-489A-E37E0F6468E4}">
+		<SoundBank Id="2262339484" Type="Event" GUID="{58DF7032-8DBE-4E62-B869-CA59F47AE449}" Language="SFX" Hash="{42B45141-3A46-A466-55E6-28BC618ABA33}">
 			<ObjectPath>AMB_Obelisque_lp</ObjectPath>
 			<ShortName>AMB_Obelisque_lp</ShortName>
 			<Path>Event/AMB_Obelisque_lp.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{92C78A9A-3871-4414-A913-4EDAA669CF94}</FileHash>
+	<FileHash>{1AD37F24-16EC-E8D0-E89D-41740B91047A}</FileHash>
 </SoundBanksInfo>

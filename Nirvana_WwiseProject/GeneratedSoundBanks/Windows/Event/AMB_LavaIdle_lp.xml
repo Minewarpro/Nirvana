@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1219843545" Type="Event" GUID="{700FC89E-7D96-4C0E-903D-56EA8BD0F965}" Language="SFX" Hash="{3CAF738E-0CB8-C426-E5E7-2B1999CC8CB8}">
+		<SoundBank Id="1219843545" Type="Event" GUID="{700FC89E-7D96-4C0E-903D-56EA8BD0F965}" Language="SFX" Hash="{D98ECC4A-2977-C1A9-5847-26A5F42818C5}">
 			<ObjectPath>AMB_LavaIdle_lp</ObjectPath>
 			<ShortName>AMB_LavaIdle_lp</ShortName>
 			<Path>Event/AMB_LavaIdle_lp.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4D69F60B-A715-F2B5-D1BA-8B5DECBE49B5}</FileHash>
+	<FileHash>{751A1AC9-D81C-BF04-3C6D-5722786D6D35}</FileHash>
 </SoundBanksInfo>

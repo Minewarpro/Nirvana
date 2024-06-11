@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{32D4E95D-0F5B-4462-BAB6-07EB4350F72E}",
     "Language": "SFX",
-    "Hash": "{5F84135B-9D66-066F-8B5A-D0F49EB242C7}",
+    "Hash": "{9B27EEBF-79BA-D59D-1AE2-7890624B6515}",
     "ObjectPath": "AMB_TorchRed_lp",
     "ShortName": "AMB_TorchRed_lp",
     "Path": "Event/AMB_TorchRed_lp.bnk",
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{EBD549D2-8CBB-CA48-BCBC-327A708FBA0B}"
+  "FileHash": "{E4DD04ED-586B-F3FA-2A61-F89028BB6191}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2602167941" Type="Event" GUID="{6CF50F88-284F-48DD-AE1D-5E063CC60ACA}" Language="SFX" Hash="{E2CECB21-5406-1895-2ABB-BEC2F49A9C2F}">
+		<SoundBank Id="2602167941" Type="Event" GUID="{6CF50F88-284F-48DD-AE1D-5E063CC60ACA}" Language="SFX" Hash="{A481D728-7105-C375-DF3E-6D41214BCE95}">
 			<ObjectPath>AMB_Lavafall_Flow_lp</ObjectPath>
 			<ShortName>AMB_Lavafall_Flow_lp</ShortName>
 			<Path>Event/AMB_Lavafall_Flow_lp.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7A7786EB-83D1-396D-A840-6EE444691FE6}</FileHash>
+	<FileHash>{B26FF720-AF05-A4D0-3592-55DD9B707815}</FileHash>
 </SoundBanksInfo>

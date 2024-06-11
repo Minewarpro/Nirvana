@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B38CF970-DCF4-442A-BE05-6085A293A20F}",
     "Language": "SFX",
-    "Hash": "{FBACF02B-6602-A964-BEE0-0203F2502387}",
+    "Hash": "{1988FBE2-2E4F-AEFA-C107-8AA8AFC46090}",
     "ObjectPath": "AMB_Waterfall_Impact_lp",
     "ShortName": "AMB_Waterfall_Impact_lp",
     "Path": "Event/AMB_Waterfall_Impact_lp.bnk",
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{14790458-6F4F-2500-F539-8E8957650F83}"
+  "FileHash": "{6329A1D1-8820-43A1-6D4C-8D27A17132E1}"
  }
 }

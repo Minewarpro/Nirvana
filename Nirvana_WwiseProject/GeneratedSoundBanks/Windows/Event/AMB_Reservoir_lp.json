@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{321B7219-B6A3-42FD-8D16-9802D3DC12D1}",
     "Language": "SFX",
-    "Hash": "{EF43EFBB-550B-0673-C7A2-EA17CFE22FF1}",
+    "Hash": "{76AFA9FA-B7C5-70AD-8BC1-C96AF56321A0}",
     "ObjectPath": "AMB_Reservoir_lp",
     "ShortName": "AMB_Reservoir_lp",
     "Path": "Event/AMB_Reservoir_lp.bnk",
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{61056A45-8F0C-2130-06EF-ADE1A6BE0F82}"
+  "FileHash": "{4A8BCB83-F2F8-C2EE-9118-241158B41738}"
  }
 }

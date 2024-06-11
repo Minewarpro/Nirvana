@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="252786122" Type="Event" GUID="{8B851061-ACD5-4A54-A8A1-E4DD1D25F643}" Language="SFX" Hash="{DA9BADE4-C27D-BB03-986B-4433818E61E7}">
+		<SoundBank Id="252786122" Type="Event" GUID="{8B851061-ACD5-4A54-A8A1-E4DD1D25F643}" Language="SFX" Hash="{96A69DFC-2E5C-6BCC-9927-393F6B5651E4}">
 			<ObjectPath>AMB_CocoonIdle_lp</ObjectPath>
 			<ShortName>AMB_CocoonIdle_lp</ShortName>
 			<Path>Event/AMB_CocoonIdle_lp.bnk</Path>
@@ -25,5 +25,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{87C5ACDE-973B-0D1E-A281-80053F970947}</FileHash>
+	<FileHash>{C8EC6353-099D-46C2-A812-DD9FA8915864}</FileHash>
 </SoundBanksInfo>

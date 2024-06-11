@@ -192,7 +192,7 @@
 										<Property Name="Color" Type="int16" Value="21"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>24</Value>
+												<Value>40</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
