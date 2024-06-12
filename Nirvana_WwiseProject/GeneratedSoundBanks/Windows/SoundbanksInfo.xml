@@ -1995,6 +1995,9 @@
 			<StateGroups>
 				<StateGroup Id="1645386324" Name="ST_MUSIC" ObjectPath="\States\ST_Music\ST_MUSIC" GUID="{7C52C26D-CF32-4F39-9578-7638D38F46D1}">
 					<States>
+						<State Id="32192724" Name="ST_MUSIC_Religious_Z02_Drop_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z02_Drop_02" GUID="{BF3B9EA6-48C3-431C-B9E2-6329886F2D79}"/>
+						<State Id="32192727" Name="ST_MUSIC_Religious_Z02_Drop_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z02_Drop_01" GUID="{2F4F317E-46CF-426F-AFFF-F5A3A320FF81}"/>
+						<State Id="93794877" Name="ST_MUSIC_Religious_Z02_Transition" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z02_Transition" GUID="{C5774E78-C736-405A-A151-DCB4C36781B2}"/>
 						<State Id="438713049" Name="ST_MUSIC_Scientist_Z01_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z01_01" GUID="{78CAB365-DC34-4643-A178-32A36B2677D6}"/>
 						<State Id="438713050" Name="ST_MUSIC_Scientist_Z01_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z01_02" GUID="{29F056A9-2F89-44C3-8CCF-C6365526AA78}"/>
 						<State Id="684459385" Name="ST_MUSIC_Military_Z01_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Military_Z01_02" GUID="{705E912C-5789-4FE4-8988-C45B9DC34263}"/>
@@ -2004,9 +2007,16 @@
 						<State Id="1876249921" Name="ST_MUSIC_Scientist_Z03_03" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z03_03" GUID="{EB54A605-E277-4454-A2E8-71CA63E5E9CB}"/>
 						<State Id="1876249923" Name="ST_MUSIC_Scientist_Z03_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z03_01" GUID="{815004FA-28AF-4B47-B0D5-F5BC5F2A56AF}"/>
 						<State Id="1876249926" Name="ST_MUSIC_Scientist_Z03_04" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z03_04" GUID="{5DB174A8-561C-4980-A19A-2583483A4CBA}"/>
+						<State Id="2295593018" Name="ST_MUSIC_Menu" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Menu" GUID="{0E447AEB-CE7A-4D50-9177-0ADD974B1D36}"/>
 						<State Id="2494468108" Name="ST_MUSIC_Scientist_Z02_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z02_01" GUID="{9E5DD768-79E8-4327-8FD8-D9466134866A}"/>
 						<State Id="2494468110" Name="ST_MUSIC_Scientist_Z02_03" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z02_03" GUID="{9CF7DEFB-611D-467C-B5C5-C151CF996892}"/>
 						<State Id="2494468111" Name="ST_MUSIC_Scientist_Z02_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z02_02" GUID="{BE1AEFFF-2076-4443-B7FB-058E1323060E}"/>
+						<State Id="2957221896" Name="ST_MUSIC_Religious_Z01_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z01_01" GUID="{D324772B-364E-40DB-A342-329B7CBD5611}"/>
+						<State Id="2957221898" Name="ST_MUSIC_Religious_Z01_03" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z01_03" GUID="{EFB9E6B2-0AA8-4B29-A12F-CE3F8CB7FCB8}"/>
+						<State Id="2957221899" Name="ST_MUSIC_Religious_Z01_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z01_02" GUID="{EE9B8986-98AE-4C85-A91E-51154761E935}"/>
+						<State Id="3807556504" Name="ST_MUSIC_Religious_Z02_Intro_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z02_Intro_01" GUID="{425FD8E6-910C-4880-BC98-7D2A30079614}"/>
+						<State Id="3807556506" Name="ST_MUSIC_Religious_Z02_Intro_03" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z02_Intro_03" GUID="{8CE26BA6-972D-46F8-A165-08D5CBED633A}"/>
+						<State Id="3807556507" Name="ST_MUSIC_Religious_Z02_Intro_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z02_Intro_02" GUID="{D3FC2C3A-2EE7-4A4D-94E7-E20D2661CBBA}"/>
 						<State Id="4167408728" Name="ST_MUSIC_Military_Z02_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Military_Z02_02" GUID="{725C573B-A842-49D1-AC64-9FF1FEBB125F}"/>
 						<State Id="4167408729" Name="ST_MUSIC_Military_Z02_03" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Military_Z02_03" GUID="{1EE8957E-3503-44C8-9DF6-8F2AD2ACBC93}"/>
 						<State Id="4167408731" Name="ST_MUSIC_Military_Z02_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Military_Z02_01" GUID="{E937D937-C860-49A4-8497-914EDFBB3DF4}"/>
@@ -6121,7 +6131,7 @@
 				<GameParameter Id="3972935021" Name="RTPC_Azimuth" ObjectPath="\Game Parameters\RTPC_Persistent\RTPC_Azimuth" GUID="{771130CB-E8A2-4560-ADCA-06985A29C132}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="Event" GUID="{8A0D259E-6DB0-4D09-A498-569673BE395D}" Language="SFX" Hash="{9F43ACC1-BF5D-E530-BA96-B75787A7F260}">
+		<SoundBank Id="3991942870" Type="Event" GUID="{8A0D259E-6DB0-4D09-A498-569673BE395D}" Language="SFX" Hash="{BEF25BC7-BB73-312E-8438-F6296430B91D}">
 			<ObjectPath>MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>Event/MUSIC.bnk</Path>
@@ -6135,6 +6145,21 @@
 					<ShortName>MUSIC\M_Ambiance_Intro_Loop.wav</ShortName>
 					<Path>Media/199616222.wem</Path>
 					<CachePath>SFX/MUSIC/M_Ambiance_Intro_Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="231355274" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MUSIC\M_Boss_Drop_04__Loop.wav</ShortName>
+					<Path>Media/231355274.wem</Path>
+					<CachePath>SFX/MUSIC/M_Boss_Drop_04__Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="232294043" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MUSIC\M_Entrée_Loop_01__Loop.wav</ShortName>
+					<Path>Media/232294043.wem</Path>
+					<CachePath>SFX/MUSIC/M_Entrée_Loop_01__Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="257179280" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MUSIC\M_Entrée_Intro_03__Loop.wav</ShortName>
+					<Path>Media/257179280.wem</Path>
+					<CachePath>SFX/MUSIC/M_Entrée_Intro_03__Loop_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="307989502" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>MUSIC\M_Arena02_Drop_01.wav</ShortName>
@@ -6161,15 +6186,40 @@
 					<Path>Media/602416596.wem</Path>
 					<CachePath>SFX/MUSIC/M_Fight_02_Loop_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="651254740" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MUSIC\M_boss_Transition__Loop.wav</ShortName>
+					<Path>Media/651254740.wem</Path>
+					<CachePath>SFX/MUSIC/M_boss_Transition__Loop_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="664604911" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>MUSIC\M_Fight_03_Loop.wav</ShortName>
 					<Path>Media/664604911.wem</Path>
 					<CachePath>SFX/MUSIC/M_Fight_03_Loop_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="683368783" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MUSIC\M_Boss_Intro_02__Loop.wav</ShortName>
+					<Path>Media/683368783.wem</Path>
+					<CachePath>SFX/MUSIC/M_Boss_Intro_02__Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="708525253" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MUSIC\M_Boss_Intro_03__Loop.wav</ShortName>
+					<Path>Media/708525253.wem</Path>
+					<CachePath>SFX/MUSIC/M_Boss_Intro_03__Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="771162684" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MUSIC\M_Boss_Drop_01__Loop.wav</ShortName>
+					<Path>Media/771162684.wem</Path>
+					<CachePath>SFX/MUSIC/M_Boss_Drop_01__Loop_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="798161426" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>MUSIC\M_Tuto_02_Loop.wav</ShortName>
 					<Path>Media/798161426.wem</Path>
 					<CachePath>SFX/MUSIC/M_Tuto_02_Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="878289523" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MUSIC\M_Entrée_Intro_02__Loop.wav</ShortName>
+					<Path>Media/878289523.wem</Path>
+					<CachePath>SFX/MUSIC/M_Entrée_Intro_02__Loop_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="923254381" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>MUSIC\M_Fight_04_Loop.wav</ShortName>
@@ -6185,6 +6235,16 @@
 					<ShortName>MUSIC\M_Tuto_01_Loop.wav</ShortName>
 					<Path>Media/964996617.wem</Path>
 					<CachePath>SFX/MUSIC/M_Tuto_01_Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1000210841" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MUSIC\M_Menu__Loop.wav</ShortName>
+					<Path>Media/1000210841.wem</Path>
+					<CachePath>SFX/MUSIC/M_Menu__Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1001920870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MUSIC\M_Boss_Intro_01__Loop.wav</ShortName>
+					<Path>Media/1001920870.wem</Path>
+					<CachePath>SFX/MUSIC/M_Boss_Intro_01__Loop_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -6262,12 +6322,75 @@
 								<MediaRef Id="307989502"/>
 							</MediaRefs>
 						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1645386324" Id="2295593018" GUID="{0E447AEB-CE7A-4D50-9177-0ADD974B1D36}"/>
+							<MediaRefs>
+								<MediaRef Id="1000210841"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1645386324" Id="32192727" GUID="{2F4F317E-46CF-426F-AFFF-F5A3A320FF81}"/>
+							<MediaRefs>
+								<MediaRef Id="771162684"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1645386324" Id="32192724" GUID="{BF3B9EA6-48C3-431C-B9E2-6329886F2D79}"/>
+							<MediaRefs>
+								<MediaRef Id="231355274"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1645386324" Id="3807556504" GUID="{425FD8E6-910C-4880-BC98-7D2A30079614}"/>
+							<MediaRefs>
+								<MediaRef Id="1001920870"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1645386324" Id="3807556507" GUID="{D3FC2C3A-2EE7-4A4D-94E7-E20D2661CBBA}"/>
+							<MediaRefs>
+								<MediaRef Id="683368783"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1645386324" Id="3807556506" GUID="{8CE26BA6-972D-46F8-A165-08D5CBED633A}"/>
+							<MediaRefs>
+								<MediaRef Id="708525253"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1645386324" Id="93794877" GUID="{C5774E78-C736-405A-A151-DCB4C36781B2}"/>
+							<MediaRefs>
+								<MediaRef Id="651254740"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1645386324" Id="2957221896" GUID="{D324772B-364E-40DB-A342-329B7CBD5611}"/>
+							<MediaRefs>
+								<MediaRef Id="232294043"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1645386324" Id="2957221899" GUID="{EE9B8986-98AE-4C85-A91E-51154761E935}"/>
+							<MediaRefs>
+								<MediaRef Id="878289523"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1645386324" Id="2957221898" GUID="{EFB9E6B2-0AA8-4B29-A12F-CE3F8CB7FCB8}"/>
+							<MediaRefs>
+								<MediaRef Id="257179280"/>
+							</MediaRefs>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 			</Events>
 			<StateGroups>
 				<StateGroup Id="1645386324" Name="ST_MUSIC" ObjectPath="\States\ST_Music\ST_MUSIC" GUID="{7C52C26D-CF32-4F39-9578-7638D38F46D1}">
 					<States>
+						<State Id="32192724" Name="ST_MUSIC_Religious_Z02_Drop_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z02_Drop_02" GUID="{BF3B9EA6-48C3-431C-B9E2-6329886F2D79}"/>
+						<State Id="32192727" Name="ST_MUSIC_Religious_Z02_Drop_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z02_Drop_01" GUID="{2F4F317E-46CF-426F-AFFF-F5A3A320FF81}"/>
+						<State Id="93794877" Name="ST_MUSIC_Religious_Z02_Transition" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z02_Transition" GUID="{C5774E78-C736-405A-A151-DCB4C36781B2}"/>
 						<State Id="438713049" Name="ST_MUSIC_Scientist_Z01_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z01_01" GUID="{78CAB365-DC34-4643-A178-32A36B2677D6}"/>
 						<State Id="438713050" Name="ST_MUSIC_Scientist_Z01_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z01_02" GUID="{29F056A9-2F89-44C3-8CCF-C6365526AA78}"/>
 						<State Id="684459385" Name="ST_MUSIC_Military_Z01_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Military_Z01_02" GUID="{705E912C-5789-4FE4-8988-C45B9DC34263}"/>
@@ -6277,9 +6400,16 @@
 						<State Id="1876249921" Name="ST_MUSIC_Scientist_Z03_03" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z03_03" GUID="{EB54A605-E277-4454-A2E8-71CA63E5E9CB}"/>
 						<State Id="1876249923" Name="ST_MUSIC_Scientist_Z03_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z03_01" GUID="{815004FA-28AF-4B47-B0D5-F5BC5F2A56AF}"/>
 						<State Id="1876249926" Name="ST_MUSIC_Scientist_Z03_04" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z03_04" GUID="{5DB174A8-561C-4980-A19A-2583483A4CBA}"/>
+						<State Id="2295593018" Name="ST_MUSIC_Menu" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Menu" GUID="{0E447AEB-CE7A-4D50-9177-0ADD974B1D36}"/>
 						<State Id="2494468108" Name="ST_MUSIC_Scientist_Z02_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z02_01" GUID="{9E5DD768-79E8-4327-8FD8-D9466134866A}"/>
 						<State Id="2494468110" Name="ST_MUSIC_Scientist_Z02_03" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z02_03" GUID="{9CF7DEFB-611D-467C-B5C5-C151CF996892}"/>
 						<State Id="2494468111" Name="ST_MUSIC_Scientist_Z02_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Scientist_Z02_02" GUID="{BE1AEFFF-2076-4443-B7FB-058E1323060E}"/>
+						<State Id="2957221896" Name="ST_MUSIC_Religious_Z01_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z01_01" GUID="{D324772B-364E-40DB-A342-329B7CBD5611}"/>
+						<State Id="2957221898" Name="ST_MUSIC_Religious_Z01_03" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z01_03" GUID="{EFB9E6B2-0AA8-4B29-A12F-CE3F8CB7FCB8}"/>
+						<State Id="2957221899" Name="ST_MUSIC_Religious_Z01_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z01_02" GUID="{EE9B8986-98AE-4C85-A91E-51154761E935}"/>
+						<State Id="3807556504" Name="ST_MUSIC_Religious_Z02_Intro_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z02_Intro_01" GUID="{425FD8E6-910C-4880-BC98-7D2A30079614}"/>
+						<State Id="3807556506" Name="ST_MUSIC_Religious_Z02_Intro_03" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z02_Intro_03" GUID="{8CE26BA6-972D-46F8-A165-08D5CBED633A}"/>
+						<State Id="3807556507" Name="ST_MUSIC_Religious_Z02_Intro_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Religious_Z02_Intro_02" GUID="{D3FC2C3A-2EE7-4A4D-94E7-E20D2661CBBA}"/>
 						<State Id="4167408728" Name="ST_MUSIC_Military_Z02_02" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Military_Z02_02" GUID="{725C573B-A842-49D1-AC64-9FF1FEBB125F}"/>
 						<State Id="4167408729" Name="ST_MUSIC_Military_Z02_03" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Military_Z02_03" GUID="{1EE8957E-3503-44C8-9DF6-8F2AD2ACBC93}"/>
 						<State Id="4167408731" Name="ST_MUSIC_Military_Z02_01" ObjectPath="\States\ST_Music\ST_MUSIC\ST_MUSIC_Military_Z02_01" GUID="{E937D937-C860-49A4-8497-914EDFBB3DF4}"/>
@@ -6425,5 +6555,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{15FD00FE-B97D-8765-2B17-A028F9C6DA9D}</FileHash>
+	<FileHash>{446485F1-2D4C-348C-4E3C-1CE36E226954}</FileHash>
 </SoundBanksInfo>

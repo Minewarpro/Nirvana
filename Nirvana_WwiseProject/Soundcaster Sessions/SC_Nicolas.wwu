@@ -18,7 +18,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{2EF11E60-4DB1-49AF-83CD-F5C803E1FD88}"/>
 						<CurrentStateRef Name="None" ID="{79530131-2A27-4D39-BC4A-27241EAEC0BA}"/>
-						<CurrentStateRef Name="None" ID="{4E2D1831-609B-418C-8984-EE30E1BA2863}"/>
+						<CurrentStateRef Name="ST_MUSIC_Religious_Z02_Transition" ID="{C5774E78-C736-405A-A151-DCB4C36781B2}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="SW_FT_Carpet" ID="{249BB958-1A1F-4A29-95F6-05F2B4AC1739}"/>

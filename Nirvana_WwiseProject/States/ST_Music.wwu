@@ -24,6 +24,16 @@
 						<State Name="ST_MUSIC_Military_Z02_01" ID="{E937D937-C860-49A4-8497-914EDFBB3DF4}"/>
 						<State Name="ST_MUSIC_Military_Z02_02" ID="{725C573B-A842-49D1-AC64-9FF1FEBB125F}"/>
 						<State Name="ST_MUSIC_Military_Z02_03" ID="{1EE8957E-3503-44C8-9DF6-8F2AD2ACBC93}"/>
+						<State Name="ST_MUSIC_Religious_Z02_Intro_01" ID="{425FD8E6-910C-4880-BC98-7D2A30079614}"/>
+						<State Name="ST_MUSIC_Religious_Z02_Intro_02" ID="{D3FC2C3A-2EE7-4A4D-94E7-E20D2661CBBA}"/>
+						<State Name="ST_MUSIC_Religious_Z02_Intro_03" ID="{8CE26BA6-972D-46F8-A165-08D5CBED633A}"/>
+						<State Name="ST_MUSIC_Menu" ID="{0E447AEB-CE7A-4D50-9177-0ADD974B1D36}"/>
+						<State Name="ST_MUSIC_Religious_Z02_Drop_01" ID="{2F4F317E-46CF-426F-AFFF-F5A3A320FF81}"/>
+						<State Name="ST_MUSIC_Religious_Z02_Drop_02" ID="{BF3B9EA6-48C3-431C-B9E2-6329886F2D79}"/>
+						<State Name="ST_MUSIC_Religious_Z02_Transition" ID="{C5774E78-C736-405A-A151-DCB4C36781B2}"/>
+						<State Name="ST_MUSIC_Religious_Z01_01" ID="{D324772B-364E-40DB-A342-329B7CBD5611}"/>
+						<State Name="ST_MUSIC_Religious_Z01_02" ID="{EE9B8986-98AE-4C85-A91E-51154761E935}"/>
+						<State Name="ST_MUSIC_Religious_Z01_03" ID="{EFB9E6B2-0AA8-4B29-A12F-CE3F8CB7FCB8}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
