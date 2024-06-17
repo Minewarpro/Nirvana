@@ -10,11 +10,20 @@
     "Type": "Event",
     "GUID": "{8A0D259E-6DB0-4D09-A498-569673BE395D}",
     "Language": "SFX",
-    "Hash": "{BEF25BC7-BB73-312E-8438-F6296430B91D}",
+    "Hash": "{33C33239-3303-542D-749F-8B8F963B1C1A}",
     "ObjectPath": "MUSIC",
     "ShortName": "MUSIC",
     "Path": "Event/MUSIC.bnk",
     "Media": [
+     {
+      "Id": "4089358",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Plateforme_01_Ambiance_Loop.wav",
+      "Path": "Media/4089358.wem",
+      "CachePath": "SFX/MUSIC/M_Plateforme_01_Ambiance_Loop_FBC78EF0.wem"
+     },
      {
       "Id": "192293005",
       "Language": "SFX",
@@ -95,6 +104,15 @@
       "ShortName": "MUSIC\\M_Arena02_Intro_02.wav",
       "Path": "Media/430809735.wem",
       "CachePath": "SFX/MUSIC/M_Arena02_Intro_02_FBC78EF0.wem"
+     },
+     {
+      "Id": "600016092",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MUSIC\\M_Plateformer_02_Ambiance_Loop.wav",
+      "Path": "Media/600016092.wem",
+      "CachePath": "SFX/MUSIC/M_Plateformer_02_Ambiance_Loop_FBC78EF0.wem"
      },
      {
       "Id": "602416596",
@@ -310,6 +328,32 @@
         "MediaRefs": [
          {
           "Id": "964996617"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "684459385",
+         "GUID": "{705E912C-5789-4FE4-8988-C45B9DC34263}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "600016092"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1645386324",
+         "Id": "684459386",
+         "GUID": "{325ADD5C-EB3A-4AB1-824D-8613B5202B3A}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "4089358"
          }
         ]
        },
@@ -673,6 +717,6 @@
     ]
    }
   ],
-  "FileHash": "{06AE22E5-42D8-975C-053F-08E230BEA786}"
+  "FileHash": "{FEFDBBE8-9155-B84A-A40A-03887C732883}"
  }
 }
